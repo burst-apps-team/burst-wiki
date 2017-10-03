@@ -11,9 +11,9 @@
 
 Un protocole pour des boutiques peer-to-peer décentralisées pour toute sorte de biens numériques.
 
--   ''' [Alias System](alias-system.md) '''
+-   ''' [Système d'Alias](systeme-d-alias.md) '''
 
-Burst implements an alias system that translates alphanumeric text into almost anything: Burst account addresses, email addresses, URLs, phone numbers, SKU codes, and more. This not only gives Burst the ability to function as a Decentralized DNS system, but adds additional possibilities for mapping short names to other entities.
+Burst intègre un système d'Alias qui traduit un texte alphanumérique en presque n'importe quoi : une adresse Burst, une adresse mail, un numéro de téléphone, un code SKU, et plus encore. Cela donne au Burst non seulement un système de DNS décentralisé, mais ajoute également la possibilité de mettre en correspondance des noms raccourcis et certaines entités.
 
 -   ''' [Arbitrary Messages](arbitrary-messages.md) '''
 
