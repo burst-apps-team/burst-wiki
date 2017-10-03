@@ -7,9 +7,9 @@
 
 <!-- -->
 
--   **[Marketplace](marketplace.md)**
+-   **[Marché](marche.md)**
 
-This feature provides a protocol for decentralized, peer-to-peer stores for any kind of digital goods.
+Un protocole pour des boutiques peer-to-peer décentralisées pour toute sorte de biens numériques.
 
 -   ''' [Alias System](alias-system.md) '''
 
