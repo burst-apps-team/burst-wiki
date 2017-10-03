@@ -1,9 +1,7 @@
 <languages/> Текущие возможности Burst включают в себя:
 
--   **[Asset Exchange](asset-exchange.md)**
-    -   To exchange cryptocurrencies and other digital assets until now, you had to sign up for an account on a centralized platform such as Kraken/Bter/etc, transfer your assets to them and then pay them transaction fees. This brings in a large concern: a centralized exchange could just bail with everyone's deposits. Burst has developed a peer-to-peer exchange into the software to allow for decentralized trading which eliminates this trust point. It also eliminates trading fees.
-    -   The same technology that allows you to trade BURST for many other digital assets can allow you to trade BURST for almost any commodity.
-    -   This feature is based on the “colored coins” concept. Since the blockchain provides a trustworthy record of transactions, it can be leveraged to provide a record of trade of items other than BURST. To do this, Burst allows the designation or “coloring” of a particular coin, which builds a bridge from the virtual crypto-currency world to the physical world. The “colored coin” can represent property, stocks/bonds, commodites, or even concepts. As a result, the Burst network could be used to trade almost *anything*.
+-   **[Обмен активами (Выпуск акции)](Обмен_активами_(Выпуск_акции) "wikilink")**
+    -   Для обмена криптовалют ..
 
 <!-- -->
 
