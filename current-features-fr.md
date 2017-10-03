@@ -1,4 +1,4 @@
-<languages/> Current features of Burst include:
+<languages/> Les fonctionnalités actuelles de Nxt comprennent :
 
 -   **[Asset Exchange](asset-exchange.md)**
     -   To exchange cryptocurrencies and other digital assets until now, you had to sign up for an account on a centralized platform such as Kraken/Bter/etc, transfer your assets to them and then pay them transaction fees. This brings in a large concern: a centralized exchange could just bail with everyone's deposits. Burst has developed a peer-to-peer exchange into the software to allow for decentralized trading which eliminates this trust point. It also eliminates trading fees.
