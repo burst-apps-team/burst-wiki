@@ -1,4 +1,4 @@
-<languages/> Les fonctionnalités actuelles de Nxt comprennent :
+<languages/> Les fonctionnalités actuelles de Burst comprennent :
 
 -   **[Plateforme d'échange d'actifs](plateforme-d-echange-d-actifs.md)**
     -   Jusqu'à maintenant, pour échanger des cryptomonnaies et des actifs digitaux vous deviez vous inscrire sur une plateforme centralisée telle que Kraken/Bter/etc, puis leur envoyer les monnaies et les payer pour effectuer des transactions. Cela crée un problème de taille: une plateforme d'échange centralisée peut à tout moment disparaître avec les fonds de ses utilisateurs. Burst a développé un système d'échange d'actifs décentralisé en peer-to-peer au sein même de son logiciel, ce qui permet d'effectuer des échanges décentralisés exempts de ces soucis de confiance, ainsi que d'éliminer les frais de trading.
