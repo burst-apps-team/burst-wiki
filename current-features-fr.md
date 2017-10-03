@@ -1,9 +1,9 @@
 <languages/> Les fonctionnalités actuelles de Nxt comprennent :
 
--   **[Asset Exchange](asset-exchange.md)**
-    -   To exchange cryptocurrencies and other digital assets until now, you had to sign up for an account on a centralized platform such as Kraken/Bter/etc, transfer your assets to them and then pay them transaction fees. This brings in a large concern: a centralized exchange could just bail with everyone's deposits. Burst has developed a peer-to-peer exchange into the software to allow for decentralized trading which eliminates this trust point. It also eliminates trading fees.
-    -   The same technology that allows you to trade BURST for many other digital assets can allow you to trade BURST for almost any commodity.
-    -   This feature is based on the “colored coins” concept. Since the blockchain provides a trustworthy record of transactions, it can be leveraged to provide a record of trade of items other than BURST. To do this, Burst allows the designation or “coloring” of a particular coin, which builds a bridge from the virtual crypto-currency world to the physical world. The “colored coin” can represent property, stocks/bonds, commodites, or even concepts. As a result, the Burst network could be used to trade almost *anything*.
+-   **[Plateforme d'échange d'actifs](plateforme-d-echange-d-actifs.md)**
+    -   Jusqu'à maintenant, pour échanger des cryptomonnaies et des actifs digitaux vous deviez vous inscrire sur une plateforme centralisée telle que Kraken/Bter/etc, puis leur envoyer les monnaies et les payer pour effectuer des transactions. Cela crée un problème de taille: une plateforme d'échange centralisée peut à tout moment disparaître avec les fonds de ses utilisateurs. Burst a développé un système d'échange d'actifs décentralisé en peer-to-peer au sein même de son logiciel, ce qui permet d'effectuer des échanges décentralisés exempts de ces soucis de confiance, ainsi que d'éliminer les frais de trading.
+    -   La même technologie qui vous rend possible d'échanger le BURST contre n'importe quelle monnaie vous permet également d'échanger le BURST contre quasiment n'importe quelle marchandise.
+    -   Cette fonctionnalité est basée sur le concept des “pièces colorées”. Puisque la blockchain conserve un enregistrement fiable des transactions, elle peut être utilisée pour tenir à jour des entrées sur des échanges autre que du BURST. Pour y parvenir, Burst permet de donner un nom (“colorer”) une pièce donnée, ce qui crée un pont entre la cryptomonnaie et le monde physique. La “pièce colorée” peut représenter une propriété, des actions ou des obligations, des marchandises ou même des concepts. Par conséquent, le réseau du Burst peut être utilisé pour échanger à peu près n'importe quoi.
 
 <!-- -->
 
