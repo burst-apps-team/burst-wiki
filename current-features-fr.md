@@ -15,6 +15,8 @@ Un protocole pour des boutiques peer-to-peer décentralisées pour toute sorte d
 
 Burst intègre un système d'Alias qui traduit un texte alphanumérique en presque n'importe quoi : une adresse Burst, une adresse mail, un numéro de téléphone, un code SKU, et plus encore. Cela donne au Burst non seulement un système de DNS décentralisé, mais ajoute également la possibilité de mettre en correspondance des noms raccourcis et certaines entités.
 
+-   ''' [Messages Arbitraires](messages-arbitraires.md) '''
+
 Cette fonctionnalité permet à un utilisateur de Burst d'envoyer de petites quantités de données via le réseau décentralisé. Cette caractéristique peut être utilisée pour envoyer de simple messages textuels mais aussi n'importe quel format de données, dans la limite de 1000 bytes par message. Par conséquent, elle peut être utilisée pour construire un système de partage de fichiers, d'applications décentralisées ainsi que des services Burst de haut niveau.
 
 <Category:Features>
