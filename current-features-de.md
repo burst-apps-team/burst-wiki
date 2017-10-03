@@ -15,7 +15,7 @@ Dieses Feature stellt ein Protokoll für dezentralisierten P2P Handel mit digita
 
 Burst implementiert ein alias system, welches alphanumerischen Text auf beliebige andere Texte abbilden kann: Burst-Adressen, Email\_Adressen, URLs, Telefonnummern, Seriennummern und mehr. Das macht aus Burst nicht nur ein dezentralisiertes DNS System, sondern ermöglicht es Kurznamen auf andere Entitäten abzubilden.
 
--   **[Arbitrary Messages/de Beliebige Nachrichten](arbitrary-messages-de-beliebige-nachrichten.md)**
+-   **[Arbitrary\_Messages/de Beliebige Nachrichten](arbitrary-messages-de-beliebige-nachrichten.md)**
 
 Dieses Feature erlaubt es Burst kleinere Datenpakete über das dezentralisierte Netzwerk zu senden. Diese Daten können auch verschlüsselt sein. Der Begriff “Nachricht” ist allgemein zu verstehen: Es kann sich um einfache Textnachrichten handeln, es kann aber auch benutzt werden um beliebige Daten von bis zu 1000 Bytes Länge zu senden. Es kann so im Endeffekt dazu benutzt werden um dezentrale Applikationen, File-Sharing und höhere Burst-Funktionalitäten zu implementieren.
 
