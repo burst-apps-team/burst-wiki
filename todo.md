@@ -1,4 +1,4 @@
-At the moment, we want to fill the Burstwiki with detailed and relevant information specific to Burstcoin. Because Burst is a NXT descendant, and because NX has already a nice wiki (https://nxtwiki.org)- which is under the [FDL 1.3](https://www.gnu.org/copyleft/fdl.html%7CGNU), we can use quite some of its content there.
+At the moment, we want to fill the Burstwiki with detailed and relevant information specific to Burstcoin. Because Burst is a NXT descendant, and because NXT has already a nice wiki (https://nxtwiki.org)- which is under the [FDL 1.3](https://www.gnu.org/copyleft/fdl.html%7CGNU), we can use quite some of its content there.
 
 However, it is not as simple as copy&paste and replace Nxt-&gt;Burst. There are subtle differences between the coins:
 
