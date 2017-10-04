@@ -8,6 +8,8 @@ However, it is not as simple as copy&paste and replace Nxt-&gt;Burst. There are 
 
 etc. It is therefore necessary to diligently transfer information from the Nxt Wiki to the Burst wiki taking all of this into account.
 
+**@Editors: Please edit this file and put your name behind the link in the TODO section if you are committed to make that page. This is to avoid clashes while editing.**
+
 TODO:
 -----
 
