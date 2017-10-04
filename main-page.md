@@ -97,6 +97,8 @@
 
 -   Blockchain Explorer: [PoCC](https://explore.burst.cryptoguru.org/), [BurstNation](http://x.burstnation.com/), [BurstXD](http://burstxd.com/blocks/)
 -   Network Observer: [Luxe](http://burstcoin.cc/), [PoCC](https://explore.burst.cryptoguru.org/tool/observe)
+-   [Burst What If?](http://whatif.burstnation.com/)
+-   [Nonces Calculator](http://heartofthetempest.tk/index.php/burst/nonces-calculator/)
 
 </div>
 </div>
