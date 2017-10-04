@@ -2,39 +2,33 @@
 
 <div class="main_topbox">
 <div class="main_title">
-**Welcome to the <span style="color:#ffffff">NXT</span> WIKI**
+**Welcome to the <span style="color:#ffffff">BURST</span> WIKI**
 
 </div>
 <div class="main_text">
-**Nxt** is an [open source](https://bitbucket.org/JeanLucPicard/nxt/src) second generation [blockchain](wikipedia:Block_chain_(database) "wikilink") that provides tools for a decentralized financial platform. Coded in [Java](wikipedia:Java_(programming_language) "wikilink") completely from scratch, Nxt was the first currency to rely purely on [proof-of-stake](wikipedia-proof-of-stake.md) for consensus.
+**Burst** is an [open source](https://github.com/ac0v/burstcoin) blockchain platform with multiple core-level features that has been running publicly since August 2014. It is a fork of Nxt and it's 100% Proof of Capacity (PoC) , meaning that you can mine it with your disk space.
 
 </div>
 <div class="box_row">
 <div class="box_column">
 <div class="main_subtitle">
-**Nxt Features**
+**Burst Features**
 
 </div>
-\*[Account Leasing](account-leasing.md)
+\*[Arbitrary Messages](arbitrary-messages.md)
 
--   [Arbitrary Messages](arbitrary-messages.md)
 -   [Alias System](alias-system.md)
 -   [Asset Exchange](asset-exchange.md)
--   [Coin Shuffling](coin-shuffling.md)
 -   [Marketplace](marketplace.md)
--   [Monetary System](monetary-system.md)
--   [Phased Transactions](phasing.md)
--   [Plugin System](plugins.md)
--   [Voting System](voting-system.md)
 -   [*Summary of Features*](current-features.md)
 
 </div>
 <div class="box_column">
 <div class="main_subtitle">
-**Nxt Software**
+**Burst Software**
 
 </div>
-\***Nxt Client**
+\***Burst Client**
 
 \*\*Latest Version: ****
 
@@ -44,8 +38,7 @@
 
 \*:<span class="breakword"></span>
 
--   [Nxt Source Code](https://bitbucket.org/JeanLucPicard/nxt/src)
--   [Nxt Software Change Log](nxt-software-change-log.md)
+-   [Burst Source Code](https://github.com/ac0v/burstcoin)
 -   [Mobile App](mobile-app.md)
 
 </div>
@@ -54,46 +47,41 @@
 **For Developers**
 
 </div>
-\*[The Nxt API](the-nxt-api.md)
+\*[The Burst API](the-burst-api.md)
 
--   [From NXT to Ardor](nxt-to-ardor.md)
--   [The Ardor API](the-ardor-api.md)
--   [Nxt Blockchain Tutorial](nxt-blockchain-tutorial.md)
+-   [Burst Blockchain Tutorial](burst-blockchain-tutorial.md)
 -   [Reed-Solomon (RS) Address Format](rs-address-format.md)
 -   [QR Codes for RS Address Format](qr-codes-for-rs-address-format.md)
 -   [The nxt-default.properties file](nxt-default-properties-configuration-file.md)
 -   [Offline Transaction Signing](offline-transaction-signing.md)
 -   [How Transaction Processing Works](how-tx-processing-works.md)
 -   [Exchange Integration](exchange-integration.md)
--   [NXT support for ERC20 tokens](erc-20.md)
 
 </div>
 </div>
 <div class="box_row">
 <div class="box_column_light" style="background-color: #ffffff; text-align:center;">
-**Get Support: [Nxt Support Center](http://nxt.org/support)   |   [Nxt Forum](https://nxtforum.org)   |   [Nxt Slack](https://nxtchat.slack.com)   |   [get a Nxt Slack invite](https://nxtchat.herokuapp.com)**
+**Get Support: \[Burst Support Center\]   |   [Forum](https://forums.getburst.net)   |   [Burst Discord](https://discord.gg/PMUgVSY)**
 
 </div>
 </div>
 <div class="box_row">
 <div class="box_column" style="background-color: #ffffff;">
 <div class="sub_title">
-**About Nxt**
+**About Burst**
 
 </div>
-\*[What is Nxt?](nxt-wiki.md)
+\*[What is Burst?](burst-wiki.md)
 
--   [Get started with Nxt](getting-started.md)
+-   [Get started with Burst](getting-started.md)
 -   Website Resources
-    -   [Nxt.Org](http://nxt.org)
-    -   [Nxt Forum](https://nxtforum.org)
-    -   [ArdorPlatform.org](https://ardorplatform.org)
-    -   [Jelurida.com](https://jelurida.com)
-    -   [Nxter Magazine](http://nxter.org)
-    -   [Nxt China](http://nxtchina.org)
+    -   Forum: [Burst-Team](http://burst-team.us/), [GetBurst](https://forums.getburst.net/), [BurstNation](https://www.burstnation.com/)
+    -   [The Burstcoinist (News)](https://www.burstcoin.ist/)
+    -   \[\]
+    -   \[\]
 -   [FAQ](faq.md)
 -   [Glossary of Terms](glossary.md)
--   [Nxt Whitepaper](whitepaper-nxt.md)
+-   [Burst Whitepaper](whitepaper-burst.md)
 
 <!-- -->
 
@@ -105,16 +93,16 @@
 **Services and Tools**
 
 </div>
-\*[MyNxt](https://mynxt.info) - Nxt online wallet and blockchain explorer.
+\*[Wallet](https://wallet.burst.cryptoguru.org:8125/index.html) - Burst online wallet
 
--   [PeerExplorer](http://peerexplorer.com/) - Nxt network explorer, charts and API. Provides current Nxt blockchain download.
--   [NxtPortal](https://nxtportal.org) - Lightweight blockchain explorer and monitor.
+-   [Explorer](https://explore.burst.cryptoguru.org/) - Blockchain explorer and observer.
+-   [1](http://burstcoin.cc/) - Burst network explorer, charts and API.
 
 </div>
 </div>
 <div id="main_topboxlinks">
 <center>
-'''[Join us!](join-us-.md)   |   **[Contribute](contribute.md)**   |   **[Nxt Foundation](http://nxtfoundation.org/)**
+'''[Join us!](join-us-.md)   |   **[Contribute](contribute.md)**   |   **[Burst Foundation](http://burst-foundation.org/)**
 
 </center>
 </div>
