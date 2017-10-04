@@ -93,10 +93,10 @@
 **Services and Tools**
 
 </div>
-\*[Wallet](https://wallet.burst.cryptoguru.org:8125/index.html) - Burst online wallet
+\* Online wallets: [PoCC](https://wallet.burst.cryptoguru.org:8125/index.html), [BurstNation](https://wallet1.burstnation.com:8125/index.html)
 
--   [Explorer](https://explore.burst.cryptoguru.org/) - Blockchain explorer and observer.
--   [1](http://burstcoin.cc/) - Burst network explorer, charts and API.
+-   Blockchain Explorer: [PoCC](https://explore.burst.cryptoguru.org/), [BurstNation](http://x.burstnation.com/)
+-   Network Observer: [Luxe](http://burstcoin.cc/), [PoCC](https://explore.burst.cryptoguru.org/tool/observe)
 
 </div>
 </div>
