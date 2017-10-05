@@ -180,9 +180,6 @@ Account Operations
 
 Deletes an account property. POST only.
 
-**Request:**
-
--   *requestType* is *deleteAccountProperty*
 -   *property* is the name of the property
 -   *recipient* is the account where a property should be removed (optional)
 -   *setter* is the account who did set the property (optional)
@@ -195,9 +192,6 @@ Deletes an account property. POST only.
 
 Get account information given an account ID.
 
-**Request:**
-
--   *requestType* is *getAccount*
 -   *account* is the account ID
 -   *includeLessors* is *true* to include *lessors*, *lessorsRS* and *lessorsInfo* (optional)
 -   *includeAssets* is *true* to include *assetBalances* and *unconfirmedAssetBalances* (optional)
@@ -260,11 +254,6 @@ Get the number of blocks forged by an account.
 
 Get the block IDs of all blocks forged (generated) by an account in reverse block height order.
 
-**Request:**
-
--   *requestType* is *getAccountBlockIds*
--   *account* is the account ID
--   *timestamp* is the earliest block (in seconds since the genesis block) to retrieve (optional)
 -   *firstIndex* is a zero-based index to the first block ID to retrieve (optional)
 -   *lastIndex* is a zero-based index to the last block ID to retrieve (optional)
 -   *requireBlock* is the block ID of a block that must be present in the blockchain during execution (optional)
@@ -282,9 +271,6 @@ Get the block IDs of all blocks forged (generated) by an account in reverse bloc
 
 Get all blocks forged (generated) by an account in reverse block height order.
 
-**Request:**
-
--   *requestType* is *getAccountBlocks*
 -   *account* is the account ID
 -   *timestamp* is the earliest block (in seconds since the genesis block) to retrieve (optional)
 -   *firstIndex* is a zero-based index to the first block to retrieve (optional)
