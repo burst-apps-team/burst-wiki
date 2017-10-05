@@ -30,7 +30,7 @@
 </div>
 \***Burst Client**
 
-\*\*Latest Version: ****
+\*\*Latest Version: **** (beta: ****)
 
 \*\***Download: \[ Multi-platform .ZIP\]** - **\[ Windows Installer\]** - **\[ Mac Installer\]**
 
