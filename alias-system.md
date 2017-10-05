@@ -1,3 +1,7 @@
+<languages/>
+
+<translate>
+
 Description
 -----------
 
@@ -37,3 +41,17 @@ Alias Transfer/Sale
 Aliases can be [transferred](how-to-createalias.md) for a 1 BURST fee.
 
 Alias can be sold to either specific BURST Accounts or to the general public. To sell an alias, you can set the price to sell for every alias.
+
+How To
+======
+
+= See our [Alias System How-To](how-to-alias.md) page
+
+FAQ
+---
+
+See the [Alias System](faq-the-burst-alias-system.md) section in our main [FAQ](faq.md).
+
+</translate>
+
+<Category:Features>
