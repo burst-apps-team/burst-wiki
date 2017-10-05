@@ -254,11 +254,6 @@ Get the number of blocks forged by an account.
 
 Get the block IDs of all blocks forged (generated) by an account in reverse block height order.
 
--   *firstIndex* is a zero-based index to the first block ID to retrieve (optional)
--   *lastIndex* is a zero-based index to the last block ID to retrieve (optional)
--   *requireBlock* is the block ID of a block that must be present in the blockchain during execution (optional)
--   *requireLastBlock* is the block ID of a block that must be last in the blockchain during execution (optional)
-
 **Response:**
 
 -   *blockIds* (A) is an array of block IDs
