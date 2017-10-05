@@ -15,5 +15,4 @@ TODO:
 
 [`https://burstwiki.org/mediawiki/index.php?title=Asset_Exchange&action=edit`](https://burstwiki.org/mediawiki/index.php?title=Asset_Exchange&action=edit)
 [`https://burstwiki.org/mediawiki/index.php?title=Marketplace&action=edit&redlink=1`](https://burstwiki.org/mediawiki/index.php?title=Marketplace&action=edit&redlink=1)` --`[`Don`` ``Heraldo`](user-don-heraldo.md)` (`[`talk`](user-talk-don-heraldo.md)`) 20:04, 4 October 2017 (CEST)`
-[`https://burstwiki.org/mediawiki/index.php?title=Alias_System&action=edit&redlink=1`](https://burstwiki.org/mediawiki/index.php?title=Alias_System&action=edit&redlink=1)
 [`https://burstwiki.org/mediawiki/index.php?title=Arbitrary_Messages&action=edit&redlink=1`](https://burstwiki.org/mediawiki/index.php?title=Arbitrary_Messages&action=edit&redlink=1)
