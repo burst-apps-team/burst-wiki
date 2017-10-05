@@ -13,7 +13,19 @@ Accessing the Marketplace
 Open your Burst client and select ‘Marketplace’.
 ![](Burst-marketplace.png "fig:Burst-marketplace.png")
 
-### Selling
+### Buying products
+
+Here is a short description with the most essential info on how to buy on Burst marketplace:
+
+1.  Click the menu ‘Marketplace’ and then ‘Search Marketplace’.
+2.  Enter the sellers Burst address to see the list of his goods.
+3.  Click the name of a product to open the purchase dialog. Enter ‘Quantity’ and ‘Delivery Deadline’ in hours. This defines how long you are willing to wait for seller to deliver until the transaction is cancelled. Double check the data, enter your ‘Passphrase’ and hit the button ‘Purchase’.
+4.  The order has now been placed in your ‘Purchased Products’ menu. Here you can see the order status: After network confirmation (block generating) it will change from ‘Tentative’ to ‘Pending’.
+5.  When the seller has delivered the product, the status will change to ‘Complete’.
+6.  Click the name to open the dialog ‘Marketplace Delivery’. Enter your passphrase to ‘Decypt’ the sellers message. Here you will find the information on where you can fetch your digital good.
+7.  You now have the option of leaving feedback to the seller.
+
+### Selling products
 
 You can list your digital goods on marketplace:
 
