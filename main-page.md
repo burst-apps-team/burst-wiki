@@ -30,13 +30,8 @@
 </div>
 \***Burst Client**
 
-\*\*Latest Version: **** (beta: ****)
-
-\*\***Download: \[ Multi-platform .ZIP\]** - **\[ Windows Installer\]** - **\[ Mac Installer\]**
-
-\*\*SHA256: (Multi-platform .ZIP)
-
-\*:<span class="breakword"></span>
+-   -   Latest Version: **** (beta: ****)
+    -   Direct Download: **}**, ****
 
 -   [Burst Source Code](https://github.com/ac0v/burstcoin)
 -   [Mobile App](mobile-app.md)
