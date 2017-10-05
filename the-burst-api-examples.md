@@ -1,9 +1,9 @@
 Description
 -----------
 
-Examples of Nxt API calls are collected on this page, individually linked from the main [NXT API](the-nxt-api.md) page. The organization and ordering is the same for both pages so that the section numbers in the table of contents are identical. The preliminary sections preceding the examples simply link back to the main page. For example:
+Examples of Burst API calls are collected on this page, individually linked from the main [Burst API](the-burst-api.md) page. The organization and ordering is the same for both pages so that the section numbers in the table of contents are identical. The preliminary sections preceding the examples simply link back to the main page. For example:
 
-[The Nxt API Description](the-nxt-api-description.md)
+[The Burst API Description](the-burst-api-description.md)
 
 Table Of Contents
 -----------------
@@ -13,12 +13,12 @@ Table Of Contents
 General Notes
 -------------
 
-[The Nxt API General Notes](the-nxt-api-general-notes.md)
+[The Burst API General Notes](the-burst-api-general-notes.md)
 
 Create Transaction
 ------------------
 
-[The Nxt API Create Transaction](the-nxt-api-create-transaction.md)
+[The Burst API Create Transaction](the-burst-api-create-transaction.md)
 
 Account Operations
 ------------------
