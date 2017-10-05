@@ -28,9 +28,11 @@ You can list your digital goods on marketplace:
     **Passphrase**: Your wallet passphrase is needed to list the product.
 4.  Confirm the offer by clicking on ‘Put For Sale’. It is listed in italics on the ‘My Products For Sale’ page.
 5.  After the Burst network has included your product in a block (usually after a few minutes), it will be listet in normal font as a link.
-6.  When someone has placed an order to buy a good from you, it will show up in the ‘My Pending Orders’ menu. Go here and press the ‘deliver goods’ button.
-7.  In the pop up window, enter your passphrase to decrypt the message from the buyer. Then enter details on how the buyer can download your digital good in the data field. Hit the ‘deliver purchase’ button to finalize the purchase.
-8.  You can now see the completed order in the ‘My Completed Orders’ menu. Here you can see if the buyer has sent you feedback and you may also refund purchase.
+6.  When someone has placed an order to buy a good from you, it will show up in the ‘My Pending Orders’ menu. Go here and press the ‘Deliver Goods’ button.
+7.  In the pop up window, enter your passphrase to decrypt the message from the buyer. You can check the option ‘Remember passphrase for decryption’ for future sales.
+8.  Enter details on how the buyer can download your digital good in the ‘Data’ field. Optional you can give a ‘Discount’ to the buyer.
+9.  Enter your ‘Passphrase’ and hit the ‘Deliver Purchase’ button to finalize the purchase.
+10. You can find the completed order in the ‘My Completed Orders’ menu. For details click on the product name. Here you can see if the buyer has sent you feedback and you may also refund purchase.
 
 External Links
 --------------
