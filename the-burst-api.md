@@ -244,9 +244,6 @@ Get account information given an account ID.
 
 Get the number of blocks forged by an account.
 
-**Request:**
-
--   *requestType* is *getAccountBlockCount*
 -   *account* is an account ID
 -   *requireBlock* is the block ID of a block that must be present in the blockchain during execution (optional)
 -   *requireLastBlock* is the block ID of a block that must be last in the blockchain during execution (optional)
