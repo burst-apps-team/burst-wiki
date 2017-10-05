@@ -27,9 +27,9 @@ Account Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=deleteAccountProperty&
-      recipient=NXT-7A48-47JL-T7LD-D5FS3&
+      recipient=BURST-7A48-47JL-T7LD-D5FS3&
       property=testkey1&
       secretPhrase=iWontTellYou&
       feeNQT=100000000&
@@ -53,11 +53,11 @@ Account Operations
             "property": "940296349549404868",
             "version.AccountPropertyDelete": 1
         },
-        "senderRS": "NXT-7A48-47JL-T7LD-D5FS3",
+        "senderRS": "BURST-7A48-47JL-T7LD-D5FS3",
         "subtype": 11,
         "amountNQT": "0",
         "sender": "12745647715474645062",
-        "recipientRS": "NXT-7A48-47JL-T7LD-D5FS3",
+        "recipientRS": "BURST-7A48-47JL-T7LD-D5FS3",
         "recipient": "12745647715474645062",
         "ecBlockHeight": 754255,
         "deadline": 60,
@@ -79,9 +79,9 @@ Account Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getAccount&
-      account=NXT-4VNQ-RWZC-4WWQ-GVM8S
+      account=BURST-4VNQ-RWZC-4WWQ-GVM8S
 
 **Response:**
 
@@ -93,8 +93,8 @@ Account Operations
        "currentHeightTo": "341420",
        "nextHeightFrom": "341420",
        "effectiveBalanceNXT": "544525",
-       "nextLesseeRS": "NXT-7WVC-W7TJ-REQ2-4VDJD",
-       "currentLesseeRS": "NXT-7WVC-W7TJ-REQ2-4VDJD",
+       "nextLesseeRS": "BURST-7WVC-W7TJ-REQ2-4VDJD",
+       "currentLesseeRS": "BURST-7WVC-W7TJ-REQ2-4VDJD",
        "currentHeightFrom": "308653",
        "nextHeightTo": "374187"
       }
@@ -118,8 +118,8 @@ Account Operations
        "asset": "4551058913252105307"
       }
      ],
-     "currentLesseeRS": "NXT-TMVC-69YC-SJB4-8YCH7",
-     "accountRS": "NXT-4VNQ-RWZC-4WWQ-GVM8S",
+     "currentLesseeRS": "BURST-TMVC-69YC-SJB4-8YCH7",
+     "accountRS": "BURST-4VNQ-RWZC-4WWQ-GVM8S",
      "name": "mystical",
      "account": "17013046603665206934",
      "currentLeasingHeightFrom": 279739
@@ -131,7 +131,7 @@ Account Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getAccountBlockCount&
       account=7114946486381367146
 
@@ -148,7 +148,7 @@ Account Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getAccountBlockIds&
       account=7114946486381367146&
       lastIndex=5
@@ -173,7 +173,7 @@ Account Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getAccountBlocks&
       account=7114946486381367146&
       lastIndex=0
@@ -191,7 +191,7 @@ Account Operations
        "generatorPublicKey": "dbc809e8237914f25add0d349ea16b2ac05cae6882d0a1782d23605af264d97a",
        "baseTarget": "325377698",
        "payloadHash": "32df67383f63b74f1331bbdb6f1be424c87a1e6423fc7091d81683481eb6c4ca",
-       "generatorRS": "NXT-TMVC-69YC-SJB4-8YCH7",
+       "generatorRS": "BURST-TMVC-69YC-SJB4-8YCH7",
        "nextBlock": "3553212706398858282",
        "numberOfTransactions": 2,
        "blockSignature": "d30e3f95d547fa922feb31303f877a345d0ad8c232778a4507adf9082b5df3...",
@@ -216,14 +216,14 @@ Account Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getAccountId&
       secretPhrase=IWontTellYou
 
 **Response:**
 
     {
-     "accountRS": "NXT-L6FM-89WK-VK8P-FCRBB",
+     "accountRS": "BURST-L6FM-89WK-VK8P-FCRBB",
      "publicKey": "57fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143b473beec228f79ff93c",
      "requestProcessingTime": 2,
      "account": "15323192282528158131"
@@ -235,9 +235,9 @@ Account Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getAccountLedger&
-      account=NXT-7A48-47JL-T7LD-D5FS3
+      account=BURST-7A48-47JL-T7LD-D5FS3
 
 **Response:**
 
@@ -251,7 +251,7 @@ Account Operations
           "isTransactionEvent": true,
           "balance": "90000",
           "holdingType": "UNCONFIRMED_CURRENCY_BALANCE",
-          "accountRS": "NXT-7A48-47JL-T7LD-D5FS3",
+          "accountRS": "BURST-7A48-47JL-T7LD-D5FS3",
           "block": "2303344830040052747",
           "event": "13236557417702245931",
           "account": "12745647715474645062",
@@ -268,7 +268,7 @@ Account Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getAccountLedgerEntry&
       ledgerId=532246
 
@@ -283,7 +283,7 @@ Account Operations
       "isTransactionEvent": true,
       "balance": "90000",
       "holdingType": "UNCONFIRMED_CURRENCY_BALANCE",
-      "accountRS": "NXT-7A48-47JL-T7LD-D5FS3",
+      "accountRS": "BURST-7A48-47JL-T7LD-D5FS3",
       "block": "2303344830040052747",
       "event": "13236557417702245931",
       "account": "12745647715474645062",
@@ -297,7 +297,7 @@ Account Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getAccountLessors&
       account=7114946486381367146&
       height=282497
@@ -308,11 +308,11 @@ Account Operations
      "lessors": [
       {
        "guaranteedBalanceNQT": "2643314085738687",
-       "lessorRS": "NXT-MRBN-8DFH-PFMK-A4DBM",
+       "lessorRS": "BURST-MRBN-8DFH-PFMK-A4DBM",
        "lessor": "9918441724915080500"
       }
      ],
-     "accountRS": "NXT-TMVC-69YC-SJB4-8YCH7",
+     "accountRS": "BURST-TMVC-69YC-SJB4-8YCH7",
      "requestProcessingTime": 1,
      "account": "7114946486381367146",
      "height": 282497
@@ -324,19 +324,19 @@ Account Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getAccountProperties&
-      recipient=NXT-7A48-47JL-T7LD-D5FS3
+      recipient=BURST-7A48-47JL-T7LD-D5FS3
 
 **Response:**
 
     {
-      "recipientRS": "NXT-7A48-47JL-T7LD-D5FS3",
+      "recipientRS": "BURST-7A48-47JL-T7LD-D5FS3",
       "recipient": "12745647715474645062",
       "requestProcessingTime": 0,
       "properties": [
         {
-          "setterRS": "NXT-7A48-47JL-T7LD-D5FS3",
+          "setterRS": "BURST-7A48-47JL-T7LD-D5FS3",
           "property": "testkey1",
           "setter": "12745647715474645062",
           "value": "testvalue1"
@@ -350,9 +350,9 @@ Account Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getAccountPublicKey&
-      account=NXT-L6FM-89WK-VK8P-FCRBB
+      account=BURST-L6FM-89WK-VK8P-FCRBB
 
 **Response:**
 
@@ -367,9 +367,9 @@ Account Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getAccountTransactionIds&
-      account=NXT-L6FM-89WK-VK8P-FCRBB
+      account=BURST-L6FM-89WK-VK8P-FCRBB
 
 **Response:**
 
@@ -387,9 +387,9 @@ Account Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getAccountTransactions&
-      account=NXT-L6FM-89WK-VK8P-FCRBB
+      account=BURST-L6FM-89WK-VK8P-FCRBB
 
 **Response:**
 
@@ -407,11 +407,11 @@ Account Operations
        "version": 1,
        "ecBlockId": "17321329645912574173",
        "signatureHash": "b35eae7d2f01639810d37694138aa0a86fbbf8a9bf58c2be4f2a5b8f0f30b3f7",
-       "senderRS": "NXT-L6FM-89WK-VK8P-FCRBB",
+       "senderRS": "BURST-L6FM-89WK-VK8P-FCRBB",
        "subtype": 0,
        "amountNQT": "100000000",
        "sender": "15323192282528158131",
-       "recipientRS": "NXT-4VNQ-RWZC-4WWQ-GVM8S",
+       "recipientRS": "BURST-4VNQ-RWZC-4WWQ-GVM8S",
        "recipient": "17013046603665206934",
        "ecBlockHeight": 275727,
        "block": "8455642159445842600",
@@ -436,11 +436,11 @@ Account Operations
         "version.PublicKeyAnnouncement": 1,
         "recipientPublicKey": "57fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143b473beec228f79ff93c"
        },
-       "senderRS": "NXT-4VNQ-RWZC-4WWQ-GVM8S",
+       "senderRS": "BURST-4VNQ-RWZC-4WWQ-GVM8S",
        "subtype": 0,
        "amountNQT": "200000000",
        "sender": "17013046603665206934",
-       "recipientRS": "NXT-L6FM-89WK-VK8P-FCRBB",
+       "recipientRS": "BURST-L6FM-89WK-VK8P-FCRBB",
        "recipient": "15323192282528158131",
        "ecBlockHeight": 275723,
        "block": "14241452309033661857",
@@ -459,7 +459,7 @@ Account Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getBalance&
       account=7114946486381367146
 
@@ -480,9 +480,9 @@ Account Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getBlockchainTransactions&
-      account=NXT-4VDY-LNVT-LMAY-FMCKA&
+      account=BURST-4VDY-LNVT-LMAY-FMCKA&
       lastIndex=0
 
 **Response:**
@@ -500,10 +500,10 @@ Account Operations
        "attachment": {
         "version.OrdinaryPayment": 0
        },
-       "senderRS": "NXT-4VDY-LNVT-LMAY-FMCKA",
+       "senderRS": "BURST-4VDY-LNVT-LMAY-FMCKA",
        "subtype": 0,
        "amountNQT": "1400000000",
-       "recipientRS": "NXT-BMUV-8QQR-47VK-CR7F3",
+       "recipientRS": "BURST-BMUV-8QQR-47VK-CR7F3",
        "block": "6752144003309284467",
        "blockTimestamp": 46567698,
        "deadline": 1440,
@@ -528,7 +528,7 @@ Account Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getGuaranteedBalance&
       account=7114946486381367146&
       numberOfConfirmations=1440
@@ -546,9 +546,9 @@ Account Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getUnconfirmedTransactionIds&
-      account=NXT-L6FM-89WK-VK8P-FCRBB
+      account=BURST-L6FM-89WK-VK8P-FCRBB
 
 **Response:**
 
@@ -563,9 +563,9 @@ Account Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getUnconfirmedTransactions&
-      account=NXT-L6FM-89WK-VK8P-FCRBB
+      account=BURST-L6FM-89WK-VK8P-FCRBB
 
 **Response:**
 
@@ -580,7 +580,7 @@ Account Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=searchAccounts&
       query=testnet AND tyler
 
@@ -589,7 +589,7 @@ Account Operations
     {
      "accounts": [
       {
-       "accountRS": "NXT-7C4U-3Z9K-GZM8-CU8EJ",
+       "accountRS": "BURST-7C4U-3Z9K-GZM8-CU8EJ",
        "name": "Tyler Jordan",
        "description": "testnet account",
        "account": "12119426358687475802"
@@ -604,10 +604,10 @@ Account Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=sendMoney&
       secretPhrase=IWontTellYou&
-      recipient=NXT-4VNQ-RWZC-4WWQ-GVM8S&
+      recipient=BURST-4VNQ-RWZC-4WWQ-GVM8S&
       amountNQT=100000000&
       feeNQT=100000000&
       deadline=60
@@ -626,11 +626,11 @@ Account Operations
       "version": 1,
       "ecBlockId": "17321329645912574173",
       "signatureHash": "b35eae7d2f01639810d37694138aa0a86fbbf8a9bf58c2be4f2a5b8f0f30b3f7",
-      "senderRS": "NXT-L6FM-89WK-VK8P-FCRBB",
+      "senderRS": "BURST-L6FM-89WK-VK8P-FCRBB",
       "subtype": 0,
       "amountNQT": "100000000",
       "sender": "15323192282528158131",
-      "recipientRS": "NXT-4VNQ-RWZC-4WWQ-GVM8S",
+      "recipientRS": "BURST-4VNQ-RWZC-4WWQ-GVM8S",
       "recipient": "17013046603665206934",
       "ecBlockHeight": 275727,
       "deadline": 60,
@@ -651,7 +651,7 @@ Account Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=setAccountInfo&
       secretPhrase=IWontTellYou&
       name=iwonttellyou
@@ -678,7 +678,7 @@ Account Operations
        "description": "example account",
        "version.AccountInfo": 1
       },
-      "senderRS": "NXT-L6FM-89WK-VK8P-FCRBB",
+      "senderRS": "BURST-L6FM-89WK-VK8P-FCRBB",
       "subtype": 5,
       "amountNQT": "0",
       "sender": "15323192282528158131",
@@ -701,9 +701,9 @@ Account Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?requestType=setAccountProperty&secretPhrase=
+    http://localhost:8125/burst?requestType=setAccountProperty&secretPhrase=
     iwonttellyou&property=country&value=switzerland&recipient=
-    NXT-EZQ9-35P5-XZ8C-4LW87&feeNQT=100000000&deadline=60
+    BURST-EZQ9-35P5-XZ8C-4LW87&feeNQT=100000000&deadline=60
 
 The request is shown above in URL format for consistency. The actual request must be an HTTP POST request with a multipart content type. For example, the corresponding cURL command is as follows:
 
@@ -728,11 +728,11 @@ The request is shown above in URL format for consistency. The actual request mus
                 "value": "\"country\"",
                 "version.AccountProperty": 1
             },
-            "senderRS": "NXT-EZQ9-35P5-XZ8C-4LW87",
+            "senderRS": "BURST-EZQ9-35P5-XZ8C-4LW87",
             "subtype": 10,
             "amountNQT": "0",
             "sender": "2493747385666535111",
-            "recipientRS": "NXT-EZQ9-35P5-XZ8C-4LW87",
+            "recipientRS": "BURST-EZQ9-35P5-XZ8C-4LW87",
             "recipient": "2493747385666535111",
             "ecBlockHeight": 684730,
             "deadline": 360,
@@ -753,7 +753,7 @@ The request is shown above in URL format for consistency. The actual request mus
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
      requestType=startFundingMonitor&
      property=funding&
      amount=1000000000&
@@ -774,7 +774,7 @@ The request is shown above in URL format for consistency. The actual request mus
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
      requestType=stopFundingMonitor&
      property=funding&
      secretPhrase=IWontTellYou
@@ -795,7 +795,7 @@ Account Control Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getAllPhasingOnlyControls&
       firstIndex=0&
       lastIndex=1
@@ -808,20 +808,20 @@ Account Control Operations
        "minDuration": 0,
        "votingModel": 0,
        "minBalance": "0",
-       "accountRS": "NXT-AVGK-SKJZ-583G-A689A",
+       "accountRS": "BURST-AVGK-SKJZ-583G-A689A",
        "quorum": "2",
        "maxFees": "0",
        "whitelist": [
         {
-         "whitelistedRS": "NXT-EVHD-5FLM-3NMQ-G46NR",
+         "whitelistedRS": "BURST-EVHD-5FLM-3NMQ-G46NR",
          "whitelisted": "16992224448242675179"
         },
         {
-         "whitelistedRS": "NXT-XK4R-7VJU-6EQG-7R335",
+         "whitelistedRS": "BURST-XK4R-7VJU-6EQG-7R335",
          "whitelisted": "5873880488492319831"
         },
         {
-         "whitelistedRS": "NXT-SZKV-J8TH-GSM9-9LKV6",
+         "whitelistedRS": "BURST-SZKV-J8TH-GSM9-9LKV6",
          "whitelisted": "8245583500397018683"
         }
        ],
@@ -833,16 +833,16 @@ Account Control Operations
        "minDuration": 10,
        "votingModel": 0,
        "minBalance": "0",
-       "accountRS": "NXT-VSTJ-MHZK-A6N3-CHRRH",
+       "accountRS": "BURST-VSTJ-MHZK-A6N3-CHRRH",
        "quorum": "1",
        "maxFees": "1000000000",
        "whitelist": [
         {
-         "whitelistedRS": "NXT-D5A2-7CCE-G35P-BB324",
+         "whitelistedRS": "BURST-D5A2-7CCE-G35P-BB324",
          "whitelisted": "10448396398360890624"
         },
         {
-         "whitelistedRS": "NXT-KGPY-DF8U-HSF9-GQ69A",
+         "whitelistedRS": "BURST-KGPY-DF8U-HSF9-GQ69A",
          "whitelisted": "16437178058884561598"
         }
        ],
@@ -860,9 +860,9 @@ Account Control Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getPhasingOnlyControl&
-      account=NXT-AVGK-SKJZ-583G-A689A
+      account=BURST-AVGK-SKJZ-583G-A689A
 
 **Response:**
 
@@ -870,20 +870,20 @@ Account Control Operations
      "minDuration": 0,
      "votingModel": 0,
      "minBalance": "0",
-     "accountRS": "NXT-AVGK-SKJZ-583G-A689A",
+     "accountRS": "BURST-AVGK-SKJZ-583G-A689A",
      "quorum": "2",
      "maxFees": "0",
      "whitelist": [
       {
-       "whitelistedRS": "NXT-EVHD-5FLM-3NMQ-G46NR",
+       "whitelistedRS": "BURST-EVHD-5FLM-3NMQ-G46NR",
        "whitelisted": "16992224448242675179"
       },
       {
-       "whitelistedRS": "NXT-XK4R-7VJU-6EQG-7R335",
+       "whitelistedRS": "BURST-XK4R-7VJU-6EQG-7R335",
        "whitelisted": "5873880488492319831"
       },
       {
-       "whitelistedRS": "NXT-SZKV-J8TH-GSM9-9LKV6",
+       "whitelistedRS": "BURST-SZKV-J8TH-GSM9-9LKV6",
        "whitelisted": "8245583500397018683"
       }
      ],
@@ -899,11 +899,11 @@ Account Control Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
      requestType=setPhasingOnlyControl&
      controlVotingModel=0&
      controlQuorum=1&
-     controlWhitelisted=NXT-5MYN-AP7M-NKMH-CRQJZ&
+     controlWhitelisted=BURST-5MYN-AP7M-NKMH-CRQJZ&
      secretPhrase=IWontTellYou&
      feeNQT:100000000&
      deadline=60
@@ -938,7 +938,7 @@ Account Control Operations
         "phasingVotingModel": 0
        }
       },
-      "senderRS": "NXT-7A48-47JL-T7LD-D5FS3",
+      "senderRS": "BURST-7A48-47JL-T7LD-D5FS3",
       "subtype": 1,
       "amountNQT": "0",
       "sender": "12745647715474645062",
@@ -965,12 +965,12 @@ Alias Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=sellAlias&
       secretPhrase=IWontTellYou&
       aliasName=nextus&
       priceNQT=5&
-      recipient=NXT-4VNQ-RWZC-4WWQ-GVM8S&
+      recipient=BURST-4VNQ-RWZC-4WWQ-GVM8S&
       feeNQT=100000000&
       deadline=60
 
@@ -993,11 +993,11 @@ Alias Operations
        "priceNQT": "5",
        "version.AliasSell": 1
       },
-      "senderRS": "NXT-L6FM-89WK-VK8P-FCRBB",
+      "senderRS": "BURST-L6FM-89WK-VK8P-FCRBB",
       "subtype": 6,
       "amountNQT": "0",
       "sender": "15323192282528158131",
-      "recipientRS": "NXT-4VNQ-RWZC-4WWQ-GVM8S",
+      "recipientRS": "BURST-4VNQ-RWZC-4WWQ-GVM8S",
       "recipient": "17013046603665206934",
       "ecBlockHeight": 284050,
       "deadline": 60,
@@ -1018,7 +1018,7 @@ Alias Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=setAlias&
       secretPhrase=IWontTellYou&
       aliasName=iwonttellyou&
@@ -1045,7 +1045,7 @@ Alias Operations
        "version.AliasAssignment": 1,
        "uri": "acct:nxt-l6fm-89wk-vk8p-fcrbb@nxt"
       },
-      "senderRS": "NXT-L6FM-89WK-VK8P-FCRBB",
+      "senderRS": "BURST-L6FM-89WK-VK8P-FCRBB",
       "subtype": 1,
       "amountNQT": "0",
       "sender": "15323192282528158131",
@@ -1090,7 +1090,7 @@ Alias Operations
        "version.AliasDelete": 1,
        "alias": "mystical"
       },
-      "senderRS": "NXT-4VDY-LNVT-LMAY-FMCKA",
+      "senderRS": "BURST-4VDY-LNVT-LMAY-FMCKA",
       "subtype": 8,
       "amountNQT": "0",
       "sender": "15295723609781267838",
@@ -1121,7 +1121,7 @@ Alias Operations
     {
      "aliasURI": "http:\/\/google.com",
      "aliasName": "google",
-     "accountRS": "NXT-FLVS-VRBV-LDPD-6DZ9W",
+     "accountRS": "BURST-FLVS-VRBV-LDPD-6DZ9W",
      "alias": "15515279700680480368",
      "requestProcessingTime": 1,
      "account": "5629477397208681336",
@@ -1134,9 +1134,9 @@ Alias Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getAliasCount&
-      account=NXT-FLVS-VRBV-LDPD-6DZ9W
+      account=BURST-FLVS-VRBV-LDPD-6DZ9W
 
 **Response:**
 
@@ -1163,7 +1163,7 @@ Alias Operations
       {
        "aliasURI": "",
        "aliasName": "101",
-       "accountRS": "NXT-FLVS-VRBV-LDPD-6DZ9W",
+       "accountRS": "BURST-FLVS-VRBV-LDPD-6DZ9W",
        "alias": "8952438483248557843",
        "account": "5629477397208681336",
        "timestamp": 2409893
@@ -1189,7 +1189,7 @@ Alias Operations
       {
        "aliasURI": "",
        "aliasName": "mysteries",
-       "accountRS": "NXT-9DZL-XFE2-EWE5-HVVAY",
+       "accountRS": "BURST-9DZL-XFE2-EWE5-HVVAY",
        "alias": "13234331415538245332",
        "account": "18384674354580664306",
        "timestamp": 4856820
@@ -1197,7 +1197,7 @@ Alias Operations
       {
        "aliasURI": "anm",
        "aliasName": "mysterious",
-       "accountRS": "NXT-AHBB-DSVC-WS2L-EW8BC",
+       "accountRS": "BURST-AHBB-DSVC-WS2L-EW8BC",
        "alias": "8033154744709486670",
        "account": "14205721421835156777",
        "timestamp": 2417903
@@ -1215,10 +1215,10 @@ Arbitrary Message System Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=decryptFrom&
       secretPhrase=IWontTellYou&
-      account=NXT-L6FM-89WK-VK8P-FCRBB&
+      account=BURST-L6FM-89WK-VK8P-FCRBB&
       data=5c30bd27cc86a8ab0349aaf66deae3c0a9db5675b5c4ba973dd47f37e06157...&
       nonce=7f3c9082c73a7bd825aa48d23fc138fd05a466700ff9fc3a040bbb29d3a60ee1&
 
@@ -1235,7 +1235,7 @@ Arbitrary Message System Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=downloadPrunableMessage&
       transaction=264609232955144528&
       retrieve=true
@@ -1248,10 +1248,10 @@ Arbitrary Message System Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=encryptTo&
       secretPhrase=IWontTellYou&
-      recipient=NXT-L6FM-89WK-VK8P-FCRBB&
+      recipient=BURST-L6FM-89WK-VK8P-FCRBB&
       messageToEncrypt=test message&
 
 **Response:**
@@ -1268,7 +1268,7 @@ Arbitrary Message System Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getAllPrunableMessages&
       lastIndex=0
 
@@ -1277,9 +1277,9 @@ Arbitrary Message System Operations
     {
      "prunableMessages": [
       {
-       "senderRS": "NXT-4VDY-LNVT-LMAY-FMCKA",
+       "senderRS": "BURST-4VDY-LNVT-LMAY-FMCKA",
        "sender": "15295723609781267838",
-       "recipientRS": "NXT-BMUV-8QQR-47VK-CR7F3",
+       "recipientRS": "BURST-BMUV-8QQR-47VK-CR7F3",
        "recipient": "11580081983047651163",
        "blockTimestamp": 46382992,
        "message": "This is a test prunable plain message.",
@@ -1297,7 +1297,7 @@ Arbitrary Message System Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getPrunableMessage&
       transaction=16832262845403902696&
       secretPhrase=secretPhrase
@@ -1305,14 +1305,14 @@ Arbitrary Message System Operations
 **Response:**
 
     {
-     "senderRS": "NXT-4VDY-LNVT-LMAY-FMCKA",
+     "senderRS": "BURST-4VDY-LNVT-LMAY-FMCKA",
      "encryptedMessage": {
       "data": "ba6baa8361ac5bdb9cb591cee616dc5801a32ddf05b66a4ee527cd8d57b0...",
       "nonce": "41f93e32997c70937a005e5b0b42546a1efa9ea9eb012f98d7a92d0c5a8855a4"
      },
      "sender": "15295723609781267838",
      "decryptedMessage": "test prunable encrypted message",
-     "recipientRS": "NXT-BMUV-8QQR-47VK-CR7F3",
+     "recipientRS": "BURST-BMUV-8QQR-47VK-CR7F3",
      "recipient": "11580081983047651163",
      "blockTimestamp": 46117919,
      "requestProcessingTime": 3,
@@ -1328,9 +1328,9 @@ Arbitrary Message System Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getPrunableMessages&
-      account=NXT-4VDY-LNVT-LMAY-FMCKA&
+      account=BURST-4VDY-LNVT-LMAY-FMCKA&
       lastIndex=0
 
 **Response:**
@@ -1338,13 +1338,13 @@ Arbitrary Message System Operations
     {
      "prunableMessages": [
       {
-       "senderRS": "NXT-4VDY-LNVT-LMAY-FMCKA",
+       "senderRS": "BURST-4VDY-LNVT-LMAY-FMCKA",
        "encryptedMessage": {
         "data": "ba6baa8361ac5bdb9cb591cee616dc5801a32ddf05b66a4ee527cd8d57b0a...",
         "nonce": "41f93e32997c70937a005e5b0b42546a1efa9ea9eb012f98d7a92d0c5a8855a4"
        },
        "sender": "15295723609781267838",
-       "recipientRS": "NXT-BMUV-8QQR-47VK-CR7F3",
+       "recipientRS": "BURST-BMUV-8QQR-47VK-CR7F3",
        "recipient": "11580081983047651163",
        "blockTimestamp": 46117919,
        "transaction": "16832262845403902696",
@@ -1362,9 +1362,9 @@ Arbitrary Message System Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
      requestType=getSharedKey&
-     account=NXT-5MYN-AP7M-NKMH-CRQJZ&
+     account=BURST-5MYN-AP7M-NKMH-CRQJZ&
      secretPhrase=IWontTellYou&
      nonce=0102030405060708091011121314151617181920212223242526272829303132
 
@@ -1381,7 +1381,7 @@ Arbitrary Message System Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=readMessage&
       transaction=9908575668289607167&
       secretPhrase=IWontTellYou&
@@ -1401,10 +1401,10 @@ Arbitrary Message System Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=sendMessage&
       secretPhrase=IWontTellYou&
-      recipient=NXT-4VNQ-RWZC-4WWQ-GVM8S&
+      recipient=BURST-4VNQ-RWZC-4WWQ-GVM8S&
       message=Test Message.&
       deadline=60
 
@@ -1427,11 +1427,11 @@ Arbitrary Message System Operations
        "messageIsText": true,
        "message": "Test message."
       },
-      "senderRS": "NXT-L6FM-89WK-VK8P-FCRBB",
+      "senderRS": "BURST-L6FM-89WK-VK8P-FCRBB",
       "subtype": 0,
       "amountNQT": "0",
       "sender": "15323192282528158131",
-      "recipientRS": "NXT-4VNQ-RWZC-4WWQ-GVM8S",
+      "recipientRS": "BURST-4VNQ-RWZC-4WWQ-GVM8S",
       "recipient": "17013046603665206934",
       "ecBlockHeight": 280756,
       "deadline": 60,
@@ -1452,7 +1452,7 @@ Arbitrary Message System Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=verifyPrunableMessage&
       message=This is a test prunable plain message.
 
@@ -1476,7 +1476,7 @@ Asset Exchange Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=cancelBidOrder&
       secretPhrase=IWontTellYou&
       order=17185236428295897167&
@@ -1501,7 +1501,7 @@ Asset Exchange Operations
        "version.BidOrderCancellation": 1,
        "order": "17185236428295897167"
       },
-      "senderRS": "NXT-L6FM-89WK-VK8P-FCRBB",
+      "senderRS": "BURST-L6FM-89WK-VK8P-FCRBB",
       "subtype": 5,
       "amountNQT": "0",
       "sender": "15323192282528158131",
@@ -1524,7 +1524,7 @@ Asset Exchange Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=deleteAssetShares&
       asset=5920455660623529270&
       quantityQNT=100&
@@ -1552,7 +1552,7 @@ Asset Exchange Operations
             "version.AssetDelete": 1,
             "asset": "5920455660623529270"
           },
-          "senderRS": "NXT-7A48-47JL-T7LD-D5FS3",
+          "senderRS": "BURST-7A48-47JL-T7LD-D5FS3",
           "subtype": 7,
           "amountNQT": "0",
           "sender": "12745647715474645062",
@@ -1576,7 +1576,7 @@ Asset Exchange Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=dividendPayment&
       asset=3517042713515967694&
       height=161157&
@@ -1602,7 +1602,7 @@ Asset Exchange Operations
        "asset": "3517042713515967694",
        "height": 161157
       },
-      "senderRS": "NXT-4VDY-LNVT-LMAY-FMCKA",
+      "senderRS": "BURST-4VDY-LNVT-LMAY-FMCKA",
       "subtype": 6,
       "amountNQT": "0",
       "sender": "15295723609781267838",
@@ -1625,9 +1625,9 @@ Asset Exchange Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getAccountAssetCount&
-      account=NXT-8N9W-TN4F-YA2S-H5B7R
+      account=BURST-8N9W-TN4F-YA2S-H5B7R
 
 **Response:**
 
@@ -1642,9 +1642,9 @@ Asset Exchange Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getAccountAssets&
-      account=NXT-4VNQ-RWZC-4WWQ-GVM8S
+      account=BURST-4VNQ-RWZC-4WWQ-GVM8S
 
 **Response:**
 
@@ -1667,9 +1667,9 @@ Asset Exchange Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getAccountCurrentBidOrderIds&
-      account=NXT-L6FM-89WK-VK8P-FCRBB&
+      account=BURST-L6FM-89WK-VK8P-FCRBB&
       asset=17554243582654188572
 
 **Response:**
@@ -1687,9 +1687,9 @@ Asset Exchange Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getAccountCurrentBidOrders&
-      account=NXT-L6FM-89WK-VK8P-FCRBB
+      account=BURST-L6FM-89WK-VK8P-FCRBB
 
 **Response:**
 
@@ -1698,7 +1698,7 @@ Asset Exchange Operations
       {
        "quantityQNT": "1000000",
        "priceNQT": "100",
-       "accountRS": "NXT-L6FM-89WK-VK8P-FCRBB",
+       "accountRS": "BURST-L6FM-89WK-VK8P-FCRBB",
        "asset": "17554243582654188572",
        "type": "bid",
        "account": "15323192282528158131",
@@ -1715,7 +1715,7 @@ Asset Exchange Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getAllAssets&
       firstIndex=13&
       lastIndex=13
@@ -1727,7 +1727,7 @@ Asset Exchange Operations
       {
        "quantityQNT": "2100000000000000",
        "numberOfAccounts": 31,
-       "accountRS": "NXT-3TKA-UH62-478B-DQU6K",
+       "accountRS": "BURST-3TKA-UH62-478B-DQU6K",
        "decimals": 8,
        "numberOfTransfers": 63,
        "name": "mgwBTC",
@@ -1746,7 +1746,7 @@ Asset Exchange Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getAllOpenBidOrders&
       firstIndex=123&
       lastIndex=123
@@ -1759,7 +1759,7 @@ Asset Exchange Operations
       {
        "quantityQNT": "1000000",
        "priceNQT": "101",
-       "accountRS": "NXT-L6FM-89WK-VK8P-FCRBB",
+       "accountRS": "BURST-L6FM-89WK-VK8P-FCRBB",
        "asset": "17554243582654188572",
        "type": "bid",
        "account": "15323192282528158131",
@@ -1775,7 +1775,7 @@ Asset Exchange Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getAllTrades&
       lastIndex=0
 
@@ -1787,11 +1787,11 @@ Asset Exchange Operations
        "seller": "14968762166783718535",
        "quantityQNT": "10000",
        "bidOrder": "1166717226538227076",
-       "sellerRS": "NXT-8F69-W9Z9-8M6Y-ETXGZ",
+       "sellerRS": "BURST-8F69-W9Z9-8M6Y-ETXGZ",
        "buyer": "202478233571806601",
        "priceNQT": "19796",
        "askOrder": "16222071953599729591",
-       "buyerRS": "NXT-RMEB-W7TE-28EM-2SUM7",
+       "buyerRS": "BURST-RMEB-W7TE-28EM-2SUM7",
        "decimals": 8,
        "name": "mgwBTC",
        "block": "8807797247643599359",
@@ -1812,7 +1812,7 @@ Asset Exchange Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getAsset&
       asset=17554243582654188572
 
@@ -1821,7 +1821,7 @@ Asset Exchange Operations
     {
      "quantityQNT": "2100000000000000",
      "numberOfAccounts": 31,
-     "accountRS": "NXT-3TKA-UH62-478B-DQU6K",
+     "accountRS": "BURST-3TKA-UH62-478B-DQU6K",
      "decimals": 8,
      "numberOfTransfers": 63,
      "name": "mgwBTC",
@@ -1838,7 +1838,7 @@ Asset Exchange Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getAssetAccountCount&
       asset=17554243582654188572
 
@@ -1855,7 +1855,7 @@ Asset Exchange Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getAssetAccounts&
       asset=5539238107226883203
 
@@ -1865,7 +1865,7 @@ Asset Exchange Operations
      "accountAssets": [
       {
        "quantityQNT": "100000000",
-       "accountRS": "NXT-JTE5-HB7Y-QPS5-B58MZ",
+       "accountRS": "BURST-JTE5-HB7Y-QPS5-B58MZ",
        "unconfirmedQuantityQNT": "100000000",
        "asset": "5539238107226883203",
        "account": "11514793277306463619"
@@ -1880,7 +1880,7 @@ Asset Exchange Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getAssetDeletes&
       asset=5920455660623529270
 
@@ -1891,7 +1891,7 @@ Asset Exchange Operations
       {
        "quantityQNT": "1000",
        "assetDelete": "16186302132012496205",
-       "accountRS": "NXT-G885-AKDX-5G2B-BLUCG",
+       "accountRS": "BURST-G885-AKDX-5G2B-BLUCG",
        "asset": "5920455660623529270",
        "account": "10892890577210644675",
        "height": 678815,
@@ -1900,7 +1900,7 @@ Asset Exchange Operations
       {
        "quantityQNT": "1",
        "assetDelete": "5520627816808994883",
-       "accountRS": "NXT-7A48-47JL-T7LD-D5FS3",
+       "accountRS": "BURST-7A48-47JL-T7LD-D5FS3",
        "asset": "5920455660623529270",
        "account": "12745647715474645062",
        "height": 513529,
@@ -1909,7 +1909,7 @@ Asset Exchange Operations
       {
        "quantityQNT": "1",
        "assetDelete": "14523372185703177675",
-       "accountRS": "NXT-7A48-47JL-T7LD-D5FS3",
+       "accountRS": "BURST-7A48-47JL-T7LD-D5FS3",
        "asset": "5920455660623529270",
        "account": "12745647715474645062",
        "height": 512164,
@@ -1925,7 +1925,7 @@ Asset Exchange Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getAssetDividends&
       asset=4348103880042995903&
       timestamp=105414366
@@ -1974,7 +1974,7 @@ Asset Exchange Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getAssetIds&
       firstIndex=15&
       lastIndex=15
@@ -1994,7 +1994,7 @@ Asset Exchange Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getAssetTransfers&
       asset=17554243582654188572&
       lastIndex=0
@@ -2005,10 +2005,10 @@ Asset Exchange Operations
      "transfers": [
       {
        "quantityQNT": "500000",
-       "senderRS": "NXT-9K6X-4ZQS-PCQN-465T4",
+       "senderRS": "BURST-9K6X-4ZQS-PCQN-465T4",
        "assetTransfer": "15255934090738722602",
        "sender": "2406158154854548637",
-       "recipientRS": "NXT-YMEM-ERX3-BFUZ-4MQ4P",
+       "recipientRS": "BURST-YMEM-ERX3-BFUZ-4MQ4P",
        "decimals": 8,
        "recipient": "3065494931320556947",
        "name": "mgwBTC",
@@ -2026,7 +2026,7 @@ Asset Exchange Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getAssets&
       assets=17554243582654188572
 
@@ -2037,7 +2037,7 @@ Asset Exchange Operations
       {
        "quantityQNT": "2100000000000000",
        "numberOfAccounts": 31,
-       "accountRS": "NXT-3TKA-UH62-478B-DQU6K",
+       "accountRS": "BURST-3TKA-UH62-478B-DQU6K",
        "decimals": 8,
        "numberOfTransfers": 63,
        "name": "mgwBTC",
@@ -2056,9 +2056,9 @@ Asset Exchange Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getAssetsByIssuer&
-      account=NXT-DE2F-W76R-GL25-HMFPR&
+      account=BURST-DE2F-W76R-GL25-HMFPR&
       lastIndex=0
 
 **Response:**
@@ -2069,7 +2069,7 @@ Asset Exchange Operations
        {
         "quantityQNT": "10000000000",
         "numberOfAccounts": 222,
-        "accountRS": "NXT-DE2F-W76R-GL25-HMFPR",
+        "accountRS": "BURST-DE2F-W76R-GL25-HMFPR",
         "decimals": 4,
         "numberOfTransfers": 278,
         "name": "NXTprivacy",
@@ -2089,7 +2089,7 @@ Asset Exchange Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getExpectedAssetDeletes
 
 **Response:**
@@ -2099,7 +2099,7 @@ Asset Exchange Operations
       {
        "quantityQNT": "1000",
        "assetDelete": "16186302132012496205",
-       "accountRS": "NXT-G885-AKDX-5G2B-BLUCG",
+       "accountRS": "BURST-G885-AKDX-5G2B-BLUCG",
        "asset": "5920455660623529270",
        "account": "10892890577210644675"
       }
@@ -2113,7 +2113,7 @@ Asset Exchange Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getAskOrder&
       order=6044046093672850641
 
@@ -2123,7 +2123,7 @@ Asset Exchange Operations
      "quantityQNT": "100",
      "priceNQT": "100000000",
      "transactionHeight": 346634,
-     "accountRS": "NXT-4VDY-LNVT-LMAY-FMCKA",
+     "accountRS": "BURST-4VDY-LNVT-LMAY-FMCKA",
      "transactionIndex": 0,
      "requestProcessingTime": 0,
      "asset": "17091401215301664836",
@@ -2139,7 +2139,7 @@ Asset Exchange Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getBidOrderIds&
       asset=17554243582654188572
 
@@ -2162,7 +2162,7 @@ Asset Exchange Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getBidOrders&
       asset=17554243582654188572&
       firstIndex=3&
@@ -2175,7 +2175,7 @@ Asset Exchange Operations
       {
        "quantityQNT": "1000000",
        "priceNQT": "101",
-       "accountRS": "NXT-L6FM-89WK-VK8P-FCRBB",
+       "accountRS": "BURST-L6FM-89WK-VK8P-FCRBB",
        "asset": "17554243582654188572",
        "type": "bid",
        "account": "15323192282528158131",
@@ -2192,7 +2192,7 @@ Asset Exchange Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getExpectedOrderCancellations
 
 **Response:**
@@ -2200,7 +2200,7 @@ Asset Exchange Operations
     {
      "orderCancellations": [
       {
-       "accountRS": "NXT-4VDY-LNVT-LMAY-FMCKA",
+       "accountRS": "BURST-4VDY-LNVT-LMAY-FMCKA",
        "account": "15295723609781267838",
        "order": "8404616015717333294",
        "height": 348793,
@@ -2216,7 +2216,7 @@ Asset Exchange Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getLastTrades&
       assets=17091401215301664836
 
@@ -2228,11 +2228,11 @@ Asset Exchange Operations
        "seller": "11580081983047651163",
        "quantityQNT": "100",
        "bidOrder": "12461616895431889058",
-       "sellerRS": "NXT-BMUV-8QQR-47VK-CR7F3",
+       "sellerRS": "BURST-BMUV-8QQR-47VK-CR7F3",
        "buyer": "15295723609781267838",
        "priceNQT": "100000000",
        "askOrder": "16690422801364092687",
-       "buyerRS": "NXT-4VDY-LNVT-LMAY-FMCKA",
+       "buyerRS": "BURST-4VDY-LNVT-LMAY-FMCKA",
        "block": "9740784167963638799",
        "asset": "17091401215301664836",
        "askOrderHeight": 286247,
@@ -2251,7 +2251,7 @@ Asset Exchange Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getOrderTrades&
       askOrder=2769987326979385551&
       includeAssetInfo=true
@@ -2264,11 +2264,11 @@ Asset Exchange Operations
        "seller": "8069635474378047786",
        "quantityQNT": "200",
        "bidOrder": "6083013926058683287",
-       "sellerRS": "NXT-5JBC-QQ8M-UAFJ-8UAZZ",
+       "sellerRS": "BURST-5JBC-QQ8M-UAFJ-8UAZZ",
        "buyer": "3617506283101058376",
        "priceNQT": "5000000",
        "askOrder": "2769987326979385551",
-       "buyerRS": "NXT-QXCA-TKAH-KK85-5QZE6",
+       "buyerRS": "BURST-QXCA-TKAH-KK85-5QZE6",
        "decimals": 0,
        "name": "TWT",
        "block": "17820716559461579006",
@@ -2289,7 +2289,7 @@ Asset Exchange Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getTrades&
       asset=17554243582654188572&
       lastIndex=0
@@ -2302,11 +2302,11 @@ Asset Exchange Operations
        "seller": "4012743767778395236",
        "quantityQNT": "922082",
        "bidOrder": "18332182738291742411",
-       "sellerRS": "NXT-J356-8B4K-L4DK-533EH",
+       "sellerRS": "BURST-J356-8B4K-L4DK-533EH",
        "buyer": "17013046603665206934",
        "priceNQT": "19607",
        "askOrder": "5860848661439768841",
-       "buyerRS": "NXT-4VNQ-RWZC-4WWQ-GVM8S",
+       "buyerRS": "BURST-4VNQ-RWZC-4WWQ-GVM8S",
        "decimals": 8,
        "name": "mgwBTC",
        "block": "15627545821108097361",
@@ -2327,7 +2327,7 @@ Asset Exchange Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=issueAsset&
       publicKey=57fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143b473beec228f79ff93c&
       name=SecretCoin&
@@ -2354,7 +2354,7 @@ Asset Exchange Operations
        "version.AssetIssuance": 1,
        "decimals": 0
       },
-      "senderRS": "NXT-4VNQ-RWZC-4WWQ-GVM8S",
+      "senderRS": "BURST-4VNQ-RWZC-4WWQ-GVM8S",
       "subtype": 0,
       "amountNQT": "0",
       "sender": "17013046603665206934",
@@ -2373,7 +2373,7 @@ Asset Exchange Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=placeBidOrder&
       secretPhrase=IWontTellYou&
       asset=17554243582654188572&
@@ -2402,7 +2402,7 @@ Asset Exchange Operations
        "asset": "17554243582654188572",
        "version.BidOrderPlacement": 1
       },
-      "senderRS": "NXT-L6FM-89WK-VK8P-FCRBB",
+      "senderRS": "BURST-L6FM-89WK-VK8P-FCRBB",
       "subtype": 3,
       "amountNQT": "0",
       "sender": "15323192282528158131",
@@ -2425,7 +2425,7 @@ Asset Exchange Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=searchAssets&
       query=assets AND production
 
@@ -2436,7 +2436,7 @@ Asset Exchange Operations
       {
        "quantityQNT": "2100000000000000",
        "numberOfAccounts": 37,
-       "accountRS": "NXT-3TKA-UH62-478B-DQU6K",
+       "accountRS": "BURST-3TKA-UH62-478B-DQU6K",
        "decimals": 8,
        "numberOfTransfers": 84,
        "name": "mgwBTC",
@@ -2455,10 +2455,10 @@ Asset Exchange Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=transferAsset&
       secretPhrase=IWontTellYou&
-      recipient=NXT-4VNQ-RWZC-4WWQ-GVM8S&
+      recipient=BURST-4VNQ-RWZC-4WWQ-GVM8S&
       asset=17554243582654188572&
       quantityQNT=1000&
       feeNQT=100000000&
@@ -2483,11 +2483,11 @@ Asset Exchange Operations
        "quantityQNT": "1000",
        "asset": "17554243582654188572"
       },
-      "senderRS": "NXT-L6FM-89WK-VK8P-FCRBB",
+      "senderRS": "BURST-L6FM-89WK-VK8P-FCRBB",
       "subtype": 1,
       "amountNQT": "0",
       "sender": "15323192282528158131",
-      "recipientRS": "NXT-4VNQ-RWZC-4WWQ-GVM8S",
+      "recipientRS": "BURST-4VNQ-RWZC-4WWQ-GVM8S",
       "recipient": "17013046603665206934",
       "ecBlockHeight": 288416,
       "deadline": 60,
@@ -2511,7 +2511,7 @@ Block Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getBlock&
       block=8455642159445842600
 
@@ -2526,7 +2526,7 @@ Block Operations
      "generatorPublicKey": "fbb72a280228af5c8c74c7c754a290e1539f839553c00bc560cac7bfdb324a7c",
      "baseTarget": "1530224444",
      "payloadHash": "633992be640a593ba04e31ca4028deed70bbf47cff333e2a0372a4e2a4aba205",
-     "generatorRS": "NXT-TWU9-P3E4-HCDM-CQ9L6",
+     "generatorRS": "BURST-TWU9-P3E4-HCDM-CQ9L6",
      "nextBlock": "5937170741469897491",
      "requestProcessingTime": 175,
      "numberOfTransactions": 6,
@@ -2554,7 +2554,7 @@ Block Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getBlockId&
       height=0
 
@@ -2571,7 +2571,7 @@ Block Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getBlocks&
       lastIndex=1
 
@@ -2588,7 +2588,7 @@ Block Operations
        "generatorPublicKey": "98ccf5d5173b13e4c9eab2631372f61ce8ba506db559d73b285073a689872e75",
        "baseTarget": "151761236",
        "payloadHash": "82f8c8ca1f8f2252172ed1e9836d5228432fcb18aecfa7d55a119efcd242321c",
-       "generatorRS": "NXT-TGNZ-E8VK-69EX-3L9LX",
+       "generatorRS": "BURST-TGNZ-E8VK-69EX-3L9LX",
        "numberOfTransactions": 5,
        "blockSignature": "76a3f7f966256c4985262fb4622190b2b9a19b900f6ce443ab7d581e3176c...",
        "transactions": [
@@ -2614,7 +2614,7 @@ Block Operations
        "generatorPublicKey": "11636697faf4ade736cedf6c528bec0142353c4d93fce05cdb818c49e0390422",
        "baseTarget": "303522472",
        "payloadHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-       "generatorRS": "NXT-2EYT-C522-VL6G-FQSMP",
+       "generatorRS": "BURST-2EYT-C522-VL6G-FQSMP",
        "nextBlock": "7299310714263322546",
        "numberOfTransactions": 0,
        "blockSignature": "90464d183ed01cb0930ef527e746eaa092d1558697c369cc9246add5f6eec...",
@@ -2636,7 +2636,7 @@ Block Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getECBlock
 
 **Response:**
@@ -2657,7 +2657,7 @@ Digital Goods Store Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=dgsDelisting&
       goods=11813734897437346473
       secretPhrase=IWontTellYou&
@@ -2682,7 +2682,7 @@ Digital Goods Store Operations
        "version.DigitalGoodsDelisting": 1,
        "goods": "11813734897437346473"
       },
-      "senderRS": "NXT-L6FM-89WK-VK8P-FCRBB",
+      "senderRS": "BURST-L6FM-89WK-VK8P-FCRBB",
       "subtype": 1,
       "amountNQT": "0",
       "sender": "15323192282528158131",
@@ -2705,7 +2705,7 @@ Digital Goods Store Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=dgsDelivery&
       purchase=3723760852542296589&
       goodsToEncrypt=Download Code.&
@@ -2735,11 +2735,11 @@ Digital Goods Store Operations
        "version.DigitalGoodsDelivery": 1,
        "goodsNonce": "4cb474ec53a590c6fd20d050c429d009ddefd286b2782eb3a0782ae45c2bbbbd"
       },
-      "senderRS": "NXT-L6FM-89WK-VK8P-FCRBB",
+      "senderRS": "BURST-L6FM-89WK-VK8P-FCRBB",
       "subtype": 5,
       "amountNQT": "0",
       "sender": "15323192282528158131",
-      "recipientRS": "NXT-6GMG-FC5F-YSX6-8CVEL",
+      "recipientRS": "BURST-6GMG-FC5F-YSX6-8CVEL",
       "recipient": "7580519603555678830",
       "ecBlockHeight": 292069,
       "deadline": 60,
@@ -2760,7 +2760,7 @@ Digital Goods Store Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=dgsFeedback&
       purchase=10234639413366748292&
       secretPhrase=IWontTellYou&
@@ -2789,11 +2789,11 @@ Digital Goods Store Operations
        "version.DigitalGoodsFeedback": 1,
        "message": "Thank you!"
       },
-      "senderRS": "NXT-L6FM-89WK-VK8P-FCRBB",
+      "senderRS": "BURST-L6FM-89WK-VK8P-FCRBB",
       "subtype": 6,
       "amountNQT": "0",
       "sender": "15323192282528158131",
-      "recipientRS": "NXT-6GMG-FC5F-YSX6-8CVEL",
+      "recipientRS": "BURST-6GMG-FC5F-YSX6-8CVEL",
       "recipient": "7580519603555678830",
       "ecBlockHeight": 292938,
       "deadline": 60,
@@ -2814,7 +2814,7 @@ Digital Goods Store Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=dgsListing&
       secretPhrase=IWontTellYou&
       name=Test Product&
@@ -2847,7 +2847,7 @@ Digital Goods Store Operations
        "version.DigitalGoodsListing": 1,
        "tags": "test, product, tag, extra"
       },
-      "senderRS": "NXT-L6FM-89WK-VK8P-FCRBB",
+      "senderRS": "BURST-L6FM-89WK-VK8P-FCRBB",
       "subtype": 0,
       "amountNQT": "0",
       "sender": "15323192282528158131",
@@ -2870,7 +2870,7 @@ Digital Goods Store Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=dgsPriceChange&
       goods=11813734897437346473&
       priceNQT=200000000&
@@ -2897,7 +2897,7 @@ Digital Goods Store Operations
        "priceNQT": "200000000",
        "version.DigitalGoodsPriceChange": 1
       },
-      "senderRS": "NXT-L6FM-89WK-VK8P-FCRBB",
+      "senderRS": "BURST-L6FM-89WK-VK8P-FCRBB",
       "subtype": 2,
       "amountNQT": "0",
       "sender": "15323192282528158131",
@@ -2920,7 +2920,7 @@ Digital Goods Store Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=dgsPurchase&
       goods=1587116104511359906&
       quantity=1&
@@ -2950,11 +2950,11 @@ Digital Goods Store Operations
        "deliveryDeadlineTimestamp": 31800000,
        "version.DigitalGoodsPurchase": 1
       },
-      "senderRS": "NXT-L6FM-89WK-VK8P-FCRBB",
+      "senderRS": "BURST-L6FM-89WK-VK8P-FCRBB",
       "subtype": 4,
       "amountNQT": "0",
       "sender": "15323192282528158131",
-      "recipientRS": "NXT-6GMG-FC5F-YSX6-8CVEL",
+      "recipientRS": "BURST-6GMG-FC5F-YSX6-8CVEL",
       "recipient": "7580519603555678830",
       "ecBlockHeight": 292925,
       "deadline": 60,
@@ -2975,7 +2975,7 @@ Digital Goods Store Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=dgsQuantityChange&
       goods=11813734897437346473&
       deltaQuantity=-1&
@@ -3002,7 +3002,7 @@ Digital Goods Store Operations
        "version.DigitalGoodsQuantityChange": 1,
        "deltaQuantity": -1
       },
-      "senderRS": "NXT-L6FM-89WK-VK8P-FCRBB",
+      "senderRS": "BURST-L6FM-89WK-VK8P-FCRBB",
       "subtype": 3,
       "amountNQT": "0",
       "sender": "15323192282528158131",
@@ -3025,7 +3025,7 @@ Digital Goods Store Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=dgsRefund&
       purchase=3723760852542296589&
       refundNQT=100000000&
@@ -3052,11 +3052,11 @@ Digital Goods Store Operations
        "version.DigitalGoodsRefund": 1,
        "refundNQT": "100000000"
       },
-      "senderRS": "NXT-L6FM-89WK-VK8P-FCRBB",
+      "senderRS": "BURST-L6FM-89WK-VK8P-FCRBB",
       "subtype": 7,
       "amountNQT": "0",
       "sender": "15323192282528158131",
-      "recipientRS": "NXT-6GMG-FC5F-YSX6-8CVEL",
+      "recipientRS": "BURST-6GMG-FC5F-YSX6-8CVEL",
       "recipient": "7580519603555678830",
       "ecBlockHeight": 292899,
       "deadline": 60,
@@ -3077,9 +3077,9 @@ Digital Goods Store Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getDGSExpiredPurchases&
-      seller=NXT-XK4R-7VJU-6EQG-7R335
+      seller=BURST-XK4R-7VJU-6EQG-7R335
 
 **Response:**
 
@@ -3090,12 +3090,12 @@ Digital Goods Store Operations
        "priceNQT": "1000000000",
        "quantity": 1,
        "deliveryDeadlineTimestamp": 44955165,
-       "buyerRS": "NXT-XK4R-7VJU-6EQG-7R335",
+       "buyerRS": "BURST-XK4R-7VJU-6EQG-7R335",
        "pending": false,
        "purchase": "17272258199467687054",
        "name": "MyProduct",
        "goods": "4830545483228225683",
-       "sellerRS": "NXT-XK4R-7VJU-6EQG-7R335",
+       "sellerRS": "BURST-XK4R-7VJU-6EQG-7R335",
        "buyer": "5873880488492319831",
        "timestamp": 44397533
       }
@@ -3109,7 +3109,7 @@ Digital Goods Store Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getDGSGood&
       goods=11813734897437346473
 
@@ -3120,7 +3120,7 @@ Digital Goods Store Operations
      "quantity": 3,
      "goods": "11813734897437346473",
      "description": "Testing the DGS.",
-     "sellerRS": "NXT-L6FM-89WK-VK8P-FCRBB",
+     "sellerRS": "BURST-L6FM-89WK-VK8P-FCRBB",
      "requestProcessingTime": 1,
      "delisted": false,
      "parsedTags": [
@@ -3142,9 +3142,9 @@ Digital Goods Store Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getDGSGoods&
-      seller=NXT-L6FM-89WK-VK8P-FCRBB
+      seller=BURST-L6FM-89WK-VK8P-FCRBB
 
 **Response:**
 
@@ -3155,7 +3155,7 @@ Digital Goods Store Operations
        "quantity": 2,
        "goods": "11813734897437346473",
        "description": "Testing the DGS.",
-       "sellerRS": "NXT-L6FM-89WK-VK8P-FCRBB",
+       "sellerRS": "BURST-L6FM-89WK-VK8P-FCRBB",
        "delisted": false,
        "parsedTags": [
         "test",
@@ -3179,9 +3179,9 @@ Digital Goods Store Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getDGSGoodsCount&
-      seller=NXT-L6FM-89WK-VK8P-FCRBB
+      seller=BURST-L6FM-89WK-VK8P-FCRBB
 
 **Response:**
 
@@ -3196,7 +3196,7 @@ Digital Goods Store Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getDGSGoodsPurchaseCount&
       goods=11813734897437346473
 
@@ -3213,7 +3213,7 @@ Digital Goods Store Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getDGSGoodsPurchases&
       goods=11813734897437346473
 
@@ -3227,12 +3227,12 @@ Digital Goods Store Operations
        "pending": false,
        "purchase": "3723760852542296589",
        "goods": "11813734897437346473",
-       "sellerRS": "NXT-L6FM-89WK-VK8P-FCRBB",
+       "sellerRS": "BURST-L6FM-89WK-VK8P-FCRBB",
        "buyer": "7580519603555678830",
        "priceNQT": "200000000",
        "deliveryDeadlineTimestamp": 31600000,
        "goodsIsText": false,
-       "buyerRS": "NXT-6GMG-FC5F-YSX6-8CVEL",
+       "buyerRS": "BURST-6GMG-FC5F-YSX6-8CVEL",
        "name": "Test Product",
        "goodsData": {
         "data": "aef91bfe543844964b0dadc51c6fe4c624b6b0c72c23c5c61f7e626f51e15...",
@@ -3250,9 +3250,9 @@ Digital Goods Store Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getDGSPendingPurchases&
-      seller=NXT-L6FM-89WK-VK8P-FCRBB
+      seller=BURST-L6FM-89WK-VK8P-FCRBB
 
 **Response:**
 
@@ -3263,12 +3263,12 @@ Digital Goods Store Operations
        "priceNQT": "200000000",
        "quantity": 2,
        "deliveryDeadlineTimestamp": 31600000,
-       "buyerRS": "NXT-6GMG-FC5F-YSX6-8CVEL",
+       "buyerRS": "BURST-6GMG-FC5F-YSX6-8CVEL",
        "pending": true,
        "purchase": "3723760852542296589",
        "name": "Test Product",
        "goods": "11813734897437346473",
-       "sellerRS": "NXT-L6FM-89WK-VK8P-FCRBB",
+       "sellerRS": "BURST-L6FM-89WK-VK8P-FCRBB",
        "buyer": "7580519603555678830",
        "timestamp": 31520720
       }
@@ -3282,7 +3282,7 @@ Digital Goods Store Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getDGSPurchase&
       purchase=10234639413366748292
 
@@ -3304,13 +3304,13 @@ Digital Goods Store Operations
      "pending": false,
      "purchase": "10234639413366748292",
      "goods": "1587116104511359906",
-     "sellerRS": "NXT-6GMG-FC5F-YSX6-8CVEL",
+     "sellerRS": "BURST-6GMG-FC5F-YSX6-8CVEL",
      "requestProcessingTime": 1,
      "buyer": "15323192282528158131",
      "priceNQT": "100000000",
      "deliveryDeadlineTimestamp": 31800000,
      "goodsIsText": false,
-     "buyerRS": "NXT-L6FM-89WK-VK8P-FCRBB",
+     "buyerRS": "BURST-L6FM-89WK-VK8P-FCRBB",
      "discountNQT": "100000000",
      "name": "Test Product",
      "goodsData": {
@@ -3326,9 +3326,9 @@ Digital Goods Store Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getDGSPurchaseCount&
-      seller=NXT-L6FM-89WK-VK8P-FCRBB
+      seller=BURST-L6FM-89WK-VK8P-FCRBB
 
 **Response:**
 
@@ -3343,9 +3343,9 @@ Digital Goods Store Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getDGSPurchases&
-      seller=NXT-L6FM-89WK-VK8P-FCRBB&
+      seller=BURST-L6FM-89WK-VK8P-FCRBB&
       lastIndex=0
 
 **Response:**
@@ -3357,12 +3357,12 @@ Digital Goods Store Operations
        "priceNQT": "200000000",
        "quantity": 2,
        "deliveryDeadlineTimestamp": 31600000,
-       "buyerRS": "NXT-6GMG-FC5F-YSX6-8CVEL",
+       "buyerRS": "BURST-6GMG-FC5F-YSX6-8CVEL",
        "pending": true,
        "purchase": "3723760852542296589",
        "name": "Test Product",
        "goods": "11813734897437346473",
-       "sellerRS": "NXT-L6FM-89WK-VK8P-FCRBB",
+       "sellerRS": "BURST-L6FM-89WK-VK8P-FCRBB",
        "buyer": "7580519603555678830",
        "timestamp": 31520720
       }
@@ -3376,7 +3376,7 @@ Digital Goods Store Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getDGSTagCount
 
 **Response:**
@@ -3392,7 +3392,7 @@ Digital Goods Store Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getDGSTags&
       lastIndex=0
 
@@ -3415,7 +3415,7 @@ Digital Goods Store Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getDGSTagsLike&
       tagPrefix=item
 
@@ -3438,7 +3438,7 @@ Digital Goods Store Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=searchDGSGoods&
       tag=te?t AND prod*
 
@@ -3451,7 +3451,7 @@ Digital Goods Store Operations
        "quantity": 1,
        "goods": "1587116104511359906",
        "description": "This is a test. Please do not order.",
-       "sellerRS": "NXT-6GMG-FC5F-YSX6-8CVEL",
+       "sellerRS": "BURST-6GMG-FC5F-YSX6-8CVEL",
        "delisted": false,
        "parsedTags": [
         "test",
@@ -3478,7 +3478,7 @@ Forging Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=startForging&
       secretPhrase=IWontTellYou
 
@@ -3496,10 +3496,10 @@ Forging Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=leaseBalance&
       period=1440&
-      recipient=NXT-4VNQ-RWZC-4WWQ-GVM8S&
+      recipient=BURST-4VNQ-RWZC-4WWQ-GVM8S&
       secretPhrase=IWontTellYou&
       feeNQT=100000000&
       deadline=60
@@ -3522,11 +3522,11 @@ Forging Operations
        "version.EffectiveBalanceLeasing": 1,
        "period": 1440
       },
-      "senderRS": "NXT-L6FM-89WK-VK8P-FCRBB",
+      "senderRS": "BURST-L6FM-89WK-VK8P-FCRBB",
       "subtype": 0,
       "amountNQT": "0",
       "sender": "15323192282528158131",
-      "recipientRS": "NXT-4VNQ-RWZC-4WWQ-GVM8S",
+      "recipientRS": "BURST-4VNQ-RWZC-4WWQ-GVM8S",
       "recipient": "17013046603665206934",
       "ecBlockHeight": 280672,
       "deadline": 60,
@@ -3547,7 +3547,7 @@ Forging Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getNextBlockGenerators&
       limit=3
 
@@ -3559,21 +3559,21 @@ Forging Operations
      "generators": [
       {
        "effectiveBalanceNXT": 5400786,
-       "accountRS": "NXT-8HNT-4ZTF-ZXH3-7RU38",
+       "accountRS": "BURST-8HNT-4ZTF-ZXH3-7RU38",
        "deadline": 4,
        "account": "5982846390354787993",
        "hitTime": 112224054
       },
       {
        "effectiveBalanceNXT": 4061204,
-       "accountRS": "NXT-HLNR-4HDK-HQUJ-37545",
+       "accountRS": "BURST-HLNR-4HDK-HQUJ-37545",
        "deadline": 35,
        "account": "1263370831364868759",
        "hitTime": 112224085
       },
       {
        "effectiveBalanceNXT": 8847921,
-       "accountRS": "NXT-ZEKG-CHYB-N8AR-4TQ3U",
+       "accountRS": "BURST-ZEKG-CHYB-N8AR-4TQ3U",
        "deadline": 52,
        "account": "3244519536310858286",
        "hitTime": 112224102
@@ -3593,7 +3593,7 @@ Hallmark Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=decodeHallmark&
       hallmark=827ed8cf83bbd36419002759d960a1bec952f2209db8ed3be958...
 
@@ -3602,7 +3602,7 @@ Hallmark Operations
     {
      "date": "2013-12-10",
      "valid": true,
-     "accountRS": "NXT-FEJ5-H4YB-QD3D-2L3W2",
+     "accountRS": "BURST-FEJ5-H4YB-QD3D-2L3W2",
      "host": "nxttyclub.info",
      "weight": 100,
      "requestProcessingTime": 2,
@@ -3615,7 +3615,7 @@ Hallmark Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=markHost&
       secretPhrase=IWontTellYou&
       host=iwonttellyou.com&
@@ -3638,9 +3638,9 @@ Monetary System Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=canDeleteCurrency&
-      account=NXT-2HCZ-6GCJ-2XGV-EDRPH&
+      account=BURST-2HCZ-6GCJ-2XGV-EDRPH&
       currency=4923907272718555444
 
 **Response:**
@@ -3656,7 +3656,7 @@ Monetary System Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=currencyBuy&
       currency=6520756875632314476&
       rateNQT=1500000000&
@@ -3685,7 +3685,7 @@ Monetary System Operations
        "units": "200",
        "rateNQT": "1500000000"
       },
-      "senderRS": "NXT-4VDY-LNVT-LMAY-FMCKA",
+      "senderRS": "BURST-4VDY-LNVT-LMAY-FMCKA",
       "subtype": 6,
       "amountNQT": "0",
       "sender": "15295723609781267838",
@@ -3708,7 +3708,7 @@ Monetary System Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=currencyMint&
       currency=9207767346829573996&
       nonce=-6757092571753666960&
@@ -3739,7 +3739,7 @@ Monetary System Operations
        "version.CurrencyMinting": 1,
        "nonce": "-6757092571753666960"
       },
-      "senderRS": "NXT-4VDY-LNVT-LMAY-FMCKA",
+      "senderRS": "BURST-4VDY-LNVT-LMAY-FMCKA",
       "subtype": 7,
       "amountNQT": "0",
       "sender": "15295723609781267838",
@@ -3762,7 +3762,7 @@ Monetary System Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=currencyReserveClaim&
       currency=15992040603642022742&
       units=36
@@ -3786,7 +3786,7 @@ Monetary System Operations
        "currency": "15992040603642022742",
        "units": "36"
       },
-      "senderRS": "NXT-BMUV-8QQR-47VK-CR7F3",
+      "senderRS": "BURST-BMUV-8QQR-47VK-CR7F3",
       "subtype": 2,
       "amountNQT": "0",
       "sender": "11580081983047651163",
@@ -3809,7 +3809,7 @@ Monetary System Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=currencyReserveIncrease&
       currency=11847174313362984527
       amountPerUnitNQT=40000000
@@ -3833,7 +3833,7 @@ Monetary System Operations
        "currency": "11847174313362984527",
        "version.ReserveIncrease": 1
       },
-      "senderRS": "NXT-BMUV-8QQR-47VK-CR7F3",
+      "senderRS": "BURST-BMUV-8QQR-47VK-CR7F3",
       "subtype": 1,
       "amountNQT": "0",
       "sender": "11580081983047651163",
@@ -3856,7 +3856,7 @@ Monetary System Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=deleteCurrency&
       currency=7103310507724273660&
       secretPhrase=SECRETPHRASE&
@@ -3881,7 +3881,7 @@ Monetary System Operations
        "version.CurrencyDeletion": 1,
        "currency": "7103310507724273660"
       },
-      "senderRS": "NXT-4VDY-LNVT-LMAY-FMCKA",
+      "senderRS": "BURST-4VDY-LNVT-LMAY-FMCKA",
       "subtype": 8,
       "amountNQT": "0",
       "sender": "15295723609781267838",
@@ -3904,16 +3904,16 @@ Monetary System Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getAccountCurrencies&
-      account=NXT-4VDY-LNVT-LMAY-FMCKA
+      account=BURST-4VDY-LNVT-LMAY-FMCKA
 
 **Response:**
 
     {
      "accountCurrencies": [
       {
-       "issuerAccountRS": "NXT-4VDY-LNVT-LMAY-FMCKA",
+       "issuerAccountRS": "BURST-4VDY-LNVT-LMAY-FMCKA",
        "code": "MYSTX",
        "unconfirmedUnits": "10000",
        "decimals": 2,
@@ -3934,9 +3934,9 @@ Monetary System Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getAccountCurrencyCount&
-      account=NXT-4VDY-LNVT-LMAY-FMCKA
+      account=BURST-4VDY-LNVT-LMAY-FMCKA
 
 **Response:**
 
@@ -3951,9 +3951,9 @@ Monetary System Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getAccountExchangeRequests&
-      account=NXT-4VDY-LNVT-LMAY-FMCKA&
+      account=BURST-4VDY-LNVT-LMAY-FMCKA&
       currency=6520756875632314476
 
 **Response:**
@@ -3961,7 +3961,7 @@ Monetary System Operations
     {
      "exchangeRequests": [
       {
-       "issuerAccountRS": "NXT-4VDY-LNVT-LMAY-FMCKA",
+       "issuerAccountRS": "BURST-4VDY-LNVT-LMAY-FMCKA",
        "code": "MYSTX",
        "subtype": 6,
        "decimals": 2,
@@ -3984,7 +3984,7 @@ Monetary System Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
      requestType=getFundingMonitor&
      property=funding&
      secretPhrase=IWontTellYou&
@@ -4001,21 +4001,21 @@ Monetary System Operations
        "monitoredAccounts": [
         {
          "amount": "1000000000",
-         "accountRS": "NXT-5MYN-AP7M-NKMH-CRQJZ",
+         "accountRS": "BURST-5MYN-AP7M-NKMH-CRQJZ",
          "threshold": "15000000000",
          "interval": 10,
          "account": "12664921794733526996"
         },
         {
          "amount": "1000000000",
-         "accountRS": "NXT-G885-AKDX-5G2B-BLUCG",
+         "accountRS": "BURST-G885-AKDX-5G2B-BLUCG",
          "threshold": "15000000000",
          "interval": 10,
          "account": "10892890577210644675"
         }
        ],
        "holdingType": 0,
-       "accountRS": "NXT-7A48-47JL-T7LD-D5FS3",
+       "accountRS": "BURST-7A48-47JL-T7LD-D5FS3",
        "property": "funding",
        "threshold": "15000000000",
        "interval": 10,
@@ -4030,7 +4030,7 @@ Monetary System Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getAllCurrencies&
       firstIndex=2&
       lastIndex=2
@@ -4057,7 +4057,7 @@ Monetary System Operations
        "type": 1,
        "reserveSupply": "0",
        "maxDifficulty": 0,
-       "accountRS": "NXT-4VDY-LNVT-LMAY-FMCKA",
+       "accountRS": "BURST-4VDY-LNVT-LMAY-FMCKA",
        "decimals": 2,
        "name": "MystcoinX",
        "numberOfExchanges": 12,
@@ -4075,7 +4075,7 @@ Monetary System Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getAllExchanges&
       firstIndex=7&
       lastIndex=7
@@ -4085,17 +4085,17 @@ Monetary System Operations
     {
      "exchanges": [
       {
-       "issuerAccountRS": "NXT-4VDY-LNVT-LMAY-FMCKA",
+       "issuerAccountRS": "BURST-4VDY-LNVT-LMAY-FMCKA",
        "seller": "15295723609781267838",
        "code": "MYSTX",
-       "sellerRS": "NXT-4VDY-LNVT-LMAY-FMCKA",
+       "sellerRS": "BURST-4VDY-LNVT-LMAY-FMCKA",
        "units": "5000",
        "issuanceHeight": 0,
        "type": 1,
        "rateNQT": "10000000",
        "buyer": "11580081983047651163",
        "offer": "17204924627068821879",
-       "buyerRS": "NXT-BMUV-8QQR-47VK-CR7F3",
+       "buyerRS": "BURST-BMUV-8QQR-47VK-CR7F3",
        "decimals": 2,
        "name": "MystcoinX",
        "currency": "6520756875632314476",
@@ -4115,7 +4115,7 @@ Monetary System Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getAvailableToBuy&
       currency=4855695375693311301&
       units=1
@@ -4135,7 +4135,7 @@ Monetary System Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getSellOffers&
       currency=6520756875632314476
 
@@ -4146,7 +4146,7 @@ Monetary System Operations
       {
        "offer": "4813417617929273983",
        "expirationHeight": 163125,
-       "accountRS": "NXT-4VDY-LNVT-LMAY-FMCKA",
+       "accountRS": "BURST-4VDY-LNVT-LMAY-FMCKA",
        "limit": "1000",
        "currency": "6520756875632314476",
        "supply": "500",
@@ -4164,7 +4164,7 @@ Monetary System Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getCurrencies&
       currencies=6520756875632314476
 
@@ -4190,7 +4190,7 @@ Monetary System Operations
        "type": 1,
        "reserveSupply": "0",
        "maxDifficulty": 0,
-       "accountRS": "NXT-4VDY-LNVT-LMAY-FMCKA",
+       "accountRS": "BURST-4VDY-LNVT-LMAY-FMCKA",
        "decimals": 2,
        "name": "MystcoinX",
        "numberOfExchanges": 12,
@@ -4208,9 +4208,9 @@ Monetary System Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getCurrenciesByIssuer&
-      account=NXT-4VDY-LNVT-LMAY-FMCKA
+      account=BURST-4VDY-LNVT-LMAY-FMCKA
 
 **Response:**
 
@@ -4235,7 +4235,7 @@ Monetary System Operations
         "type": 1,
         "reserveSupply": "0",
         "maxDifficulty": 0,
-        "accountRS": "NXT-4VDY-LNVT-LMAY-FMCKA",
+        "accountRS": "BURST-4VDY-LNVT-LMAY-FMCKA",
         "decimals": 2,
         "name": "MystcoinX",
         "numberOfExchanges": 12,
@@ -4254,7 +4254,7 @@ Monetary System Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getCurrency&
       code=MYSTX
 
@@ -4278,7 +4278,7 @@ Monetary System Operations
      "type": 1,
      "reserveSupply": "0",
      "maxDifficulty": 0,
-     "accountRS": "NXT-4VDY-LNVT-LMAY-FMCKA",
+     "accountRS": "BURST-4VDY-LNVT-LMAY-FMCKA",
      "decimals": 2,
      "name": "MystcoinX",
      "numberOfExchanges": 0,
@@ -4294,7 +4294,7 @@ Monetary System Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getCurrencyAccountCount&
       currency=6520756875632314476
 
@@ -4311,7 +4311,7 @@ Monetary System Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getCurrencyAccounts&
       currency=6520756875632314476
 
@@ -4321,14 +4321,14 @@ Monetary System Operations
      "accountCurrencies": [
       {
        "unconfirmedUnits": "9000",
-       "accountRS": "NXT-4VDY-LNVT-LMAY-FMCKA",
+       "accountRS": "BURST-4VDY-LNVT-LMAY-FMCKA",
        "currency": "6520756875632314476",
        "units": "9000",
        "account": "15295723609781267838"
       },
       {
        "unconfirmedUnits": "1000",
-       "accountRS": "NXT-BMUV-8QQR-47VK-CR7F3",
+       "accountRS": "BURST-BMUV-8QQR-47VK-CR7F3",
        "currency": "6520756875632314476",
        "units": "1000",
        "account": "11580081983047651163"
@@ -4343,7 +4343,7 @@ Monetary System Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getCurrencyFounders&
       currency=16165836410580103964
 
@@ -4352,7 +4352,7 @@ Monetary System Operations
     {
      "founders": [
       {
-       "accountRS": "NXT-4VDY-LNVT-LMAY-FMCKA",
+       "accountRS": "BURST-4VDY-LNVT-LMAY-FMCKA",
        "amountPerUnitNQT": "100000000",
        "currency": "16165836410580103964",
        "account": "15295723609781267838"
@@ -4367,7 +4367,7 @@ Monetary System Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getCurrencyIds&
       lastIndex=2
 
@@ -4388,7 +4388,7 @@ Monetary System Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getCurrencyTransfers&
       currency=9387514940677621191
 
@@ -4397,15 +4397,15 @@ Monetary System Operations
     {
      "transfers": [
       {
-       "issuerAccountRS": "NXT-4VDY-LNVT-LMAY-FMCKA",
+       "issuerAccountRS": "BURST-4VDY-LNVT-LMAY-FMCKA",
        "code": "MYSTX",
        "units": "10",
        "issuanceHeight": 0,
        "type": 1,
        "transfer": "12208608533071682262",
-       "senderRS": "NXT-4VDY-LNVT-LMAY-FMCKA",
+       "senderRS": "BURST-4VDY-LNVT-LMAY-FMCKA",
        "sender": "15295723609781267838",
-       "recipientRS": "NXT-BMUV-8QQR-47VK-CR7F3",
+       "recipientRS": "BURST-BMUV-8QQR-47VK-CR7F3",
        "decimals": 2,
        "recipient": "11580081983047651163",
        "name": "MystcoinX",
@@ -4424,7 +4424,7 @@ Monetary System Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getExchanges&
       currency=6520756875632314476
 
@@ -4433,17 +4433,17 @@ Monetary System Operations
     {
      "exchanges": [
       {
-       "issuerAccountRS": "NXT-4VDY-LNVT-LMAY-FMCKA",
+       "issuerAccountRS": "BURST-4VDY-LNVT-LMAY-FMCKA",
        "seller": "15295723609781267838",
        "code": "MYSTX",
-       "sellerRS": "NXT-4VDY-LNVT-LMAY-FMCKA",
+       "sellerRS": "BURST-4VDY-LNVT-LMAY-FMCKA",
        "units": "1",
        "issuanceHeight": 0,
        "type": 1,
        "rateNQT": "1500000000",
        "buyer": "11580081983047651163",
        "offer": "7762792906174207279",
-       "buyerRS": "NXT-BMUV-8QQR-47VK-CR7F3",
+       "buyerRS": "BURST-BMUV-8QQR-47VK-CR7F3",
        "decimals": 2,
        "name": "MystcoinX",
        "currency": "6520756875632314476",
@@ -4463,7 +4463,7 @@ Monetary System Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getExchangesByExchangeRequest&
       transaction=12589829502215822061
 
@@ -4472,17 +4472,17 @@ Monetary System Operations
     {
      "exchanges": [
       {
-       "issuerAccountRS": "NXT-4VDY-LNVT-LMAY-FMCKA",
+       "issuerAccountRS": "BURST-4VDY-LNVT-LMAY-FMCKA",
        "seller": "15295723609781267838",
        "code": "MYSTX",
-       "sellerRS": "NXT-4VDY-LNVT-LMAY-FMCKA",
+       "sellerRS": "BURST-4VDY-LNVT-LMAY-FMCKA",
        "units": "1",
        "issuanceHeight": 0,
        "type": 1,
        "rateNQT": "1500000000",
        "buyer": "11580081983047651163",
        "offer": "7762792906174207279",
-       "buyerRS": "NXT-BMUV-8QQR-47VK-CR7F3",
+       "buyerRS": "BURST-BMUV-8QQR-47VK-CR7F3",
        "decimals": 2,
        "name": "MystcoinX",
        "currency": "6520756875632314476",
@@ -4502,7 +4502,7 @@ Monetary System Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getExchangesByOffer&
       offer=7762792906174207279
 
@@ -4511,17 +4511,17 @@ Monetary System Operations
     {
      "exchanges": [
       {
-       "issuerAccountRS": "NXT-4VDY-LNVT-LMAY-FMCKA",
+       "issuerAccountRS": "BURST-4VDY-LNVT-LMAY-FMCKA",
        "seller": "15295723609781267838",
        "code": "MYSTX",
-       "sellerRS": "NXT-4VDY-LNVT-LMAY-FMCKA",
+       "sellerRS": "BURST-4VDY-LNVT-LMAY-FMCKA",
        "units": "1",
        "issuanceHeight": 0,
        "type": 1,
        "rateNQT": "1500000000",
        "buyer": "11580081983047651163",
        "offer": "7762792906174207279",
-       "buyerRS": "NXT-BMUV-8QQR-47VK-CR7F3",
+       "buyerRS": "BURST-BMUV-8QQR-47VK-CR7F3",
        "decimals": 2,
        "name": "MystcoinX",
        "currency": "6520756875632314476",
@@ -4541,7 +4541,7 @@ Monetary System Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getLastExchanges&
       currencies=12366259387060174981
 
@@ -4552,8 +4552,8 @@ Monetary System Operations
       {
        "offer": "1659323201112235372",
        "seller": "15295723609781267838",
-       "buyerRS": "NXT-4VDY-LNVT-LMAY-FMCKA",
-       "sellerRS": "NXT-4VDY-LNVT-LMAY-FMCKA",
+       "buyerRS": "BURST-4VDY-LNVT-LMAY-FMCKA",
+       "sellerRS": "BURST-4VDY-LNVT-LMAY-FMCKA",
        "currency": "12366259387060174981",
        "block": "15911141024340031754",
        "units": "2",
@@ -4573,10 +4573,10 @@ Monetary System Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getMintingTarget&
       currency=9207767346829573996&
-      account=NXT-4VDY-LNVT-LMAY-FMCKA&
+      account=BURST-4VDY-LNVT-LMAY-FMCKA&
       units=1
 
 **Response:**
@@ -4595,7 +4595,7 @@ Monetary System Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getOffer&
       offer=4813417617929273983
 
@@ -4605,7 +4605,7 @@ Monetary System Operations
      "sellOffer": {
       "offer": "4813417617929273983",
       "expirationHeight": 163125,
-      "accountRS": "NXT-4VDY-LNVT-LMAY-FMCKA",
+      "accountRS": "BURST-4VDY-LNVT-LMAY-FMCKA",
       "limit": "1000",
       "currency": "6520756875632314476",
       "supply": "500",
@@ -4616,7 +4616,7 @@ Monetary System Operations
      "buyOffer": {
       "offer": "4813417617929273983",
       "expirationHeight": 163125,
-      "accountRS": "NXT-4VDY-LNVT-LMAY-FMCKA",
+      "accountRS": "BURST-4VDY-LNVT-LMAY-FMCKA",
       "limit": "1000",
       "currency": "6520756875632314476",
       "supply": "500",
@@ -4633,7 +4633,7 @@ Monetary System Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=issueCurrency&
       name=MystcoinX&
       code=MYSTX&
@@ -4677,7 +4677,7 @@ Monetary System Operations
        "maxSupply": "10000",
        "algorithm": 0
       },
-      "senderRS": "NXT-4VDY-LNVT-LMAY-FMCKA",
+      "senderRS": "BURST-4VDY-LNVT-LMAY-FMCKA",
       "subtype": 0,
       "amountNQT": "0",
       "sender": "15295723609781267838",
@@ -4700,7 +4700,7 @@ Monetary System Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=publishExchangeOffer&
       currency=6520756875632314476&
       buyRateNQT=10000000&
@@ -4739,7 +4739,7 @@ Monetary System Operations
        "currency": "6520756875632314476",
        "initialBuySupply": "500"
       },
-      "senderRS": "NXT-4VDY-LNVT-LMAY-FMCKA",
+      "senderRS": "BURST-4VDY-LNVT-LMAY-FMCKA",
       "subtype": 4,
       "amountNQT": "0",
       "sender": "15295723609781267838",
@@ -4761,7 +4761,7 @@ Monetary System Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=searchCurrencies&
       query=MYST?
 
@@ -4787,7 +4787,7 @@ Monetary System Operations
        "type": 1,
        "reserveSupply": "0",
        "maxDifficulty": 0,
-       "accountRS": "NXT-4VDY-LNVT-LMAY-FMCKA",
+       "accountRS": "BURST-4VDY-LNVT-LMAY-FMCKA",
        "decimals": 2,
        "name": "MystcoinX",
        "numberOfExchanges": 0,
@@ -4805,9 +4805,9 @@ Monetary System Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=transferCurrency&
-      recipient=NXT-BMUV-8QQR-47VK-CR7F3&
+      recipient=BURST-BMUV-8QQR-47VK-CR7F3&
       currency=9387514940677621191&
       units=10
 
@@ -4830,11 +4830,11 @@ Monetary System Operations
        "version.CurrencyTransfer": 1,
        "units": "10"
       },
-      "senderRS": "NXT-4VDY-LNVT-LMAY-FMCKA",
+      "senderRS": "BURST-4VDY-LNVT-LMAY-FMCKA",
       "subtype": 3,
       "amountNQT": "0",
       "sender": "15295723609781267838",
-      "recipientRS": "NXT-BMUV-8QQR-47VK-CR7F3",
+      "recipientRS": "BURST-BMUV-8QQR-47VK-CR7F3",
       "recipient": "11580081983047651163",
       "ecBlockHeight": 159721,
       "deadline": 60,
@@ -4858,7 +4858,7 @@ Networking Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=addPeer&
       peer=nxt9.webice.ru
 
@@ -4887,7 +4887,7 @@ Networking Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=blacklistAPIProxyPeer&
       peer=52.0.72.67
 
@@ -4904,7 +4904,7 @@ Networking Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=blacklistPeer&
       peer=nxt9.webice.ru
 
@@ -4921,7 +4921,7 @@ Networking Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getInboundPeers
 
 **Response:**
@@ -4937,7 +4937,7 @@ Networking Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getMyInfo
 
 **Response:**
@@ -4954,7 +4954,7 @@ Networking Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getPeer&
       peer=nxtx.ru
 
@@ -4988,7 +4988,7 @@ Networking Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getPeers&
       state=DISCONNECTED
 
@@ -5008,7 +5008,7 @@ Networking Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=setAPIProxyPeer&
       peer=163.172.154.74
 
@@ -5026,7 +5026,7 @@ Networking Operations
       ],
      "requestProcessingTime":77,
      "version":"1.11.5",
-     "platform":"NXT-TGFQ-U33C-C37U-CMKWF",
+     "platform":"BURST-TGFQ-U33C-C37U-CMKWF",
      "inboundWebSocket":false,
      "apiSSLPort":7878,
      "lastUpdated":112610887,
@@ -5050,7 +5050,7 @@ Phasing Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=approveTransaction&
       transactionFullHash=5016cc59b0665675f00513e8c647288e0a668a78c4964c84d0de8f768b89060a&
       revealedSecretText=secret&
@@ -5079,7 +5079,7 @@ Phasing Operations
        "version.PhasingVoteCasting": 1,
        "revealedSecret": "736563726574"
       },
-      "senderRS": "NXT-4VDY-LNVT-LMAY-FMCKA",
+      "senderRS": "BURST-4VDY-LNVT-LMAY-FMCKA",
       "subtype": 9,
       "amountNQT": "0",
       "sender": "15295723609781267838",
@@ -5103,9 +5103,9 @@ Phasing Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=sendMoney&
-      recipient=NXT-BMUV-8QQR-47VK-CR7F3&
+      recipient=BURST-BMUV-8QQR-47VK-CR7F3&
       secretPhrase=secretPhrase&
       feeNQT=200000000&
       deadline=60&
@@ -5138,11 +5138,11 @@ Phasing Operations
        "version.OrdinaryPayment": 0,
        "phasingVotingModel": 0
       },
-      "senderRS": "NXT-4VDY-LNVT-LMAY-FMCKA",
+      "senderRS": "BURST-4VDY-LNVT-LMAY-FMCKA",
       "subtype": 0,
       "amountNQT": "2000000000",
       "sender": "15295723609781267838",
-      "recipientRS": "NXT-BMUV-8QQR-47VK-CR7F3",
+      "recipientRS": "BURST-BMUV-8QQR-47VK-CR7F3",
       "recipient": "11580081983047651163",
       "ecBlockHeight": 261454,
       "deadline": 60,
@@ -5164,7 +5164,7 @@ Phasing Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getAccountPhasedTransactionCount&
       account=15295723609781267838
 
@@ -5181,7 +5181,7 @@ Phasing Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getAccountPhasedTransactions&
       account=15295723609781267838&
       lastIndex=0
@@ -5208,10 +5208,10 @@ Phasing Operations
         "version.OrdinaryPayment": 0,
         "phasingVotingModel": 2
        },
-       "senderRS": "NXT-4VDY-LNVT-LMAY-FMCKA",
+       "senderRS": "BURST-4VDY-LNVT-LMAY-FMCKA",
        "subtype": 0,
        "amountNQT": "500000000",
-       "recipientRS": "NXT-BMUV-8QQR-47VK-CR7F3",
+       "recipientRS": "BURST-BMUV-8QQR-47VK-CR7F3",
        "block": "11015494088798322289",
        "blockTimestamp": 43957876,
        "deadline": 60,
@@ -5236,7 +5236,7 @@ Phasing Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getAssetPhasedTransactions&
       asset=17091401215301664836
 
@@ -5262,10 +5262,10 @@ Phasing Operations
         "version.OrdinaryPayment": 0,
         "phasingVotingModel": 2
        },
-       "senderRS": "NXT-4VDY-LNVT-LMAY-FMCKA",
+       "senderRS": "BURST-4VDY-LNVT-LMAY-FMCKA",
        "subtype": 0,
        "amountNQT": "500000000",
-       "recipientRS": "NXT-BMUV-8QQR-47VK-CR7F3",
+       "recipientRS": "BURST-BMUV-8QQR-47VK-CR7F3",
        "block": "11015494088798322289",
        "blockTimestamp": 43957876,
        "deadline": 60,
@@ -5290,7 +5290,7 @@ Phasing Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getCurrencyPhasedTransactions&
       currency=12366259387060174981
 
@@ -5316,10 +5316,10 @@ Phasing Operations
         "version.OrdinaryPayment": 0,
         "phasingVotingModel": 3
        },
-       "senderRS": "NXT-4VDY-LNVT-LMAY-FMCKA",
+       "senderRS": "BURST-4VDY-LNVT-LMAY-FMCKA",
        "subtype": 0,
        "amountNQT": "800000000",
-       "recipientRS": "NXT-BMUV-8QQR-47VK-CR7F3",
+       "recipientRS": "BURST-BMUV-8QQR-47VK-CR7F3",
        "block": "699750272975612223",
        "blockTimestamp": 44042909,
        "deadline": 60,
@@ -5344,7 +5344,7 @@ Phasing Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getLinkedPhasedTransactions&
       linkedFullHash=083eba49bb481c38752a14493f0d40b3c60635935f13dd1fb33f6831fb997079
 
@@ -5376,10 +5376,10 @@ Phasing Operations
         "version.OrdinaryPayment": 0,
         "phasingVotingModel": 4
        },
-       "senderRS": "NXT-7A48-47JL-T7LD-D5FS3",
+       "senderRS": "BURST-7A48-47JL-T7LD-D5FS3",
        "subtype": 0,
        "amountNQT": "500000000",
-       "recipientRS": "NXT-5MYN-AP7M-NKMH-CRQJZ",
+       "recipientRS": "BURST-5MYN-AP7M-NKMH-CRQJZ",
        "block": "13425992991123879393",
        "blockTimestamp": 80870662,
        "deadline": 1440,
@@ -5404,7 +5404,7 @@ Phasing Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getPhasingPoll&
       transaction=15402897900571339064
 
@@ -5417,11 +5417,11 @@ Phasing Operations
      "finished": true,
      "whitelist": [
       {
-       "whitelistedRS": "NXT-BMUV-8QQR-47VK-CR7F3",
+       "whitelistedRS": "BURST-BMUV-8QQR-47VK-CR7F3",
        "whitelisted": "11580081983047651163"
       },
       {
-       "whitelistedRS": "NXT-4VDY-LNVT-LMAY-FMCKA",
+       "whitelistedRS": "BURST-4VDY-LNVT-LMAY-FMCKA",
        "whitelisted": "15295723609781267838"
       }
      ],
@@ -5429,7 +5429,7 @@ Phasing Operations
      "result": "2",
      "approved": true,
      "minBalance": "0",
-     "accountRS": "NXT-4VDY-LNVT-LMAY-FMCKA",
+     "accountRS": "BURST-4VDY-LNVT-LMAY-FMCKA",
      "finishHeight": 259600,
      "minBalanceModel": 0,
      "transaction": "15402897900571339064",
@@ -5443,7 +5443,7 @@ Phasing Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getPhasingPollVote&
       transaction=12580288379938056583&
       account=15295723609781267838
@@ -5451,7 +5451,7 @@ Phasing Operations
 **Response:**
 
     {
-     "voterRS": "NXT-4VDY-LNVT-LMAY-FMCKA",
+     "voterRS": "BURST-4VDY-LNVT-LMAY-FMCKA",
      "voter": "15295723609781267838",
      "requestProcessingTime": 1,
      "transaction": "9761138556025135837"
@@ -5463,7 +5463,7 @@ Phasing Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getPhasingPollVotes&
       account=12580288379938056583
 
@@ -5472,7 +5472,7 @@ Phasing Operations
     {
      "votes": [
       {
-       "voterRS": "NXT-4VDY-LNVT-LMAY-FMCKA",
+       "voterRS": "BURST-4VDY-LNVT-LMAY-FMCKA",
        "voter": "15295723609781267838",
        "transaction": "9761138556025135837"
       }
@@ -5486,7 +5486,7 @@ Phasing Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getPhasingPolls&
       transaction=12580288379938056583&
       transaction=13688769565509711077&
@@ -5505,7 +5505,7 @@ Phasing Operations
        "result": "186700000000",
        "approved": true,
        "minBalance": "10000000000",
-       "accountRS": "NXT-4VDY-LNVT-LMAY-FMCKA",
+       "accountRS": "BURST-4VDY-LNVT-LMAY-FMCKA",
        "finishHeight": 262450,
        "minBalanceModel": 1,
        "transaction": "12580288379938056583",
@@ -5522,7 +5522,7 @@ Phasing Operations
        "holding": "17091401215301664836",
        "approved": true,
        "minBalance": "100",
-       "accountRS": "NXT-4VDY-LNVT-LMAY-FMCKA",
+       "accountRS": "BURST-4VDY-LNVT-LMAY-FMCKA",
        "finishHeight": 262450,
        "minBalanceModel": 2,
        "transaction": "13688769565509711077",
@@ -5539,7 +5539,7 @@ Phasing Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getVoterPhasedTransactions&
       account=15295723609781267838
 
@@ -5569,10 +5569,10 @@ Phasing Operations
         "version.OrdinaryPayment": 0,
         "phasingVotingModel": 0
        },
-       "senderRS": "NXT-4VDY-LNVT-LMAY-FMCKA",
+       "senderRS": "BURST-4VDY-LNVT-LMAY-FMCKA",
        "subtype": 0,
        "amountNQT": "1100000000",
-       "recipientRS": "NXT-BMUV-8QQR-47VK-CR7F3",
+       "recipientRS": "BURST-BMUV-8QQR-47VK-CR7F3",
        "block": "16550954176569210781",
        "blockTimestamp": 44074579,
        "deadline": 1440,
@@ -5600,7 +5600,7 @@ Server Information Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=eventRegister
 
 **Response:**
@@ -5616,7 +5616,7 @@ Server Information Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=eventWait
 
 **Response:**
@@ -5649,7 +5649,7 @@ Server Information Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getBlockchainStatus
 
 **Response:**
@@ -5679,7 +5679,7 @@ Server Information Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getConstants
 
 **Response:**
@@ -8531,7 +8531,7 @@ Server Information Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getPlugins
 
 **Response:**
@@ -8549,7 +8549,7 @@ Server Information Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getState
 
 **Response:**
@@ -8613,7 +8613,7 @@ Server Information Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getTime
 
 **Response:**
@@ -8632,9 +8632,9 @@ Shuffling Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
      getAccountShufflings&
-     account=NXT-UZNP-6LBA-YQ38-3TEY8
+     account=BURST-UZNP-6LBA-YQ38-3TEY8
 
 **Response:**
 
@@ -8650,11 +8650,11 @@ Shuffling Operations
        "stage": 0,
        "holdingType": 0,
        "participantCount": 7,
-       "assigneeRS": "NXT-UZNP-6LBA-YQ38-3TEY8",
+       "assigneeRS": "BURST-UZNP-6LBA-YQ38-3TEY8",
        "shuffling": "5901270965262160574",
        "registrantCount": 2,
        "assignee": "1403321141259239061",
-       "issuerRS": "NXT-V4WY-U928-GRN8-CKPL9",
+       "issuerRS": "BURST-V4WY-U928-GRN8-CKPL9",
        "shufflingFullHash": "be12c737ad86e551621f57ebddaaaa61e66cf0a206fabfe40538304ff674c7a7"
       }
      ]
@@ -8666,7 +8666,7 @@ Shuffling Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
      requestType=getAllShufflings
 
 **Response:**
@@ -8683,11 +8683,11 @@ Shuffling Operations
        "stage": 0,
        "holdingType": 0,
        "participantCount": 5,
-       "assigneeRS": "NXT-V4WY-U928-GRN8-CKPL9",
+       "assigneeRS": "BURST-V4WY-U928-GRN8-CKPL9",
        "shuffling": "2439058250271679131",
        "registrantCount": 3,
        "assignee": "11802441287912491934",
-       "issuerRS": "NXT-J52W-4BF7-L4J9-GEGMG",
+       "issuerRS": "BURST-J52W-4BF7-L4J9-GEGMG",
        "shufflingFullHash": "9be2ed518e46d921df9f9f6425cc16a399f72a7833c58dbeb2a261e04620c392"
       }
      ]
@@ -8699,9 +8699,9 @@ Shuffling Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
      requestType=getAssignedShufflings&
-     account=NXT-V4WY-U928-GRN8-CKPL9
+     account=BURST-V4WY-U928-GRN8-CKPL9
 
 **Response:**
 
@@ -8715,11 +8715,11 @@ Shuffling Operations
      "stage": 1,
      "holdingType": 0,
      "participantCount": 5,
-     "assigneeRS": "NXT-V4WY-U928-GRN8-CKPL9",
+     "assigneeRS": "BURST-V4WY-U928-GRN8-CKPL9",
      "shuffling": "2439058250271679131",
      "registrantCount": 5,
      "assignee": "11802441287912491934",
-     "issuerRS": "NXT-J52W-4BF7-L4J9-GEGMG",
+     "issuerRS": "BURST-J52W-4BF7-L4J9-GEGMG",
      "shufflingFullHash": "9be2ed518e46d921df9f9f6425cc16a399..."
     }
 
@@ -8729,7 +8729,7 @@ Shuffling Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
      requestType=getHoldingShufflings&
      holding=15344649963748848799&
      includeFinished=true
@@ -8750,7 +8750,7 @@ Shuffling Operations
        "shuffling": "144176732027925694",
        "registrantCount": 1,
        "issuer": "17417706268123203912",
-       "issuerRS": "NXT-A4CA-L7JT-ZYGU-HZ2G5",
+       "issuerRS": "BURST-A4CA-L7JT-ZYGU-HZ2G5",
        "shufflingFullHash": "beb46651f937000259819298872f1721170a4c2e1af7f7900cb2ca01188fd942"
       }
      ]
@@ -8762,7 +8762,7 @@ Shuffling Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
      requestType=getShufflers&
      adminPassword=IWontTellYou
 
@@ -8771,8 +8771,8 @@ Shuffling Operations
     {
      "shufflers": [
       {
-       "accountRS": "NXT-7A48-47JL-T7LD-D5FS3",
-       "recipientRS": "NXT-H42E-48UL-FM7A-AVEC2",
+       "accountRS": "BURST-7A48-47JL-T7LD-D5FS3",
+       "recipientRS": "BURST-H42E-48UL-FM7A-AVEC2",
        "recipient": "9235083011255928844",
        "shuffling": "9534657251385467319",
        "account": "12745647715474645062",
@@ -8788,7 +8788,7 @@ Shuffling Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
      requestType=getShuffling&
      shuffling=3347171811359602131
 
@@ -8804,11 +8804,11 @@ Shuffling Operations
      "stage": 0,
      "holdingType": 0,
      "participantCount": 5,
-     "assigneeRS": "NXT-V4WY-U928-GRN8-CKPL9",
+     "assigneeRS": "BURST-V4WY-U928-GRN8-CKPL9",
      "shuffling": "3347171811359602131",
      "registrantCount": 2,
      "assignee": "11802441287912491934",
-     "issuerRS": "NXT-PFLP-BQHY-NG4J-BXG5C",
+     "issuerRS": "BURST-PFLP-BQHY-NG4J-BXG5C",
      "shufflingFullHash": "d3354a42078b732e16561b67a37d699d0410c564a4d18568319170665bf5dd9b"
     }
 
@@ -8818,7 +8818,7 @@ Shuffling Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
      requestType=getShufflingParticipants&
      shuffling=16292433427943984172
 
@@ -8828,32 +8828,32 @@ Shuffling Operations
      "requestProcessingTime": 5,
      "participants": [
       {
-       "nextAccountRS": "NXT-KTTY-WRE6-2B5Y-4CYWR",
-       "accountRS": "NXT-3ZXY-KWR5-LR8V-2PYAT",
+       "nextAccountRS": "BURST-KTTY-WRE6-2B5Y-4CYWR",
+       "accountRS": "BURST-3ZXY-KWR5-LR8V-2PYAT",
        "shuffling": "16292433427943984172",
        "state": 2,
        "nextAccount": "3167098051496568638",
        "account": "910806360590974910"
       },
       {
-       "nextAccountRS": "NXT-L8VW-NRUG-LZ6Q-62WWW",
-       "accountRS": "NXT-KTTY-WRE6-2B5Y-4CYWR",
+       "nextAccountRS": "BURST-L8VW-NRUG-LZ6Q-62WWW",
+       "accountRS": "BURST-KTTY-WRE6-2B5Y-4CYWR",
        "shuffling": "16292433427943984172",
        "state": 2,
        "nextAccount": "5653003407546981244",
        "account": "3167098051496568638"
       },
       {
-       "nextAccountRS": "NXT-XC7L-35JW-FZCL-24NUT",
-       "accountRS": "NXT-L8VW-NRUG-LZ6Q-62WWW",
+       "nextAccountRS": "BURST-XC7L-35JW-FZCL-24NUT",
+       "accountRS": "BURST-L8VW-NRUG-LZ6Q-62WWW",
        "shuffling": "16292433427943984172",
        "state": 2,
        "nextAccount": "930699247665195186",
        "account": "5653003407546981244"
       },
       {
-       "nextAccountRS": "NXT-2222-2222-2222-22222",
-       "accountRS": "NXT-XC7L-35JW-FZCL-24NUT",
+       "nextAccountRS": "BURST-2222-2222-2222-22222",
+       "accountRS": "BURST-XC7L-35JW-FZCL-24NUT",
        "shuffling": "16292433427943984172",
        "state": 2,
        "nextAccount": "0",
@@ -8868,7 +8868,7 @@ Shuffling Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
      requestType=shufflingCreate&
      amount=10000000000000&
      participantCount=7&
@@ -8900,7 +8900,7 @@ Shuffling Operations
       "participantCount": 7,
       "version.ShufflingCreation": 1
      },
-     "senderRS": "NXT-V4WY-U928-GRN8-CKPL9",
+     "senderRS": "BURST-V4WY-U928-GRN8-CKPL9",
      "subtype": 0,
      "amountNQT": "0",
      "sender": "11802441287912491934",
@@ -8919,7 +8919,7 @@ Shuffling Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
      requestType=shufflingProcess&
      shuffling=12144660700617510957&
      recipientSecretPhrase=IWontTellYou&
@@ -8950,7 +8950,7 @@ Shuffling Operations
         "version.ShufflingProcessing": 1,
         "hash": "2e3cecabbf59a47d55399649be89d1bcd1b56264dca32cb269f88b30cbe2c262"
        },
-       "senderRS": "NXT-V4WY-U928-GRN8-CKPL9",
+       "senderRS": "BURST-V4WY-U928-GRN8-CKPL9",
        "subtype": 2,
        "amountNQT": "0",
        "sender": "11802441287912491934",
@@ -8969,7 +8969,7 @@ Shuffling Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
      requestType=shufflingVerify&
      shuffling=12144660700617510957&
      shufflingStateHash=90832470918374087102938470198234&
@@ -8998,7 +8998,7 @@ Shuffling Operations
       "shuffling": "12144660700617510957",
       "shufflingStateHash": "fbc8b99c99c4e09203f1237771e38c7ee484c18a72572c3d1adae04da858fe92"
      },
-     "senderRS": "NXT-KHDF-9KSG-2UCY-BUQZ4",
+     "senderRS": "BURST-KHDF-9KSG-2UCY-BUQZ4",
      "subtype": 4,
      "amountNQT": "0",
      "sender": "10484056935692287341",
@@ -9017,7 +9017,7 @@ Shuffling Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
      requestType=shufflingRegister&
      shufflingFullHash=2d10f4e18f808aa8d0de06d5cddcd77828eb6e7548f62e48de83f58fdf0629d5&
      secretPhrase=IWontTellYou&
@@ -9043,7 +9043,7 @@ Shuffling Operations
       "version.ShufflingRegistration": 1,
       "shufflingFullHash": "2d10f4e18f808aa8d0de06d5cddcd77828eb6e7..."
      },
-     "senderRS": "NXT-D78H-8QHV-DEP2-5TAGA",
+     "senderRS": "BURST-D78H-8QHV-DEP2-5TAGA",
      "subtype": 1,
      "amountNQT": "0",
      "sender": "3763066681748198607",
@@ -9062,7 +9062,7 @@ Shuffling Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
      requestType=startShuffler&
      shufflingFullHash=2d10f4e18f808aa8d0de06d5cddcd77828eb6e7548f62e48de83f58fdf0629d5&
      secretPhrase=IWontTellYou&
@@ -9074,9 +9074,9 @@ Shuffling Operations
      "shuffling": "12144660700617510957",
      "shufflingFullHash": "2d10f4e18f808aa8d0de06d5cddcd77828eb6e7548f62e48de83f58fdf0629d5",
      "account": "11802441287912491934",
-     "accountRS": "NXT-V4WY-U928-GRN8-CKPL9",
+     "accountRS": "BURST-V4WY-U928-GRN8-CKPL9",
      "recipient": "3763066681748198607",
-     "recipientRS": "NXT-D78H-8QHV-DEP2-5TAGA",
+     "recipientRS": "BURST-D78H-8QHV-DEP2-5TAGA",
      "requestProcessingTime": 7
     }
 
@@ -9086,7 +9086,7 @@ Shuffling Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
      requestType=stopShuffler&
      shufflingFullHash=2d10f4e18f808aa8d0de06d5cddcd77828eb6e7548f62e48de83f58fdf0629d5&
      secretPhrase=IWontTellYou
@@ -9107,7 +9107,7 @@ Tagged Data Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=downloadTaggedData&
       transaction=9169681701986886056
 
@@ -9121,7 +9121,7 @@ Tagged Data Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=extendTaggedData&
       transaction=9086193976300572942&
       secretPhrase=secretPhrase&
@@ -9154,7 +9154,7 @@ Tagged Data Operations
        "isText": true,
        "tags": "video, scifi, torrent"
       },
-      "senderRS": "NXT-4VDY-LNVT-LMAY-FMCKA",
+      "senderRS": "BURST-4VDY-LNVT-LMAY-FMCKA",
       "subtype": 1,
       "amountNQT": "0",
       "sender": "15295723609781267838",
@@ -9178,9 +9178,9 @@ Tagged Data Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getAccountTaggedData&
-      account=NXT-4VDY-LNVT-LMAY-FMCKA&
+      account=BURST-4VDY-LNVT-LMAY-FMCKA&
       lastIndex=0
 
 **Response:**
@@ -9200,7 +9200,7 @@ Tagged Data Operations
        "transactionTimestamp": 47843875,
        "tags": "video, scifi, torrent",
        "filename": "",
-       "accountRS": "NXT-4VDY-LNVT-LMAY-FMCKA",
+       "accountRS": "BURST-4VDY-LNVT-LMAY-FMCKA",
        "name": "Stargate SG1 full series",
        "blockTimestamp": 47672045,
        "transaction": "9086193976300572942",
@@ -9217,7 +9217,7 @@ Tagged Data Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getAllTaggedData&
       lastIndex=0
 
@@ -9239,7 +9239,7 @@ Tagged Data Operations
        "transactionTimestamp": 47843875,
        "tags": "video, scifi, torrent",
        "filename": "",
-       "accountRS": "NXT-4VDY-LNVT-LMAY-FMCKA",
+       "accountRS": "BURST-4VDY-LNVT-LMAY-FMCKA",
        "name": "Stargate SG1 full series",
        "blockTimestamp": 47672045,
        "transaction": "9086193976300572942",
@@ -9255,7 +9255,7 @@ Tagged Data Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getChannelTaggedData&
       channel=torrent&
       lastIndex=0
@@ -9277,7 +9277,7 @@ Tagged Data Operations
        "transactionTimestamp": 47843875,
        "tags": "video, scifi, torrent",
        "filename": "",
-       "accountRS": "NXT-4VDY-LNVT-LMAY-FMCKA",
+       "accountRS": "BURST-4VDY-LNVT-LMAY-FMCKA",
        "name": "Stargate SG1 full series",
        "blockTimestamp": 47672045,
        "transaction": "9086193976300572942",
@@ -9294,7 +9294,7 @@ Tagged Data Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getDataTagCount
 
 **Response:**
@@ -9310,7 +9310,7 @@ Tagged Data Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getDataTags
 
 **Response:**
@@ -9339,7 +9339,7 @@ Tagged Data Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getDataTagsLike&
       tagPrefix=sci
 
@@ -9361,7 +9361,7 @@ Tagged Data Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getTaggedData&
       transaction=9086193976300572942
 
@@ -9381,7 +9381,7 @@ Tagged Data Operations
      "transactionTimestamp": 47843875,
      "tags": "video, scifi, torrent",
      "filename": "",
-     "accountRS": "NXT-4VDY-LNVT-LMAY-FMCKA",
+     "accountRS": "BURST-4VDY-LNVT-LMAY-FMCKA",
      "name": "Stargate SG1 full series",
      "blockTimestamp": 47672045,
      "transaction": "9086193976300572942",
@@ -9395,7 +9395,7 @@ Tagged Data Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getTaggedDataExtendTransactions&
       transaction=4344513120863790923
 
@@ -9415,7 +9415,7 @@ Tagged Data Operations
           "phased": false,
           "ecBlockId": "14132969248050944989",
           "signatureHash": "2ed7b6a5d579a66596409b2619375fa0edd54ace2e7d10f0bdbc0a7126f1776c",
-          "senderRS": "NXT-G885-AKDX-5G2B-BLUCG",
+          "senderRS": "BURST-G885-AKDX-5G2B-BLUCG",
           "subtype": 1,
           "amountNQT": "0",
           "sender": "10892890577210644675",
@@ -9437,7 +9437,7 @@ Tagged Data Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=searchTaggedData&
       query=SG?&
       lastIndex=0
@@ -9459,7 +9459,7 @@ Tagged Data Operations
        "transactionTimestamp": 47843875,
        "tags": "video, scifi, torrent",
        "filename": "",
-       "accountRS": "NXT-4VDY-LNVT-LMAY-FMCKA",
+       "accountRS": "BURST-4VDY-LNVT-LMAY-FMCKA",
        "name": "Stargate SG1 full series",
        "blockTimestamp": 47672045,
        "transaction": "9086193976300572942",
@@ -9476,7 +9476,7 @@ Tagged Data Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=uploadTaggedData&
       data=d4f167249340d6d746f49441b8ccdb1bd3521feb&
       name=Stargate SG1 full series&
@@ -9513,7 +9513,7 @@ Tagged Data Operations
        "hash": "06fbac5b5358c00f5a2f19789b06220dca4e242a851b70072633a06ae8e6fb46",
        "tags": "video, scifi, torrent"
       },
-      "senderRS": "NXT-4VDY-LNVT-LMAY-FMCKA",
+      "senderRS": "BURST-4VDY-LNVT-LMAY-FMCKA",
       "subtype": 0,
       "amountNQT": "0",
       "sender": "15295723609781267838",
@@ -9537,7 +9537,7 @@ Tagged Data Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=verifyTaggedData&
       transaction=9086193976300572942&
       data=d4f167249340d6d746f49441b8ccdb1bd3521feb&
@@ -9564,20 +9564,20 @@ Token Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=decodeFileToken&
       file=test.txt&
       token=u8q9ps0gdoo2bl158p4llpar583ld0cgejat9qnrgrgde4l5uscgan7fu25hi...
 
 The request is shown above in URL format for consistency. The actual request must be an HTTP POST request with a multipart content type. For example, the corresponding cURL command is as follows:
 
-    curl -F requestType=generateFileToken -F file=@test.txt -F secretPhrase="secretPhrase" http://localhost:7876/nxt
+    curl -F requestType=generateFileToken -F file=@test.txt -F secretPhrase="secretPhrase" http://localhost:8125/burst
 
 **Response:**
 
     {
     "valid": true,
-    "accountRS": "NXT-4VDY-LNVT-LMAY-FMCKA",
+    "accountRS": "BURST-4VDY-LNVT-LMAY-FMCKA",
     "requestProcessingTime": 3,
     "account": "15295723609781267838",
     "timestamp": 49748229
@@ -9589,7 +9589,7 @@ The request is shown above in URL format for consistency. The actual request mus
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=decodeToken&
       website=test&
       token=u8q9ps0gdoo2bl158p4llpar583ld0cgejat9qnrgrgde4l5ut8bgn...
@@ -9598,7 +9598,7 @@ The request is shown above in URL format for consistency. The actual request mus
 
     {
      "valid": true,
-     "accountRS": "NXT-4VDY-LNVT-LMAY-FMCKA",
+     "accountRS": "BURST-4VDY-LNVT-LMAY-FMCKA",
      "requestProcessingTime": 2,
      "account": "15295723609781267838",
      "timestamp": 49762488
@@ -9610,20 +9610,20 @@ The request is shown above in URL format for consistency. The actual request mus
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=generateFileToken&
       secretPhrase=secretPhrase&
       file=test.txt
 
 The request is shown above in URL format for consistency. The actual request must be an HTTP POST request with a multipart content type. For example, the corresponding cURL command is as follows:
 
-    curl -F requestType=generateFileToken -F file=@test.txt -F secretPhrase="secretPhrase" http://localhost:7876/nxt
+    curl -F requestType=generateFileToken -F file=@test.txt -F secretPhrase="secretPhrase" http://localhost:8125/burst
 
 **Response:**
 
     {
     "valid": true,
-    "accountRS": "NXT-4VDY-LNVT-LMAY-FMCKA",
+    "accountRS": "BURST-4VDY-LNVT-LMAY-FMCKA",
     "requestProcessingTime": 4,
     "account": "15295723609781267838",
     "timestamp": 49748229,
@@ -9636,7 +9636,7 @@ The request is shown above in URL format for consistency. The actual request mus
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=generateToken&
       secretPhrase=secretPhrase&
       website=test
@@ -9645,7 +9645,7 @@ The request is shown above in URL format for consistency. The actual request mus
 
     {
      "valid": true,
-     "accountRS": "NXT-4VDY-LNVT-LMAY-FMCKA",
+     "accountRS": "BURST-4VDY-LNVT-LMAY-FMCKA",
      "requestProcessingTime": 4,
      "account": "15295723609781267838",
      "timestamp": 49762488,
@@ -9661,7 +9661,7 @@ Transaction Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=broadcastTransaction&
       transactionBytes=001046aac6013c0057fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143...
 
@@ -9681,7 +9681,7 @@ Transaction Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=calculateFullHash&
       unsignedTransactionBytes=001046aac6013c0057fb6f3a958e320bb49c4e81b4c2cf28b9f2...&
       signatureHash=b35eae7d2f01639810d37694138aa0a86fbbf8a9bf58c2be4f2a5b8f0f30b3f7
@@ -9699,9 +9699,9 @@ Transaction Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getExpectedTransactions&
-      account=NXT-X5A4-FTMJ-J97M-F3ANH
+      account=BURST-X5A4-FTMJ-J97M-F3ANH
 
 **Response:**
 
@@ -9723,7 +9723,7 @@ Transaction Operations
         "asset": "8122396658538927693",
         "version.BidOrderPlacement": 1
        },
-       "senderRS": "NXT-X5A4-FTMJ-J97M-F3ANH",
+       "senderRS": "BURST-X5A4-FTMJ-J97M-F3ANH",
        "subtype": 3,
        "amountNQT": "0",
        "sender": "15551212561974070530",
@@ -9743,7 +9743,7 @@ Transaction Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getReferencingTransactions&
       transaction=9132239833429154693
 
@@ -9771,7 +9771,7 @@ Transaction Operations
         "message": "],\"type\":\"payment\",\"oracles\":[{\"name\":\"nayru\"}]}",
         "version.ArbitraryMessage": 0
        },
-       "senderRS": "NXT-DRGK-5CLR-35AZ-84R5R",
+       "senderRS": "BURST-DRGK-5CLR-35AZ-84R5R",
        "subtype": 0,
        "amountNQT": "0",
        "sender": "7750380612824194513",
@@ -9792,7 +9792,7 @@ Transaction Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getTransaction&
       transaction=15200507403046301754
 
@@ -9810,11 +9810,11 @@ Transaction Operations
      "version": 1,
      "ecBlockId": "17321329645912574173",
      "signatureHash": "b35eae7d2f01639810d37694138aa0a86fbbf8a9bf58c2be4f2a5b8f0f30b3f7",
-     "senderRS": "NXT-L6FM-89WK-VK8P-FCRBB",
+     "senderRS": "BURST-L6FM-89WK-VK8P-FCRBB",
      "subtype": 0,
      "amountNQT": "100000000",
      "sender": "15323192282528158131",
-     "recipientRS": "NXT-4VNQ-RWZC-4WWQ-GVM8S",
+     "recipientRS": "BURST-4VNQ-RWZC-4WWQ-GVM8S",
      "recipient": "17013046603665206934",
      "ecBlockHeight": 275727,
      "block": "8455642159445842600",
@@ -9831,7 +9831,7 @@ Transaction Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getTransactionBytes&
       transaction=15200507403046301754
 
@@ -9850,7 +9850,7 @@ Transaction Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=parseTransaction&
       transactionBytes=001046aac6013c0057fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143...
 
@@ -9866,11 +9866,11 @@ Transaction Operations
      "version": 1,
      "ecBlockId": "17321329645912574173",
      "signatureHash": "b35eae7d2f01639810d37694138aa0a86fbbf8a9bf58c2be4f2a5b8f0f30b3f7",
-     "senderRS": "NXT-L6FM-89WK-VK8P-FCRBB",
+     "senderRS": "BURST-L6FM-89WK-VK8P-FCRBB",
      "subtype": 0,
      "amountNQT": "100000000",
      "sender": "15323192282528158131",
-     "recipientRS": "NXT-4VNQ-RWZC-4WWQ-GVM8S",
+     "recipientRS": "BURST-4VNQ-RWZC-4WWQ-GVM8S",
      "recipient": "17013046603665206934",
      "ecBlockHeight": 275727,
      "verify": true,
@@ -9886,7 +9886,7 @@ Transaction Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=retrievePrunedTransaction&
       transaction=9343032000583494722
 
@@ -9917,7 +9917,7 @@ Transaction Operations
       "hash": "5fb2f476f2556d15e4d419c6ff10bdbd05a7c5284242eba67c4de1adaee185a2",
       "tags": "Darkwing Duck"
      },
-     "senderRS": "NXT-K8HZ-VMMS-ZX8E-EY5JR",
+     "senderRS": "BURST-K8HZ-VMMS-ZX8E-EY5JR",
      "subtype": 0,
      "amountNQT": "0",
      "sender": "14681874272470211071",
@@ -9936,7 +9936,7 @@ Transaction Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=sendTransaction&
       transactionBytes=00109e61b606a0052bdd59320496b133052f58c82e8...
 
@@ -9954,7 +9954,7 @@ Transaction Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=signTransaction&
       unsignedTransactionBytes=00100cfb3c03a00510f09c34f225d425306e5be55a494690...&
       secretPhrase=SecretPhrase
@@ -9976,11 +9976,11 @@ Transaction Operations
       "attachment": {
        "version.OrdinaryPayment": 0
       },
-      "senderRS": "NXT-4VDY-LNVT-LMAY-FMCKA",
+      "senderRS": "BURST-4VDY-LNVT-LMAY-FMCKA",
       "subtype": 0,
       "amountNQT": "1000000000",
       "sender": "15295723609781267838",
-      "recipientRS": "NXT-BMUV-8QQR-47VK-CR7F3",
+      "recipientRS": "BURST-BMUV-8QQR-47VK-CR7F3",
       "recipient": "11580081983047651163",
       "ecBlockHeight": 382777,
       "deadline": 1440,
@@ -10004,7 +10004,7 @@ Voting System Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=castVote&
       poll=5916389507928675673&
       vote02=1&
@@ -10035,7 +10035,7 @@ Voting System Operations
         1
        ]
       },
-      "senderRS": "NXT-4VDY-LNVT-LMAY-FMCKA",
+      "senderRS": "BURST-4VDY-LNVT-LMAY-FMCKA",
       "subtype": 3,
       "amountNQT": "0",
       "sender": "15295723609781267838",
@@ -10059,7 +10059,7 @@ Voting System Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=createPoll&
       name=Gender Poll&
       description=What is your gender?&
@@ -10107,7 +10107,7 @@ Voting System Operations
        "version.PollCreation": 1,
        "maxRangeValue": 1
       },
-      "senderRS": "NXT-4VDY-LNVT-LMAY-FMCKA",
+      "senderRS": "BURST-4VDY-LNVT-LMAY-FMCKA",
       "subtype": 2,
       "amountNQT": "0",
       "sender": "15295723609781267838",
@@ -10131,7 +10131,7 @@ Voting System Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getPoll&
       poll=9096010195498999548
 
@@ -10146,7 +10146,7 @@ Voting System Operations
      "requestProcessingTime": 1,
      "minNumberOfOptions": 1,
      "minBalance": "100000000000",
-     "accountRS": "NXT-4VDY-LNVT-LMAY-FMCKA",
+     "accountRS": "BURST-4VDY-LNVT-LMAY-FMCKA",
      "name": "Gender Poll",
      "options": [
       "Male",
@@ -10165,7 +10165,7 @@ Voting System Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getPollResult&
       poll=16742897359122764363
 
@@ -10205,14 +10205,14 @@ Voting System Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getPollVote&
       account=9096010195498999548
 
 **Response:**
 
     {
-     "voterRS": "NXT-THLJ-CYAL-JQST-6FNS5",
+     "voterRS": "BURST-THLJ-CYAL-JQST-6FNS5",
      "votes": [
       "1",
       ""
@@ -10228,7 +10228,7 @@ Voting System Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getPollVotes&
       poll=9096010195498999548&
       lastIndex=0
@@ -10238,7 +10238,7 @@ Voting System Operations
     {
      "votes": [
       {
-       "voterRS": "NXT-THLJ-CYAL-JQST-6FNS5",
+       "voterRS": "BURST-THLJ-CYAL-JQST-6FNS5",
        "votes": [
         "1",
         ""
@@ -10256,7 +10256,7 @@ Voting System Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getPolls&
       lastIndex=0
 
@@ -10273,7 +10273,7 @@ Voting System Operations
        "minNumberOfOptions": 1,
        "holding": "415923435949896799",
        "minBalance": "1000000000",
-       "accountRS": "NXT-3BCV-8Q5G-9NP6-576DP",
+       "accountRS": "BURST-3BCV-8Q5G-9NP6-576DP",
        "name": "CRDTS owners poll",
        "options": [
         "Yes",
@@ -10296,7 +10296,7 @@ Voting System Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=searchPolls&
       query=hello&
       includeFinished=true
@@ -10313,7 +10313,7 @@ Voting System Operations
        "poll": "3043888702585899321",
        "minNumberOfOptions": 1,
        "minBalance": "0",
-       "accountRS": "NXT-XK4R-7VJU-6EQG-7R335",
+       "accountRS": "BURST-XK4R-7VJU-6EQG-7R335",
        "name": "Poll1",
        "options": [
         "Hello",
@@ -10338,14 +10338,14 @@ Utilities
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=decodeQRCode&
       qrCodeBase64=/9j/4AAQSkZJRgABAgAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRo...
 
 **Response:**
 
     {
-        "qrCodeData": "NXT-7A48-47JL-T7LD-D5FS3",
+        "qrCodeData": "BURST-7A48-47JL-T7LD-D5FS3",
         "requestProcessingTime": 15
     }
 
@@ -10355,7 +10355,7 @@ Utilities
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=detectMimeType&
       data=/9j/4AAQSkZJRgABAgAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRo...&
       isText=false
@@ -10374,9 +10374,9 @@ Utilities
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=encodeQRCode&
-      qrCodeData=NXT-7A48-47JL-T7LD-D5FS3&
+      qrCodeData=BURST-7A48-47JL-T7LD-D5FS3&
       width=100&
       height=100
 
@@ -10393,7 +10393,7 @@ Utilities
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=fullHashToId&
       fullHash=c34af8f1509e3be79c4562e24125ff2a8f026871fdd1a0366ad315bf8fab76b9
 
@@ -10411,7 +10411,7 @@ Utilities
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=hash&
       hashAlgorithm=2&
       secret=74657374
@@ -10431,7 +10431,7 @@ Utilities
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=hexConvert&
       string=616263
 
@@ -10449,7 +10449,7 @@ Utilities
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=longConvert&
       id=15323192282528158131
 
@@ -10467,14 +10467,14 @@ Utilities
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=rsConvert&
-      account=NXT-L6FM-89WK-VK8P-FCRBB
+      account=BURST-L6FM-89WK-VK8P-FCRBB
 
 **Response:**
 
     {
-     "accountRS": "NXT-L6FM-89WK-VK8P-FCRBB",
+     "accountRS": "BURST-L6FM-89WK-VK8P-FCRBB",
      "requestProcessingTime": 1,
      "account": "15323192282528158131"
     }
@@ -10488,7 +10488,7 @@ Debug Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=clearUnconfirmedTransactions
 
 **Response:**
@@ -10504,7 +10504,7 @@ Debug Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=dumpPeers&
       version=1.5.11&
       connect=true
@@ -10523,7 +10523,7 @@ Debug Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=fullReset
 
 **Response:**
@@ -10539,7 +10539,7 @@ Debug Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=GetAllBroadcastedTransactions
 
 **Response:**
@@ -10555,7 +10555,7 @@ Debug Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getAllWaitingTransactions
 
 **Response:**
@@ -10571,7 +10571,7 @@ Debug Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getLog&
       count=3
 
@@ -10592,7 +10592,7 @@ Debug Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=getStackTrace
 
 **Response:**
@@ -10621,7 +10621,7 @@ Debug Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=luceneReindex
 
 **Response:**
@@ -10637,7 +10637,7 @@ Debug Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=popOff&
       numBlocks=1
 
@@ -10654,7 +10654,7 @@ Debug Operations
        "generatorPublicKey": "f35600023d42e79cbf0518a174141bce1decb13332e397553c3f62df7261414a",
        "baseTarget": "268653798",
        "payloadHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-       "generatorRS": "NXT-A6NF-JE4R-XB6L-FAUFZ",
+       "generatorRS": "BURST-A6NF-JE4R-XB6L-FAUFZ",
        "nextBlock": "12812496435932308379",
        "numberOfTransactions": 0,
        "blockSignature": "d9aba136c708e4f84b7ae1cf0415b25a75f9eefc8a47b1963b237ada9982a...",
@@ -10676,7 +10676,7 @@ Debug Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=RebroadcastUnconfirmedTransactions
 
 **Response:**
@@ -10692,7 +10692,7 @@ Debug Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=requeueUnconfirmedTransactions
 
 **Response:**
@@ -10708,7 +10708,7 @@ Debug Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=retrievePrunedData
 
 **Response:**
@@ -10725,7 +10725,7 @@ Debug Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=scan
 
 **Response:**
@@ -10742,7 +10742,7 @@ Debug Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=setLogging
 
 **Response:**
@@ -10757,7 +10757,7 @@ Debug Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=shutdown
 
 **Response:**
@@ -10773,7 +10773,7 @@ Debug Operations
 
 **Request:**
 
-    http://localhost:7876/nxt?
+    http://localhost:8125/burst?
       requestType=trimDerivedTables
 
 **Response:**
