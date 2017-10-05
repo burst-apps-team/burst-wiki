@@ -75,10 +75,11 @@
 
 -   [Get started with Burst](getting-started.md)
 -   Website Resources
+    -   [General Information](https://www.burst-coin.org/)
+    -   [Wallet download](http://burstwallet.io/)
     -   Forum: [Burst-Team](http://burst-team.us/), [GetBurst](https://forums.getburst.net/), [BurstNation](https://www.burstnation.com/)
     -   [The Burstcoinist (News)](https://www.burstcoin.ist/)
-    -   \[\]
-    -   \[\]
+    -   [Burstcoin Faucet Lists](http://burstfaucets.com/)
 -   [FAQ](faq.md)
 -   [Glossary of Terms](glossary.md)
 -   [Burst Whitepaper](whitepaper-burst.md)
