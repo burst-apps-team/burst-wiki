@@ -31,7 +31,7 @@
 \***Burst Client**
 
 -   -   Latest Version: **** (beta: ****)
-    -   Direct Download: **}**, ****
+    -   Direct Download: ****, ****
 
 -   [Burst Source Code](https://github.com/ac0v/burstcoin)
 -   [Mobile App](mobile-app.md)
