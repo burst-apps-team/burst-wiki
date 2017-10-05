@@ -6,7 +6,7 @@ However, it is not as simple as copy&paste and replace Nxt-&gt;Burst. There are 
 -   Burst has PoC instead of Pos
 -   Some information in the Nxt wiki is already outdated
 
-etc. It is therefore necessary to diligently transfer information from the Nxt Wiki to the Burst wiki taking all of this into account.
+etc. It is therefore necessary to diligently transfer information from the Nxt Wiki to the Burst wiki taking all of this into account. Please make also sure, you have read the [Style Guide](style-guide.md).
 
 **@Editors: Please edit this file and put your name behind the link in the TODO section if you are committed to make that page. This is to avoid clashes while editing.**
 
