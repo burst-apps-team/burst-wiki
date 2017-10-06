@@ -67,22 +67,18 @@
 **About Burst**
 
 </div>
-\*[What is Burst?](burst-wiki.md)
+\* [What is Burst?](burst-wiki.md)
 
 -   [Get started with Burst](getting-started.md)
+-   [FAQ](faq.md)
 -   Website Resources
     -   [General Information](https://www.burst-coin.org/)
+    -   [Exchanges](exchanges.md)
     -   [Wallet download](http://burstwallet.io/)
     -   Forum: [Burst-Team](http://burst-team.us/), [GetBurst](https://forums.getburst.net/), [BurstNation](https://www.burstnation.com/)
     -   [The Burstcoinist (News)](https://www.burstcoin.ist/)
     -   [Burstcoin Faucet Lists](http://burstfaucets.com/)
--   [FAQ](faq.md)
--   [Glossary of Terms](glossary.md)
 -   [Burst Whitepaper](whitepaper-burst.md)
-
-<!-- -->
-
--   [Exchanges](exchanges.md)
 
 </div>
 <div class="box_column" style="background-color: #ffffff;">
