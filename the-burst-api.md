@@ -260,21 +260,7 @@ Get the block IDs of all blocks forged (generated) by an account in reverse bloc
 
 Get all blocks forged (generated) by an account in reverse block height order.
 
--   *account* is the account ID
--   *timestamp* is the earliest block (in seconds since the genesis block) to retrieve (optional)
--   *firstIndex* is a zero-based index to the first block to retrieve (optional)
--   *lastIndex* is a zero-based index to the last block to retrieve (optional)
--   *includeTransactions* is *true* to retrieve transaction details, otherwise only transaction IDs are retrieved (optional)
--   *requireBlock* is the block ID of a block that must be present in the blockchain during execution (optional)
--   *requireLastBlock* is the block ID of a block that must be last in the blockchain during execution (optional)
-
 **Response:**
-
--   *blocks* (A) is an array of blocks (refer to [Get Block](the-burst-api-get-block.md) for details)
--   *lastBlock* (S) is the last block ID on the blockchain (applies if *requireBlock* is provided but not *requireLastBlock*)
--   *requestProcessingTime* (N) is the API request processing time (in millisec)
-
-**Example:** Refer to [Get Account Blocks](the-burst-api-examples-get-account-blocks.md) example.
 
 ### Get Account Id
 
