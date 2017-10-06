@@ -9,7 +9,7 @@ Beispielsweise könnten Sie den Alias “suche” für “<https://www.google.de
 
 Eine häufige Anwendung ist ein einfach zu merkender Alias für die eigene Burst-Kontonummer. Da das Alias-System öffentlich ist, eignet es sich aber zum Beispiel auch zur Implementierung eines dezentralisierten DNS-Systems, um Domänen-Namen für IP-Adressen zu hinterlegen.
 
-Um Aliase zu erstellen
+Um einen Alias zu erstellen
 
 1.  sendet ein Benutzer die Transaktion “Dieser Text = Anderer Text”.
 2.  Soll der Alias später geändert werden, sendet derselbe Benutzer (Burst-Account) eine Transaktion mit einer neuen Definition. Andere Benutzer können keine Änderung veranlassen.
