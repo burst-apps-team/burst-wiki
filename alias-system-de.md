@@ -48,6 +48,6 @@ Siehe [Alias-System How-To](how-to-alias.md).
 FAQ
 ---
 
-See the [Alias System](faq-the-burst-alias-system.md) section in our main [FAQ](faq.md).
+Siehe [Alias System](faq-the-burst-alias-system.md)-Abschnitt in den [FAQ](faq.md).
 
 <Category:Features>
