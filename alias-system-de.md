@@ -40,10 +40,10 @@ Aliase können für eine Gebühr i. H. v. 1 BURST [übertragen](how-to-createali
 
 Aliase können an einzelne Burst-Konten oder an die breite Öffentlichkeit verkauft werden. Beim Verkauf legt der Besitzer den Preis für den Alias fest.
 
-How To
+How-To
 ------
 
-See our [Alias System How-To](how-to-alias.md) page
+Siehe [Alias-System How-To](how-to-alias.md).
 
 FAQ
 ---
