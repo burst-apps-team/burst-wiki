@@ -38,7 +38,7 @@ Transfer oder Verkauf
 
 Aliasse können für eine Gebühr von 1 BURST [übertragen](how-to-createalias.md) werden.
 
-Aliase können an einzelne Burst-Konten oder an die breite Öffentlichkeit verkauft werden. Beim Verkauf legt der Besitzer den Preis fest.
+Aliasse können an einzelne Burst-Konten oder an die breite Öffentlichkeit verkauft werden. Beim Verkauf legt der Besitzer den Preis fest.
 
 How-To
 ------
