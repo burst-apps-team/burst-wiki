@@ -35,6 +35,7 @@
 
 -   [Burst Source Code](https://github.com/ac0v/burstcoin)
 -   [Mobile App](mobile-app.md)
+-   *[Burst software overview](burst-software.md)*
 
 </div>
 <div class="box_column">
