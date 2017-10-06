@@ -1,9 +1,9 @@
 <languages/>
 
-Description
------------
+Beschreibung
+------------
 
-The Alias System feature of Burst essentially allows one piece of text to be substituted for another, so that keywords or keyphrases can be used to represent other things – names, telephone numbers, physical addresses, web sites, account numbers, email addresses, product SKU codes... almost anything you can think of.
+Dieses Feature ermöglich, beliebige Texte durch Pseudonyme zu ersetzen. Es können Schlüsselwörter oder Begriffe verwendet werden, um beispielsweise einen Namen, eine Telefonnummern, Hausanschrift, Webseite, E-Mail-Adresse oder eine Kontonummer mit einem Alias zu benennen.
 
 For example, you could ask Burst to associate “search” with “www.google.com”. Once this is done, all you have to do to get to Google is type “burst:search” into a Burst-capable browser, and it will translate your request in one for “www.google.com”.
 
