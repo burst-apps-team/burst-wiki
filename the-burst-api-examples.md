@@ -148,26 +148,13 @@ Account Operations
 
 **Request:**
 
-    http://localhost:8125/burst?
-      requestType=getAccountBlockIds&
-      account=7114946486381367146&
-      lastIndex=5
+<https://wallet.burst.cryptoguru.org:8125/burst?requestType=getAccountBlockIds&account=17274946210831421354&lastIndex=5>
 
-**Response:**
+**Response similar to:**
 
-    {
-     "blockIds": [
-      "6021945980475236545",
-      "11040962152457477526",
-      "1157648883168692101",
-      "9322994768555364845",
-      "12862636636638339558",
-      "11535040705139271493"
-     ],
-     "requestProcessingTime": 3
-    }
+    {"blockIds":["18426055195962363092","7915836588136735869","10232042957216858995","6879436477641441477","10946006553575734351","11461420847451026714"],"requestProcessingTime":2}
 
-<small>*Verified 8-Nov-14*</small>
+<small>*Verified 11:28, 6 October 2017 (CEST)*</small>
 
 ### Get Account Blocks
 
