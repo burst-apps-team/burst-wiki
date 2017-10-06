@@ -1,61 +1,53 @@
 <languages/>
 
-Beschreibung
-------------
+Description
+-----------
 
-Dieses Feature ermöglicht beliebige Texte durch Pseudonyme zu ersetzen. Es können Schlüsselwörter oder Begriffe verwendet werden, um beispielsweise einen Namen, eine Telefonnummer, Hausanschrift, Webseite, E-Mail-Adresse oder eine Kontonummer mit einem Alias zu benennen.
+The Alias System feature of Burst essentially allows one piece of text to be substituted for another, so that keywords or keyphrases can be used to represent other things – names, telephone numbers, physical addresses, web sites, account numbers, email addresses, product SKU codes... almost anything you can think of.
 
-Beispielsweise könnten Sie den Alias “suche” für “<https://www.google.de>” definieren. Anschließend kann in einem Burst-fähigen Internetbrowser “burst:suche” als Adresse eingeben werden. Die Anfrage wird dann vom System in “<https://www.google.de>” übersetzen.
+For example, you could ask Burst to associate “search” with “www.google.com”. Once this is done, all you have to do to get to Google is type “burst:search” into a Burst-capable browser, and it will translate your request in one for “www.google.com”.
 
-Eine häufige Anwendung ist ein einfach zu merkender Alias für die eigene Burst-Kontonummer. Da das Alias-System öffentlich ist, eignet es sich aber zum Beispiel auch zur Implementierung eines dezentralisierten DNS-Systems, um Domänen-Namen für IP-Adressen zu hinterlegen.
+Immediate applications are simple: you can create an easy-to-remember alias for your Burst account number, for example. But since the Alias System is open-ended, it can be used to implement a decentralized DNS system, shopping cart applications, and more.
 
-Um einen Alias zu erstellen
+Creating aliases is
 
-1.  Öffnet der Benutzer die Seite ‘Aliasse’ in seiner Wallet. Nach Klick auf den Schalter ‘Alias registrieren’ werden die gewünschten Daten eingegeben.
-2.  Soll der Alias später geändert werden, kann derselbe Benutzer (Burst-Account) die Funktion ‘Bearbeiten’ hinter dem gewünschten Eintrag verwendet. Andere Benutzer können keine Änderung veranlassen.
-
-Neue Aliasse erscheinen erst nach der Netzwerkbestätigung (Blockgenerierung) im Wallet-Menü des Erstellers.
+1.  A user sends a transaction that states “ThisText = ThatText”
+2.  If the alias is to be changed, just send another transaction with a new definition. Only the account that created an alias can change it.
 
 Details
 -------
 
-Der Alias kann eine beliebige Anzahl von Buchstaben, Zahlen und Zeichen im Latin-Zeichensatz enthalten. Beispielsweise:
+The alias can be any string of latin-character numbers and letters. The address can be anything like:
 
--   “173.194.112.174” (eine IPv4-Adresse)
--   “2001:0db8:11a3:09d7:1f34:8a2e:07a0:765d” (IPv6)
--   “example.com/meine-geheime-seite.php?parameter=wert” (eine URI)
--   “mustermann@example.com” (eine E-Mail-Adresse)
--   “Tel. +44 20 81234567” (Telefonnummer)
--   ...oder auch “<bitcoin:12dDMfhWq3scNWDsL4ty1Q5skyJj6M4scB>”.
+-   “173.194.112.174” (an IPv4 address)
+-   “2001:0db8:11a3:09d7:1f34:8a2e:07a0:765d” (an IPv6 address)
+-   “mydomain.com/secretpage.php?parameter=value” (a URI)
+-   “johnsmith@matrix.com”
+-   “<tel:+44-20-8123-4567>”
+-   ...or even “<bitcoin:1BTCorgHwCg6u2YSAWKgS17qUad6kHmtQW>”.
 
-Beim Alias-Namen wird nicht zwischen Groß- und Kleinschreibung unterschieden.
+There are 2 main ways to use Burst aliases without having to rely on third-party plugins for your browser:
 
-Es gibt zwei Methoden, um Burst-Aliasse ohne Plugins von Drittanbietern für im Webbrowser zu nutzen:
+1.  '''Server-side. ''' A web server analyses the Burst blockchain and replaces “burst-links” with corresponding addresses before sending HTML documents to users.
+2.  '''Client-side. ''' A web browser runs javascript code that connects to Burst bootstrapping nodes and replaces “burst-links” with their addresses. This requires to embedding a small script which is executed in an “onload” event. The script will do all the work via CORS, JSON, or other techniques.
 
-1.  **Serverseitig**: Der Webserver analysiert die Burst-Blockchain und ersetzt die Aliasse durch ihre Adressen, bevor die Dokumente an den Client gesendet werden.
-2.  **Clientseitig**: Im Webbrowser wird ein JavaScript ausgeführt, welches eine Verbindung zum Burst-Bootstrapping-Knoten herstellt. Es wird im Onload-Ereignis ausgeführt und übersetzt die Aliasse mittels Techniken, wie CORS oder JSON.
+Currently, Burst does not allow the transfer of ownership of an alias to another account.
 
-Änderungen können nur von dem Konto ausgeführt werden, welches den Alias ursprünglich erstellt hat.
+Alias Transfer/Sale
+-------------------
 
-Transfer oder Verkauf
----------------------
+Aliases can be [transferred](how-to-createalias.md) for a 1 BURST fee.
 
-Aliasse können für eine Gebühr von 1 BURST [übertragen](how-to-createalias.md) werden.
+Alias can be sold to either specific BURST Accounts or to the general public. To sell an alias, you can set the price to sell for every alias.
 
-Der Besitzer kann seienen Alias an einzelne Burst-Konten oder an die breite Öffentlichkeit verkaufen. Hierbei legt er den Preis beliebig fest.
-
-**Typischer Verkaufsablauf**
-
-Der Besitzer klickt im ‘Aliasse’-Menü auf den Schalter ‘Verkaufen’ und markiert ‘An irgendjemand verkaufen’. Er legt den Preis fest und bestätigt mit ‘Alias verkaufen’. Wenn später ein anderer Benutzer denselben Alias erstellen möchten, erhält er die [Meldung](-file-de-alias-kaufen-png.md), dass dieser bereits vorhanden ist, aber zum Verkauf steht. Nach Klick auf den Link ‘Kaufen’ kann er den Alias zum angegebenen Preis übernehmen.
-
-How-To
+How To
 ------
 
-Siehe [Alias-System How-To](how-to-alias.md).
+See our [Alias System How-To](how-to-alias.md) page
 
 FAQ
 ---
 
-Siehe [Alias System](faq-the-burst-alias-system.md)-Abschnitt in den [FAQ](faq.md).
+See the [Alias System](faq-the-burst-alias-system.md) section in our main [FAQ](faq.md).
 
 <Category:Features>
