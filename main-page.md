@@ -88,7 +88,7 @@
 </div>
 \* Online wallets: [PoCC](https://wallet.burst.cryptoguru.org:8125/index.html), [BurstNation](https://wallet1.burstnation.com:8125/index.html), poolofd32th: [1](https://wallet.poolofd32th.club/index.html), [2](https://wallet2.poolofd32th.club/index.html). Burst-Team: [3](https://wallet3.burst-team.us:2083/index.html), [4](https://wallet4.burst-team.us:2083/index.html), [5](https://wallet5.burst-team.us:2083/index.html)
 
--   Blockchain Explorer: [PoCC](https://explore.burst.cryptoguru.org/), [BurstNation](http://x.burstnation.com/), [BurstXD](http://burstxd.com/blocks/)
+-   Blockchain Explorer: [PoCC](https://explore.burst.cryptoguru.org/), [BurstNation](http://x.burstnation.com/), [BurstXD](http://burstxd.com/blocks/), [burstcoin.zone](http://burstcoin.zone/wordpress/blockexplorer/)
 -   Network Observer: [Luxe](http://burstcoin.cc/), [PoCC](https://explore.burst.cryptoguru.org/tool/observe)
 -   [Burst What If?](http://whatif.burstnation.com/), [Burst Today](http://www.burst.today/)
 -   [Nonces Calculator](http://heartofthetempest.tk/index.php/burst/nonces-calculator/)
