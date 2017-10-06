@@ -17,14 +17,14 @@ Um Aliase zu erstellen
 Details
 -------
 
-The alias can be any string of latin-character numbers and letters. The address can be anything like:
+Der Alias kann eine beliebige Anzahl von Buchstaben, Zahlen und Zeichen im Latin-Zeichensatz enthalten. Beispielsweise:
 
--   “173.194.112.174” (an IPv4 address)
--   “2001:0db8:11a3:09d7:1f34:8a2e:07a0:765d” (an IPv6 address)
--   “mydomain.com/secretpage.php?parameter=value” (a URI)
--   “johnsmith@matrix.com”
--   “<tel:+44-20-8123-4567>”
--   ...or even “<bitcoin:1BTCorgHwCg6u2YSAWKgS17qUad6kHmtQW>”.
+-   “173.194.112.174” (eine IPv4-Adresse)
+-   “2001:0db8:11a3:09d7:1f34:8a2e:07a0:765d” (IPv6)
+-   “example.com/meine-geheime-seite.php?parameter=wert” (eine URI)
+-   “mustermann@example.com” (eine E-Mail-Adresse)
+-   “Tel. +44 20 81234567” (Telefonnummer)
+-   ...oder auch “<bitcoin:12dDMfhWq3scNWDsL4ty1Q5skyJj6M4scB>”.
 
 There are 2 main ways to use Burst aliases without having to rely on third-party plugins for your browser:
 
