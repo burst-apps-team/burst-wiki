@@ -5,7 +5,7 @@ Beschreibung
 
 Dieses Feature ermöglicht, beliebige Texte durch Pseudonyme zu ersetzen. Es können Schlüsselwörter oder Begriffe verwendet werden, um beispielsweise einen Namen, eine Telefonnummern, Hausanschrift, Webseite, E-Mail-Adresse oder eine Kontonummer mit einem Alias zu benennen.
 
-Beispielsweise könnten Sie den Alias “Suche” für “<https://www.google.de>” definieren. Anschließend können Sie in einem Burst-fähigen Internetbrowser “burst:search” als Adresse eingeben. Die Anfrage wird dann vom System in “<https://www.google.de>” übersetzen.
+Beispielsweise könnten Sie den Alias “suche” für “<https://www.google.de>” definieren. Anschließend kann in einem Burst-fähigen Internetbrowser “burst:suche” als Adresse eingeben werden. Die Anfrage wird dann vom System in “<https://www.google.de>” übersetzen.
 
 Eine häufige Anwendung ist ein einfach zu merkender Alias für die eigene Burst-Kontonummer. Da das Alias-System öffentlich ist, eignet es sich aber zum Beispiel auch zur Implementierung eines dezentralisierten DNS-Systems.
 
