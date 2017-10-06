@@ -11,7 +11,8 @@ Eine häufige Anwendung ist ein einfach zu merkender Alias für die eigene Burst
 
 Um Aliase zu erstellen
 
-sendet ein Benutzer die Transaktion “Dieser Text = Anderer Text”
+1.  sendet ein Benutzer die Transaktion “Dieser Text = Anderer Text”.
+2.  Soll der Alias später geändert werden, sendet derselbe Benutzer (Burst-Account) eine Transaktion mit einer neuen Definition. Andere Benutzer können keine Änderung veranlassen.
 
 Details
 -------
