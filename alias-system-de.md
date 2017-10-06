@@ -11,8 +11,8 @@ Eine häufige Anwendung ist ein einfach zu merkender Alias für die eigene Burst
 
 Um einen Alias zu erstellen
 
-1.  sendet ein Benutzer die Transaktion “Dieser Text = Anderer Text”.
-2.  Soll der Alias später geändert werden, sendet derselbe Benutzer (Burst-Account) eine Transaktion mit einer neuen Definition. Andere Benutzer können keine Änderung veranlassen.
+1.  sendet ein Benutzer die Transaktion “Dieser Text = Anderer Text”. Hierzu kann in der Wallet die Seite ‘Aliasse’ verwendet werden: Nach Klick auf den Schalter ‘Alias registrieren’ die gewünschten Daten eingeben.
+2.  Soll der Alias später geändert werden, sendet derselbe Benutzer (Burst-Account) eine Transaktion mit einer neuen Definition. Hierzu wird im ‘Aliasse’-Menü der Schalter ‘Bearbeiten’ hinter dem gewünschten Eintrag verwendet. Andere Benutzer können keine Änderung veranlassen.
 
 Details
 -------
