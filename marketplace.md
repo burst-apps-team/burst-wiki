@@ -5,13 +5,18 @@
 Description
 -----------
 
-The Burst Marketplace provides a protocol for decentralized, peer-to-peer stores for any kind of digital goods like software, music or video. You browse the available products, place an order and the seller will send you information of how to download the good.
+The Burst Marketplace provides a protocol for decentralized, peer-to-peer stores for any kind of digital goods like software, music or video. You browse the sellers products, place an order and the seller will send you information of how to download the good.
 
-Accessing the Marketplace
--------------------------
+Wallet Interface
+----------------
 
-Open your Burst client and select ‘Marketplace’.
-![](Burst-marketplace.png "fig:Burst-marketplace.png")
+With the server running, access the local Burst wallet by visiting <http://localhost:8125/>. On the sidebar, you find the menus ‘Marketplace’ and ‘My Store’: ![](Burst-marketplace.png "fig:Burst-marketplace.png")
+{| |- |**Search Marketplace**: Enter the sellers address to see his products. |- |**Purchased Products**: This page will list all your previously purchased products. |- |**My Products For Sale**: Lists the items you are selling in the marketplace, and gives you the ability to update your offerns. |- |**My Pending Orders**: Here you will see pending orders from users who wants to buy a product. |- |**My Completed Orders**: Shows all finished orders feedbacks from your customer. |- |**List Product For Sale**: Here you add a new digital good in the marketplace. |}
+
+How To
+------
+
+Open your Burst client and select ‘Marketplace’ to buy or ‘My Store’ to sell.
 
 ### Buying products
 
