@@ -33,10 +33,10 @@ Es gibt zwei Methoden, um Burst-Aliase ohne Plugins von Drittanbietern für Ihre
 
 Derzeit erlaubt Burst keine Übertragung eines Alias-Besitzes auf ein anderes Konto. Änderungen können nur von dem Konto ausgeführt werden, welches den Alias ursprünglich erstellt hat.
 
-Alias Transfer/Sale
--------------------
+Transfer oder Verkauf
+---------------------
 
-Aliases can be [transferred](how-to-createalias.md) for a 1 BURST fee.
+Aliase können für eine Gebühr i. H. v. 1 BURST [übertragen](how-to-createalias.md) werden.
 
 Alias can be sold to either specific BURST Accounts or to the general public. To sell an alias, you can set the price to sell for every alias.
 
