@@ -28,8 +28,8 @@ Der Alias kann eine beliebige Anzahl von Buchstaben, Zahlen und Zeichen im Latin
 
 Es gibt zwei Methoden, um Burst-Aliase ohne Plugins von Drittanbietern für Ihren Browser zu nutzen:
 
-1.  '''Server-side. ''' A web server analyses the Burst blockchain and replaces “burst-links” with corresponding addresses before sending HTML documents to users.
-2.  '''Client-side. ''' A web browser runs javascript code that connects to Burst bootstrapping nodes and replaces “burst-links” with their addresses. This requires to embedding a small script which is executed in an “onload” event. The script will do all the work via CORS, JSON, or other techniques.
+1.  **Serverseitig**: Ein Webserver analysiert die Burst-Blockchain und ersetzt die Aliase durch ihre Adressen, bevor die Dokumente an den Client gesendet werden.
+2.  **Clientseitig**: Im Webbrowser wird ein JavaScript ausgeführt, welches eine Verbindung zum Burst-Bootstrapping-Knoten herstellt. Es wird im Onload-Ereignis ausgeführt und übersetzt die Aliase mittels Techniken, wie CORS oder JSON.
 
 Currently, Burst does not allow the transfer of ownership of an alias to another account.
 
