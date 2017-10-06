@@ -36,7 +36,7 @@ Derzeit erlaubt Burst keine Übertragung eines Alias-Besitzes auf ein anderes Ko
 Transfer oder Verkauf
 ---------------------
 
-Aliase können für eine Gebühr von 1 BURST [übertragen](how-to-createalias.md) werden.
+Aliasse können für eine Gebühr von 1 BURST [übertragen](how-to-createalias.md) werden.
 
 Aliase können an einzelne Burst-Konten oder an die breite Öffentlichkeit verkauft werden. Beim Verkauf legt der Besitzer den Preis fest.
 
