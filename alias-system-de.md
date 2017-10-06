@@ -11,8 +11,7 @@ Eine häufige Anwendung ist ein einfach zu merkender Alias für die eigene Burst
 
 Um Aliase zu erstellen
 
-1.  A user sends a transaction that states “ThisText = ThatText”
-2.  If the alias is to be changed, just send another transaction with a new definition. Only the account that created an alias can change it.
+sendet ein Benutzer die Transaktion “Dieser Text = Anderer Text”
 
 Details
 -------
