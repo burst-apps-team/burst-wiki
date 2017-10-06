@@ -7,7 +7,7 @@ Dieses Feature ermöglich, beliebige Texte durch Pseudonyme zu ersetzen. Es kön
 
 Beispielsweise könnten Sie den Alias “Suche” für “<https://www.google.de>” definieren. Anschließend können Sie in einem Burst-fähigen Internetbrowser “burst:search” als Adresse eingeben. Die Anfrage wird dann vom System in “<https://www.google.de>” übersetzen.
 
-Immediate applications are simple: you can create an easy-to-remember alias for your Burst account number, for example. But since the Alias System is open-ended, it can be used to implement a decentralized DNS system, shopping cart applications, and more.
+Eine häufige Anwendung ist ein einfach zu merkender Alias für die eigene Burst-Kontonummer. Da das Alias-System öffentlich ist, eignet es sich aber zum Beispiel auch zur Implementierung eines dezentralisierten DNS-Systems.
 
 Creating aliases is
 
