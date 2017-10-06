@@ -26,7 +26,7 @@ Der Alias kann eine beliebige Anzahl von Buchstaben, Zahlen und Zeichen im Latin
 -   “Tel. +44 20 81234567” (Telefonnummer)
 -   ...oder auch “<bitcoin:12dDMfhWq3scNWDsL4ty1Q5skyJj6M4scB>”.
 
-There are 2 main ways to use Burst aliases without having to rely on third-party plugins for your browser:
+Es gibt zwei Methoden, um Burst-Aliase ohne Plugins von Drittanbietern für Ihren Browser zu nutzen:
 
 1.  '''Server-side. ''' A web server analyses the Burst blockchain and replaces “burst-links” with corresponding addresses before sending HTML documents to users.
 2.  '''Client-side. ''' A web browser runs javascript code that connects to Burst bootstrapping nodes and replaces “burst-links” with their addresses. This requires to embedding a small script which is executed in an “onload” event. The script will do all the work via CORS, JSON, or other techniques.
