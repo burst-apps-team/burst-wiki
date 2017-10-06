@@ -160,44 +160,20 @@ Account Operations
 
 **Request:**
 
-    http://localhost:8125/burst?
-      requestType=getAccountBlocks&
-      account=7114946486381367146&
-      lastIndex=0
+<https://wallet.burst.cryptoguru.org:8125/burst?requestType=getAccountBlocks&account=17274946210831421354&lastIndex=0>
 
-**Response:**
+**Response similar to:**
 
-    {
-     "blocks": [
-      {
-       "previousBlockHash": "bd8948556e968f1d532cd286a5dd8fde0159d7950467f1ed8fbf26a31d663e99",
-       "payloadLength": 386,
-       "totalAmountNQT": "0",
-       "generationSignature": "74138446cacdb30075492670f7e24fb839434818cb877bba174e37361fc899a1",
-       "generator": "7114946486381367146",
-       "generatorPublicKey": "dbc809e8237914f25add0d349ea16b2ac05cae6882d0a1782d23605af264d97a",
-       "baseTarget": "325377698",
-       "payloadHash": "32df67383f63b74f1331bbdb6f1be424c87a1e6423fc7091d81683481eb6c4ca",
-       "generatorRS": "BURST-TMVC-69YC-SJB4-8YCH7",
-       "nextBlock": "3553212706398858282",
-       "numberOfTransactions": 2,
-       "blockSignature": "d30e3f95d547fa922feb31303f877a345d0ad8c232778a4507adf9082b5df3...",
-       "transactions": [
-        "1199750337785535382",
-        "8975701802988160413"
-       ],
-       "version": 3,
-       "totalFeeNQT": "200000000",
-       "previousBlock": "2130086549390920125",
-       "block": "6021945980475236545",
-       "height": 278953,
-       "timestamp": 30130340
-      }
-     ],
-     "requestProcessingTime": 3
-    }
+    {"blocks":
+    [{"previousBlockHash":"eba007c3393566ddad48cbf83604e9f6ad54dccf7722a1ca4a320988b1c6b3ed","payloadLength":578,"totalAmountNQT":"62450679293",
+    "generationSignature":"3660dda874e1f4b4679a86226f4addbeb6a7816141de6d706260be002c5afd60","generator":"17274946210831421354",
+    "generatorPublicKey":"2a689d7f067f6c5350c6df51ea5df1376ed9f60e72da8facf2240292a6c3c568","baseTarget":"107404",
+    "payloadHash":"668b1467fbe7004c3ca9a22f9d31832da53c8b6fc34bdc958ec970bd674d313f","generatorRS":"BURST-EMXC-3PFB-J8HQ-GJ9HZ","blockReward":"1423","nextBlock":"13927268942427876599","scoopNum":2919,"numberOfTransactions":3,
+    "blockSignature":"a44e8ae2f3ddc905ff43b7c0e9893cc2b100236ae2ba452e995b4865ccdcb90d308d712247fc8d764f3d5a9d211cc6a5f4b774ec4dbba36a705d74fac5a18106","transactions":["13877924564730410774","14965698104908109603","8929558255268593139"],"nonce":"76308248","version":3,
+    "totalFeeNQT":"300000000","previousBlock":"15953497252208025835","block":"18426055195962363092",
+    "height":411465,"timestamp":99544242}],"requestProcessingTime":3}
 
-<small>*Verified 8-Nov-14*</small>
+<small>*Verified 11:49, 6 October 2017 (CEST)*</small>
 
 ### Get Account Id
 
