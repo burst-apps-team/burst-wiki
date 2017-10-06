@@ -38,7 +38,7 @@ Transfer oder Verkauf
 
 Aliase können für eine Gebühr i. H. v. 1 BURST [übertragen](how-to-createalias.md) werden.
 
-Alias can be sold to either specific BURST Accounts or to the general public. To sell an alias, you can set the price to sell for every alias.
+Aliase können an einzelne Burst-Konten oder an die breite Öffentlichkeit verkauft werden. Beim Verkauf legt der Besitzer den Preis für den Alias fest.
 
 How To
 ------
