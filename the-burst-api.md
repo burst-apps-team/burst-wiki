@@ -256,12 +256,6 @@ Get the block IDs of all blocks forged (generated) by an account in reverse bloc
 
 **Response:**
 
--   *blockIds* (A) is an array of block IDs
--   *lastBlock* (S) is the last block ID on the blockchain (applies if *requireBlock* is provided but not *requireLastBlock*)
--   *requestProcessingTime* (N) is the API request processing time (in millsec)
-
-**Example:** Refer to [Get Account Block Ids](the-burst-api-examples-get-account-block-ids.md) example.
-
 ### Get Account Blocks
 
 Get all blocks forged (generated) by an account in reverse block height order.
