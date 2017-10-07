@@ -15,10 +15,11 @@
 **Burst Features**
 
 </div>
-\*[Arbitrary Messages](arbitrary-messages.md)
+\* [Arbitrary Messages](arbitrary-messages.md)
 
 -   [Alias System](alias-system.md)
 -   [Asset Exchange](asset-exchange.md)
+-   [Automated transactions (Smart Contracts)](automated-transaction.md)
 -   [Marketplace](marketplace.md)
 -   [*Summary of Features*](current-features.md)
 
