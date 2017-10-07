@@ -28,6 +28,8 @@ Der Alias kann eine beliebige Anzahl von Buchstaben, Zahlen und Zeichen im Latin
 -   “Tel. +44 20 81234567” (Telefonnummer)
 -   ...oder auch “<bitcoin:12dDMfhWq3scNWDsL4ty1Q5skyJj6M4scB>”.
 
+Beim Alias-Namen wird nicht zwischen Groß- und Kleinschreibung unterschieden.
+
 Es gibt zwei Methoden, um Burst-Aliasse ohne Plugins von Drittanbietern für im Webbrowser zu nutzen:
 
 1.  **Serverseitig**: Der Webserver analysiert die Burst-Blockchain und ersetzt die Aliasse durch ihre Adressen, bevor die Dokumente an den Client gesendet werden.
