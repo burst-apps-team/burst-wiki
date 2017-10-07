@@ -1,3 +1,5 @@
+<languages/> <translate>
+
 The Burst White Paper Resources
 -------------------------------
 
@@ -10,6 +12,8 @@ There was a substantial modification to the fork by carving out PoS completely a
 Based on this paper, a PoC cryptocurrency “SpaceMint” was proposed[3] in a paper by Sunoo Park, Kwon, Fuchsbauer, Pietrzak et al.
 
 ### References
+
+</translate>
 
 [1] [Nxt community white paper](https://nxtwiki.org/wiki/Whitepaper:Nxt)
 
