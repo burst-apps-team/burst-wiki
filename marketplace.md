@@ -55,7 +55,7 @@ External Links
 --------------
 
 -   [burst-team.us: Forum Marketplace](https://forums.burst-team.us/category/14/marketplace/)
--   [Burst Nation *The Official BurstCoin Cryptocurrency Hub*: Marketplace](https://www.burstnation.com/wbb/index.php?board/12-marketplace/)
+-   [Burst Nation: Marketplace](https://www.burstnation.com/wbb/index.php?board/12-marketplace/)
 
 </translate>
 
