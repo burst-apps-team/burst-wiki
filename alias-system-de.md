@@ -38,9 +38,11 @@ Transfer oder Verkauf
 
 Aliasse können für eine Gebühr von 1 BURST [übertragen](how-to-createalias.md) werden.
 
-Der Besitzer kann seienen Alias an einzelne Burst-Konten oder an die breite Öffentlichkeit verkauft werden. Beim Verkauf legt der Besitzer den Preis fest.
+Der Besitzer kann seienen Alias an einzelne Burst-Konten oder an die breite Öffentlichkeit verkaufen. Hierbei legt er den Preis beliebig fest.
 
-**Typischer Verkaufsablauf** Der Besitzer klickt im ‘Aliasse’-Menü auf den Schalter ‘Verkaufen’ und markiert ‘An irgendjemand verkaufen’. Er legt den Preis fest und bestätigt mit ‘Alias verkaufen’. Wenn später ein anderer Benutzer denselben Alias erstellen möchten, erhält er die [Meldung](-file-de-alias-kaufen-png.md), dass dieser bereits vorhanden, aber zum Verkauf steht. Nach Klick auf den Link ‘Kaufen’ kann er den Alias zum angegebenen Preis übernehmen.
+**Typischer Verkaufsablauf**
+
+Der Besitzer klickt im ‘Aliasse’-Menü auf den Schalter ‘Verkaufen’ und markiert ‘An irgendjemand verkaufen’. Er legt den Preis fest und bestätigt mit ‘Alias verkaufen’. Wenn später ein anderer Benutzer denselben Alias erstellen möchten, erhält er die [Meldung](-file-de-alias-kaufen-png.md), dass dieser bereits vorhanden ist, aber zum Verkauf steht. Nach Klick auf den Link ‘Kaufen’ kann er den Alias zum angegebenen Preis übernehmen.
 
 How-To
 ------
