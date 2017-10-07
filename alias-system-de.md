@@ -11,7 +11,7 @@ Eine häufige Anwendung ist ein einfach zu merkender Alias für die eigene Burst
 
 Um einen Alias zu erstellen
 
-1.  öffnet der Benutzer die Seite ‘Aliasse’ in seiner Wallet. Nach Klick auf den Schalter ‘Alias registrieren’ werden die gewünschten Daten eingegeben.
+1.  Öffnet der Benutzer die Seite ‘Aliasse’ in seiner Wallet. Nach Klick auf den Schalter ‘Alias registrieren’ werden die gewünschten Daten eingegeben.
 2.  Soll der Alias später geändert werden, kann derselbe Benutzer (Burst-Account) die Funktion ‘Bearbeiten’ hinter dem gewünschten Eintrag verwendet. Andere Benutzer können keine Änderung veranlassen.
 
 Neue Aliasse erscheinen erst nach der Netzwerkbestätigung (Blockgenerierung) im Wallet-Menü des Erstellers.
