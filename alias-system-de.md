@@ -31,7 +31,7 @@ Es gibt zwei Methoden, um Burst-Aliasse ohne Plugins von Drittanbietern für im 
 1.  **Serverseitig**: Der Webserver analysiert die Burst-Blockchain und ersetzt die Aliasse durch ihre Adressen, bevor die Dokumente an den Client gesendet werden.
 2.  **Clientseitig**: Im Webbrowser wird ein JavaScript ausgeführt, welches eine Verbindung zum Burst-Bootstrapping-Knoten herstellt. Es wird im Onload-Ereignis ausgeführt und übersetzt die Aliasse mittels Techniken, wie CORS oder JSON.
 
-Derzeit erlaubt Burst keine Übertragung eines Alias-Besitzes auf ein anderes Konto. Änderungen können nur von dem Konto ausgeführt werden, welches den Alias ursprünglich erstellt hat.
+Änderungen können nur von dem Konto ausgeführt werden, welches den Alias ursprünglich erstellt hat.
 
 Transfer oder Verkauf
 ---------------------
