@@ -3,7 +3,7 @@
 Beschreibung
 ------------
 
-Dieses Feature ermöglicht, beliebige Texte durch Pseudonyme zu ersetzen. Es können Schlüsselwörter oder Begriffe verwendet werden, um beispielsweise einen Namen, eine Telefonnummern, Hausanschrift, Webseite, E-Mail-Adresse oder eine Kontonummer mit einem Alias zu benennen.
+Dieses Feature ermöglicht beliebige Texte durch Pseudonyme zu ersetzen. Es können Schlüsselwörter oder Begriffe verwendet werden, um beispielsweise einen Namen, eine Telefonnummer, Hausanschrift, Webseite, E-Mail-Adresse oder eine Kontonummer mit einem Alias zu benennen.
 
 Beispielsweise könnten Sie den Alias “suche” für “<https://www.google.de>” definieren. Anschließend kann in einem Burst-fähigen Internetbrowser “burst:suche” als Adresse eingeben werden. Die Anfrage wird dann vom System in “<https://www.google.de>” übersetzen.
 
