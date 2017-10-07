@@ -1,7 +1,9 @@
+<languages/> <translate>
+
 Burst: the 'cryptocurrency 2.0'
 -------------------------------
 
-Burst was officially introduced on the 10th of August 2014 with the goal of solving other cryptocurrencies’ biggest problems:
+Burst was officially introduced on the [10th of August 2014](https://bitcointalk.org/index.php?topic=731923.0) with the goal of solving other cryptocurrencies’ biggest problems:
 
 -   lack of decentralization
 -   waste of energy
@@ -20,7 +22,7 @@ Burst requires per transaction about 1/400th of energy compared to bitcoin[1], t
 
 ### Fair Release
 
-Burst was released without [premine](premine.md), [ICO](ico.md) or Airdrops. All Burst in existence today, have been mined with the PoC algorithm.
+Burst was released without premine[2], [ICO](https://en.wikipedia.org/wiki/Initial_coin_offering) or Airdrops. All Burst in existence today, have been mined with the PoC algorithm.
 
 ### Equal Opportunities
 
@@ -29,6 +31,10 @@ Because there is no need to buy expensive, specialized and often hard-to-get har
 References
 ----------
 
+</translate>
+
 <references />
 
 [1] <https://www.burstcoin.ist/how-burst-puts-bitcoin-to-shame>
+
+[2] <https://www.cryptocompare.com/coins/guides/what-is-a-premine/>
