@@ -13,8 +13,8 @@ Immediate applications are simple: you can create an easy-to-remember alias for 
 
 Creating aliases is
 
-1.  A user sends a transaction that states “ThisText = ThatText”
-2.  If the alias is to be changed, just send another transaction with a new definition. Only the account that created an alias can change it.
+1.  A user sends a transaction that states “ThisText = ThatText”. You can use the wallet menu ‘Aliases’ and click on ‘Register Alias’.
+2.  If the alias is to be changed, just send another transaction with a new definition. Use the ‘Edit’ button in ‘Aliases’ menu.
 
 Details
 -------
@@ -33,7 +33,7 @@ There are 2 main ways to use Burst aliases without having to rely on third-party
 1.  '''Server-side. ''' A web server analyses the Burst blockchain and replaces “burst-links” with corresponding addresses before sending HTML documents to users.
 2.  '''Client-side. ''' A web browser runs javascript code that connects to Burst bootstrapping nodes and replaces “burst-links” with their addresses. This requires to embedding a small script which is executed in an “onload” event. The script will do all the work via CORS, JSON, or other techniques.
 
-Currently, Burst does not allow the transfer of ownership of an alias to another account.
+Changes can only be executed by the account that originally created the alias.
 
 Alias Transfer/Sale
 -------------------
