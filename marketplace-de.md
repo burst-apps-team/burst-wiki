@@ -47,7 +47,7 @@ Sie können Ihre eigenen digitalen Produkte auf dem Burst-Marktplatz anbieten:
 7.  Im Dialogfenster geben Sie Ihre ‘Passphrase’ zum Entschlüsseln der Käufernachricht ein.
 8.  Beschreiben Sie im Feld ‘Daten’, wie der Käufer den Artikel beziehen kann. Teilen Sie ihm beispielsweise die Downloadadresse oder den Software-Aktivierungscode mit. Optional können Sie einen Rabatt geben.
 9.  Schließen Sie den Vorgang mit Ihrer ‘Passphrase’ und Klick auf ‘Artikel liefern’ ab.
-10. Dieser wird anschließend auf der Seite ‘Abgschlossene Bestellungen’ gelistet. Hier können Sie auch eventuelle Rückfragen Ihrer Kunden einsehen und beantworten.
+10. Dieser wird anschließend auf der Seite ‘Abgeschlossene Bestellungen’ gelistet. Hier können Sie auch eventuelle Rückfragen Ihrer Kunden einsehen und beantworten.
 
 Weblinks
 --------
