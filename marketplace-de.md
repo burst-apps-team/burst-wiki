@@ -49,8 +49,8 @@ Sie können Ihre eigenen digitalen Produkte auf dem Burst-Marktplatz anbieten:
 9.  Schließen Sie den Vorgang mit Ihrer ‘Passphrase’ und Klick auf ‘Artikel liefern’ ab.
 10. Dieser wird anschließend auf der Seite ‘Abgschlossene Bestellungen’ gelistet. Hier können Sie auch eventuelle Rückfragen Ihrer Kunden einsehen und beantworten.
 
-External Links
---------------
+Weblinks
+--------
 
 -   [burst-team.us: Forum Marketplace](https://forums.burst-team.us/category/14/marketplace/)
 -   [Burst Nation: Marketplace](https://www.burstnation.com/wbb/index.php?board/12-marketplace/)
