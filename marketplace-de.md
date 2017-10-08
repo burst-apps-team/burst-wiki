@@ -3,7 +3,7 @@
 Beschreibung
 ------------
 
-Der Burst-Marketplace bietet ein Protokoll für dezentrale Peer-to-Peer-Shops. Es können beliebige digitale Produkte, wie beispielsweise Software, Musik und Videos angeboten werden. Der Kafuinteressent durchsucht die Produkte einzelner Shops, tätigt eine Bestellung und erhält die erforderlichen Download-Informationen vom Verkäufer.
+Der Burst-Marketplace bietet ein Protokoll für dezentrale Peer-to-Peer-Shops. Es können beliebige digitale Produkte, wie beispielsweise Software, Musik und Videos angeboten werden. Der Kaufinteressent durchsucht die Produkte einzelner Shops, tätigt eine Bestellung und erhält die erforderlichen Download-Informationen vom Verkäufer.
 
 Wallet-Benutzeroberfläche
 -------------------------
