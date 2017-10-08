@@ -35,7 +35,7 @@ After the original developer of Burst disappeared a community quickly formed und
 Burstnation
 ===========
 
-Because of differences within Burst Team, several members founded [Burstnation](https://www.burstnation.com) [18]. The differences among both fractions of the communities continue to this day.
+Because of differences within Burst Team, several members founded [Burstnation](https://www.burstnation.com) [18] by the end of 2016 . The differences among both fractions of the communities continue to this day.
 
 Spam Attack and Network Forks
 =============================
