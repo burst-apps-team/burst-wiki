@@ -30,7 +30,7 @@ Several changes in the blockchain protocol introduced a hard fork, meaning non-u
 Burst Team
 ==========
 
-After the original developer of Burst disappeared a community quickly formed under the name Burst Team in August of 2015. Development of the wallet software continued in a fork at Github [17]. A forum was created at [burst-team.us](https://www.burst-team.us).
+After the original developer of Burst disappeared a community quickly formed under the name Burst Team in August of 2015. Development of the wallet software continued in a fork at Github [17]. A website and a forum were created at [burst-team.us](https://www.burst-team.us).
 
 Burstnation
 ===========
