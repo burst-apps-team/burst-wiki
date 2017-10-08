@@ -5,7 +5,7 @@ There are several important events in the short history of Burst.
 Beginning
 =========
 
--   2014-08-10: Official announcement on Bitcointalk.org [1]
+-   2014-08-10: Official announcement on [Bitcointalk.org](https://bitcointalk.org) [1]
 -   2014-08-20: First pool available [2]
 -   2014-09-06: Burst/BTC market added to the Poloniex exchange [3]
 
@@ -19,7 +19,7 @@ Several changes in the blockchain protocol introduced a hard fork, meaning non-u
 -   2014-09-17: Version 1.1.0 backend updated to NXt 1.2.8 to enable new NXT features (encrypted messaging, DGS) [6]
 -   2014-09-27: Version 1.1.3 added escrow transactions [7]
 -   2014-11-04: Version 1.1.5 update to Nxt 1.3 (added subscriptions, updated escrow) [8]
--   2014-12-22: Version 1.2.0 added Automated Transactions (AT) [9]
+-   2014-12-22: Version 1.2.0 added [Automated Transactions](automated-transaction.md) (AT) [9]
 -   2015-02-06: Version 1.2.2 bugfixes for ATs [10]
 -   2015-04-20: Version 1.2.3 bugfixes for ATs and the asset exchange [11]
 
