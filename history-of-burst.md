@@ -11,7 +11,7 @@ Beginning
 Spam Attack and Network Forks
 =============================
 
-On July 22nd of 2017 an attacker spammed the Burst network with messages, causing wallets to crash and splitting the network into multiple forks. The network remained unstable for several days. As a result the Poloniex exchange froze the coin and disabled deposits and withdrawls.
+On July 22nd of 2017 an attacker spammed the Burst network with messages, causing wallets to crash and splitting the network into multiple forks. The network remained unstable for several days. As a result the Poloniex exchange froze the coin and disabled deposits and withdrawls . By August 10th the network was stable again and Poloniex reactived Burst deposits and withdrawls .
 
 Formation of the PoC Consortium
 ===============================
