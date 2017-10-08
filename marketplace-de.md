@@ -14,7 +14,7 @@ Wenn der Burst-Server läuft, kann mit dem Webbrowser auf die lokale Wallet zuge
 How To
 ------
 
-Öffnen Sie bitte Ihre Burst-Wallet und wählen Sie für einen Kauf den Punkt ‘Marketplatz’ oder ‘My Store’, um etwas zu verkaufen.
+Öffnen Sie bitte Ihre Burst-Wallet und wählen Sie für einen Kauf den Punkt ‘Marktplatz’ oder ‘Mein Shop’, um etwas zu verkaufen.
 
 ### Artikel kaufen
 
