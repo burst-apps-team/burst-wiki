@@ -7,7 +7,7 @@ Burst has many traits from many different “fathers”, so it's not possible to
 
 It started off as a fork of [Nxt](https://en.wikipedia.org/wiki/Nxt), so below you will find the Nxt community white paper[1].
 
-There was a substantial modification to the fork by carving out PoS completely and replacing it with PoC (Proof-of-Capacity). Proof of Capacity is also called Proof of Space and was described 2013 in the Proofs of Space\] paper [2] by Dziembowski, Faust, Kolmogorov and Pietrzak.
+There was a substantial modification to the fork by carving out PoS completely and replacing it with PoC (Proof-of-Capacity). Proof of Capacity is also called Proof of Space and was described 2013 in the Proofs of Space paper [2] by Dziembowski, Faust, Kolmogorov and Pietrzak.
 
 Based on this paper, a PoC cryptocurrency “SpaceMint” was proposed[3] in a paper by Sunoo Park, Kwon, Fuchsbauer, Pietrzak et al.
 
