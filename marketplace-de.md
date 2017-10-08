@@ -5,11 +5,11 @@ Beschreibung
 
 Der Burst-Marketplace bietet ein Protokoll für dezentrale Peer-to-Peer-Shops. Es können beliebige digitale Produkte, wie beispielsweise Software, Musik und Videos angeboten werden. Der Kafuinteressent durchsucht die Produkte einzelner Shops, tätigt eine Bestellung und erhält die erforderlichen Download-Informationen vom Verkäufer.
 
-Wallet Interface
-----------------
+Wallet-Benutzeroberfläche
+-------------------------
 
-With the server running, access the local Burst wallet by visiting <http://localhost:8125/>. On the sidebar, you find the menus ‘Marketplace’ and ‘My Store’: ![](Burst-marketplace.png "fig:Burst-marketplace.png")
-{| |- |**Search Marketplace**: Enter the sellers address to see his products. |- |**Purchased Products**: This page will list all your previously purchased products. |- |**My Products For Sale**: Lists the items you are selling in the marketplace, and gives you the ability to update your offerns. |- |**My Pending Orders**: Here you will see pending orders from users who wants to buy a product. |- |**My Completed Orders**: Shows all finished orders feedbacks from your customer. |- |**List Product For Sale**: Here you add a new digital good in the marketplace. |}
+Wenn der Burst-Server läuft, kann mit dem Webbrowser auf die lokale Wallet zugegriffen werden: bitte <http://localhost:8125/> öffnen. In der Menüleiste 'Marktplatz' oder 'Meine Shops' wählen:![](Burst-marketplace.png "fig:Burst-marketplace.png")
+{| |- |**Marktplatz durchsuchen**: Nach der Eingabe der Verkäufer-Adresse finden Sie hier dessen angebotenen Produkte. |- |**Gekaufte Artikel**: Listet alle zuvor von Ihnen gekaufte Produkte auf. |- |**Angebotene Artikel**: Enthält die Produkte, die Sie derzeit zum Kauf anbieten. |- |**Ausstehende Bestellungen**: Liste der verkauften Produkte, die Sie noch nicht ausgeliefert haben. Der Käufer benötigt noch die Download-Information. |- |**Abgeschlossene Bestellungen**: Enthält alle ausgelieferten Bestellungen und ev. Hinweise der Käufer. |- |**Artikel anbieten**: Hier können Sie neue digitale Produkte anbieten. |}
 
 How To
 ------
