@@ -58,12 +58,14 @@ Social Media
 Tools
 =====
 
--   <http://asset.burstnation.com/>
--   <http://blocks.burstxd.com/>
+-   <http://asset.burstnation.com>
+-   <http://blocks.burstxd.com>
+-   <http://www.burst.today>
 -   <http://burstcoin.zone>
 -   <http://www.burstcoin.cc/network>
 -   <http://burstcoincalculator.com>
 -   <https://explore.burst.cryptoguru.org>
 -   <https://play.google.com/store/apps/details?id=burstcoin.com.burst>
 -   <https://uptime.statuscake.com/?TestID=M30iNz7TSq>
+-   <http://whatif.burstnation.com>
 
