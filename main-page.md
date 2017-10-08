@@ -6,7 +6,7 @@
 
 </div>
 <div class="main_text">
-**Burst** is an [open source](https://github.com/ac0v/burstcoin) blockchain platform with multiple core-level features that has been running publicly since August 2014. It is a fork of Nxt and it's 100% Proof of Capacity (PoC) , meaning that you can mine it with your disk space.
+**Burst** is an [open source](https://github.com/ac0v/burstcoin) blockchain platform with multiple core-level features that has been running publicly since August 2014. It is a fork of Nxt and it's 100% Proof of Capacity (PoC), meaning that you can mine it with your disk space.
 
 </div>
 <div class="box_row">
