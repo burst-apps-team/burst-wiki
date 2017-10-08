@@ -16,17 +16,17 @@ How To
 
 Öffnen Sie bitte Ihre Burst-Wallet und wählen Sie für einen Kauf den Punkt ‘Marketplatz’ oder ‘My Store’, um etwas zu verkaufen.
 
-### Buying products
+### Artikel kaufen
 
-Here is a short description with the most essential info on how to buy on Burst marketplace:
+Hier eine kurze Beschreibung der wichtigsten Schritte:
 
-1.  Click the menu ‘Marketplace’ and then ‘Search Marketplace’.
-2.  Enter the sellers Burst address to see the list of his goods.
-3.  Click the name of a product to open the purchase dialog. Enter ‘Quantity’ and ‘Delivery Deadline’ in hours. This defines how long you are willing to wait for seller to deliver until the transaction is cancelled. Double check the data, enter your ‘Passphrase’ and hit the button ‘Purchase’.
-4.  The order has now been placed in your ‘Purchased Products’ menu. Here you can see the order status: After network confirmation (block generating) it will change from ‘Tentative’ to ‘Pending’.
-5.  When the seller has delivered the product, the status will change to ‘Complete’.
-6.  Click the name to open the dialog ‘Marketplace Delivery’. Enter your passphrase to ‘Decypt’ the sellers message. Here you will find the information on where you can fetch your digital good.
-7.  You now have the option of leaving feedback to the seller.
+1.  Wählen Sie ‘Marktplatz’ und dann den Unterpunkt ‘Marktplatz durchsuchen’.
+2.  Geben Sie die Burst-Adresse des gewünschten Verkäufers (Shops) ein, um seine Produkte zu einzusehen.
+3.  Ein Klick auf den Namen des gewünschten Artikels öffnet das Dialogfenster ‘Kauf’. Geben Sie die gewünschte ‘Menge’ ein sowie die ‘Lieferfrist’ in Stunden. Diese legt fest, wie lange Sie bereit sind, auf die Lieferung zu warten. Bei Überschreitung der Frist wird der Kauf abgebrochen. Prüfen Sie die Daten und bestätigen Sie nach Eingabe Ihrer ‘Passphrase’ mit Klick auf ‘Kauf’.
+4.  Der Artikel ist nun im Menü ‘Gekaufte Artikel’ zu finden. Hier sehen Sie den Orderstatus: nach der Netzwerkbestätigung wechselt dieser von ‘Vorläufig’ zu ‘Ausstehen’. Ihre Bestellung ist ab jetzt für den Verkäufer sichtbar.
+5.  Nach der Auslieferung durch den Verkäufer ändert sich der Status in ‘Abgeschlossen’.
+6.  Öffnen Sie jetzt das Dialogfenster ‘Lieferung’ mit Klick auf den Artikelnamen. Geben Sie Ihre ‘Passphrase’ ein und klicken Sie auf ‘Entschlüsseln’, um die Informationen des Verkäufers zu lesen. Diese beinhaltet die Downloadadresse, Freischaltung oder sonstige Information zum Bezug des digitalen Produkts.
+7.  Sie haben anschließend noch die Möglichkeit, dem Verkäufer ein Feedback zu geben bzw. ihm Fragen zu stellen.
 
 ### Selling products
 
