@@ -27,15 +27,25 @@ Several changes in the blockchain protocol introduced a hard fork, meaning non-u
 -   2015-02-06: Version 1.2.2 bugfixes for ATs [15]
 -   2015-04-20: Version 1.2.3 bugfixes for ATs and the asset exchange [16]
 
+Burst Team
+==========
+
+After the original developer of Burst disappeared a community formed under the name Burst Team. Development of the wallet software continued in a fork at Github [17]. A forum was created at [burst-team.us](https://www.burst-team.us).
+
+Burstnation
+===========
+
+Because of differences within Burst Team, several members founded [Burstnation](https://www.burstnation.com) [18]. The differences among both fractions of the communities continue to this day.
+
 Spam Attack and Network Forks
 =============================
 
-On July 22nd of 2017 an attacker spammed the Burst network with messages, causing wallets to crash and splitting the network into multiple forks [17]. The network remained unstable for several days. As a result the Poloniex exchange froze the coin and disabled deposits and withdrawls . By August 10th the network was stable again and Poloniex reactived Burst deposits and withdrawls .
+On July 22nd of 2017 an attacker spammed the Burst network with messages, causing wallets to crash and splitting the network into multiple forks [19]. The network remained unstable for several days. As a result the Poloniex exchange froze the coin and disabled deposits and withdrawls . By August 10th the network was stable again and Poloniex reactived Burst deposits and withdrawls .
 
 Formation of the PoC Consortium
 ===============================
 
-In the aftermath of the spam attack a group of Burst enthusiasts formed the [Proof-of-Capacity Consortium (PoCC)](poc-consortium.md). The original announcement of the group was posted on the third anniversary of the Burst blockchain on August 11th of 2017[18]. Inital activities of the group included improving the wallet software and providing a reliable block explorer.
+In the aftermath of the spam attack a group of Burst enthusiasts formed the [Proof-of-Capacity Consortium (PoCC)](poc-consortium.md). The original announcement of the group was posted on the third anniversary of the Burst blockchain on August 11th of 2017[20]. Inital activities of the group included improving the wallet software and providing a reliable block explorer.
 
 References
 ==========
@@ -74,6 +84,10 @@ References
 
 [16] <https://bitcointalk.org/index.php?topic=731923.msg11142412#msg11142412>
 
-[17] <https://bitcointalk.org/index.php?topic=731923.msg20296387#msg20296387>
+[17] <https://github.com/burst-team/burstcoin>
 
-[18] <https://bitcointalk.org/index.php?topic=2080040.0>
+[18] <https://forums.burst-team.us/post/90277>
+
+[19] <https://bitcointalk.org/index.php?topic=731923.msg20296387#msg20296387>
+
+[20] <https://bitcointalk.org/index.php?topic=2080040.0>
