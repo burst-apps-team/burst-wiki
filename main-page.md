@@ -81,6 +81,7 @@
     -   [Burstcoin Faucet Lists](http://burstfaucets.com/)
     -   [More](list-of-burst-related-websites.md)
 -   [Burst Whitepaper](whitepaper-burst.md)
+-   [History of Burst](history-of-burst.md)
 
 </div>
 <div class="box_column" style="background-color: #ffffff;">
