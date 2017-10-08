@@ -16,7 +16,7 @@ On July 22nd of 2017 an attacker spammed the Burst network with messages, causin
 Formation of the PoC Consortium
 ===============================
 
-In the aftermath of the spam attack a group of Burst enthusiasts formed the Proof-of-Capacity Consortium (PoCC). The original announcement of the group was posted on the third anniversary of the Burst blockchain on August 11th of 2017[2]. Inital activities of the group included improving the wallet software and provided a reliable block explorer.
+In the aftermath of the spam attack a group of Burst enthusiasts formed the Proof-of-Capacity Consortium (PoCC). The original announcement of the group was posted on the third anniversary of the Burst blockchain on August 11th of 2017[2]. Inital activities of the group included improving the wallet software and providing a reliable block explorer.
 
 References
 ==========
