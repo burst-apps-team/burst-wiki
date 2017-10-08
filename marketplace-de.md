@@ -28,26 +28,26 @@ Hier eine kurze Beschreibung der wichtigsten Schritte:
 6.  Öffnen Sie jetzt das Dialogfenster ‘Lieferung’ mit Klick auf den Artikelnamen. Geben Sie Ihre ‘Passphrase’ ein und klicken Sie auf ‘Entschlüsseln’, um die Informationen des Verkäufers zu lesen. Diese beinhaltet die Downloadadresse, Freischaltung oder sonstige Information zum Bezug des digitalen Produkts.
 7.  Sie haben anschließend noch die Möglichkeit, dem Verkäufer ein Feedback zu geben bzw. ihm Fragen zu stellen.
 
-### Selling products
+### Artikel verkaufen
 
-You can list your digital goods on marketplace:
+Sie können Ihre eigenen digitalen Produkte auf dem Burst-Marktplatz anbieten:
 
-1.  Open your Burst client and select ‘My Store’.
-2.  Click the button ‘List Product For Sale’ on the top right-hand corner.
-3.  Decripe your product.
-    **Name**: The name of the product.
-    **Description**: More details about the product, maybe add a link to a website where you present the product in full detail.
-    **Tags** (optional): Enter up to three comma separated tags.
-    **Price**: The product price in Burst per unit.
-    **Quantity**: The number of goods you have in stock. This will decrease every time a buyer buys from you.
-    **Passphrase**: Your wallet passphrase is needed to list the product.
-4.  Confirm the offer by clicking on ‘Put For Sale’. It is listed in italics on the ‘My Products For Sale’ page.
-5.  After the Burst network has included your product in a block (usually after a few minutes), it will be listet in normal font as a link.
-6.  When someone has placed an order to buy a good from you, it will show up in the ‘My Pending Orders’ menu. Go here and press the ‘Deliver Goods’ button.
-7.  In the pop up window, enter your passphrase to decrypt the message from the buyer. You can check the option ‘Remember passphrase for decryption’ for future sales.
-8.  Enter details on how the buyer can download your digital good in the ‘Data’ field. Optional you can give a ‘Discount’ to the buyer.
-9.  Enter your ‘Passphrase’ and hit the ‘Deliver Purchase’ button to finalize the purchase.
-10. You can find the completed order in the ‘My Completed Orders’ menu. For details click on the product name. Here you can see if the buyer has sent you feedback and you may also refund purchase.
+1.  Öffnen Sie die Wallet und gehen Sie zu ‘Mein Shop’.
+2.  Klick auf den Schalter ‘Artikel anbieten’.
+3.  Beschreiben Sie den Artikel.
+    **Name**: Eine präzise Produktbezeichnung.
+    **Beschreibung**: Ausführliche Details und ev. ein Link zur Produkt-Website.
+    **Tags** (optional): Sie können bis zu drei kommagetrennte Tags hinterlegen.
+    **Preis**: Der Einzelpreis in BURST.
+    **Menge**: Die verfügbare Menge, die Sie auf Lager haben und anbieten möchten. Diese wird beim Verkauf automatisch vom System verringert.
+    **Passphrase**: Ihr Kennwort ist für das Einstellen erforderlich.
+4.  Bestätigen Sie das Angebot mit Klick auf ‘Anbieten’. Es wird sofort in kursiver Schrift auf der Seite ‘Angebotene Artikel’ gelistet.
+5.  Nach der Bestätigung (Blockgenerierung) durch das Burst-Netzwerk wird es in normaler Schrift als klickbarer Link dargestellt.
+6.  Sobald jemand diesen Artikel kauft, wird er auf der Seite ‘Ausstehende Bestellungen’ gezeigt. Prüfen Sie diese Seite regelmäßig und klicken Sie auf ‘Artikel liefern’.
+7.  Im Dialogfenster geben Sie Ihre ‘Passphrase’ zum Entschlüsseln der Käufernachricht ein.
+8.  Beschreiben Sie im Feld ‘Daten’, wie der Käufer den Artikel beziehen kann. Teilen Sie ihm beispielsweise die Downloadadresse oder den Software-Aktivierungscode mit. Optional können Sie einen Rabatt geben.
+9.  Schließen Sie den Vorgang mit Ihrer ‘Passphrase’ und Klick auf ‘Artikel liefern’ ab.
+10. Dieser wird anschließend auf der Seite ‘Abgschlossene Bestellungen’ gelistet. Hier können Sie auch eventuelle Rückfragen Ihrer Kunden einsehen und beantworten.
 
 External Links
 --------------
