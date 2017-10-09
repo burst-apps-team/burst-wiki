@@ -8,7 +8,7 @@ Der Burst-Marketplace bietet ein Protokoll für dezentrale Peer-to-Peer-Shops. E
 Wallet-Benutzeroberfläche
 -------------------------
 
-Wenn der Burst-Server läuft, kann mit dem Webbrowser auf die lokale Wallet zugegriffen werden: bitte <http://localhost:8125/> öffnen. In der Menüleiste 'Marktplatz' oder 'Meine Shops' wählen:![](De-burst-marketplace.png "fig:De-burst-marketplace.png")
+Wenn der Burst-Server läuft, kann mit dem Webbrowser auf die lokale Wallet zugegriffen werden: bitte <http://localhost:8125/> öffnen. In der Menüleiste 'Marktplatz' oder 'Meine Shops' wählen: ![](De-burst-marketplace.png "fig:De-burst-marketplace.png")
 {| |- |**Marktplatz durchsuchen**: Nach der Eingabe der Verkäufer-Adresse finden Sie hier dessen angebotenen Produkte. |- |**Gekaufte Artikel**: Listet alle zuvor von Ihnen gekaufte Produkte auf. |- |**Angebotene Artikel**: Enthält die Produkte, die Sie derzeit zum Kauf anbieten. |- |**Ausstehende Bestellungen**: Liste der verkauften Produkte, die Sie noch nicht ausgeliefert haben. Der Käufer benötigt noch die Download-Information. |- |**Abgeschlossene Bestellungen**: Enthält alle ausgelieferten Bestellungen und ev. Hinweise der Käufer. |- |**Artikel anbieten**: Hier können Sie neue digitale Produkte anbieten. |}
 
 How To
