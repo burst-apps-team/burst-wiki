@@ -80,6 +80,7 @@
     -   [The Burstcoinist (News)](https://www.burstcoin.ist/)
     -   [Burstcoin Faucet Lists](http://burstfaucets.com/)
     -   [More](list-of-burst-related-websites.md)
+    -   [International websites](list-of-international-burst-websites.md)
 -   [Burst Whitepaper](whitepaper-burst.md)
 -   [History of Burst](history-of-burst.md)
 
