@@ -3,7 +3,7 @@ Burst being decentralized, community members and contributors are participating 
 Chinese
 -------
 
--   <http://forum.burstcoin.cn/forum.php>
+-   [<http://forum.burstcoin.cn/>](http://forum.burstcoin.cn)
 
 Danish
 ------
