@@ -23,8 +23,8 @@ If you want to translate this file into some language, you need to translate the
 
 ### Translation priorities
 
--   done languages: en, de, fr, zh
--   work-in-progress: es, ru
+-   done languages: en, de, fr, ru, sk, zh
+-   work-in-progress: ar, es
 -   wanted languages: hi, ko, and basically everything else
 
 <div class="toccolours mw-collapsible mw-collapsed">
