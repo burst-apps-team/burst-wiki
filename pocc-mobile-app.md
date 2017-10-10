@@ -24,7 +24,7 @@ If you want to translate this file into some language, you need to translate the
 ### Translation priorities
 
 -   done languages: en, de, fr, ru, sk, zh
--   work-in-progress: ar, es
+-   work-in-progress: ar, es, jp
 -   wanted languages: hi, ko, and basically everything else
 
 <div class="toccolours mw-collapsible mw-collapsed">
