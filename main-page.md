@@ -73,7 +73,7 @@
 -   [Get started with Burst](getting-started.md)
 -   [FAQ](faq.md)
 -   Website Resources
-    -   [General Information](https://www.burst-coin.org/) (may experience problems currently)
+    -   [General Information](https://www.burst-coin.org/)
     -   [Exchanges](exchanges.md)
     -   [Wallet download](http://burstwallet.io/)
     -   Forum: [Burst-Team](http://burst-team.us/), [GetBurst](https://forums.getburst.net/), [BurstNation](https://www.burstnation.com/)
