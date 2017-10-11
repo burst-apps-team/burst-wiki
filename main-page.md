@@ -96,7 +96,7 @@
 -   Network Observer: [Luxe](http://burstcoin.cc/), [PoCC](https://explore.burst.cryptoguru.org/tool/observe)
 -   [Asset Explorer](http://asset.burstnation.com/)
 -   [Burst What If?](http://whatif.burstnation.com/), [Burst Today](http://www.burst.today/)
--   [Nonces Calculator](http://heartofthetempest.tk/index.php/burst/nonces-calculator/)
+-   [Nonces Calculator](http://heartofthetempest.tk/index.php/burst/nonces-calculator/) (currently offline)
 -   [Pool uptime monitor](https://uptime.statuscake.com/?TestID=M30iNz7TSq)
 
 </div>
