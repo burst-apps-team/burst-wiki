@@ -1,14 +1,14 @@
-Capacity Improvement Proposal
------------------------------
+Capability Improvement Proposal
+-------------------------------
 
-Similar to the practice of [BIPs](https://en.bitcoin.it/wiki/Bitcoin_Improvement_Proposals) and [EIPs](https://github.com/ethereum/EIPs), the Burst community has established CIPs (short for “Capacity Improvement Proposal” or even “Coin Improvement Proposal” to advance further development of Burstcoin.
+Similar to the practice of [BIPs](https://en.bitcoin.it/wiki/Bitcoin_Improvement_Proposals) and [EIPs](https://github.com/ethereum/EIPs), the Burst community has established CIPs (short for “Capability Improvement Proposal” or even “Coin Improvement Proposal” to advance further development of Burstcoin.
 
 So CIPs describe standards for the Burstcoin platform, including core protocol specifications, client APIs, and contract standards.
 
 Abstract
 --------
 
-A (Burst)Coin or Capacity Improvement Proposal (CIP) is a design document providing information to the Burstcoin community, or describing a new feature for Burstcoin or its processes or environment. The CIP should provide a concise technical specification of the feature and a rationale for the feature.
+A (Burst)Coin or Capability Improvement Proposal (CIP) is a design document providing information to the Burstcoin community, or describing a new feature for Burstcoin or its processes or environment. The CIP should provide a concise technical specification of the feature and a rationale for the feature.
 
 We intend CIPs to be the primary mechanisms for proposing new features, for collecting community input on an issue, and for documenting the design decisions that have gone into Burstcoin. The CIP author is responsible for building consensus within the community and documenting dissenting opinions.
 
