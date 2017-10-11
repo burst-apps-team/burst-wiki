@@ -13,8 +13,6 @@ The base implementation allows for the transmission of simple, unencrypted text 
 How To
 ------
 
-[High-Level API calls for implementing arbitrary messages](https://burstwiki.org/wiki/The_Burst_API#Arbitrary_Message_System_Operations)
-
 Open your Burst client and select ‘Messages’.
 
 ### Sending messages
@@ -22,7 +20,7 @@ Open your Burst client and select ‘Messages’.
 1.  Open the menu ‘Messages’ and click on ‘Send Message’.
 2.  Enter the ‘Recipient’ Burst address.
 3.  In the ‘Data’ field, you can enter any text with a length of up to 1000 bytes. When sending, you receive a corresponding error message if you enter longer text.
-4.  You can select the checkbox ‘Encrypt Message’ or send the data in plain text. The recipient needs his passphrase to read encrypted messages.
+4.  You can select the checkbox ‘Encrypt Message’ or send the data in plain text.
 5.  Enter your ‘Passphrase’ and click on ‘Send Message’. It is listed in italics on the page.
 6.  After the network has processed your message (usually after a few minutes), it will be listet in normal font.
 
