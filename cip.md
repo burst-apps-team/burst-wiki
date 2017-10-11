@@ -104,3 +104,76 @@ Each CIP should have the following parts:
 -   Backwards compatibility -- All CIPs that introduce backwards incompatibilities must include a section describing these incompatibilities and their severity. The CIP must explain how the author proposes to deal with these incompatibilities.
 -   Reference implementation -- The reference implementation must be completed before any CIP is given status “Final”, but it need not be completed before the CIP is accepted. It is better to finish the specification and rationale first and reach consensus on it before writing code. The final implementation must include test code and documentation appropriate for the Burstcoin protocol.
 
+#### CIP header preamble
+
+Each CIP must begin with an RFC 822 style header preamble. The headers must appear in the following order. Headers marked with “\*” are optional and are described below. All other headers are required.
+
+      CIP: <CIP number, or "?" before being assigned>
+    * Layer: <Consensus (soft fork) | Consensus (hard fork) | Peer Services | API/RPC | Applications>
+      Title: <CIP title; maximum 44 characters>
+      Author: <list of authors' real names and email addrs>
+    * Discussions-To: <email address>
+    * Comments-Summary: <summary tone>
+      Comments-URI: <links to wiki page for comments>
+      Status: <Draft | Active | Proposed | Deferred | Rejected |
+               Withdrawn | Final | Replaced | Obsolete>
+      Type: <Standards Track | Informational | Process>
+      Created: <date created on, in ISO 8601 (yyyy-mm-dd) format>
+      License: <abbreviation for approved license(s)>
+    * License-Code: <abbreviation for code under different approved license(s)>
+    * Post-History: <dates of postings to bitcoin mailing list, or link to thread in mailing list archive>
+    * Requires: <CIP number(s)>
+    * Replaces: <CIP number>
+    * Superseded-By: <CIP number>
+
+The Layer header (only for Standards Track CIPs) documents which layer of Burstcoin the CIP applies to. See [CIP 123](cip-0123-mediawiki.md) for definitions of the various CIP layers. Activation of this CIP implies activation of CIP 123.
+
+The Author header lists the names and email addresses of all the authors/owners of the CIP. The format of the Author header value must be
+
+` Random J. User <address@dom.ain>`
+
+If there are multiple authors, each should be on a separate line following RFC 2822 continuation line conventions.
+
+While a CIP is in private discussions (usually during the initial Draft phase), a Discussions-To header will indicate the mailing list or URL where the CIP is being discussed. No Discussions-To header is necessary if the CIP is being discussed privately with the author, or on the bitcoin email mailing lists.
+
+The Type header specifies the type of CIP: Standards Track, Informational, or Process.
+
+The Created header records the date that the CIP was assigned a number, while Post-History is used to record when new versions of the CIP are posted to bitcoin mailing lists. Dates should be in yyyy-mm-dd format, e.g. 2001-08-14. Post-History is permitted to be a link to a specific thread in a mailing list archive.
+
+CIPs may have a Requires header, indicating the CIP numbers that this CIP depends on.
+
+CIPs may also have a Superseded-By header indicating that a CIP has been rendered obsolete by a later document; the value is the number of the CIP that replaces the current document. The newer CIP must have a Replaces header containing the number of the CIP that it rendered obsolete.
+
+#### Auxiliary Files
+
+CIPs may include auxiliary files such as diagrams. Auxiliary files should be included in a subdirectory for that CIP, or must be named CIP-XXXX-Y.ext, where “XXXX” is the CIP number, “Y” is a serial number (starting at 1), and “ext” is replaced by the actual file extension (e.g. “png”).
+
+CIP types
+---------
+
+There are three kinds of CIP:
+
+-   A Standards Track CIP describes any change that affects most or all Burstcoin implementations, such as a change to the network protocol, a change in block or transaction validity rules, or any change or addition that affects the interoperability of applications using Burstcoin. Standards Track CIPs consist of two parts, a design document and a reference implementation.
+-   An Informational CIP describes a Burstcoin design issue, or provides general guidelines or information to the Burstcoin community, but does not propose a new feature. Informational CIPs do not necessarily represent a Burstcoin community consensus or recommendation, so users and implementors are free to ignore Informational CIPs or follow their advice.
+-   A Process CIP describes a process surrounding Burstcoin, or proposes a change to (or an event in) a process. Process CIPs are like Standards Track CIPs but apply to areas other than the Burstcoin protocol itself. They may propose an implementation, but not to Burstcoin's codebase; they often require community consensus; unlike Informational CIPs, they are more than recommendations, and users are typically not free to ignore them. Examples include procedures, guidelines, changes to the decision-making process, and changes to the tools or environment used in Burstcoin development. Any meta-CIP is also considered a Process CIP.
+
+CIP status field
+----------------
+
+### Specification
+
+The typical paths of the status of CIPs are as follows:
+
+<img src="bip-0002/process.png"></img>
+
+Champions of a CIP may decide on their own to change the status between Draft, Deferred, or Withdrawn. The CIP editor may also change the status to Deferred when no progress is being made on the CIP.
+
+A CIP may only change status from Draft (or Rejected) to Proposed, when the author deems it is complete, has a working implementation (where applicable), and has community plans to progress it to the Final status.
+
+CIPs should be changed from Draft or Proposed status, to Rejected status, upon request by any person, if they have not made progress in three years. Such a CIP may be changed to Draft status if the champion provides revisions that meaningfully address public criticism of the proposal, or to Proposed status if it meets the criteria required as described in the previous paragraph.
+
+An Proposed CIP may progress to Final only when specific criteria reflecting real-world adoption has occurred. This is different for each CIP depending on the nature of its proposed changes, which will be expanded on below. Evaluation of this status change should be objectively verifiable, and/or be discussed on the development mailing list.
+
+When a Final CIP is no longer relevant, its status may be changed to Replaced or Obsolete (which is equivalent to Replaced). This change must also be objectively verifiable and/or discussed.
+
+A process CIP may change status from Draft to Active when it achieves rough consensus on the mailing list. Such a proposal is said to have rough consensus if it has been open to discussion on the development mailing list for at least one month, and no person maintains any unaddressed substantiated objections to it. Addressed or obstructive objections may be ignored/overruled by general agreement that they have been sufficiently addressed, but clear reasoning must be given in such circumstances.
