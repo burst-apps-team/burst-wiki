@@ -15,4 +15,4 @@ TODO:
 
 [`https://burstwiki.org/mediawiki/index.php?title=Asset_Exchange&action=edit`](https://burstwiki.org/mediawiki/index.php?title=Asset_Exchange&action=edit)
 [`https://burstwiki.org/mediawiki/index.php?title=Marketplace&action=edit&redlink=1`](https://burstwiki.org/mediawiki/index.php?title=Marketplace&action=edit&redlink=1)` --`[`Don`` ``Heraldo`](user-don-heraldo.md)` - Bitte gegenlesen, ist soweit fertig`
-[`https://burstwiki.org/mediawiki/index.php?title=Arbitrary_Messages&action=edit&redlink=1`](https://burstwiki.org/mediawiki/index.php?title=Arbitrary_Messages&action=edit&redlink=1)
+[`https://burstwiki.org/mediawiki/index.php?title=Arbitrary_Messages&action=edit&redlink=1`](https://burstwiki.org/mediawiki/index.php?title=Arbitrary_Messages&action=edit&redlink=1)` --`[`Don`` ``Heraldo`](user-don-heraldo.md)` (`[`talk`](user-talk-don-heraldo.md)`) 19:42, 11 October 2017 (CEST)`
