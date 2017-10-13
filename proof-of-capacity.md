@@ -3,9 +3,9 @@ Proof of Capacity PoC (also called Proof of Space) is, in general, a mechanism t
 Advantages of PoC
 =================
 
-In contrast to PoW, PoC is considered to be more eco friendly. While PoW requires expensive computations each time a block is generated, PoC puts most of the required computational costs up-front in the plotting process. Reading the plots in order to proof the designated disk space investment is much cheaper.
+In contrast to PoW, PoC is considered to be more eco friendly [1]. While PoW requires expensive computations each time a block is generated, PoC puts most of the required computational costs up-front in the plotting process. Reading the plots in order to proof the designated disk space investment is much cheaper. Additionaly, users can mine using their existing hardware, instead of having to to invest in special purpose hardware like e.g. ASICS for Bitcoin mining.
 
-In contrast to PoS and PoW miners are not required to invest in the target currency or new hardware, but can rather use existing hardware.
+In contrast to PoS, PoC allows a fairer distribution of coins as they are generated over time and assigned to active miners. In a PoS coin like NXT, the number of coins is fixed from the beginning and has to be distributed *somehow* initially. This leads to an unequal distribution of wealth to a few selected early adopters, e.g. via airdrops.
 
 Further Reading
 ===============
@@ -13,3 +13,4 @@ Further Reading
 -   [Proofs of Space](https://eprint.iacr.org/2013/796.pdf) paper by Dziembowski, Faust, Kolmogorov and Pietrzak
 -   [SpaceMint](https://eprint.iacr.org/2015/528.pdf) paper by Sunoo Park, Kwon, Fuchsbauer, Pietrzak et al.
 
+[1] <https://www.burstcoin.ist/how-burst-puts-bitcoin-to-shame/>
