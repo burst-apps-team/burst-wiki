@@ -3,7 +3,7 @@
 History
 -------
 
-The development of the [PoC Consortium](poc-consortium.md) (PoCC) mobile wallet for Burst has been announced August, 11th 2017 in the original PoCC announcement on bitcointalk[1]. One month later, a beta-test version has been published[2] and the official released followed by end of September[3]
+The development of the [PoC Consortium](poc-consortium.md) (PoCC) [mobile wallet](mobile-app.md) for Burst has been announced August, 11th 2017 in the original PoCC announcement on bitcointalk[1]. One month later, a beta-test version has been published[2] and the official released followed by end of September[3]
 
 Features
 --------
