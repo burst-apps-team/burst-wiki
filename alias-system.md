@@ -23,10 +23,10 @@ The alias can be any string of latin-character numbers and letters. The address 
 
 -   “173.194.112.174” (an IPv4 address)
 -   “2001:0db8:11a3:09d7:1f34:8a2e:07a0:765d” (an IPv6 address)
--   “mydomain.com/secretpage.php?parameter=value” (a URI)
--   “johnsmith@matrix.com”
+-   “example.com/secretpage.php?parameter=value” (a URI)
+-   “johnsmith@example.com”
 -   “<tel:+44-20-8123-4567>”
--   ...or even “<bitcoin:1BTCorgHwCg6u2YSAWKgS17qUad6kHmtQW>”.
+-   ...or even “<bitcoin:12dDMfhWq3scNWDsL4ty1Q5skyJj6M4scB>”.
 
 There are 2 main ways to use Burst aliases without having to rely on third-party plugins for your browser:
 
@@ -38,14 +38,42 @@ Changes can only be executed by the account that originally created the alias.
 Alias Transfer/Sale
 -------------------
 
-Aliases can be [transferred](how-to-createalias.md) for a 1 BURST fee.
+Aliases can be [transferred](-transfer-alias.md) for a 1 BURST fee.
 
 Alias can be sold to either specific BURST Accounts or to the general public. To sell an alias, you can set the price to sell for every alias.
 
 How To
 ------
 
-See our [Alias System How-To](how-to-alias.md) page
+Open your Burst client and select the ‘Aliases’ menu.
+
+### Register alias
+
+1.  Click on ‘Register Alias’ in the upper right corner.
+2.  Select the ‘Type’: “URI”, “Account” or “Other”.
+3.  In ‘Alias’ field, enter the name without blank spaces.
+4.  Depending on the selected ‘Type’, the text input field is named as ‘URI’, ‘Account ID’ or ‘Data’. The ‘Data’ field can contain any text with a length of up to 1000 bytes.
+5.  Enter your ‘Passphrase’ and click on ‘Register’. It is listed in italics on the page.
+6.  After the network has processed your message (usually after a few minutes), it will be listet in normal font.
+
+### Edit alias
+
+1.  Click on ‘Edit’ behind the alias you want to change.
+2.  You can modify the ‘Type’ and ‘Data’. You can not rename the ‘Alias’.
+3.  Enter your ‘Passphrase’ and click on ‘Update’.
+
+### Transfer alias
+
+1.  Click on the ‘Transfer’ button behind the desired alias.
+2.  Enter the ‘Recipient’ account id and optionally a message.
+3.  Enter your ‘Passphrase’ and click on ‘Transfer Alias’.
+
+### Sell alias
+
+1.  Click on ‘Sell’ behind the alias.
+2.  You can sell it to a specific user or offer it to the Burst network for purchase.
+3.  Enter the price and the corresponding data.
+4.  Confirm with your ‘Passphrase’ and click on ‘Sell Alias’.
 
 FAQ
 ---
