@@ -1,16 +1,3 @@
-Table of contents
------------------
-
-1. Introduction
-
-2. Algorithms and Acronyms
-
-3. Generating a nonce.
-
-4. Plot structure
-
-5. Staggers and filenames.
-
 Introduction
 ------------
 
