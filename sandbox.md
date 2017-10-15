@@ -1,1 +1,1 @@
-Don't do that!
+*y* = *x* − 2*z* + 13
