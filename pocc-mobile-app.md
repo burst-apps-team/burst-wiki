@@ -36,13 +36,13 @@ en.json localization file
             "ACTION_BAR_TITLE": "Create New Account",
             "DONE": "Done",
             "GENERATE_AGAIN": "Generate Again",
-            "INFO_SEED": "Tap and swipe over this area!",
-            "INFO_SEED_FINISHED": "Seed collected!",
-            "INFO_STEP_ONE": "First, create a random seed for the generation of your passphrase!",
-            "INFO_STEP_TWO": "Now you have to memorize all 12 words of your passphrase in the right order!",
-            "INFO_STEP_TWO_ACTION": "Write down the following words separated by space and keep them secret!",
-            "INFO_STEP_THREE": "Please reenter the words of your passphrase!",
-            "INFO_STEP_THREE_ACTION": "Write down word #{{value}} and select it!",
+            "INFO_SEED": "Tap and swipe over this area.",
+            "INFO_SEED_FINISHED": "Seed collected.",
+            "INFO_STEP_ONE": "First, create a random seed for the generation of your passphrase.",
+            "INFO_STEP_TWO": "Now you have to memorize all 12 words of your passphrase in the right order.",
+            "INFO_STEP_TWO_ACTION": "Write down the following words separated by space and keep them secret.",
+            "INFO_STEP_THREE": "Please enter the words of your passphrase again.",
+            "INFO_STEP_THREE_ACTION": "Write down word #{{value}} and select it.",
             "INFO_STEP_FOUR": "Please set a six-digit pin code for your account. The pin code is used to approve outgoing transactions.",
             "PIN_INPUT_HINT": "PIN",
             "POSSIBILITY_INPUT_HINT": "Word #{{value}}",
@@ -56,22 +56,23 @@ en.json localization file
             "ACTIVE_ACCOUNT_PIN_INFO": "Please set a six-digit pin code for your account. The pin code is used to approve outgoing transactions.",
             "DONE": "Done",
             "IMPORT": "Import",
-            "INFO": "Import an active account by entering its passphrase! Otherwise, import an offline account by entering its Burstcoin address!",
+            "INFO": "Import an active account by entering its passphrase. Otherwise, import an offline account by entering its Burstcoin address.",
             "NEXT": "Next",
             "OFFLINE_ACCOUNT": "Offline Account",
             "OFFLINE_ACCOUNT_DESCRIPTION": "An offline account offers the same functionality than an active account, except you cannot send Burstcoins to another address.",
             "OFFLINE_ACCOUNT_INPUT_HINT": "BURST-XXXX-XXXX-XXXX-XXXXX",
             "PIN_INPUT_HINT": "PIN",
             "SHOW" : {
-                "QUESTION": "Is this your Burst address?"
+                "QUESTION": "Is this your Burst address ?"
             }
         },
         "TABS": {
             "ACCOUNTS": {
                 "ACTIVATE": {
+                    "ACTION_BAR_TITLE": "Activate Account",
                     "DONE": "Done",
-                    "ENTER_PASSPHRASE": "Enter the passphrase of the account {{value}} here!",
-                    "ENTER_PIN": "Set a six-digit PIN code!",
+                    "ENTER_PASSPHRASE": "Enter the passphrase of the account {{value}} here.",
+                    "ENTER_PIN": "Set a six-digit PIN code.",
                     "PASSPHRASE_INPUT_HINT": "Passphrase",
                     "PIN_INPUT_HINT": "Pin",
                     "NEXT": "Next"
@@ -79,7 +80,7 @@ en.json localization file
                 "BALANCE": "Balance",
                 "CREATE": "Create",
                 "IMPORT": "Import",
-                "REMOVE": "Do you really want to remove this account?",
+                "REMOVE": "Do you really want to remove this account ?",
                 "TITLE": "Accounts"
             },
             "BALANCE": {
@@ -114,7 +115,7 @@ en.json localization file
                 },
                 "SUPPORT": {
                     "CONTRIBUTION": "We also appreciate non-monetary contributions",
-                    "DONATE": "You like our app? Support us by donating BURST!",
+                    "DONATE": "You like our app ? Support us by donating BURST!",
                     "SUPPORT": "Support"
                 },
                 "TITLE": "Settings"
@@ -122,6 +123,7 @@ en.json localization file
         },
         "SEND": {
             "ACCEPT": "Accept",
+            "ACTION_BAR_TITLE": "Send BURST",
             "AMOUNT": "Amount",
             "BALANCE": "Balance",
             "FEE": "Fee",
@@ -132,7 +134,7 @@ en.json localization file
         "START" : {
             "CREATE": "Create",
             "IMPORT": "Import",
-            "INFO": "No account created yet! Choose to import an existing account or create a new one!"
+            "INFO": "No account created yet. Choose to import an existing account or create a new one!"
         },
         "NOTIFICATIONS" : {
             "ADDRESS": "Please enter a valid Burstcoin address!",
@@ -149,7 +151,7 @@ en.json localization file
             "UDPDATE_LANGUAGE": "Language successfully updated!",
             "UPDATE_NODE": "Node successfully updated!",
             "WRONG_PASSPHRASE": "Wrong passphrase! The provided passphrase does not generate the public key assigned to your account!",
-            "WRONG_PIN": "The provided pin does not match the account's pin",
+            "WRONG_PIN": "The provided pin does not match the account's pin!",
             "ERRORS": {
                 "ACCOUNT_ID": "Cannot generate account id from public key!",
                 "ADDRESS": "Cannot generate BURST address from account id!",
@@ -162,7 +164,7 @@ en.json localization file
                 "REDIRECT": "Cannot open send BURST page! Current account is not active!",
                 "REMOVE": "Could not remove account!",
                 "UPDATE": "Update of account failed!",
-                "UNKNOWN_ACCOUNT": "Account is still unknown! No transactions yet!"
+                "UNKNOWN_ACCOUNT": "Account is still unknown. No transactions yet!"
             }
         }
     }
