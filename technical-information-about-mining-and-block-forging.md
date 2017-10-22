@@ -1,5 +1,5 @@
-**Introduction**
-----------------
+Introduction
+------------
 
 With most cryptocurrencies that are not based on Proof-of-Stake, there is a process called mining.
 
@@ -15,10 +15,10 @@ It is technical information, but not deep enough to be used as a reference for a
 
 information regarding subjects like AT, subscriptions, and assets is missing.
 
-**Algorithms and acronyms**
----------------------------
+Algorithms and acronyms
+-----------------------
 
-**Shabal / Sha256 / Curve25519**
+### Shabal / Sha256 / Curve25519
 
 Shabal, Sha256 and Curve25519 are cryptographic hash functions used in this text. Shabal is the main
 
@@ -30,19 +30,19 @@ This is because we store the precomputed hashes, and it is still fast enough to 
 
 Burst uses the 256bit version of Shabal also known as Shabal256.
 
-**Hash / Digest**
+### Hash / Digest
 
 A hash, or digest in this context, is a result when computing data through a cryptographic hash function.
 
 If not said otherwise, the length of a hash is 32Bytes (256bit).
 
-**Plot files**
+### Plot files
 
 When mining, you read precomputed hashes from files stored on a storage device. These files are
 
 called plot files.
 
-**Nonce**
+### Nonce
 
 Within a plot file, there are one or more groups of data called nonces. One nonce contains 8192 hashes,
 
@@ -50,19 +50,19 @@ and because of that, the nonces are 256KiB large. Each nonce has its own individ
 
 number can range between 0-18446744073709551615 (2<sup>64</sup>).
 
-**Scoop**
+### Scoop
 
 Each nonce is sorted into 4096 different places of data. These places are called scoop numbers.
 
 Each scoop contains 2 hashes. Each of these hashes are xored with a final hash.
 
-**Account ID**
+### Account ID
 
 When you create your plot file it will be bound to a specific Burst account. Because of this, all miners
 
 have different plot files.
 
-**Deadline**
+### Deadline
 
 When you mine and process your plot files, you will end up with resulting values called deadlines.
 
@@ -72,7 +72,7 @@ are allowed to forge a block. If no one else has forged a block within this time
 
 and claim a block reward.
 
-**Block reward**
+### Block reward
 
 If you are lucky enough to forge a block, you will get Burstcoin as a reward. This is called a block reward.
 
@@ -80,7 +80,7 @@ The block reward decreases 5% every 10800 blocks. This is roughly every 30 days 
 
 supposed to be forged every 4 minutes (360 blocks a day).
 
-**Base target**
+### Base target
 
 Base target is calculated from the last 24 blocks. This value adjusts the difficulty for the miners. The lower
 
@@ -88,7 +88,7 @@ the base target, the harder it is for a miner for find a low deadline. It gets a
 
 can have an average of 4 minutes for each block.
 
-**Network Difficulty**
+### Network Difficulty
 
 Network Difficulty, or NetDiff in short, is a value that can be read as an estimate on the total amount
 
@@ -98,13 +98,13 @@ relation to base target, it should be taken into an average of at least 360 valu
 
 be somewhat accurate.
 
-**Block Height**
+### Block Height
 
 Every block forged gets an individual number. Every new block forged gets the previous block’s
 
 number + 1. This number is called block height, and can be used to identify a specific block.
 
-**Block Generator**
+### Block Generator
 
 When a block is forged, an account has found a nonce and a deadline. Block generator is the account
 
@@ -112,13 +112,13 @@ used when forging a block. This is the account from which a deadline has been fo
 
 This is always the real account even if a reward assignment has been set.
 
-**Generation Signature**
+### Generation Signature
 
 Generation signature is a based from the previous block generation signature and block generator.
 
 This value is then used by miners to forge a new block. Generation signature is 32bytes long.
 
-**Block signature**
+### Block signature
 
 Every block is signed by the generator who forges a block. This is done by taking most parts of the
 
@@ -126,7 +126,7 @@ block and signing it with the block generator’s private key using both Sha256 
 
 The result is a 64byte long hash.
 
-**Reward Assignment**
+### Reward Assignment
 
 Reward assignment is frequently used when pool mining.  When changing your reward assignment,
 
@@ -138,7 +138,8 @@ pool account instead. Secondly, for the pool to be able to utilize the deadlines
 
 it is also granted the action to sign the newly forged blocks with the account belonging to the pool.
 
-**Mining Process**
+Mining Process
+--------------
 
 *All references to wallet in this text can also be a pool depending on scenario.*
 
@@ -188,10 +189,10 @@ account id used in plot files. If the password is not sent when solo mining, the
 
 blocks for that account. When pool mining, the passphrase for the pool account id is used.
 
-**Block forging process** 
---------------------------
+Block forging process 
+----------------------
 
-**Handling deadlines**
+### Handling deadlines
 
 The wallet has now received the information submitted by the miner, and will now create the nonce to be able to
 
@@ -209,7 +210,7 @@ the previous value. If the new deadline is lower, the wallet will use that value
 
 wallet will now start to forge a block.
 
-**Forging**
+### Forging
 
 There are two limits for a block. First, a block can contain max. 255 transactions. The second is that a block
 
@@ -227,7 +228,7 @@ and one Sha256 hash of all the transactions included. Complete transactions are 
 
 contains many different sets of values.
 
-**Block contents**
+### Block contents
 
 ● **Block version number**
 
