@@ -1,4 +1,3 @@
-<references />
 **Introduction**
 ----------------
 
