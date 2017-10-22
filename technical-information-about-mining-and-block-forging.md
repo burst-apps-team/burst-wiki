@@ -1,7 +1,7 @@
 Introduction
 ------------
 
-With most cryptocurrencies that are not based on Proof-of-Stake, there is a process called mining. This process is the foundation for a blockchain to grow and secure transactions within the network. Burstcoin is no different, except that you use precomputed hashes to find values that can be used to forge a block. To fully understand this document, you should read the document “Technical information to create plot files”. This document is intended to be an overview of the processes. It is technical information, but not deep enough to be used as a reference for a programmer since information regarding subjects like AT, subscriptions, and assets is missing.
+With most cryptocurrencies that are not based on Proof-of-Stake, there is a process called mining. This process is the foundation for a blockchain to grow and secure transactions within the network. Burstcoin is no different, except that you use precomputed hashes to find values that can be used to forge a block. To fully understand this document, you should read the document named [technical information to create plot files](technical-information-to-create-plot-files.md). This document is intended to be an overview of the processes. It is technical information, but not deep enough to be used as a reference for a programmer since information regarding subjects like AT, subscriptions, and assets is missing.
 
 Algorithms and acronyms
 -----------------------
