@@ -100,75 +100,75 @@ There are two limits for a block. First, a block can contain max. 255 transactio
 
 ### Block contents
 
-● **Block version number**
+-   **Block version number**
 
 The version number is basically telling the wallet what a block can contain and how it is contained. This number changes each time a block gets a new format.
 
-● **List of Transaction ID**
+-   **List of Transaction ID**
 
 A List of all transaction IDs that are included in this block
 
-● **Payload Hash**
+-   **Payload Hash**
 
 This is the Sha256 hash of all the data in the payload of the block
 
-● **Timestamp**
+-   **Timestamp**
 
 A timestamp that will describe when the block was forged; derived from the birth of the blockchain. Birth date: 2 august 2014, Time: 02:00:00 
 
-● **Total amount of coins**
+-   **Total amount of coins** 
 
 This is the sum of all transactions in the block
 
-● **Total amount of fees**
+-   **Total amount of fees**
 
 This is the amount of fees that will be given to the block forger for generating this block.
 
-● **The length of the payload**
+-   **The length of the payload**
 
 This is a number in bytes representing the length of the payload.
 
-● **Public Key**
+-   **Public Key**
 
 This is a public key for the account that forges the block.
 
-● **Generation Signature**
+-   **Generation Signature**
 
 The 32byte generation signature that was used to forge the block.
 
-● **Previous block hash**
+-   **Previous block hash**
 
 A Sha256 hash of the contents from the previous block.
 
-● **Previous block ID**
+-   **Previous block ID**
 
 This is the first 8 bytes in the previous block hash converted to a number.
 
-● **Cumulative Difficulty**
+-   **Cumulative Difficulty**
 
 Used to prevent Nothing at Stake problems during potential forks. Calculated: Previous Cumulative Difficulty + (18446744073709551616 / base target)
 
-● **Base Target**
+-   **Base Target**
 
 The base target used when forging this block
 
-● **Height**
+-   **Height**
 
 This block’s height value
 
-● **Block ID**
+-   **Block ID**
 
 This is the first 8 bytes in block’s hash converted to a number
 
-● **Nonce**
+-   **Nonce**
 
 The nonce number used to forge this block.
 
-● **AT**
+-   **AT**
 
 If an AT is added to this block, this is the payload bytes for that AT.
 
-● **Block Signature**
+-   **Block Signature**
 
 This is a 64byte hash generated with the forger’s private key and block contents. When this is done, it will be announced to the network. The wallet will connect to all peers and send the block over to them. The peer will receive the block and verify that all information is not spoofed.
 
