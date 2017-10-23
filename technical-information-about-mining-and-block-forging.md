@@ -40,11 +40,11 @@ If you are lucky enough to forge a block, you will get Burstcoin as a reward. Th
 
 -   **Base target**
 
-Base target is calculated from the last 24 blocks. This value adjusts the difficulty for the miners. The lower the base target, the harder it is for a miner for find a low deadline. It gets adjusted in a way that Burstcoin can have an average of 4 minutes for each block.
+Base target is calculated from the last 24 blocks. This value adjusts the difficulty for the miners. The lower the base target, the harder it is for a miner to find a low deadline. It gets adjusted in a way that Burstcoin can have an average of 4 minutes for each block.
 
 -   **Network Difficulty**
 
-Network Difficulty, or NetDiff in short, is a value that can be read as an estimate on the total amount of space in terabytes dedicated to mine Burstcoin. Since this is a value changes with every block in relation to base target, it should be taken into an average of at least 360 values before considered to be somewhat accurate.
+Network Difficulty, or NetDiff in short, is a value that can be read as an estimate on the total amount of space in terabytes dedicated to mine Burstcoin. Since this is a value that changes with every block in relation to base target, it should be taken into an average of at least 360 values before considered to be somewhat accurate.
 
 -   **Block Height**
 
