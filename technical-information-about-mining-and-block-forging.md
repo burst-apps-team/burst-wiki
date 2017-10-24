@@ -114,7 +114,7 @@ This is the Sha256 hash of all the data in the payload of the block
 
 -   **Timestamp**
 
-A timestamp that will describe when the block was forged; derived from the birth of the blockchain. Birth date: 2 august 2014, Time: 02:00:00 
+A timestamp that will describe when the block was forged; derived from the birth of the blockchain. Birth date: 11 august 2014, Time: 02:00:00 
 
 -   **Total amount of coins** 
 
