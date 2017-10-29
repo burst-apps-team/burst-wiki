@@ -23,9 +23,9 @@ If you want to translate this file into some language, you need to translate the
 
 ### Translation priorities
 
--   done languages: de, el, en, es, fr, hi, hu, it, ko, pl, ru, sk, sv, ta, zh
--   work-in-progress: ??
--   wanted languages: jp, pt, ml, nl, and basically everything else
+-   done languages: Chinese, English, French, German, Greek, Hindi, Hungarian, Italian, Korean, Polish, Russian, Slovak, Spanish, Swedish, Tamil
+-   work-in-progress: --
+-   wanted languages: Danish, Dutch, Japanese, Portuguese, Romanian and basically everything else
 
 <div class="toccolours mw-collapsible mw-collapsed">
 en.json localization file
