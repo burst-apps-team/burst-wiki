@@ -1,4 +1,4 @@
-**Caution! Most of this text is still based on the original Nxt API documentation. While Burst and Nxt share a fair amount of similarities, Burst starts to differ as it's being developed further. The changes may or may not be already documented on this page.**
+**Caution! Most of this text is still based on the original Nxt API documentation. While Burst and Nxt share a fair amount of similarities, Burst starts to differ as it's being developed further. The changes may or may not be already documented on this page. Also, the documentation here refers to the version or later**
 
 Description
 -----------
@@ -2179,7 +2179,7 @@ Give feedback about a purchased product after delivery. POST only.
 -   *purchase* is the purchase order ID
 -   *message* is unencrypted (public) feedback text up to 1000 bytes
 
-**Note**: The unencrypted *message* parameter is used for public feedback, but in addition or instead, an encrypted message can be used for private feedback to the seller and/or an encrypted message can be sent to self (buyer) although the current [NRS client](burst-client-interface.md) does not recognize non-public feedback messages.
+**Note**: The unencrypted *message* parameter is used for public feedback, but in addition or instead, an encrypted message can be used for private feedback to the seller and/or an encrypted message can be sent to self (buyer) although the current [BRS client](burst-client-interface.md) does not recognize non-public feedback messages.
 
 **Response:** Refer to [Create Transaction Response](the-burst-api-create-transaction-response.md).
 
@@ -3684,7 +3684,7 @@ Get information about a given peer.
 -   *services* (A) is an array of strings with the services the node provides
 -   *blacklistingCause* (S) is the cause of blacklisting (if *blacklisted* is *true*)
 -   *announcedAddress* (S) is the name that the peer announced to the network (could be a DNS name, IP address, or any other string)
--   *application* (S) is the name of the software application, typically *NRS*
+-   *application* (S) is the name of the software application, typically *BRS*
 -   *state* (N) defines the state of the peer: 0 for NON\_CONNECTED, 1 for CONNECTED, or 2 for DISCONNECTED
 -   *shareAddress* (B) is *true* if the address is allowed to be shared with other peers
 -   *inbound* (B) is *true* if the peer has made a request to this node
@@ -3742,7 +3742,7 @@ Set the remote node to use when in roaming and light client modes. POST only.
 -   *apiSSLPort* (N) is the SSL API access port of the peer
 -   *blacklistingCause* (S) is the cause of blacklisting (if *blacklisted* is *true*)
 -   *announcedAddress* (S) is the name that the peer announced to the network (could be a DNS name, IP address, or any other string)
--   *application* (S) is the name of the software application, typically *NRS*
+-   *application* (S) is the name of the software application, typically *BRS*
 -   *state* (N) defines the state of the peer: 0 for NON\_CONNECTED, 1 for CONNECTED, or 2 for DISCONNECTED
 -   *shareAddress* (B) is *true* if the address is allowed to be shared with other peers
 -   *inbound* (B) is *true* if the peer has made a request to this node
@@ -4113,7 +4113,7 @@ Get the blockchain status.
 -   *version* (S) is the application version
 -   *maxRollback* (N) is the value of the *nxt.maxRollback* property
 -   *lastBlock* (S) is the last block ID on the blockchain
--   *application* (S) is application name, typically *NRS*
+-   *application* (S) is application name, typically *BRS*
 -   *isScanning* (B) is *true* if the blockchain is being scanned by the application, *false* otherwise
 -   *isDownloading* (B) is *true* if a download is in progress, *false* otherwise; *true* when a batch of more than 10 blocks at once has been downloaded from a peer, reset to *false* when an attempt to download more blocks from a peer does not result in any new blocks
 -   *cumulativeDifficulty* (S) is the cumulative difficulty
@@ -4225,7 +4225,7 @@ Get the state of the server node and network.
 -   *numberOfBidOrders* (N) is the number of AE bid orders in the blockchain
 -   *lastBlock* (S) is the last block address
 -   *totalMemory* (N) is the amount of memory this node is using (in Bytes)
--   *application* (S) is the name of the software running on this node (typically *NRS*)
+-   *application* (S) is the name of the software running on this node (typically *BRS*)
 -   *numberOfAliases* (N) is the number of aliases in the blockchain
 -   *numberOfActivePeers* (N) is the number of active peers on the network
 -   *lastBlockchainFeederHeight* (N) is the height of the last blockchain feeder
@@ -5247,7 +5247,7 @@ Create a new poll. POST only.
 
 ⋮
 
-**Notes:** Up to 100 options (answers) can be specified, but there is an extra fee for each option beyond 20. Unlike the API, the [NRS client](burst-client-interface.md) treats a vote of *0* as a nonvote not contributing to the number answers (options) chosen. The NRS client uses checkboxes for selecting answers when *minRangeValue* = 0 and *maxRangeValue* = 1; otherwise sliding controls are used to select answers from the allowed range.
+**Notes:** Up to 100 options (answers) can be specified, but there is an extra fee for each option beyond 20. Unlike the API, the [BRS client](burst-client-interface.md) treats a vote of *0* as a nonvote not contributing to the number answers (options) chosen. The BRS client uses checkboxes for selecting answers when *minRangeValue* = 0 and *maxRangeValue* = 1; otherwise sliding controls are used to select answers from the allowed range.
 
 **Note:** When a balance affects the poll result, the result depends only on the balance (including pending outgoing phased transfers) computed just prior to the finish height.
 
@@ -5546,7 +5546,7 @@ Converts an ID to the signed long integer representation used internally.
 -   *longId* (S) is the signed long integer (8-bytes) representation of the ID used internally, returned as a string
 -   *requestProcessingTime* (N) is the API request processing time (in millisec)
 
-**Note:** Java does not support unsigned integers, so any unsigned ID (such as a block ID) visible in the [NRS client](burst-client-interface.md) is represented internally as a signed integer.
+**Note:** Java does not support unsigned integers, so any unsigned ID (such as a block ID) visible in the [BRS client](burst-client-interface.md) is represented internally as a signed integer.
 
 **Example:** Refer to [Long Convert](the-burst-api-examples-long-convert.md) example.
 
