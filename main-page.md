@@ -77,7 +77,7 @@
     -   [Exchanges](exchanges.md)
     -   [Marketplace](http://x.burstnation.com/marketplace)
     -   [Wallet download](http://burstwallet.io/)
-    -   Forum: [Burst-Team](http://burst-team.us/), [GetBurst](https://forums.getburst.net/), [BurstNation](https://www.burstnation.com/)
+    -   Forum: [Burst-Team](http://burstforum.net/), [GetBurst](https://forums.getburst.net/), [BurstNation](https://www.burstnation.com/)
     -   [The Burstcoinist (News)](https://www.burstcoin.ist/)
     -   [More](list-of-burst-related-websites.md)
     -   [International websites](list-of-international-burst-websites.md)
