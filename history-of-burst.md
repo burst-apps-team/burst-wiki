@@ -35,7 +35,7 @@ After the original developer of Burst disappeared a community quickly formed und
 Burstnation
 ===========
 
-Because of differences within Burst Team, several members founded [Burstnation](https://www.burstnation.com) [18] by the end of 2016 . The differences among both fractions of the community continue to this day.
+Because of differences within Burst Team, several members founded [Burstnation](https://www.burstnation.com) [18] by the end of 2016 . The differences among both fractions of the community continued for a long time until leading Burstnation members announced their retirement from the Burst community in the aftermath of the Dymaxion release (see below).
 
 Spam Attack and Network Forks
 =============================
@@ -46,6 +46,11 @@ Formation of the PoC Consortium
 ===============================
 
 In the aftermath of the spam attack a group of Burst enthusiasts formed the [Proof-of-Capacity Consortium (PoCC)](poc-consortium.md). The original announcement of the group was posted on the third anniversary of the Burst blockchain on August 11th of 2017[20]. Inital activities of the group included improving the wallet software and providing a reliable block explorer.
+
+Release of the Dymaxion White Paper
+===================================
+
+On December, 27th 2017 the PoC Consortium released a white paper titled “[The Burst Dymaxion](https://dymaxion.burst.cryptoguru.org/The-Burst-Dymaxion-1.00.pdf)” This white paper describes a proposed layer to the Burst blockchain capable of sustaining the total global load of non-cash transactions. The implementation of The Dymaxion by the PoC Consortium is ongoing.
 
 References
 ==========
