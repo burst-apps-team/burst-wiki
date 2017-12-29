@@ -1,6 +1,4 @@
-You can choose from several mobile applications
+There are several mobile applications on Google Play for Burst, but some are outdated and some of dubious quality. Currently you should use:
 
--   [BurstDevTeam wallet](https://play.google.com/store/apps/details?id=burstcoin.com.burst)
--   [BurstNation mobile wallet for Android](https://play.google.com/store/apps/details?id=com.official.bnwallet)
--   [PoCC mobile wallet for Android](https://play.google.com/store/apps/details?id=org.icewave.burstcoinwallet) **recommended**
+-   [PoCC mobile wallet for Android](https://play.google.com/store/apps/details?id=org.icewave.burstcoinwallet)
 
