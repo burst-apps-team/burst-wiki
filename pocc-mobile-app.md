@@ -90,12 +90,15 @@ en.json localization file
                 "TITLE": "Balance"
             },
             "HISTORY": {
-                "TITLE": "History"
+                "TITLE": "History",
+                "DECRYPT": "Decrypt",
+                "DECRYPT_IMPOSSIBLE": "Could not be decrypted!",
+                "PIN_INPUT_HINT": "Pin"
             },
             "SETTINGS": {
                 "ABOUT": {
                     "ABOUT": "About",
-                    "ASSOCIATION": "In Association with",
+                    "ASSOCIATION": "In association with",
                     "DEVELOPED": "Developed by",
                     "TWITTER": "Follow us on twitter to get updates on our projects!",
                     "VERSION": "Version"
@@ -124,11 +127,16 @@ en.json localization file
         "SEND": {
             "ACCEPT": "Accept",
             "ACTION_BAR_TITLE": "Send BURST",
+            "ADD_CONTACT": "Add new contact",
             "AMOUNT": "Amount",
+            "BACK": "Back",
             "BALANCE": "Balance",
+            "CONTACTS": "Contacts",
             "FEE": "Fee",
-            "RECIPIENT": "Recipient",
+            "FIAT": "Fiat currency to BURST",
+            "MESSAGE": "Message",
             "PIN_INPUT_HINT": "Pin",
+            "RECIPIENT": "Recipient",
             "VERIFY": "Verify"
         },
         "START" : {
@@ -139,6 +147,7 @@ en.json localization file
         "NOTIFICATIONS" : {
             "ADDRESS": "Please enter a valid Burstcoin address!",
             "COPIED": "Copied address {{value}} to clipboard!",
+            "CONTACT_ADDED": "Contact added successfully!",
             "DECIMAL_AMOUNT": "Please enter a decimal number for the amount of BURST you want to send!",
             "DECIMAL_FEE": "Please enter a decimal number (atleast 1) as fee!",
             "ENTER_SOMETHING": "Please enter something!",
@@ -156,10 +165,12 @@ en.json localization file
                 "ACCOUNT_ID": "Cannot generate account id from public key!",
                 "ADDRESS": "Cannot generate BURST address from account id!",
                 "CONNECTION": "Failed fetching data. Check your internet connection!",
+                "CONTACT":"Failed to add new contact!",
                 "CURRENCY": "Currency update failed!",
                 "KEYPAIR": "Failed to generate keypair for passphrase!",
                 "LANGUAGE": "Language change failed!",
                 "NODE": "Node update failed!",
+                "NO_PUBLIC_KEY": "Recipient has no public key yet! Sending of encrypted message not possible!",
                 "QR_CODE": "Could not scan QR code!",
                 "REDIRECT": "Cannot open send BURST page! Current account is not active!",
                 "REMOVE": "Could not remove account!",
