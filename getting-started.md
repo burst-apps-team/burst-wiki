@@ -16,8 +16,6 @@ You need to have the Burst client software installed and up to date. You can fin
 Start using the Burst client
 ----------------------------
 
-'' If you would prefer, you can first familiarise yourself with Nxt by playing around with the [Demo](http://nxt.org/demo/).''
-
 1.  [Create a Burst account address](how-to-createaccount.md)
 2.  [Learn how the Burst client software works](burst-client-interface.md)
 3.  [Learn the Security Features of Burst](secure-your-burst.md)
