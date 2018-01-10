@@ -25,3 +25,8 @@ German
 
 -   [<http://burstcoin.zone/>](http://burstcoin.zone/wordpress/blockexplorer/)
 
+Spanish
+-------
+
+-   <https://burst-coin.es/>
+
