@@ -99,8 +99,8 @@
 
 <!-- -->
 
--   [Pool uptime monitor](https://uptime.statuscake.com/?TestID=M30iNz7TSq)
--   [Burstcoin Faucet Lists](http://burstfaucets.com/)
+-   [Indicateur d'équipes en ligne](https://uptime.statuscake.com/?TestID=M30iNz7TSq)
+-   [Liste de distributeurs de Burst](http://burstfaucets.com/)
 
 </div>
 </div>
