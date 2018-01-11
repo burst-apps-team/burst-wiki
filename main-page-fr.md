@@ -21,7 +21,7 @@
 -   [Echanges d'actifs](echanges-d-actifs.md)
 -   [Automated transactions (Contrats intelligents)](automated-transaction.md)
 -   [Marché](marche.md)
--   [*Summary of Features*](current-features.md)
+-   [*Sommaire des fonctions*](fonctions-actuelles.md)
 
 </div>
 <div class="box_column">
@@ -32,11 +32,11 @@
 \***Burst Client**
 
 -   -   Latest Version: **** (beta: ****)
-    -   Direct Download: ****, ****
+    -   Téléchargment direct: ****, ****
 
--   [Burst Source Code](https://github.com/PoC-Consortium/burstcoin)
--   [Mobile App](mobile-app.md)
--   *[Burst software overview](burst-software.md)*
+-   [Code Source du Burst](https://github.com/PoC-Consortium/burstcoin)
+-   [Application Mobile](application-mobile.md)
+-   *[Vue d'ensemble du logiciel Burst](burst-software.md)*
 
 </div>
 <div class="box_column">
