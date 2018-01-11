@@ -12,15 +12,15 @@
 <div class="box_row">
 <div class="box_column">
 <div class="main_subtitle">
-**Burst Features**
+**Fonctionnalités du Burst**
 
 </div>
 \* [Arbitrary Messages](arbitrary-messages.md)
 
 -   [Alias System](alias-system.md)
--   [Asset Exchange](asset-exchange.md)
--   [Automated transactions (Smart Contracts)](automated-transaction.md)
--   [Marketplace](marketplace.md)
+-   [Echanges d'actifs](echanges-d-actifs.md)
+-   [Automated transactions (Contrats intelligents)](automated-transaction.md)
+-   [Marché](marche.md)
 -   [*Summary of Features*](current-features.md)
 
 </div>
