@@ -44,15 +44,15 @@
 **pour les Développeurs**
 
 </div>
-\*[L'API Burst](l-api-burst.md)
+\*[The Burst API](the-burst-api.md)
 
--   [Tutoriel Blockchain Burst](tutoriel-blockchain-burst.md)
--   [Format d'Adresse Reed-Solomon (RS)](format-d-adresse-rs.md)
--   [Codes QR pour Format d'Adresse RS](codes-qr-pour-format-d-adresse-rs.md)
+-   [Burst Blockchain Tutorial](burst-blockchain-tutorial.md)
+-   [Reed-Solomon (RS) Address Format](rs-address-format.md)
+-   [QR Codes for RS Address Format](qr-codes-for-rs-address-format.md)
 -   [The nxt-default.properties file](nxt-default-properties-configuration-file.md)
--   [Hors-ligne Transaction Signing](hors-ligne-transaction-signing.md)
--   [Comment fonctionne le processus de transactions](comment-fonctionnent-les-transactions.md)
--   [Integration des échanges](integration-des-echanges.md)
+-   [Offline Transaction Signing](offline-transaction-signing.md)
+-   [How Transaction Processing Works](how-tx-processing-works.md)
+-   [Exchange Integration](exchange-integration.md)
 
 </div>
 </div>
