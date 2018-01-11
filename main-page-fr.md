@@ -6,7 +6,7 @@
 
 </div>
 <div class="main_text">
-**Burst** est une [open source](https://github.com/ac0v/burstcoin) plateforme de type blockchain avec de multiples fonctionnalités au niveau du noyau et qui a été mise en ligne depuis Août 2014. Il s'agit d'un Fork de Nxt qui est 100% “preuve de capacité” [Proof of Capacity](proof-of-capacity.md) ou (PoC) , c'est à dire que vous pouvez le miner avec votre espace disque.
+**Burst** est une [plateforme open source](https://github.com/ac0v/burstcoin) de type blockchain avec de multiples fonctionnalités au niveau du noyau et qui a été mise en ligne depuis Août 2014. Il s'agit d'un Fork de Nxt qui est 100% “preuve de capacité” [Proof of Capacity](proof-of-capacity.md) ou (PoC) , c'est à dire que vous pouvez le miner avec votre espace disque.
 **[What is Burst video animation](https://www.youtube.com/watch?v=Fyj9RIyxLb4)**
 
 <div class="box_row">
