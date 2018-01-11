@@ -18,10 +18,10 @@
 \* [Arbitrary Messages](arbitrary-messages.md)
 
 -   [Alias System](alias-system.md)
--   [Echanges d'actifs](echanges-d-actifs.md)
--   [Automated transactions (Contrats intelligents)](automated-transaction.md)
--   [Marché](marche.md)
--   [*Sommaire des fonctions*](fonctions-actuelles.md)
+-   [Asset Exchange](asset-exchange.md)
+-   [Automated transactions (Smart Contracts)](automated-transaction.md)
+-   [Marketplace](marketplace.md)
+-   [*Summary of Features*](current-features.md)
 
 </div>
 <div class="box_column">
