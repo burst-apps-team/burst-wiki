@@ -41,24 +41,24 @@
 </div>
 <div class="box_column">
 <div class="main_subtitle">
-**For Developers**
+**pour les Développeurs**
 
 </div>
-\*[The Burst API](the-burst-api.md)
+\*[L'API Burst](l-api-burst.md)
 
--   [Burst Blockchain Tutorial](burst-blockchain-tutorial.md)
--   [Reed-Solomon (RS) Address Format](rs-address-format.md)
--   [QR Codes for RS Address Format](qr-codes-for-rs-address-format.md)
+-   [Tutoriel Blockchain Burst](tutoriel-blockchain-burst.md)
+-   [Format d'Adresse Reed-Solomon (RS)](format-d-adresse-rs.md)
+-   [Codes QR pour Format d'Adresse RS](codes-qr-pour-format-d-adresse-rs.md)
 -   [The nxt-default.properties file](nxt-default-properties-configuration-file.md)
--   [Offline Transaction Signing](offline-transaction-signing.md)
--   [How Transaction Processing Works](how-tx-processing-works.md)
--   [Exchange Integration](exchange-integration.md)
+-   [Hors-ligne Transaction Signing](hors-ligne-transaction-signing.md)
+-   [Comment fonctionne le processus de transactions](comment-fonctionnent-les-transactions.md)
+-   [Integration des échanges](integration-des-echanges.md)
 
 </div>
 </div>
 <div class="box_row">
 <div class="box_column_light" style="background-color: #ffffff; text-align:center;">
-**Get Support: \[Burst Support Center\]   |   [Forum](https://forums.getburst.net)   |   [Burst Discord](https://discord.gg/PMUgVSY)**
+**Get Support: \[Burst Centre de Support \]   |   [Forum](https://forums.getburst.net)   |   [Burst Discord](https://discord.gg/PMUgVSY)**
 
 </div>
 </div>
