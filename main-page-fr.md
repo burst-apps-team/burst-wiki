@@ -35,8 +35,8 @@
     -   Téléchargment direct: ****, ****
 
 -   [Code Source du Burst](https://github.com/PoC-Consortium/burstcoin)
--   [Application Mobile](application-mobile.md)
--   *[Vue d'ensemble du logiciel Burst](burst-software.md)*
+-   [Mobile App](mobile-app.md)
+-   *[Burst software overview](burst-software.md)*
 
 </div>
 <div class="box_column">
