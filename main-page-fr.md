@@ -106,7 +106,7 @@
 </div>
 <div id="main_topboxlinks">
 <center>
-'''[Rejoingez nous !](rejoingez-nous--.md)   |   **[Contribuez](contribuez.md)**   |   **[Burst Foundation](http://burst-foundation.org/)**
+'''[Rejoignez nous !](rejoignez-nous--.md)   |   **[Contribuez](contribuez.md)**   |   **[Burst Foundation](http://burst-foundation.org/)**
 
 </center>
 </div>
