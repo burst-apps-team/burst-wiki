@@ -65,35 +65,35 @@
 <div class="box_row">
 <div class="box_column" style="background-color: #ffffff;">
 <div class="sub_title">
-**About Burst**
+**A propos du Burst**
 
 </div>
-\* [What is Burst?](burst-wiki.md)
+\* [Qu'est ce que le Burst?](burst-wiki.md)
 
--   [Get started with Burst](getting-started.md)
+-   [Commencer avec le Burst](demarrer.md)
 -   [FAQ](faq.md)
--   Website Resources
+-   Documentation Web
     -   [General Information](https://www.burst-coin.org/)
     -   [Exchanges](exchanges.md)
     -   [Marketplace](http://x.burstnation.com/marketplace)
     -   [Wallet download](http://burstwallet.io/)
     -   Forum: [Burst-Team](http://burstforum.net/), [GetBurst](https://forums.getburst.net/), [Burst Reddit](https://www.reddit.com/r/burstcoin/)
     -   [The Burstcoinist (News)](https://www.burstcoin.ist/)
-    -   [More](list-of-burst-related-websites.md)
-    -   [International websites](list-of-international-burst-websites.md)
--   [Burst Whitepaper](whitepaper-burst.md)
--   [History of Burst](history-of-burst.md)
+    -   [More](liste-de-sites-parlant-du-burst.md)
+    -   [Sites Web internationaux](liste-de-sites-internationaux-parlant-du-burst.md)
+-   [Feuille de route Burst](feuille-de-route-burst.md)
+-   [Historique du Burst](historique-du-burst.md)
 
 </div>
 <div class="box_column" style="background-color: #ffffff;">
 <div class="sub_title">
-**Services and Tools**
+**Services et outils**
 
 </div>
-\* Online wallets: [PoCC](https://wallet.burst.cryptoguru.org:8125/index.html), poolofd32th: [1](https://wallet.poolofd32th.club/index.html), [2](https://wallet2.poolofd32th.club/index.html). Burst-Team: [3](https://wallet3.burst-team.us:2083/index.html), [4](https://wallet4.burst-team.us:2083/index.html), [5](https://wallet5.burst-team.us:2083/index.html)
+\* Portefeuilles en ligne: [PoCC](https://wallet.burst.cryptoguru.org:8125/index.html), poolofd32th: [1](https://wallet.poolofd32th.club/index.html), [2](https://wallet2.poolofd32th.club/index.html). Burst-Team: [3](https://wallet3.burst-team.us:2083/index.html), [4](https://wallet4.burst-team.us:2083/index.html), [5](https://wallet5.burst-team.us:2083/index.html)
 
 -   Blockchain Explorer: [PoCC](https://explore.burst.cryptoguru.org/), [BurstXD](http://burstxd.com/blocks/), [burstcoin.zone](http://burstcoin.zone/wordpress/blockexplorer/)
--   Network Observer: [Luxe](http://burstcoin.cc/), [PoCC](https://explore.burst.cryptoguru.org/tool/observe)
+-   Observateur de réseau: [Luxe](http://burstcoin.cc/), [PoCC](https://explore.burst.cryptoguru.org/tool/observe)
 -   [Asset Explorer](http://asset.burstnation.com/)
 -   [Burst What If?](http://whatif.burstnation.com/), [Burst Today](http://www.burst.today/)
 
