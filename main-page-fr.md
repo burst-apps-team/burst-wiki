@@ -92,10 +92,10 @@
 </div>
 \* Portefeuilles en ligne: [PoCC](https://wallet.burst.cryptoguru.org:8125/index.html), poolofd32th: [1](https://wallet.poolofd32th.club/index.html), [2](https://wallet2.poolofd32th.club/index.html). Burst-Team: [3](https://wallet3.burst-team.us:2083/index.html), [4](https://wallet4.burst-team.us:2083/index.html), [5](https://wallet5.burst-team.us:2083/index.html)
 
--   Blockchain Explorer: [PoCC](https://explore.burst.cryptoguru.org/), [BurstXD](http://burstxd.com/blocks/), [burstcoin.zone](http://burstcoin.zone/wordpress/blockexplorer/)
+-   Explorateur de Blockchain: [PoCC](https://explore.burst.cryptoguru.org/), [BurstXD](http://burstxd.com/blocks/), [burstcoin.zone](http://burstcoin.zone/wordpress/blockexplorer/)
 -   Observateur de réseau: [Luxe](http://burstcoin.cc/), [PoCC](https://explore.burst.cryptoguru.org/tool/observe)
--   [Asset Explorer](http://asset.burstnation.com/)
--   [Burst What If?](http://whatif.burstnation.com/), [Burst Today](http://www.burst.today/)
+-   [Explorateur d'actifs](http://asset.burstnation.com/)
+-   [Burst What If?](http://whatif.burstnation.com/), [Burst Aujourd'hui](http://www.burst.today/)
 
 <!-- -->
 
