@@ -31,8 +31,8 @@
 </div>
 \***Burst Client**
 
--   -   Latest Version: **** (beta: ****)
-    -   Téléchargment direct: ****, ****
+-   -   Dernière Version: **** (beta: ****)
+    -   Téléchargement direct: ****, ****
 
 -   [Code Source du Burst](https://github.com/PoC-Consortium/burstcoin)
 -   [Mobile App](mobile-app.md)
