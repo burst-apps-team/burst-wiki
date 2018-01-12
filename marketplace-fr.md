@@ -20,7 +20,7 @@ Ouvrez votre client Burst et sélectionnez 'Place de Marché' pour acheter ou 'M
 
 Voici un petit récapitulatif des infos essentielles sur la façon d'acheter au Marché :
 
-1.  Cliquer sur le menu 'Place du Marché' et ensuite 'Chercher sur le Marché'.
+1.  Cliquer sur le menu 'Place de Marché' et ensuite 'Chercher sur le Marché'.
 2.  Entrer l'adresse Burst du vendeur pour voir la liste de ses marchandises.
 3.  Cliquer sur le nom d'un produit pour ouvrir le dialogue d'achat. Entrez la 'Quantité' et 'le Délai de livraison' en heures. Ceci définit combien de temps vous êtes enclins à attendre la livraison du vendeur jusqu'à ce que la transaction soit annulée. Vérifiez 2 fois les données, entrez votre 'Passphrase' et cliquez sur le bouton 'acheter'.
 4.  La commande a maintenant été placée dans votre menu 'Produits Achetés'. Ici vous pouvez voir l'état de la commande : Après confirmation du réseau (la génération de bloc) il passera de 'Provisoire' à 'En attente'.
