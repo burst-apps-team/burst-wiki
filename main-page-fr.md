@@ -19,8 +19,8 @@
 
 -   [Alias System](alias-system.md)
 -   [Asset Exchange](asset-exchange.md)
--   [Automated transactions (Smart Contracts)](automated-transaction.md)
--   [Marketplace](marketplace.md)
+-   [Transactions Automatisées (Contrats intelligents)](automated-transaction.md)
+-   [Place de Marché](marketplace.md)
 -   [*Summary of Features*](current-features.md)
 
 </div>
