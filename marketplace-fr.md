@@ -11,10 +11,10 @@ Interface de Portefeuille
 Pendant que le serveur est actif, accédez au portefeuille local Burst en allant sur <http://localhost:8125/>. Sur le côté, vous trouvez les menus 'Place de Marché' et 'Ma Boutique' : ![](Burst-marketplace.png "fig:Burst-marketplace.png")
 {| |- |**Chercher sur le marché**: Introduisez l'ID de compte du vendeur pour voir son magasin. |- |**Produits achetés**: Cette page va lister tous les produits que vous avez achetés précédemment. |- |**Mes produits à vendre**: Énumère les objets que vous vendez sur le marché et vous donne la possibilité de mettre à jour vos annonces. |- |**Mes ordres en attente**: Ici vous verrez les ordres en attente des utilisateurs qui veulent acheter des produits. |- |**Mes ventes exécutées**: Montre tous les commentaires de vos clients à propos des ordres terminés. |- |**Liste des produits à vendre**: Ici vous pouvez ajouter un nouveau bien digital sur la place du marché. |}
 
-How To
-------
+Comment faire
+-------------
 
-Open your Burst client and select ‘Marketplace’ to buy or ‘My Store’ to sell.
+Ouvrez votre client Burst et sélectionnez 'Place du Marché' pour acheter ou 'Ma Boutique' pour vendre.
 
 ### Buying products
 
