@@ -15,13 +15,13 @@
 **Fonctionnalités du Burst**
 
 </div>
-\* [Arbitrary Messages](arbitrary-messages.md)
+\* [Messages Arbitraires](arbitrary-messages.md)
 
--   [Alias System](alias-system.md)
--   [Asset Exchange](asset-exchange.md)
+-   [Système d'Alias](alias-system.md)
+-   [Echanges d'actifs](asset-exchange.md)
 -   [Transactions Automatisées (Contrats intelligents)](automated-transaction.md)
 -   [Place de Marché](marketplace.md)
--   [*Summary of Features*](current-features.md)
+-   [*Sommaire des Fonctionnalités*](current-features.md)
 
 </div>
 <div class="box_column">
