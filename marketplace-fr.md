@@ -3,7 +3,7 @@
 Description
 -----------
 
-The Burst Marketplace provides a protocol for decentralized, peer-to-peer stores for any kind of digital goods like software, music or video. You browse the sellers products, place an order and the seller will send you information of how to download the good.
+Le marché du Burst fourni un protocole pour des magasins décentralisés, en peer-to-peer, pour n'importe quelle sorte de marchandises numériques comme des logiciels, de la musique ou de la vidéo. Vous feuilletez les produits des vendeurs, passez une commande et les vendeurs vous enverront les informations pour télécharger les biens.
 
 Wallet Interface
 ----------------
