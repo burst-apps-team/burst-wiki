@@ -5,7 +5,7 @@ Description
 
 Le marché du Burst fournit un protocole pour des magasins décentralisés, en peer-to-peer, pour n'importe quelle sorte de marchandises numériques comme des logiciels, de la musique ou de la vidéo. Vous feuilletez les produits des vendeurs, passez une commande et les vendeurs vous enverront les informations pour télécharger les biens.
 
-Interface de Portefeuille
+Interface du Portefeuille
 -------------------------
 
 Pendant que le serveur est actif, accédez au portefeuille local Burst en allant sur <http://localhost:8125/>. Sur le côté, vous trouvez les menus 'Place de Marché' et 'Ma Boutique' : ![](Burst-marketplace.png "fig:Burst-marketplace.png")
