@@ -28,26 +28,26 @@ Voici un petit récapitulatif des infos essentielles sur la façon d'acheter au 
 6.  Cliquez sur le nom pour ouvrir la boite de dialogue 'Livraison de la place de Marché '. Entrez votre passphrase pour 'Décrypter' les messages des vendeurs. Ici vous trouverez les informations sur l'endroit où vous pouvez aller chercher votre produit numérique.
 7.  Vous avez maintenant la possibilité de laisser un commentaire au vendeur.
 
-### Selling products
+### Vente de produits
 
-You can list your digital goods on marketplace:
+Vous pouvez inscrire vos marchandises numériques sur le marché :
 
-1.  Open your Burst client and select ‘My Store’.
-2.  Click the button ‘List Product For Sale’ on the top right-hand corner.
-3.  Decripe your product.
-    **Name**: The name of the product.
-    **Description**: More details about the product, maybe add a link to a website where you present the product in full detail.
-    **Tags** (optional): Enter up to three comma separated tags.
-    **Price**: The product price in Burst per unit.
-    **Quantity**: The number of goods you have in stock. This will decrease every time a buyer buys from you.
-    **Passphrase**: Your wallet passphrase is needed to list the product.
-4.  Confirm the offer by clicking on ‘Put For Sale’. It is listed in italics on the ‘My Products For Sale’ page.
-5.  After the Burst network has included your product in a block (usually after a few minutes), it will be listet in normal font as a link.
-6.  When someone has placed an order to buy a good from you, it will show up in the ‘My Pending Orders’ menu. Go here and press the ‘Deliver Goods’ button.
-7.  In the pop up window, enter your passphrase to decrypt the message from the buyer. You can check the option ‘Remember passphrase for decryption’ for future sales.
-8.  Enter details on how the buyer can download your digital good in the ‘Data’ field. Optional you can give a ‘Discount’ to the buyer.
-9.  Enter your ‘Passphrase’ and hit the ‘Deliver Purchase’ button to finalize the purchase.
-10. You can find the completed order in the ‘My Completed Orders’ menu. For details click on the product name. Here you can see if the buyer has sent you feedback and you may also refund purchase.
+1.  Ouvrez votre client Burst et sélectionnez 'Ma Boutique'.
+2.  Cliquez sur le bouton 'Liste des produits à vendre' dans le coin supérieur droit.
+3.  Décrivez votre produit.
+    *Nom* : le nom du produit.
+    *Description* : Plus de détails sur le produit, pourquoi pas ajuter un lien vers un site où vous présenterez le produit en détails.
+    *des Tags* (facultatif) : Entrez des Tags séparés jusqu'à trois virgule.
+    *Prix* : le prix du produit en Burst par unité.
+    *Quantité* : le nombre de marchandises que vous avez en stock. Ceci diminuera chaque fois un acheteur achète chez vous.
+    *Passphrase* : Votre passphrase de portefeuille est nécessaire pour inscrire un produit.
+4.  Confirmer l'offre en cliquant sur 'Mettre en vente'. Il est inscrit en italique dans la page 'Mes Produits en vente'.
+5.  Après que le réseau Burst a inclus votre produit dans un bloc (en général après quelques minutes), ce sera inscrit dans la police de caractères normale d'un lien.
+6.  Quand quelqu'un a placé un ordre d'achat auprès de vous, vous le verrez dans le menu de 'Mes Commandes En attente'. Allez y et cliquez sur le bouton 'Livrer les produits'.
+7.  Dans la fenêtre qui va s'ouvrir, entrez votre passphrase pour décrypter le message de l'acheteur. Vous pouvez cocher l'option 'Mémoriser la passphrase pour le décryptage' pour vos futures ventes.
+8.  Entrez les détails sur comment l'acheteur peut télécharger votre produit numérique dans le champ 'Données'. Facultativement, vous pouvez accorder 'une Remise' à l'acheteur.
+9.  Entrez votre 'Passphrase' puis cliquez sur 'livrer le produit' pour finaliser la commande.
+10. Vous pourrez trouver la commande terminée dans le menu 'Mes Ventes Exécutées'. Pour voir les détails, cliquez sur le nom du produit. Vous pourrez voir si le vendeur vous a laissé un commentaire et éventuellement effectuer un remboursement.
 
 External Links
 --------------
