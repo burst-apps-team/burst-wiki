@@ -35,7 +35,7 @@
     -   Téléchargement direct: ****, ****
 
 -   [Code Source du Burst](https://github.com/PoC-Consortium/burstcoin)
--   [Mobile App](mobile-app.md)
+-   [Application mobile](mobile-app.md)
 -   *[Burst software overview](burst-software.md)*
 
 </div>
