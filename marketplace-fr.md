@@ -16,17 +16,18 @@ Comment faire
 
 Ouvrez votre client Burst et sélectionnez 'Place du Marché' pour acheter ou 'Ma Boutique' pour vendre.
 
-### Buying products
+### Acheter des produits
 
-Here is a short description with the most essential info on how to buy on Burst marketplace:
+Voici un petit récapitulatif des infos essentielles sur la façon d'acheter au Marché :
 
-1.  Click the menu ‘Marketplace’ and then ‘Search Marketplace’.
-2.  Enter the sellers Burst address to see the list of his goods.
-3.  Click the name of a product to open the purchase dialog. Enter ‘Quantity’ and ‘Delivery Deadline’ in hours. This defines how long you are willing to wait for seller to deliver until the transaction is cancelled. Double check the data, enter your ‘Passphrase’ and hit the button ‘Purchase’.
-4.  The order has now been placed in your ‘Purchased Products’ menu. Here you can see the order status: After network confirmation (block generating) it will change from ‘Tentative’ to ‘Pending’.
-5.  When the seller has delivered the product, the status will change to ‘Complete’.
-6.  Click the name to open the dialog ‘Marketplace Delivery’. Enter your passphrase to ‘Decypt’ the sellers message. Here you will find the information on where you can fetch your digital good.
-7.  You now have the option of leaving feedback to the seller.
+1.  Cliquer sur le menu 'Place du Marché' et ensuite 'Chercher sur le Marché'.
+2.  Entrer l'adresse Burst du vendeur pour voir la liste de ses marchandises.
+3.  Cliquer sur le nom d'un produit pour ouvrir le dialogue d'achat. Entrez la 'Quantité' et 'le Délai de livraison' en heures. Ceci définit combien de temps vous êtes enclins à attendre la livraison du vendeur jusqu'à ce que la transaction soit annulée. Vérifiez 2 fois les données, entrez votre 'Passphrase' et cliquez sur le bouton 'acheter'.
+4.  La commande a maintenant été placée dans votre menu 'Produits Achetés'. Ici vous pouvez voir l'état de la commande : Après confirmation du réseau (la génération de bloc) il passera de 'Provisoire' à 'En attente'.
+5.  Quand le vendeur aura livré le produit, le statut passera à 'Terminé'.
+6.  Cliquez sur le nom pour ouvrir la boite de dialogue 'Livraison de la place de Marché '. Entrez votre passphrase pour 'Décrypter' les messages des vendeurs. Ici vous trouverez les informations sur l'endroit où vous pouvez aller chercher votre produit numérique.
+
+-   Vous avez maintenant la possibilité de laisser un commentaire au vendeur.
 
 ### Selling products
 
