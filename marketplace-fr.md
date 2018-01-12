@@ -49,10 +49,10 @@ Vous pouvez inscrire vos marchandises numériques sur le marché :
 9.  Entrez votre 'Passphrase' puis cliquez sur 'livrer le produit' pour finaliser la commande.
 10. Vous pourrez trouver la commande terminée dans le menu 'Mes Ventes Exécutées'. Pour voir les détails, cliquez sur le nom du produit. Vous pourrez voir si le vendeur vous a laissé un commentaire et éventuellement effectuer un remboursement.
 
-External Links
+Liens externes
 --------------
 
--   [burst-team.us: Forum Marketplace](https://forums.burst-team.us/category/14/marketplace/)
--   [Burst Nation: Marketplace](https://www.burstnation.com/wbb/index.php?board/12-marketplace/)
+-   [burst-team.us: Forum de la Place du Marché](https://forums.burst-team.us/category/14/marketplace/)
+-   [Burst Nation: Place du Marché](https://www.burstnation.com/wbb/index.php?board/12-marketplace/)
 
 <Category:Features>
