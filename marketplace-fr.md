@@ -37,7 +37,7 @@ Vous pouvez inscrire vos marchandises numériques sur le marché :
 3.  Décrivez votre produit.
     *Nom* : le nom du produit.
     *Description* : Plus de détails sur le produit, pourquoi pas ajuter un lien vers un site où vous présenterez le produit en détails.
-    *des Tags* (facultatif) : Entrez des Tags séparés jusqu'à trois virgule.
+    *Tags* (facultatif) : Entrez des Tags séparés jusqu'à trois virgule.
     *Prix* : le prix du produit en Burst par unité.
     *Quantité* : le nombre de marchandises que vous avez en stock. Ceci diminuera chaque fois un acheteur achète chez vous.
     *Passphrase* : Votre passphrase de portefeuille est nécessaire pour inscrire un produit.
