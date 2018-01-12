@@ -65,7 +65,7 @@
 <div class="box_row">
 <div class="box_column" style="background-color: #ffffff;">
 <div class="sub_title">
-**A propos du Burst**
+<b>A propos du Burst</b>
 
 </div>
 \* [Qu'est ce que le Burst?](burst-wiki.md)
