@@ -5,11 +5,11 @@ Description
 
 Le marché du Burst fournit un protocole pour des magasins décentralisés, en peer-to-peer, pour n'importe quelle sorte de marchandises numériques comme des logiciels, de la musique ou de la vidéo. Vous feuilletez les produits des vendeurs, passez une commande et les vendeurs vous enverront les informations pour télécharger les biens.
 
-Wallet Interface
-----------------
+Interface de Portefeuille
+-------------------------
 
-With the server running, access the local Burst wallet by visiting <http://localhost:8125/>. On the sidebar, you find the menus ‘Marketplace’ and ‘My Store’: ![](Burst-marketplace.png "fig:Burst-marketplace.png")
-{| |- |**Search Marketplace**: Enter the sellers address to see his products. |- |**Purchased Products**: This page will list all your previously purchased products. |- |**My Products For Sale**: Lists the items you are selling in the marketplace, and gives you the ability to update your offerns. |- |**My Pending Orders**: Here you will see pending orders from users who wants to buy a product. |- |**My Completed Orders**: Shows all finished orders feedbacks from your customer. |- |**List Product For Sale**: Here you add a new digital good in the marketplace. |}
+Pendant que le serveur est actif, accédez au portefeuille local Burst en allant sur <http://localhost:8125/>. Sur le côté, vous trouvez les menus 'Place de Marché' et 'Ma Boutique' : ![](Burst-marketplace.png "fig:Burst-marketplace.png")
+{| |- |**Chercher sur le marché**: Introduisez l'ID de compte du vendeur pour voir son magasin. |- |**Produits achetés**: Cette page va lister tous les produits que vous avez achetés précédemment. |- |**Mes produits à vendre**: Énumère les objets que vous vendez sur le marché et vous donne la possibilité de mettre à jour vos annonces. |- |**Mes ordres en attente**: Ici vous verrez les ordres en attente des utilisateurs qui veulent acheter des produits. |- |**Mes ventes exécutées**: Montre tous les commentaires de vos clients à propos des ordres terminés. |- |**Liste des produits à vendre**: Ici vous pouvez ajouter un nouveau bien digital sur la place du marché. |}
 
 How To
 ------
