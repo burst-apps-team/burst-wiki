@@ -52,7 +52,7 @@ Vous pouvez inscrire vos marchandises numériques sur le marché :
 Liens externes
 --------------
 
--   [burst-team.us: Forum de la Place du Marché](https://forums.burst-team.us/category/14/marketplace/)
--   [Burst Nation: Place du Marché](https://www.burstnation.com/wbb/index.php?board/12-marketplace/)
+-   [burst-team.us: Forum de la Place de Marché](https://forums.burst-team.us/category/14/marketplace/)
+-   [Burst Nation: Place de Marché](https://www.burstnation.com/wbb/index.php?board/12-marketplace/)
 
 <Category:Features>
