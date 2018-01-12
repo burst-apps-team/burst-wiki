@@ -10,7 +10,7 @@
 **[Regardez cette vidéo sur le Burst](https://www.youtube.com/watch?v=Fyj9RIyxLb4)**
 
 <div class="box_row">
-<div class="box_column">
+<div class="box_column" style="background-color: #ffffff; text-align:left;">
 <div class="main_subtitle">
 **Fonctionnalités du Burst**
 
