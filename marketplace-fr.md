@@ -14,7 +14,7 @@ Pendant que le serveur est actif, accédez au portefeuille local Burst en allant
 Comment faire
 -------------
 
-Ouvrez votre client Burst et sélectionnez 'Place du Marché' pour acheter ou 'Ma Boutique' pour vendre.
+Ouvrez votre client Burst et sélectionnez 'Place de Marché' pour acheter ou 'Ma Boutique' pour vendre.
 
 ### Acheter des produits
 
