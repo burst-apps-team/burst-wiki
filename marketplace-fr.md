@@ -26,8 +26,7 @@ Voici un petit récapitulatif des infos essentielles sur la façon d'acheter au 
 4.  La commande a maintenant été placée dans votre menu 'Produits Achetés'. Ici vous pouvez voir l'état de la commande : Après confirmation du réseau (la génération de bloc) il passera de 'Provisoire' à 'En attente'.
 5.  Quand le vendeur aura livré le produit, le statut passera à 'Terminé'.
 6.  Cliquez sur le nom pour ouvrir la boite de dialogue 'Livraison de la place de Marché '. Entrez votre passphrase pour 'Décrypter' les messages des vendeurs. Ici vous trouverez les informations sur l'endroit où vous pouvez aller chercher votre produit numérique.
-
--   Vous avez maintenant la possibilité de laisser un commentaire au vendeur.
+7.  Vous avez maintenant la possibilité de laisser un commentaire au vendeur.
 
 ### Selling products
 
