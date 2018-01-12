@@ -24,7 +24,7 @@
 -   [*Sommaire des Fonctionnalités*](current-features.md)
 
 </div>
-<div class="box_column">
+<div class="box_column" style="background-color: #ffffff; text-align:left;">
 <div class="main_subtitle">
 **Burst Software**
 
@@ -39,7 +39,7 @@
 -   *[Burst software overview](burst-software.md)*
 
 </div>
-<div class="box_column">
+<div class="box_column" style="background-color: #ffffff; text-align:left;">
 <div class="main_subtitle">
 **pour les Développeurs**
 
