@@ -279,7 +279,7 @@ Here is the brs-default.properties from version **** for reference </translate>
     # Nxt.cpuCores=4
 
 <div class="toccolours mw-collapsible mw-collapsed">
-1.  1.  GPU Acceleration (experimental!)
+    ### GPU Acceleration (experimental!)
 
 <div class="mw-collapsible-content">
     # enable GPU acceleration
