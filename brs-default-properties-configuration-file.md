@@ -272,18 +272,31 @@ Here is the brs-default.properties from version **** for reference </translate>
     # Debug option for Testnet: Winning with every Deadline
     burst.mockMining = false
 
-    # GPU Blocksync Acceleration / experimental !
-    burst.oclAuto=true
-    burst.oclVerify=false
-
-    # If 'burst.oclAuto=false' gpu must be specified
-    burst.oclPlatform=0
-    burst.oclDevice=0
-    burst.oclMemPercent=50
-    burst.oclHashesPerEnqueue=1000
-
     # Enable metrics exposure for all SQL statements (useful for debugging, just slowing stuff down otherwise)
     burst.enableSqlMetrics = false
 
     # Uncomment this to limit the number of cpu cores the wallet sees. Default is all available.
     # Nxt.cpuCores=4
+
+<div class="toccolours mw-collapsible mw-collapsed">
+1.  1.  GPU Acceleration (experimental!)
+
+<div class="mw-collapsible-content">
+    # enable GPU acceleration
+    GPU.Acceleration = off
+    GPU.AutoDetect   = on
+
+    # If GPU auto-detection is off (GPU.AutoDetect = off), you must specify manually which one to use
+    GPU.PlatformIdx = 0
+    GPU.DeviceIdx   = 0
+
+    # GPU memory usage in percent and how many hashes to process in one batch
+    GPU.MemPercent       = 50
+    GPU.HashesPerEnqueue = 1000
+
+    #GPU.Threshold     = 50
+    #GPU.WaitThreshold = 2000
+
+</div>
+</div>
+
