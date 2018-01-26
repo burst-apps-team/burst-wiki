@@ -15,7 +15,9 @@ Losing your passphrase means losing your funds, there is no way to recover your 
 1.1 Mitigating Risks of BURST loss
 
 </h3>
-Let's analyze the various risks and how to mitigate them. The main risks are: • Losing your passphrase.
+Let's analyze the various risks and how to mitigate them. The main risks are:
+
+• Losing your passphrase.
 
 • Letting someone steal your passphrase.
 
@@ -33,7 +35,13 @@ The best way not to forget your passphrase is to store it somewhere safe, prefer
 
 You have to accept that there are risks no matter where you store your passphrase.
 
-• If you store it on your hard drive - the drive might crash. • If you store it in a password manager - the passwords file might get corrupted or deleted. • If you print it on paper - the paper might get burned or lost. • If you store it in your brain - you might forget it.
+• If you store it on your hard drive - the drive might crash.
+
+• If you store it in a password manager - the passwords file might get corrupted or deleted.
+
+• If you print it on paper - the paper might get burned or lost.
+
+• If you store it in your brain - you might forget it.
 
 Therefore, by using more than one storage method, you lower the risk.
 
@@ -47,6 +55,16 @@ So you have to store it securely, preferably in more than one place, and at leas
 
 Again there is no 100% security, but there are best practices:
 
-• Don't share your passphrase with anyone. • Don't store your passphrase unencrypted on a remote node or your local workstation. • Always use the official BURST wallet. • Take special care when connecting to remote nodes. • Do not leave your passphrase printed on paper next to your computer. • Split your BURST to several accounts, use the smaller balances for daily operations and only access the higher balance accounts when necessary.
+• Don't share your passphrase with anyone.
+
+• Don't store your passphrase unencrypted on a remote node or your local workstation.
+
+• Always use the official BURST wallet.
+
+• Take special care when connecting to remote nodes.
+
+• Do not leave your passphrase printed on paper next to your computer.
+
+• Split your BURST to several accounts, use the smaller balances for daily operations and only access the higher balance accounts when necessary.
 
 Using a password manager, that allows you to store multiple passwords encrypted under a single database password, can be secure and convenient. A free, open source option is Keepass.
