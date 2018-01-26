@@ -17,7 +17,7 @@ If you’d rather not bother with all the steps below, a script to do all the wo
 
 ### **Steps**
 
-#### **1.** Install Homebrew
+#### 1. Install Homebrew
 
 The first step is installing [Homebrew](https://brew.sh/) (brew) which is an excellent package manager for macOS. You can install it by opening a new terminal and running the following command. Note: You may be asked for your password in order to complete the install.
 
@@ -25,13 +25,13 @@ The first step is installing [Homebrew](https://brew.sh/) (brew) which is an exc
 
 If you already have brew installed, it’s still good practice to make sure everything is up to date by entering $ brew update.
 
-#### **2.** Install MariaDB
+#### 2. Install MariaDB
 
 MariaDB is an open-source fork of the MySQL relational database. It will be used to store the blockchain and other relevant information for the wallet. You can install MariaDB by typing the following once brew has finished installing.
 
      $ brew install mariadb
 
-#### **3.** Start MariaDB and create a user for the wallet to use
+#### 3. Start MariaDB and create a user for the wallet to use
 
 You can use brew to start the MariaDB service for you by typing.
 
@@ -51,7 +51,7 @@ Once you’ve successfully logged into MariaDB, you can execute the following SQ
 
 Assuming your queries are executed without any issues you can exit the MariaDB console by typing `\q` and hitting Enter.
 
-#### **4.** Installing the Java 8 SDK
+#### 4. Installing the Java 8 SDK
 
 This step was a bit confusing as brew would always like to give you the latest version of all packages. I’m not entirely sure if the latest version of Java will work without issue, but I didn’t want to risk it. First you need to install brew cask.
 
@@ -61,7 +61,7 @@ Next you can use brew cask to install a specific version of a package. So with c
 
     $ brew cask install java8
 
-#### **5.** Download and setup the wallet
+#### 5. Download and setup the wallet
 
 You can download the wallet package from PoC Consortium [here](https://github.com/PoC-Consortium/burstcoin/releases). Once you’ve unzipped the release (burstcoin-1.3.6.zip) you should open the directory and open the `nxt.properties` file in the `conf` directory in a text editor. At the bottom of the file add the following lines.
 
@@ -73,7 +73,7 @@ You can download the wallet package from PoC Consortium [here](https://github.co
 
 These values are just telling the Java program where it can find and access the MariaDB database you set up in step 3.
 
-#### **6.** Start the wallet
+#### 6. Start the wallet
 
 Finally it’s time to start the wallet. In your open terminal window make sure you’re in the same directory as the burst.sh startup script. If you run `ls` in your terminal window you should see a response like this. <img src="1_jlRqRGWNhSOKcNEjWLvNLQ.png" title="fig:1_jlRqRGWNhSOKcNEjWLvNLQ.png" alt="1_jlRqRGWNhSOKcNEjWLvNLQ.png" width="649" height="649" />[1]
 
@@ -87,7 +87,7 @@ Finally you can launch the wallet script. Note: You need to leave this terminal 
 
 You should see a lot of output flying by pretty quickly as the wallet starts up.
 
-#### **7.** Creating your account and signing in.
+#### 7. Creating your account and signing in.
 
 Assuming you see no obvious errors while the wallet is starting up. You should check to see if it’s successfully running by entering [`http://localhost:8125/index.html`](http://localhost:8125/index.html) in your browser. You should see a page that looks like this. <img src="1_hkcu_dhZ5JUqrjbjiIcUrQ.png" title="fig:1_hkcu_dhZ5JUqrjbjiIcUrQ.png" alt="1_hkcu_dhZ5JUqrjbjiIcUrQ.png" width="880" height="880" />[2]
 
@@ -97,11 +97,11 @@ You should now see the wallet dashboard which looks like this. <img src="1_tlOAF
 
 Congratulations! You’re up and running.
 
-#### **8.** Wait for the blockchain to download
+#### 8. Wait for the blockchain to download
 
 Now that you have your wallet running locally and have created an account, you’ll need to wait for the blockchain to synchronize before you see your up to date burst balance. This may take quite a while depending on your connection speed. Make sure you take note of your Account Id listed at the top and on the left side of the wallet. This address is how you will send/receive Burst in the future.
 
-#### **9.** References
+#### 9. References
 
 <https://www.reddit.com/r/burstcoin/comments/7lrdc1/guide_to_getting_the_poc_wallet_running_on_a_mac/>
 
