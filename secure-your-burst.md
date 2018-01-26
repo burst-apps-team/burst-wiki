@@ -1,4 +1,3 @@
-<header>
 <h1>
 1 The Importance of Passphrases
 
