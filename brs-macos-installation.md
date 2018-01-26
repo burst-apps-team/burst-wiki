@@ -23,7 +23,9 @@ The first step is installing [Homebrew](https://brew.sh/) (brew) which is an exc
 
      $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-If you already have brew installed, it’s still good practice to make sure everything is up to date by entering $ brew update.
+If you already have brew installed, it’s still good practice to make sure everything is up to date by entering
+
+    $ brew update
 
 #### 2. Install MariaDB
 
