@@ -15,7 +15,11 @@ Losing your passphrase means losing your funds, there is no way to recover your 
 1.1 Mitigating Risks of BURST loss
 
 </h3>
-Let's analyze the various risks and how to mitigate them. The main risks are: • Losing your passphrase. • Letting someone steal your passphrase. • Accidentally sending your BURST to an account with an unknown passphrase.
+Let's analyze the various risks and how to mitigate them. The main risks are: • Losing your passphrase.
+
+• Letting someone steal your passphrase.
+
+• Accidentally sending your BURST to an account with an unknown passphrase.
 
 If you are one of those guys who always mess up things online and need customer support, you will have to exercise extra care to not to lose your BURST one way or the other.
 
