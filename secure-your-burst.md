@@ -8,7 +8,7 @@ Unlike traditional web sites which limit the number of login attempts and do not
 
 If you are using special characters in your passphrase i.e. not just numbers or letters, make sure to use the ASCII representation of these characters and not one of the Unicode representations. For example the quote character " can be represented as ascii code 34 (0x22) but also as various unicode characters as explained here <http://www.amp-what.com/unicode/search/quote> these are considered different characters when used in a passphrase so to avoid confusion we recommend always using the ascii version of these characters or not using them at all. For example MS Word uses the “ unicode character by default which differs from the " ascii character and will cause your passphrase to generate a different account address.
 
-Losing your passphrase means losing your funds, there is no way to recover your passphrase. It is YOUR responsibility. If you cannot accept this, better don't use BURST.
+Losing your passphrase means losing your funds, there is no way to recover your passphrase.
 
 <h3>
 1.1 Mitigating Risks of BURST loss
