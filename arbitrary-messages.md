@@ -13,6 +13,8 @@ The base implementation allows for the transmission of simple, unencrypted text 
 How To
 ------
 
+[High-Level API calls for implementing arbitrary messages](https://burstwiki.org/wiki/The_Burst_API#Arbitrary_Message_System_Operations)
+
 Open your Burst client and select ‘Messages’.
 
 ### Sending messages
