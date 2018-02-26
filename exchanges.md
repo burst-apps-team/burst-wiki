@@ -4,6 +4,7 @@ Burst can be traded on the following exchanges against the given other currencie
 -   [Bittrex](https://bittrex.com/Market/Index?MarketName=BTC-burst): BTC (\*)
 -   [C-Cex](https://c-cex.com/?p=burst-btc): BTC, USD, LTC, Doge
 -   [Coinroom](https://www.coinroom.com): USD, EUR, PLN, GBP, NOK, CHF, CZK, DKK
+-   [Indacoin](https://indacoin.com): Visa and MasterCard
 -   [Livecoin](https://www.livecoin.net/): BTC
 -   [Poloniex](https://poloniex.com/exchange#btc_burst): BTC
 -   [UPbit](https://upbit.com/exchange?code=CRIX.UPBIT.BTC-BURST): BTC
