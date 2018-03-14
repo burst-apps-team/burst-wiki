@@ -162,18 +162,16 @@ CIP status field
 
 ### Specification
 
-The typical paths of the status of CIPs are as follows:
+The typical paths of the status of CIPs are in the CIP Workflow diagram. ![CIP Workflow](CIP_Workflow.png "fig:CIP Workflow")
 
-<img src="bip-0002/process.png"></img>
+Champions of a CIP may decide on their own to change the status between `Draft`, `Deferred`, or `Withdrawn`. The CIP editor may also change the status to `Deferred` when no progress is being made on the CIP.
 
-Champions of a CIP may decide on their own to change the status between Draft, Deferred, or Withdrawn. The CIP editor may also change the status to Deferred when no progress is being made on the CIP.
+A CIP may only change status from `Draft` (or `Rejected`) to `Proposed`, when the author deems it is complete, has a working implementation (where applicable), and has community plans to progress it to the `Final` status.
 
-A CIP may only change status from Draft (or Rejected) to Proposed, when the author deems it is complete, has a working implementation (where applicable), and has community plans to progress it to the Final status.
+CIPs should be changed from `Draft` or `Proposed` status, to `Rejected` status, upon request by any person, if they have not made progress in three years. Such a CIP may be changed to `Draft` status if the champion provides revisions that meaningfully address public criticism of the proposal, or to `Proposed` status if it meets the criteria required as described in the previous paragraph.
 
-CIPs should be changed from Draft or Proposed status, to Rejected status, upon request by any person, if they have not made progress in three years. Such a CIP may be changed to Draft status if the champion provides revisions that meaningfully address public criticism of the proposal, or to Proposed status if it meets the criteria required as described in the previous paragraph.
+An Proposed CIP may progress to `Final` only when specific criteria reflecting real-world adoption has occurred. This is different for each CIP depending on the nature of its proposed changes, which will be expanded on below. Evaluation of this status change should be objectively verifiable, and/or be discussed on the development channel(s).
 
-An Proposed CIP may progress to Final only when specific criteria reflecting real-world adoption has occurred. This is different for each CIP depending on the nature of its proposed changes, which will be expanded on below. Evaluation of this status change should be objectively verifiable, and/or be discussed on the development mailing list.
+When a Final CIP is no longer relevant, its status may be changed to `Replaced` or `Obsolete` (which is equivalent to `Replaced`). This change must also be objectively verifiable and/or discussed.
 
-When a Final CIP is no longer relevant, its status may be changed to Replaced or Obsolete (which is equivalent to Replaced). This change must also be objectively verifiable and/or discussed.
-
-A process CIP may change status from Draft to Active when it achieves rough consensus on the mailing list. Such a proposal is said to have rough consensus if it has been open to discussion on the development mailing list for at least one month, and no person maintains any unaddressed substantiated objections to it. Addressed or obstructive objections may be ignored/overruled by general agreement that they have been sufficiently addressed, but clear reasoning must be given in such circumstances.
+A process CIP may change status from `Draft` to `Active` when it achieves rough consensus on the mailing list. Such a proposal is said to have rough consensus if it has been open to discussion on the development channel(s)for at least one month, and no person maintains any unaddressed substantiated objections to it. Addressed or obstructive objections may be ignored/overruled by general agreement that they have been sufficiently addressed, but clear reasoning must be given in such circumstances.
