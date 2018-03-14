@@ -6,7 +6,7 @@
 
 </div>
 <div class="main_text">
-**Burst** is an [open source](https://github.com/ac0v/burstcoin) blockchain platform with multiple core-level features that has been running publicly since August 2014. It is a fork of Nxt and it's 100% [Proof of Capacity](proof-of-capacity.md) (PoC), meaning that you can mine it with your disk space.
+**Burst** is an [open source](https://github.com/ac0v/burstcoin) blockchain platform with multiple core-level features that has been running publicly since August 2014. It is a code fork of Nxt using [Proof of Capacity](proof-of-capacity.md) (PoC) consensus, meaning that you can mine it with your disk space.
 **[What is Burst video animation](https://www.youtube.com/watch?v=Fyj9RIyxLb4)**
 **[How to start mining Burst](https://www.youtube.com/watch?v=LJLhw37Lh_8&t)**
 
@@ -51,7 +51,7 @@
 -   [Burst Blockchain Tutorial](burst-blockchain-tutorial.md)
 -   [Reed-Solomon (RS) Address Format](rs-address-format.md)
 -   [QR Codes for RS Address Format](qr-codes-for-rs-address-format.md)
--   [The nxt-default.properties file](nxt-default-properties-configuration-file.md)
+-   [The brs-default.properties file](brs-default-properties-configuration-file.md)
 -   [Offline Transaction Signing](offline-transaction-signing.md)
 -   [How Transaction Processing Works](how-tx-processing-works.md)
 -   [Exchange Integration](exchange-integration.md)
