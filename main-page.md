@@ -60,7 +60,7 @@
 </div>
 <div class="box_row">
 <div class="box_column_light" style="background-color: #ffffff; text-align:center;">
-**Get Support: \[Burst Support Center\]   |   [Forum](https://forums.getburst.net)   |   [Burst Discord](https://discord.gg/PMUgVSY)**
+**Get Support: [Forum 1](https://burstforum.net/)   |   [Forum 2](https://forums.getburst.net)   |   [Burst Discord](https://discord.gg/PMUgVSY)**
 
 </div>
 </div>
