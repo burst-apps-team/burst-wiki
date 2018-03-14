@@ -11,9 +11,11 @@ The most recent and most constituent white paper on Burst is [The Burst Dymaxion
 
 Burst started off as a fork of [Nxt](https://en.wikipedia.org/wiki/Nxt), so below you will find the Nxt community white paper[1].
 
-There was a substantial modification to the fork by carving out PoS completely and replacing it with PoC (Proof-of-Capacity). Proof of Capacity is also called Proof of Space and was described 2013 in the Proofs of Space paper [2] by Dziembowski, Faust, Kolmogorov and Pietrzak.
+There was a substantial modification to the fork by carving out Proof-of-Stake (PoS) completely and replacing it with PoC (Proof-of-Capacity). A similar concept to Proof of Capacity is called Proof of Space and was described 2013 in the Proofs of Space paper [2] by Dziembowski, Faust, Kolmogorov and Pietrzak.
 
-Based on this paper, a PoC cryptocurrency “SpaceMint” was proposed[3] in a paper by Sunoo Park, Kwon, Fuchsbauer, Pietrzak et al.
+Based on this paper, a Proof-of-Space cryptocurrency “SpaceMint” was proposed[3] in a paper by Sunoo Park, Kwon, Fuchsbauer, Pietrzak et al.
+
+Both these papers (“Proof of Space” and “SpaceMint”) are only mentioned as a loose reference and because the SpaceMint paper refers to BURST. Their authors consider their concept quite different from and unrelated to Burst. [4]
 
 ### References
 
@@ -24,3 +26,5 @@ Based on this paper, a PoC cryptocurrency “SpaceMint” was proposed[3] in a p
 [2] [Proofs of Space](https://eprint.iacr.org/2013/796.pdf) paper by Dziembowski, Faust, Kolmogorov and Pietrzak
 
 [3] [SpaceMint](https://eprint.iacr.org/2015/528.pdf) paper by Sunoo Park, Kwon, Fuchsbauer, Pietrzak et al.
+
+[4] <https://en.wikipedia.org/w/index.php?title=Burstcoin&type=revision&diff=806510707&oldid=802380524>
