@@ -97,7 +97,7 @@
 -   Blockchain Explorer: [PoCC](https://explore.burst.cryptoguru.org/), [BurstXD](http://burstxd.com/blocks/), [burstcoin.zone](http://burstcoin.zone/wordpress/blockexplorer/)
 -   Network Observer: [Luxe](http://burstcoin.cc/), [PoCC](https://explore.burst.cryptoguru.org/tool/observe)
 -   [Asset Explorer](http://asset.burstnation.com/)
--   [Burst What If?](http://whatif.burstnation.com/), [Burst Today](http://www.burst.today/)
+-   [Burst Today](http://www.burst.today/)
 
 <!-- -->
 
@@ -108,7 +108,7 @@
 </div>
 <div id="main_topboxlinks">
 <center>
-'''[Join us!](join-us-.md)   |   **[Contribute](contribute.md)**   |   **[Burst Foundation](http://burst-foundation.org/)**
+'''[Join us!](join-us-.md)   |   **[Contribute](contribute.md)**   |   **Burst Foundation - TBA**
 
 </center>
 </div>
