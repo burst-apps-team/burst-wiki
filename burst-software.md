@@ -1,6 +1,3 @@
-Software
-========
-
 Introduction
 ============
 
