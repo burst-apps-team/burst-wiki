@@ -75,8 +75,8 @@ Download link : https://github.com/Creepsky/creepMiner/releases
 -   [plot software (aka Plotter)](plot-software.md)
 -   [mining software](mining-software.md)
 
-Pool Software STABLE DYMAXION COMPATIBLE CPU/GPU
-------------------------------------------------
+Pool Software 
+--------------
 
 ### GoBurstPool <img src="Stable.png" title="fig:Stable.png" alt="Stable.png" width="83" height="83" /> <img src="Dymaxion_compatible.png" title="fig:Dymaxion_compatible.png" alt="Dymaxion_compatible.png" width="135" height="135" />
 
