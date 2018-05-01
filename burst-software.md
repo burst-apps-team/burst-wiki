@@ -1,7 +1,7 @@
 Introduction
 ============
 
-The Burst ecosystem uses lots of software. Each of these softwares are use either to plot, to mine, or simply to transfer BURST.
+The Burst ecosystem uses lots of software. Each of these softwares are used either to plot, to mine, or simply to transfer BURST.
 
 Wallets
 -------
