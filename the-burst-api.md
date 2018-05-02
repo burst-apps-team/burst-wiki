@@ -3,7 +3,7 @@
 Description
 -----------
 
-The Burst API allows interaction with Burst nodes using HTTP requests to port 8123. Most HTTP requests can use either the GET or POST methods, but some API calls accept only the POST method for security reasons. Responses are returned as JSON objects.
+The Burst API allows interaction with Burst nodes using HTTP requests to port 8123. Most HTTP requests can use either the `GET` or `POST` methods, but some API calls accept only the POST method for security reasons. Responses are returned as JSON objects.
 
 Each API call is documented below, with definitions given for HTTP request parameters and JSON response fields, followed by an example:
 
