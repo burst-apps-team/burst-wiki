@@ -1,8 +1,12 @@
-Burst has a permanent TestNet running. Its purpose is to provide a sandbox for both developers and users to test Burst features and to experiment without remorse[1].
+Burst has a permanent TestNet running. Its purpose is to provide a sandbox for both developers and users to test Burst features and to experiment features without remorse[1].
 
-You can access it via <http://176.9.47.157:6876/index.html>
+Currently, the TestNet is on version `2.1.0`.
+
+You can access it via <https://wallet.dev.burst-test.net/>
 
 References
 ----------
 
-[1] <https://forums.getburst.net/t/the-pocc-releases-the-new-burst-testnet/244>
+<references />
+
+[1] <https://www.burstcoin.ist/2018/04/30/weekly-burst-report-34/>
