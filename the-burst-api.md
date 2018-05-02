@@ -3,12 +3,12 @@
 Description
 -----------
 
-The Burst API allows interaction with Burst nodes using HTTP requests to port 8123. Most HTTP requests can use either the `GET` or `POST` methods, but some API calls accept only the POST method for security reasons. Responses are returned as JSON objects.
+The Burst API allows interaction with Burst nodes using HTTP requests to port 8123. Most HTTP requests can use either the `GET` or `POST` methods, but some API calls accept only the `POST` method for security reasons. Responses are returned as JSON objects.
 
 Each API call is documented below, with definitions given for HTTP request parameters and JSON response fields, followed by an example:
 
 -   The JSON response fields are each followed by one of *S* for string, *A* for array, *O* for object, *N* for number or *B* for boolean.
--   In the examples, the Burst node is represented as *localhost* and requests and responses are formatted for easy reading; line breaks and spaces are not actually used except in some parameter values. All requests are in URL format which implies the HTTP GET method. When GET is allowed, the URL can be entered into a browser URL field but proper URL encoding is usually required (e.g., spaces in a parameter value must be replaced by *+* or *%20*). Otherwise, the URL should be used as a guide to preparing an HTTP POST request using cURL, for example.
+-   In the examples, the Burst node is represented as *localhost* and requests and responses are formatted for easy reading; line breaks and spaces are not actually used except in some parameter values. All requests are in URL format which implies the HTTP GET method. When GET is allowed, the URL can be entered into a browser URL field but proper URL encoding is usually required (e.g., spaces in a parameter value must be replaced by *+* or *%20*). Otherwise, the URL should be used as a guide to preparing an HTTP `POST` request using cURL, for example.
 
 All API calls can be viewed and tested on the TestNet at <https://wallet.dev.burst-test.net/test>. For specific API calls, use <https://wallet.dev.burst-test.net/test?requestType>=*specificRequestType*.
 
@@ -69,13 +69,13 @@ Currently, there are two varieties of prunable data in the Burst system: prunabl
 
 ### Properties Files
 
-The behavior of some API calls is affected by property settings loaded from files in the *nxt/conf* directory during Burst server intialization. This directory contains the *nxt-default.properties* and *logging-default.properties* files, both of which contain default property settings along with documentation. A few of the property settings can be obtained while the server is running through the [Get Blockchain Status](the-burst-api-get-blockchain-status.md) and [Get State](the-burst-api-get-state.md) calls.
+The behavior of some API calls is affected by property settings loaded from files in the *brs/conf* directory during Burst server intialization. This directory contains the *brs-default.properties* and *logging-default.properties* files, both of which contain default property settings along with documentation. A few of the property settings can be obtained while the server is running through the [Get Blockchain Status](the-burst-api-get-blockchain-status.md) and [Get State](the-burst-api-get-state.md) calls.
 
-It is recommended not to modify default properties files because they can be overwritten during software updates. Instead, properties in the default files can be overridden by including them in optional *nxt.properties* and *logging.properties* files in the same directory. For example, a *nxt.properties* file can be created with the contents:
+It is recommended not to modify default properties files because they can be overwritten during software updates. Instead, properties in the default files can be overridden by including them in optional *brs.properties* and *logging.properties* files in the same directory. For example, a *brs.properties* file can be created with the content:
 
-nxt.isTestnet=true
+`DEV.TestNet = yes`
 
-This causes the Burst server to connect to the [Testnet](testnet.md) instead of the Mainnet.
+This causes the Burst server to connect to the [TestNet](testnet.md) instead of the MainNet.
 
 ### Admin Password
 
@@ -94,7 +94,7 @@ API requests that require sending the secret phrase, shared key, or admin passwo
 Create Transaction
 ------------------
 
-The following API calls create Burst transactions using HTTP POST requests. Follow the links for examples and HTTP POST request parameters specific to each call. Refer to the sections below for [HTTP POST request parameters](the-burst-api-create-transaction-request.md) and [JSON response fields](the-burst-api-create-transaction-response.md) common to all calls that create transactions. Calls in *italics* are phasing-safe (refer to [Get Constants](the-burst-api-get-constants.md) and [Create Phasing Poll](the-burst-api-create-phasing-poll.md))
+The following API calls create Burst transactions using HTTP `POST` requests. Follow the links for examples and HTTP `POST` request parameters specific to each call. Refer to the sections below for [HTTP `POST` request parameters](the-burst-api-create-transaction-request.md) and [JSON response fields](the-burst-api-create-transaction-response.md) common to all calls that create transactions. Calls in *italics* are phasing-safe (refer to [Get Constants](the-burst-api-get-constants.md) and [Create Phasing Poll](the-burst-api-create-phasing-poll.md))
 
 -   *[Send Money](the-burst-api-send-money.md)*
 -   *[Set Account Information](the-burst-api-set-account-information.md)*
