@@ -10,7 +10,7 @@ Each API call is documented below, with definitions given for HTTP request param
 -   The JSON response fields are each followed by one of *S* for string, *A* for array, *O* for object, *N* for number or *B* for boolean.
 -   In the examples, the Burst node is represented as *localhost* and requests and responses are formatted for easy reading; line breaks and spaces are not actually used except in some parameter values. All requests are in URL format which implies the HTTP GET method. When GET is allowed, the URL can be entered into a browser URL field but proper URL encoding is usually required (e.g., spaces in a parameter value must be replaced by *+* or *%20*). Otherwise, the URL should be used as a guide to preparing an HTTP POST request using cURL, for example.
 
-All API calls can be viewed and tested on the TestNet at <http://176.9.47.157:6876/test>. For specific API calls, use <http://176.9.47.157:6876/test?requestType>=*specificRequestType*.
+All API calls can be viewed and tested on the TestNet at <https://wallet.dev.burst-test.net/test>. For specific API calls, use <https://wallet.dev.burst-test.net/test?requestType>=*specificRequestType*.
 
 Table Of Contents
 -----------------
@@ -527,7 +527,7 @@ Get the transactions associated with an account in reverse block timestamp order
 -   *withMessage* is *true* to retrieve only only transactions having a message attachment, either non-encrypted or decryptable by the account (optional)
 -   *phasedOnly* is *true* to retrieve only phased transactions (optional unless *nonPhasedOnly* provided)
 -   *nonPhasedOnly* is *true* to retrieve only nonphased transactions (optional unless *phasedOnly* provided)
--   *includeExpiredPrunable* is ''true' to retrieve pruned data if available (optional)
+-   *includeExpiredPrunable* is *true* to retrieve pruned data if available (optional)
 -   *includePhasingResult* is *true* to retrieve execution status of each phased transaction (optional)
 -   *executedOnly* is *true* to exclude phased transactions that are not yet executed (optional)
 -   *requireBlock* is the block ID of a block that must be present in the blockchain during execution (optional)
@@ -2778,7 +2778,7 @@ Make an exchange request to buy or sell an exchangeable currency. POST only.
 
 **Response:** Refer to [Create Transaction Response](the-burst-api-create-transaction-response.md).
 
-**Example:** Refer to [Currency Buy / Sell ](the-burst-api-examples-currency-buy---sell-.md) example.
+**Example:** Refer to [Currency Buy / Sell](the-burst-api-examples-currency-buy---sell-.md) example.
 
 #### Currency Buy
 
@@ -4543,7 +4543,7 @@ Stops a previously started automated Shuffler.
 
 -   *requestType* is *stopShuffler*
 -   *account* is the account ID (optional if *shufflingFullHash* or *secretPhrase* or *adminPassword* is provided)
--   *shufflingFullHash* the full hash of the shuffling (optional if *account* or ''adminPassword is provided)
+-   *shufflingFullHash* the full hash of the shuffling (optional if *account* or *adminPassword* is provided)
 -   *secretPhrase* is the secret phrase of the account entering the shuffling (optional if *adminPassword* is provided)
 -   *adminPassword* is the admin password (optional if *secretPhrase* is provided)
 
