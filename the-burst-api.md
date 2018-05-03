@@ -1,14 +1,14 @@
 **Caution! Most of this text is still based on the original Nxt API documentation. While Burst and Nxt share a fair amount of similarities, Burst starts to differ as it's being developed further. The changes may or may not be already documented on this page. Also, the documentation here refers to the version or later**
 
-Description
------------
+Description <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+---------------------------------------------------------------------------------------------------------
 
-The Burst API allows interaction with Burst nodes using HTTP requests to port 8123. Most HTTP requests can use either the `GET` or `POST` methods, but some API calls accept only the `POST` method for security reasons. Responses are returned as JSON objects.
+The Burst API allows interaction with Burst nodes using HTTP requests to port 8125. Most HTTP requests can use either the GET or POST methods, but some API calls accept only the POST method for security reasons. Responses are returned as JSON objects.
 
 Each API call is documented below, with definitions given for HTTP request parameters and JSON response fields, followed by an example:
 
 -   The JSON response fields are each followed by one of *S* for string, *A* for array, *O* for object, *N* for number or *B* for boolean.
--   In the examples, the Burst node is represented as *localhost* and requests and responses are formatted for easy reading; line breaks and spaces are not actually used except in some parameter values. All requests are in URL format which implies the HTTP GET method. When GET is allowed, the URL can be entered into a browser URL field but proper URL encoding is usually required (e.g., spaces in a parameter value must be replaced by *+* or *%20*). Otherwise, the URL should be used as a guide to preparing an HTTP `POST` request using cURL, for example.
+-   In the examples, the Burst node is represented as *localhost* and requests and responses are formatted for easy reading; line breaks and spaces are not actually used except in some parameter values. All requests are in URL format which implies the HTTP GET method. When GET is allowed, the URL can be entered into a browser URL field but proper URL encoding is usually required (e.g., spaces in a parameter value must be replaced by *+* or *%20*). Otherwise, the URL should be used as a guide to preparing an HTTP POST request using cURL, for example.
 
 All API calls can be viewed and tested on the TestNet at <https://wallet.dev.burst-test.net/test>. For specific API calls, use <https://wallet.dev.burst-test.net/test?requestType>=*specificRequestType*.
 
@@ -20,15 +20,15 @@ Table Of Contents
 General Notes
 -------------
 
-### Genesis Block
+### Genesis Block <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 
 Many API requests make reference to the .
 
-### Flexible Account IDs
+### Flexible Account IDs <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 
 All API requests that require an account ID accept either an account number or the corresponding [Reed-Solomon address](rs-address-format.md).
 
-### Quantity Units BURST, NQT and QNT
+### Quantity Units BURST, NQT and QNT <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 
 The Burst system has a currency BURST used to quantify value in the system. Like all currencies, BURST circulates in the system, moving from one user to another by payments and purchases. Also, a small fee is required for every transaction, including those in which no BURST is transfered, such as simple messages. This fee goes to the owner of the node that forges (generates) the new block containing the transaction that is accepted onto the blockchain.
 
@@ -176,7 +176,7 @@ The following JSON response fields are common to all API calls that create trans
 Account Operations
 ------------------
 
-### Get Account
+### Get Account <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 
 Get account information given an account ID.
 
@@ -196,26 +196,26 @@ Get account information given an account ID.
 
 **Example:** Refer to [Get Account](the-burst-api-examples-get-account.md) example.
 
-### Get Account Block Ids
+### Get Account Block Ids <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 
 Get the block IDs of all blocks forged (generated) by an account in reverse block height order.
 
 **Response:**
 
-### Get Account Blocks
+### Get Account Blocks <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 
 Get all blocks forged (generated) by an account in reverse block height order.
 
 **Response:**
 
-### Get Account Id
+### Get Account Id <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 
 Get an account ID given a secret passphrase or public key. POST only.
 
-**Request:**
+-   *secretPhrase* is the secret passphrase of the account (optional if *publicKey* provided)
 
--   *requestType* is *getAccountId*
--   *secretPhrase* is the secret passphrase of the account (optional)
+<!-- -->
+
 -   *publicKey* is the public key of the account (optional if *secretPhrase* provided)
 
 **Response:**
@@ -227,150 +227,37 @@ Get an account ID given a secret passphrase or public key. POST only.
 
 **Example:** Refer to [Get Account Id](the-burst-api-examples-get-account-id.md) example.
 
-### Get Account Ledger
-
-Get multiple account ledger entries.
-
-**Request:**
-
--   *requestType* is *getAccountLedger*
--   *account* is the account ID (optional)
--   *firstIndex* is a zero-based index to the first block to retrieve (optional)
--   *lastIndex* is a zero-based index to the last block to retrieve (optional)
--   *event* is the event ID (optional)
--   *eventType* is a string representing the event type (optional)
--   *holdingType* is a string representing the holding type (optional)
--   *holding* is the holding ID (optional)
--   *includeTransactions* is true to retrieve transaction details, otherwise only transaction IDs are retrieved (optional)
--   *includeHoldingInfo* is true to retrieve asset or currency info (optional) with each ledger entry. The default is false.
--   *requireBlock* is the block ID of a block that must be present in the blockchain during execution (optional)
--   *requireLastBlock* is the block ID of a block that must be last in the blockchain during execution (optional)
-
-**Response:**
-
--   *entries* (A) is an array of ledger objects including the fields:
-    -   *change* (S) is the change in the balance for the holding identified by 'holdingType'
-    -   *eventType* (S) is the event type causing the account change
-    -   *ledgerId* (S) is the ledger entry ID
-    -   *holding* (S) is the item identifier for an asset or currency balance
-    -   *isTransactionEvent* (B) is true if the event is associated with a transaction and false if it is associated with a block.
-    -   *balance* (S) is the balance for the holding identified by 'holdingType'
-    -   *holdingType* (S) is the item being changed (account balance, asset balance or currency balance)
-    -   *accountRS* (S) is the Reed-Solomon address of the account
-    -   *block* (S) is the block ID that created the ledger entry
-    -   *event* (S) is the block or transaction associated with the event
-    -   *account* (S) is the account number
-    -   *height* (N) is the the block height associated with the event
-    -   *timestamp* (N) is the the block timestamp associated with the event
--   *requestProcessingTime* (N) is the API request processing time (in millisec)
-
-**Example:** Refer to [Get Account Ledger](the-burst-api-examples-get-account-ledger.md) example.
-
-### Get Account Ledger Entry
-
-Get a specific account ledger entry.
-
-**Request:**
-
--   *requestType* is *getAccountLedgerEntry*
--   *ledgerId* is the ledger ID
--   *includeTransactions* is true to retrieve transaction details, otherwise only transaction IDs are retrieved (optional)
--   *includeHoldingInfo* is *true* to retrieve asset or currency info (optional) with the ledger entry. The default is false.
-
-**Response:**
-
--   *change* (S) is the change in the balance for the holding identified by 'holdingType'
--   *eventType* (S) is the event type causing the account change
--   *ledgerId* (S) is the ledger entry ID
--   *holding* (S) is the item identifier for an asset or currency balance
--   *isTransactionEvent* (B) is true if the event is associated with a transaction and false if it is associated with a block.
--   *balance* (S) is the balance for the holding identified by 'holdingType'
--   *holdingType* (S) is the item being changed (account balance, asset balance or currency balance)
--   *accountRS* (S) is the Reed-Solomon address of the account
--   *block* (S) is the block ID that created the ledger entry
--   *event* (S) is the block or transaction associated with the event
--   *account* (S) is the account number
--   *height* (N) is the the block height associated with the event
--   *timestamp* (N) is the the block timestamp associated with the event
--   *requestProcessingTime* (N) is the API request processing time (in millisec)
-
-**Example:** Refer to [Get Account Ledger Entry](the-burst-api-examples-get-account-ledger-entry.md) example.
-
-### Get Account Lessors
+### Get Account Lessors <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 
 Get the lessors to an account.
 
-**Request:**
-
--   *requestType* is *getAccountLessors*
 -   *account* is the account ID
 -   *height* is the height of the blockchain to determine the lessors (optional, default is last block)
--   *requireBlock* is the block ID of a block that must be present in the blockchain during execution (optional)
--   *requireLastBlock* is the block ID of a block that must be last in the blockchain during execution (optional)
 
 **Note:** If table trimming is enabled (default), the *height* must be within 1440 blocks of the last block.
 
 **Response:**
 
--   *accountRS* (S) is the Reed-Solomon address of the account
--   *account* (S) is the account number
--   *height* (N) is the height of the blockchain
--   *lastBlock* (S) is the last block ID on the blockchain (applies if *requireBlock* is provided but not *requireLastBlock*)
--   *requestProcessingTime* (N) is the API request processing time (in millisec)
 -   *lessors* (A) is an array of lessor objects including the fields:
     -   *lessorRS* (S)
     -   *lessor* (S)
     -   *guaranteedBalanceNQT* (S)
+-   *accountRS* (S) is the Reed-Solomon address of the account
+-   *requestProcessingTime* (N) is the API request processing time (in millisec)
+-   *account* (S) is the account number
+-   *height* (N) is the height of the blockchain
 
 **Example:** Refer to [Get Account Lessors](the-burst-api-examples-get-account-lessors.md) example.
 
-### Get Account Properties
-
-Get the Account properties for a specific account or setter.
-
-**Request:**
-
--   *requestType* is *getAccountProperties*
--   *recipient* is the account ID to which the property is attached to
--   *setter* is the account ID who set the property (optional if *recipient* provided)
--   *property* is the property key (optional)
--   *firstIndex* is a zero-based index to the first block to retrieve (optional)
--   *lastIndex* is a zero-based index to the last block to retrieve (optional)
--   *requireBlock* is the block ID of a block that must be present in the blockchain during execution (optional)
--   *requireLastBlock* is the block ID of a block that must be last in the blockchain during execution (optional)
-
-**Response:**
-
--   *setterRS*: (S) is the Reed-Solomon address of the setter account (only if setter is defined in the request)
--   *recipientRS*: (S) is the Reed-Solomon address of the recipient account (only if recipient is defined in the request)
--   *recipient*: (S) is the account number of the recipient account (only if recipient is defined in the request)
--   *requestProcessingTime* (N) is the API request processing time (in millisec)
--   *setter*: (S) is the account number of the setter account (only if setter is defined in the request)
--   *properties*: (A) is an array of properties including the fields:
-    -   *setterRS*: (S) is the Reed-Solomon address of the setter account (only if setter is omitted in the request)
-    -   *recipientRS*: (S) is the Reed-Solomon address of the recipient account (only if recipient is omitted in the request)
-    -   *recipient*: (S) is the account number of the recipient account (only if recipient is omitted in the request)
-    -   *property*: (S) property name
-    -   *setter*: (S) is the account number of the setter account (only if setter is omitted in the request)
-    -   *value*: (S) property value
-
-**Example:** Refer to [Get Account Properties](the-burst-api-examples-get-account-properties.md) example.
-
-### Get Account Public Key
+### Get Account Public Key <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 
 Get the public key associated with an account ID.
 
-**Request:**
-
--   *requestType* is *getAccountPublicKey*
 -   *account* is the account ID
--   *requireBlock* is the block ID of a block that must be present in the blockchain during execution (optional)
--   *requireLastBlock* is the block ID of a block that must be last in the blockchain during execution (optional)
 
 **Response:**
 
 -   *publicKey* (S) is the 32-byte public key associated with the account, returned as a hex string
--   *lastBlock* (S) is the last block ID on the blockchain (applies if *requireBlock* is provided but not *requireLastBlock*)
 -   *requestProcessingTime* (N) is the API request processing time (in millisec)
 
 **Example:** Refer to [Get Account Public Key](the-burst-api-examples-get-account-public-key.md) example.
@@ -379,9 +266,6 @@ Get the public key associated with an account ID.
 
 Get the transaction IDs associated with an account in reverse block timestamp order. *This call only returns non-phased transactions as of [Version 1.5.7e](burst-software-change-log-version-1-5-7e.md) and is deprecated, to be removed in version 1.6. Use [Get Blockchain Transactions](the-burst-api-get-blockchain-transactions.md) instead.*
 
-**Request:**
-
--   *requestType* is *getAccountTransactionIds*
 -   *account* is the account ID
 -   *timestamp* is the earliest block (in seconds since the genesis block) to retrieve (optional)
 -   *type* is the type of transactions to retrieve (optional)
@@ -389,9 +273,6 @@ Get the transaction IDs associated with an account in reverse block timestamp or
 -   *firstIndex* is a zero-based index to the first transaction ID to retrieve (optional)
 -   *lastIndex* is a zero-based index to the last transaction ID to retrieve (optional)
 -   *numberOfConfirmations* is the required number of confirmations per transaction (optional)
--   *withMessage* is *true* to retrieve only only transactions having a message attachment, either non-encrypted or decryptable by the account (optional)
--   *requireBlock* is the block ID of a block that must be present in the blockchain during execution (optional)
--   *requireLastBlock* is the block ID of a block that must be last in the blockchain during execution (optional)
 
 **Note:** Refer to [Get Constants](the-burst-api-get-constants.md) for definitions of types and subtypes
 
