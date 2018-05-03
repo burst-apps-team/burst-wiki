@@ -176,79 +176,25 @@ The following JSON response fields are common to all API calls that create trans
 Account Operations
 ------------------
 
-### Delete Account Property
-
-Deletes an account property. POST only.
-
--   *property* is the name of the property
--   *recipient* is the account where a property should be removed (optional)
--   *setter* is the account who did set the property (optional)
-
-**Response:** Refer to [Create Transaction Response](the-burst-api-create-transaction-response.md).
-
-**Example:** Refer to [Delete Account Property](the-burst-api-examples-delete-account-property.md) example.
-
 ### Get Account
 
 Get account information given an account ID.
 
 -   *account* is the account ID
--   *includeLessors* is *true* to include *lessors*, *lessorsRS* and *lessorsInfo* (optional)
--   *includeAssets* is *true* to include *assetBalances* and *unconfirmedAssetBalances* (optional)
--   *includeCurrencies* is *true* to include *accountCurrencies* (optional)
--   *includeEffectiveBalance* is *true* to include *effectiveBalanceNXT* and *guaranteedBalanceNQT* (optional)
--   *requireBlock* is the block ID of a block that must be present in the blockchain during execution (optional)
--   *requireLastBlock* is the block ID of a block that must be last in the blockchain during execution (optional)
 
 **Response:**
 
 -   *unconfirmedBalanceNQT* (S) is *balanceNQT* less unconfirmed outgoing transactions, the balance displayed in the client
 -   *effectiveBalanceNXT* (N) is the balance (in BURST) of the account available for forging: the unleased guaranteedBalance of this account plus the leased guaranteedBalance of all lessors to this account
--   *lessorsInfo* (A) is an array of lessor objects including the fields:
-    -   *currentHeightTo* (S)
-    -   *nextHeightFrom* (S)
-    -   *effectiveBalanceNXT* (S)
-    -   *nextLesseeRS* (S)
-    -   *currentLesseeRS* (S)
-    -   *currentHeightFrom* (S)
-    -   *nextHeightTo* (S)
--   *lessors* (A) is an array of lessor account IDs
--   *currentLessee* (S) is the account number of the lessee, if applicable
--   *currentLeasingHeightTo* (N) is the block height when the lease completes, if applicable
 -   *forgedBalanceNQT* (S) is the balance (in NQT) that the account has forged
 -   *balanceNQT* (S) is the minimally confirmed basic balance (in NQT) of the account
 -   *publicKey* (S) is the public key of the account
 -   *requestProcessingTime* (N) is the API request processing time (in millisec)
--   *assetBalances* (A) is an array of asset objects including the fields *balanceQNT* (S) and *asset* (S) ID
 -   *guaranteedBalanceNQT* (S) is the balance (in NQT) of the account with at least 1440 confirmations
--   *unconfirmedAssetBalances* (A) is an array of asset objects including the fields *unconfirmedBalanceQNT* (S) and *asset* (S) ID
--   *currentLesseeRS* (S) is the Reed-Solomon address of the lessee account
 -   *accountRS* (S) is the Reed-Solomon address of the account
--   *lessorsRS* (A) is an array of Reed-Solomon lessor account addresses
--   *accountCurrencies* (A) is an array of currency objects (refer to [Get Account Currencies](the-burst-api-get-account-currencies.md) for details)
--   *name* (S) is the name associated with the account, if applicable
--   *description* (S) is the description of the account, if applicable
 -   *account* (S) is the account number
--   *currentLeasingHeightFrom* (N) is the block height when the lease starts, if applicable
--   *lastBlock* (S) is the last block ID on the blockchain (applies if *requireBlock* is provided but not *requireLastBlock*)
 
 **Example:** Refer to [Get Account](the-burst-api-examples-get-account.md) example.
-
-### Get Account Block Count
-
-Get the number of blocks forged by an account.
-
--   *account* is an account ID
--   *requireBlock* is the block ID of a block that must be present in the blockchain during execution (optional)
--   *requireLastBlock* is the block ID of a block that must be last in the blockchain during execution (optional)
-
-**Response:**
-
--   *numberOfBlocks* (N) is the number of blocks forged by the account
--   *lastBlock* (S) is the last block ID on the blockchain (applies if *requireBlock* is provided but not *requireLastBlock*)
--   *requestProcessingTime* (N) is the API request processing time (in millisec)
-
-**Example:** Refer to [Get Account Block Count](the-burst-api-examples-get-account-block-count.md) example.
 
 ### Get Account Block Ids
 
