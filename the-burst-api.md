@@ -138,20 +138,20 @@ The following HTTP POST parameters are common to all API calls that create trans
 -   *secretPhrase* is the secret passphrase of the account (optional, but transaction neither signed nor broadcast if omitted)
 -   *publicKey* is the public key of the account (optional if *secretPhrase* provided)
 -   *feeNQT* is the fee (in NQT) for the transaction:
-    -   minimum 1000 NXT for [Issue Asset](the-burst-api-issue-asset.md), unless singleton asset is issued, for which the fee is 1 NXT
-    -   2 NXT in base fee for [Set Alias](the-burst-api-set-alias.md), with 2 NXT additional fee for each 32 chars of name plus URI total length, after the first 32 chars
-    -   \[25000, 1000, 40\] NXT for \[3-letter, 4-letter, 5-letter\] [Issue Currency](the-burst-api-issue-currency.md)
-    -   40 NXT for re-issue of any currency
-    -   10 NXT for a [Create Poll](the-burst-api-create-poll.md), including 20 options and total size of poll name plus poll description plus total option length not exceeding 320 chars. For each option above 20, an additional fee of 1 NXT, and for each 32 chars after 320, an additional fee of 2 NXT.
-    -   \[2, 21\] NXT for a \[basic, required-minimum-balance\] [Create Phasing Poll](the-burst-api-create-phasing-poll.md). 1 NXT will be added for each option (answer) beyond 20, and 1 NXT for each 32 bytes of hashedSecret or linkedFullHash fields.
-    -   1 NXT for the first 32 bytes of a unencrypted non-prunable [message](the-burst-api-send-message.md), 1 NXT for each additional 32 bytes
-    -   2 NXT for the first 32 bytes of an encrypted non-prunable [message](the-burst-api-send-message.md), 1 NXT for each additional 32 bytes. The length is measured excluding the nonce and the 16 byte AES initialization vector.
-    -   1 NXT for the first 1024 bytes of a prunable [message](the-burst-api-send-message.md), 0.1 NXT for each additional 1024 prunable bytes
-    -   1 NXT for [Set Account Info](the-burst-api-set-account-info.md), including 32 chars, with 2 NXT additional fee for each 32 chars
-    -   2 NXT for [DGS Listing](the-burst-api-dgs-listing.md), including 32 chars of name plust description. With 2 NXT additional fee for each 32 chars.
-    -   1 NXT for [DGS Delivery](the-burst-api-dgs-delivery.md), including 32 bytes of encrypted goods data (AES initialization bytes and nonce excluded). With 2 NXT additional fee for each 32 bytes.
-    -   2 NXT for transactions that make use of referencedTransactionFullHash property when creating a new transaction.
-    -   1 NXT otherwise, where 1 NXT = 100000000 NQT
+    -   minimum 1000 BURST for [Issue Asset](the-burst-api-issue-asset.md), unless singleton asset is issued, for which the fee is 1 BURST
+    -   2 BURST in base fee for [Set Alias](the-burst-api-set-alias.md), with 2 BURST additional fee for each 32 chars of name plus URI total length, after the first 32 chars
+    -   \[25000, 1000, 40\] BURST for \[3-letter, 4-letter, 5-letter\] [Issue Currency](the-burst-api-issue-currency.md)
+    -   40 BURST for re-issue of any currency
+    -   10 BURST for a [Create Poll](the-burst-api-create-poll.md), including 20 options and total size of poll name plus poll description plus total option length not exceeding 320 chars. For each option above 20, an additional fee of 1 BURST, and for each 32 chars after 320, an additional fee of 2 BUSRT.
+    -   \[2, 21\] BURST for a \[basic, required-minimum-balance\] [Create Phasing Poll](the-burst-api-create-phasing-poll.md). 1 BURST will be added for each option (answer) beyond 20, and 1 BURST for each 32 bytes of hashedSecret or linkedFullHash fields.
+    -   1 BURST for the first 32 bytes of a unencrypted non-prunable [message](the-burst-api-send-message.md), 1 BURST for each additional 32 bytes
+    -   2 BURST for the first 32 bytes of an encrypted non-prunable [message](the-burst-api-send-message.md), 1 BURST for each additional 32 bytes. The length is measured excluding the nonce and the 16 byte AES initialization vector.
+    -   1 BURST for the first 1024 bytes of a prunable [message](the-burst-api-send-message.md), 0.1 BURST for each additional 1024 prunable bytes
+    -   1 BURST for [Set Account Info](the-burst-api-set-account-info.md), including 32 chars, with 2 BURST additional fee for each 32 chars
+    -   2 BURST for [DGS Listing](the-burst-api-dgs-listing.md), including 32 chars of name plust description. With 2 BURST additional fee for each 32 chars.
+    -   1 BURST for [DGS Delivery](the-burst-api-dgs-delivery.md), including 32 bytes of encrypted goods data (AES initialization bytes and nonce excluded). With 2 BURST additional fee for each 32 bytes.
+    -   2 BURST for transactions that make use of referencedTransactionFullHash property when creating a new transaction.
+    -   1 BURST otherwise, where 1 BURST = 100000000 NQT
 -   *deadline* is the deadline (in minutes) for the transaction to be confirmed, 32767 minutes maximum
 -   *referencedTransactionFullHash* creates a chained transaction, meaning that the current transaction cannot be confirmed unless the referenced transaction is also confirmed (optional)
 -   *broadcast* is set to *false* to prevent broadcasting the transaction to the network (optional)
@@ -203,7 +203,7 @@ Get account information given an account ID.
 **Response:**
 
 -   *unconfirmedBalanceNQT* (S) is *balanceNQT* less unconfirmed outgoing transactions, the balance displayed in the client
--   *effectiveBalanceNXT* (N) is the balance (in NXT) of the account available for forging: the unleased guaranteedBalance of this account plus the leased guaranteedBalance of all lessors to this account
+-   *effectiveBalanceNXT* (N) is the balance (in BURST) of the account available for forging: the unleased guaranteedBalance of this account plus the leased guaranteedBalance of all lessors to this account
 -   *lessorsInfo* (A) is an array of lessor objects including the fields:
     -   *currentHeightTo* (S)
     -   *nextHeightFrom* (S)
@@ -502,7 +502,7 @@ Get the balance of an account.
 
 -   *unconfirmedBalanceNQT* (S) is *balanceNQT* less unconfirmed outgoing transactions, the balance displayed in the client
 -   *guaranteedBalanceNQT* (S) is the balance (in NQT) of the account with at least 1440 confirmations
--   *effectiveBalanceNXT* (N) is the balance (in NXT) of the account available for forging: the unleased guaranteedBalance of this account plus the leased guaranteedBalance of all lessors to this account
+-   *effectiveBalanceNXT* (N) is the balance (in BURST) of the account available for forging: the unleased guaranteedBalance of this account plus the leased guaranteedBalance of all lessors to this account
 -   *forgedBalanceNQT* (S) is the balance (in NQT) that the account has forged
 -   *balanceNQT* (S) is the minimally confirmed basic balance (in NQT) of the account
 -   *lastBlock* (S) is the last block ID on the blockchain (applies if *requireBlock* is provided but not *requireLastBlock*)
@@ -640,7 +640,7 @@ Get accounts having a name or description that match a given query in reverse re
 
 ### Send Money
 
-Send NXT to an account. POST only.
+Send BURST to an account. POST only.
 
 **Request:** Refer to [Create Transaction Request](the-burst-api-create-transaction-request.md) for common parameters.
 
@@ -653,7 +653,7 @@ Send NXT to an account. POST only.
 
 **Example:** Refer to [Send Money](the-burst-api-examples-send-money.md) example.
 
-#### Send NXT
+#### Send BURST
 
 Refer to [Send Money](the-burst-api-send-money.md).
 
@@ -1582,8 +1582,8 @@ Get the dividend payment history for a specific asset.
 -   *dividends* (A) is an array of dividend transactions with the following properties:
     -   *assetDividend* (S) is the dividend payment transaction ID
     -   *numberOfAccounts* (N) is the number of accounts that received a dividend
-    -   *amountNQTPerQNT* (S) is the amount of NXT (in NQT) paid per quantity (in QNT) of the asset
-    -   *totalDividend* (S) is the total amount of NXT (in NQT) sent in the dividend payment
+    -   *amountNQTPerQNT* (S) is the amount of BURST(in NQT) paid per quantity (in QNT) of the asset
+    -   *totalDividend* (S) is the total amount of BURST(in NQT) sent in the dividend payment
     -   *dividendHeight* (N) is the block height of the dividend calculation
     -   *asset* (S) is the asset ID
     -   *height* (N) is the block height of the dividend payment
@@ -2647,7 +2647,7 @@ Refer to [Start / Stop / Get Forging](the-burst-api-start--2f-stop--2f-get-forgi
 
 ### Lease Balance
 
-[Lease](account-leasing.md) the entire guaranteed balance of NXT to another account, after 1440 confirmations. POST only.
+[Lease](account-leasing.md) the entire guaranteed balance of BURST to another account, after 1440 confirmations. POST only.
 
 **Request:** Refer to [Create Transaction Request](the-burst-api-create-transaction-request.md) for common parameters.
 
@@ -2674,7 +2674,7 @@ Returns the next block generators ordered by hit time. The list of currently act
 -   *activeCount* (N) is the number of active forging accounts
 -   *lastBlock* (S) is the last block ID on the blockchain
 -   *generators* (A) is an array containing the number of next block generators requested
-    -   *effectiveBalanceNXT* (N) is the balance (in NXT) of the account available for forging: the unleased guaranteedBalance of this account plus the leased guaranteedBalance of all lessors to this account
+    -   *effectiveBalanceNXT* (N) is the balance (in BURST) of the account available for forging: the unleased guaranteedBalance of this account plus the leased guaranteedBalance of all lessors to this account
     -   *accountRS* (S) is the Reed-Solomon address of the account
     -   *deadline* (N) is the estimated time (in seconds since the last block) until the account will forge a block
     -   *account* (S) is the account number
@@ -3499,7 +3499,7 @@ Issue a new currency or re-issue an existing currency with different properties.
 
 -   *requestType* is *issueCurrency*
 -   *name* is the currency name, 3 to 10 characters and longer than the currency code
--   *code* is the uppercase currency code with the following fee structure: three letters 25000 NXT, four letters 1000 NXT, five letters 40 NXT, re-issue 40 NXT
+-   *code* is the uppercase currency code with the following fee structure: three letters 25000 BURST, four letters 1000 BURST, five letters 40 BURST, re-issue 40 BURST
 -   *description* is the currency description
 -   *type* is the currency type bitmask, from least to most significant bit: exchangeable, controllable, reservable, claimable, mintable, non-shuffleable
 -   *initialSupply* is the initial currency supply (in QNT) (must match *maxSupply* unless mintable or claimable, must be zero for claimable)
@@ -3799,7 +3799,7 @@ Create a phased transaction with conditional deferred execution based on the res
     -   *1* for model *5*
 -   *phasingMinBalance* is the minimum balance (in NQT or QNT) required for voting (optional, default *0*)
 -   *phasingMinBalanceModel* is (required if *phasingMinBalance* &gt; *0*, must match *phasingVotingModel* when *phasingVotingModel* = *1*, *2* or *3*):
-    -   *1* for NXT balance
+    -   *1* for BURST balance
     -   *2* for an asset balance
     -   *3* for a currency balance
 -   *phasingHolding* is the asset or currency ID (required if *phasingMinBalanceModel* = *2* or *3*)
@@ -4261,7 +4261,7 @@ Get the current time.
 Shuffling Operations
 --------------------
 
-Coin shuffling can be used to perform mixing of NXT, MS currencies (unless created as non-shuffleable), or AE assets. Any account can create a new shuffling, specifying the holding to be shuffled, the shuffle amount, number of participants required, and registration deadline.
+Coin shuffling can be used to perform mixing of BURST, MS currencies (unless created as non-shuffleable), or AE assets. Any account can create a new shuffling, specifying the holding to be shuffled, the shuffle amount, number of participants required, and registration deadline.
 
 ### Get Account Shufflings
 
