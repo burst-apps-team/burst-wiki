@@ -201,18 +201,7 @@ Get all blocks forged (generated) by an account in reverse block height order.
 
 Get an account ID given a secret passphrase or public key. POST only.
 
--   *secretPhrase* is the secret passphrase of the account (optional if *publicKey* provided)
-
-<!-- -->
-
--   *publicKey* is the public key of the account (optional if *secretPhrase* provided)
-
 **Response:**
-
--   *accountRS* (S) is the Reed-Solomon address of the account
--   *publicKey* (S) is the public key of the account
--   *requestProcessingTime* (N) is the API request processing time (in millisec)
--   *account* (S) is the account number
 
 **Example:** Refer to [Get Account Id](the-burst-api-examples-get-account-id.md) example.
 
