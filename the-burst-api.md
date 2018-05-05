@@ -17,8 +17,8 @@ Table Of Contents
 
 \_\_TOC\_\_
 
-General Notes
--------------
+General Notes <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+-----------------------------------------------------------------------------------------------------------
 
 ### Genesis Block <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 
@@ -35,6 +35,16 @@ The Burst system has a currency BURST used to quantify value in the system. Like
 Yet internally, the currency is still stored in integer form in units of NQT or NxtQuant, where 1 BURST = 10<sup>8</sup> NQT. All parameters and fields in the API involving a quantity of BURST are denominated in units of NQT, for example *feeNQT*. The only exception is the field *effectiveBalanceNXT*, used in forging calculations.
 
 Other assets can be created within Burst using [Issue Asset](the-burst-api-issue-asset.md). The issuer must specify the number of decimal places to use in quantifying the asset, and the amount of the asset to create in generic units of QNT or Quant, distinct from NQT. Quantities of assets are stored internally as integers in units of QNT, and assets are priced in NQT per QNT.
+
+| Decimal (BURST) | Canonical Name  | Alternate Name | NQT         |
+|-----------------|-----------------|----------------|-------------|
+| **1**.00000000  | BURST           | Burst          | 100,000,000 |
+| 0.0**1**000000  | cBURST          | Bessie         | 1,000,000   |
+| 0.00**1**00000  | mBURST          | -              | 100,000     |
+| 0.0000**1**000  | -               | Maybel         | 1,000       |
+| 0.00000**1**00  | uBURST          | -              | 100         |
+| 0.0000000**1**  | -               | Planck         | 1           |
+| 0.12345678      | digit reference | -              | -           |
 
 ### Creating Unsigned Transactions <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 
@@ -77,18 +87,10 @@ It is recommended not to modify default properties files because they can be ove
 
 This causes the Burst server to connect to the [TestNet](testnet.md) instead of the MainNet.
 
-### Roaming and Light Client Modes (To verify)
-
-The remote node to use when in roaming and light client modes is selected randomly, but can be changed manually in the UI, or using the new [set API Proxy Peer](the-burst-api-set-api-proxy-peer.md) API, or forced to a specific peer using the *nxt.forceAPIProxyServerURL* property.
-
-Remote nodes can be blacklisted from the UI, or using the [Blacklist API Proxy Peer](the-burst-api-blacklist-api-proxy-peer.md) API. This blacklisting is independent from peer blacklisting. The API proxy blacklisting period can be set using the *nxt.apiProxyBlacklistingPeriod* property (default 1800000 milliseconds).
-
-API requests that require sending the secret phrase, shared key, or admin password to the server, for features like forging, shuffling, or running a funding monitor, are disabled when in roaming or light client mode.
-
 Create Transaction
 ------------------
 
-The following API calls create Burst transactions using HTTP POST requests. Follow the links for examples and HTTP POST request parameters specific to each call. Refer to the sections below for [HTTP POST request parameters](the-burst-api-create-transaction-request.md) and [JSON response fields](the-burst-api-create-transaction-response.md) common to all calls that create transactions. Calls in *italics* are phasing-safe (refer to [Get Constants](the-burst-api-get-constants.md) and [Create Phasing Poll](the-burst-api-create-phasing-poll.md))
+The following API calls create Burst transactions using HTTP POST requests. Follow the links for examples and HTTP POST request parameters specific to each call. Refer to the sections below for [HTTP POST request parameters](the-burst-api-create-transaction-request.md) and [JSON response fields](the-burst-api-create-transaction-response.md) common to all calls that create transactions. Calls in *italics* are phasing-safe (refer to [Get Constants](the-burst-api-get-constants.md))
 
 -   *[Send Money](the-burst-api-send-money.md)*
 -   *[Set Account Information](the-burst-api-set-account-information.md)*
@@ -134,10 +136,6 @@ The following HTTP POST parameters are common to all API calls that create trans
 -   *feeNQT* is the fee (in NQT) for the transaction:
     -   minimum 1000 BURST for [Issue Asset](the-burst-api-issue-asset.md), unless singleton asset is issued, for which the fee is 1 BURST
     -   2 BURST in base fee for [Set Alias](the-burst-api-set-alias.md), with 2 BURST additional fee for each 32 chars of name plus URI total length, after the first 32 chars
-    -   \[25000, 1000, 40\] BURST for \[3-letter, 4-letter, 5-letter\] [Issue Currency](the-burst-api-issue-currency.md)
-    -   40 BURST for re-issue of any currency
-    -   10 BURST for a [Create Poll](the-burst-api-create-poll.md), including 20 options and total size of poll name plus poll description plus total option length not exceeding 320 chars. For each option above 20, an additional fee of 1 BURST, and for each 32 chars after 320, an additional fee of 2 BUSRT.
-    -   \[2, 21\] BURST for a \[basic, required-minimum-balance\] [Create Phasing Poll](the-burst-api-create-phasing-poll.md). 1 BURST will be added for each option (answer) beyond 20, and 1 BURST for each 32 bytes of hashedSecret or linkedFullHash fields.
     -   1 BURST for the first 32 bytes of a unencrypted non-prunable [message](the-burst-api-send-message.md), 1 BURST for each additional 32 bytes
     -   2 BURST for the first 32 bytes of an encrypted non-prunable [message](the-burst-api-send-message.md), 1 BURST for each additional 32 bytes. The length is measured excluding the nonce and the 16 byte AES initialization vector.
     -   1 BURST for the first 1024 bytes of a prunable [message](the-burst-api-send-message.md), 0.1 BURST for each additional 1024 prunable bytes
@@ -145,7 +143,10 @@ The following HTTP POST parameters are common to all API calls that create trans
     -   2 BURST for [DGS Listing](the-burst-api-dgs-listing.md), including 32 chars of name plust description. With 2 BURST additional fee for each 32 chars.
     -   1 BURST for [DGS Delivery](the-burst-api-dgs-delivery.md), including 32 bytes of encrypted goods data (AES initialization bytes and nonce excluded). With 2 BURST additional fee for each 32 bytes.
     -   2 BURST for transactions that make use of referencedTransactionFullHash property when creating a new transaction.
-    -   1 BURST otherwise, where 1 BURST = 100000000 NQT
+    -   Dynamic tx cost otherwise, where 1 BURST = 100000000 NQT
+
+    \* {| class=“wikitable” |+Progressive Tx fee reference !Tx no !Tx fees !Total fees |- |1 |0.00735 |0.00735 |- |100 |0.73500 |37.11750 |- |255 |1.87425 |239.90400 |- |510 |3.74850 |957.74175 |- |765 |5.62275 |2153.51325 |- |1020 |7.49700 |3827.21850 |}
+
 -   *deadline* is the deadline (in minutes) for the transaction to be confirmed, 32767 minutes maximum
 -   *referencedTransactionFullHash* creates a chained transaction, meaning that the current transaction cannot be confirmed unless the referenced transaction is also confirmed (optional)
 -   *broadcast* is set to *false* to prevent broadcasting the transaction to the network (optional)
@@ -154,7 +155,7 @@ The following HTTP POST parameters are common to all API calls that create trans
 
 **Note:** Any phasing-safe transaction (refer to [Create Transaction](the-burst-api-create-transaction.md)) can have its execution deferred either conditionally or unconditionally (refer to [Create Phasing Poll](the-burst-api-create-phasing-poll.md)).
 
-### Create Transaction Response
+### Create Transaction Response <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 
 The following JSON response fields are common to all API calls that create transactions:
 
@@ -173,8 +174,6 @@ Account Operations
 ### Get Account <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 
 Get account information given an account ID.
-
--   *account* is the account ID
 
 **Response:**
 
