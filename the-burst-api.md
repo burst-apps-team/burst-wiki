@@ -183,16 +183,6 @@ Get account information given an account ID.
 
 **Response:**
 
--   *unconfirmedBalanceNQT* (S) is *balanceNQT* less unconfirmed outgoing transactions, the balance displayed in the client
--   *effectiveBalanceNXT* (N) is the balance (in BURST) of the account available for forging: the unleased guaranteedBalance of this account plus the leased guaranteedBalance of all lessors to this account
--   *forgedBalanceNQT* (S) is the balance (in NQT) that the account has forged
--   *balanceNQT* (S) is the minimally confirmed basic balance (in NQT) of the account
--   *publicKey* (S) is the public key of the account
--   *requestProcessingTime* (N) is the API request processing time (in millisec)
--   *guaranteedBalanceNQT* (S) is the balance (in NQT) of the account with at least 1440 confirmations
--   *accountRS* (S) is the Reed-Solomon address of the account
--   *account* (S) is the account number
-
 **Example:** Refer to [Get Account](the-burst-api-examples-get-account.md) example.
 
 ### Get Account Block Ids <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
