@@ -218,7 +218,7 @@ Get the transaction IDs associated with an account in reverse block timestamp or
 
 **Example:** Refer to [Get Account Transaction Ids](the-burst-api-examples-get-account-transaction-ids.md) example.
 
-### Get Account Transactions
+### Get Account Transactions <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 
 Get the transactions associated with an account in reverse block timestamp order. *This call only returns non-phased transactions as of [Version 1.5.7e](burst-software-change-log-version-1-5-7e.md) and is depricated, to be removed in version 1.6. Use [Get Blockchain Transactions](the-burst-api-get-blockchain-transactions.md) instead.*
 
@@ -226,34 +226,15 @@ Get the transactions associated with an account in reverse block timestamp order
 
 **Response:**
 
--   *transactions* (A) is an array of transactions (refer to [Get Transaction](the-burst-api-get-transaction.md) for details)
--   *lastBlock* (S) is the last block ID on the blockchain (applies if *requireBlock* is provided but not *requireLastBlock*)
--   *requestProcessingTime* (N) is the API request processing time (in millisec)
-
 **Example:** Refer to [Get Account Transactions](the-burst-api-examples-get-account-transactions.md) example.
 
-### Get Balance
+### Get Balance <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 
 Get the balance of an account.
 
 **Request:**
 
--   *requestType* is *getBalance*
--   *account* is an account ID
--   *includeEffectiveBalance* is *true* to include *effectiveBalanceNXT* and *guaranteedBalanceNQT* (optional)
--   *height* is the height to retrieve account balance for, if still available (optional)
--   *requireBlock* is the block ID of a block that must be present in the blockchain during execution (optional)
--   *requireLastBlock* is the block ID of a block that must be last in the blockchain during execution (optional)
-
 **Response:**
-
--   *unconfirmedBalanceNQT* (S) is *balanceNQT* less unconfirmed outgoing transactions, the balance displayed in the client
--   *guaranteedBalanceNQT* (S) is the balance (in NQT) of the account with at least 1440 confirmations
--   *effectiveBalanceNXT* (N) is the balance (in BURST) of the account available for forging: the unleased guaranteedBalance of this account plus the leased guaranteedBalance of all lessors to this account
--   *forgedBalanceNQT* (S) is the balance (in NQT) that the account has forged
--   *balanceNQT* (S) is the minimally confirmed basic balance (in NQT) of the account
--   *lastBlock* (S) is the last block ID on the blockchain (applies if *requireBlock* is provided but not *requireLastBlock*)
--   *requestProcessingTime* (N) is the API request processing time (in millisec)
 
 **Example:** Refer to [Get Balance](the-burst-api-examples-get-balance.md) example.
 
@@ -287,7 +268,7 @@ Get a list of unconfirmed transaction IDs associated with an account.
 -   *account* is one account ID (optional)
 -   *account* is one account ID (optional)
 
-⋮
+<!-- -->
 
 -   *requireBlock* is the block ID of a block that must be present in the blockchain during execution (optional)
 -   *requireLastBlock* is the block ID of a block that must be last in the blockchain during execution (optional)
@@ -312,7 +293,7 @@ Get a list of unconfirmed transactions associated with an account.
 -   *account* is one account ID (optional)
 -   *account* is one account ID (optional)
 
-⋮
+<!-- -->
 
 -   *requireBlock* is the block ID of a block that must be present in the blockchain during execution (optional)
 -   *requireLastBlock* is the block ID of a block that must be last in the blockchain during execution (optional)
@@ -342,9 +323,21 @@ Send BURST to an account. POST only.
 
 **Example:** Refer to [Send Money](the-burst-api-examples-send-money.md) example.
 
-#### Send BURST
+### Send Money Multi
 
-Refer to [Send Money](the-burst-api-send-money.md).
+Send individual amounts of BURST to up to 64 recipients. POST only.
+
+**Response:**
+
+**Example:**
+
+### Send Money Multi Same
+
+Send the same amount of BURST to up to 128 recipients. POST only.
+
+**Response:**
+
+**Example:**
 
 ### Set Account Info
 
