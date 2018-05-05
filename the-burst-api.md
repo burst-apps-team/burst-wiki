@@ -143,13 +143,19 @@ The following HTTP POST parameters are common to all API calls that create trans
     -   2 BURST for [DGS Listing](the-burst-api-dgs-listing.md), including 32 chars of name plust description. With 2 BURST additional fee for each 32 chars.
     -   1 BURST for [DGS Delivery](the-burst-api-dgs-delivery.md), including 32 bytes of encrypted goods data (AES initialization bytes and nonce excluded). With 2 BURST additional fee for each 32 bytes.
     -   2 BURST for transactions that make use of referencedTransactionFullHash property when creating a new transaction.
-    -   Dynamic tx cost otherwise, where 1 BURST = 100000000 NQT
-
-    \* {| class=“wikitable” |+Progressive Tx fee reference !Tx no !Tx fees !Total fees |- |1 |0.00735 |0.00735 |- |100 |0.73500 |37.11750 |- |255 |1.87425 |239.90400 |- |510 |3.74850 |957.74175 |- |765 |5.62275 |2153.51325 |- |1020 |7.49700 |3827.21850 |}
-
+    -   Dynamic tx fee otherwise, where 1 BURST = 100000000 NQT
 -   *deadline* is the deadline (in minutes) for the transaction to be confirmed, 32767 minutes maximum
 -   *referencedTransactionFullHash* creates a chained transaction, meaning that the current transaction cannot be confirmed unless the referenced transaction is also confirmed (optional)
 -   *broadcast* is set to *false* to prevent broadcasting the transaction to the network (optional)
+
+| Tx no | Tx fees |
+|-------|---------|
+| 1     | 0.00735 |
+| 100   | 0.73500 |
+| 255   | 1.87425 |
+| 510   | 3.74850 |
+| 765   | 5.62275 |
+| 1020  | 7.49700 |
 
 **Note:** An optional arbitrary message can be appended to any transaction by adding message-related parameters as in [Send Message](the-burst-api-send-message.md).
 
