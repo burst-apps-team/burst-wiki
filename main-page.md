@@ -14,20 +14,6 @@
 <div class="box_row">
 <div class="box_column">
 <div class="main_subtitle">
-**Burst Features**
-
-</div>
-\* [Arbitrary Messages](arbitrary-messages.md)
-
--   [Alias System](alias-system.md)
--   [Asset Exchange](asset-exchange.md)
--   [Automated transactions (Smart Contracts)](automated-transaction.md)
--   [Marketplace](marketplace.md)
--   [*Summary of Features*](current-features.md)
-
-</div>
-<div class="box_column">
-<div class="main_subtitle">
 **Burst Software**
 
 </div>
@@ -38,6 +24,20 @@
     -   Direct Download: ****, ****
 -   [Burst Source Code](https://github.com/PoC-Consortium/burstcoin)
 -   [Mobile App](mobile-app.md)
+
+</div>
+<div class="box_column">
+<div class="main_subtitle">
+**Burst Features**
+
+</div>
+\* [Arbitrary Messages](arbitrary-messages.md)
+
+-   [Alias System](alias-system.md)
+-   [Asset Exchange](asset-exchange.md)
+-   [Automated transactions (Smart Contracts)](automated-transaction.md)
+-   [Marketplace](marketplace.md)
+-   [*Summary of Features*](current-features.md)
 
 </div>
 <div class="box_column">
@@ -54,6 +54,17 @@
 -   [Offline Transaction Signing](offline-transaction-signing.md)
 -   [How Transaction Processing Works](how-tx-processing-works.md)
 -   [Exchange Integration](exchange-integration.md)
+
+</div>
+<div class="box_column">
+<div class="main_subtitle">
+**Mining**
+
+</div>
+\* [Reward Assignment](reward-assignment.md)
+
+-   [Plotting](plotting.md)
+-   [Mining](mining.md)
 
 </div>
 </div>
