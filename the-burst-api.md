@@ -92,15 +92,12 @@ Create Transaction
 
 The following API calls create Burst transactions using HTTP POST requests. Follow the links for examples and HTTP POST request parameters specific to each call. Refer to the sections below for [HTTP POST request parameters](the-burst-api-create-transaction-request.md) and [JSON response fields](the-burst-api-create-transaction-response.md) common to all calls that create transactions.
 
--   [Send Money](the-burst-api-send-money.md)
--   [Set Account Information](the-burst-api-set-account-information.md)
--   [Set Account Property](the-burst-api-set-account-property.md)
+-   [Send Money](the-burst-api.md)
+-   [Set Account Info](the-burst-api.md)
 -   [Buy / Sell Alias](the-burst-api-buy--2f-sell-alias.md)
--   [Delete Alias](the-burst-api-delete-alias.md)
 -   [Set Alias](the-burst-api-set-alias.md)
 -   [Send Message](the-burst-api-send-message.md)
 -   [Cancel Order](the-burst-api-cancel-order.md)
--   [Dividend Payment](the-burst-api-dividend-payment.md)
 -   [Issue Asset](the-burst-api-issue-asset.md)
 -   [Place Order](the-burst-api-place-order.md)
 -   [Transfer Asset](the-burst-api-transfer-asset.md)
@@ -108,24 +105,10 @@ The following API calls create Burst transactions using HTTP POST requests. Foll
 -   [DGS Delivery](the-burst-api-dgs-delivery.md)
 -   [DGS Feedback](the-burst-api-dgs-feedback.md)
 -   [DGS Listing](the-burst-api-dgs-listing.md)
--   [DGS PriceChange](the-burst-api-dgs-pricechange.md)
 -   [DGS Purchase](the-burst-api-dgs-purchase.md)
 -   [DGS Quantity Change](the-burst-api-dgs-quantity-change.md)
 -   [DGS Refund](the-burst-api-dgs-refund.md)
 -   [Lease Balance](the-burst-api-lease-balance.md)
--   [Currency Buy / Sell](the-burst-api-currency-buy--2f-sell.md)
--   [Currency Mint](the-burst-api-currency-mint.md)
--   [Currency Reserve Claim](the-burst-api-currency-reserve-claim.md)
--   [Currency Reserve Increase](the-burst-api-currency-reserve-increase.md)
--   [Delete Currency](the-burst-api-delete-currency.md)
--   [Issue Currency](the-burst-api-issue-currency.md)
--   [Publish Exchange Offer](the-burst-api-publish-exchange-offer.md)
--   [Transfer Currency](the-burst-api-transfer-currency.md)
--   [Create Poll](the-burst-api-create-poll.md)
--   [Cast Vote](the-burst-api-cast-vote.md)
--   [Approve Transaction](the-burst-api-approve-transaction.md)
--   [Extend Tagged Data](the-burst-api-extend-tagged-data.md)
--   [Upload Tagged Data](the-burst-api-upload-tagged-data.md)
 
 ### Create Transaction Request
 
