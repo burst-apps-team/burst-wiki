@@ -209,21 +209,13 @@ Get an account ID given a secret passphrase or public key. POST only.
 
 Get the lessors to an account.
 
--   *account* is the account ID
--   *height* is the height of the blockchain to determine the lessors (optional, default is last block)
-
 **Note:** If table trimming is enabled (default), the *height* must be within 1440 blocks of the last block.
 
 **Response:**
 
--   *lessors* (A) is an array of lessor objects including the fields:
-    -   *lessorRS* (S)
-    -   *lessor* (S)
-    -   *guaranteedBalanceNQT* (S)
--   *accountRS* (S) is the Reed-Solomon address of the account
--   *requestProcessingTime* (N) is the API request processing time (in millisec)
--   *account* (S) is the account number
--   *height* (N) is the height of the blockchain
+-   *lessorRS* (S)
+-   *lessor* (S)
+-   *guaranteedBalanceNQT* (S)
 
 **Example:** Refer to [Get Account Lessors](the-burst-api-examples-get-account-lessors.md) example.
 
@@ -231,34 +223,17 @@ Get the lessors to an account.
 
 Get the public key associated with an account ID.
 
--   *account* is the account ID
-
 **Response:**
-
--   *publicKey* (S) is the 32-byte public key associated with the account, returned as a hex string
--   *requestProcessingTime* (N) is the API request processing time (in millisec)
 
 **Example:** Refer to [Get Account Public Key](the-burst-api-examples-get-account-public-key.md) example.
 
-### Get Account Transaction Ids
+### Get Account Transaction Ids <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 
 Get the transaction IDs associated with an account in reverse block timestamp order. *This call only returns non-phased transactions as of [Version 1.5.7e](burst-software-change-log-version-1-5-7e.md) and is deprecated, to be removed in version 1.6. Use [Get Blockchain Transactions](the-burst-api-get-blockchain-transactions.md) instead.*
-
--   *account* is the account ID
--   *timestamp* is the earliest block (in seconds since the genesis block) to retrieve (optional)
--   *type* is the type of transactions to retrieve (optional)
--   *subtype* is the subtype of transactions to retrieve (optional)
--   *firstIndex* is a zero-based index to the first transaction ID to retrieve (optional)
--   *lastIndex* is a zero-based index to the last transaction ID to retrieve (optional)
--   *numberOfConfirmations* is the required number of confirmations per transaction (optional)
 
 **Note:** Refer to [Get Constants](the-burst-api-get-constants.md) for definitions of types and subtypes
 
 **Response:**
-
--   *transactionIds* (A) is an array of transaction IDs
--   *lastBlock* (S) is the last block ID on the blockchain (applies if *requireBlock* is provided but not *requireLastBlock*)
--   *requestProcessingTime* (N) is the API request processing time (in millisec)
 
 **Example:** Refer to [Get Account Transaction Ids](the-burst-api-examples-get-account-transaction-ids.md) example.
 
