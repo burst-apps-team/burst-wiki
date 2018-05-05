@@ -10,7 +10,7 @@ Each API call is documented below, with definitions given for HTTP request param
 -   The JSON response fields are each followed by one of *S* for string, *A* for array, *O* for object, *N* for number or *B* for boolean.
 -   In the examples, the Burst node is represented as *localhost* and requests and responses are formatted for easy reading; line breaks and spaces are not actually used except in some parameter values. All requests are in URL format which implies the HTTP GET method. When GET is allowed, the URL can be entered into a browser URL field but proper URL encoding is usually required (e.g., spaces in a parameter value must be replaced by *+* or *%20*). Otherwise, the URL should be used as a guide to preparing an HTTP POST request using cURL, for example.
 
-All API calls can be viewed and tested on the TestNet at <https://wallet.dev.burst-test.net/test>. For specific API calls, use <https://wallet.dev.burst-test.net/test?requestType>=*specificRequestType*.
+All API calls can be viewed and tested on the TestNet at <https://wallet.dev.burst-test.net/test>. For specific API calls, use <https://wallet.dev.burst-test.net/burst?requestType>=*specificRequestType*.
 
 Table Of Contents
 -----------------
@@ -36,7 +36,7 @@ Yet internally, the currency is still stored in integer form in units of NQT or 
 
 Other assets can be created within Burst using [Issue Asset](the-burst-api-issue-asset.md). The issuer must specify the number of decimal places to use in quantifying the asset, and the amount of the asset to create in generic units of QNT or Quant, distinct from NQT. Quantities of assets are stored internally as integers in units of QNT, and assets are priced in NQT per QNT.
 
-### Creating Unsigned Transactions
+### Creating Unsigned Transactions <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 
 All API requests that create a new transaction will accept either a *secretPhrase* or a *publicKey* parameter:
 
@@ -44,7 +44,7 @@ All API requests that create a new transaction will accept either a *secretPhras
 -   If only a *publicKey* parameter is supplied as a 64-digit (32-byte) hex string, the transaction will be prepared by the server and returned in the JSON response as *transactionJSON* without a signature. This JSON object along with *secretPhrase* can then be supplied to [Sign Transaction](the-burst-api-sign-transaction.md) as *unsignedTransactionJSON* and the resulting signed *transactionJSON* can then be supplied to [Broadcast Transaction](the-burst-api-broadcast-transaction.md). This sequence allows for offline signing of transactions so that *secretPhrase* never needs to be exposed.
 -   *unsignedTransactionBytes* may be used instead of unsigned *transactionJSON* when there is no encrypted message. Messages to be encrypted require the *secretPhrase* for encryption and so cannot be included in *unsignedTransactionBytes*.
 
-### Escrow Operations
+### Escrow Operations <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 
 All API requests that create a new transaction will accept an optional *referencedTransactionFullHash* parameter which creates a chained transaction, meaning that the new transaction cannot be confirmed unless the referenced transaction is also confirmed. This feature allows a simple way of transaction escrow:
 
@@ -55,19 +55,19 @@ All API requests that create a new transaction will accept an optional *referenc
 
 Note that while the above scheme is good enough for a simple escrow, the blockchain does not enforce that if A is included, B will also be included. It may happen due to forks and blockchain reorganization, that B never gets a chance to be included and expires unconfirmed, while A still remains in the blockchain. However, it is not practically possible for Bob to intentionally cause such chain of events and to prevent B from being confirmed.
 
-### Prunable Data
+### Prunable Data <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 
 Prunable data can be removed from the blockchain without affecting the integrity of the blockchain. When a transaction containing prunable data is created, only the 32-byte sha256 hash of the prunable data is included in the *transactionBytes*, not the prunable data itself. The non-prunable signed *transactionBytes* are used to verify the signature and to generate the transaction's *fullHash* and ID; when the prunable part of the transaction is removed at a later time, none of these operations are affected.
 
 Prunable data has a predetermined minimum lifetime of two weeks (24 hours on the [Testnet](testnet.md)) from the timestamp of the transaction. Transactions and blocks received from peer nodes are not accepted if prunable data is missing before this time has elapsed. After this time has elapsed, prunable data is no longer included with transactions and blocks transmitted to peer nodes, and is no longer included in the transaction JSON returned by general-purpose API calls such as Get Transaction; the only way to retrieve it, if still available, is through special-purpose API calls such as Get Prunable Message.
 
-Expired prunable data remains stored in the blockchain until removed at the same time derived tables are trimmed, which occurs automatically every 1000 blocks by default. Use [Trim Derived Tables](the-burst-api-trim-derived-tables.md) to remove expired prunable data immediately.
+Expired prunable data remains stored in the blockchain until removed at the same time derived tables are trimmed, which occurs automatically every 1000 blocks by default.
 
 Prunable data can be preserved on a node beyond the predetermined minimum lifetime by setting the *nxt.maxPrunableLifetime* property to a larger value than two weeks or to *-1* to preserve it indefinitely. To force the node to include such preserved prunable data when transactions and blocks are transmitted to peer nodes, set the *nxt.includeExpiredPrunables* property to *true*, thus making it an archival node.
 
-Currently, there are two varieties of prunable data in the Burst system: prunable [Arbitrary Messages](the-burst-api-arbitrary-message-system-operations.md) and [Tagged Data](the-burst-api-tagged-data-operations.md). Both varities have a maximum prunable data length of 42 kilobytes.
+Currently, there is only one variety of prunable data in the Burst system: prunable [Arbitrary Messages](the-burst-api-arbitrary-message-system-operations.md). It has a maximum prunable data length of 42 kilobytes.
 
-### Properties Files
+### Properties Files <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 
 The behavior of some API calls is affected by property settings loaded from files in the *brs/conf* directory during Burst server intialization. This directory contains the *brs-default.properties* and *logging-default.properties* files, both of which contain default property settings along with documentation. A few of the property settings can be obtained while the server is running through the [Get Blockchain Status](the-burst-api-get-blockchain-status.md) and [Get State](the-burst-api-get-state.md) calls.
 
@@ -77,13 +77,7 @@ It is recommended not to modify default properties files because they can be ove
 
 This causes the Burst server to connect to the [TestNet](testnet.md) instead of the MainNet.
 
-### Admin Password
-
-Some API functions take an adminPassword parameter, which must match the nxt.adminPassword property unless the nxt.disableAdminPassword property is set to true or the API server only listens on the localhost interface (when the nxt.apiServerHost property is set to 127.0.0.1).
-
-All [Debug Operations](the-burst-api-debug-operations.md) require adminPassword since they require some kind of privilege. On some functions adminPassword is used so you can override maximum allowed value for lastIndex parameter, which is set to 100 by default by the nxt.maxAPIRecords property. Giving you the option to retrieve more than objects per request.
-
-### Roaming and Light Client Modes
+### Roaming and Light Client Modes (To verify)
 
 The remote node to use when in roaming and light client modes is selected randomly, but can be changed manually in the UI, or using the new [set API Proxy Peer](the-burst-api-set-api-proxy-peer.md) API, or forced to a specific peer using the *nxt.forceAPIProxyServerURL* property.
 
@@ -94,7 +88,7 @@ API requests that require sending the secret phrase, shared key, or admin passwo
 Create Transaction
 ------------------
 
-The following API calls create Burst transactions using HTTP `POST` requests. Follow the links for examples and HTTP `POST` request parameters specific to each call. Refer to the sections below for [HTTP `POST` request parameters](the-burst-api-create-transaction-request.md) and [JSON response fields](the-burst-api-create-transaction-response.md) common to all calls that create transactions. Calls in *italics* are phasing-safe (refer to [Get Constants](the-burst-api-get-constants.md) and [Create Phasing Poll](the-burst-api-create-phasing-poll.md))
+The following API calls create Burst transactions using HTTP POST requests. Follow the links for examples and HTTP POST request parameters specific to each call. Refer to the sections below for [HTTP POST request parameters](the-burst-api-create-transaction-request.md) and [JSON response fields](the-burst-api-create-transaction-response.md) common to all calls that create transactions. Calls in *italics* are phasing-safe (refer to [Get Constants](the-burst-api-get-constants.md) and [Create Phasing Poll](the-burst-api-create-phasing-poll.md))
 
 -   *[Send Money](the-burst-api-send-money.md)*
 -   *[Set Account Information](the-burst-api-set-account-information.md)*
