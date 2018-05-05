@@ -31,14 +31,13 @@
 **Burst Software**
 
 </div>
-\***Burst Client**
+\*[Burst Software](burst-software.md)
 
--   -   Latest Version: **** (beta: ****)
+-   Burst Client
+    -   Latest Version: ****
     -   Direct Download: ****, ****
-
 -   [Burst Source Code](https://github.com/PoC-Consortium/burstcoin)
 -   [Mobile App](mobile-app.md)
--   *[Burst software overview](burst-software.md)*
 
 </div>
 <div class="box_column">
@@ -60,7 +59,7 @@
 </div>
 <div class="box_row">
 <div class="box_column_light" style="background-color: #ffffff; text-align:center;">
-**Get Support: [Forum 1](https://burstforum.net/)   |   [Forum 2](https://forums.getburst.net)   |   [Burst Discord](https://discord.gg/PMUgVSY)**
+**Get Support: [Forum 1](https://burstforum.net/)   |   [Forum 2](https://forums.getburst.net)   |   [Burst Discord](https://discord.gg/PMUgVSY)   |   [Burst Reddit](https://www.reddit.com/r/burstcoin/)**
 
 </div>
 </div>
@@ -96,7 +95,6 @@
 
 -   Blockchain Explorer: [PoCC](https://explore.burst.cryptoguru.org/), [BurstXD](http://burstxd.com/blocks/), [burstcoin.zone](http://burstcoin.zone/wordpress/blockexplorer/)
 -   Network Observer: [Luxe](http://burstcoin.cc/), [PoCC](https://explore.burst.cryptoguru.org/tool/observe)
--   [Asset Explorer](http://asset.burstnation.com/)
 -   [Burst Today](http://www.burst.today/)
 
 <!-- -->
