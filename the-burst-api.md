@@ -1,4 +1,4 @@
-**Caution! Most of this text is still based on the original Nxt API documentation. While Burst and Nxt share a fair amount of similarities, Burst starts to differ as it's being developed further. The changes may or may not be already documented on this page. Also, the documentation here refers to the version or later**
+**The documentation here refers to the version or later.**
 
 Description <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 ---------------------------------------------------------------------------------------------------------
