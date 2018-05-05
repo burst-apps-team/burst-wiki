@@ -92,8 +92,8 @@ Create Transaction
 
 The following API calls create Burst transactions using HTTP POST requests. Follow the links for examples and HTTP POST request parameters specific to each call. Refer to the sections below for [HTTP POST request parameters](the-burst-api-create-transaction-request.md) and [JSON response fields](the-burst-api-create-transaction-response.md) common to all calls that create transactions.
 
--   [Send Money](the-burst-api.md)
--   [Set Account Info](the-burst-api.md)
+-   [Send Money](the-burst-api-send-money.md)
+-   [Set Account Info](the-burst-api-set-account-info.md)
 -   [Buy / Sell Alias](the-burst-api-buy--2f-sell-alias.md)
 -   [Set Alias](the-burst-api-set-alias.md)
 -   [Send Message](the-burst-api-send-message.md)
