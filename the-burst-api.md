@@ -323,13 +323,13 @@ Send BURST to an account. POST only.
 
 **Example:** Refer to [Send Money](the-burst-api-examples-send-money.md) example.
 
-### Send Money Multi
+### Send Money Multi <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 
 Send individual amounts of BURST to up to 64 recipients. POST only.
 
 **Response:**
 
-**Example:**
+**Example: To do**
 
 ### Send Money Multi Same
 
@@ -337,7 +337,7 @@ Send the same amount of BURST to up to 128 recipients. POST only.
 
 **Response:**
 
-**Example:**
+**Example: To do**
 
 ### Set Account Info
 
