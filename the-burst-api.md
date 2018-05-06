@@ -238,86 +238,35 @@ Get the balance of an account.
 
 **Example:** Refer to [Get Balance](the-burst-api-examples-get-balance.md) example.
 
-### Get Guaranteed Balance
+### Get Guaranteed Balance <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 
 Get the balance of an account that is confirmed at least a specified number of times.
 
-**Request:**
-
--   *requestType* is *getGuaranteedBalance*
--   *account* is an account ID
--   *numberOfConfirmations* is the minimum number of confirmations for a transaction to be included in the guaranteed balance (optional, if omitted or zero then minimally confirmed transactions are included)
--   *requireBlock* is the block ID of a block that must be present in the blockchain during execution (optional)
--   *requireLastBlock* is the block ID of a block that must be last in the blockchain during execution (optional)
-
 **Response:**
-
--   *guaranteedBalanceNQT* (S) is the balance (in NQT) of the account with at least *numberOfConfirmations* confirmations
--   *lastBlock* (S) is the last block ID on the blockchain (applies if *requireBlock* is provided but not *requireLastBlock*)
--   *requestProcessingTime* (N) is the API request processing time (in millisec)
 
 **Example:** Refer to [Get Guaranteed Balance](the-burst-api-examples-get-guaranteed-balance.md) example.
 
-### Get Unconfirmed Transaction Ids
+### Get Unconfirmed Transaction Ids <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 
 Get a list of unconfirmed transaction IDs associated with an account.
 
 **Request:**
 
--   *requestType* is *getUnconfirmedTransactionIds*
--   *account* is one account ID (optional)
--   *account* is one account ID (optional)
-
-<!-- -->
-
--   *requireBlock* is the block ID of a block that must be present in the blockchain during execution (optional)
--   *requireLastBlock* is the block ID of a block that must be last in the blockchain during execution (optional)
--   *firstIndex* is a zero-based index to the first transaction ID to retrieve (optional)
--   *lastIndex* is a zero-based index to the last transaction ID to retrieve (optional)
-
 **Response:**
-
--   *unconfirmedTransactionIds* (A) is an array of unconfirmed transaction IDs
--   *lastBlock* (S) is the last block ID on the blockchain (applies if *requireBlock* is provided but not *requireLastBlock*)
--   *requestProcessingTime* (N) is the API request processing time (in millisec)
 
 **Example:** Refer to [Get Unconfirmed Transaction Ids](the-burst-api-examples-get-unconfirmed-transaction-ids.md) example.
 
-### Get Unconfirmed Transactions
+### Get Unconfirmed Transactions <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 
 Get a list of unconfirmed transactions associated with an account.
 
-**Request:**
-
--   *requestType* is *getUnconfirmedTransactions*
--   *account* is one account ID (optional)
--   *account* is one account ID (optional)
-
-<!-- -->
-
--   *requireBlock* is the block ID of a block that must be present in the blockchain during execution (optional)
--   *requireLastBlock* is the block ID of a block that must be last in the blockchain during execution (optional)
--   *firstIndex* is a zero-based index to the first unconfirmed transaction to retrieve (optional)
--   *lastIndex* is a zero-based index to the last unconfirmed transaction to retrieve (optional)
-
 **Response:**
-
--   *unconfirmedTransactions* (A) is an array of unconfirmed transactions (refer to [Get Transaction](the-burst-api-get-transaction.md) for details)
--   *lastBlock* (S) is the last block ID on the blockchain (applies if *requireBlock* is provided but not *requireLastBlock*)
--   *requestProcessingTime* (N) is the API request processing time (in millisec)
 
 **Example:** Refer to [Get Unconfirmed Transactions](the-burst-api-examples-get-unconfirmed-transactions.md) example.
 
-### Send Money
+### Send Money <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 
-Send BURST to an account. POST only.
-
-**Request:** Refer to [Create Transaction Request](the-burst-api-create-transaction-request.md) for common parameters.
-
--   *requestType* is *sendMoney*
--   *amountNQT* is the amount (in NQT) in the transaction
--   *recipient* is the account ID of the recipient
--   *recipientPublicKey* is the public key of the receiving account (optional, enhances security of a new account)
+Send BURST to an account. POST only. Refer to [Create Transaction Request](the-burst-api-create-transaction-request.md) for common parameters.
 
 **Response:** Refer to [Create Transaction Response](the-burst-api-create-transaction-response.md).
 
