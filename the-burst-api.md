@@ -114,22 +114,18 @@ The following API calls create Burst transactions using HTTP POST requests. Foll
 
 The following HTTP POST parameters are common to all API calls that create transactions:
 
--   *secretPhrase* is the secret passphrase of the account (optional, but transaction neither signed nor broadcast if omitted)
--   *publicKey* is the public key of the account (optional if *secretPhrase* provided)
--   *feeNQT* is the fee (in NQT) for the transaction:
-    -   minimum 1000 BURST for [Issue Asset](the-burst-api-issue-asset.md), unless singleton asset is issued, for which the fee is 1 BURST
-    -   2 BURST in base fee for [Set Alias](the-burst-api-set-alias.md), with 2 BURST additional fee for each 32 chars of name plus URI total length, after the first 32 chars
-    -   1 BURST for the first 32 bytes of a unencrypted non-prunable [message](the-burst-api-send-message.md), 1 BURST for each additional 32 bytes
-    -   2 BURST for the first 32 bytes of an encrypted non-prunable [message](the-burst-api-send-message.md), 1 BURST for each additional 32 bytes. The length is measured excluding the nonce and the 16 byte AES initialization vector.
-    -   1 BURST for the first 1024 bytes of a prunable [message](the-burst-api-send-message.md), 0.1 BURST for each additional 1024 prunable bytes
-    -   1 BURST for [Set Account Info](the-burst-api-set-account-info.md), including 32 chars, with 2 BURST additional fee for each 32 chars
-    -   2 BURST for [DGS Listing](the-burst-api-dgs-listing.md), including 32 chars of name plust description. With 2 BURST additional fee for each 32 chars.
-    -   1 BURST for [DGS Delivery](the-burst-api-dgs-delivery.md), including 32 bytes of encrypted goods data (AES initialization bytes and nonce excluded). With 2 BURST additional fee for each 32 bytes.
-    -   2 BURST for transactions that make use of referencedTransactionFullHash property when creating a new transaction.
-    -   Dynamic tx fee otherwise, where 1 BURST = 100000000 NQT
--   *deadline* is the deadline (in minutes) for the transaction to be confirmed, 32767 minutes maximum
--   *referencedTransactionFullHash* creates a chained transaction, meaning that the current transaction cannot be confirmed unless the referenced transaction is also confirmed (optional)
--   *broadcast* is set to *false* to prevent broadcasting the transaction to the network (optional)
+For `feeNQT`, please refer to the following “rules”:
+
+-   minimum 1000 BURST for [Issue Asset](the-burst-api-issue-asset.md), unless singleton asset is issued, for which the fee is 1 BURST
+-   2 BURST in base fee for [Set Alias](the-burst-api-set-alias.md), with 2 BURST additional fee for each 32 chars of name plus URI total length, after the first 32 chars
+-   1 BURST for the first 32 bytes of a unencrypted non-prunable [message](the-burst-api-send-message.md), 1 BURST for each additional 32 bytes
+-   2 BURST for the first 32 bytes of an encrypted non-prunable [message](the-burst-api-send-message.md), 1 BURST for each additional 32 bytes. The length is measured excluding the nonce and the 16 byte AES initialization vector.
+-   1 BURST for the first 1024 bytes of a prunable [message](the-burst-api-send-message.md), 0.1 BURST for each additional 1024 prunable bytes
+-   1 BURST for [Set Account Info](the-burst-api-set-account-info.md), including 32 chars, with 2 BURST additional fee for each 32 chars
+-   2 BURST for [DGS Listing](the-burst-api-dgs-listing.md), including 32 chars of name plust description. With 2 BURST additional fee for each 32 chars.
+-   1 BURST for [DGS Delivery](the-burst-api-dgs-delivery.md), including 32 bytes of encrypted goods data (AES initialization bytes and nonce excluded). With 2 BURST additional fee for each 32 bytes.
+-   2 BURST for transactions that make use of referencedTransactionFullHash property when creating a new transaction.
+-   Dynamic tx fee otherwise, where 1 BURST = 100000000 NQT
 
 | Tx no | Tx fees |
 |-------|---------|
@@ -145,15 +141,6 @@ The following HTTP POST parameters are common to all API calls that create trans
 ### Create Transaction Response <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 
 The following JSON response fields are common to all API calls that create transactions:
-
--   *signatureHash* (S) is a SHA-256 hash of the transaction signature
--   *unsignedTransactionBytes* (S) are the unsigned transaction bytes
--   *transactionJSON* (O) is a transaction object (refer to [Get Transaction](the-burst-api-get-transaction.md) for details)
--   *broadcasted* (B) is *true* if the transaction was broadcast, *false* otherwise
--   *requestProcessingTime* (N) is the API request processing time (in millisec)
--   *transactionBytes* (S) are the signed transaction bytes
--   *fullHash* (S) is the full hash of the signed transaction
--   *transaction* (S) is the ID of the newly created transaction
 
 Account Operations
 ------------------
@@ -266,31 +253,31 @@ Get a list of unconfirmed transactions associated with an account.
 
 ### Send Money <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 
-Send BURST to an account. POST only. **Refer to [Create Transaction Request](the-burst-api-create-transaction-request.md) for common parameters.**
+Send BURST to an account. POST only. Refer to [Create Transaction Request](the-burst-api-create-transaction-request.md) for common parameters.
 
-**Response:** Refer to [Create Transaction Response](the-burst-api-create-transaction-response.md).
+**Response:** **Refer to [Create Transaction Response](the-burst-api-create-transaction-response.md).**
 
 **Example:** Refer to [Send Money](the-burst-api-examples-send-money.md) example.
 
 ### Send Money Multi <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 
-Send individual amounts of BURST to up to 64 recipients. POST only.
+Send individual amounts of BURST to up to 64 recipients. POST only. Refer to [Create Transaction Request](the-burst-api-create-transaction-request.md) for common parameters.
 
-**Response:**
+**Response: Refer to [Create Transaction Response](the-burst-api-create-transaction-response.md).**
 
-**Example: To do**
+**Example:** To do
 
 ### Send Money Multi Same <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 
-Send the same amount of BURST to up to 128 recipients. POST only.
+Send the same amount of BURST to up to 128 recipients. POST only. Refer to [Create Transaction Request](the-burst-api-create-transaction-request.md) for common parameters.
 
-**Response:**
+**Response:** Refer to [Create Transaction Response](the-burst-api-create-transaction-response.md).
 
 **Example: To do**
 
 ### Set Account Info <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 
-Set account information. POST only. **Refer to [Create Transaction Request](the-burst-api-create-transaction-request.md) for common parameters.**
+Set account information. POST only. Refer to [Create Transaction Request](the-burst-api-create-transaction-request.md) for common parameters.
 
 **Response:** Refer to [Create Transaction Response](the-burst-api-create-transaction-response.md).
 
@@ -299,19 +286,9 @@ Set account information. POST only. **Refer to [Create Transaction Request](the-
 Alias Operations
 ----------------
 
-### Buy / Sell Alias
+### Buy / Sell Alias <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 
-Buy or sell an alias. POST only. **Refer to [Create Transaction Request](the-burst-api-create-transaction-request.md) for common parameters.**
-
-**Request:**
-
--   *requestType* is either *buyAlias* or *sellAlias*
--   *alias* is the ID of the alias (optional)
--   *aliasName* is the alias name (optional if *alias* provided)
--   *priceNQT* is the asking price (in NQT) of the alias (*sellAlias* only)
--   *amountNQT* is the amount (in NQT) offered for an alias for sale (*buyAlias* only)
--   *recipient* is the account ID of the recipient (only required for *sellAlias* and only if there is a designated recipient)
--   *recipientPublicKey* is the public key of the recipient account (only applicable if *recipient* provided; optional, enhances security of a new account)
+Buy or sell an alias. POST only. Refer to [Create Transaction Request](the-burst-api-create-transaction-request.md) for common parameters.
 
 **Note**: An alias can be transferred rather than sold by setting *priceNQT* to zero. A pending sale can be canceled by selling again to self for a price of zero.
 
@@ -319,23 +296,9 @@ Buy or sell an alias. POST only. **Refer to [Create Transaction Request](the-bur
 
 **Example:** Refer to [Buy / Sell Alias](the-burst-api-examples-buy---sell-alias.md) example.
 
-#### Buy Alias
+### Set Alias <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 
-Refer to [Buy / Sell Alias](the-burst-api-buy--2f-sell-alias.md).
-
-#### Sell Alias
-
-Refer to [Buy / Sell Alias](the-burst-api-buy--2f-sell-alias.md).
-
-### Set Alias
-
-Create and/or assign an alias. POST only.
-
-**Request:** Refer to [Create Transaction Request](the-burst-api-create-transaction-request.md) for common parameters.
-
--   *requestType* is *setAlias*
--   *aliasName* is the alias name
--   *aliasURI* is the alias URI (e.g. <http://www.google.com/>)
+Create and/or assign an alias. POST only. Refer to [Create Transaction Request](the-burst-api-create-transaction-request.md) for common parameters.
 
 **Response:** Refer to [Create Transaction Response](the-burst-api-create-transaction-response.md). The transaction ID is also the alias ID.
 
@@ -343,7 +306,7 @@ Create and/or assign an alias. POST only.
 
 ### Get Alias
 
-Get information about a given alias
+Get information about a given alias.
 
 **Request:**
 
