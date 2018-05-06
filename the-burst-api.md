@@ -255,7 +255,7 @@ Get a list of unconfirmed transactions associated with an account.
 
 Send BURST to an account. POST only. Refer to [Create Transaction Request](the-burst-api-create-transaction-request.md) for common parameters.
 
-**Response:** **Refer to [Create Transaction Response](the-burst-api-create-transaction-response.md).**
+**Response:** Refer to [Create Transaction Response](the-burst-api-create-transaction-response.md).
 
 **Example:** Refer to [Send Money](the-burst-api-examples-send-money.md) example.
 
@@ -263,7 +263,7 @@ Send BURST to an account. POST only. Refer to [Create Transaction Request](the-b
 
 Send individual amounts of BURST to up to 64 recipients. POST only. Refer to [Create Transaction Request](the-burst-api-create-transaction-request.md) for common parameters.
 
-**Response: Refer to [Create Transaction Response](the-burst-api-create-transaction-response.md).**
+**Response:** Refer to [Create Transaction Response](the-burst-api-create-transaction-response.md).
 
 **Example:** To do
 
@@ -304,52 +304,19 @@ Create and/or assign an alias. POST only. Refer to [Create Transaction Request](
 
 **Example:** Refer to [Set Alias](the-burst-api-examples-set-alias.md) example.
 
-### Get Alias
+### Get Alias <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 
 Get information about a given alias.
 
-**Request:**
-
--   *requestType* is *getAlias*
--   *alias* is the alias ID (optional)
--   *aliasName* is the name of the alias (optional if *alias* provided)
--   *requireBlock* is the block ID of a block that must be present in the blockchain during execution (optional)
--   *requireLastBlock* is the block ID of a block that must be last in the blockchain during execution (optional)
-
 **Response:**
-
--   *timestamp* (N) is the time (in seconds since the genesis block) when the alias was created or last transferred
--   *aliasName* (S) is the name of the alias
--   *account* (S) is the number of the account that owns the alias
--   *accountRS* (S) is the Reed-Solomon address of the account that owns the alias
--   *aliasURI* (S) is what the alias points to, in URI format
--   *alias* (S) is the alias ID
--   *priceNQT* (S) is the asking price (in NQT) of the alias if it is for sale
--   *buyer* (S) is the account number of the buyer if the alias is for sale and a buyer is specified
--   *lastBlock* (S) is the last block ID on the blockchain (applies if *requireBlock* is provided but not *requireLastBlock*)
--   *requestProcessingTime* (N) is the API request processing time (in millisec)
 
 **Example:** Refer to [Get Alias](the-burst-api-examples-get-alias.md) example.
 
-### Get Aliases
+### Get Aliases <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 
 Get information on aliases owned by a given account in alias name order.
 
-**Request:**
-
--   *requestType* is *getAliases*
--   *account* is the ID of the account that owns the aliases
--   *timestamp* is the earliest creation time (in seconds since the genesis block) of the aliases (optional)
--   *firstIndex* is a zero-based index to the first alias to retrieve (optional)
--   *lastIndex* is a zero-based index to the last alias to retrieve (optional)
--   *requireBlock* is the block ID of a block that must be present in the blockchain during execution (optional)
--   *requireLastBlock* is the block ID of a block that must be last in the blockchain during execution (optional)
-
 **Response:**
-
--   *aliases* (A) is an array of alias objects (refer to [Get Alias](the-burst-api-get-alias.md) for details)
--   *lastBlock* (S) is the last block ID on the blockchain (applies if *requireBlock* is provided but not *requireLastBlock*)
--   *requestProcessingTime* (N) is the API request processing time (in millisec)
 
 **Example:** Refer to [Get Aliases](the-burst-api-examples-get-aliases.md) example.
 
