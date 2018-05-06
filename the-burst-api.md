@@ -266,7 +266,7 @@ Get a list of unconfirmed transactions associated with an account.
 
 ### Send Money <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 
-Send BURST to an account. POST only. Refer to [Create Transaction Request](the-burst-api-create-transaction-request.md) for common parameters.
+Send BURST to an account. POST only. **Refer to [Create Transaction Request](the-burst-api-create-transaction-request.md) for common parameters.**
 
 **Response:** Refer to [Create Transaction Response](the-burst-api-create-transaction-response.md).
 
@@ -280,7 +280,7 @@ Send individual amounts of BURST to up to 64 recipients. POST only.
 
 **Example: To do**
 
-### Send Money Multi Same
+### Send Money Multi Same <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 
 Send the same amount of BURST to up to 128 recipients. POST only.
 
@@ -288,17 +288,9 @@ Send the same amount of BURST to up to 128 recipients. POST only.
 
 **Example: To do**
 
-### Set Account Info
+### Set Account Info <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 
-Set account information. POST only.
-
-**Request:** Refer to [Create Transaction Request](the-burst-api-create-transaction-request.md) for common parameters.
-
--   *requestType* is *setAccountInfo*
--   *name* is a name to associate with the account (optional)
--   *description* is a description to associate with the account (optional)
--   *messagePatternRegex* is a regular expression pattern following the java.util.regex.Pattern specification; incoming transactions are only accepted if they contain a plain text message which matches this pattern (disabled indefinitely due to a security issue)
--   *messagePatternFlags* is a bitmask of java.util.regex.Pattern flags, such as 2 (Pattern.CASE\_INSENSITIVE)
+Set account information. POST only. **Refer to [Create Transaction Request](the-burst-api-create-transaction-request.md) for common parameters.**
 
 **Response:** Refer to [Create Transaction Response](the-burst-api-create-transaction-response.md).
 
@@ -309,9 +301,9 @@ Alias Operations
 
 ### Buy / Sell Alias
 
-Buy or sell an alias. POST only.
+Buy or sell an alias. POST only. **Refer to [Create Transaction Request](the-burst-api-create-transaction-request.md) for common parameters.**
 
-**Request:** Refer to [Create Transaction Request](the-burst-api-create-transaction-request.md) for common parameters.
+**Request:**
 
 -   *requestType* is either *buyAlias* or *sellAlias*
 -   *alias* is the ID of the alias (optional)
