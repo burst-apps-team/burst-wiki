@@ -6,11 +6,9 @@ The Burst ecosystem uses lots of software. Each of these softwares are used eith
 Wallets
 -------
 
-### QBundle <img src="Stable.png" title="fig:Stable.png" alt="Stable.png" width="75" height="75" /> <img src="Local.png" title="fig:Local.png" alt="Local.png" width="75" height="75" /> <img src="Dymaxion_compatible.png" title="fig:Dymaxion_compatible.png" alt="Dymaxion_compatible.png" width="135" height="135" /> <img src="PoC_1.png" title="fig:PoC_1.png" alt="PoC_1.png" width="75" height="75" /> <img src="PoC_2.png" title="fig:PoC_2.png" alt="PoC_2.png" width="75" height="75" />
+### [QBundle](qbundle.md) <img src="Stable.png" title="fig:Stable.png" alt="Stable.png" width="75" height="75" /> <img src="Local.png" title="fig:Local.png" alt="Local.png" width="75" height="75" /> <img src="Dymaxion_compatible.png" title="fig:Dymaxion_compatible.png" alt="Dymaxion_compatible.png" width="135" height="135" /> <img src="PoC_1.png" title="fig:PoC_1.png" alt="PoC_1.png" width="75" height="75" /> <img src="PoC_2.png" title="fig:PoC_2.png" alt="PoC_2.png" width="75" height="75" />
 
 The easiest choice for beginners on Windows is to download Qbundle, a launcher allowing you to install the Burst local wallet in a few clicks. If you are a first timer you can simply follow the wizard walking you through the set up. Qbundle also includes plotting and mining software to start mining easily. You can find a download link below or on your right.
-
-You can find a detail explanation on how to install QBundle, set it up, and use it here.
 
 Download link : https://github.com/PoC-Consortium/Qbundle/releases/tag/v2.0.2
 
