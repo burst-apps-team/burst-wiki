@@ -165,10 +165,27 @@ This is the launcher mode:
 
 <img src="Launcher_mode_2.png" title="Launcher_mode_2.png" alt="Launcher_mode_2.png" width="586" height="586" />
 
-Edit Tab
---------
+The wallet
+----------
 
-### Console
+Here's the connection screen:
+
+<img src="Login.png" title="Login.png" alt="Login.png" width="532" height="532" />
+
+When you creating a new account using “New? Create Your Account!”, the wallet will provide you a 12 words automatically generated passphrase that you will need to write on a paper or to memorize.
+
+<img src="Automatically_Generated_Passphrase.png" title="Automatically_Generated_Passphrase.png" alt="Automatically_Generated_Passphrase.png" width="506" height="506" />
+
+Finally, here's the look of the QBundle and Burst Wallet:
+
+<img src="Burst_Wallet.png" title="Burst_Wallet.png" alt="Burst_Wallet.png" width="1919" height="1919" />
+
+Additional Information
+----------------------
+
+### Edit Tab
+
+#### Console
 
 View Console will provide a pop up window with the Wallet log and MariaDB log (if set up) this is useful for troubleshooting and the output from the console is often asked for. 
 
@@ -176,7 +193,7 @@ View Console will provide a pop up window with the Wallet log and MariaDB log (i
 
 <img src="Console.png" title="Console.png" alt="Console.png" width="766" height="766" />
 
-### Settings
+#### Settings
 
 If you have OpenCL correctly installed, Using GPU Acceleration will greatly improve performance.
 
@@ -188,14 +205,13 @@ For troubleshooting the ‘Debug mode’ option can be useful. 
 
 <img src="General_Settings.png" title="General_Settings.png" alt="General_Settings.png" width="860" height="860" />
 
-### Configure Firewall
+#### Configure Firewall
 
 If you click ‘configure firewall’ it will give you an option requesting confirmation that you wish to change the windows firewall to allow access locally and over the WAN to the program on this computer.
 
 <img src="Windows_firewall.png" title="Windows_firewall.png" alt="Windows_firewall.png" width="404" height="404" />
 
-Account Manager Tab
--------------------
+### Account Manager Tab
 
 The account manager allows you to manage multiple accounts, and generate short ‘PIN’ numbers for each.
 
@@ -209,10 +225,9 @@ Finally, your passphrase and your private key are available (you will only need 
 
 <img src="Account_Manager.png" title="Account_Manager.png" alt="Account_Manager.png" width="802" height="802" />
 
-Wallet Tab
-----------
+### Wallet Tab
 
-### Windows Service
+#### Windows Service
 
 <img src="Windows_Service.png" title="Windows_Service.png" alt="Windows_Service.png" width="603" height="603" />
 
@@ -220,7 +235,7 @@ Stop wallet will stop the wallet in the background.
 
 Install as Service will allow for the automatic startup of the wallet, even before logon to windows (acting as a service)  this is currently only available when running H2 Database. 
 
-### Rollback chain (popoff)
+#### Rollback chain (popoff)
 
 Advanced provides an important option for wallet issues: Rollback chain
 
@@ -230,10 +245,9 @@ If you experience a wallet start issue, or an incomplete synch, it’s suggested
 
 <img src="Rollback_Chain.png" title="Rollback_Chain.png" alt="Rollback_Chain.png" width="450" height="450" />
 
-Database Tab
-------------
+### Database Tab
 
-### Change database
+#### Change database
 
 Changing database allows for the migration of databases, this is an advanced option. 
 
@@ -253,61 +267,44 @@ Currently MariaDB will not allow the movement of data from H2 database, but in t
 
 <img src="Transition_Database.png" title="Transition_Database.png" alt="Transition_Database.png" width="485" height="485" />
 
-Tools Tab
----------
+### Tools Tab
 
 The tool tab provides a lot of tools that could be very helpful.
 
 <img src="Tools.png" title="Tools.png" alt="Tools.png" width="660" height="660" />
 
-### Plotter
+#### Plotter
 
 [XPlotter](xplotter.md) by Blago is integrated in QBundle and lets you plot your HDD using your CPU.
 
 <img src="Plotter.png" title="Plotter.png" alt="Plotter.png" width="662" height="662" />
 
-### Dynamic Plotting
+#### Dynamic Plotting
 
 Dynamic plotting is a feature that will add and remove plots depending on free space in the drive.
 
 <img src="Dynamic_Plotting.png" title="Dynamic_Plotting.png" alt="Dynamic_Plotting.png" width="651" height="651" />
 
-### Miner
+#### Miner
 
 [Blagominer](blagominer.md) is integrated in QBundle and lets you mine plots in your HDD using your CPU.
 
 <img src="Miner.png" title="Miner.png" alt="Miner.png" width="671" height="671" />
 
-### Set Reward Recipient
+#### Set Reward Recipient
 
 You can set the reward recipient of your account here. It is commonly used when you plan to mine in a pool and you have to set the pool as the reward recipient of your mining.
 
 <img src="Reward_Recipient.png" title="Reward_Recipient.png" alt="Reward_Recipient.png" width="424" height="424" />
 
-### Vanity Address Generator
+#### Vanity Address Generator
 
 This tool allow you to generate your own Reed-Solomon address.
 
 <img src="Vanity_Address_Generator.png" title="Vanity_Address_Generator.png" alt="Vanity_Address_Generator.png" width="653" height="653" />
 
-About Tab
----------
+### About Tab
 
 You will find the contributors and developer of QBundle in this tab.
 
 <img src="About.png" title="About.png" alt="About.png" width="637" height="637" />
-
-The wallet
-----------
-
-Here's the connection screen:
-
-<img src="Login.png" title="Login.png" alt="Login.png" width="532" height="532" />
-
-When you creating a new account using “New? Create Your Account!”, the wallet will provide you a 12 words automatically generated passphrase that you will need to write on a paper or to memorize.
-
-<img src="Automatically_Generated_Passphrase.png" title="Automatically_Generated_Passphrase.png" alt="Automatically_Generated_Passphrase.png" width="506" height="506" />
-
-Finally, here's the look of the QBundle and Burst Wallet:
-
-<img src="Burst_Wallet.png" title="Burst_Wallet.png" alt="Burst_Wallet.png" width="1919" height="1919" />
