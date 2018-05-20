@@ -205,7 +205,7 @@ Account Manager is accessible here:
 
 You can easily manage all you BURST accounts with this software. It provides the Reed-Solomon address and the numeric accound number of you Burst Wallet. You can also see the Public Key.
 
-Finally, your passphrase and your private key are available (you will only need to set up
+Finally, your passphrase and your private key are available (you will only need to set up one pin to control many accounts)
 
 <img src="Account_Manager.png" title="Account_Manager.png" alt="Account_Manager.png" width="802" height="802" />
 
