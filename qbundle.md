@@ -75,10 +75,10 @@ The wallet will start but you will need to enable access:
 
 Enable for ‘Private networks’ and ‘Allow access’
 
-Bootstrap Chain
----------------
+Bootstrap Chain / Import Blockchain
+-----------------------------------
 
-You now have a working wallet, which will synch from ‘Genesis’
+You now have a working wallet, which will synch from ‘Genesis’.
 
 This will take some time, so I would advise we ‘bootstrap’ the installation. 
 
@@ -125,27 +125,167 @@ Congratulations, you now have a fully synchronised wallet, running on the H2 dat
 Updating softwares
 ------------------
 
+All softwares included in QBundle can be updated using ‘Check for updates’.
+
 This installation has an available update, notified by the ‘New update available’ at the top of the wallet. If you click on this, it will list the components that are available for download.
 
-Click ‘Download updates’ 
+Click ‘Download updates’: 
 
 <img src="Download_Updates.png" title="Download_Updates.png" alt="Download_Updates.png" width="869" height="869" />
 
+Click ‘yes’ to stop the wallet:
+
 <img src="Check_for_updates.png" title="Check_for_updates.png" alt="Check_for_updates.png" width="579" height="579" />
 
-Click ‘yes’ to stop the wallet
+When complete click ‘close’:
 
 <img src="Check_for_updates_2.png" title="Check_for_updates_2.png" alt="Check_for_updates_2.png" width="567" height="567" />
 
-When complete click ‘close’
-
 If the wallet is not running, start the wallet by selecting ‘Wallet’ and ‘Start wallet’ 
 
-<img src="Start_Wallet.png" title="Start_Wallet.png" alt="Start_Wallet.png" width="466" height="466" />
+<img src="Start_Wallet.png" title="fig:Start_Wallet.png" alt="Start_Wallet.png" width="466" height="466" /> 
 
-Now, you have an upgraded QBundle! 
+Now, you have an upgraded QBundle: 
 
 <img src="Download_Updates_2.png" title="Download_Updates_2.png" alt="Download_Updates_2.png" width="723" height="723" />
 
-Menu Guide
+Wallet Mode
+-----------
+
+In “File/Mode”, you can either choose Wallet Mode or Launcher Mode. The Wallet Mode lets you to use Burst Wallet within QBundle and launcher mode allows you to access Burst wallet only through your browser.
+
+<img src="Menu_List.png" title="Menu_List.png" alt="Menu_List.png" width="641" height="641" />
+
+This is the launcher mode:
+
+<img src="Launcher_mode_2.png" title="Launcher_mode_2.png" alt="Launcher_mode_2.png" width="586" height="586" />
+
+Edit Tab
+--------
+
+### Console
+
+View Console will provide a pop up window with the Wallet log and MariaDB log (if set up) this is useful for troubleshooting and the output from the console is often asked for. 
+
+<img src="View_console.png" title="View_console.png" alt="View_console.png" width="605" height="605" />
+
+<img src="Console.png" title="Console.png" alt="Console.png" width="766" height="766" />
+
+### Settings
+
+If you have OpenCL correctly installed, Using GPU Acceleration will greatly improve performance.
+
+To allow external access to the wallet (so you can use it on the go) add 0.0.0.0 to the ‘Allow API traffic from’ list 
+
+<img src="Local_Wallet_Settings.png" title="Local_Wallet_Settings.png" alt="Local_Wallet_Settings.png" width="858" height="858" />
+
+For troubleshooting the ‘Debug mode’ option can be useful. 
+
+<img src="General_Settings.png" title="General_Settings.png" alt="General_Settings.png" width="860" height="860" />
+
+### Configure Firewall
+
+If you click ‘configure firewall’ it will give you an option requesting confirmation that you wish to change the windows firewall to allow access locally and over the WAN to the program on this computer.
+
+<img src="Windows_firewall.png" title="Windows_firewall.png" alt="Windows_firewall.png" width="404" height="404" />
+
+Account Manager Tab
+-------------------
+
+The account manager allows you to manage multiple accounts, and generate short ‘PIN’ numbers for each.
+
+Account Manager is accessible here:
+
+<img src="Login_Account.png" title="Login_Account.png" alt="Login_Account.png" width="613" height="613" />
+
+You can easily manage all you BURST accounts with this software. It provides the Reed-Solomon address and the numeric accound number of you Burst Wallet. You can also see the Public Key.
+
+Finally, your passphrase and your private key are available (you will only need to set up
+
+<img src="Account_Manager.png" title="Account_Manager.png" alt="Account_Manager.png" width="802" height="802" />
+
+Wallet Tab
 ----------
+
+### Windows Service
+
+<img src="Windows_Service.png" title="Windows_Service.png" alt="Windows_Service.png" width="603" height="603" />
+
+Stop wallet will stop the wallet in the background.
+
+Install as Service will allow for the automatic startup of the wallet, even before logon to windows (acting as a service)  this is currently only available when running H2 Database. 
+
+### Rollback chain (popoff)
+
+Advanced provides an important option for wallet issues: Rollback chain
+
+<img src="Popoff.png" title="Popoff.png" alt="Popoff.png" width="645" height="645" />
+
+If you experience a wallet start issue, or an incomplete synch, it’s suggested to pop off 1000 block and allow to re-synch. The maximum blocks that should be popped off is 1400, 
+
+<img src="Rollback_Chain.png" title="Rollback_Chain.png" alt="Rollback_Chain.png" width="450" height="450" />
+
+Database Tab
+------------
+
+### Change database
+
+Changing database allows for the migration of databases, this is an advanced option. 
+
+<img src="Change_Database.png" title="Change_Database.png" alt="Change_Database.png" width="504" height="504" />
+
+If MariaDB is selected, it will install a portable copy, and set up
+
+<img src="MariaDB_DL.png" title="MariaDB_DL.png" alt="MariaDB_DL.png" width="788" height="788" />
+
+This may take a while
+
+<img src="Download_MariaDB.png" title="Download_MariaDB.png" alt="Download_MariaDB.png" width="480" height="480" />
+
+Currently MariaDB will not allow the movement of data from H2 database, but in the future it will be possible to migrate the data within a synchronised database. 
+
+<img src="Transition_Database.png" title="Transition_Database.png" alt="Transition_Database.png" width="485" height="485" />
+
+Tools Tab
+---------
+
+The tool tab provides a lot of tools that could be very helpful.
+
+<img src="Tools.png" title="Tools.png" alt="Tools.png" width="660" height="660" />
+
+### Plotter
+
+<img src="Plotter.png" title="Plotter.png" alt="Plotter.png" width="662" height="662" />
+
+### Dynamic Plotting
+
+<img src="Dynamic_Plotting.png" title="Dynamic_Plotting.png" alt="Dynamic_Plotting.png" width="651" height="651" />
+
+### Miner
+
+<img src="Miner.png" title="Miner.png" alt="Miner.png" width="671" height="671" />
+
+### Set Reward Recipient
+
+<img src="Reward_Recipient.png" title="Reward_Recipient.png" alt="Reward_Recipient.png" width="424" height="424" />
+
+### Vanity Address Generator
+
+<img src="Vanity_Address_Generator.png" title="Vanity_Address_Generator.png" alt="Vanity_Address_Generator.png" width="653" height="653" />
+
+<img src="About.png" title="About.png" alt="About.png" width="637" height="637" />
+
+The wallet
+----------
+
+Here's the connection screen:
+
+<img src="Login.png" title="Login.png" alt="Login.png" width="532" height="532" />
+
+When you creating a new account using “New? Create Your Account!”, the wallet will provide you a 12 words automatically generated passphrase that you will need to write on a paper or to memorize.
+
+<img src="Automatically_Generated_Passphrase.png" title="Automatically_Generated_Passphrase.png" alt="Automatically_Generated_Passphrase.png" width="506" height="506" />
+
+Finally, here's the look of the QBundle and Burst Wallet:
+
+<img src="Burst_Wallet.png" title="Burst_Wallet.png" alt="Burst_Wallet.png" width="1919" height="1919" />
