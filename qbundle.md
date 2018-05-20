@@ -237,6 +237,8 @@ Database Tab
 
 Changing database allows for the migration of databases, this is an advanced option. 
 
+<img src="Bootstrap.png" title="fig:Bootstrap.png" alt="Bootstrap.png" width="465" height="465" /> 
+
 <img src="Change_Database.png" title="Change_Database.png" alt="Change_Database.png" width="504" height="504" />
 
 If MariaDB is selected, it will install a portable copy, and set up
@@ -260,23 +262,38 @@ The tool tab provides a lot of tools that could be very helpful.
 
 ### Plotter
 
+[XPlotter](xplotter.md) by Blago is integrated in QBundle and lets you plot your HDD using your CPU.
+
 <img src="Plotter.png" title="Plotter.png" alt="Plotter.png" width="662" height="662" />
 
 ### Dynamic Plotting
+
+Dynamic plotting is a feature that will add and remove plots depending on free space in the drive.
 
 <img src="Dynamic_Plotting.png" title="Dynamic_Plotting.png" alt="Dynamic_Plotting.png" width="651" height="651" />
 
 ### Miner
 
+[Blagominer](blagominer.md) is integrated in QBundle and lets you mine plots in your HDD using your CPU.
+
 <img src="Miner.png" title="Miner.png" alt="Miner.png" width="671" height="671" />
 
 ### Set Reward Recipient
+
+You can set the reward recipient of your account here. It is commonly used when you plan to mine in a pool and you have to set the pool as the reward recipient of your mining.
 
 <img src="Reward_Recipient.png" title="Reward_Recipient.png" alt="Reward_Recipient.png" width="424" height="424" />
 
 ### Vanity Address Generator
 
+This tool allow you to generate your own Reed-Solomon address.
+
 <img src="Vanity_Address_Generator.png" title="Vanity_Address_Generator.png" alt="Vanity_Address_Generator.png" width="653" height="653" />
+
+About Tab
+---------
+
+You will find the contributors and developer of QBundle in this tab.
 
 <img src="About.png" title="About.png" alt="About.png" width="637" height="637" />
 
