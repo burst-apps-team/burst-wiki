@@ -1,3 +1,8 @@
+| QBundle     |
+|-------------|
+| **Status**  |
+| **Credits** |
+
 Description
 -----------
 
