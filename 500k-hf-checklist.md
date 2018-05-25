@@ -31,6 +31,16 @@ It is assumed you know what PoC1 and PoC2 is, how they differ, what optimized pl
 -   As long as no private key is lost, no funds are lost.
 -   We will make no recommendation if you should sell before the HF and buy afterwards. PoCC members will simply hodl.
 
+### For Pool Operators
+
+-   Make sure your pool and your back-end wallet(s) can switch to PoC2 mining at block height 502 000. (The BRS 2.2.0 wallet can do this, as can the PoCC pool software)
+-   You might want to have a look at Multi-Out payments, because they are ideal to perform payouts to your miners after the 500 000 hard fork.
+
+### For Exchanges
+
+-   Update to BRS 2.0.4 **now** - if you use anything older you risk complications for your users as well as security issues.
+-   Upgrade to BRS 2.2.0 when released, the upgrade path from 2.0.4 to 2.2.0 should be a fairly easy one
+
 ### For Developers
 
 -   Wallet API remains the same, there are two new API calls: `sendMoneyMulti` and `sendMoneyMultiSame` which you might want to use for your services - if applicable. They are especially useful for Pools, Exchanges and Faucets.
