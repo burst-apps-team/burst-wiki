@@ -8,12 +8,12 @@ It is assumed you know what PoC1 and PoC2 is, how they differ, what optimized pl
 ### What To Do \*\*Now\*\*? (Everyone)
 
 -   Make sure you have a current version of the BRS 2.0.x wallet, probably 2.0.4
--   You do **not** want to have a BRS 2.1.x version, except you are a developer and/ore are testing on TestNet
+-   You do **not** want to have a BRS 2.1.x version, except you are a developer and/or are testing on TestNet
 -   Make sure you shut down all instances of pre-2.0 wallets, especially 1.2.9 or 1.3.6cg. These are **obsolete**.
 
 ### What To Do When BRS 2.2.0 is released? (Everyone)
 
--   Update to BRS 2.2.0 - obviously. Should be easy if you are already running BRS 2.0.4.
+-   Update to BRS 2.2.0 - obviously. Easy update path if you are already running BRS 2.0.4.
 -   Never panic. There is nothing in the upcoming HF that would make you lose your funds. Worst case if you use the wrong wallet: Your funds may be temporarily inacessible.
 
 ### For Miners
