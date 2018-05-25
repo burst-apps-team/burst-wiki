@@ -22,6 +22,7 @@ It is assumed you know what PoC1 and PoC2 is, how they differ, what optimized pl
 -   Get a PoC1 to PoC2 converter
 -   Newest jminer is allegedly capable of mining PoC2 files before the PoC2 switch and also PoC1 files after the PoC2 switch. This is probably the best software to avoid **any** mining downtime.
 -   However, PoC2 plots **before** the switch will give you only 50% read speed (with jminer, nonfunctional with anything else), so will PoC1 plots **after** the switch. You want to find a good strategy when to convert which of your plots for maximum performance.
+-   read below the “PoC2 Switch @ 502k”
 
 ### For Hodlers/Investors
 
