@@ -47,6 +47,8 @@
 </div>
 \*[The Burst API](the-burst-api.md)
 
+-   -   [The Burst API Examples](the-burst-api-examples.md)
+
 -   [Burst Blockchain Tutorial](burst-blockchain-tutorial.md)
 -   [Reed-Solomon (RS) Address Format](rs-address-format.md)
 -   [QR Codes for RS Address Format](qr-codes-for-rs-address-format.md)
