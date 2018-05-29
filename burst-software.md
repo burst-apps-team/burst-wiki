@@ -99,3 +99,18 @@ Pool Software 
 GoBurstPool is the all-new PoCC pool software written in GO. It provides SSE4 + AVX2 support, fair share system based on estimated capacity, grpc api, multiple wallets as backends using the wallet API, can talk directly to wallet database, and finaly dynamic payout thresholds/intervals based on messages on the blockchain.
 
 Download link : <https://github.com/PoC-Consortium/goburstpool>
+
+Other tools
+-----------
+
+### TurboSwizzler <img src="UnderReviewW.png" title="fig:UnderReviewW.png" alt="UnderReviewW.png" width="150" height="150" /><img src="POC1W.png" title="fig:POC1W.png" alt="POC1W.png" width="150" height="150" /><img src="POC2W.png" title="fig:POC2W.png" alt="POC2W.png" width="150" height="150" />
+
+TurboSwizzler is a PoC1-&gt;PoC2 format. Currently supports drive to drive mode with plot merging.
+
+Download link : <https://blackpawn.com/tp/>
+
+### Poc1to2Converter <img src="StableW.png" title="fig:StableW.png" alt="StableW.png" width="150" height="150" /><img src="POC1W.png" title="fig:POC1W.png" alt="POC1W.png" width="150" height="150" /><img src="POC2W.png" title="fig:POC2W.png" alt="POC2W.png" width="150" height="150" />
+
+Poc1to2Converter converts PoC1 plots to POC2 plots in Windows.
+
+Download link : <https://github.com/JohnnyFFM/Poc1to2Converter/releases>
