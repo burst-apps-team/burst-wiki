@@ -25,6 +25,16 @@ The easiest choice for beginners on Windows is to download Qbundle, a launcher a
 
 **Download link** : <https://github.com/PoC-Consortium/Qbundle/releases/latest>
 
+### Burst Reference Software (BRS)
+
+<img src="StableW.png" title="fig:StableW.png" alt="StableW.png" width="150" height="150" /><img src="LocalW.png" title="fig:LocalW.png" alt="LocalW.png" width="150" height="150" /><img src="DymaxionCW.png" title="fig:DymaxionCW.png" alt="DymaxionCW.png" width="150" height="150" />
+
+The Burst Reference Software is the wallet/software itself behind QBundle. This wallet version is developed and maintained by the PoC consortium (PoCC) and supports a multitude of database backends.
+
+**Main Dev** : PoC-Consortium
+
+**Download link** : <https://github.com/PoC-Consortium/burstcoin/releases/latest>
+
 ### Burstcoin mobile wallet
 
 <img src="StableW.png" title="fig:StableW.png" alt="StableW.png" width="150" height="150" /><img src="OnlineW.png" title="fig:OnlineW.png" alt="OnlineW.png" width="150" height="150" /><img src="DymaxionCW.png" title="fig:DymaxionCW.png" alt="DymaxionCW.png" width="150" height="150" />
