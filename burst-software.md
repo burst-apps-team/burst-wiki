@@ -19,7 +19,9 @@ Wallets
 
 The easiest choice for beginners on Windows is to download Qbundle, a launcher allowing you to install the Burst local wallet in a few clicks. If you are a first timer you can simply follow the wizard walking you through the set up. Qbundle also includes plotting and mining software to start mining easily. You can find a download link below or on your right.
 
-Download link : https://github.com/PoC-Consortium/Qbundle/releases/latest
+**Main Dev** : PoC-Consortium
+
+**Download link** : <https://github.com/PoC-Consortium/Qbundle/releases/latest>
 
 ### Burstcoin mobile wallet <img src="StableW.png" title="fig:StableW.png" alt="StableW.png" width="150" height="150" /><img src="OnlineW.png" title="fig:OnlineW.png" alt="OnlineW.png" width="150" height="150" /><img src="DymaxionCW.png" title="fig:DymaxionCW.png" alt="DymaxionCW.png" width="150" height="150" />
 
@@ -35,7 +37,9 @@ The mobile wallet for Android and iOS which provides the following features :
 -   Support for over 15 languages
 -   Support for over 30 currencies
 
-Download link : https://play.google.com/store/apps/details?id=org.icewave.burstcoinwallet
+**Main Dev** : PoC-Consortium
+
+**Download link** : https://play.google.com/store/apps/details?id=org.icewave.burstcoinwallet
 
 Plotting Softwares
 ------------------
@@ -46,13 +50,17 @@ There are several plotting softwares that are designed for specific needs and sp
 
 XPlotter is the default plotter that comes with QBundle and provides CPU PoC 1 plotting for BURST whith AVX support.
 
-Download link : https://github.com/Blagodarenko/XPlotter/releases/latest
+**Main Dev** : Blagodarenko
+
+**Download link** : https://github.com/Blagodarenko/XPlotter/releases/latest
 
 ### TurboPlotter 9000 <img src="StableW.png" title="fig:StableW.png" alt="StableW.png" width="150" height="150" /><img src="DymaxionCW.png" title="fig:DymaxionCW.png" alt="DymaxionCW.png" width="150" height="150" /><img src="POC1W.png" title="fig:POC1W.png" alt="POC1W.png" width="150" height="150" /><img src="POC2W.png" title="fig:POC2W.png" alt="POC2W.png" width="150" height="150" />
 
 TurboPlotter 9000 is a CPU/GPU PoC 1 + PoC 2 plotter and plot integrity checker.
 
-Download link : https://blackpawn.com/tp/
+**Main Dev** : Blackpawn
+
+**Download link** : https://blackpawn.com/tp/
 
 ### CG\_OBUP <img src="StableW.png" title="fig:StableW.png" alt="StableW.png" width="150" height="150" /><img src="DymaxionUW.png" title="fig:DymaxionUW.png" alt="DymaxionUW.png" width="170" height="170" /><img src="POC1W.png" title="fig:POC1W.png" alt="POC1W.png" width="150" height="150" />
 
@@ -60,13 +68,17 @@ The CryptoGuru Optimized BURSTcoin Plotter is a BURST plotter that generates opt
 
 It is intended to work on any UNIX system
 
-Download link : https://github.com/PoC-Consortium/cg\_obup
+**Main Dev** : PoC-Consortium
+
+**Download link** : https://github.com/PoC-Consortium/cg\_obup/
 
 ### gpuPlotGenerator <img src="StableW.png" title="fig:StableW.png" alt="StableW.png" width="150" height="150" /><img src="DymaxionUW.png" title="fig:DymaxionUW.png" alt="DymaxionUW.png" width="170" height="170" /><img src="POC1W.png" title="fig:POC1W.png" alt="POC1W.png" width="150" height="150" />
 
 gpuPlotGenerator is a GPU PoC 1 plotter.
 
-Download link : https://github.com/bhamon/gpuPlotGenerator/releases/latest
+**Main Dev** : bhamon
+
+**Download link** : https://github.com/bhamon/gpuPlotGenerator/releases/latest
 
 Mining Softwares
 ----------------
@@ -77,19 +89,33 @@ The following softwares are used to mine plot files.
 
 Blagominer is the default miner that comes with QBundle. It does support AVX/AVX2.
 
-Download link : https://github.com/Blagodarenko/miner-burst/releases/latest
+**Main Dev** : Blagodarenko
+
+**Download link** : https://github.com/Blagodarenko/miner-burst/releases/latest
+
+### Blagominer modded <img src="StableW.png" title="fig:StableW.png" alt="StableW.png" width="150" height="150" /><img src="DymaxionCW.png" title="fig:DymaxionCW.png" alt="DymaxionCW.png" width="150" height="150" /><img src="POC1W.png" title="fig:POC1W.png" alt="POC1W.png" width="150" height="150" /><img src="POC2W.png" title="fig:POC2W.png" alt="POC2W.png" width="150" height="150" />
+
+This is a modded Blagominer by modding a modded version from Quibus.
+
+**Main Dev** : JohnnyFFM
+
+**Download link** : <https://github.com/JohnnyFFM/miner-burst/releases/latest>
 
 ### Burstcoin-jminer <img src="StableW.png" title="fig:StableW.png" alt="StableW.png" width="150" height="150" /><img src="DymaxionCW.png" title="fig:DymaxionCW.png" alt="DymaxionCW.png" width="150" height="150" /><img src="POC1W.png" title="fig:POC1W.png" alt="POC1W.png" width="150" height="150" /><img src="POC2W.png" title="fig:POC2W.png" alt="POC2W.png" width="150" height="150" />
 
 Burstcoin-jminer is a GPU assisted Proof of Capacity (PoC) Miner for Burstcoin.
 
-Download link : <https://github.com/de-luxe/burstcoin-jminer/releases/latest>
+**Main Dev** : de-luxe
+
+**Download link** : <https://github.com/de-luxe/burstcoin-jminer/releases/latest>
 
 ### CreepMiner  <img src="StableW.png" title="fig:StableW.png" alt="StableW.png" width="150" height="150" /><img src="DymaxionUW.png" title="fig:DymaxionUW.png" alt="DymaxionUW.png" width="170" height="170" /><img src="POC1W.png" title="fig:POC1W.png" alt="POC1W.png" width="150" height="150" />
 
 The creepMiner is a client application for mining Burst on a pool or solo. It does support CPU mining (SSE2/SSE4/AVX/AVX2) or GPU mining (OpenCL, CUDA).
 
-Download link : https://github.com/Creepsky/creepMiner/releases/latest
+**Main Dev** : Creepsky
+
+**Download link** : https://github.com/Creepsky/creepMiner/releases/latest
 
 Pool Software 
 --------------
@@ -98,7 +124,9 @@ Pool Software 
 
 GoBurstPool is the all-new PoCC pool software written in GO. It provides SSE4 + AVX2 support, fair share system based on estimated capacity, grpc api, multiple wallets as backends using the wallet API, can talk directly to wallet database, and finaly dynamic payout thresholds/intervals based on messages on the blockchain.
 
-Download link : <https://github.com/PoC-Consortium/goburstpool>
+**Main Dev** : PoC-Consortium
+
+**Download link** : <https://github.com/PoC-Consortium/goburstpool>
 
 Other tools
 -----------
@@ -107,10 +135,14 @@ Other tools
 
 TurboSwizzler is a PoC1-&gt;PoC2 format. Currently supports drive to drive mode with plot merging.
 
-Download link : <https://blackpawn.com/tp/>
+**Main Dev** : Blackpawn
+
+**Download link** : <https://blackpawn.com/tp/>
 
 ### Poc1to2Converter <img src="StableW.png" title="fig:StableW.png" alt="StableW.png" width="150" height="150" /><img src="POC1W.png" title="fig:POC1W.png" alt="POC1W.png" width="150" height="150" /><img src="POC2W.png" title="fig:POC2W.png" alt="POC2W.png" width="150" height="150" />
 
 Poc1to2Converter converts PoC1 plots to POC2 plots in Windows.
 
-Download link : <https://github.com/JohnnyFFM/Poc1to2Converter/releases/latest>
+**Main Dev** : JohnnyFFM
+
+**Download link** : <https://github.com/JohnnyFFM/Poc1to2Converter/releases/latest>
