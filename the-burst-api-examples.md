@@ -4,12 +4,16 @@
 | **API Version**        |
 | **BRS Version**        |
 
-Description
------------
+Description <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+---------------------------------------------------------------------------------------------------------
 
-Examples of Burst API calls are collected on this page, individually linked from the main [Burst API](the-burst-api.md) page. The organization and ordering is the same for both pages so that the section numbers in the table of contents are identical. The preliminary sections preceding the examples simply link back to the main page. For example:
+Examples of Burst API calls are collected on this page, individually linked from the main [Burst API](the-burst-api.md) page. The organization and ordering is the same for both pages so that the section numbers in the table of contents are identical.
+
+The preliminary sections preceding the examples simply link back to the main page. For example:
 
 [The Burst API Description](the-burst-api-description.md)
+
+A lot of API calls can be viewed and tested on the MainNet (except the API calls that create a transaction on the Blockchain) at <https://wallet.burst.cryptoguru.org:8125/burst>?. For specific API calls, use the GET url https://wallet.burst.cryptoguru.org:8125/burst?=*specificRequestType*.
 
 Table Of Contents
 -----------------
@@ -29,65 +33,11 @@ Create Transaction
 Account Operations
 ------------------
 
-### Delete Account Property
-
-**Request:**
-
-    http://localhost:8125/burst?
-      requestType=deleteAccountProperty&
-      recipient=BURST-7A48-47JL-T7LD-D5FS3&
-      property=testkey1&
-      secretPhrase=iWontTellYou&
-      feeNQT=100000000&
-      deadline=60
-
-**Response:**
-
-    {
-      "signatureHash": "4ff58a03d056ee8a3fee89766bf8e4acd008c2147216...",
-      "transactionJSON": {
-        "senderPublicKey": "373522bcd8904f4707472e590cbb67976d40e7af...",
-        "signature": "26ed697fc82f3b15e6d2c972eff5b195445314aa4bacc8...",
-        "feeNQT": "100000000",
-        "type": 1,
-        "fullHash": "33f7edaec1034153f8e28a996b13b2b2665d0d0a3e4a194...",
-        "version": 1,
-        "phased": false,
-        "ecBlockId": "10023643060833833497",
-        "signatureHash": "4ff58a03d056ee8a3fee89766bf8e4acd008c21472...",
-        "attachment": {
-            "property": "940296349549404868",
-            "version.AccountPropertyDelete": 1
-        },
-        "senderRS": "BURST-7A48-47JL-T7LD-D5FS3",
-        "subtype": 11,
-        "amountNQT": "0",
-        "sender": "12745647715474645062",
-        "recipientRS": "BURST-7A48-47JL-T7LD-D5FS3",
-        "recipient": "12745647715474645062",
-        "ecBlockHeight": 754255,
-        "deadline": 60,
-        "transaction": "5999080309032613683",
-        "timestamp": 80189128,
-        "height": 2147483647
-      },
-      "unsignedTransactionBytes": "011bc896c7043c00373522bcd8904f4707472e590cbb67976d40e7af39650ea11c...",
-      "broadcasted": false,
-      "requestProcessingTime": 3,
-      "transactionBytes": "011bc896c7043c00373522bcd8904f4707472e590cbb67976d40e7af39650ea11cb2be5734...",
-      "fullHash": "33f7edaec1034153f8e28a996b13b2b2665d0d0a3e4a1942718aa480c6097cf6",
-      "transaction": "5999080309032613683"
-    }
-
-<small>*Verified 9-Jun-16*</small>
-
 ### Get Account
 
 **Request:**
 
-    http://localhost:8125/burst?
-      requestType=getAccount&
-      account=BURST-4VNQ-RWZC-4WWQ-GVM8S
+    https://wallet.burst.cryptoguru.org:8125/burst?requestType=getAccount&account=BURST-4VNQ-RWZC-4WWQ-GVM8S
 
 **Response:**
 
@@ -130,8 +80,6 @@ Account Operations
      "account": "17013046603665206934",
      "currentLeasingHeightFrom": 279739
     }
-
-<small>*Verified 7-Nov-14*</small>
 
 ### Get Account Block Count
 
@@ -10336,7 +10284,6 @@ Utilities
 
 }
 
-</pre>
 <small>*Verified 17-Jun-16*</small>
 
 ### Encode QR Code
