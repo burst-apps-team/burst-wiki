@@ -127,33 +127,6 @@ When it is synchronised you will see something like the following (close to your
 
 Congratulations, you now have a fully synchronised wallet, running on the H2 database!
 
-Updating softwares
-------------------
-
-All softwares included in QBundle can be updated using ‘Check for updates’.
-
-This installation has an available update, notified by the ‘New update available’ at the top of the wallet. If you click on this, it will list the components that are available for download.
-
-Click ‘Download updates’: 
-
-<img src="Download_Updates.png" title="Download_Updates.png" alt="Download_Updates.png" width="869" height="869" />
-
-Click ‘yes’ to stop the wallet:
-
-<img src="Check_for_updates.png" title="Check_for_updates.png" alt="Check_for_updates.png" width="579" height="579" />
-
-When complete click ‘close’:
-
-<img src="Check_for_updates_2.png" title="Check_for_updates_2.png" alt="Check_for_updates_2.png" width="567" height="567" />
-
-If the wallet is not running, start the wallet by selecting ‘Wallet’ and ‘Start wallet’ 
-
-<img src="Start_Wallet.png" title="fig:Start_Wallet.png" alt="Start_Wallet.png" width="466" height="466" /> 
-
-Now, you have an upgraded QBundle: 
-
-<img src="Download_Updates_2.png" title="Download_Updates_2.png" alt="Download_Updates_2.png" width="723" height="723" />
-
 Wallet Mode
 -----------
 
@@ -180,10 +153,36 @@ Finally, here's the look of the QBundle and Burst Wallet:
 
 <img src="Burst_Wallet.png" title="Burst_Wallet.png" alt="Burst_Wallet.png" width="1919" height="1919" />
 
-Additional Information
-----------------------
+Frequently Asked Questions (FAQ)
+--------------------------------
 
-### Edit Tab
+### How to update the softwares that come with QBundle ?
+
+All softwares included in QBundle can be updated using ‘Check for updates’.
+
+This installation has an available update, notified by the ‘New update available’ at the top of the wallet. If you click on this, it will list the components that are available for download.
+
+Click ‘Download updates’: 
+
+<img src="Download_Updates.png" title="Download_Updates.png" alt="Download_Updates.png" width="869" height="869" />
+
+Click ‘yes’ to stop the wallet:
+
+<img src="Check_for_updates.png" title="Check_for_updates.png" alt="Check_for_updates.png" width="579" height="579" />
+
+When complete click ‘close’:
+
+<img src="Check_for_updates_2.png" title="Check_for_updates_2.png" alt="Check_for_updates_2.png" width="567" height="567" />
+
+If the wallet is not running, start the wallet by selecting ‘Wallet’ and ‘Start wallet’ 
+
+<img src="Start_Wallet.png" title="fig:Start_Wallet.png" alt="Start_Wallet.png" width="466" height="466" /> 
+
+Now, you have an upgraded QBundle: 
+
+<img src="Download_Updates_2.png" title="Download_Updates_2.png" alt="Download_Updates_2.png" width="723" height="723" />
+
+### How do I see the logs of Burst Reference Software (BRS) ?
 
 #### Console
 
@@ -192,6 +191,8 @@ View Console will provide a pop up window with the Wallet log and MariaDB log (i
 <img src="View_console.png" title="View_console.png" alt="View_console.png" width="605" height="605" />
 
 <img src="Console.png" title="Console.png" alt="Console.png" width="766" height="766" />
+
+### How do I change the settings of QBundle ?
 
 #### Settings
 
@@ -205,13 +206,17 @@ For troubleshooting the ‘Debug mode’ option can be useful. 
 
 <img src="General_Settings.png" title="General_Settings.png" alt="General_Settings.png" width="860" height="860" />
 
+### I have connection problems. What can I do to improve this ?
+
 #### Configure Firewall
 
 If you click ‘configure firewall’ it will give you an option requesting confirmation that you wish to change the windows firewall to allow access locally and over the WAN to the program on this computer.
 
 <img src="Windows_firewall.png" title="Windows_firewall.png" alt="Windows_firewall.png" width="404" height="404" />
 
-### Account Manager Tab
+### Where are stored the information about my accounts ?
+
+#### Account Manager Tab
 
 The account manager allows you to manage multiple accounts, and generate short ‘PIN’ numbers for each.
 
@@ -225,7 +230,7 @@ Finally, your passphrase and your private key are available (you will only need 
 
 <img src="Account_Manager.png" title="Account_Manager.png" alt="Account_Manager.png" width="802" height="802" />
 
-### Wallet Tab
+### How to automaticaly startup the wallet ?
 
 #### Windows Service
 
@@ -234,6 +239,8 @@ Finally, your passphrase and your private key are available (you will only need 
 Stop wallet will stop the wallet in the background.
 
 Install as Service will allow for the automatic startup of the wallet, even before logon to windows (acting as a service)  this is currently only available when running H2 Database. 
+
+### My wallet is stuck, how do I solve this ?
 
 #### Rollback chain (popoff)
 
@@ -245,7 +252,7 @@ If you experience a wallet start issue, or an incomplete synch, it’s suggested
 
 <img src="Rollback_Chain.png" title="Rollback_Chain.png" alt="Rollback_Chain.png" width="450" height="450" />
 
-### Database Tab
+### I don't really like H2 database... How do I change database ?
 
 #### Change database
 
@@ -267,7 +274,7 @@ Currently MariaDB will not allow the movement of data from H2 database, but in t
 
 <img src="Transition_Database.png" title="Transition_Database.png" alt="Transition_Database.png" width="485" height="485" />
 
-### Tools Tab
+### What are the other tools available ?
 
 The tool tab provides a lot of tools that could be very helpful.
 
