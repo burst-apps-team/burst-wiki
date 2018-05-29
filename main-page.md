@@ -40,6 +40,8 @@
 -   [*Summary of Features*](current-features.md)
 
 </div>
+</div>
+<div class="box_row">
 <div class="box_column">
 <div class="main_subtitle">
 **For Developers**
@@ -67,6 +69,8 @@
 -   [Mining](mining.md)
 
 </div>
+</div>
+<div class="box_row">
 </div>
 <div class="box_row">
 <div class="box_column_light" style="background-color: #ffffff; text-align:center;">
