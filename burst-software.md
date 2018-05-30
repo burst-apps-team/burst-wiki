@@ -80,6 +80,16 @@ XplotterGui is a GUI version of Xplotter with SSD Cache, File Merging and POC2 C
 
 **Download link** : <https://github.com/JohnnyFFM/XPlotterGui/releases/latest>
 
+### XPlotter modded
+
+<img src="StableW.png" title="fig:StableW.png" alt="StableW.png" width="150" height="150" /><img src="DymaxionCW.png" title="fig:DymaxionCW.png" alt="DymaxionCW.png" width="150" height="150" /><img src="POC1W.png" title="fig:POC1W.png" alt="POC1W.png" width="150" height="150" /><img src="POC2W.png" title="fig:POC2W.png" alt="POC2W.png" width="150" height="150" />
+
+XPlotter is the default plotter that comes with QBundle and provides CPU PoC 1 plotting for BURST whith AVX support. This modded version supports PoC2 plotting.
+
+**Main Dev** : JohnnyFFM
+
+**Download link** : <https://github.com/JohnnyFFM/XPlotter/releases/latest>
+
 ### TurboPlotter 9000
 
 <img src="StableW.png" title="fig:StableW.png" alt="StableW.png" width="150" height="150" /><img src="DymaxionCW.png" title="fig:DymaxionCW.png" alt="DymaxionCW.png" width="150" height="150" /><img src="POC1W.png" title="fig:POC1W.png" alt="POC1W.png" width="150" height="150" /><img src="POC2W.png" title="fig:POC2W.png" alt="POC2W.png" width="150" height="150" />
