@@ -91,8 +91,6 @@
     -   [General Information](https://www.burst-coin.org/)
     -   [Exchanges](exchanges.md)
     -   [Marketplace](http://x.burstnation.com/marketplace)
-    -   [Wallet download](http://burstwallet.io/)
-    -   Forum: [Burst-Team](http://burstforum.net/), [GetBurst](https://forums.getburst.net/), [Burst Reddit](https://www.reddit.com/r/burstcoin/)
     -   [The Burstcoinist (News)](https://www.burstcoin.ist/)
     -   [More](list-of-burst-related-websites.md)
     -   [International websites](list-of-international-burst-websites.md)
@@ -116,6 +114,7 @@
 
 -   [Pool uptime monitor](https://uptime.statuscake.com/?TestID=M30iNz7TSq)
 -   [Burstcoin Faucet Lists](http://burstfaucets.com/)
+-   Forum: [Burst-Team](http://burstforum.net/), [GetBurst](https://forums.getburst.net/), [Burst Reddit](https://www.reddit.com/r/burstcoin/)
 
 </div>
 </div>
