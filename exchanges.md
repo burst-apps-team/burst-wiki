@@ -1,3 +1,8 @@
+| Exchanges  |
+|------------|
+| **Status** |
+||
+
 Burst can be traded on the following exchanges against the given other currencies:
 
 -   [bisq](https://markets.bisq.network/?market=burst_btc) (P2P exchange): BTC
