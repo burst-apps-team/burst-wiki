@@ -92,7 +92,7 @@ TurboPlotter 9000 is a CPU/GPU PoC 1 + PoC 2 plotter and plot integrity checker.
 
 ### CG\_OBUP
 
-<img src="StableW.png" title="fig:StableW.png" alt="StableW.png" width="150" height="150" /><img src="DymaxionUW.png" title="fig:DymaxionUW.png" alt="DymaxionUW.png" width="170" height="170" /><img src="POC1W.png" title="fig:POC1W.png" alt="POC1W.png" width="150" height="150" />
+<img src="StableW.png" title="fig:StableW.png" alt="StableW.png" width="150" height="150" /><img src="DymaxionCW.png" title="fig:DymaxionCW.png" alt="DymaxionCW.png" width="150" height="150" /><img src="POC1W.png" title="fig:POC1W.png" alt="POC1W.png" width="150" height="150" />
 
 The CryptoGuru Optimized BURSTcoin Plotter is a BURST plotter that generates optimized plot files without the need to run an optimizer after plotting.
 
