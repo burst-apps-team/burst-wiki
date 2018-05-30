@@ -1,3 +1,8 @@
+| List of Burst related websites |
+|--------------------------------|
+| **Status**                     |
+||
+
 The Burst community is very heterogeneous. Thus, there is a whole ecosystem of websites around the cryptocurrency, usually more than one for a particular topic.
 
 General Information
