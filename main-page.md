@@ -24,6 +24,7 @@
     -   Direct Download: ****, ****
 -   [Burst Source Code](https://github.com/PoC-Consortium/burstcoin)
 -   [Mobile App](mobile-app.md)
+-   [QBundle Full Guide](qbundle.md)
 
 </div>
 <div class="box_column">
@@ -49,10 +50,10 @@
 
 -   -   [The Burst API Examples](the-burst-api-examples.md)
 
--   [Burst Blockchain Tutorial](burst-blockchain-tutorial.md)
--   [Reed-Solomon (RS) Address Format](rs-address-format.md)
--   [QR Codes for RS Address Format](qr-codes-for-rs-address-format.md)
 -   [The brs-default.properties file](brs-default-properties-configuration-file.md)
+-   [Reed-Solomon (RS) Address Format](rs-address-format.md)
+-   [Burst Blockchain Tutorial](burst-blockchain-tutorial.md)
+-   [QR Codes for RS Address Format](qr-codes-for-rs-address-format.md)
 -   [Offline Transaction Signing](offline-transaction-signing.md)
 -   [How Transaction Processing Works](how-tx-processing-works.md)
 -   [Exchange Integration](exchange-integration.md)
@@ -106,6 +107,7 @@
 </div>
 \* Online wallets: [PoCC](https://wallet.burst.cryptoguru.org:8125/index.html), poolofd32th: [1](https://wallet.poolofd32th.club/index.html), [2](https://wallet2.poolofd32th.club/index.html). Burst-Team: [3](https://wallet3.burst-team.us:2083/index.html), [4](https://wallet4.burst-team.us:2083/index.html), [5](https://wallet5.burst-team.us:2083/index.html)
 
+-   TestNet: [PoCC TestNet](https://wallet.dev.burst-test.net/)
 -   Blockchain Explorer: [PoCC](https://explore.burst.cryptoguru.org/), [BurstXD](http://burstxd.com/blocks/), [burstcoin.zone](http://burstcoin.zone/wordpress/blockexplorer/)
 -   Network Observer: [Luxe](http://burstcoin.cc/), [PoCC](https://explore.burst.cryptoguru.org/tool/observe)
 -   [Burst Today](http://www.burst.today/)
