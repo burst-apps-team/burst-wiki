@@ -83,4 +83,3 @@ Open your Burst client and select the ‘Aliases’ menu.
 3.  Enter the price and the corresponding data.
 4.  Confirm with your ‘Passphrase’ and click on ‘Sell Alias’.
 
-</languages>
