@@ -18,22 +18,20 @@ Table Of Contents
 
 \_\_TOC\_\_
 
-General Notes
--------------
+General Notes <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+-----------------------------------------------------------------------------------------------------------
 
 [The Burst API General Notes](the-burst-api-general-notes.md)
 
-Create Transaction
-------------------
+Create Transaction <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+----------------------------------------------------------------------------------------------------------------
 
 [The Burst API Create Transaction](the-burst-api-create-transaction.md)
 
 Account Operations
 ------------------
 
-### Get Account
-
-**[`https://wallet.burst.cryptoguru.org:8125/burst?requestType=getAccount&account=BURST-GBFG-HVQ4-8AMM-GPCWR`](https://wallet.burst.cryptoguru.org:8125/burst?requestType=getAccount&account=BURST-GBFG-HVQ4-8AMM-GPCWR)**
+### Get Account <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 
 **Response:**
 
@@ -64,82 +62,88 @@ Account Operations
 }
 ```
 
-### Get Account Block Ids
-
-**Request:**
-
-<https://wallet.burst.cryptoguru.org:8125/burst?requestType=getAccountBlockIds&account=17274946210831421354&lastIndex=5>
+### Get Account Block Ids <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 
 **Response similar to:**
 
-    {"blockIds":["18426055195962363092","7915836588136735869","10232042957216858995","6879436477641441477","10946006553575734351","11461420847451026714"],"requestProcessingTime":2}
+``` json
+{"blockIds":["18426055195962363092","7915836588136735869","10232042957216858995","6879436477641441477","10946006553575734351","11461420847451026714"],"requestProcessingTime":2}
+```
 
-<small>*Verified 11:28, 6 October 2017 (CEST)*</small>
-
-### Get Account Blocks
-
-**Request:**
-
-<https://wallet.burst.cryptoguru.org:8125/burst?requestType=getAccountBlocks&account=17274946210831421354&lastIndex=0>
+### Get Account Blocks <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 
 **Response similar to:**
 
-    {"blocks":
-    [{"previousBlockHash":"eba007c3393566ddad48cbf83604e9f6ad54dccf7722a1ca4a320988b1c6b3ed","payloadLength":578,"totalAmountNQT":"62450679293",
-    "generationSignature":"3660dda874e1f4b4679a86226f4addbeb6a7816141de6d706260be002c5afd60","generator":"17274946210831421354",
-    "generatorPublicKey":"2a689d7f067f6c5350c6df51ea5df1376ed9f60e72da8facf2240292a6c3c568","baseTarget":"107404",
-    "payloadHash":"668b1467fbe7004c3ca9a22f9d31832da53c8b6fc34bdc958ec970bd674d313f","generatorRS":"BURST-EMXC-3PFB-J8HQ-GJ9HZ","blockReward":"1423","nextBlock":"13927268942427876599","scoopNum":2919,"numberOfTransactions":3,
-    "blockSignature":"a44e8ae2f3ddc905ff43b7c0e9893cc2b100236ae2ba452e995b4865ccdcb90d308d712247fc8d764f3d5a9d211cc6a5f4b774ec4dbba36a705d74fac5a18106","transactions":["13877924564730410774","14965698104908109603","8929558255268593139"],"nonce":"76308248","version":3,
-    "totalFeeNQT":"300000000","previousBlock":"15953497252208025835","block":"18426055195962363092",
-    "height":411465,"timestamp":99544242}],"requestProcessingTime":3}
+``` json
+{
+    "blocks": [
+        {
+            "previousBlockHash": "9bb982b31c196a59231197da7abc82aeecea8d21017eb0c12fbabed8a74ec71c",
+            "payloadLength": 1936,
+            "totalAmountNQT": "106611838192",
+            "generationSignature": "dedb23e56e9cc7d17d0f8d09bde18890c950089a2d7253889e8197967a9cacce",
+            "generator": "15922713504207360763",
+            "generatorPublicKey": "177d9ea55714741b002665dd9b7a1bc49834281c49162282735fadbb654f525d",
+            "baseTarget": "62600",
+            "payloadHash": "9c2e60b58de75577d4f088abe14111756f602fc0498c8a1cd97555514b3794f3",
+            "generatorRS": "BURST-JNRV-L9MB-QU9G-FR8YT",
+            "blockReward": "1101",
+            "nextBlock": "7294788635189399942",
+            "scoopNum": 3287,
+            "numberOfTransactions": 11,
+            "blockSignature": "51cfdb787b44c6ef65fd44bcc1efe0d1880a1f36573b1976849a34514eebfb0c657092b04ab329147b08c14b2d36fb3b769ac7d348dd8b42c706feba1c31fe0d",
+            "transactions": [
+                "9974453735926447276",
+                "10292157220435803480",
+                "12118294371901969706",
+                "14492253203769113366",
+                "16186302445201505070",
+                "16411262478294799982",
+                "1509465029747109302",
+                "3032891187575274734",
+                "3133520208744662995",
+                "4199249628605348221",
+                "4284107851893128481"
+            ],
+            "nonce": "11577401",
+            "version": 3,
+            "totalFeeNQT": "1100000000",
+            "previousBlock": "6442989827968383387",
+            "block": "12993921455729618779",
+            "height": 467931,
+            "timestamp": 113186379
+        }
+    ],
+    "requestProcessingTime": 3
+}
+```
 
-<small>*Verified 11:49, 6 October 2017 (CEST)*</small>
-
-### Get Account Id
-
-**Request:**
-
-    http://localhost:8125/burst?
-      requestType=getAccountId&
-      secretPhrase=IWontTellYou
+### Get Account Id <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 
 **Response:**
 
-    {
-     "accountRS": "BURST-L6FM-89WK-VK8P-FCRBB",
-     "publicKey": "57fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143b473beec228f79ff93c",
-     "requestProcessingTime": 2,
-     "account": "15323192282528158131"
-    }
+``` json
+{
+    "accountRS": "BURST-L6FM-89WK-VK8P-FCRBB",
+    "publicKey": "57fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143b473beec228f79ff93c",
+    "requestProcessingTime": 0,
+    "account": "15323192282528158131"
+}
+```
 
-<small>*Verified 7-Nov-14*</small>
-
-### Get Account Lessors
-
-**Request:**
-
-    http://localhost:8125/burst?
-      requestType=getAccountLessors&
-      account=7114946486381367146&
-      height=282497
+### Get Account Lessors <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 
 **Response:**
 
-    {
-     "lessors": [
-      {
-       "guaranteedBalanceNQT": "2643314085738687",
-       "lessorRS": "BURST-MRBN-8DFH-PFMK-A4DBM",
-       "lessor": "9918441724915080500"
-      }
-     ],
-     "accountRS": "BURST-TMVC-69YC-SJB4-8YCH7",
-     "requestProcessingTime": 1,
-     "account": "7114946486381367146",
-     "height": 282497
-    }
-
-<small>*Verified 13-Nov-14*</small>
+``` json
+{
+    "lessors": [],
+    "accountRS": "BURST-GBFG-HVQ4-8AMM-GPCWR",
+    "requestProcessingTime": 0,
+    "account": "17001464071916561838",
+    "height": 496781
+}
+```
 
 ### Get Account Properties
 
