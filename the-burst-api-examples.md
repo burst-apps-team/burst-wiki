@@ -9,11 +9,9 @@ Description <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" 
 
 Examples of Burst API calls are collected on this page, individually linked from the main [Burst API](the-burst-api.md) page. The organization and ordering is the same for both pages so that the section numbers in the table of contents are identical.
 
-The preliminary sections preceding the examples simply link back to the main page. For example:
+The preliminary sections preceding the examples simply link back to the main page. For example: [The Burst API Description](the-burst-api-description.md).
 
-[The Burst API Description](the-burst-api-description.md)
-
-A lot of API calls can be viewed and tested on the MainNet (except the API calls that create a transaction on the Blockchain) at <https://wallet.burst.cryptoguru.org:8125/burst>?. For specific API calls, use the GET url https://wallet.burst.cryptoguru.org:8125/burst?=*specificRequestType*.
+A lot of API calls can be viewed and tested on the MainNet at <https://wallet.burst.cryptoguru.org:8125/burst>?. For specific API calls, use the GET url https://wallet.burst.cryptoguru.org:8125/burst?=*specificRequestType*.
 
 Table Of Contents
 -----------------
@@ -37,66 +35,36 @@ Account Operations
 
 **Request:**
 
-    https://wallet.burst.cryptoguru.org:8125/burst?requestType=getAccount&account=BURST-4VNQ-RWZC-4WWQ-GVM8S
+    https://wallet.burst.cryptoguru.org:8125/burst?requestType=getAccount&account=BURST-GBFG-HVQ4-8AMM-GPCWR
 
 **Response:**
 
-    {
-     "unconfirmedBalanceNQT": "2501162882344",
-     "effectiveBalanceNXT": 13983,
-     "lessorsInfo": [
-      {
-       "currentHeightTo": "341420",
-       "nextHeightFrom": "341420",
-       "effectiveBalanceNXT": "544525",
-       "nextLesseeRS": "BURST-7WVC-W7TJ-REQ2-4VDJD",
-       "currentLesseeRS": "BURST-7WVC-W7TJ-REQ2-4VDJD",
-       "currentHeightFrom": "308653",
-       "nextHeightTo": "374187"
-      }
-     ],
-     "currentLessee": "7114946486381367146",
-     "currentLeasingHeightTo": 281179,
-     "forgedBalanceNQT": "0",
-     "balanceNQT": "2501162882344",
-     "publicKey": "73080c6a224062660184f10ebb7fb431d4593...",
-     "requestProcessingTime": 2,
-     "assetBalances": [
-      {
-       "balanceQNT": "96651298",
-       "asset": "4551058913252105307"
-      }
-     ],
-     "guaranteedBalanceNQT": "1398383666344",
-     "unconfirmedAssetBalances": [
-      {
-       "unconfirmedBalanceQNT": "96651298",
-       "asset": "4551058913252105307"
-      }
-     ],
-     "currentLesseeRS": "BURST-TMVC-69YC-SJB4-8YCH7",
-     "accountRS": "BURST-4VNQ-RWZC-4WWQ-GVM8S",
-     "name": "mystical",
-     "account": "17013046603665206934",
-     "currentLeasingHeightFrom": 279739
-    }
-
-### Get Account Block Count
-
-**Request:**
-
-    http://localhost:8125/burst?
-      requestType=getAccountBlockCount&
-      account=7114946486381367146
-
-**Response:**
-
-    {
-     "numberOfBlocks": 460,
-     "requestProcessingTime": 70
-    }
-
-<small>*Verified 13-Nov-14*</small>
+``` json
+{
+    "unconfirmedBalanceNQT": "100000000000",
+    "guaranteedBalanceNQT": "100000000000",
+    "unconfirmedAssetBalances": [
+        {
+            "unconfirmedBalanceQNT": "120100",
+            "asset": "3702027329806229573"
+        }
+    ],
+    "effectiveBalanceNXT": "100000000000",
+    "accountRS": "BURST-GBFG-HVQ4-8AMM-GPCWR",
+    "name": "Umbrellacorp03",
+    "forgedBalanceNQT": "0",
+    "balanceNQT": "100000000000",
+    "publicKey": "f22d8aa787eddbf69caf6f5960f5972a4b73247eb3a9479ddddeda40224aca60",
+    "requestProcessingTime": 1,
+    "assetBalances": [
+        {
+            "balanceQNT": "120100",
+            "asset": "3702027329806229573"
+        }
+    ],
+    "account": "17001464071916561838"
+}
+```
 
 ### Get Account Block Ids
 
