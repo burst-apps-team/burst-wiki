@@ -145,213 +145,148 @@ Account Operations
 }
 ```
 
-### Get Account Properties
-
-**Request:**
-
-    http://localhost:8125/burst?
-      requestType=getAccountProperties&
-      recipient=BURST-7A48-47JL-T7LD-D5FS3
+### Get Account Public Key <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 
 **Response:**
 
-    {
-      "recipientRS": "BURST-7A48-47JL-T7LD-D5FS3",
-      "recipient": "12745647715474645062",
-      "requestProcessingTime": 0,
-      "properties": [
+``` json
+{
+    "publicKey": "f22d8aa787eddbf69caf6f5960f5972a4b73247eb3a9479ddddeda40224aca60",
+    "requestProcessingTime": 1
+}
+```
+
+### Get Account Transaction Ids <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+
+**Response:**
+
+``` json
+{
+    "transactionIds": [
+        "14471919803527301514",
+        "8408429517094397948",
+        "7677510357080940908",
+        "15605878519502379168",
+        "13241821260511921007",
+        "16748761036604486700",
+        "6521866371443385678"
+    ],
+    "requestProcessingTime": 7
+}
+```
+
+### Get Account Transactions <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+
+**Response:**
+
+``` json
+{
+    "requestProcessingTime": 7,
+    "transactions": [
         {
-          "setterRS": "BURST-7A48-47JL-T7LD-D5FS3",
-          "property": "testkey1",
-          "setter": "12745647715474645062",
-          "value": "testvalue1"
+            "senderPublicKey": "2ebd275f257b5e73c58c1a5e13efbcba8a579829a3c336e79409f32a3bcf8379",
+            "signature": "e96b97ee10365498641177ec07378b252b9bc6e727dc67130c4ee32e38cede076b24c0f3c2137a138234c154656b8cee45b913e2842bced41f8d8c195670eeb5",
+            "feeNQT": "100000000",
+            "type": 2,
+            "confirmations": 85,
+            "fullHash": "8a892fc36296d6c8540dab8d52458500e400483b091224db949fe8d36ce8aac5",
+            "version": 1,
+            "ecBlockId": "6134220061079224356",
+            "signatureHash": "0811bab0ed422d3da9fe837e57bd38aa9bbe223f9bcc34109a650eaadc21ce5e",
+            "attachment": {
+                "version.AssetTransfer": 1,
+                "quantityQNT": "10000",
+                "asset": "3702027329806229573"
+            },
+            "senderRS": "BURST-CMTM-GH7K-58PB-BFP2U",
+            "subtype": 1,
+            "amountNQT": "0",
+            "sender": "11313795926748122931",
+            "recipientRS": "BURST-GBFG-HVQ4-8AMM-GPCWR",
+            "recipient": "17001464071916561838",
+            "ecBlockHeight": 496688,
+            "block": "9331719154915300577",
+            "blockTimestamp": 120142856,
+            "deadline": 1440,
+            "transaction": "14471919803527301514",
+            "timestamp": 120142756,
+            "height": 496701
+        },
+        {
+            "senderPublicKey": "f22d8aa787eddbf69caf6f5960f5972a4b73247eb3a9479ddddeda40224aca60",
+            "signature": "e74d1213e17fdd41f6337eb3cf4c501089931b651ec4b3a563cf6b113ab58b0cfd2516f7e9d64cbbdcf87e8e35ae75caddef7811d729b4a53338a4c75bb85977",
+            "feeNQT": "100000000",
+            "type": 0,
+            "confirmations": 356,
+            "fullHash": "fc27529518beb074357b59f0efa477e18240c9f44a02b89fd32ccdb0b85b135a",
+            "version": 1,
+            "ecBlockId": "6116962714576197152",
+            "signatureHash": "f10eaaaf1836f07fe6958293cc79a91fb57dd8dfec9780ea73e0ee82de18c292",
+            "senderRS": "BURST-GBFG-HVQ4-8AMM-GPCWR",
+            "subtype": 0,
+            "amountNQT": "53329697341",
+            "sender": "17001464071916561838",
+            "recipientRS": "BURST-NQAW-GQ84-CA6C-7B3LS",
+            "recipient": "6649610434652035356",
+            "ecBlockHeight": 496419,
+            "block": "5936178255841968699",
+            "blockTimestamp": 120078307,
+            "deadline": 1440,
+            "transaction": "8408429517094397948",
+            "timestamp": 120078236,
+            "height": 496430
         }
-      ]
-    }
+    ]
+}
+```
 
-<small>*Verified 9-Jun-16*</small>
-
-### Get Account Public Key
-
-**Request:**
-
-    http://localhost:8125/burst?
-      requestType=getAccountPublicKey&
-      account=BURST-L6FM-89WK-VK8P-FCRBB
+### Get Balance <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 
 **Response:**
 
-    {
-     "publicKey": "57fb6f3a958e320bb49c4e81b4c2cf28b9f25d...",
-     "requestProcessingTime": 36
-    }
+``` json
+{
+    "unconfirmedBalanceNQT": "100000000000",
+    "guaranteedBalanceNQT": "100000000000",
+    "effectiveBalanceNXT": "100000000000",
+    "forgedBalanceNQT": "0",
+    "balanceNQT": "100000000000",
+    "requestProcessingTime": 0
+}
+```
 
-<small>*Verified 5-Nov-14*</small>
-
-### Get Account Transaction Ids
-
-**Request:**
-
-    http://localhost:8125/burst?
-      requestType=getAccountTransactionIds&
-      account=BURST-L6FM-89WK-VK8P-FCRBB
+### Get Guaranteed Balance <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 
 **Response:**
 
-    {
-     "transactionIds": [
-      "15200507403046301754",
-      "10900022216391397990"
-     ],
-     "requestProcessingTime": 1
-    }
+``` json
+{
+    "guaranteedBalanceNQT": "100000000000",
+    "requestProcessingTime": 0
+}
+```
 
-<small>*Verified 6-Nov-14*</small>
-
-### Get Account Transactions
-
-**Request:**
-
-    http://localhost:8125/burst?
-      requestType=getAccountTransactions&
-      account=BURST-L6FM-89WK-VK8P-FCRBB
+### Get Unconfirmed Transaction Ids <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 
 **Response:**
 
-    {
-     "requestProcessingTime": 1,
-     "transactions": [
-      {
-       "senderPublicKey": "57fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143b473beec228f79ff93c",
-       "signature": "5f0378b7390ff5a815eadd1354de533eef682f139362b153576e2207320a6...",
-       "feeNQT": "100000000",
-       "transactionIndex": 2,
-       "type": 0,
-       "confirmations": 1704,
-       "fullHash": "3a304584f20cf3d2cbbdd9698ff9a166427005ab98fbe9ca4ad6253651ee81f1",
-       "version": 1,
-       "ecBlockId": "17321329645912574173",
-       "signatureHash": "b35eae7d2f01639810d37694138aa0a86fbbf8a9bf58c2be4f2a5b8f0f30b3f7",
-       "senderRS": "BURST-L6FM-89WK-VK8P-FCRBB",
-       "subtype": 0,
-       "amountNQT": "100000000",
-       "sender": "15323192282528158131",
-       "recipientRS": "BURST-4VNQ-RWZC-4WWQ-GVM8S",
-       "recipient": "17013046603665206934",
-       "ecBlockHeight": 275727,
-       "block": "8455642159445842600",
-       "blockTimestamp": 29797208,
-       "deadline": 60,
-       "transaction": "15200507403046301754",
-       "timestamp": 29796934,
-       "height": 275730
-      },
-      {
-       "senderPublicKey": "73080c6a224062660184f10ebb7fb431d459364a12403320c7f601f9d75cc547",
-       "signature": "7f4a5b70e3f91dd1e7a089c7985bb08f7035666dbfe3e857e706f08ad93f6...",
-       "feeNQT": "100000000",
-       "transactionIndex": 0,
-       "type": 0,
-       "confirmations": 1706,
-       "fullHash": "6612e07b74a84497b02d5bafea020391dcefadc157dc1cbd56611c66dc11f974",
-       "version": 1,
-       "ecBlockId": "4218793004869721496",
-       "signatureHash": "0fc3d917e37111752004ac13a280ea121799388ff7aaf611f22f3ce93f1df5e0",
-       "attachment": {
-        "version.PublicKeyAnnouncement": 1,
-        "recipientPublicKey": "57fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143b473beec228f79ff93c"
-       },
-       "senderRS": "BURST-4VNQ-RWZC-4WWQ-GVM8S",
-       "subtype": 0,
-       "amountNQT": "200000000",
-       "sender": "17013046603665206934",
-       "recipientRS": "BURST-L6FM-89WK-VK8P-FCRBB",
-       "recipient": "15323192282528158131",
-       "ecBlockHeight": 275723,
-       "block": "14241452309033661857",
-       "blockTimestamp": 29796841,
-       "deadline": 60,
-       "transaction": "10900022216391397990",
-       "timestamp": 29796542,
-       "height": 275728
-      }
-     ]
-    }
+``` json
+{
+    "requestProcessingTime": 0,
+    "unconfirmedTransactionIds": []
+}
+```
 
-<small>*Verified 31-Dec-14*</small>
-
-### Get Balance
-
-**Request:**
-
-    http://localhost:8125/burst?
-      requestType=getBalance&
-      account=7114946486381367146
+### Get Unconfirmed Transactions <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 
 **Response:**
 
-    {
-     "unconfirmedBalanceNQT": "9246231058415",
-     "guaranteedBalanceNQT": "9242231058415",
-     "effectiveBalanceNXT": 92422,
-     "forgedBalanceNQT": "260560000000",
-     "balanceNQT": "9246231058415",
-     "requestProcessingTime": 1
-    }
-
-<small>*Verified 8-Nov-14*</small>
-
-### Get Guaranteed Balance
-
-**Request:**
-
-    http://localhost:8125/burst?
-      requestType=getGuaranteedBalance&
-      account=7114946486381367146&
-      numberOfConfirmations=1440
-
-**Response:**
-
-    {
-     "guaranteedBalanceNQT": "9242231058415",
-     "requestProcessingTime": 0
-    }
-
-<small>*Verified 8-Nov-14*</small>
-
-### Get Unconfirmed Transaction Ids
-
-**Request:**
-
-    http://localhost:8125/burst?
-      requestType=getUnconfirmedTransactionIds&
-      account=BURST-L6FM-89WK-VK8P-FCRBB
-
-**Response:**
-
-    {
-     "requestProcessingTime": 1,
-     "unconfirmedTransactionIds": []
-    }
-
-<small>*Verified 6-Nov-14*</small>
-
-### Get Unconfirmed Transactions
-
-**Request:**
-
-    http://localhost:8125/burst?
-      requestType=getUnconfirmedTransactions&
-      account=BURST-L6FM-89WK-VK8P-FCRBB
-
-**Response:**
-
-    {
-     "unconfirmedTransactions": [],
-     "requestProcessingTime": 1
-    }
-
-<small>*Verified 6-Nov-14*</small>
+``` json
+{
+    "unconfirmedTransactions": [],
+    "requestProcessingTime": 0
+}
+```
 
 ### Send Money
 
@@ -397,8 +332,6 @@ Account Operations
      "fullHash": "3a304584f20cf3d2cbbdd9698ff9a166427005ab98fbe9ca4ad6253651ee81f1",
      "transaction": "15200507403046301754"
     }
-
-<small>*Verified 4-Nov-14*</small>
 
 ### Set Account Info
 
