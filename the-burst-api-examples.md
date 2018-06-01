@@ -33,9 +33,7 @@ Account Operations
 
 ### Get Account
 
-**Request:**
-
-    https://wallet.burst.cryptoguru.org:8125/burst?requestType=getAccount&account=BURST-GBFG-HVQ4-8AMM-GPCWR
+**[`https://wallet.burst.cryptoguru.org:8125/burst?requestType=getAccount&account=BURST-GBFG-HVQ4-8AMM-GPCWR`](https://wallet.burst.cryptoguru.org:8125/burst?requestType=getAccount&account=BURST-GBFG-HVQ4-8AMM-GPCWR)**
 
 **Response:**
 
