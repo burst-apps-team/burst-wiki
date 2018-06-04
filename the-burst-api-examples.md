@@ -28,8 +28,8 @@ Create Transaction <img src="Verified.png" title="fig:Verified.png" alt="Verifie
 
 [The Burst API Create Transaction](the-burst-api-create-transaction.md)
 
-Account Operations
-------------------
+Account Operations <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+----------------------------------------------------------------------------------------------------------------
 
 ### Get Account <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 
@@ -288,100 +288,82 @@ Account Operations
 }
 ```
 
-### Send Money
-
-**Request:**
-
-    http://localhost:8125/burst?
-      requestType=sendMoney&
-      secretPhrase=IWontTellYou&
-      recipient=BURST-4VNQ-RWZC-4WWQ-GVM8S&
-      amountNQT=100000000&
-      feeNQT=100000000&
-      deadline=60
+### Send Money <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 
 **Response:**
 
-    {
-     "signatureHash": "b35eae7d2f01639810d37694138aa0a86fbbf8a9bf58c2be4f2a5b8f0f30b3f7",
-     "unsignedTransactionBytes": "001046aac6013c0057fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143...",
-     "transactionJSON": {
-      "senderPublicKey": "57fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143b473beec228f79ff93c",
-      "signature": "5f0378b7390ff5a815eadd1354de533eef682f139362b153576e2207320a6...",
-      "feeNQT": "100000000",
-      "type": 0,
-      "fullHash": "3a304584f20cf3d2cbbdd9698ff9a166427005ab98fbe9ca4ad6253651ee81f1",
-      "version": 1,
-      "ecBlockId": "17321329645912574173",
-      "signatureHash": "b35eae7d2f01639810d37694138aa0a86fbbf8a9bf58c2be4f2a5b8f0f30b3f7",
-      "senderRS": "BURST-L6FM-89WK-VK8P-FCRBB",
-      "subtype": 0,
-      "amountNQT": "100000000",
-      "sender": "15323192282528158131",
-      "recipientRS": "BURST-4VNQ-RWZC-4WWQ-GVM8S",
-      "recipient": "17013046603665206934",
-      "ecBlockHeight": 275727,
-      "deadline": 60,
-      "transaction": "15200507403046301754",
-      "timestamp": 29796934,
-      "height": 2147483647
-     },
-     "broadcasted": true,
-     "requestProcessingTime": 8475,
-     "transactionBytes": "001046aac6013c0057fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143...",
-     "fullHash": "3a304584f20cf3d2cbbdd9698ff9a166427005ab98fbe9ca4ad6253651ee81f1",
-     "transaction": "15200507403046301754"
-    }
+``` json
+{
+    "signatureHash": "b6bb90bac0d529d9ebc6771089f389c976db2a67d76867f7c9d2e1b90e00358a",
+    "unsignedTransactionBytes": "001092812d07180057fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143b473beec228f79ff93cae2527ec7e55f1eb00e1f5050000000000e1f5050000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000b1980700c84804f7e103aee6",
+    "transactionJSON": {
+        "senderPublicKey": "57fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143b473beec228f79ff93c",
+        "signature": "3b709a56a9a2308b2364cdb260cc8b08126b8ed13cfe891aa817c28760b0e90f108680db998938fd4747390a0ed9b3b3e25674b849e583dce011155f95ecaa3a",
+        "feeNQT": "100000000",
+        "type": 0,
+        "fullHash": "808d5c32b12f4d4b963404c19523b6391ddf7a04a96ec4a495703aeead76c6ff",
+        "version": 1,
+        "ecBlockId": "16622227543717857480",
+        "signatureHash": "b6bb90bac0d529d9ebc6771089f389c976db2a67d76867f7c9d2e1b90e00358a",
+        "senderRS": "BURST-L6FM-89WK-VK8P-FCRBB",
+        "subtype": 0,
+        "amountNQT": "100000000",
+        "sender": "15323192282528158131",
+        "recipientRS": "BURST-GBFG-HVQ4-8AMM-GPCWR",
+        "recipient": "17001464071916561838",
+        "ecBlockHeight": 497841,
+        "deadline": 24,
+        "transaction": "5426045564151958912",
+        "timestamp": 120422802,
+        "height": 2147483647
+    },
+    "broadcasted": true,
+    "requestProcessingTime": 4,
+    "transactionBytes": "001092812d07180057fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143b473beec228f79ff93cae2527ec7e55f1eb00e1f5050000000000e1f5050000000000000000000000000000000000000000000000000000000000000000000000003b709a56a9a2308b2364cdb260cc8b08126b8ed13cfe891aa817c28760b0e90f108680db998938fd4747390a0ed9b3b3e25674b849e583dce011155f95ecaa3a00000000b1980700c84804f7e103aee6",
+    "fullHash": "808d5c32b12f4d4b963404c19523b6391ddf7a04a96ec4a495703aeead76c6ff",
+    "transaction": "5426045564151958912"
+}
+```
 
-### Set Account Info
-
-**Request:**
-
-    http://localhost:8125/burst?
-      requestType=setAccountInfo&
-      secretPhrase=IWontTellYou&
-      name=iwonttellyou
-      description=example account
-      feeNQT=100000000&
-      deadline=60
+### Set Account Info <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 
 **Response:**
 
-    {
-     "signatureHash": "15917aafd59ad9cece7dfc127ab256711d1c58a8ed1a0dc7334949ca826d8a32",
-     "unsignedTransactionBytes": "0115dfeecb013c0057fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143b...",
-     "transactionJSON": {
-      "senderPublicKey": "57fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143b473beec228f79ff93c",
-      "signature": "3f5167a3a23677c85aba7fbbc8bc31cddf540a632abebee4a80fe08ba92b9a0...",
-      "feeNQT": "100000000",
-      "type": 1,
-      "fullHash": "2d31c26aa2b0ae4cf233cc4035c555bca0c579bdcef24bc9819132dc2ce5b2e5",
-      "version": 1,
-      "ecBlockId": "17558522603047297060",
-      "signatureHash": "15917aafd59ad9cece7dfc127ab256711d1c58a8ed1a0dc7334949ca826d8a32",
-      "attachment": {
-       "name": "iwonttellyou",
-       "description": "example account",
-       "version.AccountInfo": 1
-      },
-      "senderRS": "BURST-L6FM-89WK-VK8P-FCRBB",
-      "subtype": 5,
-      "amountNQT": "0",
-      "sender": "15323192282528158131",
-      "ecBlockHeight": 279080,
-      "deadline": 60,
-      "transaction": "5525548004452479277",
-      "timestamp": 30142175,
-      "height": 2147483647
-     },
-     "broadcasted": true,
-     "requestProcessingTime": 8553,
-     "transactionBytes": "0115dfeecb013c0057fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143b...",
-     "fullHash": "2d31c26aa2b0ae4cf233cc4035c555bca0c579bdcef24bc9819132dc2ce5b2e5",
-     "transaction": "5525548004452479277"
-    }
-
-<small>*Verified 8-Nov-14*</small>
+``` json
+{
+    "signatureHash": "00e5694c213c978045fc32125092a1f3b16e6c5bf4d1d24c51005466be29f14b",
+    "unsignedTransactionBytes": "0115c1832d07180057fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143b473beec228f79ff93c0000000000000000000000000000000000e1f5050000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000b49807008c0df4f2844c9541010c4150492d4578616d706c65730000",
+    "transactionJSON": {
+        "senderPublicKey": "57fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143b473beec228f79ff93c",
+        "signature": "9b2634d7f439bf0c71341511a3efb202f744ec7f1b60673d07965bb297b4060d27bed164bf2611b738da1df34cd15a44458bfed2f6e78c94707af11da46f5044",
+        "feeNQT": "100000000",
+        "type": 1,
+        "fullHash": "7ace7428ff55c4c5963d828f0cd210be4c988b482b2930b73c80c7fe55c19af5",
+        "version": 1,
+        "ecBlockId": "4725767517890678156",
+        "signatureHash": "00e5694c213c978045fc32125092a1f3b16e6c5bf4d1d24c51005466be29f14b",
+        "attachment": {
+            "name": "API-Examples",
+            "description": "",
+            "version.AccountInfo": 1
+        },
+        "senderRS": "BURST-L6FM-89WK-VK8P-FCRBB",
+        "subtype": 5,
+        "amountNQT": "0",
+        "sender": "15323192282528158131",
+        "ecBlockHeight": 497844,
+        "deadline": 24,
+        "transaction": "14250609675290857082",
+        "timestamp": 120423361,
+        "height": 2147483647
+    },
+    "broadcasted": true,
+    "requestProcessingTime": 9,
+    "transactionBytes": "0115c1832d07180057fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143b473beec228f79ff93c0000000000000000000000000000000000e1f5050000000000000000000000000000000000000000000000000000000000000000000000009b2634d7f439bf0c71341511a3efb202f744ec7f1b60673d07965bb297b4060d27bed164bf2611b738da1df34cd15a44458bfed2f6e78c94707af11da46f504400000000b49807008c0df4f2844c9541010c4150492d4578616d706c65730000",
+    "fullHash": "7ace7428ff55c4c5963d828f0cd210be4c988b482b2930b73c80c7fe55c19af5",
+    "transaction": "14250609675290857082"
+}
+```
 
 Alias Operations
 ----------------
