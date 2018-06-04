@@ -370,106 +370,47 @@ Alias Operations
 
 ### Buy / Sell Alias
 
-**Request:**
+**Response:**
 
-    http://localhost:8125/burst?
-      requestType=sellAlias&
-      secretPhrase=IWontTellYou&
-      aliasName=nextus&
-      priceNQT=5&
-      recipient=BURST-4VNQ-RWZC-4WWQ-GVM8S&
-      feeNQT=100000000&
-      deadline=60
+### Set Alias <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 
 **Response:**
 
-    {
-     "signatureHash": "d6f026cd8a883b5b6ff78a7d0121e4847eb6744b02757427de6d7ca0bf304226",
-     "unsignedTransactionBytes": "01166e01d4013c0057fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143...",
-     "transactionJSON": {
-      "senderPublicKey": "57fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143b473beec228f79ff93c",
-      "signature": "2041afc1687da2693ba092e33a84f665ad461e3b6762c18af61778261bc7e...",
-      "feeNQT": "100000000",
-      "type": 1,
-      "fullHash": "14a3eeb17cd4082db287259a768d32065d4cf5397ed6053fffa25e92a8a66ac7",
-      "version": 1,
-      "ecBlockId": "1612829598027150491",
-      "signatureHash": "d6f026cd8a883b5b6ff78a7d0121e4847eb6744b02757427de6d7ca0bf304226",
-      "attachment": {
-       "alias": "nextus",
-       "priceNQT": "5",
-       "version.AliasSell": 1
-      },
-      "senderRS": "BURST-L6FM-89WK-VK8P-FCRBB",
-      "subtype": 6,
-      "amountNQT": "0",
-      "sender": "15323192282528158131",
-      "recipientRS": "BURST-4VNQ-RWZC-4WWQ-GVM8S",
-      "recipient": "17013046603665206934",
-      "ecBlockHeight": 284050,
-      "deadline": 60,
-      "transaction": "3245077163546682132",
-      "timestamp": 30671214,
-      "height": 2147483647
-     },
-     "broadcasted": true,
-     "requestProcessingTime": 8515,
-     "transactionBytes": "01166e01d4013c0057fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143...",
-     "fullHash": "14a3eeb17cd4082db287259a768d32065d4cf5397ed6053fffa25e92a8a66ac7",
-     "transaction": "3245077163546682132"
-    }
-
-<small>*Verified 14-Nov-14*</small>
-
-### Set Alias
-
-**Request:**
-
-    http://localhost:8125/burst?
-      requestType=setAlias&
-      secretPhrase=IWontTellYou&
-      aliasName=iwonttellyou&
-      aliasURI=acct:nxt-l6fm-89wk-vk8p-fcrbb@nxt&
-      feeNQT=100000000&
-      deadline=60
-
-**Response:**
-
-    {
-     "signatureHash": "0dc7e07acef27fe86686cfabe2d1bd57c0c038f9465c3fe3d10f67932a97af10",
-     "unsignedTransactionBytes": "011135d0d3013c0057fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143...",
-     "transactionJSON": {
-      "senderPublicKey": "57fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143b473beec228f79ff93c",
-      "signature": "d92aefbab189b6e61f890c34b06a47e14a1a2b2ce868f77a4591d2067c51d...",
-      "feeNQT": "100000000",
-      "type": 1,
-      "fullHash": "53917acbf44109391609a9bb57832c0d5903301e3d2bd6ffcf45cf893480f5a1",
-      "version": 1,
-      "ecBlockId": "4181883296304410027",
-      "signatureHash": "0dc7e07acef27fe86686cfabe2d1bd57c0c038f9465c3fe3d10f67932a97af10",
-      "attachment": {
-       "alias": "iwonttellyou",
-       "version.AliasAssignment": 1,
-       "uri": "acct:nxt-l6fm-89wk-vk8p-fcrbb@nxt"
-      },
-      "senderRS": "BURST-L6FM-89WK-VK8P-FCRBB",
-      "subtype": 1,
-      "amountNQT": "0",
-      "sender": "15323192282528158131",
-      "ecBlockHeight": 283939,
-      "deadline": 60,
-      "transaction": "4109888654593921363",
-      "timestamp": 30658613,
-      "height": 2147483647
-     },
-     "broadcasted": true,
-     "requestProcessingTime": 8104,
-     "transactionBytes": "011135d0d3013c0057fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143b473...",
-     "fullHash": "53917acbf44109391609a9bb57832c0d5903301e3d2bd6ffcf45cf893480f5a1",
-     "transaction": "4109888654593921363"
-    }
-
-<small>*Verified 14-Nov-14*</small>
+``` json
+{
+    "signatureHash": "c59f26e0b40c306f5ecf0c222a51a83578a9f04165ff27d5f16a4f9f00fc63f7",
+    "unsignedTransactionBytes": "0111a2852d07180057fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143b473beec228f79ff93c0000000000000000000000000000000000e1f5050000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000b59807001e796dbbc7d6003c010a4170694578616d706c652500616363743a62757273742d6c36666d2d3839776b2d766b38702d6663726262406275727374",
+    "transactionJSON": {
+        "senderPublicKey": "57fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143b473beec228f79ff93c",
+        "signature": "c27bd8a00b7f8025f7d5054d855d019f939388b1bb52781d9e7d901a81da1a04c726069306f881c2676ae8445cb2bf943465ce32d7daa9fae97a02f597db50b1",
+        "feeNQT": "100000000",
+        "type": 1,
+        "fullHash": "ebe26aea6b9996886b245485f6a5005cbd9c4e2584211cf0c5fc16548db7ba29",
+        "version": 1,
+        "ecBlockId": "4323691795607025950",
+        "signatureHash": "c59f26e0b40c306f5ecf0c222a51a83578a9f04165ff27d5f16a4f9f00fc63f7",
+        "attachment": {
+            "alias": "ApiExample",
+            "version.AliasAssignment": 1,
+            "uri": "acct:burst-l6fm-89wk-vk8p-fcrbb@burst"
+        },
+        "senderRS": "BURST-L6FM-89WK-VK8P-FCRBB",
+        "subtype": 1,
+        "amountNQT": "0",
+        "sender": "15323192282528158131",
+        "ecBlockHeight": 497845,
+        "deadline": 24,
+        "transaction": "9842222724438221547",
+        "timestamp": 120423842,
+        "height": 2147483647
+    },
+    "broadcasted": true,
+    "requestProcessingTime": 11,
+    "transactionBytes": "0111a2852d07180057fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143b473beec228f79ff93c0000000000000000000000000000000000e1f505000000000000000000000000000000000000000000000000000000000000000000000000c27bd8a00b7f8025f7d5054d855d019f939388b1bb52781d9e7d901a81da1a04c726069306f881c2676ae8445cb2bf943465ce32d7daa9fae97a02f597db50b100000000b59807001e796dbbc7d6003c010a4170694578616d706c652500616363743a62757273742d6c36666d2d3839776b2d766b38702d6663726262406275727374",
+    "fullHash": "ebe26aea6b9996886b245485f6a5005cbd9c4e2584211cf0c5fc16548db7ba29",
+    "transaction": "9842222724438221547"
+}
+```
 
 ### Get Alias
 
