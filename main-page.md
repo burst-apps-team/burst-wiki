@@ -56,7 +56,6 @@
 -   [QR Codes for RS Address Format](qr-codes-for-rs-address-format.md)
 -   [Offline Transaction Signing](offline-transaction-signing.md)
 -   [How Transaction Processing Works](how-tx-processing-works.md)
--   [Exchange Integration](exchange-integration.md)
 
 </div>
 <div class="box_column">
@@ -89,6 +88,7 @@
 -   [FAQ](faq.md)
 -   Website Resources
     -   [General Information](https://www.burst-coin.org/)
+    -   [Information for Exchanges](https://www.burst-coin.org/information-for-exchanges)
     -   [Exchanges](exchanges.md)
     -   [Marketplace](http://x.burstnation.com/marketplace)
     -   [The Burstcoinist (News)](https://www.burstcoin.ist/)
