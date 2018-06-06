@@ -92,4 +92,7 @@ By default, the Asset Exchange does not list any asset. You will have therefore 
 
 Here are a few lists you can consult to obtain the IDs of the assets. Keep in mind more will appear, so this list is not exhaustive.
 
-<http://burstcoin.cc/asset> <https://explore.burst.cryptoguru.org/asset> Note: you can only add assets to the list if you are using the browser in normal mode. If you are in incognito (or equivalent) then any added list will disappear once you close the browser window.
+-   <http://burstcoin.cc/asset>
+-   <https://explore.burst.cryptoguru.org/asset>
+
+**Note**: you can only add assets to the list if you are using the browser in normal mode. If you are in incognito (or equivalent) then any added list will disappear once you close the browser window.
