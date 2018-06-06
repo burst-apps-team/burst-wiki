@@ -61,8 +61,8 @@ The mobile wallet for Android and iOS which provides the following features :
 
 **Platform** : Android
 
-Plotting Softwares
-------------------
+Plotting Software
+-----------------
 
 There are several plotting softwares that are designed for specific needs and specific hardwares.
 
@@ -118,7 +118,7 @@ TurboPlotter 9000 is a CPU/GPU PoC 1 + PoC 2 plotter and plot integrity checker.
 
 <img src="StableW.png" title="fig:StableW.png" alt="StableW.png" width="150" height="150" /><img src="DymaxionCW.png" title="fig:DymaxionCW.png" alt="DymaxionCW.png" width="150" height="150" /><img src="POC1W.png" title="fig:POC1W.png" alt="POC1W.png" width="150" height="150" /><img src="POC2W.png" title="fig:POC2W.png" alt="POC2W.png" width="150" height="150" />
 
-The CryptoGuru Optimized BURSTcoin Plotter is a BURST plotter that generates optimized plot files without the need to run an optimizer after plotting.
+The CryptoGuru Optimized BURSTcoin Plotter is a BURST plotter that generates optimized plot files without the need to run an optimizer after plotting. For PoC2 plotting, use the PoC2 branch! <https://github.com/PoC-Consortium/cg_obup/tree/PoC2>
 
 It is intended to work on any UNIX system
 
