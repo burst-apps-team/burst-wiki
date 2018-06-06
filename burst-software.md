@@ -55,9 +55,9 @@ The mobile wallet for Android and iOS which provides the following features :
 -   Support for over 15 languages
 -   Support for over 30 currencies
 
-**Main Dev** : PoC-Consortium
+**Main Dev** : PoC-Consortium (lead dev: @cgb)
 
-**Download link** : https://play.google.com/store/apps/details?id=org.icewave.burstcoinwallet
+**Download link** : https://play.google.com/store/apps/developer?id=PoC+Consortium
 
 **Platform** : Android
 
