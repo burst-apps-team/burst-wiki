@@ -542,7 +542,7 @@ Alias Operations <img src="Verified.png" title="fig:Verified.png" alt="Verified.
 Arbitrary Message System Operations
 -----------------------------------
 
-### Decrypt From
+### Decrypt From <img src="Invalid.png" title="fig:Invalid.png" alt="Invalid.png" width="35" height="35" />
 
 **Request:**
 
@@ -560,9 +560,7 @@ Arbitrary Message System Operations
      "requestProcessingTime": 2
     }
 
-<small>*Verified 11-Nov-14*</small>
-
-### Encrypt To
+### Encrypt To <img src="Invalid.png" title="fig:Invalid.png" alt="Invalid.png" width="35" height="35" />
 
 **Request:**
 
@@ -579,8 +577,6 @@ Arbitrary Message System Operations
      "requestProcessingTime": 48,
      "nonce": "7f3c9082c73a7bd825aa48d23fc138fd05a466700ff9fc3a040bbb29d3a60ee1"
     }
-
-<small>*Verified 11-Nov-14*</small>
 
 ### Read Message
 
