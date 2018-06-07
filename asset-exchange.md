@@ -96,3 +96,28 @@ Here are a few lists you can consult to obtain the IDs of the assets. Keep in mi
 -   <https://explore.burst.cryptoguru.org/asset>
 
 **Note**: you can only add assets to the list if you are using the browser in normal mode. If you are in incognito (or equivalent) then any added list will disappear once you close the browser window.
+
+<img src="Asset_Exchange.png" title="Asset_Exchange.png" alt="Asset_Exchange.png" width="1643" height="1643" />
+
+This is the main menu for the Asset Exchange, it is fundamentally organized in two areas.
+
+-   a list with all the assets you are tracking
+-   an interface that allows to interact with these assets
+
+If you own tokens for an asset, it will appear in yellow on the side list.
+
+By selecting an asset, the interface area will automatically display the corresponding information. This includes the amount of tokens that have been created (“quantity”), how divisible is the token (“asset decimals”), a brief description of the asset, who created the asset (“account”) and the asset identifier (“asset ID”). These informations are crucial, in fact the asset names are **non-unique**. What this means is that there can be multiple assets that have the same name.
+
+The cost of issuing an asset (1000 BURST) should discourage people from spamming the exchange with assets whose only purpose is confusion and abuse. Without entering this worst-case scenario, it is reasonable to assume that perfectly legit users may create assets of the same name. Therefore a good degree of vigilance before buying is always beneficial.
+
+In order to buy an asset, follow these simple steps:
+
+1.  Select the asset from the list.
+2.  Click on “Buy *\*Asset Name\** with BURST”
+3.  Quantity: define how many assets you are interested in buying.
+4.  Price: set how much you are willing to pay.
+    1.  Warnng: “price” refers to the cost of a unit of tokens. So, by entering 10, you are willing to pay 10 BURST per token.
+5.  Fee: define the fee, the minimum is 1 BURST.
+6.  Press buy.
+7.  It will ask you for your passphrase and finally press buy asset.
+
