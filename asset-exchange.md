@@ -1,7 +1,6 @@
 | Burst Asset Exchange |
 |----------------------|
 | **Status**           |
-||
 
 Table Of Contents
 -----------------
@@ -97,7 +96,7 @@ Here are a few lists you can consult to obtain the IDs of the assets. Keep in mi
 
 **Note**: you can only add assets to the list if you are using the browser in normal mode. If you are in incognito (or equivalent) then any added list will disappear once you close the browser window.
 
-<img src="Asset_Exchange.png" title="Asset_Exchange.png" alt="Asset_Exchange.png" width="1643" height="1643" />
+<img src="Asset_Exchange.png" title="Asset_Exchange.png" alt="Asset_Exchange.png" width="1654" height="1654" />
 
 This is the main menu for the Asset Exchange, it is fundamentally organized in two areas.
 
@@ -144,9 +143,7 @@ Specify the amount of assets you wish to transfer.
 
 *Mandatory*: this field is mandatory.
 
-*Limits*: there is no upper limit, you can transfer all your assets. The minimum amount you can transfer depends on the nature of the asset. In particular it depends on what has been defined as decimals.
-
-For 0 decimals, the minimum would be 1 token. For 1 decimal, it would be 0.1 tokens and so on.
+*Limits*: there is no upper limit, you can transfer all your assets. The minimum amount you can transfer depends on the nature of the asset. In particular it depends on what has been defined as decimals. For 0 decimals, the minimum would be 1 token. For 1 decimal, it would be 0.1 tokens and so on.
 
 **ADD MESSAGE**
 
@@ -162,7 +159,7 @@ Set the fee you are willing to pay for the transaction.
 
 *Mandatory*: this field is mandatory.
 
-*Limits*: there is no upper limit. However the minimum fee is 1 NXT.
+*Limits*: there is no upper limit. However the minimum fee is 1 BRUST.
 
 **DEADLINE**
 
@@ -177,3 +174,66 @@ Expressed in hours
 Enter your passphrase.
 
 *Mandatory*: this field is mandatory.
+
+### Open Orders menu
+
+Under this menu you can see all your orders that are currently open. <img src="Open_Orders.png" title="fig:Open_Orders.png" alt="Open_Orders.png" width="1654" height="1654" /> **What to keep in mind:**
+
+-   You can cancel any order you made. *However*
+    -   The process is not instantaneous. Your cancel order is broadcasted to the network, it may happen that your order gets accepted before you can manage to cancel it.
+    -   The process of canceling an order is a transaction, meaning it involves a fee of 1 BURST.
+    -   An order in the process of being canceled will appear in red under your Open Orders menu.
+
+### Issue Asset menu
+
+Under this menu, you can issue assets yourself. These will be publicly available on the Asset Exchange where they can be traded for BURST and vice-versa.
+
+The following window will pop up:
+
+**NOTE: as the warning mentions, when you issue your asset you will not be able to modify any of the fields, ever. Reason why it is imperative to make sure all the information entered is correct.** <img src="Issue_Asset.png" title="fig:Issue_Asset.png" alt="Issue_Asset.png" width="427" height="427" /> **ASSET NAME**
+
+The name of the asset you intend to issue. This is also the name announced to other traders, allowing them to find this asset.
+
+*Mandatory*: you cannot issue an unnamed asset. Names are non-unique: multiple assets can be issued with the same name.
+
+*Note*: for this reason, pay attention to what you are buying or selling!
+
+*Length*: between 3 and 10 characters.
+
+*Characters allowed*: uppercase letters, lowercase letters and numbers.
+
+**DESCRIPTION**
+
+In this field you can briefly describe the asset being issued.
+
+*Mandatory*: this field is mandatory.
+
+*Characters allowed*: it can contain any Unicode characters but should be URL-encoded. Maximum length of 1000 characters.
+
+**QUANTITY**
+
+Specify how many tokens you intend to create.
+
+*Mandatory*: this field is mandatory. Must be a whole number
+
+**DECIMALS**
+
+This field defines the divisibility of the token. As an example, by defining 2 decimals, the minimum amount of tokens you can sell or buy is 0.01.
+
+*Mandatory*: this field is mandatory.
+
+*Limits*: you can set from 0 to, at most, 8 decimals. The latter corresponds to the minimum of 0.00000001 tokens.
+
+**FEE**
+
+Define the fee related to issuing the asset. To avoid spam on the Asset Exchange, 1000 BURST are the minimum required to issue an asset.
+
+*Mandatory*: this field is mandatory.
+
+**PASSPHRASE**
+
+The asset belongs to the person issuing it. Therefore it is required to enter your own passphrase. It will not be broadcasted.
+
+*Mandatory*: this field is mandatory.
+
+*Note*: assets belong to the person that creates them, but they can be bought, sold and transfered.
