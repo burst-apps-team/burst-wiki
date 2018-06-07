@@ -27,3 +27,7 @@ Burst will soon be listed (confirmed) on the following exchange :
 
 -   <https://www.cryptaldash.com/>: BTC
 
+Information for Exchanges to List Burstcoin
+-------------------------------------------
+
+<https://www.burst-coin.org/information-for-exchanges>
