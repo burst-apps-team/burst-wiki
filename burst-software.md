@@ -234,3 +234,23 @@ Poc1to2Converter converts PoC1 plots to POC2 plots in Windows.
 **Download link** : <https://github.com/JohnnyFFM/Poc1to2Converter/releases/latest>
 
 **Platform** : Windows
+
+### Burstcoin Explorer
+
+<img src="StableW.png" title="fig:StableW.png" alt="StableW.png" width="150" height="150" /><img src="DymaxionCW.png" title="fig:DymaxionCW.png" alt="DymaxionCW.png" width="150" height="150" />
+
+Burstcoin explorer is a block explorer for the Burstcoin network
+
+Features include:
+
+-   Search for and view blocks, accounts and transactions
+-   Keep a list of accounts you are watching
+-   Keep an eye on the current Burst price, both in BTC and USD
+-   Observe the current status of the Burstcoin Network
+-   Countdown upcoming events such as the Pre-Dymaxion Hard Fork
+
+**Main Dev** : harry1453
+
+**Download link** : <https://github.com/harry1453/burstcoin-explorer-android/releases/latest>
+
+**Platform** : Android
