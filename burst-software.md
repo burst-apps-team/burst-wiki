@@ -213,7 +213,7 @@ Other tools
 
 ### TurboSwizzler
 
-<img src="UnderReviewW.png" title="fig:UnderReviewW.png" alt="UnderReviewW.png" width="150" height="150" /><img src="POC1W.png" title="fig:POC1W.png" alt="POC1W.png" width="150" height="150" /><img src="POC2W.png" title="fig:POC2W.png" alt="POC2W.png" width="150" height="150" />
+<img src="StableW.png" title="fig:StableW.png" alt="StableW.png" width="150" height="150" /><img src="POC1W.png" title="fig:POC1W.png" alt="POC1W.png" width="150" height="150" /><img src="POC2W.png" title="fig:POC2W.png" alt="POC2W.png" width="150" height="150" />
 
 TurboSwizzler is a PoC1-&gt;PoC2 format. Currently supports drive to drive mode with plot merging.
 
