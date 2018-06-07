@@ -10,9 +10,9 @@ Burst can be traded on the following exchanges against the given other currencie
 | Name                                                             | Currencies                        | HF1 Support |
 |------------------------------------------------------------------|-----------------------------------|-------------|
 | [Bittrex](https://bittrex.com/Market/Index?MarketName=BTC-burst) | BTC                               | Confirmed   |
-| [Poloniex](https://poloniex.com/exchange#btc_burst)              | BTC                               | Confirmed   |
+| [Poloniex](https://poloniex.com/exchange#btc_burst)              | BTC                               | Unknown     |
 | [UPbit](https://upbit.com/exchange?code=CRIX.UPBIT.BTC-BURST)    | BTC                               | Confirmed   |
-| [Coinroom](https://www.coinroom.com)                             | USD, EUR, PLN, GBP                | Confirmed   |
+| [Coinroom](https://www.coinroom.com)                             | USD, EUR, PLN, GBP                | Unknown     |
 | [Livecoin](https://www.livecoin.net/)                            | BTC                               | Confirmed   |
 | [C-Cex](https://c-cex.com/?p=burst-btc)                          | BTC, USD, LTC                     | Unknown     |
 | [Indacoin](https://indacoin.com)                                 | USD, EUR, RUB (Visa & MasterCard) | Unknown     |
