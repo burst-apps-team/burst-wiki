@@ -283,8 +283,54 @@ Account Operations <img src="Verified.png" title="fig:Verified.png" alt="Verifie
 
 ``` json
 {
-    "unconfirmedTransactions": [],
-    "requestProcessingTime": 0
+    "unconfirmedTransactions": [
+        {
+            "senderPublicKey": "a61325eec9e83d7cac55544b8eca8ea8034559bafb5834b8a5d3b6d4efb85f12",
+            "signature": "5316c88b00f767d2bbe0cac07ae4f84b1fe75f002e24e9ce1c1a6b81d6821f09474a4db22db8461be85ac03f7c7df37fa007bd1aa72c34fc4be0e64b605bb2d6",
+            "feeNQT": "100000000",
+            "type": 1,
+            "fullHash": "480ae3eba6a4e445c692eacae605bfaecd060e91005f96b09d57647d3c5fcf25",
+            "version": 1,
+            "ecBlockId": "3371057862366354193",
+            "signatureHash": "d156bf1cdf9c8fce254a9ef3a7d47ed2f16a35ad94c8c625ec48a83fbda1b615",
+            "attachment": {
+                "name": "API-Examples2",
+                "description": "",
+                "version.AccountInfo": 1
+            },
+            "senderRS": "BURST-FRDJ-UPLH-MY9A-GUKQP",
+            "subtype": 5,
+            "amountNQT": "0",
+            "sender": "16922903237994405232",
+            "ecBlockHeight": 498894,
+            "deadline": 1440,
+            "transaction": "5036331320136108616",
+            "timestamp": 120675576,
+            "height": 498903
+        },
+        {
+            "senderPublicKey": "25cc2bb30ee7665737c9721090313c85176e485cd9a15495a0f3abc359d8d632",
+            "signature": "194bd83c8473d5bfef972e50efde4699db401d9097dcb68eaa898042d5022c0a1e64d551e20d6f49402d34f930317577f90152949485f8515d8b89e5bbbf45c0",
+            "feeNQT": "100000000",
+            "type": 0,
+            "fullHash": "0c53db6986e2ba38119354158128e60f23a749fec0acf893ff3ca2de22176df0",
+            "version": 1,
+            "ecBlockId": "3371057862366354193",
+            "signatureHash": "3b1b88980766b041165a55c622a6eea4b08bb628eab95e3016c19838fda6c112",
+            "senderRS": "BURST-HKML-NRG6-VBRA-2F8PS",
+            "subtype": 0,
+            "amountNQT": "10013275142",
+            "sender": "888561138747819634",
+            "recipientRS": "BURST-WXWK-MD2A-KXJL-HR27T",
+            "recipient": "18200197947533981585",
+            "ecBlockHeight": 498894,
+            "deadline": 1440,
+            "transaction": "4087828678721622796",
+            "timestamp": 120675589,
+            "height": 498903
+        },
+    ],
+    "requestProcessingTime": 1
 }
 ```
 
@@ -295,7 +341,7 @@ Account Operations <img src="Verified.png" title="fig:Verified.png" alt="Verifie
 ``` json
 {
     "signatureHash": "b6bb90bac0d529d9ebc6771089f389c976db2a67d76867f7c9d2e1b90e00358a",
-    "unsignedTransactionBytes": "001092812d07180057fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143b473beec228f79ff93cae2527ec7e55f1eb00e1f5050000000000e1f5050000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000b1980700c84804f7e103aee6",
+    "unsignedTransactionBytes": "001092812d07180057fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143b473beec228f79ff93cae2527ec7e55f1eb00e1f5050000000000e1f505*",
     "transactionJSON": {
         "senderPublicKey": "57fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143b473beec228f79ff93c",
         "signature": "3b709a56a9a2308b2364cdb260cc8b08126b8ed13cfe891aa817c28760b0e90f108680db998938fd4747390a0ed9b3b3e25674b849e583dce011155f95ecaa3a",
@@ -319,7 +365,7 @@ Account Operations <img src="Verified.png" title="fig:Verified.png" alt="Verifie
     },
     "broadcasted": true,
     "requestProcessingTime": 4,
-    "transactionBytes": "001092812d07180057fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143b473beec228f79ff93cae2527ec7e55f1eb00e1f5050000000000e1f5050000000000000000000000000000000000000000000000000000000000000000000000003b709a56a9a2308b2364cdb260cc8b08126b8ed13cfe891aa817c28760b0e90f108680db998938fd4747390a0ed9b3b3e25674b849e583dce011155f95ecaa3a00000000b1980700c84804f7e103aee6",
+    "transactionBytes": "001092812d07180057fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143b473beec228f79ff93cae2527ec7e55f1eb00e1f5050000000000e1f505*",
     "fullHash": "808d5c32b12f4d4b963404c19523b6391ddf7a04a96ec4a495703aeead76c6ff",
     "transaction": "5426045564151958912"
 }
@@ -332,7 +378,7 @@ Account Operations <img src="Verified.png" title="fig:Verified.png" alt="Verifie
 ``` json
 {
     "signatureHash": "00e5694c213c978045fc32125092a1f3b16e6c5bf4d1d24c51005466be29f14b",
-    "unsignedTransactionBytes": "0115c1832d07180057fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143b473beec228f79ff93c0000000000000000000000000000000000e1f5050000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000b49807008c0df4f2844c9541010c4150492d4578616d706c65730000",
+    "unsignedTransactionBytes": "0115c1832d07180057fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143b473beec228f79ff93c0000000000000000000000000000000000e1f505*",
     "transactionJSON": {
         "senderPublicKey": "57fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143b473beec228f79ff93c",
         "signature": "9b2634d7f439bf0c71341511a3efb202f744ec7f1b60673d07965bb297b4060d27bed164bf2611b738da1df34cd15a44458bfed2f6e78c94707af11da46f5044",
@@ -359,18 +405,56 @@ Account Operations <img src="Verified.png" title="fig:Verified.png" alt="Verifie
     },
     "broadcasted": true,
     "requestProcessingTime": 9,
-    "transactionBytes": "0115c1832d07180057fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143b473beec228f79ff93c0000000000000000000000000000000000e1f5050000000000000000000000000000000000000000000000000000000000000000000000009b2634d7f439bf0c71341511a3efb202f744ec7f1b60673d07965bb297b4060d27bed164bf2611b738da1df34cd15a44458bfed2f6e78c94707af11da46f504400000000b49807008c0df4f2844c9541010c4150492d4578616d706c65730000",
+    "transactionBytes": "0115c1832d07180057fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143b473beec228f79ff93c0000000000000000000000000000000000e1f505*",
     "fullHash": "7ace7428ff55c4c5963d828f0cd210be4c988b482b2930b73c80c7fe55c19af5",
     "transaction": "14250609675290857082"
 }
 ```
 
-Alias Operations
-----------------
+Alias Operations <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+--------------------------------------------------------------------------------------------------------------
 
-### Buy / Sell Alias
+### Buy / Sell Alias <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 
 **Response:**
+
+``` json
+{
+    "signatureHash": "952eea5e0eb67f1ec78abfab60edcde55f477ae8dcf8f620077783532217c329",
+    "unsignedTransactionBytes": "0116a16031071800a61325eec9e83d7cac55544b8eca8ea8034559bafb5834b8a5d3b6d4efb85f12ae2527ec7e55f1eb000000000000000000e1f505*",
+    "transactionJSON": {
+        "senderPublicKey": "a61325eec9e83d7cac55544b8eca8ea8034559bafb5834b8a5d3b6d4efb85f12",
+        "signature": "6ce34c1f9a73ce7c375b9a0eeec1942f9932ecd6e34f8b5c9358a501007cf709fe26a2f205be7180af0cca753f89c648b6a1481bce7ed1e8b91dcbb8a0e7f0ce",
+        "feeNQT": "100000000",
+        "type": 1,
+        "fullHash": "2d923132c2cd045c7c8d901b261ab237dbac7ebd50d3f7c549e601c8cc0f1cf9",
+        "version": 1,
+        "ecBlockId": "6797965034232082546",
+        "signatureHash": "952eea5e0eb67f1ec78abfab60edcde55f477ae8dcf8f620077783532217c329",
+        "attachment": {
+            "alias": "AliasTestSell",
+            "priceNQT": "1",
+            "version.AliasSell": 1
+        },
+        "senderRS": "BURST-FRDJ-UPLH-MY9A-GUKQP",
+        "subtype": 6,
+        "amountNQT": "0",
+        "sender": "16922903237994405232",
+        "recipientRS": "BURST-GBFG-HVQ4-8AMM-GPCWR",
+        "recipient": "17001464071916561838",
+        "ecBlockHeight": 498897,
+        "deadline": 24,
+        "transaction": "6630650785345671725",
+        "timestamp": 120676513,
+        "height": 2147483647
+    },
+    "broadcasted": true,
+    "requestProcessingTime": 7,
+    "transactionBytes": "0116a16031071800a61325eec9e83d7cac55544b8eca8ea8034559bafb5834b8a5d3b6d4efb85f12ae2527ec7e55f1eb000000000000000000e1f505*",
+    "fullHash": "2d923132c2cd045c7c8d901b261ab237dbac7ebd50d3f7c549e601c8cc0f1cf9",
+    "transaction": "6630650785345671725"
+}
+```
 
 ### Set Alias <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 
@@ -379,7 +463,7 @@ Alias Operations
 ``` json
 {
     "signatureHash": "c59f26e0b40c306f5ecf0c222a51a83578a9f04165ff27d5f16a4f9f00fc63f7",
-    "unsignedTransactionBytes": "0111a2852d07180057fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143b473beec228f79ff93c0000000000000000000000000000000000e1f5050000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000b59807001e796dbbc7d6003c010a4170694578616d706c652500616363743a62757273742d6c36666d2d3839776b2d766b38702d6663726262406275727374",
+    "unsignedTransactionBytes": "0111a2852d07180057fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143b473beec228f79ff93c0000000000000000000000000000000000e1f505*",
     "transactionJSON": {
         "senderPublicKey": "57fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143b473beec228f79ff93c",
         "signature": "c27bd8a00b7f8025f7d5054d855d019f939388b1bb52781d9e7d901a81da1a04c726069306f881c2676ae8445cb2bf943465ce32d7daa9fae97a02f597db50b1",
@@ -406,60 +490,54 @@ Alias Operations
     },
     "broadcasted": true,
     "requestProcessingTime": 11,
-    "transactionBytes": "0111a2852d07180057fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143b473beec228f79ff93c0000000000000000000000000000000000e1f505000000000000000000000000000000000000000000000000000000000000000000000000c27bd8a00b7f8025f7d5054d855d019f939388b1bb52781d9e7d901a81da1a04c726069306f881c2676ae8445cb2bf943465ce32d7daa9fae97a02f597db50b100000000b59807001e796dbbc7d6003c010a4170694578616d706c652500616363743a62757273742d6c36666d2d3839776b2d766b38702d6663726262406275727374",
-    "fullHash": "ebe26aea6b9996886b245485f6a5005cbd9c4e2584211cf0c5fc16548db7ba29",
+    "transactionBytes": "0111a2852d07180057fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143b473beec228f79ff93c0000000000000000000000000000000000e1f505*",
     "transaction": "9842222724438221547"
 }
 ```
 
-### Get Alias
-
-**Request:**
-
-    https://localhost:7876/nxt?
-      requestType=getAlias&
-      alias=15515279700680480368
+### Get Alias <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 
 **Response:**
 
-    {
-     "aliasURI": "http:\/\/google.com",
-     "aliasName": "google",
-     "accountRS": "BURST-FLVS-VRBV-LDPD-6DZ9W",
-     "alias": "15515279700680480368",
-     "requestProcessingTime": 1,
-     "account": "5629477397208681336",
-     "timestamp": 2409343
-    }
+``` json
+{
+    "aliasURI": "acct:burst-frdj-uplh-my9a-gukqp@burst",
+    "aliasName": "AliasTestSell",
+    "accountRS": "BURST-FRDJ-UPLH-MY9A-GUKQP",
+    "alias": "5747297803058313219",
+    "requestProcessingTime": 1,
+    "account": "16922903237994405232",
+    "timestamp": 120675864
+}
+```
 
-<small>*Verified 14-Nov-14*</small>
-
-### Get Aliases
-
-**Request:**
-
-    https://localhost:7876/nxt?
-      requestType=getAliases&
-      account=5629477397208681336&
-      lastIndex=1
+### Get Aliases <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 
 **Response:**
 
-    {
-     "aliases": [
-      {
-       "aliasURI": "",
-       "aliasName": "101",
-       "accountRS": "BURST-FLVS-VRBV-LDPD-6DZ9W",
-       "alias": "8952438483248557843",
-       "account": "5629477397208681336",
-       "timestamp": 2409893
-      }
-     ],
-     "requestProcessingTime": 1
-    }
-
-<small>*Verified 14-Nov-14*</small>
+``` json
+{
+    "aliases": [
+        {
+            "aliasURI": "acct:burst-frdj-uplh-my9a-gukqp@burst",
+            "aliasName": "AliasTestBuy",
+            "accountRS": "BURST-FRDJ-UPLH-MY9A-GUKQP",
+            "alias": "17197436179114898263",
+            "account": "16922903237994405232",
+            "timestamp": 120676320
+        },
+        {
+            "aliasURI": "acct:burst-frdj-uplh-my9a-gukqp@burst",
+            "aliasName": "AliasTestSell",
+            "accountRS": "BURST-FRDJ-UPLH-MY9A-GUKQP",
+            "alias": "5747297803058313219",
+            "account": "16922903237994405232",
+            "timestamp": 120675864
+        }
+    ],
+    "requestProcessingTime": 2
+}
+```
 
 Arbitrary Message System Operations
 -----------------------------------
