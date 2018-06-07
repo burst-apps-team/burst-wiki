@@ -121,3 +121,59 @@ In order to buy an asset, follow these simple steps:
 6.  Press buy.
 7.  It will ask you for your passphrase and finally press buy asset.
 
+### My Assets menu
+
+In this menu all your confirmed assets will be displayed, this includes the assets you issued and those you obtained through trading. <img src="My_Assets.png" title="fig:My_Assets.png" alt="My_Assets.png" width="1654" height="1654" /> Assets are also transferable, the procedure is very simple:
+
+1.  Under ***My Assets***, find the asset you wish to transfer.
+2.  Click *transfer*.
+3.  Type the recipient
+4.  Select the quantity of asset you want to send
+5.  Add a message with the transfer if you want.
+6.  Complete the fields as follows.
+
+<img src="Transfer_Asset.png" title="fig:Transfer Asset Box" alt="Transfer Asset Box" width="392" height="392" /> **RECIPIENT**
+
+The account you wish to transfer the assets to.
+
+*Mandatory*: this field is mandatory.
+
+**QUANTITY**
+
+Specify the amount of assets you wish to transfer.
+
+*Mandatory*: this field is mandatory.
+
+*Limits*: there is no upper limit, you can transfer all your assets. The minimum amount you can transfer depends on the nature of the asset. In particular it depends on what has been defined as decimals.
+
+For 0 decimals, the minimum would be 1 token. For 1 decimal, it would be 0.1 tokens and so on.
+
+**ADD MESSAGE**
+
+You can attach a brief message to the transfer.
+
+*Optional*: this field is optional.
+
+*Characters allowed*: it can contain any Unicode characters but should be URL-encoded. Maximum length of 1000 characters.
+
+**FEE**
+
+Set the fee you are willing to pay for the transaction.
+
+*Mandatory*: this field is mandatory.
+
+*Limits*: there is no upper limit. However the minimum fee is 1 NXT.
+
+**DEADLINE**
+
+Set how long you are willing to wait before the request gets automatically deleted.
+
+*Mandatory*: this field is mandatory.
+
+Expressed in hours
+
+**SECRET PASSPHRASE**
+
+Enter your passphrase.
+
+*Mandatory*: this field is mandatory.
