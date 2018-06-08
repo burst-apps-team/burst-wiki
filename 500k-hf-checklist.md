@@ -54,7 +54,7 @@ It is assumed you know what PoC1 and PoC2 is, how they differ, what optimized pl
 For Miners: PoC2 Switch @ 502k
 ------------------------------
 
-The release of BRS 2.2.0 will contain everything needed for enabling all of the Pre-Dymaxion hard fork features:
+The release of BRS 2.2.x will contain everything needed for enabling all of the Pre-Dymaxion hard fork features:
 
 -   MultiOut/MultiOutSame transactions
 -   4-fold block capacity increase
