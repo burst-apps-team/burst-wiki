@@ -20,8 +20,8 @@ It is assumed you know what PoC1 and PoC2 is, how they differ, what optimized pl
 -   Make sure all your PoC1 plots are optimized
 -   Check the [Burst\_Software](burst-software.md) page for the latest info on Burst software
 -   Get a PoC1 to PoC2 plot converter
--   There are several miners capable of mining PoC2 files before the PoC2 switch and also PoC1 files after the PoC2 switch. Using this software is probably the best way to avoid **any** mining downtime.
--   However, PoC2 plots **before** the switch will give you only 50% read speed (with jminer, nonfunctional with anything else), so will PoC1 plots **after** the switch. You want to find a good strategy when to convert which of your plots for maximum performance.
+-   There are several miners such as jminer capable of mining PoC2 files before the PoC2 switch and also PoC1 files after the PoC2 switch. Using this software is probably the best way to avoid **any** mining downtime.
+-   However, PoC2 plots **before** the switch will give you only 50% read speed (with jminer, etc. -- nonfunctional with anything else), so will PoC1 plots **after** the switch. You want to find a good strategy when to convert which of your plots for maximum performance.
 -   read below the “PoC2 Switch @ 502k”
 
 ### For Hodlers/Investors
