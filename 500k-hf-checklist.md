@@ -8,7 +8,7 @@ It is assumed you know what PoC1 and PoC2 is, how they differ, what optimized pl
 ### What To Do \*\*Now\*\* that  is released? (Everyone)
 
 -   Make sure you have a current version of the wallet
--   Make sure you shut down all instances of pre- wallets, especially 1.2.9 or 1.3.6cg. These are **obsolete**.
+-   Make sure you shut down all instances of pre- wallets, especially 1.2.9 or 1.3.6cg. These are **obsolete** and will no longer function after the fork.
 
 <!-- -->
 
@@ -38,8 +38,7 @@ It is assumed you know what PoC1 and PoC2 is, how they differ, what optimized pl
 
 ### For Exchanges
 
--   Update to or greater **now** - if you use anything older you risk complications for your users as well as security issues.
--   Upgrade to ASAP, the upgrade path from should be a fairly easy one
+-   Update to **now** - anything less than will soon cease to function
 
 ### For Developers
 
@@ -54,7 +53,7 @@ It is assumed you know what PoC1 and PoC2 is, how they differ, what optimized pl
 For Miners: PoC2 Switch @ 502k
 ------------------------------
 
-The release of BRS 2.2.x will contain everything needed for enabling all of the Pre-Dymaxion hard fork features:
+The release of will contain everything needed for enabling all of the Pre-Dymaxion hard fork features:
 
 -   MultiOut/MultiOutSame transactions
 -   4-fold block capacity increase
