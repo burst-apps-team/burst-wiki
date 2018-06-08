@@ -5,15 +5,15 @@ Disclaimer: A checklist is used by qualified personnel. I.e. pre-flight checklis
 
 It is assumed you know what PoC1 and PoC2 is, how they differ, what optimized plots are, where you find various Burst software, how to update it, which pools support PoC2 etc. If you do not know this, you will not find the information here.
 
-### What To Do \*\*Now\*\* that BRS 2.2.x is released? (Everyone)
+### What To Do \*\*Now\*\* that  is released? (Everyone)
 
--   Make sure you have a current version of the BRS 2.2.x wallet, probably 2.2.1
--   Make sure you shut down all instances of pre-2.0 wallets, especially 1.2.9 or 1.3.6cg. These are **obsolete**.
+-   Make sure you have a current version of the wallet
+-   Make sure you shut down all instances of pre- wallets, especially 1.2.9 or 1.3.6cg. These are **obsolete**.
 
 <!-- -->
 
 -   Never panic. There is nothing in the upcoming HF that would make you lose your funds. Worst case if you use the wrong wallet: your funds may be temporarily inaccessible.
--   You do **not** want to have a BRS 2.1.x version, unless you are a developer and/or are testing on TestNet
+-   You do **not** want to have a non-release BRS version, unless you are a developer and/or are testing on TestNet
 
 ### For Miners
 
@@ -33,13 +33,13 @@ It is assumed you know what PoC1 and PoC2 is, how they differ, what optimized pl
 
 ### For Pool Operators
 
--   Make sure your pool and your back-end wallet(s) can switch to PoC2 mining at block height 502 000. (The BRS 2.2.0 wallet can do this, as can the PoCC pool software)
+-   Make sure your pool and your back-end wallet(s) can switch to PoC2 mining at block height 502 000. (The wallet can do this, as can the PoCC pool software)
 -   You might want to have a look at Multi-Out payments, because they are ideal to perform payouts to your miners after the 500 000 hard fork.
 
 ### For Exchanges
 
--   Update to BRS 2.0.4 **now** - if you use anything older you risk complications for your users as well as security issues.
--   Upgrade to BRS 2.2.0 when released, the upgrade path from 2.0.4 to 2.2.0 should be a fairly easy one
+-   Update to or greater **now** - if you use anything older you risk complications for your users as well as security issues.
+-   Upgrade to when released, the upgrade path from should be a fairly easy one
 
 ### For Developers
 
