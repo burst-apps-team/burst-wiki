@@ -39,7 +39,7 @@ It is assumed you know what PoC1 and PoC2 is, how they differ, what optimized pl
 ### For Exchanges
 
 -   Update to or greater **now** - if you use anything older you risk complications for your users as well as security issues.
--   Upgrade to when released, the upgrade path from should be a fairly easy one
+-   Upgrade to ASAP, the upgrade path from should be a fairly easy one
 
 ### For Developers
 
