@@ -5,22 +5,21 @@ Disclaimer: A checklist is used by qualified personnel. I.e. pre-flight checklis
 
 It is assumed you know what PoC1 and PoC2 is, how they differ, what optimized plots are, where you find various Burst software, how to update it, which pools support PoC2 etc. If you do not know this, you will not find the information here.
 
-### What To Do \*\*Now\*\*? (Everyone)
+### What To Do \*\*Now\*\* that BRS 2.2.x is released? (Everyone)
 
--   Make sure you have a current version of the BRS 2.0.x wallet, probably 2.0.4
--   You do **not** want to have a BRS 2.1.x version, except you are a developer and/or are testing on TestNet
+-   Make sure you have a current version of the BRS 2.2.x wallet, probably 2.2.1
 -   Make sure you shut down all instances of pre-2.0 wallets, especially 1.2.9 or 1.3.6cg. These are **obsolete**.
 
-### What To Do When BRS 2.2.0 is released? (Everyone)
+<!-- -->
 
--   Update to BRS 2.2.0 - obviously. Easy update path if you are already running BRS 2.0.4.
--   Never panic. There is nothing in the upcoming HF that would make you lose your funds. Worst case if you use the wrong wallet: Your funds may be temporarily inacessible.
+-   Never panic. There is nothing in the upcoming HF that would make you lose your funds. Worst case if you use the wrong wallet: your funds may be temporarily inaccessible.
+-   You do **not** want to have a BRS 2.1.x version, unless you are a developer and/or are testing on TestNet
 
 ### For Miners
 
 -   Make sure all your PoC1 plots are optimized
 -   Get a PoC1 to PoC2 converter
--   Newest jminer is allegedly capable of mining PoC2 files before the PoC2 switch and also PoC1 files after the PoC2 switch. This is probably the best software to avoid **any** mining downtime.
+-   Check the \[Burst\_Software\] page for miners capable of mining PoC2 files before the PoC2 switch and also PoC1 files after the PoC2 switch. This is probably the best software to avoid **any** mining downtime.
 -   However, PoC2 plots **before** the switch will give you only 50% read speed (with jminer, nonfunctional with anything else), so will PoC1 plots **after** the switch. You want to find a good strategy when to convert which of your plots for maximum performance.
 -   read below the “PoC2 Switch @ 502k”
 
