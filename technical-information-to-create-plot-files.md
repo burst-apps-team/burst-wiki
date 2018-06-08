@@ -1,3 +1,14 @@
+| Technical information to create plot files |
+|--------------------------------------------|
+| **Status**                                 |
+| **PoC Version**                            |
+| **Credits**                                |
+
+Table Of Contents
+=================
+
+\_\_TOC\_\_
+
 Introduction
 ============
 
@@ -87,7 +98,3 @@ Filenames
 Since a plot file only contains raw data there is no headers in the files. All information needed for a user and miner is set in the filenames. The formatting of the filename is as follows.
 
     AccountID_StartingNonce_NrOfNonces_Stagger
-
-------------------------------------------------------------------------
-
-This information is written by community member @Quibus 2017-10-13
