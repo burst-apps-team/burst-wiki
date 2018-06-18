@@ -2455,220 +2455,154 @@ Token Operations
 Transaction Operations
 ----------------------
 
-### Broadcast Transaction
-
-**Request:**
-
-    http://localhost:8125/burst?
-      requestType=broadcastTransaction&
-      transactionBytes=001046aac6013c0057fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143...
+### Broadcast Transaction <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 
 **Response:**
 
-    {
-     "requestProcessingTime": 4,
-     "fullHash": "3a304584f20cf3d2cbbdd9698ff9a166427005ab98fbe9ca4ad6253651ee81f1",
-     "transaction": "15200507403046301754"
-    }
+``` json
+{
+    "requestProcessingTime": 4,
+    "fullHash": "d663f7fe8bf215906b29838ade5d860b2229188acea7827a737d823253b488db",
+    "transaction": "10382471199064548310"
+}
+```
 
 **Note**: If the transaction has already been broadcast, the following INFO notice appears in the console output and log file: *Transaction 15200507403046301754 already in blockchain (or unconfirmed pool), will not broadcast again*.
 
-<small>*Verified 6-Nov-14*</small>
-
-### Calculate Full Hash
-
-**Request:**
-
-    http://localhost:8125/burst?
-      requestType=calculateFullHash&
-      unsignedTransactionBytes=001046aac6013c0057fb6f3a958e320bb49c4e81b4c2cf28b9f2...&
-      signatureHash=b35eae7d2f01639810d37694138aa0a86fbbf8a9bf58c2be4f2a5b8f0f30b3f7
+### Calculate Full Hash <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 
 **Response:**
 
-    {
-     "requestProcessingTime": 1,
-     "fullHash": "3a304584f20cf3d2cbbdd9698ff9a166427005ab98fbe9ca4ad6253651ee81f1"
-    }
+``` json
+{
+    "requestProcessingTime": 0,
+    "fullHash": "a8035211b0fb38415509ca451feee44787598462e7bc608affb8e7b2a1f81d05"
+}
+```
 
-<small>*Verified 6-Nov-14*</small>
-
-### Get Transaction
-
-**Request:**
-
-    http://localhost:8125/burst?
-      requestType=getTransaction&
-      transaction=15200507403046301754
+### Get Transaction <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 
 **Response:**
 
-    {
-     "senderPublicKey": "57fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143b473beec228f79ff93c",
-     "signature": "5f0378b7390ff5a815eadd1354de533eef682f139362b153576e2207320a6...",
-     "feeNQT": "100000000",
-     "transactionIndex": 2,
-     "requestProcessingTime": 2842,
-     "type": 0,
-     "confirmations": 849,
-     "fullHash": "3a304584f20cf3d2cbbdd9698ff9a166427005ab98fbe9ca4ad6253651ee81f1",
-     "version": 1,
-     "ecBlockId": "17321329645912574173",
-     "signatureHash": "b35eae7d2f01639810d37694138aa0a86fbbf8a9bf58c2be4f2a5b8f0f30b3f7",
-     "senderRS": "BURST-L6FM-89WK-VK8P-FCRBB",
-     "subtype": 0,
-     "amountNQT": "100000000",
-     "sender": "15323192282528158131",
-     "recipientRS": "BURST-4VNQ-RWZC-4WWQ-GVM8S",
-     "recipient": "17013046603665206934",
-     "ecBlockHeight": 275727,
-     "block": "8455642159445842600",
-     "blockTimestamp": 29797208,
-     "deadline": 60,
-     "transaction": "15200507403046301754",
-     "timestamp": 29796934,
-     "height": 275730
-    }
+``` json
+{
+    "senderPublicKey": "a61325eec9e83d7cac55544b8eca8ea8034559bafb5834b8a5d3b6d4efb85f12",
+    "signature": "dc2503584a48e30ac62d62848f58461e0e9ff55070008743c24f380c24a9ef05525c70b5d40962566f3f4de2018277ba7956eb09d0aec84219784de7f3b76f6a",
+    "feeNQT": "735000",
+    "requestProcessingTime": 0,
+    "type": 1,
+    "confirmations": 7,
+    "fullHash": "0f37d045bc7d4f2bd85cb565a5c4e575464ac387b986f80fb8c31635cf03923e",
+    "version": 1,
+    "ecBlockId": "1212249281481197658",
+    "signatureHash": "2bcbafeab7a0bae40337fe34adea84110b1f770a33841c95f3fe9e19dde41bae",
+    "attachment": {
+        "version.Message": 1,
+        "messageIsText": true,
+        "message": "This is a sendMessage API example"
+    },
+    "senderRS": "BURST-FRDJ-UPLH-MY9A-GUKQP",
+    "subtype": 0,
+    "amountNQT": "0",
+    "sender": "16922903237994405232",
+    "recipientRS": "BURST-L6FM-89WK-VK8P-FCRBB",
+    "recipient": "15323192282528158131",
+    "ecBlockHeight": 502787,
+    "block": "2298247278137763160",
+    "blockTimestamp": 121620850,
+    "deadline": 24,
+    "transaction": "3120851314369640207",
+    "timestamp": 121620814,
+    "height": 502797
+}
+```
 
-<small>*Verified 31-Dec-14*</small>
-
-### Get Transaction Bytes
-
-**Request:**
-
-    http://localhost:8125/burst?
-      requestType=getTransactionBytes&
-      transaction=15200507403046301754
+### Get Transaction Bytes <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 
 **Response:**
 
-    {
-     "unsignedTransactionBytes": "001046aac6013c0057fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143b473...",
-     "requestProcessingTime": 66,
-     "confirmations": 1019,
-     "transactionBytes": "001046aac6013c0057fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143b473..."
-    }
+``` json
+{
+    "unsignedTransactionBytes": "01104ec93f071800a61325eec9e83d7cac55544b8eca8ea8034559bafb5834b8a5d3b6d4efb85f12b31119f931eaa6d4000000000000000018370b*",
+    "requestProcessingTime": 0,
+    "confirmations": 7,
+    "transactionBytes": "01104ec93f071800a61325eec9e83d7cac55544b8eca8ea8034559bafb5834b8a5d3b6d4efb85f12b31119f931eaa6d4000000000000000018370b*"
+}
+```
 
-<small>*Verified 5-Nov-14*</small>
-
-### Parse Transaction
-
-**Request:**
-
-    http://localhost:8125/burst?
-      requestType=parseTransaction&
-      transactionBytes=001046aac6013c0057fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143...
+### Parse Transaction <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 
 **Response:**
 
-    {
-     "senderPublicKey": "57fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143b473beec228f79ff93c",
-     "signature": "5f0378b7390ff5a815eadd1354de533eef682f139362b153576e2207320a6...",
-     "feeNQT": "100000000",
-     "requestProcessingTime": 2,
-     "type": 0,
-     "fullHash": "3a304584f20cf3d2cbbdd9698ff9a166427005ab98fbe9ca4ad6253651ee81f1",
-     "version": 1,
-     "ecBlockId": "17321329645912574173",
-     "signatureHash": "b35eae7d2f01639810d37694138aa0a86fbbf8a9bf58c2be4f2a5b8f0f30b3f7",
-     "senderRS": "BURST-L6FM-89WK-VK8P-FCRBB",
-     "subtype": 0,
-     "amountNQT": "100000000",
-     "sender": "15323192282528158131",
-     "recipientRS": "BURST-4VNQ-RWZC-4WWQ-GVM8S",
-     "recipient": "17013046603665206934",
-     "ecBlockHeight": 275727,
-     "verify": true,
-     "deadline": 60,
-     "transaction": "15200507403046301754",
-     "timestamp": 29796934,
-     "height": 2147483647
-    }
+``` json
+{
+    "senderPublicKey": "a61325eec9e83d7cac55544b8eca8ea8034559bafb5834b8a5d3b6d4efb85f12",
+    "signature": "dc2503584a48e30ac62d62848f58461e0e9ff55070008743c24f380c24a9ef05525c70b5d40962566f3f4de2018277ba7956eb09d0aec84219784de7f3b76f6a",
+    "feeNQT": "735000",
+    "requestProcessingTime": 238,
+    "type": 1,
+    "fullHash": "0f37d045bc7d4f2bd85cb565a5c4e575464ac387b986f80fb8c31635cf03923e",
+    "version": 1,
+    "ecBlockId": "1212249281481197658",
+    "signatureHash": "2bcbafeab7a0bae40337fe34adea84110b1f770a33841c95f3fe9e19dde41bae",
+    "attachment": {
+        "version.Message": 1,
+        "messageIsText": true,
+        "message": "This is a sendMessage API example"
+    },
+    "senderRS": "BURST-FRDJ-UPLH-MY9A-GUKQP",
+    "subtype": 0,
+    "amountNQT": "0",
+    "sender": "16922903237994405232",
+    "recipientRS": "BURST-L6FM-89WK-VK8P-FCRBB",
+    "recipient": "15323192282528158131",
+    "ecBlockHeight": 502787,
+    "verify": true,
+    "deadline": 24,
+    "transaction": "3120851314369640207",
+    "timestamp": 121620814,
+    "height": 2147483647
+}
+```
 
-<small>*Verified 5-Nov-14*</small>
-
-### Sign Transaction
-
-**Request:**
-
-    http://localhost:8125/burst?
-      requestType=signTransaction&
-      unsignedTransactionBytes=00100cfb3c03a00510f09c34f225d425306e5be55a494690...&
-      secretPhrase=SecretPhrase
+### Sign Transaction <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 
 **Response:**
 
-    {
-     "signatureHash": "3f4830bf28f105d5075f5e084c36e4582a156e713abfe0bc6ee51cbf8b20f2d2",
-     "transactionJSON": {
-      "senderPublicKey": "10f09c34f225d425306e5be55a4946908156072afbead4d574a512d7e086ef5c",
-      "signature": "24513e93029688100c5a04183ffddc49812fd7a137a15fb3a2545aa9a2bcb5004a3...",
-      "feeNQT": "100000000",
-      "type": 0,
-      "fullHash": "c34af8f1509e3be79c4562e24125ff2a8f026871fdd1a0366ad315bf8fab76b9",
-      "version": 1,
-      "phased": false,
-      "ecBlockId": "15869644242181198665",
-      "signatureHash": "3f4830bf28f105d5075f5e084c36e4582a156e713abfe0bc6ee51cbf8b20f2d2",
-      "attachment": {
-       "version.OrdinaryPayment": 0
-      },
-      "senderRS": "BURST-4VDY-LNVT-LMAY-FMCKA",
-      "subtype": 0,
-      "amountNQT": "1000000000",
-      "sender": "15295723609781267838",
-      "recipientRS": "BURST-BMUV-8QQR-47VK-CR7F3",
-      "recipient": "11580081983047651163",
-      "ecBlockHeight": 382777,
-      "deadline": 1440,
-      "transaction": "16662085316881435331",
-      "timestamp": 54328076,
-      "height": 2147483647
-     },
-     "verify": true,
-     "requestProcessingTime": 5,
-     "transactionBytes": "00100cfb3c03a00510f09c34f225d425306e5be55a4946908156072afbead4...",
-     "fullHash": "c34af8f1509e3be79c4562e24125ff2a8f026871fdd1a0366ad315bf8fab76b9",
-     "transaction": "16662085316881435331"
-    }
+``` json
+{
+    "signatureHash": "2bcbafeab7a0bae40337fe34adea84110b1f770a33841c95f3fe9e19dde41bae",
+    "verify": true,
+    "requestProcessingTime": 2,
+    "transactionBytes": "01104ec93f071800a61325eec9e83d7cac55544b8eca8ea8034559bafb5834b8a5d3b6d4efb85f12b31119f931eaa6d4000000000000000018370b*",
+    "fullHash": "0f37d045bc7d4f2bd85cb565a5c4e575464ac387b986f80fb8c31635cf03923e",
+    "transaction": "3120851314369640207"
+}
+```
 
-<small>*Verified 15-Aug-15*</small>
+Utilities <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+-------------------------------------------------------------------------------------------------------
 
-Utilities
----------
-
-### Long Convert
-
-**Request:**
-
-    http://localhost:8125/burst?
-      requestType=longConvert&
-      id=15323192282528158131
+### Long Convert <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 
 **Response:**
 
-    {
-     "stringId": "15323192282528158131",
-     "requestProcessingTime": 0,
-     "longId": "-3123551791181393485"
-    }
+``` json
+{
+    "stringId": "16922903237994405232",
+    "requestProcessingTime": 0,
+    "longId": "-1523840835715146384"
+}
+```
 
-<small>*Verified 12-Nov-14*</small>
-
-### RS Convert
-
-**Request:**
-
-    http://localhost:8125/burst?
-      requestType=rsConvert&
-      account=BURST-L6FM-89WK-VK8P-FCRBB
+### RS Convert <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 
 **Response:**
 
-    {
-     "accountRS": "BURST-L6FM-89WK-VK8P-FCRBB",
-     "requestProcessingTime": 1,
-     "account": "15323192282528158131"
-    }
-
-<small>*Verified 7-Nov-14*</small>
+``` json
+{
+    "accountRS": "BURST-FRDJ-UPLH-MY9A-GUKQP",
+    "requestProcessingTime": 0,
+    "account": "16922903237994405232"
+}
+```
