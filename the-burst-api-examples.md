@@ -1248,151 +1248,139 @@ Asset Exchange Operations
 
 <small>*Verified 19-Nov-14*</small>
 
-Block Operations
-----------------
+Block Operations <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+--------------------------------------------------------------------------------------------------------------
 
-### Get Block
-
-**Request:**
-
-    http://localhost:8125/burst?
-      requestType=getBlock&
-      block=8455642159445842600
+### Get Block <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 
 **Response:**
 
-    {
-     "previousBlockHash": "c0574d7a7b8497373dbead497c2dc7f60fdcfc8c5a9fcb48f7d373acc9bbb099",
-     "payloadLength": 1189,
-     "totalAmountNQT": "100000000",
-     "generationSignature": "c5098d37267bc71134fc8572a87b4af8727a2e5139d60fe8833fab98af22244a",
-     "generator": "11693867635361772359",
-     "generatorPublicKey": "fbb72a280228af5c8c74c7c754a290e1539f839553c00bc560cac7bfdb324a7c",
-     "baseTarget": "1530224444",
-     "payloadHash": "633992be640a593ba04e31ca4028deed70bbf47cff333e2a0372a4e2a4aba205",
-     "generatorRS": "BURST-TWU9-P3E4-HCDM-CQ9L6",
-     "nextBlock": "5937170741469897491",
-     "requestProcessingTime": 175,
-     "numberOfTransactions": 6,
-     "blockSignature": "ff65a82e385c135cf9bd5be0861e9e5d3d3174fbd993e5b7f57935ec4...",
-     "transactions": [
-      "15184285173972564233",
-      "15200280108574630445",
-      "15200507403046301754",
-      "15900338016714606285",
-      "17881859777840687131",
-      "18361738217269620028"
-     ],
-     "version": 3,
-     "totalFeeNQT": "600000000",
-     "previousBlock": "4005816059437078464",
-     "cumulativeDifficulty": "10229109959119715",
-     "block": "8455642159445842600",
-     "height": 275730,
-     "timestamp": 29797208
-    }
+``` json
+{
+    "previousBlockHash": "98338ec9e496040f505dace85c3ab331e6ad257f24d6e9417877a4a22b449ab3",
+    "payloadLength": 214,
+    "totalAmountNQT": "0",
+    "generationSignature": "be12abb71bfe2dcde77cbd5872e64855929d934d04a491cb08950b9e509f37eb",
+    "generator": "16286104011619463406",
+    "generatorPublicKey": "ba5464139a83fcdb600ba141b567430ec5ebd0e409d246cdd33c3597855e0a4e",
+    "baseTarget": "116169",
+    "payloadHash": "20585e4ab9b6ac07f8903a509b1494dab99b931bedf3e3ad11c5a556a82b7c3e",
+    "generatorRS": "BURST-AW9G-BYKU-AZWL-GXY26",
+    "blockReward": "944",
+    "nextBlock": "10431007917907627236",
+    "requestProcessingTime": 0,
+    "scoopNum": 3035,
+    "numberOfTransactions": 1,
+    "blockSignature": "5c40fb39d21ec55a77718e9de25b40f008b5a940434208b191bf010322c453047a3fe6418b0ffa62c131a31d59142ec9b336815210c96a8a37709768a6d8e6c3",
+    "transactions": [
+        "3120851314369640207"
+    ],
+    "nonce": "77469254",
+    "version": 3,
+    "totalFeeNQT": "735000",
+    "previousBlock": "1082155719854011288",
+    "block": "2298247278137763160",
+    "height": 502797,
+    "timestamp": 121620850
+}
+```
 
-<small>*Verified 15-Dec-14*</small>
-
-### Get Block Id
-
-**Request:**
-
-    http://localhost:8125/burst?
-      requestType=getBlockId&
-      height=0
+### Get Block Id <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 
 **Response:**
 
-    {
-     "block": "2680262203532249785",
-     "requestProcessingTime": 1
-    }
+``` json
+{
+    "block": "9782158559918006093",
+    "requestProcessingTime": 1
+}
+```
 
-<small>*Verified 11-Nov-14*</small>
-
-### Get Blocks
-
-**Request:**
-
-    http://localhost:8125/burst?
-      requestType=getBlocks&
-      lastIndex=1
+### Get Blocks <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 
 **Response:**
 
-    {
-     "blocks": [
-      {
-       "previousBlockHash": "f88c75a36317e1795348330cb9a944f33153b517ebdf05d9f3f9a606e997618d",
-       "payloadLength": 981,
-       "totalAmountNQT": "0",
-       "generationSignature": "02f7462b62270c0028c379d838d3a192cf0b782995f3bb1929a5378d26e7e8a9",
-       "generator": "2218289317977832095",
-       "generatorPublicKey": "98ccf5d5173b13e4c9eab2631372f61ce8ba506db559d73b285073a689872e75",
-       "baseTarget": "151761236",
-       "payloadHash": "82f8c8ca1f8f2252172ed1e9836d5228432fcb18aecfa7d55a119efcd242321c",
-       "generatorRS": "BURST-TGNZ-E8VK-69EX-3L9LX",
-       "numberOfTransactions": 5,
-       "blockSignature": "76a3f7f966256c4985262fb4622190b2b9a19b900f6ce443ab7d581e3176c...",
-       "transactions": [
-        "10545999940082849455",
-        "16751328983055099280",
-        "1257496316971695605",
-        "2048859884870801838",
-        "5105170273384355243"
-       ],
-       "version": 3,
-       "totalFeeNQT": "500000000",
-       "previousBlock": "8782326465060769016",
-       "block": "7299310714263322546",
-       "height": 281683,
-       "timestamp": 30416681
-      },
-      {
-       "previousBlockHash": "edc2d65d24883b9b32c46da4eec3792a69a5ff9a9b1e629c4e7e0224432c87c9",
-       "payloadLength": 0,
-       "totalAmountNQT": "0",
-       "generationSignature": "8c4944c7a9ef5700d1b89660fdf83bcbd3dbbfbe191fef005d0f248a573816fe",
-       "generator": "15766845356521829337",
-       "generatorPublicKey": "11636697faf4ade736cedf6c528bec0142353c4d93fce05cdb818c49e0390422",
-       "baseTarget": "303522472",
-       "payloadHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-       "generatorRS": "BURST-2EYT-C522-VL6G-FQSMP",
-       "nextBlock": "7299310714263322546",
-       "numberOfTransactions": 0,
-       "blockSignature": "90464d183ed01cb0930ef527e746eaa092d1558697c369cc9246add5f6eec...",
-       "transactions": [],
-       "version": 3,
-       "totalFeeNQT": "0",
-       "previousBlock": "11185683789279314669",
-       "block": "8782326465060769016",
-       "height": 281682,
-       "timestamp": 30416671
-      }
-     ],
-     "requestProcessingTime": 2
-    }
+``` json
+{
+    "blocks": [
+        {
+            "previousBlockHash": "e4cc2b7c6f62c290d1405ef236b846d316df4cc187c9554b18dcb54861f4ade2",
+            "payloadLength": 1234,
+            "totalAmountNQT": "132933935798",
+            "generationSignature": "53f43986acef5899f08e388bde1bc6b935499c91badace2247076aa984fea577",
+            "generator": "12019899115821911181",
+            "generatorPublicKey": "f6b3ee829223351281340617eae3bdc3082ae9db6899395befddabc4aae37161",
+            "baseTarget": "115429",
+            "payloadHash": "2e71185d5f9c8cce3f2cc87dec5df9643dc0b6562f78f49b553610bc4d9af5a3",
+            "generatorRS": "BURST-KM6F-KZ7B-46SF-C4UMF",
+            "blockReward": "944",
+            "scoopNum": 1265,
+            "numberOfTransactions": 7,
+            "blockSignature": "c5f9495278e685e90d4d42108c0a25b0a62f0006bdbb70f8df90d17d49a4670c09d13d63947fe69904340748348001277308de67891ee3bec177524629bc7383",
+            "transactions": [
+                "14343547955476128075",
+                "14751316321929102651",
+                "18403710335612237831",
+                "2492947289038528624",
+                "3664660987329932102",
+                "5094936331677798562",
+                "5165719427461695861"
+            ],
+            "nonce": "518857973",
+            "version": 3,
+            "totalFeeNQT": "510735000",
+            "previousBlock": "10431007917907627236",
+            "block": "3526547904120473437",
+            "height": 502799,
+            "timestamp": 121621514
+        },
+        {
+            "previousBlockHash": "58e5680bb903e51f3dfe2221d5f291e5e7750f360fe78f7f5fee3c568867c7f2",
+            "payloadLength": 938,
+            "totalAmountNQT": "139674768871",
+            "generationSignature": "142e073b4a84e95284b8eae679f1cc87d82f418897ffe0858d9bd1adda33d220",
+            "generator": "12414125682074447698",
+            "generatorPublicKey": "4f04a259ddc9c60e49bf3ef0ca5cb53c00ae97dedc1fcb59af2e48a9894ea745",
+            "baseTarget": "116986",
+            "payloadHash": "3d5153f350a07fb6d0b9a4cd07f2d4ef38b0bf312df2091eda05edf2ca4f1283",
+            "generatorRS": "BURST-MVUL-K5UK-RRTY-CPYKS",
+            "blockReward": "944",
+            "nextBlock": "3526547904120473437",
+            "scoopNum": 3885,
+            "numberOfTransactions": 5,
+            "blockSignature": "300fd5eace546b846213894c0afa9e68755fa300472a1101ca36d524d3433108445f7154d6b9151c3202272e516b7b9c180751ee65de949cdc7a459409a8b613",
+            "transactions": [
+                "13447447233023586787",
+                "14140393734437081046",
+                "3451268376629033899",
+                "4144139998017169860",
+                "5800257696655274819"
+            ],
+            "nonce": "77540123",
+            "version": 3,
+            "totalFeeNQT": "400735000",
+            "previousBlock": "2298247278137763160",
+            "block": "10431007917907627236",
+            "height": 502798,
+            "timestamp": 121620994
+        }
+    ],
+    "requestProcessingTime": 1
+}
+```
 
-<small>*Verified 11-Nov-14*</small>
-
-### Get EC Block
-
-**Request:**
-
-    http://localhost:8125/burst?
-      requestType=getECBlock
+### Get EC Block <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 
 **Response:**
 
-    {
-     "ecBlockHeight": 281777,
-     "requestProcessingTime": 2,
-     "ecBlockId": "6565813579609649593",
-     "timestamp": 30427868
-    }
-
-<small>*Verified 11-Nov-14*</small>
+``` json
+{
+    "ecBlockHeight": 502788,
+    "requestProcessingTime": 1,
+    "ecBlockId": "15769175919943831738",
+    "timestamp": 121621703
+}
+```
 
 Digital Goods Store Operations
 ------------------------------
