@@ -539,115 +539,84 @@ Alias Operations <img src="Verified.png" title="fig:Verified.png" alt="Verified.
 }
 ```
 
-Arbitrary Message System Operations
------------------------------------
+Arbitrary Message System Operations <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+---------------------------------------------------------------------------------------------------------------------------------
 
-### Decrypt From <img src="Invalid.png" title="fig:Invalid.png" alt="Invalid.png" width="35" height="35" />
-
-**Request:**
-
-    http://localhost:8125/burst?
-      requestType=decryptFrom&
-      secretPhrase=IWontTellYou&
-      account=BURST-L6FM-89WK-VK8P-FCRBB&
-      data=5c30bd27cc86a8ab0349aaf66deae3c0a9db5675b5c4ba973dd47f37e06157...&
-      nonce=7f3c9082c73a7bd825aa48d23fc138fd05a466700ff9fc3a040bbb29d3a60ee1&
+### Encrypt To <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 
 **Response:**
 
-    {
-     "decryptedMessage": "test message",
-     "requestProcessingTime": 2
-    }
+``` json
+{
+    "data": "d5a1958d12ce96ce30dbce5b6c8ead7ecbc0f59d857dc8e8fbeec10ae440e0e74e9120fef3b0fa586d4c63fde0f289340e709b30ae528e3c2d740b11e3ae3fdb5e5d5c63f724cf16157c75dabec31eaf",
+    "requestProcessingTime": 34,
+    "nonce": "7cefa6f66d5b71604e2ef56a18319b3f48a38e8aa5cf610369b294f1d40e0f8e"
+}
+```
 
-### Encrypt To <img src="Invalid.png" title="fig:Invalid.png" alt="Invalid.png" width="35" height="35" />
-
-**Request:**
-
-    http://localhost:8125/burst?
-      requestType=encryptTo&
-      secretPhrase=IWontTellYou&
-      recipient=BURST-L6FM-89WK-VK8P-FCRBB&
-      messageToEncrypt=test message&
+### Decrypt From <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 
 **Response:**
 
-    {
-     "data": "5c30bd27cc86a8ab0349aaf66deae3c0a9db5675b5c4ba973dd47f37e06157...",
-     "requestProcessingTime": 48,
-     "nonce": "7f3c9082c73a7bd825aa48d23fc138fd05a466700ff9fc3a040bbb29d3a60ee1"
-    }
+``` json
+{
+    "decryptedMessage": "This is a message encrypted using \"encryptTo\".",
+    "requestProcessingTime": 2
+}
+```
 
-### Read Message
-
-**Request:**
-
-    http://localhost:8125/burst?
-      requestType=readMessage&
-      transaction=9908575668289607167&
-      secretPhrase=IWontTellYou&
+### Send Message <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 
 **Response:**
 
-    {
-     "requestProcessingTime": 1,
-     "message": "Test message.",
-     "decryptedMessage": "Test message (encrypted).",
-     "decryptedMessageToSelf": "abc123"
-    }
+``` json
+{
+    "signatureHash": "2bcbafeab7a0bae40337fe34adea84110b1f770a33841c95f3fe9e19dde41bae",
+    "unsignedTransactionBytes": "01104ec93f071800a61325eec9e83d7cac55544b8eca8ea8034559bafb5834b8a5d3b6d4efb85f12b31119f931eaa6d4000000000000000018370b*",
+    "transactionJSON": {
+        "senderPublicKey": "a61325eec9e83d7cac55544b8eca8ea8034559bafb5834b8a5d3b6d4efb85f12",
+        "signature": "dc2503584a48e30ac62d62848f58461e0e9ff55070008743c24f380c24a9ef05525c70b5d40962566f3f4de2018277ba7956eb09d0aec84219784de7f3b76f6a",
+        "feeNQT": "735000",
+        "type": 1,
+        "fullHash": "0f37d045bc7d4f2bd85cb565a5c4e575464ac387b986f80fb8c31635cf03923e",
+        "version": 1,
+        "ecBlockId": "1212249281481197658",
+        "signatureHash": "2bcbafeab7a0bae40337fe34adea84110b1f770a33841c95f3fe9e19dde41bae",
+        "attachment": {
+            "version.Message": 1,
+            "messageIsText": true,
+            "message": "This is a sendMessage API example"
+        },
+        "senderRS": "BURST-FRDJ-UPLH-MY9A-GUKQP",
+        "subtype": 0,
+        "amountNQT": "0",
+        "sender": "16922903237994405232",
+        "recipientRS": "BURST-L6FM-89WK-VK8P-FCRBB",
+        "recipient": "15323192282528158131",
+        "ecBlockHeight": 502787,
+        "deadline": 24,
+        "transaction": "3120851314369640207",
+        "timestamp": 121620814,
+        "height": 2147483647
+    },
+    "broadcasted": true,
+    "requestProcessingTime": 11,
+    "transactionBytes": "01104ec93f071800a61325eec9e83d7cac55544b8eca8ea8034559bafb5834b8a5d3b6d4efb85f12b31119f931eaa6d4000000000000000018370b*",
+    "fullHash": "0f37d045bc7d4f2bd85cb565a5c4e575464ac387b986f80fb8c31635cf03923e",
+    "transaction": "3120851314369640207"
+}
+```
 
-<small>*Verified 10-Nov-14*</small>
-
-### Send Message
-
-**Request:**
-
-    http://localhost:8125/burst?
-      requestType=sendMessage&
-      secretPhrase=IWontTellYou&
-      recipient=BURST-4VNQ-RWZC-4WWQ-GVM8S&
-      message=Test Message.&
-      deadline=60
+### Read Message <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 
 **Response:**
 
-    {
-     "signatureHash": "795c58938a50d691f3f2b88bfaf03267236e972e1c068e0a5e11aeb606597f17",
-     "unsignedTransactionBytes": "01100593ce013c0057fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c14...",
-     "transactionJSON": {
-      "senderPublicKey": "57fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143b473beec228f79ff93c",
-      "signature": "e916dbbfec51ca97ae76b1b190d1c74328f74c3c43ed3a06f1ca0ea250116...",
-      "feeNQT": "100000000",
-      "type": 1,
-      "fullHash": "ff157b8a125582898b5c50d32a62f725602d5197af236fabcd6ec978b6861528",
-      "version": 1,
-      "ecBlockId": "6060075251340574063",
-      "signatureHash": "795c58938a50d691f3f2b88bfaf03267236e972e1c068e0a5e11aeb606597f17",
-      "attachment": {
-       "version.Message": 1,
-       "messageIsText": true,
-       "message": "Test message."
-      },
-      "senderRS": "BURST-L6FM-89WK-VK8P-FCRBB",
-      "subtype": 0,
-      "amountNQT": "0",
-      "sender": "15323192282528158131",
-      "recipientRS": "BURST-4VNQ-RWZC-4WWQ-GVM8S",
-      "recipient": "17013046603665206934",
-      "ecBlockHeight": 280756,
-      "deadline": 60,
-      "transaction": "9908575668289607167",
-      "timestamp": 30315269,
-      "height": 2147483647
-     },
-     "broadcasted": true,
-     "requestProcessingTime": 11379,
-     "transactionBytes": "01100593ce013c0057fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143b...",
-     "fullHash": "ff157b8a125582898b5c50d32a62f725602d5197af236fabcd6ec978b6861528",
-     "transaction": "9908575668289607167"
-    }
-
-<small>*Verified 15-Dec-14*</small>
+``` json
+{
+    "requestProcessingTime": 0,
+    "message": "This is a sendMessage API example"
+}
+```
 
 Asset Exchange Operations
 -------------------------
