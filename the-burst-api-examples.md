@@ -2120,79 +2120,59 @@ Hallmark Operations
 
 <small>*Verified 22-Nov-14*</small>
 
-Networking Operations
----------------------
+Networking Operations <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+-------------------------------------------------------------------------------------------------------------------
 
-### Get My Info
-
-**Request:**
-
-    http://localhost:8125/burst?
-      requestType=getMyInfo
+### Get My Info <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 
 **Response:**
 
-    {
-     "address": "127.0.0.1",
-     "host": "127.0.0.1",
-     "requestProcessingTime": 1
-    }
+``` json
+{
+    "address": "127.0.0.1",
+    "host": "127.0.0.1",
+    "requestProcessingTime": 0
+}
+```
 
-<small>*Verified 20-Nov-14*</small>
-
-### Get Peer
-
-**Request:**
-
-    http://localhost:8125/burst?
-      requestType=getPeer&
-      peer=nxtx.ru
+### Get Peer <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 
 **Response:**
 
-    {
-     "hallmark": "5f107c33097fc8241f55b9eb23615fe80ed3f87c87dc8c23ed6a08ab9273417a07006...",
-     "downloadedVolume": 352,
-     "address": "188.226.174.169",
-     "inbound": false,
-     "weight": 53,
-     "uploadedVolume": 2165,
-     "requestProcessingTime": 30,
-     "version": "1.5.11",
-     "platform": "VPS",
-     "inboundWebSocket": false,
-     "lastUpdated": 48540348,
-     "blacklisted": false,
-     "announcedAddress": "nxtx.ru",
-     "application": "BRS",
-     "port": 7874,
-     "outboundWebSocket": true,
-     "lastConnectAttempt": 48540348,
-     "state": 1,
-     "shareAddress": true
-    }
+``` json
+{
+    "lastUpdated": 121622908,
+    "downloadedVolume": 5557831,
+    "blacklisted": false,
+    "announcedAddress": "107.150.6.121",
+    "application": "BRS",
+    "uploadedVolume": 11482803,
+    "state": 1,
+    "requestProcessingTime": 0,
+    "version": "2.2.1",
+    "platform": "PC",
+    "shareAddress": true
+}
+```
 
-<small>*Verified 9-Jun-15*</small>
-
-### Get Peers
-
-**Request:**
-
-    http://localhost:8125/burst?
-      requestType=getPeers&
-      state=DISCONNECTED
+### Get Peers <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 
 **Response:**
 
-    {
-     "peers": [
-      "198.50.146.93",
-      "213.46.57.77"
-     ],
-     "requestProcessingTime": 1
-    }
-
-<small>*Verified 15-Dec-14*</small>
+``` json
+{
+    "peers": [
+        "107.150.6.121",
+        "37.205.11.73",
+        "79.113.222.145",
+        "74.141.142.82",
+        "71.172.254.124",
+        "89.133.236.99",
+        "97.84.139.244"
+    ],
+    "requestProcessingTime": 0
+}
+```
 
 Server Information Operations <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 ---------------------------------------------------------------------------------------------------------------------------
