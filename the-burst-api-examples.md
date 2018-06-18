@@ -2075,51 +2075,6 @@ Forging Operations
 
 <small>*Verified 10-Nov-14*</small>
 
-Hallmark Operations
--------------------
-
-### Decode Hallmark
-
-**Request:**
-
-    http://localhost:8125/burst?
-      requestType=decodeHallmark&
-      hallmark=827ed8cf83bbd36419002759d960a1bec952f2209db8ed3be958...
-
-**Response:**
-
-    {
-     "date": "2013-12-10",
-     "valid": true,
-     "accountRS": "BURST-FEJ5-H4YB-QD3D-2L3W2",
-     "host": "nxttyclub.info",
-     "weight": 100,
-     "requestProcessingTime": 2,
-     "account": "31580691533050371"
-    }
-
-<small>*Verified 22-Nov-14*</small>
-
-### Mark Host
-
-**Request:**
-
-    http://localhost:8125/burst?
-      requestType=markHost&
-      secretPhrase=IWontTellYou&
-      host=iwonttellyou.com&
-      weight=1&
-      date=2014-11-22
-
-**Response:**
-
-    {
-     "hallmark": "57fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143b473beec228f79ff93c...",
-     "requestProcessingTime": 5
-    }
-
-<small>*Verified 22-Nov-14*</small>
-
 Networking Operations <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 -------------------------------------------------------------------------------------------------------------------
 
