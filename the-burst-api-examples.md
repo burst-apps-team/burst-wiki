@@ -2287,20 +2287,6 @@ Server Information Operations <img src="Verified.png" title="fig:Verified.png" a
 }
 ```
 
-Token Operations <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
---------------------------------------------------------------------------------------------------------------
-
-### Generate Token <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
-
-**Response:**
-
-``` json
-{
-    "requestProcessingTime": 1,
-    "token": "p7n2a4t6amm7off8hr58siqkn9cka0t8kms38m7rn3nt9dmj7v91a4iv1290it07tf8ob5lfhpkia5qbtemmutq69kj3n8r0j6ug5d6si1s0mcppkji1vhbablm4du5gclmq282p674csc9hg2crpsc02i40sk9l"
-}
-```
-
 Transaction Operations
 ----------------------
 
