@@ -183,15 +183,15 @@ Burstcoin-jminer is a GPU assisted Proof of Capacity (PoC) Miner for Burstcoin.
 
 ### CreepMiner
 
-<img src="StableW.png" title="fig:StableW.png" alt="StableW.png" width="150" height="150" /><img src="DymaxionUW.png" title="fig:DymaxionUW.png" alt="DymaxionUW.png" width="170" height="170" /><img src="POC1W.png" title="fig:POC1W.png" alt="POC1W.png" width="150" height="150" />
+<img src="StableW.png" title="fig:StableW.png" alt="StableW.png" width="150" height="150" /><img src="DymaxionCW.png" title="fig:DymaxionCW.png" alt="DymaxionCW.png" width="150" height="150" /><img src="POC1W.png" title="fig:POC1W.png" alt="POC1W.png" width="150" height="150" /><img src="POC2W.png" title="fig:POC2W.png" alt="POC2W.png" width="150" height="150" />
 
-The creepMiner is a client application for mining Burst on a pool or solo. It does support CPU mining (SSE2/SSE4/AVX/AVX2) or GPU mining (OpenCL, CUDA).
+The creepMiner is a client application for mining Burst on a pool or solo. It supports CPU mining (SSE2/SSE4/AVX/AVX2) or GPU mining (OpenCL, CUDA).
 
 **Main Dev** : Creepsky
 
 **Download link** : https://github.com/Creepsky/creepMiner/releases/latest
 
-**Platform** : Windows, Linux
+**Platform** : Windows, MacOS, Linux x86\_64 or ARM7
 
 Pool Software 
 --------------
