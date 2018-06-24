@@ -1824,221 +1824,191 @@ Digital Goods Store Operations
 
 <small>*Verified 25-Nov-14*</small>
 
-### Get DGS Good
-
-**Request:**
-
-    http://localhost:8125/burst?
-      requestType=getDGSGood&
-      goods=11813734897437346473
+### Get DGS Good <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 
 **Response:**
 
-    {
-     "seller": "15323192282528158131",
-     "quantity": 3,
-     "goods": "11813734897437346473",
-     "description": "Testing the DGS.",
-     "sellerRS": "BURST-L6FM-89WK-VK8P-FCRBB",
-     "requestProcessingTime": 1,
-     "delisted": false,
-     "parsedTags": [
-      "test",
-      "product",
-      "tag"
-     ],
-     "tags": "test, product, tag, extra",
-     "priceNQT": "100000000",
-     "numberOfPublicFeedbacks": 0,
-     "name": "Test Product",
-     "numberOfPurchases": 0,
-     "timestamp": 31436434
-    }
+``` json
+{
+    "seller": "16432157717192673510",
+    "priceNQT": "750000000000",
+    "quantity": 1000,
+    "name": "100 TB Plot File",
+    "goods": "490136863013671329",
+    "description": "48-100h delivery Time\r\nSpecify how big you want your file\r\nMin size 1 TB\r\nMax size 10 TB\r\nDelivery is a Torrent Download",
+    "sellerRS": "BURST-F498-E9P9-ACDE-G2Q4A",
+    "requestProcessingTime": 1,
+    "delisted": false,
+    "tags": "plotter",
+    "timestamp": 121088459
+}
+```
 
-<small>*Verified 23-Nov-14*</small>
-
-### Get DGS Goods
-
-**Request:**
-
-    http://localhost:8125/burst?
-      requestType=getDGSGoods&
-      seller=BURST-L6FM-89WK-VK8P-FCRBB
+### Get DGS Goods <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 
 **Response:**
 
-    {
-     "goods": [
-      {
-       "seller": "15323192282528158131",
-       "quantity": 2,
-       "goods": "11813734897437346473",
-       "description": "Testing the DGS.",
-       "sellerRS": "BURST-L6FM-89WK-VK8P-FCRBB",
-       "delisted": false,
-       "parsedTags": [
-        "test",
-        "product",
-        "tag"
-       ],
-       "tags": "test, product, tag, extra",
-       "priceNQT": "200000000",
-       "numberOfPublicFeedbacks": 0,
-       "name": "Test Product",
-       "numberOfPurchases": 0,
-       "timestamp": 31436434
-      }
-     ],
-     "requestProcessingTime": 46
-    }
+``` json
+{
+    "seller": "16432157717192673510",
+    "priceNQT": "750000000000",
+    "quantity": 1000,
+    "name": "100 TB Plot File",
+    "goods": "490136863013671329",
+    "description": "48-100h delivery Time\r\nSpecify how big you want your file\r\nMin size 1 TB\r\nMax size 10 TB\r\nDelivery is a Torrent Download",
+    "sellerRS": "BURST-F498-E9P9-ACDE-G2Q4A",
+    "requestProcessingTime": 1,
+    "delisted": false,
+    "tags": "plotter",
+    "timestamp": 121088459
+}
+```
 
-<small>*Verified 23-Nov-14*</small>
-
-### Get DGS Goods Purchases
-
-**Request:**
-
-    http://localhost:8125/burst?
-      requestType=getDGSGoodsPurchases&
-      goods=11813734897437346473
+### Get DGS Goods Purchases <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 
 **Response:**
 
-    {
-     "purchases": [
-      {
-       "seller": "15323192282528158131",
-       "quantity": 2,
-       "pending": false,
-       "purchase": "3723760852542296589",
-       "goods": "11813734897437346473",
-       "sellerRS": "BURST-L6FM-89WK-VK8P-FCRBB",
-       "buyer": "7580519603555678830",
-       "priceNQT": "200000000",
-       "deliveryDeadlineTimestamp": 31600000,
-       "goodsIsText": false,
-       "buyerRS": "BURST-6GMG-FC5F-YSX6-8CVEL",
-       "name": "Test Product",
-       "goodsData": {
-        "data": "aef91bfe543844964b0dadc51c6fe4c624b6b0c72c23c5c61f7e626f51e15...",
-        "nonce": "4cb474ec53a590c6fd20d050c429d009ddefd286b2782eb3a0782ae45c2bbbbd"
-       },
-       "timestamp": 31520720
-      }
-     ],
-     "requestProcessingTime": 305
-    }
+``` json
+{
+    "goods": [
+        {
+            "seller": "869755421284789028",
+            "priceNQT": "100000000",
+            "quantity": 9996,
+            "name": "Donate - Help CompSci Students",
+            "goods": "8877051912510361584",
+            "description": "My claass of compsci students is working on burst related projects as well as a mining rig.  Help me help them learn more, do more.  Please donate to their cause.",
+            "sellerRS": "BURST-EUT6-YC9L-N63Y-2XH6S",
+            "delisted": false,
+            "tags": "school",
+            "timestamp": 117044802
+        },
+        {
+            "seller": "869755421284789028",
+            "priceNQT": "1000000000",
+            "quantity": 999999,
+            "name": "Hard drives for high school students",
+            "goods": "4170413457250059275",
+            "description": "The high school computer science class is woefully funded.  Please help and donate..",
+            "sellerRS": "BURST-EUT6-YC9L-N63Y-2XH6S",
+            "delisted": false,
+            "tags": "",
+            "timestamp": 122140901
+        }
+    ],
+    "requestProcessingTime": 1
+}
+```
 
-<small>*Verified 15-Dec-14*</small>
-
-### Get DGS Pending Purchases
-
-**Request:**
-
-    http://localhost:8125/burst?
-      requestType=getDGSPendingPurchases&
-      seller=BURST-L6FM-89WK-VK8P-FCRBB
-
-**Response:**
-
-    {
-     "purchases": [
-      {
-       "seller": "15323192282528158131",
-       "priceNQT": "200000000",
-       "quantity": 2,
-       "deliveryDeadlineTimestamp": 31600000,
-       "buyerRS": "BURST-6GMG-FC5F-YSX6-8CVEL",
-       "pending": true,
-       "purchase": "3723760852542296589",
-       "name": "Test Product",
-       "goods": "11813734897437346473",
-       "sellerRS": "BURST-L6FM-89WK-VK8P-FCRBB",
-       "buyer": "7580519603555678830",
-       "timestamp": 31520720
-      }
-     ],
-     "requestProcessingTime": 1
-    }
-
-<small>*Verified 24-Nov-14*</small>
-
-### Get DGS Purchase
-
-**Request:**
-
-    http://localhost:8125/burst?
-      requestType=getDGSPurchase&
-      purchase=10234639413366748292
+### Get DGS Pending Purchases <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 
 **Response:**
 
-    {
-     "seller": "7580519603555678830",
-     "quantity": 1,
-     "feedbackNotes": [
-      {
-       "data": "7086a82f4da0708d4eaa9b16d5fc5a25c556596ea29d957d0a1dddd0a482c...",
-       "nonce": "c521481ce67f7778c41c6716806047d4ea641005392cd7e5ce8d20c49623dad8"
-      }
-     ],
-     "publicFeedbacks": [
-      "Thank you again!",
-      "Thank you!"
-     ],
-     "pending": false,
-     "purchase": "10234639413366748292",
-     "goods": "1587116104511359906",
-     "sellerRS": "BURST-6GMG-FC5F-YSX6-8CVEL",
-     "requestProcessingTime": 1,
-     "buyer": "15323192282528158131",
-     "priceNQT": "100000000",
-     "deliveryDeadlineTimestamp": 31800000,
-     "goodsIsText": false,
-     "buyerRS": "BURST-L6FM-89WK-VK8P-FCRBB",
-     "discountNQT": "100000000",
-     "name": "Test Product",
-     "goodsData": {
-      "data": "5f4868022381aa9532614a7aae1600e59e84c80571add107dabca891df97e7...",
-      "nonce": "c017b846de4375741ebc9f3bff894270d218ff4090a66dfd505770ccdc2f54bd"
-     },
-     "timestamp": 31611776
-    }
+``` json
+{
+    "purchases": [
+        {
+            "seller": "869755421284789028",
+            "priceNQT": "100000000",
+            "quantity": 1,
+            "deliveryDeadlineTimestamp": 142820935,
+            "buyerRS": "BURST-8J3W-BBNN-BJMG-HCPG3",
+            "pending": true,
+            "purchase": "18028864805999806823",
+            "name": "Donate - Help CompSci Students",
+            "goods": "8877051912510361584",
+            "sellerRS": "BURST-EUT6-YC9L-N63Y-2XH6S",
+            "buyer": "17346364151341203516",
+            "timestamp": 120220136
+        },
+        {
+            "seller": "869755421284789028",
+            "note": {
+                "data": "530c56998edacb24b664d9be3d9db3be52cb89bc10efdfbb1c97a5bb415bff2a1737ecf758202b57171145296bb3db2e",
+                "nonce": "6b59813a09abe6809d87a34a0d7eb4ad7b97f43a28ae8d26f4811f8fff864712"
+            },
+            "quantity": 1,
+            "pending": true,
+            "purchase": "9754082484071034298",
+            "goods": "8877051912510361584",
+            "sellerRS": "BURST-EUT6-YC9L-N63Y-2XH6S",
+            "buyer": "11786437085044315193",
+            "priceNQT": "100000000",
+            "deliveryDeadlineTimestamp": 139660265,
+            "buyerRS": "BURST-X73T-4MLS-LV98-CQG69",
+            "name": "Donate - Help CompSci Students",
+            "timestamp": 117059465
+        }
+    ],
+    "requestProcessingTime": 2
+}
+```
 
-<small>*Verified 24-Nov-14*</small>
-
-### Get DGS Purchases
-
-**Request:**
-
-    http://localhost:8125/burst?
-      requestType=getDGSPurchases&
-      seller=BURST-L6FM-89WK-VK8P-FCRBB&
-      lastIndex=0
+### Get DGS Purchase <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 
 **Response:**
 
-    {
-     "purchases": [
-      {
-       "seller": "15323192282528158131",
-       "priceNQT": "200000000",
-       "quantity": 2,
-       "deliveryDeadlineTimestamp": 31600000,
-       "buyerRS": "BURST-6GMG-FC5F-YSX6-8CVEL",
-       "pending": true,
-       "purchase": "3723760852542296589",
-       "name": "Test Product",
-       "goods": "11813734897437346473",
-       "sellerRS": "BURST-L6FM-89WK-VK8P-FCRBB",
-       "buyer": "7580519603555678830",
-       "timestamp": 31520720
-      }
-     ],
-     "requestProcessingTime": 1
-    }
+``` json
+{
+    "seller": "869755421284789028",
+    "quantity": 1,
+    "pending": true,
+    "purchase": "18028864805999806823",
+    "goods": "8877051912510361584",
+    "sellerRS": "BURST-EUT6-YC9L-N63Y-2XH6S",
+    "requestProcessingTime": 1,
+    "buyer": "17346364151341203516",
+    "priceNQT": "100000000",
+    "deliveryDeadlineTimestamp": 142820935,
+    "buyerRS": "BURST-8J3W-BBNN-BJMG-HCPG3",
+    "name": "Donate - Help CompSci Students",
+    "timestamp": 120220136
+}
+```
 
-<small>*Verified 15-Dec-14*</small>
+### Get DGS Purchases <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+
+**Response:**
+
+``` json
+{
+    "purchases": [
+        {
+            "seller": "869755421284789028",
+            "priceNQT": "100000000",
+            "quantity": 1,
+            "deliveryDeadlineTimestamp": 142820935,
+            "buyerRS": "BURST-8J3W-BBNN-BJMG-HCPG3",
+            "pending": true,
+            "purchase": "18028864805999806823",
+            "name": "Donate - Help CompSci Students",
+            "goods": "8877051912510361584",
+            "sellerRS": "BURST-EUT6-YC9L-N63Y-2XH6S",
+            "buyer": "17346364151341203516",
+            "timestamp": 120220136
+        },
+        {
+            "seller": "869755421284789028",
+            "note": {
+                "data": "530c56998edacb24b664d9be3d9db3be52cb89bc10efdfbb1c97a5bb415bff2a1737ecf758202b57171145296bb3db2e",
+                "nonce": "6b59813a09abe6809d87a34a0d7eb4ad7b97f43a28ae8d26f4811f8fff864712"
+            },
+            "quantity": 1,
+            "pending": true,
+            "purchase": "9754082484071034298",
+            "goods": "8877051912510361584",
+            "sellerRS": "BURST-EUT6-YC9L-N63Y-2XH6S",
+            "buyer": "11786437085044315193",
+            "priceNQT": "100000000",
+            "deliveryDeadlineTimestamp": 139660265,
+            "buyerRS": "BURST-X73T-4MLS-LV98-CQG69",
+            "name": "Donate - Help CompSci Students",
+            "timestamp": 117059465
+        }
+    ],
+    "requestProcessingTime": 2
+}
+```
 
 Networking Operations <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 -------------------------------------------------------------------------------------------------------------------
