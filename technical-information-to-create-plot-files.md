@@ -104,10 +104,8 @@ A stagger is basically a group of nonces in a plot file. The groups in the plot 
 <!-- -->
 
 Filenames  
-
-:Since a plot file only contains raw data there is no headers in the files. All information needed for a user and miner is set in the filenames. The formatting of the filename is as follows.
+Since a plot file only contains raw data there is no headers in the files. All information needed for a user and miner is set in the filenames. The formatting of the filename is as follows.
 
     POC1 format: AccountID_StartingNonce_NrOfNonces_Stagger
-     
 
     POC2 format: AccountID_StartingNonce_NrOfNonces
