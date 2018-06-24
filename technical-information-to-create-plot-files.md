@@ -99,11 +99,15 @@ Stagger and filenames
 =====================
 
 Stagger  
-A stagger is basically a group of nonces in a plot file. The groups in the plot file is written in an optimized way. A given stagger number tells you how many nonces there are in each group. To find out how many groups there are in a plot file you take the number of nonces and divide it with the stagger number. If the stagger number is equal to the number of nonces in the file, there is only one group and the plot file is completely optimized. If this is the case the miner will not care about the stagger. If for some reason your division ends up with decimals, your plot file can be assumed broken.
+A stagger is basically a group of nonces in a plot file. The groups in the plot file is written in an optimized way. A given stagger number tells you how many nonces there are in each group. To find out how many groups there are in a plot file you take the number of nonces and divide it with the stagger number. If the stagger number is equal to the number of nonces in the file, there is only one group and the plot file is completely optimized. If this is the case the miner will not care about the stagger. If for some reason your division ends up with decimals, your plot file can be assumed broken. Poc2 formatted plot files cannot have staggers. They are always written in an optimized way.
 
 <!-- -->
 
 Filenames  
-Since a plot file only contains raw data there is no headers in the files. All information needed for a user and miner is set in the filenames. The formatting of the filename is as follows.
 
-    AccountID_StartingNonce_NrOfNonces_Stagger
+:Since a plot file only contains raw data there is no headers in the files. All information needed for a user and miner is set in the filenames. The formatting of the filename is as follows.
+
+    POC1 format: AccountID_StartingNonce_NrOfNonces_Stagger
+     
+
+    POC2 format: AccountID_StartingNonce_NrOfNonces
