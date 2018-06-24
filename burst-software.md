@@ -266,3 +266,15 @@ Features include:
 **Download link** : <https://github.com/harry1453/burstcoin-explorer-android/releases/latest>
 
 **Platform** : Android
+
+### PaperBurst
+
+<img src="UnderReviewW.png" title="fig:UnderReviewW.png" alt="UnderReviewW.png" width="150" height="150" /><img src="DymaxionCW.png" title="fig:DymaxionCW.png" alt="DymaxionCW.png" width="150" height="150" />
+
+PaperBurst is a paper wallet generator for Burstcoin.
+
+**Main Dev** : Umbrellacorp03
+
+**Download link** : <https://github.com/umbrellacorp03/PaperBurst/releases/latest>
+
+**Platform** : Windows
