@@ -177,7 +177,11 @@ Enter your passphrase.
 
 ### Open Orders menu
 
-Under this menu you can see all your orders that are currently open. <img src="Open_Orders.png" title="fig:Open_Orders.png" alt="Open_Orders.png" width="1654" height="1654" /> **What to keep in mind:**
+Under this menu you can see all your orders that are currently open.
+
+<img src="Open_Orders.png" title="Open_Orders.png" alt="Open_Orders.png" width="1654" height="1654" />
+
+**What to keep in mind:**
 
 -   You can cancel any order you made. *However*
     -   The process is not instantaneous. Your cancel order is broadcasted to the network, it may happen that your order gets accepted before you can manage to cancel it.
