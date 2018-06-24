@@ -618,515 +618,557 @@ Arbitrary Message System Operations <img src="Verified.png" title="fig:Verified.
 }
 ```
 
-Asset Exchange Operations
--------------------------
+Asset Exchange Operations <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+-----------------------------------------------------------------------------------------------------------------------
 
-### Cancel Order
-
-**Request:**
-
-    http://localhost:8125/burst?
-      requestType=cancelBidOrder&
-      secretPhrase=IWontTellYou&
-      order=17185236428295897167&
-      feeNQT=100000000&
-      deadline=60
+### Cancel Order <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 
 **Response:**
 
-    {
-     "signatureHash": "20264f33a06331f6a8d7c4362d0525aee25e4ef991653f14bbfb1b2beebba433",
-     "unsignedTransactionBytes": "02153c6ed6013c0057fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143...",
-     "transactionJSON": {
-      "senderPublicKey": "57fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143b473beec228f79ff93c",
-      "signature": "30cf47942179f5969369699b548f5a3517ef7ff71b337db630ea5f8b6e740...",
-      "feeNQT": "100000000",
-      "type": 2,
-      "fullHash": "725f441d9f50a9b2e02d780098a827b1015ec902199becd493bfa73a4843ae89",
-      "version": 1,
-      "ecBlockId": "196207598250363138",
-      "signatureHash": "20264f33a06331f6a8d7c4362d0525aee25e4ef991653f14bbfb1b2beebba433",
-      "attachment": {
-       "version.BidOrderCancellation": 1,
-       "order": "17185236428295897167"
-      },
-      "senderRS": "BURST-L6FM-89WK-VK8P-FCRBB",
-      "subtype": 5,
-      "amountNQT": "0",
-      "sender": "15323192282528158131",
-      "ecBlockHeight": 285586,
-      "deadline": 60,
-      "transaction": "12873909654136315762",
-      "timestamp": 30830140,
-      "height": 2147483647
-     },
-     "broadcasted": true,
-     "requestProcessingTime": 7640,
-     "transactionBytes": "02153c6ed6013c0057fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143b...",
-     "fullHash": "725f441d9f50a9b2e02d780098a827b1015ec902199becd493bfa73a4843ae89",
-     "transaction": "12873909654136315762"
-    }
+``` json
+{
+    "signatureHash": "ea56c641c52e20cfeb2413dc49fc24a00eba23ac4aa444fdb059ad0aa66fdb0f",
+    "unsignedTransactionBytes": "0214c0d347070100a61325eec9e83d7cac55544b8eca8ea8034559bafb5834b8a5d3b6d4efb85f120000000000000000000000000000000000e1f505*",
+    "transactionJSON": {
+        "senderPublicKey": "a61325eec9e83d7cac55544b8eca8ea8034559bafb5834b8a5d3b6d4efb85f12",
+        "signature": "67f67f75a4ed60109239719e29a11915e4e05addd7d851d75766ef4e64b7b7093ff55615144ffb26d2b0de4c8656330ecd1117b3d477219ed09a1098cb77cd81",
+        "feeNQT": "100000000",
+        "type": 2,
+        "fullHash": "1454e33bfca5e67186d69ce027e408b3fc52dce6497d4f1d667598e52cae4a3e",
+        "version": 1,
+        "ecBlockId": "16853437834039716545",
+        "signatureHash": "ea56c641c52e20cfeb2413dc49fc24a00eba23ac4aa444fdb059ad0aa66fdb0f",
+        "attachment": {
+            "version.AskOrderCancellation": 1,
+            "order": "15076843998317839249"
+        },
+        "senderRS": "BURST-FRDJ-UPLH-MY9A-GUKQP",
+        "subtype": 4,
+        "amountNQT": "0",
+        "sender": "16922903237994405232",
+        "ecBlockHeight": 504969,
+        "deadline": 1,
+        "transaction": "8207429873684403220",
+        "timestamp": 122147776,
+        "height": 2147483647
+    },
+    "broadcasted": true,
+    "requestProcessingTime": 7,
+    "transactionBytes": "0214c0d347070100a61325eec9e83d7cac55544b8eca8ea8034559bafb5834b8a5d3b6d4efb85f120000000000000000000000000000000000e1f505*",
+    "fullHash": "1454e33bfca5e67186d69ce027e408b3fc52dce6497d4f1d667598e52cae4a3e",
+    "transaction": "8207429873684403220"
+}
+```
 
-<small>*Verified 16-Nov-14*</small>
-
-### Get Account Current Order Ids
-
-**Request:**
-
-    http://localhost:8125/burst?
-      requestType=getAccountCurrentBidOrderIds&
-      account=BURST-L6FM-89WK-VK8P-FCRBB&
-      asset=17554243582654188572
+### Get Account Current Order Ids <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 
 **Response:**
 
-    {
-     "bidOrderIds": [
-      "17185236428295897167"
-     ],
-     "requestProcessingTime": 4
-    }
+``` json
+{
+    "requestProcessingTime": 2,
+    "askOrderIds": [
+        "4875748854378397140",
+        "109196327778941945"
+    ]
+}
+```
 
-<small>*Verified 16-Nov-14*</small>
-
-### Get Account Current Orders
-
-**Request:**
-
-    http://localhost:8125/burst?
-      requestType=getAccountCurrentBidOrders&
-      account=BURST-L6FM-89WK-VK8P-FCRBB
+### Get Account Current Orders <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 
 **Response:**
 
-    {
-     "bidOrders": [
-      {
-       "quantityQNT": "1000000",
-       "priceNQT": "100",
-       "accountRS": "BURST-L6FM-89WK-VK8P-FCRBB",
-       "asset": "17554243582654188572",
-       "type": "bid",
-       "account": "15323192282528158131",
-       "order": "17185236428295897167",
-       "height": 285549
-      }
-     ],
-     "requestProcessingTime": 1
-    }
+``` json
+{
+    "askOrders": [
+        {
+            "quantityQNT": "100000",
+            "priceNQT": "195000",
+            "accountRS": "BURST-MBZS-2BCT-45QV-APCZB",
+            "asset": "3702027329806229573",
+            "type": "ask",
+            "account": "9582909050628712440",
+            "order": "4875748854378397140",
+            "height": 495658
+        },
+        {
+            "quantityQNT": "260100",
+            "priceNQT": "200000",
+            "accountRS": "BURST-MBZS-2BCT-45QV-APCZB",
+            "asset": "3702027329806229573",
+            "type": "ask",
+            "account": "9582909050628712440",
+            "order": "109196327778941945",
+            "height": 494427
+        }
+    ],
+    "requestProcessingTime": 1
+}
+```
 
-<small>*Verified 16-Nov-14*</small>
-
-### Get All Assets
-
-**Request:**
-
-    http://localhost:8125/burst?
-      requestType=getAllAssets&
-      firstIndex=13&
-      lastIndex=13
-
-**Response:**
-
-    {
-     "assets": [
-      {
-       "quantityQNT": "2100000000000000",
-       "numberOfAccounts": 31,
-       "accountRS": "BURST-3TKA-UH62-478B-DQU6K",
-       "decimals": 8,
-       "numberOfTransfers": 63,
-       "name": "mgwBTC",
-       "description": "Production Multigateway BTC (mgwBTC) is backed 100% by...",
-       "numberOfTrades": 9,
-       "asset": "17554243582654188572",
-       "account": "13300069592148796968"
-      }
-     ],
-     "requestProcessingTime": 13
-    }
-
-<small>*Verified 18-Nov-14*</small>
-
-### Get All Open Orders
-
-**Request:**
-
-    http://localhost:8125/burst?
-      requestType=getAllOpenBidOrders&
-      firstIndex=123&
-      lastIndex=123
+### Get All Assets <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 
 **Response:**
 
-    {
-     "requestProcessingTime": 5631,
-     "openOrders": [
-      {
-       "quantityQNT": "1000000",
-       "priceNQT": "101",
-       "accountRS": "BURST-L6FM-89WK-VK8P-FCRBB",
-       "asset": "17554243582654188572",
-       "type": "bid",
-       "account": "15323192282528158131",
-       "order": "12743274869785967304",
-       "height": 285577
-      }
-     ]
-    }
+``` json
+{
+    "assets": [
+        {
+            "quantityQNT": "10000000000",
+            "numberOfAccounts": 77,
+            "accountRS": "BURST-8E8K-WQ2F-ZDZ5-FQWHX",
+            "decimals": 8,
+            "numberOfTransfers": 26,
+            "name": "BCPT",
+            "description": "Burst Cryptoport Pool Token, is an asset that backed by profit from MiningPool at http://burst-pool.cryptoport.io, i will pay dividend from 50% fund i got from pool fee (monthly). dividend will be proportional to BCPT owned",
+            "numberOfTrades": 510,
+            "asset": "12791182347560578640",
+            "account": "16050713509424738513"
+        },
+        {
+            "quantityQNT": "100000000",
+            "numberOfAccounts": 26,
+            "accountRS": "BURST-H2ZW-3H4D-RJBS-FCVGV",
+            "decimals": 2,
+            "numberOfTransfers": 36,
+            "name": "BurstFund",
+            "description": "This asset will act as a stabilizer fund for Burst. This asset aims to assist in maintaining the value of Burst, providing market correction in the event of market manipulation. Each Quantity will be representative of 10 Burst at an initial market price of 0.00001000 each (or determined by asset market). This assets main focus will be ensuring Burst does not become another outdated and dead NXT clone...",
+            "numberOfTrades": 2,
+            "asset": "673530795527425458",
+            "account": "15977480701804512252"
+        }
+    ],
+    "requestProcessingTime": 3
+}
+```
 
-<small>*Verified 17-Nov-14*</small>
-
-### Get All Trades
-
-**Request:**
-
-    http://localhost:8125/burst?
-      requestType=getAllTrades&
-      lastIndex=0
-
-**Response:**
-
-    {
-     "trades": [
-      {
-       "seller": "14968762166783718535",
-       "quantityQNT": "10000",
-       "bidOrder": "1166717226538227076",
-       "sellerRS": "BURST-8F69-W9Z9-8M6Y-ETXGZ",
-       "buyer": "202478233571806601",
-       "priceNQT": "19796",
-       "askOrder": "16222071953599729591",
-       "buyerRS": "BURST-RMEB-W7TE-28EM-2SUM7",
-       "decimals": 8,
-       "name": "mgwBTC",
-       "block": "8807797247643599359",
-       "asset": "4551058913252105307",
-       "askOrderHeight": 285768,
-       "bidOrderHeight": 286453,
-       "tradeType": "buy",
-       "timestamp": 30920039,
-       "height": 286453
-      }
-     ],
-     "requestProcessingTime": 25840
-    }
-
-<small>*Verified 17-Nov-14*</small>
-
-### Get Asset
-
-**Request:**
-
-    http://localhost:8125/burst?
-      requestType=getAsset&
-      asset=17554243582654188572
+### Get All Open Orders <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 
 **Response:**
 
-    {
-     "quantityQNT": "2100000000000000",
-     "numberOfAccounts": 31,
-     "accountRS": "BURST-3TKA-UH62-478B-DQU6K",
-     "decimals": 8,
-     "numberOfTransfers": 63,
-     "name": "mgwBTC",
-     "description": "Production Multigateway BTC (mgwBTC) is backed 100% by...",
-     "numberOfTrades": 9,
-     "requestProcessingTime": 11,
-     "asset": "17554243582654188572",
-     "account": "13300069592148796968"
-    }
+``` json
+{
+    "requestProcessingTime": 0,
+    "openOrders": [
+        {
+            "quantityQNT": "10",
+            "priceNQT": "10000000000000",
+            "accountRS": "BURST-359Q-QH73-4N5P-FP54C",
+            "asset": "15295227971848272658",
+            "type": "ask",
+            "account": "15350648744942013686",
+            "order": "14034527401109329159",
+            "height": 17901
+        },
+        {
+            "quantityQNT": "1",
+            "priceNQT": "10000000000000",
+            "accountRS": "BURST-Q4TR-YKRW-6RAN-EDBC8",
+            "asset": "11375670541237055652",
+            "type": "ask",
+            "account": "14062819640288676663",
+            "order": "18379469307992717843",
+            "height": 11997
+        },
+        {
+            "quantityQNT": "4392",
+            "priceNQT": "100000000000",
+            "accountRS": "BURST-SKL3-ACW8-DBN6-5M8VM",
+            "asset": "11375670541237055652",
+            "type": "ask",
+            "account": "4173943238181013057",
+            "order": "756014781951608408",
+            "height": 11257
+        }
+    ]
+}
+```
 
-<small>*Verified 18-Nov-14*</small>
-
-### Get Asset Accounts
-
-**Request:**
-
-    http://localhost:8125/burst?
-      requestType=getAssetAccounts&
-      asset=5539238107226883203
-
-**Response:**
-
-    {
-     "accountAssets": [
-      {
-       "quantityQNT": "100000000",
-       "accountRS": "BURST-JTE5-HB7Y-QPS5-B58MZ",
-       "unconfirmedQuantityQNT": "100000000",
-       "asset": "5539238107226883203",
-       "account": "11514793277306463619"
-      }
-     ],
-     "requestProcessingTime": 19
-    }
-
-<small>*Verified 19-Nov-14*</small>
-
-### Get Asset Ids
-
-**Request:**
-
-    http://localhost:8125/burst?
-      requestType=getAssetIds&
-      firstIndex=15&
-      lastIndex=15
+### Get All Trades <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 
 **Response:**
 
-    {
-     "assetIds": [
-      "17554243582654188572"
-     ],
-     "requestProcessingTime": 1
-    }
+``` json
+{
+    "trades": [
+        {
+            "seller": "2695253629713716937",
+            "quantityQNT": "7700",
+            "bidOrder": "17489219850997945774",
+            "sellerRS": "BURST-Q7QB-WPPC-6VE2-4QVTC",
+            "buyer": "14676337193484961173",
+            "priceNQT": "100000",
+            "askOrder": "7125231493760146086",
+            "buyerRS": "BURST-EKEP-XEYS-6YPW-EL8DR",
+            "decimals": 2,
+            "name": "CryptoMaps",
+            "block": "10810208340839229954",
+            "asset": "3702027329806229573",
+            "askOrderHeight": 504189,
+            "tradeType": "sell",
+            "timestamp": 122140342,
+            "height": 504949
+        },
+        {
+            "seller": "6905334832585552856",
+            "quantityQNT": "1000",
+            "bidOrder": "14942960390822608034",
+            "sellerRS": "BURST-BEYS-G8VQ-6SEK-7F7PZ",
+            "buyer": "17808054289263456125",
+            "priceNQT": "66500000",
+            "askOrder": "3461704332885328085",
+            "buyerRS": "BURST-QVVX-2TL8-WZ2C-HDRAG",
+            "decimals": 0,
+            "name": "BTFGPool",
+            "block": "9914674296156980645",
+            "asset": "9036920395530551012",
+            "askOrderHeight": 504920,
+            "tradeType": "buy",
+            "timestamp": 122132789,
+            "height": 504920
+        }
+    ],
+    "requestProcessingTime": 447
+}
+```
 
-<small>*Verified 19-Nov-14*</small>
-
-### Get Asset Transfers
-
-**Request:**
-
-    http://localhost:8125/burst?
-      requestType=getAssetTransfers&
-      asset=17554243582654188572&
-      lastIndex=0
-
-**Response:**
-
-    {
-     "transfers": [
-      {
-       "quantityQNT": "500000",
-       "senderRS": "BURST-9K6X-4ZQS-PCQN-465T4",
-       "assetTransfer": "15255934090738722602",
-       "sender": "2406158154854548637",
-       "recipientRS": "BURST-YMEM-ERX3-BFUZ-4MQ4P",
-       "decimals": 8,
-       "recipient": "3065494931320556947",
-       "name": "mgwBTC",
-       "asset": "17554243582654188572",
-       "height": 287648,
-       "timestamp": 31042663
-      }
-     ],
-     "requestProcessingTime": 4
-    }
-
-<small>*Verified 19-Nov-14*</small>
-
-### Get Assets
-
-**Request:**
-
-    http://localhost:8125/burst?
-      requestType=getAssets&
-      assets=17554243582654188572
+### Get Asset <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 
 **Response:**
 
-    {
-     "assets": [
-      {
-       "quantityQNT": "2100000000000000",
-       "numberOfAccounts": 31,
-       "accountRS": "BURST-3TKA-UH62-478B-DQU6K",
-       "decimals": 8,
-       "numberOfTransfers": 63,
-       "name": "mgwBTC",
-       "description": "Production Multigateway BTC (mgwBTC) is backed 100% by...",
-       "numberOfTrades": 9,
-       "asset": "17554243582654188572",
-       "account": "13300069592148796968"
-      }
-     ],
-     "requestProcessingTime": 15
-    }
+``` json
+{
+    "quantityQNT": "20000000000",
+    "numberOfAccounts": 9210,
+    "accountRS": "BURST-CMAP-ME5N-TFKP-6BCER",
+    "decimals": 2,
+    "numberOfTransfers": 11869,
+    "name": "CryptoMaps",
+    "description": "The official CryptoMaps Token, see more details at https://token.cryptomaps.me",
+    "numberOfTrades": 523,
+    "requestProcessingTime": 0,
+    "asset": "3702027329806229573",
+    "account": "5454221553913122069"
+}
+```
 
-<small>*Verified 18-Nov-14*</small>
-
-### Get Assets By Issuer
-
-**Request:**
-
-    http://localhost:8125/burst?
-      requestType=getAssetsByIssuer&
-      account=BURST-DE2F-W76R-GL25-HMFPR&
-      lastIndex=0
+### Get Asset Accounts <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 
 **Response:**
 
-    {
-     "assets": [
-      [
-       {
-        "quantityQNT": "10000000000",
-        "numberOfAccounts": 222,
-        "accountRS": "BURST-DE2F-W76R-GL25-HMFPR",
-        "decimals": 4,
-        "numberOfTransfers": 278,
-        "name": "NXTprivacy",
-        "description": "NXTprivacy will contain various privacy related projects...",
-        "numberOfTrades": 456,
-        "asset": "17911762572811467637",
-        "account": "18146608053740744717"
-       }
-      ]
-     ],
-     "requestProcessingTime": 9
-    }
+``` json
+{
+    "accountAssets": [
+        {
+            "quantityQNT": "5000000000",
+            "accountRS": "BURST-CMAP-AY84-2TV8-6F2QK",
+            "unconfirmedQuantityQNT": "5000000000",
+            "asset": "3702027329806229573",
+            "account": "5248959966645406997"
+        },
+        {
+            "quantityQNT": "5000000000",
+            "accountRS": "BURST-CMSP-HRMP-ZBTM-9P4J7",
+            "unconfirmedQuantityQNT": "5000000000",
+            "asset": "3702027329806229573",
+            "account": "8268702915092631317"
+        }
+    ],
+    "requestProcessingTime": 22
+}
+```
 
-<small>*Verified 19-Nov-14*</small>
-
-### Get Order
-
-**Request:**
-
-    http://localhost:8125/burst?
-      requestType=getAskOrder&
-      order=6044046093672850641
+### Get Asset Ids <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 
 **Response:**
 
-    {
-     "quantityQNT": "100",
-     "priceNQT": "100000000",
-     "transactionHeight": 346634,
-     "accountRS": "BURST-4VDY-LNVT-LMAY-FMCKA",
-     "transactionIndex": 0,
-     "requestProcessingTime": 0,
-     "asset": "17091401215301664836",
-     "type": "ask",
-     "account": "15295723609781267838",
-     "order": "6044046093672850641",
-     "height": 346634
-    }
+``` json
+{
+    "assetIds": [
+        "2644409077762286513",
+        "5533434524898779728",
+        "7756017130240677072",
+        "2663432644302202784",
+        "11700625361170592721",
+        "9789600218215198873"
+    ],
+    "requestProcessingTime": 1
+}
+```
 
-<small>*Verified 10-Jul-15*</small>
-
-### Get Order Ids
-
-**Request:**
-
-    http://localhost:8125/burst?
-      requestType=getBidOrderIds&
-      asset=17554243582654188572
+### Get Asset Transfers <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 
 **Response:**
 
-    {
-     "bidOrderIds": [
-      "17972270381487138621",
-      "8331653287549483600",
-      "16386956089071870421",
-      "12743274869785967304",
-      "3409888667133338290"
-     ],
-     "requestProcessingTime": 1
-    }
+``` json
+{
+    "transfers": [
+        {
+            "quantityQNT": "10000",
+            "senderRS": "BURST-RBHF-BY3C-V949-37G3N",
+            "assetTransfer": "16436527819322024045",
+            "sender": "1875121765155055085",
+            "recipientRS": "BURST-59HP-HQ5R-7MGU-AG4LC",
+            "decimals": 2,
+            "recipient": "9604012506417831413",
+            "name": "CryptoMaps",
+            "asset": "3702027329806229573",
+            "height": 504029,
+            "timestamp": 121917645
+        },
+        {
+            "quantityQNT": "5500",
+            "senderRS": "BURST-PVZT-KWEH-ZTJE-7Z7C9",
+            "assetTransfer": "9907383924348587793",
+            "sender": "6028278722555736057",
+            "recipientRS": "BURST-RKW5-ZVFT-JU69-6X4JC",
+            "decimals": 2,
+            "recipient": "4990091736314005379",
+            "name": "CryptoMaps",
+            "asset": "3702027329806229573",
+            "height": 500631,
+            "timestamp": 121093713
+        }
+    ],
+    "requestProcessingTime": 2
+}
+```
 
-<small>*Verified 17-Nov-14*</small>
-
-### Get Orders
-
-**Request:**
-
-    http://localhost:8125/burst?
-      requestType=getBidOrders&
-      asset=17554243582654188572&
-      firstIndex=3&
-      lastIndex=3
-
-**Response:**
-
-    {
-     "bidOrders": [
-      {
-       "quantityQNT": "1000000",
-       "priceNQT": "101",
-       "accountRS": "BURST-L6FM-89WK-VK8P-FCRBB",
-       "asset": "17554243582654188572",
-       "type": "bid",
-       "account": "15323192282528158131",
-       "order": "12743274869785967304",
-       "height": 285577
-      }
-     ],
-     "requestProcessingTime": 2
-    }
-
-<small>*Verified 17-Nov-14*</small>
-
-### Get Trades
-
-**Request:**
-
-    http://localhost:8125/burst?
-      requestType=getTrades&
-      asset=17554243582654188572&
-      lastIndex=0
+### Get Assets <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 
 **Response:**
 
-    {
-     "trades": [
-      {
-       "seller": "4012743767778395236",
-       "quantityQNT": "922082",
-       "bidOrder": "18332182738291742411",
-       "sellerRS": "BURST-J356-8B4K-L4DK-533EH",
-       "buyer": "17013046603665206934",
-       "priceNQT": "19607",
-       "askOrder": "5860848661439768841",
-       "buyerRS": "BURST-4VNQ-RWZC-4WWQ-GVM8S",
-       "decimals": 8,
-       "name": "mgwBTC",
-       "block": "15627545821108097361",
-       "asset": "17554243582654188572",
-       "askOrderHeight": 285964,
-       "bidOrderHeight": 285821,
-       "tradeType": "sell",
-       "timestamp": 30869573,
-       "height": 285964
-      }
-     ],
-     "requestProcessingTime": 0
-    }
+``` json
+{
+    "assets": [
+        {
+            "quantityQNT": "20000000000",
+            "numberOfAccounts": 9210,
+            "accountRS": "BURST-CMAP-ME5N-TFKP-6BCER",
+            "decimals": 2,
+            "numberOfTransfers": 11869,
+            "name": "CryptoMaps",
+            "description": "The official CryptoMaps Token, see more details at https://token.cryptomaps.me",
+            "numberOfTrades": 523,
+            "asset": "3702027329806229573",
+            "account": "5454221553913122069"
+        },
+        {
+            "quantityQNT": "200000000000",
+            "numberOfAccounts": 1,
+            "accountRS": "BURST-SPPT-TD44-HUVK-FSZS4",
+            "decimals": 2,
+            "numberOfTransfers": 0,
+            "name": "SpotPoint",
+            "description": "The official SpotPoint Token, see more details at https://spotpoint.me",
+            "numberOfTrades": 0,
+            "asset": "9306257191450064346",
+            "account": "15088176726379615929"
+        }
+    ],
+    "requestProcessingTime": 0
+}
+```
 
-<small>*Verified 17-Nov-14*</small>
-
-### Issue Asset
-
-**Request:**
-
-    http://localhost:8125/burst?
-      requestType=issueAsset&
-      publicKey=57fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143b473beec228f79ff93c&
-      name=SecretCoin&
-      description=This+is+SecretCoin&
-      quantityQNT=100&
-      deadline=60&
-      feeNQT=100000000000&
-      broad=false
+### Get Assets By Issuer <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 
 **Response:**
 
-    {
-     "unsignedTransactionBytes": "021095e5da013c0073080c6a224062660184f10ebb7fb431d459364a12403...",
-     "transactionJSON": {
+``` json
+{
+    "assets": [
+        [
+            {
+                "quantityQNT": "100000000",
+                "numberOfAccounts": 19,
+                "accountRS": "BURST-KQL8-645F-3WU8-3GMHB",
+                "decimals": 2,
+                "numberOfTransfers": 0,
+                "name": "BoB1Pos",
+                "description": "Brotherhood of Blockchain www.bob-invest.com proudly present the first investment opportunity on Burst asset. This asset will invest in Prove of Stake coins and pay out dividend in Burst. The payout ratio is 70% to asset holder 20% equipment, internet, electricity, maintenance and admin. 10% reinvest in coins.This asset will make a monthly payment every 15th of the month, first payment is 15/6/2018.",
+                "numberOfTrades": 35,
+                "asset": "15511449532155436028",
+                "account": "1494753212313950790"
+            }
+        ],
+        [
+            {
+                "quantityQNT": "80000000000000",
+                "numberOfAccounts": 6,
+                "accountRS": "BURST-8CPS-Q628-PU9W-7H9R7",
+                "decimals": 6,
+                "numberOfTransfers": 3,
+                "name": "GMK",
+                "description": "GMK Coin",
+                "numberOfTrades": 2,
+                "asset": "8141917335139373659",
+                "account": "5970910749481183928"
+            }
+        ]
+    ],
+    "requestProcessingTime": 3
+}
+```
+
+### Get Order <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+
+**Response:**
+
+``` json
+{
+    "quantityQNT": "10",
+    "priceNQT": "10000000000000",
+    "accountRS": "BURST-359Q-QH73-4N5P-FP54C",
+    "requestProcessingTime": 1,
+    "asset": "15295227971848272658",
+    "type": "ask",
+    "account": "15350648744942013686",
+    "order": "14034527401109329159",
+    "height": 17901
+}
+```
+
+### Get Order Ids <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+
+**Response:**
+
+``` json
+{
+    "requestProcessingTime": 3,
+    "askOrderIds": [
+        "9230225288402446558",
+        "9243318318548315528",
+        "9399454941412352140",
+        "9436352279829246389",
+        "9443733332658954573",
+        "9545675672764030312"
+    ]
+}
+```
+
+### Get Orders <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+
+**Response:**
+
+``` json
+{
+    "askOrders": [
+        {
+            "quantityQNT": "250",
+            "priceNQT": "100000000",
+            "accountRS": "BURST-CDQV-WN87-YB2L-FTEPP",
+            "asset": "11700625361170592721",
+            "type": "ask",
+            "account": "15768678879341129435",
+            "order": "9230225288402446558",
+            "height": 501552
+        },
+        {
+            "quantityQNT": "50000",
+            "priceNQT": "100000000",
+            "accountRS": "BURST-CDQV-WN87-YB2L-FTEPP",
+            "asset": "11700625361170592721",
+            "type": "ask",
+            "account": "15768678879341129435",
+            "order": "9243318318548315528",
+            "height": 501552
+        },
+        {
+            "quantityQNT": "50",
+            "priceNQT": "100000000",
+            "accountRS": "BURST-CDQV-WN87-YB2L-FTEPP",
+            "asset": "11700625361170592721",
+            "type": "ask",
+            "account": "15768678879341129435",
+            "order": "9399454941412352140",
+            "height": 501552
+        }
+    ],
+    "requestProcessingTime": 1
+}
+```
+
+### Get Trades <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+
+**Response:**
+
+``` json
+{
+    "trades": [
+        {
+            "seller": "2695253629713716937",
+            "quantityQNT": "7700",
+            "bidOrder": "17489219850997945774",
+            "sellerRS": "BURST-Q7QB-WPPC-6VE2-4QVTC",
+            "buyer": "14676337193484961173",
+            "priceNQT": "100000",
+            "askOrder": "7125231493760146086",
+            "buyerRS": "BURST-EKEP-XEYS-6YPW-EL8DR",
+            "block": "10810208340839229954",
+            "asset": "3702027329806229573",
+            "askOrderHeight": 504189,
+            "tradeType": "sell",
+            "timestamp": 122140342,
+            "height": 504949
+        },
+        {
+            "seller": "13248005565246971693",
+            "quantityQNT": "100000",
+            "bidOrder": "6312065606850043247",
+            "sellerRS": "BURST-59TF-VVKH-X6SQ-DYLQH",
+            "buyer": "9582909050628712440",
+            "priceNQT": "120000",
+            "askOrder": "17472059594274895773",
+            "buyerRS": "BURST-MBZS-2BCT-45QV-APCZB",
+            "block": "12097007668561592790",
+            "asset": "3702027329806229573",
+            "askOrderHeight": 504899,
+            "tradeType": "buy",
+            "timestamp": 122129038,
+            "height": 504899
+        },
+        {
+            "seller": "12065311156306389227",
+            "quantityQNT": "7700",
+            "bidOrder": "17489219850997945774",
+            "sellerRS": "BURST-8C9D-LBN5-X9FG-CS6WG",
+            "buyer": "14676337193484961173",
+            "priceNQT": "100000",
+            "askOrder": "2519849914836375271",
+            "buyerRS": "BURST-EKEP-XEYS-6YPW-EL8DR",
+            "block": "16551915903483185103",
+            "asset": "3702027329806229573",
+            "askOrderHeight": 504189,
+            "tradeType": "sell",
+            "timestamp": 122075678,
+            "height": 504681
+        }
+    ],
+    "requestProcessingTime": 1
+}
+```
+
+### Issue Asset <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+
+**Note:** This is a fake example.
+
+**Response:**
+
+``` json
+{
+   "unsignedTransactionBytes": "021095e5da013c0073080c6a224062660184f10ebb7fb431d459364a12403...",
+   "transactionJSON": {
       "senderPublicKey": "73080c6a224062660184f10ebb7fb431d459364a12403320c7f601f9d75cc547",
       "feeNQT": "100000000000",
       "type": 2,
       "version": 1,
       "ecBlockId": "1564408139943737911",
       "attachment": {
-       "name": "SecretCoin",
-       "description": "This+is+SecretCoin",
-       "quantityQNT": "100",
-       "version.AssetIssuance": 1,
-       "decimals": 0
+         "name": "SecretCoin",
+         "description": "This+is+SecretCoin",
+         "quantityQNT": "100",
+         "version.AssetIssuance": 1,
+         "decimals": 0
       },
       "senderRS": "BURST-4VNQ-RWZC-4WWQ-GVM8S",
       "subtype": 0,
@@ -1136,117 +1178,94 @@ Asset Exchange Operations
       "deadline": 60,
       "timestamp": 31122837,
       "height": 2147483647
-     },
-     "broadcasted": false,
-     "requestProcessingTime": 2
-    }
+   },
+   "broadcasted": false,
+   "requestProcessingTime": 2
+}
+```
 
-<small>*Verified 19-Nov-14*</small>
-
-### Place Order
-
-**Request:**
-
-    http://localhost:8125/burst?
-      requestType=placeBidOrder&
-      secretPhrase=IWontTellYou&
-      asset=17554243582654188572&
-      quantityQNT=1000000&
-      priceNQT=100&
-      feeNQT=100000000&
-      deadline=60
+### Place Order <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 
 **Response:**
 
-    {
-     "signatureHash": "44028b4ddb46e7d4383331425b79019bb0f004f88ede12a5aa66f05c23a75f03",
-     "unsignedTransactionBytes": "02135a5ed6013c0057fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143...",
-     "transactionJSON": {
-      "senderPublicKey": "57fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143b473beec228f79ff93c",
-      "signature": "65713e80be99a927bfa7bb2e9a7b6fbd2f17c226fb956494c68a6d90a8127...",
-      "feeNQT": "100000000",
-      "type": 2,
-      "fullHash": "4f00aef17a397eee25027e834ca765660e4e3f3f1b162468bdac67b315aeb812",
-      "version": 1,
-      "ecBlockId": "14593256906948324209",
-      "signatureHash": "44028b4ddb46e7d4383331425b79019bb0f004f88ede12a5aa66f05c23a75f03",
-      "attachment": {
-       "quantityQNT": "1000000",
-       "priceNQT": "100",
-       "asset": "17554243582654188572",
-       "version.BidOrderPlacement": 1
-      },
-      "senderRS": "BURST-L6FM-89WK-VK8P-FCRBB",
-      "subtype": 3,
-      "amountNQT": "0",
-      "sender": "15323192282528158131",
-      "ecBlockHeight": 285545,
-      "deadline": 60,
-      "transaction": "17185236428295897167",
-      "timestamp": 30826074,
-      "height": 2147483647
-     },
-     "broadcasted": true,
-     "requestProcessingTime": 8729,
-     "transactionBytes": "02135a5ed6013c0057fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143...",
-     "fullHash": "4f00aef17a397eee25027e834ca765660e4e3f3f1b162468bdac67b315aeb812",
-     "transaction": "17185236428295897167"
-    }
+``` json
+{
+    "signatureHash": "3358f546ce7136ca478692102d0b526f80b4ca83eb78e90d15813b9636b654e5",
+    "unsignedTransactionBytes": "0213c6cc47070100a61325eec9e83d7cac55544b8eca8ea8034559bafb5834b8a5d3b6d4efb85f120000000000000000000000000000000000e1f505*",
+    "transactionJSON": {
+        "senderPublicKey": "a61325eec9e83d7cac55544b8eca8ea8034559bafb5834b8a5d3b6d4efb85f12",
+        "signature": "48d14f308d26380e4dfa26b296c8728eef04af8704acff60f4d8bef28a126701ea29878753d2106a16228cfc3829e8f3d6a2e5baf739dbd0460fd45cff1241e0",
+        "feeNQT": "100000000",
+        "type": 2,
+        "fullHash": "229f52765195110e0e096b81b91f04186be14ada7e29949841ee30e37b655775",
+        "version": 1,
+        "ecBlockId": "6656096466494440810",
+        "signatureHash": "3358f546ce7136ca478692102d0b526f80b4ca83eb78e90d15813b9636b654e5",
+        "attachment": {
+            "quantityQNT": "1",
+            "priceNQT": "100000000",
+            "asset": "3702027329806229573",
+            "version.BidOrderPlacement": 1
+        },
+        "senderRS": "BURST-FRDJ-UPLH-MY9A-GUKQP",
+        "subtype": 3,
+        "amountNQT": "0",
+        "sender": "16922903237994405232",
+        "ecBlockHeight": 504963,
+        "deadline": 1,
+        "transaction": "1013755568245088034",
+        "timestamp": 122145990,
+        "height": 2147483647
+    },
+    "broadcasted": false,
+    "requestProcessingTime": 3,
+    "transactionBytes": "0213c6cc47070100a61325eec9e83d7cac55544b8eca8ea8034559bafb5834b8a5d3b6d4efb85f120000000000000000000000000000000000e1f505*",
+    "fullHash": "229f52765195110e0e096b81b91f04186be14ada7e29949841ee30e37b655775",
+    "transaction": "1013755568245088034"
+}
+```
 
-<small>*Verified 16-Nov-14*</small>
-
-### Transfer Asset
-
-**Request:**
-
-    http://localhost:8125/burst?
-      requestType=transferAsset&
-      secretPhrase=IWontTellYou&
-      recipient=BURST-4VNQ-RWZC-4WWQ-GVM8S&
-      asset=17554243582654188572&
-      quantityQNT=1000&
-      feeNQT=100000000&
-      deadline=60
+### Transfer Asset <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 
 **Response:**
 
-    {
-     "signatureHash": "f622557588bc82942984286e431c978e687783b32db6a68a1c554b2e11349751",
-     "unsignedTransactionBytes": "0211c9ebda013c0057fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143b...",
-     "transactionJSON": {
-      "senderPublicKey": "57fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143b473beec228f79ff93c",
-      "signature": "33d0fccf1f19d18b4ca97d2636cf62f7a801c07628d1bbb1d6084dc3ca658d...",
-      "feeNQT": "100000000",
-      "type": 2,
-      "fullHash": "c8f25b15b48fb5efd3341fb369627d00f8fefb59dc18016ba0c482b6de7cad59",
-      "version": 1,
-      "ecBlockId": "3925493493266246517",
-      "signatureHash": "f622557588bc82942984286e431c978e687783b32db6a68a1c554b2e11349751",
-      "attachment": {
-       "version.AssetTransfer": 1,
-       "quantityQNT": "1000",
-       "asset": "17554243582654188572"
-      },
-      "senderRS": "BURST-L6FM-89WK-VK8P-FCRBB",
-      "subtype": 1,
-      "amountNQT": "0",
-      "sender": "15323192282528158131",
-      "recipientRS": "BURST-4VNQ-RWZC-4WWQ-GVM8S",
-      "recipient": "17013046603665206934",
-      "ecBlockHeight": 288416,
-      "deadline": 60,
-      "transaction": "17272869949464638152",
-      "timestamp": 31124425,
-      "height": 2147483647
-     },
-     "broadcasted": true,
-     "requestProcessingTime": 4968,
-     "transactionBytes": "0211c9ebda013c0057fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143b473b...",
-     "fullHash": "c8f25b15b48fb5efd3341fb369627d00f8fefb59dc18016ba0c482b6de7cad59",
-     "transaction": "17272869949464638152"
-    }
-
-<small>*Verified 19-Nov-14*</small>
+``` json
+{
+    "signatureHash": "59456e26081926b27c38ca46d574e4a6373953b932e8368f131f7bc86ffc3aa9",
+    "unsignedTransactionBytes": "021143d147070100a61325eec9e83d7cac55544b8eca8ea8034559bafb5834b8a5d3b6d4efb85f12ae2527ec7e55f1eb000000000000000000e1f505*",
+    "transactionJSON": {
+        "senderPublicKey": "a61325eec9e83d7cac55544b8eca8ea8034559bafb5834b8a5d3b6d4efb85f12",
+        "signature": "b5f33599a52e5e4e56ad5c316cd6f6ced8ebe9e9931222aaee30407570ede60031a068b6a89714fca851b486e8d8c2509ef46b3e0e1ef44c819cbff5b0bb78c4",
+        "feeNQT": "100000000",
+        "type": 2,
+        "fullHash": "3b7d9f5b998ce795a3300ed1e6df1ba8fe467b137e2f2c662c9149a5b0f878d9",
+        "version": 1,
+        "ecBlockId": "6974740076508916530",
+        "signatureHash": "59456e26081926b27c38ca46d574e4a6373953b932e8368f131f7bc86ffc3aa9",
+        "attachment": {
+            "version.AssetTransfer": 1,
+            "quantityQNT": "1",
+            "asset": "3702027329806229573"
+        },
+        "senderRS": "BURST-FRDJ-UPLH-MY9A-GUKQP",
+        "subtype": 1,
+        "amountNQT": "0",
+        "sender": "16922903237994405232",
+        "recipientRS": "BURST-GBFG-HVQ4-8AMM-GPCWR",
+        "recipient": "17001464071916561838",
+        "ecBlockHeight": 504968,
+        "deadline": 1,
+        "transaction": "10801756821566487867",
+        "timestamp": 122147139,
+        "height": 2147483647
+    },
+    "broadcasted": true,
+    "requestProcessingTime": 5,
+    "transactionBytes": "021143d147070100a61325eec9e83d7cac55544b8eca8ea8034559bafb5834b8a5d3b6d4efb85f12ae2527ec7e55f1eb000000000000000000e1f505*",
+    "fullHash": "3b7d9f5b998ce795a3300ed1e6df1ba8fe467b137e2f2c662c9149a5b0f878d9",
+    "transaction": "10801756821566487867"
+}
+```
 
 Block Operations <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 --------------------------------------------------------------------------------------------------------------
