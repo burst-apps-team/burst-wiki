@@ -73,6 +73,13 @@ We have now created our nonce and can store it in a plot file before we continue
 
 ![](Plottingnonce.png "Plottingnonce.png")
 
+**POC2 format**
+===============
+
+The POC2 nonce format is created the same way as when we create POC1 with a slight addition to the end of the process. To create a POC2 formatted nonce we need to shuffle the data around. If we divide the nonce in 2 halves we get a range with scoops 0-2047 and 2048-4095. Let’s call 0-2047 the low scoop range and 2048-4095 the high scoop range. To shuffle the data into correct place we take the second hash from a scoop in the low range and swap it with the second hash in its mirror scoop found in the high range. The mirror scoop is calculated like this:
+
+*MirrorScoop = 4095 – CurrentScoop*
+
 Plot structure
 ==============
 
