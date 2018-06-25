@@ -32,7 +32,7 @@ Firstly, please visit <https://127.0.0.1:8125/test?requestType=sendMoney> or <ht
 
 You need to fill the following fields :
 
-<img src="SendMoney_with_publicKey.png" title="SendMoney_with_publicKey.png" alt="SendMoney_with_publicKey.png" width="534" height="534" />
+<img src="SendMoney_with_publicKey.png" title="SendMoney_with_publicKey.png" alt="SendMoney_with_publicKey.png" width="703" height="703" />
 
 **recipient** : type the numeric id of the recipient (the account you want to activate)
 
@@ -50,8 +50,6 @@ You need to fill the following fields :
 
 If everything went well, you should have the following response :
 
-<img src="SendMoney_with_publicKey_response.png" title="SendMoney_with_publicKey_response.png" alt="SendMoney_with_publicKey_response.png" width="523" height="523" />
+<img src="SendMoney_with_publicKey_response.png" title="SendMoney_with_publicKey_response.png" alt="SendMoney_with_publicKey_response.png" width="793" height="793" />
 
 Congratulations ! Your new account is activated without making an outgoing tx from it !
-
-For more informations, take a look at [The Burst API](the-burst-api.md) and [The Burst API Examples](the-burst-api-examples.md).
