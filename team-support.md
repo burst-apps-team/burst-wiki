@@ -7,6 +7,8 @@ Scope of activities:
 -   documentation
 -   translations
 
+champion: Dan Dares members: umbrellacorp03 (documentation)
+
 Global Support
 --------------
 
