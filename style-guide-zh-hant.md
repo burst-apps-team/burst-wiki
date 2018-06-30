@@ -3,7 +3,7 @@
 何時使用 BURST, Burst 和 `burst`
 --------------------------------
 
-**BURST** is the currency code. e.g. “We have enough BURST/BTC exchanges, but we need a BURST/fiat gateway.”
+**BURST** 是貨幣代碼. 舉例來說 “我們擁有足夠的 BURST/BTC 交易所, 但我們需要一個 BURST/fiat gateway.”
 
 **Burst** is the network. e.g. “Burst is not merely a way to send digital currency, it's the software framework around which a large variety of interconnected services, based around the digital currency, can be built.”
 
