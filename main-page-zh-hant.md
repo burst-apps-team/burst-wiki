@@ -6,8 +6,8 @@
 
 </div>
 <div class="main_text">
-**Burst** is an [open source](https://github.com/ac0v/burstcoin) blockchain platform with multiple core-level features that has been running publicly since August 2014. It is a fork of Nxt and it's 100% [Proof of Capacity](proof-of-capacity.md) (PoC), meaning that you can mine it with your disk space.
-**[What is Burst video animation](https://www.youtube.com/watch?v=Fyj9RIyxLb4)**
+**Burst** 是一個 [開源](https://github.com/ac0v/burstcoin) blockchain platform with multiple core-level features that has been running publicly since August 2014. It is a fork of Nxt and it's 100% [Proof of Capacity](proof-of-capacity.md) (PoC), 意思就是你可以透過你的硬碟空間挖礦。
+**[什麼是 Burst 影片 動畫](https://www.youtube.com/watch?v=Fyj9RIyxLb4)**
 
 </div>
 <div class="box_row">
