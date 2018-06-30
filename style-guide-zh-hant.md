@@ -12,7 +12,7 @@
 省略非必要的字詞
 ----------------
 
-Being succinct is being clear. And an easy way to be succinct is to omit needless words. [1]. For instance,
+越簡潔越乾淨。 最簡單的方式就是省略非必要的字詞。 [1]. 例如,
 
 “...average Bitcoin transaction time has significantly increased to the 8-to-13 minute range...”
 
