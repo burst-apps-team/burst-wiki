@@ -78,7 +78,7 @@
     -   [交易](--.md)
     -   [Marketplace](http://x.burstnation.com/交易marketplace)
     -   [錢包下載](http://burstwallet.io/)
-    -   Forum: [Burst-Team](http://burstforum.net/), [GetBurst](https://forums.getburst.net/), [Burst Reddit](https://www.reddit.com/r/burstcoin/)
+    -   論壇: [Burst-Team](http://burstforum.net/), [GetBurst](https://forums.getburst.net/), [Burst Reddit](https://www.reddit.com/r/burstcoin/)
     -   [The Burstcoinist (News)](https://www.burstcoin.ist/)
     -   [More](list-of-burst-related-websites.md)
     -   [International websites](list-of-international-burst-websites.md)
