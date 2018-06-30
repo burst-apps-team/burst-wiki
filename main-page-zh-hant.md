@@ -2,7 +2,7 @@
 
 <div class="main_topbox">
 <div class="main_title">
-**Welcome to the <span style="color:#ffffff">BURST</span> WIKI**
+**歡迎來到 <span style="color:#ffffff">BURST</span> WIKI**
 
 </div>
 <div class="main_text">
