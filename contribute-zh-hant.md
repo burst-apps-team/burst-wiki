@@ -5,7 +5,7 @@
 
 ***Very important: 除非您 [聯絡管理員否則你將無法參與此wiki](special-contact.md)!***
 
-Once you are a registered contributor, you will be able to add pages, edit existing pages, and [perform language translations](help-translate.md).
+一旦您註冊為貢獻成員，您就可以增加頁面/編輯現有頁面和[執行語言翻譯](----.md)。
 
 #### Why have you implemented moderation on the Burst Wiki?
 
