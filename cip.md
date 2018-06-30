@@ -1,3 +1,7 @@
+| Capability Improvement Proposal |
+|---------------------------------|
+| **Status**                      |
+
 Capability Improvement Proposal
 -------------------------------
 
