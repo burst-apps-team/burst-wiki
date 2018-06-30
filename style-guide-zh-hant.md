@@ -1,7 +1,7 @@
 <languages/>
 
-BURST, Burst and `burst` 的使用時機
------------------------------------
+BURST, Burst 和 `burst` 的使用時機
+----------------------------------
 
 **BURST** is the currency code. e.g. “We have enough BURST/BTC exchanges, but we need a BURST/fiat gateway.”
 
