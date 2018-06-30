@@ -66,18 +66,18 @@
 <div class="box_row">
 <div class="box_column" style="background-color: #ffffff;">
 <div class="sub_title">
-**About Burst**
+**關於 Burst**
 
 </div>
-\* [What is Burst?](burst-wiki.md)
+\* [什麼是 Burst?](burst-wiki.md)
 
--   [Get started with Burst](getting-started.md)
+-   [開始使用 Burst](getting-started.md)
 -   [FAQ](faq.md)
--   Website Resources
-    -   [General Information](https://www.burst-coin.org/)
-    -   [Exchanges](exchanges.md)
-    -   [Marketplace](http://x.burstnation.com/marketplace)
-    -   [Wallet download](http://burstwallet.io/)
+-   網站資源
+    -   [一般資訊](https://www.burst-coin.org/)
+    -   [交易](--.md)
+    -   [Marketplace](http://x.burstnation.com/交易marketplace)
+    -   [錢包下載](http://burstwallet.io/)
     -   Forum: [Burst-Team](http://burstforum.net/), [GetBurst](https://forums.getburst.net/), [Burst Reddit](https://www.reddit.com/r/burstcoin/)
     -   [The Burstcoinist (News)](https://www.burstcoin.ist/)
     -   [More](list-of-burst-related-websites.md)
