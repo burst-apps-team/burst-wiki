@@ -5,7 +5,7 @@
 
 **BURST** 是貨幣代碼. 舉例來說 “我們擁有足夠的 BURST/BTC 交易所, 但我們需要一個 BURST/fiat gateway.”
 
-**Burst** is the network. e.g. “Burst is not merely a way to send digital currency, it's the software framework around which a large variety of interconnected services, based around the digital currency, can be built.”
+**Burst** 是指網路。 舉例來說 “Burst不僅僅是一種發送數字貨幣的方式，它還是一個軟體框架，圍繞該框架可以建立以數字貨幣為基礎的大量網路業務。”
 
 **** is a unit of the currency. e.g. “I'm a ~~poor shibe~~ small stakeholder with only 4399 , if someone could give me 601 , I'd have a nice round number.”
 
