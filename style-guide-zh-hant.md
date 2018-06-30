@@ -18,7 +18,7 @@
 
 可以簡化成
 
-“...average Bitcoin transaction time has significantly increased to 8 to 13 minutes...”
+“...s significantly increased to 8 to 13 minutes...” “...平均比特幣交易時間顯著增加8-13分鐘...”
 
 <references/>
 
