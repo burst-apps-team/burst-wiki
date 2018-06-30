@@ -7,7 +7,7 @@
 
 **Burst** 是指網路。 舉例來說 “Burst不僅僅是一種發送數字貨幣的方式，它還是一個軟體框架，圍繞該框架可以建立以數字貨幣為基礎的大量網路業務。”
 
-**** is a unit of the currency. e.g. “I'm a ~~poor shibe~~ small stakeholder with only 4399 , if someone could give me 601 , I'd have a nice round number.”
+**** 是貨幣的一個基本單位。 例如 “我是一個 ~~poor shibe~~ 小利益相關者只擁有4399 ，如果有人能夠給我 601 , 我將擁有一個不錯的數字。”
 
 Omit needless words
 -------------------
