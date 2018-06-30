@@ -14,7 +14,7 @@
 
 越簡潔越乾淨。 最簡單的方式就是省略非必要的字詞。 [1]. 例如,
 
-“...average Bitcoin transaction time has significantly increased to the 8-to-13 minute range...”
+“...平均比特幣交易時間顯著增加到8到13分鐘...”
 
 can be simplified to
 
