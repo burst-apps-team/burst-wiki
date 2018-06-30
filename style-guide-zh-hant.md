@@ -9,8 +9,8 @@
 
 **** 是貨幣的一個基本單位。 例如 “我是一個 ~~poor shibe~~ 小利益相關者只擁有4399 ，如果有人能夠給我 601 , 我將擁有一個不錯的數字。”
 
-Omit needless words
--------------------
+省略非必要的字詞
+----------------
 
 Being succinct is being clear. And an easy way to be succinct is to omit needless words. [1]. For instance,
 
