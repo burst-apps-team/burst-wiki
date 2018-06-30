@@ -7,8 +7,8 @@
 
 一旦您註冊為貢獻成員，您就可以增加頁面/編輯現有頁面和[執行語言翻譯](----.md)。
 
-#### Why have you implemented moderation on the Burst Wiki?
+#### 為什麼你要在 Burst Wiki 上實施審核?
 
-Unfortunately, many of the wiki extensions that can be used to combat spam and vandalism *also* break the tools that translators are using! In order to allow translation of the wiki, we had to resort to moderating who is eligible to contribute.
+不幸的是，許多可用於對付垃圾郵件和破壞行為的wiki套件，同時也破壞了翻譯人員正在使用的工具！ 為了允許翻譯維基，我們不得不求助於審核有資格貢獻的人。
 
 <Category:Meta>
