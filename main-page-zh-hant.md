@@ -83,7 +83,7 @@
     -   [More](list-of-burst-related-websites.md)
     -   [International websites](list-of-international-burst-websites.md)
 -   [Burst Whitepaper](whitepaper-burst.md)
--   [History of Burst](history-of-burst.md)
+-   [歷史 of Burst](---of-burst.md)
 
 </div>
 <div class="box_column" style="background-color: #ffffff;">
@@ -91,7 +91,7 @@
 **Services and Tools**
 
 </div>
-\* Online wallets: [PoCC](https://wallet.burst.cryptoguru.org:8125/index.html), poolofd32th: [1](https://wallet.poolofd32th.club/index.html), [2](https://wallet2.poolofd32th.club/index.html). Burst-Team: [3](https://wallet3.burst-team.us:2083/index.html), [4](https://wallet4.burst-team.us:2083/index.html), [5](https://wallet5.burst-team.us:2083/index.html)
+\* 線上錢包: [PoCC](https://wallet.burst.cryptoguru.org:8125/index.html), poolofd32th: [1](https://wallet.poolofd32th.club/index.html), [2](https://wallet2.poolofd32th.club/index.html). Burst-Team: [3](https://wallet3.burst-team.us:2083/index.html), [4](https://wallet4.burst-team.us:2083/index.html), [5](https://wallet5.burst-team.us:2083/index.html)
 
 -   Blockchain Explorer: [PoCC](https://explore.burst.cryptoguru.org/), [BurstXD](http://burstxd.com/blocks/), [burstcoin.zone](http://burstcoin.zone/wordpress/blockexplorer/)
 -   Network Observer: [Luxe](http://burstcoin.cc/), [PoCC](https://explore.burst.cryptoguru.org/tool/observe)
