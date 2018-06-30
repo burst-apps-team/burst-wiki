@@ -20,6 +20,6 @@
 
 “...s significantly increased to 8 to 13 minutes...” “...平均比特幣交易時間顯著增加8-13分鐘...”
 
-<references/>
+<參考/>
 
 [1] <http://www.bartleby.com/141/strunk5.html#13>
