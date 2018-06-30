@@ -16,7 +16,7 @@
 
 “...平均比特幣交易時間顯著增加到8到13分鐘...”
 
-can be simplified to
+可以簡化成
 
 “...average Bitcoin transaction time has significantly increased to 8 to 13 minutes...”
 
