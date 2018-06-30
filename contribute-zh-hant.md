@@ -1,7 +1,7 @@
-<languages/> 為了編輯或增加內容到這個wiki，你必須讓管理員創建你的帳號：
+<languages/> 為了編輯或增加內容到這個wiki，你必須讓管理員建立你的帳號：
 
-1.  [聯絡 Wiki 管理員](special-contact.md) 將你的帳號添加到 Wiki 的貢獻者清單中。
-2.  閱讀 [格式指南](----.md) 以獲得有關術語的提示
+1.  [聯絡 Wiki 管理員](special-contact.md) 將你的帳號增加到 Wiki 的貢獻者清單中。
+2.  閱讀 [Style Guide](style-guide.md) 以獲得有關術語的提示
 
 ***Very important: 除非您 [聯絡管理員否則你將無法參與此wiki](special-contact.md)!***
 
