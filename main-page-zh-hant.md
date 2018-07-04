@@ -18,7 +18,7 @@
 **Burst 功能**
 
 </div>
-\* [任意消息](----.md)
+\* [任意消息](arbitrary-messages.md)
 
 -   [Alias System](alias-system.md)
 -   [Asset Exchange](asset-exchange.md)
