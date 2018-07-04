@@ -10,6 +10,8 @@
 **[什麼是 Burst 影片 動畫](https://www.youtube.com/watch?v=Fyj9RIyxLb4)**
 
 </div>
+譯者小語： Burst wiki 中文化由dana於2018/07/01開始翻譯，目前所有頁面都暫時先導向英文頁面，等待我翻譯完成後再行導向中文化頁面，有任何翻譯建議或是意見歡迎來信指教，謝謝。
+
 <div class="box_row">
 <div class="box_column">
 <div class="main_subtitle">
