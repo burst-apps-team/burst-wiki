@@ -60,14 +60,6 @@
 
 </div>
 </div>
-<div class="box_row">
-<div class="box_column_light" style="background-color: #ffffff; text-align:center;">
-**獲得幫助: \[Burst 支持中心\]   |   [論壇](https://forums.getburst.net)   |   [Burst Discord](https://discord.gg/PMUgVSY)**
-
-</div>
-</div>
-<div class="box_row">
-</div>
 <div class="box_column">
 <div class="main_subtitle">
 **Mining**
@@ -79,6 +71,14 @@
 -   [Mining](mining.md)
 
 </div>
+</div>
+<div class="box_row">
+<div class="box_column_light" style="background-color: #ffffff; text-align:center;">
+**獲得幫助: \[Burst 支持中心\]   |   [論壇](https://forums.getburst.net)   |   [Burst Discord](https://discord.gg/PMUgVSY)**
+
+</div>
+</div>
+<div class="box_row">
 <div class="box_column" style="background-color: #ffffff;">
 <div class="sub_title">
 **關於 Burst**
