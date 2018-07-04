@@ -13,16 +13,16 @@
 <div class="box_row">
 <div class="box_column">
 <div class="main_subtitle">
-**Burst Features**
+**Burst 功能**
 
 </div>
-\* [Arbitrary Messages](arbitrary-messages.md)
+\* [任意消息](----.md)
 
 -   [Alias System](alias-system.md)
 -   [Asset Exchange](asset-exchange.md)
--   [Automated transactions (Smart Contracts)](automated-transaction.md)
+-   [自動交易 (智能合約)](automated-transaction.md)
 -   [Marketplace](marketplace.md)
--   [*Summary of Features*](current-features.md)
+-   [''功能摘要'](current-features.md)
 
 </div>
 <div class="box_column">
@@ -42,7 +42,7 @@
 </div>
 <div class="box_column">
 <div class="main_subtitle">
-**For Developers**
+**對於開發人員**
 
 </div>
 \*[The Burst API](the-burst-api.md)
