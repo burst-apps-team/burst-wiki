@@ -7,7 +7,7 @@
 </div>
 <div class="main_text">
 **Burst** 是一個 [開源](https://github.com/ac0v/burstcoin) blockchain platform with multiple core-level features that has been running publicly since August 2014. It is a fork of Nxt and it's 100% [Proof of Capacity](proof-of-capacity.md) (PoC), 意思就是你可以透過你的硬碟空間挖礦。
-**[什麼是 Burst 影片 動畫](https://www.youtube.com/watch?v=Fyj9RIyxLb4)**
+**[什麼是 Burst 影片 動畫](https://www.youtube.com/watch?v=Fyj9RIyxLb4)** **[如何開始挖掘 BURST?](https://www.youtube.com/watch?v=LJLhw37Lh_8&t)**
 
 </div>
 譯者小語： Burst wiki 中文化由[dana](https://burstwiki.org/wiki/User:Dana)於2018/07/01開始翻譯，目前所有頁面都暫時先導向英文頁面，等待我翻譯完成後再行導向中文化頁面，有任何翻譯建議或是意見歡迎來信指教，謝謝。
