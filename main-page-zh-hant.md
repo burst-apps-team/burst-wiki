@@ -77,7 +77,7 @@
 -   [FAQ](faq.md)
 -   網站資源
     -   [一般資訊](https://www.burst-coin.org/)
-    -   [交易](--.md)
+    -   [交易](exchanges.md)
     -   [Marketplace](http://x.burstnation.com/交易marketplace)
     -   [錢包下載](http://burstwallet.io/)
     -   論壇: [Burst-Team](http://burstforum.net/), [GetBurst](https://forums.getburst.net/), [Burst Reddit](https://www.reddit.com/r/burstcoin/)
