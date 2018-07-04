@@ -47,11 +47,11 @@
 </div>
 \*[The Burst API](the-burst-api.md)
 
--   [Burst Blockchain Tutorial](burst-blockchain-tutorial.md)
--   [Reed-Solomon (RS) Address Format](rs-address-format.md)
--   [QR Codes for RS Address Format](qr-codes-for-rs-address-format.md)
+-   [Burst 區塊鏈教學](burst-blockchain-tutorial.md)
+-   [Reed-Solomon (RS) 地址格式](rs-address-format.md)
+-   [ RS地址格式的QR碼](qr-codes-for-rs-address-format.md)
 -   [The nxt-default.properties file](nxt-default-properties-configuration-file.md)
--   [Offline Transaction Signing](offline-transaction-signing.md)
+-   [離線交易簽證](offline-transaction-signing.md)
 -   [How Transaction Processing Works](how-tx-processing-works.md)
 -   [Exchange Integration](exchange-integration.md)
 
