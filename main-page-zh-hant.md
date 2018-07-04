@@ -36,7 +36,7 @@
     -   直接下載: ****, ****
 
 -   [Burst 原始碼](https://github.com/PoC-Consortium/burstcoin)
--   [行動 APP](---app.md)
+-   [行動 APP](mobile-app.md)
 -   *[Burst 軟體簡介](burst-software.md)*
 
 </div>
