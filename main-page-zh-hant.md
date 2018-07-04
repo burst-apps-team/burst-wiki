@@ -27,17 +27,17 @@
 </div>
 <div class="box_column">
 <div class="main_subtitle">
-**Burst Software**
+**Burst 軟體**
 
 </div>
-\***Burst Client**
+\***Burst 客戶端**
 
--   -   Latest Version: **** (beta: ****)
-    -   Direct Download: ****, ****
+-   -   最新版本: **** (beta: ****)
+    -   直接下載: ****, ****
 
--   [Burst Source Code](https://github.com/PoC-Consortium/burstcoin)
--   [Mobile App](mobile-app.md)
--   *[Burst software overview](burst-software.md)*
+-   [Burst 原始碼](https://github.com/PoC-Consortium/burstcoin)
+-   [行動 APP](---app.md)
+-   *[Burst 軟體簡介](burst-software.md)*
 
 </div>
 <div class="box_column">
