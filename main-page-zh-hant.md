@@ -61,7 +61,7 @@
 </div>
 <div class="box_row">
 <div class="box_column_light" style="background-color: #ffffff; text-align:center;">
-**Get Support: \[Burst Support Center\]   |   [Forum](https://forums.getburst.net)   |   [Burst Discord](https://discord.gg/PMUgVSY)**
+**獲得幫助: \[Burst 支持中心\]   |   [論壇](https://forums.getburst.net)   |   [Burst Discord](https://discord.gg/PMUgVSY)**
 
 </div>
 </div>
