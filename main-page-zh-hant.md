@@ -109,7 +109,7 @@
 </div>
 <div id="main_topboxlinks">
 <center>
-'''[加入我們!](-----.md)   |   **[貢獻](--.md)**   |   **[Burst 基金會](http://burst-foundation.org/)**
+'''[加入我們!](join-us-.md)   |   **[貢獻](contribute.md)**   |   **[Burst 基金會](http://burst-foundation.org/)**
 
 </center>
 </div>
