@@ -67,6 +67,18 @@
 </div>
 </div>
 <div class="box_row">
+</div>
+<div class="box_column">
+<div class="main_subtitle">
+**Mining**
+
+</div>
+\* [Reward Assignment](reward-assignment.md)
+
+-   [Plotting](plotting.md)
+-   [Mining](mining.md)
+
+</div>
 <div class="box_column" style="background-color: #ffffff;">
 <div class="sub_title">
 **關於 Burst**
