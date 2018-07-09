@@ -27,7 +27,7 @@ The easiest choice for beginners on Windows is to download Qbundle, a launcher a
 
 **Platform** : Windows
 
-### Burst Reference Software (BRS)
+### [Burst Reference Software (BRS)](burst-reference-software.md)
 
 <img src="StableW.png" title="fig:StableW.png" alt="StableW.png" width="150" height="150" /><img src="LocalW.png" title="fig:LocalW.png" alt="LocalW.png" width="150" height="150" /><img src="DymaxionCW.png" title="fig:DymaxionCW.png" alt="DymaxionCW.png" width="150" height="150" />
 
