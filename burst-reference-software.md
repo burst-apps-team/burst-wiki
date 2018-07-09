@@ -320,7 +320,7 @@ Running a full node is one of the most important ways to help support the Burst 
 13. Click “Apply”
 14. Close “System Preferences”
 
-### Router Settings¶
+### Router Settings
 
 Now open your network router settings by entering your default gateway IP in the URL field of your browser. Login to your router.
 
