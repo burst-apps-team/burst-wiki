@@ -24,7 +24,7 @@ Packages are provided for Debian (stretch, jessie) and Ubuntu (zesty, xenial)
 
 ### Debian
 
-#### **Packages**
+#### Packages
 
 <https://github.com/PoC-Consortium/burstcoin>
 
@@ -115,7 +115,7 @@ Once MariaDB is finished installing, start MariaDB with the following.
 
 `brew services start mariadb `
 
-### Database configuration¶
+### Database configuration
 
 As soon as MariaDB is successfully installed, we can log into the MariaDB interface.
 
@@ -133,7 +133,7 @@ Finally we, grant this user all privileges for the database `burstwallet`.
 
 `GRANT ALL PRIVILEGES ON burstwallet.* TO 'burstwallet'@'localhost';`
 
-### Setup Wallet¶
+### Setup Wallet
 
 1.  Now, download the lateste release from the Github release section
 2.  Find the folder you downloaded from github and double click it. Archive utility will now extract it to a new folder.
