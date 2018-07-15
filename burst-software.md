@@ -1,8 +1,11 @@
 <languages/>
 
+<translate>
+
 | Burst Software |
 |----------------|
 | **Status**     |
+||
 
 Table Of Contents
 -----------------
@@ -279,4 +282,4 @@ PaperBurst is a paper wallet generator for Burstcoin.
 
 **Download link** : <https://github.com/umbrellacorp03/PaperBurst/releases/latest>
 
-**Platform** : Windows
+**Platform** : Windows </translate>
