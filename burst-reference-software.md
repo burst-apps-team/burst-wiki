@@ -172,6 +172,7 @@ The following `docker-compose.yml` file can be used to run the BRS with MariaD
 
     version: '3'
 
+    <!--T:29-->
     services:
       burstcoin:
         image: burstcoin/core:2.2-mariadb
@@ -212,6 +213,7 @@ In order to use a custom config - `brs.properties` file, you can simply mount 
 
     version: '3'
 
+    <!--T:33-->
     services:
       burstcoin:
         image: burstcoin/core:2.2-mariadb
