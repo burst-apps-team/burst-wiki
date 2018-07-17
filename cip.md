@@ -5,7 +5,7 @@
 Capability Improvement Proposal
 -------------------------------
 
-Similar to the practice of [BIPs](https://en.bitcoin.it/wiki/Bitcoin_Improvement_Proposals) and [EIPs](https://github.com/ethereum/EIPs), the Burst community has established CIPs (short for “Capability Improvement Proposal” or even “Coin Improvement Proposal” to advance further development of Burstcoin.
+Similar to the practice of [BIPs](https://en.bitcoin.it/wiki/Bitcoin_Improvement_Proposals) and [EIPs](https://github.com/ethereum/EIPs), the Burst community has established CIPs (short for “Capability Improvement Proposal” or even “Coin Improvement Proposal”) to advance further development of Burstcoin.
 
 So CIPs describe standards for the Burstcoin platform, including core protocol specifications, client APIs, and contract standards.
 
@@ -37,9 +37,7 @@ Asking the Burstcoin community first if an idea is original helps prevent too mu
 
 It also helps to make sure the idea is applicable to the entire community and not just the author. Just because an idea sounds good to the author does not mean it will work for most people in most areas where Burstcoin is used.
 
-Once the champion has asked the Burstcoin community as to whether an idea has any chance of acceptance, a draft CIP should be presented to the [Burst Discord Forum](https://discord.gg/PMUgVSY).
-
-This gives the author a chance to flesh out the draft CIP to make it properly formatted, of high quality, and to address additional concerns about the proposal.
+Once the champion has asked the Burstcoin community as to whether an idea has any chance of acceptance, a draft CIP should be presented to the [Burst Discord Forum](https://discord.gg/PMUgVSY). This gives the author a chance to flesh out the draft CIP to make it properly formatted, of high quality, and to address additional concerns about the proposal.
 
 Following a discussion, the proposal should be submitted to the \[List\_of\_CIPs CIPs repository\]. This draft must be written in CIP style as described below, and named with an alias such as “cip-johndoe-infiniteburstcoins” until the editor has assigned it a CIP number (authors MUST NOT self-assign CIP numbers).
 
