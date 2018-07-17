@@ -1,3 +1,7 @@
+<languages/>
+
+<translate>
+
 | The Burst API Examples |
 |------------------------|
 | **Status**             |
@@ -2430,3 +2434,5 @@ Utilities <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" wi
     "account": "16922903237994405232"
 }
 ```
+
+</translate>
