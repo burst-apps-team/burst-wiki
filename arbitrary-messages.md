@@ -1,3 +1,7 @@
+<languages/>
+
+<translate>
+
 Description
 -----------
 
@@ -32,3 +36,4 @@ Open your Burst client and select ‘Messages’.
 2.  Here you can find all the received messages sorted by the burst accounts.
 3.  Below the messages you will find input fields to respond directly.
 
+</translate>
