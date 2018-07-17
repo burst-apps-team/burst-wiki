@@ -37,7 +37,7 @@ To get the total token supply invoke the getAsset API and supply the asset id. T
 
 **balanceOf**
 
-To get the account balance of another account with a given address, invoke the getAccountAssets API and provide the BURST address as the `account` parameter and the asset id as the `asset` parameter.
+To get the account balance of another account with a given address, invoke the [getAssetAccounts](the-burst-api-get-asset-accounts.md) API and provide the BURST address as the `account` parameter and the asset id as the `asset` parameter.
 
 Here is an [example](the-burst-api-examples-get-asset-accounts.md).
 
@@ -45,6 +45,6 @@ The `unconfirmedQuantityQNT` attribute in the response represents the current ac
 
 **transfer**
 
-To send tokens from your address to another address use the transferAsset API, specify the recipient address, the asset id and the quantity to transfer as well as your account passphrase, the transaction fee and transaction deadline.
+To send tokens from your address to another address use the [transferAsset](the-burst-api-transfer-asset.md) API, specify the recipient address, the asset id and the quantity to transfer as well as your account passphrase, the transaction fee and transaction deadline.
 
-The transferAsset transaction is recorded on the BURST blockchain. You can later track token transfers using the getAssetTransfers API
+The [transferAsset](the-burst-api-transfer-asset.md) transaction is recorded on the BURST blockchain. You can later track token transfers using the [Get Asset Transfers](the-burst-api-get-asset-transfers.md) API
