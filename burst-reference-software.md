@@ -1,3 +1,7 @@
+<languages/>
+
+<translate>
+
 | Burst Refereence Software |
 |---------------------------|
 | **Status**                |
@@ -337,4 +341,4 @@ Now open your network router settings by entering your default gateway IP in the
 8.  Set your “Start Port” and “End Port” to “8123”.&gt;
 9.  Save the new service.
 
-The local wallet must remain running for your full node to be accessible to the network.
+The local wallet must remain running for your full node to be accessible to the network. </translate>
