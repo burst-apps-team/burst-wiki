@@ -1,3 +1,7 @@
+<languages/>
+
+<translate>
+
 | Capability Improvement Proposal |
 |---------------------------------|
 | **Status**                      |
@@ -181,4 +185,4 @@ An Proposed CIP may progress to `Final` only when specific criteria reflecting r
 
 When a Final CIP is no longer relevant, its status may be changed to `Replaced` or `Obsolete` (which is equivalent to `Replaced`). This change must also be objectively verifiable and/or discussed.
 
-A process CIP may change status from `Draft` to `Active` when it achieves rough consensus on the mailing list. Such a proposal is said to have rough consensus if it has been open to discussion on the development channel(s)for at least one month, and no person maintains any unaddressed substantiated objections to it. Addressed or obstructive objections may be ignored/overruled by general agreement that they have been sufficiently addressed, but clear reasoning must be given in such circumstances.
+A process CIP may change status from `Draft` to `Active` when it achieves rough consensus on the mailing list. Such a proposal is said to have rough consensus if it has been open to discussion on the development channel(s)for at least one month, and no person maintains any unaddressed substantiated objections to it. Addressed or obstructive objections may be ignored/overruled by general agreement that they have been sufficiently addressed, but clear reasoning must be given in such circumstances. </translate>
