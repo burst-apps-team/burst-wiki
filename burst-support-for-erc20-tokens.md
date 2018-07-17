@@ -33,15 +33,15 @@ Implementing the ERC20 APIs
 
 **totalSupply**
 
-To get the total token supply invoke the getAsset API and supply the asset id. The total supply is provided by the “initialQuantityQNT” attribute, the existing supply, after possible share deletes, is specified by the “quantityQNT” attribute. Quantity values are always provided as integer values, the number of decimal positions to apply to these quantities is specified by the “decimals” attribute.
+To get the total token supply invoke the getAsset API and supply the asset id. The total supply is provided by the `initialQuantityQNT` attribute, the existing supply, after possible share deletes, is specified by the `quantityQNT` attribute. Quantity values are always provided as integer values, the number of decimal positions to apply to these quantities is specified by the “decimals” attribute.
 
 **balanceOf**
 
-To get the account balance of another account with a given address, invoke the getAccountAssets API and provide the BURST address as the “account” parameter and the asset id as the “asset” parameter.
+To get the account balance of another account with a given address, invoke the getAccountAssets API and provide the BURST address as the `account` parameter and the asset id as the `asset` parameter.
 
 Here is an [example](the-burst-api-examples-get-asset-accounts.md).
 
-The “unconfirmedQuantityQNT” attribute in the response represents the current account balance. The “quantityQNT” attribute represents the quantity available for use at the moment after taking into account balance locked by open asset orders.
+The `unconfirmedQuantityQNT` attribute in the response represents the current account balance. The `quantityQNT` attribute represents the quantity available for use at the moment after taking into account balance locked by open asset orders.
 
 **transfer**
 
