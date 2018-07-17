@@ -141,7 +141,7 @@ The Layer header (only for Standards Track CIPs) documents which layer of Burstc
 
 The Author header lists the names and email addresses of all the authors/owners of the CIP. The format of the Author header value must be
 
-` Random J. User <address@dom.ain>`
+Random J. User &lt;address@dom.ain&gt;
 
 If there are multiple authors, each should be on a separate line following RFC 2822 continuation line conventions.
 
@@ -185,4 +185,16 @@ An Proposed CIP may progress to `Final` only when specific criteria reflecting r
 
 When a Final CIP is no longer relevant, its status may be changed to `Replaced` or `Obsolete` (which is equivalent to `Replaced`). This change must also be objectively verifiable and/or discussed.
 
-A process CIP may change status from `Draft` to `Active` when it achieves rough consensus on the mailing list. Such a proposal is said to have rough consensus if it has been open to discussion on the development channel(s)for at least one month, and no person maintains any unaddressed substantiated objections to it. Addressed or obstructive objections may be ignored/overruled by general agreement that they have been sufficiently addressed, but clear reasoning must be given in such circumstances. </translate>
+A process CIP may change status from `Draft` to `Active` when it achieves rough consensus on the mailing list. Such a proposal is said to have rough consensus if it has been open to discussion on the development channel(s)for at least one month, and no person maintains any unaddressed substantiated objections to it. Addressed or obstructive objections may be ignored/overruled by general agreement that they have been sufficiently addressed, but clear reasoning must be given in such circumstances.
+
+A soft-fork CIP strictly requires a clear miner majority expressed by blockchain voting (eg, using CIP 9). In addition, if the economy seems willing to make a “no confidence” hard-fork (such as a change in proof-of-work algorithm), the soft-fork does not become Final for as long as such a hard-fork might have majority support, or at most three months. Soft-fork CIPs may also set additional requirements for their adoption. Because of the possibility of changes to miner dynamics, especially in light of delegated voting (mining pools), it is highly recommended that a supermajority vote around 95% be required by the CIP itself, unless rationale is given for a lower threshold.
+
+A hard-fork CIP requires adoption from the entire Burstcoin economy, particularly including those selling desirable goods and services in exchange for bitcoin payments, as well as Burstcoin holders who wish to spend or would spend their bitcoins (including selling for other currencies) differently in the event of such a hard-fork. Adoption must be expressed by de facto usage of the hard-fork in practice (ie, not merely expressing public support, although that is a good step to establish agreement before adoption of the CIP). This economic adoption cannot be established merely by a super-majority, except by literally forcing the minority to accept the hard-fork (whether this is viable or not is outside the scope of this document).
+
+Peer services CIPs should be observed to be adopted by at least 1% of public listening nodes for one month.
+
+API/RPC and application layer CIPs must be implemented by at least two independent and compatible software applications.
+
+Software authors are encouraged to publish summaries of what CIPs their software supports to aid in verification of status changes.
+
+These criteria are considered objective ways to observe the de facto adoption of the CIP, and are not to be used as reasons to oppose or reject a CIP. Should a CIP become actually and unambiguously adopted despite not meeting the criteria outlined here, it should still be updated to Final status. --&gt; </translate>
