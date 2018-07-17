@@ -1,3 +1,7 @@
+<languages/>
+
+<translate>
+
 | Burst Asset Exchange |
 |----------------------|
 | **Status**           |
@@ -240,4 +244,4 @@ The asset belongs to the person issuing it. Therefore it is required to enter yo
 
 *Mandatory*: this field is mandatory.
 
-*Note*: assets belong to the person that creates them, but they can be bought, sold and transfered.
+*Note*: assets belong to the person that creates them, but they can be bought, sold and transfered. </translate>
