@@ -48,7 +48,7 @@ It also helps to make sure the idea is applicable to the entire community and no
 
 Once the champion has asked the Burstcoin community as to whether an idea has any chance of acceptance, a draft CIP should be presented to the [Burst Discord Forum](https://discord.gg/PMUgVSY). This gives the author a chance to flesh out the draft CIP to make it properly formatted, of high quality, and to address additional concerns about the proposal.
 
-Following a discussion, the proposal should be submitted to the \[List\_of\_CIPs CIPs repository\]. This draft must be written in CIP style as described below, and named with an alias such as “cip-johndoe-infiniteburstcoins” until the editor has assigned it a CIP number (authors MUST NOT self-assign CIP numbers).
+Following a discussion, the proposal should be submitted to the [CIPs repository](https://github.com/PoC-Consortium/CIPs). This draft must be written in CIP style as described below, and named with an alias such as “cip-johndoe-infiniteburstcoins” until an editor has assigned it a CIP number (authors MUST NOT self-assign CIP numbers).
 
 CIP authors are responsible for collecting community feedback on both the initial idea and the CIP before submitting it for review. However, wherever possible, long open-ended discussions on public mailing lists should be avoided. Strategies to keep the discussions efficient include: setting up a separate SIG mailing list for the topic, having the CIP author accept private comments in the early design phases, setting up a wiki page etc. CIP authors should use their discretion here.
 
@@ -56,7 +56,7 @@ It is highly recommended that a single CIP contain a single key proposal or new 
 
 When the CIP draft is complete, the CIP editor will assign the CIP a number, label it as Standards Track, Informational, or Process, and move the submitted text to the CIPs repository.
 
-The CIP editor rewievs incoming CIPs for their formal completeness and will not unreasonably reject a CIP.
+The CIP editor reviews incoming CIPs for their formal completeness and will not unreasonably reject a CIP.
 
 Reasons for rejecting CIPs include duplication of effort, disregard for formatting rules, being too unfocused or too broad, being technically unsound, not providing proper motivation or addressing backwards compatibility, or not in keeping with the Burstcoin philosophy.
 
@@ -72,7 +72,7 @@ If you are interested in assuming ownership of a CIP, send a message asking to t
 
 ### CIP Editors
 
-The current CIP editor is rico666 who can be contacted at <bots@cryptoguru.org>.
+The current CIP editors are rico666 who can be contacted at <bots@cryptoguru.org> and umbrellacorp03 who can be contacted on Discord.
 
 ### CIP Editor Responsibilities & Workflow
 
