@@ -124,7 +124,7 @@ Each CIP must begin with an RFC 822 style header preamble. The headers must appe
       CIP: <CIP number, or "?" before being assigned>
     * Layer: <Consensus (soft fork) | Consensus (hard fork) | Peer Services | API/RPC | Applications>
       Title: <CIP title; maximum 44 characters>
-      Author: <list of authors' real names and email addrs>
+      Author: <list of author names or known community handles>
     * Discussions-To: <email address>
     * Comments-Summary: <summary tone>
       Comments-URI: <links to wiki page for comments>
