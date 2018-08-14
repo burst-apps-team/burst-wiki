@@ -1,6 +1,6 @@
-| The Burst API Examples |
-|------------------------|
-| **Status**             |
+| Mining     |
+|------------|
+| **Status** |
 ||
 
 Introduction to Burstcoin mining
