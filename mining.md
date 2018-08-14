@@ -1,7 +1,12 @@
+| The Burst API Examples |
+|------------------------|
+| **Status**             |
+||
+
 Introduction to Burstcoin mining
 --------------------------------
 
-The process of mining cryptocurrencies is the foundation for the blockchain to grow and secure transactions within the network. The process of mining is present in cryptocurrencies other than those that use the Proof-of-Stake consensus algorithm. The Burstcoin (or Burst) uses the Proof-of-Capacity consensus algorithm, which uses precomputed hashes to find values that can be used to forge a block. The precomputed hashes are stored to HDDs prior to mining, hence Burst mining is also referred to as “storage” or “HDD” mining. The process of precomputing and storing hashes that precedes the process of mining is referred to as plotting, and the resulting files are called plot files.
+The process of mining cryptocurrencies is the foundation for the blockchain to grow and secure transactions within the network. The process of mining is present in cryptocurrencies other than those that use the Proof-of-Stake consensus algorithm. Burstcoin (or Burst) uses the Proof-of-Capacity consensus algorithm, which uses precomputed hashes to find values that can be used to forge a block. The precomputed hashes are stored to HDDs prior to mining, hence Burst mining is also referred to as “storage” or “HDD” mining. The process of precomputing and storing hashes that precedes the process of mining is referred to as plotting, and the resulting files are called plot files.
 
 Burstcoin uses the Shabal cryptographic hash function as its main function, which is slow and heavy in comparison to other cryptographic hash functions, such as the SHA256. This feature makes it ideal for precomputation of hashes, while it's still fast enough for small live verifications. Burst uses the 256bit version of Shabal, known as Shabal256.
 
@@ -15,7 +20,7 @@ Plot files are made up of hashes. A hash is a result of of computing data using 
 
 Before they start mining, users have to decide whether they'll join a mining pool or mine alone (“solo mine”). This is done through a transaction called “Reward recipient assignment” which has to be executed for both types of mining. The reward recipient assignment transaction, when used in context of pool mining, enables the pool to use the deadlines submitted by the miner and sign newly forged blocks with miner's account. This transaction also assigns the block rewards from blocks forged by a specific miner to the pool for distribution, in accordance with pool reward distribution policies. Note that forged blocks are always signed by an account belonging to the miner who submitted the deadline used to forge the block.
 
-![](Reward_recipient.png "Reward_recipient.png")
+<img src="Reward_recipient.png" title="Reward_recipient.png" alt="Reward_recipient.png" width="1100" height="343" />
 
 *Reward recipient assignment form*
 
@@ -103,7 +108,7 @@ Block signature is a 64 byte hash generated with the forger's private key and bl
 
 ![](Block_details_2.png "Block_details_2.png")
 
-*Block details available in he Burst wallet*
+*Block details available in the Burst wallet*
 
 Once a wallet forges a block, it will be announced to the network. The wallet connects to peers and send the block for verification and validation.
 
