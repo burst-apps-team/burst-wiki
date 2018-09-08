@@ -17,4 +17,4 @@ Database Fields
 
 All the blockchain is stored on these tables :
 
-![](Burst_Blockchain_Diagram.png "Burst_Blockchain_Diagram.png")
+<img src="Burst_Blockchain_Diagram.png" title="Burst_Blockchain_Diagram.png" alt="Burst_Blockchain_Diagram.png" width="1745" height="1745" />
