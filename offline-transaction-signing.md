@@ -1,6 +1,12 @@
 Offline Transaction Signing
 ---------------------------
 
+| Offline Transaction Signing |
+|-----------------------------|
+| **Status**                  |
+| **API Version**             |
+| **BRS Version**             |
+
 **Offline Transaction Signing \[offline device\]**
 
 The term “offline transaction” refers to the practice of keeping the private keys on an offline device (not connected to the internet), and signing on individuals transactions. The signature is then copy-pasted from this device into a connected device, and broadcast into the network. Assuming the offline computer is malware-free, then this practice is virtually risk-free of theft.
@@ -39,7 +45,7 @@ Pseudo code:
 `function signTX(unsignedTransactionBytes) `
 `{`
 `    myBytes = unsignedTransactionBytes // keep a copy `
-`    signature = crypto.sign(unsignedTransactionBytes) // make the signature`
+`    signature = crypto.sign(unsignedTransactionBytes, passPhrase) // make the signature`
 `    myBytes.copy(96, signature); // copy the signature over the unsignedTransactionBytes with a offset of 96 bytes`
 `    return myBytes`
 `}`
