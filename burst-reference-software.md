@@ -14,12 +14,36 @@ Table Of Contents
 Introduction
 ------------
 
-The Burst Reference Software (BRS) is the main burst wallet. It allows connection to the Burst network.
+The Burst Reference Software (BRS) is the main Burst wallet. It allows connection to the Burst network.
 
 Windows Installation
 --------------------
 
+### Installation with QBundle
+
 All the details regarding the installation of BRS can be found here: [QBundle](qbundle.md). Indeed, QBundle is a launcher allowing you to install the Burst local wallet in a few clicks.
+
+### Installation of BRS only (with MariaDB)
+
+Firstly, you will have to download the latest version of BRS here (zip) : <https://github.com/PoC-Consortium/burstcoin/releases>. In the conf directory, copy brs-default.properties into a new file named brs.properties.
+
+Secondly, be sure to have the latest version of Java installed on your computer : <https://java.com/de/download/>.
+
+You will also have to download and install MariaDB : <https://downloads.mariadb.org/>.
+
+The MariaDb installation will ask to setup a password for the root user. Add this password to the brs.properties file created above in the following section:
+
+    DB.Url=jdbc:mariadb://localhost:3306/brs_master
+    DB.Username=root
+    DB.Password=YOUR_PASSWORD
+
+The MariaDB installation will also install HeidiSQL, a gui tool to administer MariaDb. Use it to connect to the newly created MariaDb server and create a new DB called 'burstwallet'.
+
+MariaDB knowledge base : <https://mariadb.com/kb/en/library/documentation/>
+
+HeidiSQL documentation : <https://www.heidisql.com/help.php>
+
+Finally, you have to run `burst.sh` in the burstcoin folder.
 
 Linux Installation
 ------------------
