@@ -33,9 +33,9 @@ You will also have to download and install MariaDB : <https://downloads.mariadb.
 
 The MariaDb installation will ask to setup a password for the root user. Add this password to the `brs.properties` file created above in the following section:
 
-    DB.Url=jdbc:mariadb://localhost:3306/brs_master
-    DB.Username=root
-    DB.Password=YOUR_PASSWORD
+`DB.Url=jdbc:mariadb://localhost:3306/brs_master`
+`DB.Username=root`
+`DB.Password=YOUR_PASSWORD`
 
 #### Setup MariaDB
 
