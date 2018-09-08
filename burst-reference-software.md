@@ -113,21 +113,7 @@ Once MariaDB is finished installing, start MariaDB with the following.
 
 ### Database configuration
 
-As soon as MariaDB is successfully installed, we can log into the MariaDB interface.
-
-`mysql -u root -p -h localhost`
-
-Now we create the database `burstwallet` for the blockchain.
-
-`CREATE DATABASE burstwallet; `
-
-In addition, we create a user which is used by the wallet to access the database. Replace <your password> with a password of your choice.
-
-`CREATE USER 'burstwallet'@'localhost' IDENTIFIED BY '`<your password>`'; `
-
-Finally we, grant this user all privileges for the database `burstwallet`.
-
-`GRANT ALL PRIVILEGES ON burstwallet.* TO 'burstwallet'@'localhost';`
+As soon as MariaDB is successfully installed, we can log into the MariaDB interface and setup database like explianed in [Setup MariaDB](burst-reference-software-setup-mariadb.md)
 
 ### Setup Wallet
 
