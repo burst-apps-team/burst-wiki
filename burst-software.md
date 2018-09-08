@@ -252,6 +252,18 @@ GoBurstPool is the all-new PoCC pool software written in GO. It provides SSE4 + 
 
 **Platform** : Linux
 
+### BurstNeon Burst-Pool
+
+<img src="StableW.png" title="fig:StableW.png" alt="StableW.png" width="150" height="150" /><img src="DymaxionCW.png" title="fig:DymaxionCW.png" alt="DymaxionCW.png" width="150" height="150" /><img src="POC2W.png" title="fig:POC2W.png" alt="POC2W.png" width="150" height="150" />
+
+This is a pool software developped by BurstNeon (http://burstneon.com).
+
+**Main Dev** : BurstNeon
+
+**Download link** : <https://github.com/BurstNeon/burst-pool/releases>
+
+**Platform** : Linux
+
 Other tools
 -----------
 
