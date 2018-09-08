@@ -225,6 +225,18 @@ The creepMiner is a client application for mining Burst on a pool or solo. It su
 
 **Platform** : Windows, MacOS, Linux x86\_64 or ARM7
 
+### Scavenger
+
+<img src="StableW.png" title="fig:StableW.png" alt="StableW.png" width="150" height="150" /><img src="DymaxionCW.png" title="fig:DymaxionCW.png" alt="DymaxionCW.png" width="150" height="150" /><img src="POC2W.png" title="fig:POC2W.png" alt="POC2W.png" width="150" height="150" />
+
+Scavenger is a burst miner developped by PoC Consortium and written in Rust. It features direct io, avx512f, avx2, avx, sse and opencl.
+
+**Main Dev** : PoC Consortium
+
+**Download link** : https://github.com/PoC-Consortium/scavenger/releases/latest
+
+**Platform** : Windows, MacOS, Linux, Unix (64 bits)
+
 Pool Software 
 --------------
 
