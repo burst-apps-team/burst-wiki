@@ -225,6 +225,8 @@ Running a full node is one of the most important ways to help support the Burst 
 
 ### Steps on Windows
 
+Firstly, if you have the latest BRS version, UPnP should be enabled and you already run a full node. Otherwise, following these steps :
+
 1.  Once you have a local wallet installed and running you need to forward port 8123 to allow other peers to connect to your wallet.
 2.  We now need to get some IP addresses.
     -   Open “Command Prompt”.
@@ -288,6 +290,8 @@ Running a full node is one of the most important ways to help support the Burst 
 -   Now you will set the machine to have a static IP address. This is so that if the machine restarts, it will not change IP addresses and negate the port forwarding rule we will set up later.
 
 ### Steps on MacOS
+
+Firstly, if you have the latest BRS version, UPnP should be enabled and you already run a full node. Otherwise, following these steps :
 
 1.  Open “System Preferences”
 2.  Select “Network”
