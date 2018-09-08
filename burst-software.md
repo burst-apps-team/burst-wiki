@@ -66,6 +66,33 @@ The mobile wallet for Android and iOS which provides the following features :
 
 **Platform** : Android
 
+dApps
+-----
+
+### CloudBurst
+
+<img src="StableW.png" title="fig:StableW.png" alt="StableW.png" width="150" height="150" /><img src="DymaxionUW.png" title="fig:DymaxionUW.png" alt="DymaxionUW.png" width="170" height="170" />
+
+CloudBurst is a decentralized cloud storage application to upload & download files from the Burstcoin blockchain.
+
+**Main Dev** : CurbShifter
+
+**Download link** : https://github.com/CurbShifter/CloudBurstDAPP/releases/latest
+
+**Platform** : Windows, MacOS
+
+### BurstCoupon
+
+<img src="StableW.png" title="fig:StableW.png" alt="StableW.png" width="150" height="150" /><img src="DymaxionUW.png" title="fig:DymaxionUW.png" alt="DymaxionUW.png" width="170" height="170" />
+
+BurstCoupon allows you to create and claim password protected coupons as extension for the Burstcoin blockchain.
+
+**Main Dev** : CurbShifter
+
+**Download link** : https://github.com/CurbShifter/BurstCoupon/releases/latest
+
+**Platform** : Windows, MacOS
+
 Plotting Software
 -----------------
 
