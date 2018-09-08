@@ -90,3 +90,5 @@ These 25 fields define a transaction the current version of the Burst software. 
 Below the column list is a list of indexes. The indexes are all used for sorting various columns for fast retrieval, but the following columns are also restricted to have unique values: `db_id`, `id`, `full_hash`.
 
 **Note:** transactions stored in the `TRANSACTION` table are associated with blocks stored in the `BLOCK` table through the fields `height`, `block_id` and `block_timestamp`.
+
+All other tables, with field names, and data types are listed in the image above.
