@@ -57,32 +57,32 @@ Below the column list is a list of indexes. The indexes are all used for sorting
 
 These 25 fields define a transaction the current version of the Burst software. Note that the transaction table has evolved since the genesis block. A complete history of the DB structure can be found in the Nxt software source file nxt/src/java/nxt/NxtDbVersion.java
 
-| Field Name                          | Data Type             | NOT NULL |
-|-------------------------------------|-----------------------|----------|
-| DB\_ID                              | BIGINT(19)            | yes      |
-| ID                                  | BIGINT(19)            | yes      |
-| DEADLINE                            | SMALLINT(5)           | yes      |
-| SENDER\_PUBLIC\_KEY                 | VARBINARY(32)         | yes      |
-| RECIPIENT\_ID                       | BIGINT(19)            | no       |
-| AMOUNT                              | BIGINT(19)            | yes      |
-| FEE                                 | BIGINT(19)            | yes      |
-| HEIGHT                              | INTEGER(10)           | yes      |
-| BLOCK\_ID                           | BIGINT(19)            | yes      |
-| SIGNATURE                           | VARBINARY(64)         | yes      |
-| TIMESTAMP                           | INTEGER(10)           | yes      |
-| TYPE                                | TINYINT(3)            | yes      |
-| SUBTYPE                             | TINYINT(3)            | yes      |
-| SENDER\_ID                          | BIGINT(19)            | yes      |
-| BLOCK\_TIMESTAMP                    | INTEGER(10)           | yes      |
-| FULL\_HASH                          | VARBINARY(32)         | yes      |
-| REFERENCED\_TRANSACTION\_FULL\_HASH | VARBINARY(32)         | no       |
-| ATTACHMENT\_BYTES                   | VARBINARY(2147483647) | no       |
-| VERSION                             | TINYINT(3)            | yes      |
-| HAS\_MESSAGE                        | BOOLEAN(1)            | yes      |
-| HAS\_ENCRYPTED\_MESSAGE             | BOOLEAN(1)            | yes      |
-| HAS\_PUBLIC\_KEY\_ANNOUNCEMENT      | BOOLEAN(1)            | yes      |
-| EC\_BLOCK\_HEIGHT                   | INTEGER(10)           | no       |
-| EC\_BLOCK\_ID                       | BIGINT(19)            | no       |
-| HAS\_ENCRYPTTOSELF\_MESSAGE         | BOOLEAN(1)            | yes      |
+| Field Name                          | Data Type     | NOT NULL |
+|-------------------------------------|---------------|----------|
+| DB\_ID                              | BIGINT(20)    | yes      |
+| ID                                  | BIGINT(20)    | yes      |
+| DEADLINE                            | SMALLINT(6)   | yes      |
+| SENDER\_PUBLIC\_KEY                 | VARBINARY(32) | yes      |
+| RECIPIENT\_ID                       | BIGINT(20)    | no       |
+| AMOUNT                              | BIGINT(20)    | yes      |
+| FEE                                 | BIGINT(20)    | yes      |
+| HEIGHT                              | INTEGER(11)   | yes      |
+| BLOCK\_ID                           | BIGINT(20)    | yes      |
+| SIGNATURE                           | VARBINARY(64) | yes      |
+| TIMESTAMP                           | INTEGER(11)   | yes      |
+| TYPE                                | TINYINT(4)    | yes      |
+| SUBTYPE                             | TINYINT(4)    | yes      |
+| SENDER\_ID                          | BIGINT(20)    | yes      |
+| BLOCK\_TIMESTAMP                    | INTEGER(11)   | yes      |
+| FULL\_HASH                          | VARBINARY(32) | yes      |
+| REFERENCED\_TRANSACTION\_FULL\_HASH | VARBINARY(32) | no       |
+| ATTACHMENT\_BYTES                   | BLOB          | no       |
+| VERSION                             | TINYINT(4)    | yes      |
+| HAS\_MESSAGE                        | BOOLEAN(1)    | yes      |
+| HAS\_ENCRYPTED\_MESSAGE             | BOOLEAN(1)    | yes      |
+| HAS\_PUBLIC\_KEY\_ANNOUNCEMENT      | BOOLEAN(1)    | yes      |
+| EC\_BLOCK\_HEIGHT                   | INTEGER(11)   | no       |
+| EC\_BLOCK\_ID                       | BIGINT(20)    | no       |
+| HAS\_ENCRYPTTOSELF\_MESSAGE         | BOOLEAN(1)    | yes      |
 
 
