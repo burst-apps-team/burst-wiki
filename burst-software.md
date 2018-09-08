@@ -313,7 +313,7 @@ Features include:
 
 ### PaperBurst
 
-<img src="UnderReviewW.png" title="fig:UnderReviewW.png" alt="UnderReviewW.png" width="150" height="150" /><img src="DymaxionCW.png" title="fig:DymaxionCW.png" alt="DymaxionCW.png" width="150" height="150" />
+<img src="StableW.png" title="fig:StableW.png" alt="StableW.png" width="150" height="150" /><img src="DymaxionCW.png" title="fig:DymaxionCW.png" alt="DymaxionCW.png" width="150" height="150" />
 
 PaperBurst is a paper wallet generator for Burstcoin.
 
