@@ -61,7 +61,7 @@ Finally we, grant this user all privileges for the database `burstwallet`.
 
 `GRANT ALL PRIVILEGES ON burstwallet.* TO 'burstwallet'@'localhost';`
 
-Finally, now that the database is created and the `brs.properties` configured, you only have to run `burst.sh` in the burstcoin folder.
+Finally, now that the database is created and the `brs.properties` configured, you only have to run `burst.cmd` in the burstcoin folder.
 
 Linux Installation
 ------------------
@@ -322,3 +322,22 @@ Now open your network router settings by entering your default gateway IP in the
 9.  Save the new service.
 
 The local wallet must remain running for your full node to be accessible to the network. </translate>
+
+How to bypass Dev-version protection
+------------------------------------
+
+Be careful ! This part is only for experienced users who want to use a development version !
+
+### Windows
+
+In `burst.cmd`, add this line
+
+`set BRS_DEVSTART=-Ddev=true`
+
+on the seconde line (after @ECHO OFF)
+
+### Linux
+
+In Linux, use this
+
+`export BRS_DEVSTART=-Ddev=xxx`
