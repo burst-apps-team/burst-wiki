@@ -66,74 +66,24 @@ Finally, now that the database is created and the `brs.properties` configured, y
 Linux Installation
 ------------------
 
-Packages are provided for Debian (stretch, jessie) and Ubuntu (zesty, xenial)
+### Debian & Ubuntu
 
-### Debian
+Download the latest version of BRS here (zip) : <https://github.com/PoC-Consortium/burstcoin/releases>.
 
-#### Packages
+If you are running BRS for the first time,
 
-<https://github.com/PoC-Consortium/burstcoin>
+-   install Java (https://www.java.com/en/download/help/linux\_install.xml)
+-   install MariaDB (https://www.linode.com/docs/databases/mariadb/mariadb-setup-debian/\#install-mariadb)
+-   setup database like explianed in [Setup MariaDB](burst-reference-software-setup-mariadb.md)
+-   run `burst.sh help`
 
-#### Quick Install
+If you want to import the blockchain now, run `burst.sh import mariadb`.
 
-Copy & Paste this line into your terminal:
+### Upgrading your wallet config from 1.3.6cg
 
-`\wget -q -O - http://package.cryptoguru.org/debian/init.sh | bash `
+`burst.sh upgrade`
 
-and now you can install packages like:
-
-`apt-get install burstcoincg`
-
-#### Shell Script
-
-The Quick- Install downloads a shell script and executes it directly. If you're really concerned about the argument that it may contain nefarious activities within, you can easily review it before you run it.
-
-`wget http://package.cryptoguru.org/debian/init.sh less init.sh bash init.sh `
-
-and now you can install packages like:
-
-`apt-get install burstcoincg `
-
-#### Add to sources
-
--   **stretch** Add the following stuff to your sources.list deb https://package.cryptoguru.org/debian/stretch stretch main sometimes you will need to play with package pining
--   **jessie** Add the following stuff to your sources.list deb https://package.cryptoguru.org/debian/jessie jessie main sometimes you will need to play with package pining and you may have to add `deb http://ftp.debian.org/debian jessie-backports main`
-
-### Ubuntu
-
-#### Packages
-
--   burstcoincg - Burstcoin wallet powered by CryptoGuru based on MariaDB.
--   creepminer - The creepMiner is a client application for mining Burst on a pool or solo.
-
-#### Quick Install
-
-Copy & Paste this line into your terminal:
-
-`\wget -q -O - http://package.cryptoguru.org/ubuntu/init.sh | bash `
-
-and now you can install packages like:
-
-`apt-get install burstcoincg `
-
-Info
-
-The wallet is started automatically after installation.
-
-#### Shell Script
-
-The Quick- Install downloads a shell script and executes it directly. If you're really concerned about the argument that it may contain nefarious activities within, you can easily review it before you run it.
-
-`wget http://package.cryptoguru.org/ubuntu/init.sh less init.sh bash init.sh `
-
-and now you can install packages like:
-
-`apt-get install burstcoincg `
-
-#### Add to sources
-
--   **zesty** Add the following stuff to your sources.list deb https://package.cryptoguru.org/ubuntu/zesty zesty main sometimes you will need to play with package pining
--   **xenial** Add the following stuff to your sources.list deb https://package.cryptoguru.org/ubuntu/xenial xenial main sometimes you will need to play with package pining
+will take the old `nxt-default.properties`/`nxt.properties` files and create `brs-default.properties.converted`/`brs.properties.converted` files in the conf directory. This should give you a headstart with the new option naming system.
 
 MacOS Installation
 ------------------
