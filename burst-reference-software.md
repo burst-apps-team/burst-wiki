@@ -31,11 +31,13 @@ Secondly, be sure to have the latest version of Java installed on your computer 
 
 You will also have to download and install MariaDB : <https://downloads.mariadb.org/>.
 
-The MariaDb installation will ask to setup a password for the root user. Add this password to the brs.properties file created above in the following section:
+The MariaDb installation will ask to setup a password for the root user. Add this password to the `brs.properties` file created above in the following section:
 
     DB.Url=jdbc:mariadb://localhost:3306/brs_master
     DB.Username=root
     DB.Password=YOUR_PASSWORD
+
+#### Setup MariaDB
 
 The MariaDB installation will also install HeidiSQL, a gui tool to administer MariaDb. Use it to connect to the newly created MariaDb server and create a new DB called 'burstwallet'.
 
@@ -43,7 +45,23 @@ MariaDB knowledge base : <https://mariadb.com/kb/en/library/documentation/>
 
 HeidiSQL documentation : <https://www.heidisql.com/help.php>
 
-Finally, you have to run `burst.sh` in the burstcoin folder.
+You can also directly connect to mysql and create database trough console :
+
+`mysql -u root -p`
+
+Now we create the database `burstwallet` for the blockchain.
+
+`CREATE DATABASE burstwallet; `
+
+In addition, we create a user which is used by the wallet to access the database. Replace <your password> with a password of your choice.
+
+`CREATE USER 'burstwallet'@'localhost' IDENTIFIED BY '`<your password>`'; `
+
+Finally we, grant this user all privileges for the database `burstwallet`.
+
+`GRANT ALL PRIVILEGES ON burstwallet.* TO 'burstwallet'@'localhost';`
+
+Finally, now that the database is created and the `brs.properties` configured, you only have to run `burst.sh` in the burstcoin folder.
 
 Linux Installation
 ------------------
