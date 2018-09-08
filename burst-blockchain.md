@@ -55,7 +55,7 @@ Below the column list is a list of indexes. The indexes are all used for sorting
 
 ### 2. TRANSACTION Table
 
-These 25 fields define a transaction the current version of the Burst software. Note that the transaction table has evolved since the genesis block. A complete history of the DB structure can be found in the Nxt software source file nxt/src/java/nxt/NxtDbVersion.java
+These 25 fields define a transaction the current version of the Burst software. Note that the transaction table has evolved since the genesis block.
 
 | Field Name                          | Data Type     | NOT NULL |
 |-------------------------------------|---------------|----------|
