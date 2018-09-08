@@ -177,18 +177,6 @@ Mining Softwares
 
 The following softwares are used to mine plot files.
 
-### Blagominer
-
-<img src="StableW.png" title="fig:StableW.png" alt="StableW.png" width="150" height="150" /><img src="DymaxionUW.png" title="fig:DymaxionUW.png" alt="DymaxionUW.png" width="170" height="170" /><img src="POC1W.png" title="fig:POC1W.png" alt="POC1W.png" width="150" height="150" />
-
-Blagominer is the default miner that comes with QBundle. It does support AVX/AVX2.
-
-**Main Dev** : Blagodarenko
-
-**Download link** : https://github.com/Blagodarenko/miner-burst/releases/latest
-
-**Platform** : Windows
-
 ### Blagominer modded
 
 <img src="StableW.png" title="fig:StableW.png" alt="StableW.png" width="150" height="150" /><img src="DymaxionCW.png" title="fig:DymaxionCW.png" alt="DymaxionCW.png" width="150" height="150" /><img src="POC1W.png" title="fig:POC1W.png" alt="POC1W.png" width="150" height="150" /><img src="POC2W.png" title="fig:POC2W.png" alt="POC2W.png" width="150" height="150" />
