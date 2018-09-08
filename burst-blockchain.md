@@ -59,30 +59,34 @@ These 25 fields define a transaction the current version of the Burst software. 
 
 | Field Name                          | Data Type     | NOT NULL |
 |-------------------------------------|---------------|----------|
-| DB\_ID                              | BIGINT(20)    | yes      |
-| ID                                  | BIGINT(20)    | yes      |
-| DEADLINE                            | SMALLINT(6)   | yes      |
-| SENDER\_PUBLIC\_KEY                 | VARBINARY(32) | yes      |
-| RECIPIENT\_ID                       | BIGINT(20)    | no       |
-| AMOUNT                              | BIGINT(20)    | yes      |
-| FEE                                 | BIGINT(20)    | yes      |
-| HEIGHT                              | INTEGER(11)   | yes      |
-| BLOCK\_ID                           | BIGINT(20)    | yes      |
-| SIGNATURE                           | VARBINARY(64) | yes      |
-| TIMESTAMP                           | INTEGER(11)   | yes      |
-| TYPE                                | TINYINT(4)    | yes      |
-| SUBTYPE                             | TINYINT(4)    | yes      |
-| SENDER\_ID                          | BIGINT(20)    | yes      |
-| BLOCK\_TIMESTAMP                    | INTEGER(11)   | yes      |
-| FULL\_HASH                          | VARBINARY(32) | yes      |
-| REFERENCED\_TRANSACTION\_FULL\_HASH | VARBINARY(32) | no       |
-| ATTACHMENT\_BYTES                   | BLOB          | no       |
-| VERSION                             | TINYINT(4)    | yes      |
-| HAS\_MESSAGE                        | BOOLEAN(1)    | yes      |
-| HAS\_ENCRYPTED\_MESSAGE             | BOOLEAN(1)    | yes      |
-| HAS\_PUBLIC\_KEY\_ANNOUNCEMENT      | BOOLEAN(1)    | yes      |
-| EC\_BLOCK\_HEIGHT                   | INTEGER(11)   | no       |
-| EC\_BLOCK\_ID                       | BIGINT(20)    | no       |
-| HAS\_ENCRYPTTOSELF\_MESSAGE         | BOOLEAN(1)    | yes      |
+| db\_id                              | BIGINT(20)    | yes      |
+| id                                  | BIGINT(20)    | yes      |
+| deadline                            | SMALLINT(6)   | yes      |
+| sender\_public\_key                 | VARBINARY(32) | yes      |
+| recipient\_id                       | BIGINT(20)    | no       |
+| amount                              | BIGINT(20)    | yes      |
+| fee                                 | BIGINT(20)    | yes      |
+| height                              | INTEGER(11)   | yes      |
+| block\_id                           | BIGINT(20)    | yes      |
+| signature                           | VARBINARY(64) | yes      |
+| timestamp                           | INTEGER(11)   | yes      |
+| type                                | TINYINT(4)    | yes      |
+| subtype                             | TINYINT(4)    | yes      |
+| sender\_id                          | BIGINT(20)    | yes      |
+| block\_timestamp                    | INTEGER(11)   | yes      |
+| full\_hash                          | VARBINARY(32) | yes      |
+| referenced\_transaction\_full\_hash | VARBINARY(32) | no       |
+| attachments\_bytes                  | BLOB          | no       |
+| version                             | TINYINT(4)    | yes      |
+| has\_message                        | BOOLEAN(1)    | yes      |
+| has\_encrypted\_message             | BOOLEAN(1)    | yes      |
+| has\_public\_key\_announcement      | BOOLEAN(1)    | yes      |
+| ec\_block\_height                   | INTEGER(11)   | no       |
+| ec\_block\_id                       | BIGINT(20)    | no       |
+| has\_encrypttoself\_message         | BOOLEAN(1)    | yes      |
 
+**Note:** most fields cannot be NULL. The exceptions are `recipient_id`, `referenced_transaction_full_hash`, `attachments_bytes` and the `ec_block_...` fields. A transaction is valid without any of these fields specified.
 
+Below the column list is a list of indexes. The indexes are all used for sorting various columns for fast retrieval, but the following columns are also restricted to have unique values: `db_id`, `id`, `full_hash`.
+
+**Note:** transactions stored in the `TRANSACTION` table are associated with blocks stored in the `BLOCK` table through the fields `height`, `block_id` and `block_timestamp`.
