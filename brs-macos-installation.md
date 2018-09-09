@@ -1,3 +1,12 @@
+| Burst Reference Software - MacOS Installation |
+|-----------------------------------------------|
+| **Status**                                    |
+
+Table Of Contents
+-----------------
+
+\_\_TOC\_\_
+
 Installation of MacOS Burst Wallet
 ----------------------------------
 
