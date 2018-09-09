@@ -130,13 +130,13 @@ Congratulations, you now have a fully synchronised wallet, running on the H2 dat
 Wallet Mode
 -----------
 
-In “File/Mode”, you can either choose Wallet Mode or Launcher Mode. The Wallet Mode lets you to use Burst Wallet within QBundle and launcher mode allows you to access Burst wallet only through your browser.
+There are two ways users can run the QBundle, and the “Mode” option allows them to select which of those should be used when QBundle starts. The Wallet Mode lets you to use Burst Wallet within QBundle and launcher mode allows you to access Burst wallet only through your browser.
 
 <img src="Menu_List.png" title="Menu_List.png" alt="Menu_List.png" width="641" height="641" />
 
-This is the launcher mode:
+The wallet mode will load the complete interface allowing users to issue transactions and see blocks as they are forged on the network, while the “Launcher” mode opens a minimal interface, as shown in the image below.
 
-<img src="Launcher_mode_2.png" title="Launcher_mode_2.png" alt="Launcher_mode_2.png" width="586" height="586" />
+<img src="4_Launcher_mode.png" title="4_Launcher_mode.png" alt="4_Launcher_mode.png" width="586" height="586" />
 
 The wallet
 ----------
