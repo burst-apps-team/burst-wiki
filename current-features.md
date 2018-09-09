@@ -1,4 +1,10 @@
-<languages/> <translate> Current features of Burst include:
+<languages/> <translate>
+
+| Current Features |
+|------------------|
+| **Status**       |
+
+Current features of Burst include:
 
 -   **[Asset Exchange](asset-exchange.md)**
     -   To exchange cryptocurrencies and other digital assets until now, you had to sign up for an account on a centralized platform such as Kraken/Bter/etc, transfer your assets to them and then pay them transaction fees. This brings in a large concern: a centralized exchange could just bail with everyone's deposits. Burst has developed a peer-to-peer exchange into the software to allow for decentralized trading which eliminates this trust point. It also eliminates trading fees.
@@ -8,15 +14,23 @@
 <!-- -->
 
 -   **[Marketplace](marketplace.md)**
+    -   This feature provides a protocol for decentralized, peer-to-peer stores for any kind of digital goods.
 
-This feature provides a protocol for decentralized, peer-to-peer stores for any kind of digital goods.
+<!-- -->
 
 -   ''' [Alias System](alias-system.md) '''
+    -   Burst implements an alias system that translates alphanumeric text into almost anything: Burst account addresses, email addresses, URLs, phone numbers, SKU codes, and more. This not only gives Burst the ability to function as a Decentralized DNS system, but adds additional possibilities for mapping short names to other entities.
 
-Burst implements an alias system that translates alphanumeric text into almost anything: Burst account addresses, email addresses, URLs, phone numbers, SKU codes, and more. This not only gives Burst the ability to function as a Decentralized DNS system, but adds additional possibilities for mapping short names to other entities.
+<!-- -->
 
 -   ''' [Arbitrary Messages](arbitrary-messages.md) '''
+    -   This feature allows Burst users to send small amounts of data through the decentralized network. These data can be encrypted. The term “message” is loose: this feature can be used to send simple text messages, but can also be used to send up to 1000 bytes of any data. As a result, it can be used to build file-sharing services, decentralized applications, and higher-level Burst services.
 
-This feature allows Burst users to send small amounts of data through the decentralized network. These data can be encrypted. The term “message” is loose: this feature can be used to send simple text messages, but can also be used to send up to 1000 bytes of any data. As a result, it can be used to build file-sharing services, decentralized applications, and higher-level Burst services. </translate>
+<!-- -->
+
+-   **Crowdfunding**
+    -   Burst implements a crowdfunding system which allows every burst user to set up a crowfunding.
+
+</translate>
 
 <Category:Features>
