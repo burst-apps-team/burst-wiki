@@ -228,7 +228,7 @@ Finally, passphrases and private keys are available (it is enough to set up one 
 
 <img src="11a_Account_manager.png" title="11a_Account_manager.png" alt="11a_Account_manager.png" width="776" height="776" />
 
- === My wallet is stuck, how do I solve this ? ===
+### My wallet is stuck, how do I solve this ?
 
 #### Rollback chain (popoff)
 
