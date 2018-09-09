@@ -362,8 +362,42 @@ The algorithm which seeks for the account with the desired string is a brute for
 
 #### Paperburst
 
+The Paperburst tool can be used to generate a new wallet or to use an existing wallet. In order to use the tool, users will provide information as shown below:
+
+<img src="20_Paper_wallet_generator.png" title="20_Paper_wallet_generator.png" alt="20_Paper_wallet_generator.png" width="658" height="658" />
+
+After all reqiured fields of the form have been populated, by clicking the desired button, users can create a new Burst wallet or a paper wallet. The paper wallet is output as a .pdf file, so it can be easily printed.
+
+Paper wallets can be used to transfer funds (using public key to provide details of a wallet to transfer to) or to store funds (the funds are still on the blockchain and not on the paper, but it helps as a reference document for storage).
+
+<img src="20a_Paper_wallet_generator.png" title="20a_Paper_wallet_generator.png" alt="20a_Paper_wallet_generator.png" width="1093" height="1093" />
+
+#### Help
+
+The “Help” section offers link to Burstcoin resources.
+
+<img src="16_help.png" title="16_help.png" alt="16_help.png" width="569" height="569" />
+
+Qbundle manual: [QBundle](qbundle.md)
+
+Burstcoin official website: https://www.burst-coin.org/
+
+Burstcoin.ist: https://www.burstcoin.ist/
+
+Burstforum: https://burstforum.net/
+
+GetBurst Forum: https://forums.getburst.net/
+
+Burst Reddit: https://www.reddit.com/r/burstcoin/
+
+Burst Wiki: [Main Page](main-page.md)
+
 ### About Tab
 
-You will find the contributors and developer of QBundle in this tab.
+The “About” menu option contains information about the contributors of QBundle and the main architect.
 
-<img src="About.png" title="About.png" alt="About.png" width="637" height="637" />
+<img src="15_about.png" title="15_about.png" alt="15_about.png" width="565" height="565" />
+
+Contributors list:
+
+<img src="15a_contributors.png" title="15a_contributors.png" alt="15a_contributors.png" width="601" height="601" />
