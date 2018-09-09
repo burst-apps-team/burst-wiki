@@ -20,13 +20,13 @@ Through <https://www.burst-coin.org/download-wallet>
 
 <img src="Download-wallet.png" title="Download-wallet.png" alt="Download-wallet.png" width="1235" height="1235" />
 
-Select Qbundle, and it will direct you to the github.
+Select Qbundle, and it will direct you to the [PoCC github](https://github.com/PoC-Consortium/Qbundle/releases).
 
-We will select the MSI installation in this guide, the other alternative it a self-contained ‘zip’ download that will need extraction before It can be run. This ‘zip’ version is useful if you wish to set up along side an existing installation (Provided you have first stopped the other wallet, and do not run at the same time!) 
+We will select the MSI installation in this guide, the other alternative it a self-contained .zip download that will need extraction before It can be run. This .zip version is useful if you wish to set up along side an existing installation (Provided you have first stopped the other wallet, and do not run at the same time!) 
 
-<img src="QBundle_GitHub.png" title="QBundle_GitHub.png" alt="QBundle_GitHub.png" width="739" height="739" />
+<img src="Latest_release_2.5.0.png" title="Latest_release_2.5.0.png" alt="Latest_release_2.5.0.png" width="687" height="687" />
 
-We will be using the 2.0.0 version, but always download the latest release. (note the green ‘*Latest release*’ indicator beside)
+Always download the latest release. (note the green *“Latest release”* indicator beside)
 
 <img src="QBundle_MSI.png" title="QBundle_MSI.png" alt="QBundle_MSI.png" width="462" height="462" />
 
@@ -34,35 +34,35 @@ Save the file and run when downloaded.
 
 <img src="Executable_file.png" title="Executable_file.png" alt="Executable_file.png" width="602" height="602" />
 
-Under windows 10, you may have the following alert: 
+Under Windows 10, you may have the following alert: 
 
 <img src="Windows_Alert.png" title="Windows_Alert.png" alt="Windows_Alert.png" width="539" height="539" />
 
-Click on ‘More Info’ to enable the download.
+Click on “More Info” to enable the download.
 
 <img src="Run_Anyway.png" title="Run_Anyway.png" alt="Run_Anyway.png" width="514" height="514" />
 
-And then ‘Run anyway’
+And then “Run anyway”
 
-We will then go through the setup wizard, click next.
+The setup wizard will guide the user through the installation, who should at this point click next.
 
 <img src="QBundle_Setup.png" title="QBundle_Setup.png" alt="QBundle_Setup.png" width="518" height="518" />
 
-Select a directory that is not in use, and then ‘Next’
+Select a directory that is not in use, and then click “Next”
 
 <img src="QBundle_Setup_2.png" title="QBundle_Setup_2.png" alt="QBundle_Setup_2.png" width="520" height="520" />
 
-Then click ‘Install’
+Then click “Install”
 
 <img src="QBundle_Setup_3.png" title="QBundle_Setup_3.png" alt="QBundle_Setup_3.png" width="509" height="509" />
 
-A warning may come up, click ‘ok’ and the installation will be completed shortly after
+A warning may come up, click “OK” and the installation will be completed shortly after
 
 <img src="QBundle_Setup_4.png" title="QBundle_Setup_4.png" alt="QBundle_Setup_4.png" width="493" height="493" />
 
-Click ‘Finish’ to complete.
+Click “Finish” to complete.
 
-Following this the setup will check for Java. Click on ‘Download missing components’ 
+Following this the setup will check for Java. Click on “Download missing components” 
 
 <img src="First_Time.png" title="First_Time.png" alt="First_Time.png" width="682" height="682" />
 
@@ -70,7 +70,7 @@ This will take a while.
 
 <img src="Download_Manager.png" title="Download_Manager.png" alt="Download_Manager.png" width="475" height="475" />
 
-Once completed, click ‘Continue’ 
+Once completed, click “Continue” 
 
 <img src="First_Time_2.png" title="First_Time_2.png" alt="First_Time_2.png" width="686" height="686" />
 
@@ -78,7 +78,7 @@ The wallet will start but you will need to enable access:
 
 <img src="Windows_Alert_2.png" title="Windows_Alert_2.png" alt="Windows_Alert_2.png" width="551" height="551" />
 
-Enable for ‘Private networks’ and ‘Allow access’
+Enable for “Private networks” and “Allow access”
 
 Bootstrap Chain / Import Blockchain
 -----------------------------------
