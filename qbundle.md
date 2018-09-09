@@ -192,13 +192,15 @@ View Console will provide a pop up window with the Wallet log and MariaDB log (i
 
 #### Settings
 
-If you have OpenCL correctly installed, Using GPU Acceleration will greatly improve performance.
+Local wallet settings offer an array of options to be set. However, in the general case, users are advised not to change any of the default settings. There is a point to changing the default wallet settings in case the system is lagging while the blockchain is synchronized, in case of which the number of cores should be decreased or in case of troubleshooting.
 
-To allow external access to the wallet (so you can use it on the go) add 0.0.0.0 to the ‘Allow API traffic from’ list 
+If the OpenCL correctly installed on the system, using GPU Acceleration will greatly improve performance.
+
+To allow external access to the wallet add 0.0.0.0 to the ‘Allow API traffic from’ list. 
 
 <img src="Local_Wallet_Settings.png" title="Local_Wallet_Settings.png" alt="Local_Wallet_Settings.png" width="858" height="858" />
 
-For troubleshooting the ‘Debug mode’ option can be useful. 
+For troubleshooting the “Debug mode” option can be useful. 
 
 <img src="General_Settings.png" title="General_Settings.png" alt="General_Settings.png" width="860" height="860" />
 
@@ -206,7 +208,7 @@ For troubleshooting the ‘Debug mode’ option can be useful. 
 
 #### Configure Firewall
 
-If you click ‘configure firewall’ it will give you an option requesting confirmation that you wish to change the windows firewall to allow access locally and over the WAN to the program on this computer.
+If the “Configure Windows firewall” is clicked, the user will be asked for confirmation that they wish to change the Windows firewall to allow access locally and over the WAN to the program on this computer.
 
 <img src="Windows_firewall.png" title="Windows_firewall.png" alt="Windows_firewall.png" width="404" height="404" />
 
