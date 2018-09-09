@@ -105,6 +105,56 @@ Now that you have your wallet running locally and have created an account, you�
 
 #### 9. References
 
+10. From BRS Main
+=================
+
+MacOS Installation
+------------------
+
+In order to run the wallet locally, we need a database to store the blochchain information. The following guide shows the setup of MariaDB as database and the installation of the Burst Reference Software on MacOS.
+
+### Prerequisites
+
+-   [Java](http://www.oracle.com/technetwork/java/javase/downloads/jre9-downloads-3848532.html)
+-   [Homebrew](https://brew.sh/)
+
+### Setup MariaDB
+
+MariaDB is used as database to store the blockchain. The following steps will guide you through the installation of MariaDB on MacOS.
+
+First check that Xcode is up to date by typing the following and pressing enter.
+
+`xcode-select --install `
+
+After installing Xcode, install MariaDB by typing the following and pressing enter.
+
+`brew install mariadb `
+
+Once MariaDB is finished installing, start MariaDB with the following.
+
+`brew services start mariadb `
+
+### Database configuration
+
+As soon as MariaDB is successfully installed, we can log into the MariaDB interface and setup database like explained in [Setup MariaDB](burst-reference-software-setup-mariadb.md)
+
+### Setup Wallet
+
+1.  Now, download the lateste release from the Github release section
+2.  Find the folder you downloaded from github and double click it. Archive utility will now extract it to a new folder.
+3.  Rename the extracted folder to `burstcoin`.
+4.  Open the `conf` folder inside the extracted folder
+5.  Right click the file `brs-default.properties` and select “Open With → TextEdit”.
+6.  Find the following lines and enter `burstwallet` as database user and your password (assigned beforehand) as database password brs.dbUsername=burstwallet brs.dbPassword=<your password>
+7.  Move that folder to your home folder. This may appear as your username.
+8.  Back in terminal, navigate to the `burstcoin` folder. cd ~/burstcoin
+9.  Make `burst.sh` executable. chmod +x burst.sh
+10. Now execute `burst.sh`. This is how you will start the wallet in the future. To execute this command you must be inside the burtscoin folder in the terminal. ./burst.sh
+11. The wallet should now be running. In your web browser navigate to http://localhost:8125/ to access the wallet interface.
+
+References
+==========
+
 <https://www.reddit.com/r/burstcoin/comments/7lrdc1/guide_to_getting_the_poc_wallet_running_on_a_mac/>
 
 <https://medium.com/@aclaytonscott/burst-part-2-macos-wallet-setup-tutorial-2822bb029f54>
