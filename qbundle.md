@@ -83,25 +83,25 @@ Enable for “Private networks” and “Allow access”
 Bootstrap Chain / Import Blockchain
 -----------------------------------
 
-You now have a working wallet, which will synch from ‘Genesis’.
+You now have a working wallet, which will synchhronize from “Genesis”.
 
-This will take some time, so I would advise we ‘bootstrap’ the installation. 
+This will take some time, so users are advised to “bootstrap” the blockchain. The bootstrap will download a verified chain from one of the built in repositories. The bootstrap significantly reduces the time needed for wallet setup - synchronization of the blockchain from nodes on the network might take 1-3 days, while bootstrapping usually takes up to two hours (depending on system, internet connection speed etc). 
 
-<img src="Bootstrap.png" title="Bootstrap.png" alt="Bootstrap.png" width="465" height="465" />
+<img src="14_Database_options.png" title="14_Database_options.png" alt="14_Database_options.png" width="465" height="465" />
 
-At the top of the wallet, select ‘Database’ and ‘Bootstrap chain’ 
+At the top of the wallet menu, select “Database” and “Bootstrap chain” 
 
 <img src="Import_Database.png" title="Import_Database.png" alt="Import_Database.png" width="525" height="525" />
 
-Click ‘Start Import’ Installation Upgrade
+Click “Start Import” 
 
 <img src="Start_Import.png" title="Start_Import.png" alt="Start_Import.png" width="469" height="469" />
 
-A warning will pop up, regarding the truncation of the existing data, click ‘Yes’ 
+A warning will pop up, regarding the truncation of the existing data, click “Yes” 
 
 <img src="Stop_Wallet_Import_Databse.png" title="Stop_Wallet_Import_Databse.png" alt="Stop_Wallet_Import_Databse.png" width="473" height="473" />
 
-Click ‘Yes’ on the next prompt to start.
+Click “Yes” on the next prompt to start.
 
 The bootstrap will then download.
 
@@ -121,7 +121,7 @@ The rate of import will depend upon the computer and network connection.
 
 <img src="Block_sync_2.png" title="Block_sync_2.png" alt="Block_sync_2.png" width="650" height="650" />
 
-When it is synchronised you will see something like the following (close to your current date/time) 
+When it is synchronized you will see something like the following (close to your current date/time) 
 
 <img src="Block_sync_3.png" title="Block_sync_3.png" alt="Block_sync_3.png" width="521" height="521" />
 
