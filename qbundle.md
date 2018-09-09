@@ -143,15 +143,17 @@ The wallet
 
 Here's the connection screen:
 
-<img src="Login.png" title="Login.png" alt="Login.png" width="532" height="532" />
+<img src="Qbundle_Start_Screen.png" title="Qbundle_Start_Screen.png" alt="Qbundle_Start_Screen.png" width="532" height="532" />
 
-When you creating a new account using “New? Create Your Account!”, the wallet will provide you a 12 words automatically generated passphrase that you will need to write on a paper or to memorize.
+In case the user already has an activated Burst account, they can use their passphrase to log in by clicking the “Returning User?” button.
+
+If, however, the user doesn't have a Burst account, clicking the “New? Create Your Account!” button will allow them to do so. For full guide on how to open and activate a Burst account, read [this](https://burstwiki.org/wiki/Activate_Burst_Account) Burst Wiki article.
 
 <img src="Automatically_Generated_Passphrase.png" title="Automatically_Generated_Passphrase.png" alt="Automatically_Generated_Passphrase.png" width="506" height="506" />
 
 Finally, here's the look of the QBundle and Burst Wallet:
 
-<img src="Burst_Wallet.png" title="Burst_Wallet.png" alt="Burst_Wallet.png" width="1919" height="1919" />
+<img src="QBundle_and_Burst_Wallet.png" title="QBundle_and_Burst_Wallet.png" alt="QBundle_and_Burst_Wallet.png" width="1366" height="1366" />
 
 Frequently Asked Questions (FAQ)
 --------------------------------
