@@ -338,6 +338,68 @@ Account Operations <img src="Verified.png" title="fig:Verified.png" alt="Verifie
 }
 ```
 
+### Get Subscription <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+
+**Response:**
+
+``` json
+{
+    "senderRS": "BURST-2RN8-FSU8-P64Q-5AL9C",
+    "sender": "3827576371473833606",
+    "amountNQT": "500000000",
+    "recipientRS": "BURST-JDMH-EZQC-UWY4-EXXFU",
+    "recipient": "14787496155544039023",
+    "id": "13721874590196751209",
+    "timeNext": 128778762,
+    "requestProcessingTime": 0,
+    "frequency": 3600
+}
+```
+
+### Get Subscriptions To Account <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+
+**Response:**
+
+``` json
+{
+    "subscriptions": [
+        {
+            "senderRS": "BURST-2RN8-FSU8-P64Q-5AL9C",
+            "sender": "3827576371473833606",
+            "amountNQT": "500000000",
+            "recipientRS": "BURST-JDMH-EZQC-UWY4-EXXFU",
+            "recipient": "14787496155544039023",
+            "id": "13721874590196751209",
+            "timeNext": 128778762,
+            "frequency": 3600
+        }
+    ],
+    "requestProcessingTime": 2
+}
+```
+
+### Get Account Subscriptions <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+
+**Response:**
+
+``` json
+{
+    "subscriptions": [
+        {
+            "senderRS": "BURST-2RN8-FSU8-P64Q-5AL9C",
+            "sender": "3827576371473833606",
+            "amountNQT": "500000000",
+            "recipientRS": "BURST-JDMH-EZQC-UWY4-EXXFU",
+            "recipient": "14787496155544039023",
+            "id": "13721874590196751209",
+            "timeNext": 128778762,
+            "frequency": 3600
+        }
+    ],
+    "requestProcessingTime": 2
+}
+```
+
 ### Send Money <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 
 **Response:**
