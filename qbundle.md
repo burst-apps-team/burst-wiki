@@ -322,21 +322,45 @@ Users can choose if they wish to perform inline conversion (doesn't require addi
 
 #### Miner
 
-[Blagominer](blagominer.md) is integrated in QBundle and lets you mine plots in your HDD using your CPU.
+The latest version of QBundle brings the Blago's miner (modified by Quibus and JohnnyFFM) version 1.170977, which supports both POC1 and POC2 mining and performs POC1 -&gt; POC2 on the fly conversion. The miner can be set to either solo or pool mining, by selecting the desired radio button:
 
-<img src="Miner.png" title="Miner.png" alt="Miner.png" width="671" height="671" />
+<img src="21_Miner_settings.png" title="21_Miner_settings.png" alt="21_Miner_settings.png" width="654" height="654" />
+
+As the miner GUI states, in case the user wishes to solo mine, and chooses that option, they need to have a local wallet running and fully synchronized, and will be prompted to provide the passphrase of the account used to create the plot file(s). The passphrase will be saved in the miner.conf file which is located in the QBundle/BlagoMiner folder.
+
+For pool mining, users can either select one of the predefined pools (by clicking the “Select predefined pool” button) or manually insert mining and update server information. These information refer to the pool where deadlines will be submitted and from where the mining information is received from. For pools that aren't offered in the predefined pools list, users can look up information, including the port number on pool sites. The deadline limit can be calculated using calculators provided on pool websites. In case the calculated deadline, which is based on available plot size, exceeds the pool deadline, the deadline limit should be the maximum deadline accepted by the pool (the pool won't accept deadlines that exceed the maximum defined). The information server parameter is used to get winner information i.e. the account that forged the block. Since the info server doesn't support HTTPS, the address of the local wallet (localhost or 127.0.0.1) and port number 8125 should be provided.
+
+If the “Use HDD wakeup” option is checked, a script will be executed in order to prevent the HDD from entering sleep mode. The “Show winner information” option will show the account that forged the block, in case the “Info server” has been set. “Use multithreading” refers to CPU resources usage - if checked, multithreading will be used for deadline calculation.
+
+Users can import or remove plot files used for mining by selecting files from the “My plotfiles” list. Note that the miner will use all plot files that are found in configured folders.
+
+All settings provided in the interface shown above will be passed on to the miner.conf file, which is located in the Qbundle/BlagoMiner folder. Users can also set or edit the miner configuration by editing directly the .conf file.
+
+The miner will start after the “Start mining” button has been clicked.
+
+<img src="21a_Blago_miner.png" title="21a_Blago_miner.png" alt="21a_Blago_miner.png" width="736" height="736" />
+
+Once the miner has been started, users can see the configuration (pool and plot file information). Upon receiving mining information (block height, base target etc), the miner will read the configured plot files. Whenever a deadline is found, if it is within configured deadline limit, it will be sent to the pool. The miner will also display if a deadline was accepted by the pool or not (“Confirmed DL”). After all plot files have been read, the miner will display the duration of the round (how much time did it take to read all plot files).
+
+The Blago miner creates logs, which are stored in the QBundle/BlagoMiner/Logs folder, which can be useful for debugging in case issues are observed. Additionally, the miner records the best deadline found for each block in the stat.csv file, which is saved in the QBundle/BlagoMiner folder.
 
 #### Set Reward Recipient
 
-You can set the reward recipient of your account here. It is commonly used when you plan to mine in a pool and you have to set the pool as the reward recipient of your mining.
+Setting the reward recipient is a mandatory action for all miners. In case users wish to mine in one of the Burst mining pools, they should provide the pool's Burst numerical account ID as the reward recipient, while solo miners set their own Burst numerical account ID as the reward recipient.
 
-<img src="Reward_Recipient.png" title="Reward_Recipient.png" alt="Reward_Recipient.png" width="424" height="424" />
+<img src="18_Reward_recipient.png" title="18_Reward_recipient.png" alt="18_Reward_recipient.png" width="424" height="424" />
+
+In case the pool user wishes to mine in isn't offered within the QBundle, they can insert the pool's Burst numerical account ID manually. The reward recipient transaction takes 4 blocks to complete i.e. after the generation of 4 blocks the deadlines submitted by the miner will be accepted.
 
 #### Vanity Address Generator
 
-This tool allow you to generate your own Reed-Solomon address.
+The vanity address generator is a tool allowing users to create own, branded, specific Burst account addresses. The mandatory part of the Burst account address, even for vanity addresses is the leading 5 character string “BURST”. Characters that are not allowed to be used in vanity addresses are I (capital “i”), O (capital “o”), 0 (zero) and 1. In order to generate a vanity address, users should provide the requested string into the form, set the resources that should be used (number of CPU threads) and desired length of the passphrase, as shown in the image below:
 
 <img src="Vanity_Address_Generator.png" title="Vanity_Address_Generator.png" alt="Vanity_Address_Generator.png" width="653" height="653" />
+
+The algorithm which seeks for the account with the desired string is a brute force algorithm, which checks every Burst account + passphrase combination sequentially. The time it takes to find a string increases significantly with every additional character. A fixed strings of 5 characters at the end took 4 minutes with given resources, while adding ‘DAN’ (to output DANDARES) at the end, resulted in hour long wait. It is possible that setting certain strings as a part of the Burst account will take weeks.
+
+#### Paperburst
 
 ### About Tab
 
