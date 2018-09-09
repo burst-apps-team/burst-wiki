@@ -158,31 +158,25 @@ Finally, here's the look of the QBundle and Burst Wallet:
 Frequently Asked Questions (FAQ)
 --------------------------------
 
-### How to update the softwares that come with QBundle ?
+### How to update the software that come with QBundle ?
 
-All softwares included in QBundle can be updated using ‘Check for updates’.
+The application manager lists applications delivered with QBundle available for installation, as well as those that are installed on the system, together with version information. As soon as there is an update available for any of the component application, users will be notified of them through the Application Manager window. Not all of the component applications of the QBundle are installed by default, and if users wish, they can add components. Note that currently unavailable applications (i.e. not installed on the system), will be installed once the QBundle is opened for the first time.
 
-This installation has an available update, notified by the ‘New update available’ at the top of the wallet. If you click on this, it will list the components that are available for download.
+In case there's an update available, users will be notified by the “New update available” at the top of the wallet. Once they click the notification, it will list the components that are available for download.
 
-Click ‘Download updates’: 
+Click “Install/Update” 
 
-<img src="Download_Updates.png" title="Download_Updates.png" alt="Download_Updates.png" width="869" height="869" />
+<img src="3_Application_manager.png" title="3_Application_manager.png" alt="3_Application_manager.png" width="776" height="776" />
 
-Click ‘yes’ to stop the wallet:
+The wallet will be stopped during software update.
 
-<img src="Check_for_updates.png" title="Check_for_updates.png" alt="Check_for_updates.png" width="579" height="579" />
+If the wallet is not running after completed update or installation, start the wallet by selecting “Wallet” and “Start wallet” 
 
-When complete click ‘close’:
-
-<img src="Check_for_updates_2.png" title="Check_for_updates_2.png" alt="Check_for_updates_2.png" width="567" height="567" />
-
-If the wallet is not running, start the wallet by selecting ‘Wallet’ and ‘Start wallet’ 
-
-<img src="Start_Wallet.png" title="fig:Start_Wallet.png" alt="Start_Wallet.png" width="466" height="466" /> 
+<img src="Start_wallet.png" title="fig:Start_wallet.png" alt="Start_wallet.png" width="466" height="466" /> 
 
 Now, you have an upgraded QBundle: 
 
-<img src="Download_Updates_2.png" title="Download_Updates_2.png" alt="Download_Updates_2.png" width="723" height="723" />
+<img src="Updated_QBundle_no_updates.png" title="Updated_QBundle_no_updates.png" alt="Updated_QBundle_no_updates.png" width="723" height="723" />
 
 ### How do I see the logs of Burst Reference Software (BRS) ?
 
