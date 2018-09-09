@@ -8,7 +8,7 @@ Description
 
 Burst has a permanent TestNet running. Its purpose is to provide a sandbox for both developers and users to test Burst features and to experiment features without remorse[1].
 
-You can access it via <https://wallet.dev.burst-test.net/>
+You can access the PoCC-operated online TestNet-wallet via <https://wallet.dev.burst-test.net/>
 
 How to set up a TestNet node ?
 ------------------------------
@@ -21,6 +21,8 @@ Before launching [BRS](burst-reference-software.md), edit `brs.properties` and c
 `DEV.DB.Url =jdbc:mariadb://localhost:3777/yourbursttestdatabase`
 `DEV.DB.Username =root`
 `DEV.DB.Password =yourpassword`
+
+obviously, you should use a different DB for TestNet than you use for MainNet.
 
 Self-service test-net facuet
 ----------------------------
