@@ -1408,425 +1408,344 @@ Block Operations <img src="Verified.png" title="fig:Verified.png" alt="Verified.
 Digital Goods Store Operations
 ------------------------------
 
-### DGS Delisting
-
-**Request:**
-
-    http://localhost:8125/burst?
-      requestType=dgsDelisting&
-      goods=11813734897437346473
-      secretPhrase=IWontTellYou&
-      feeNQT=100000000&
-      deadline=60
+### DGS Delisting <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 
 **Response:**
 
-    {
-     "signatureHash": "87dd2aa00690acaa5da4e8cd9db6ab94b5ed8bf0f8fe2c2ba6a39c57d3073105",
-     "unsignedTransactionBytes": "03111852e2013c0057fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143b...",
-     "transactionJSON": {
-      "senderPublicKey": "57fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143b473beec228f79ff93c",
-      "signature": "39ee52204d0a32c0bbd0e4bc6a6fb52299cd7d16ab74e9a040f857d3b1c3e...",
-      "feeNQT": "100000000",
-      "type": 3,
-      "fullHash": "40e64c357e240f9b7ca5780e757e34d48a58ae93eeb19e62d020d5719b43e2b6",
-      "version": 1,
-      "ecBlockId": "5345754442518111082",
-      "signatureHash": "87dd2aa00690acaa5da4e8cd9db6ab94b5ed8bf0f8fe2c2ba6a39c57d3073105",
-      "attachment": {
-       "version.DigitalGoodsDelisting": 1,
-       "goods": "11813734897437346473"
-      },
-      "senderRS": "BURST-L6FM-89WK-VK8P-FCRBB",
-      "subtype": 1,
-      "amountNQT": "0",
-      "sender": "15323192282528158131",
-      "ecBlockHeight": 292903,
-      "deadline": 60,
-      "transaction": "11173189325008201280",
-      "timestamp": 31609368,
-      "height": 2147483647
-     },
-     "broadcasted": true,
-     "requestProcessingTime": 5188,
-     "transactionBytes": "03111852e2013c0057fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143b...",
-     "fullHash": "40e64c357e240f9b7ca5780e757e34d48a58ae93eeb19e62d020d5719b43e2b6",
-     "transaction": "11173189325008201280"
-    }
+``` json
+{
+ "signatureHash": "87dd2aa00690acaa5da4e8cd9db6ab94b5ed8bf0f8fe2c2ba6a39c57d3073105",
+ "unsignedTransactionBytes": "03111852e2013c0057fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143b...",
+ "transactionJSON": {
+  "senderPublicKey": "57fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143b473beec228f79ff93c",
+  "signature": "39ee52204d0a32c0bbd0e4bc6a6fb52299cd7d16ab74e9a040f857d3b1c3e...",
+  "feeNQT": "100000000",
+  "type": 3,
+  "fullHash": "40e64c357e240f9b7ca5780e757e34d48a58ae93eeb19e62d020d5719b43e2b6",
+  "version": 1,
+  "ecBlockId": "5345754442518111082",
+  "signatureHash": "87dd2aa00690acaa5da4e8cd9db6ab94b5ed8bf0f8fe2c2ba6a39c57d3073105",
+  "attachment": {
+   "version.DigitalGoodsDelisting": 1,
+   "goods": "11813734897437346473"
+  },
+  "senderRS": "BURST-L6FM-89WK-VK8P-FCRBB",
+  "subtype": 1,
+  "amountNQT": "0",
+  "sender": "15323192282528158131",
+  "ecBlockHeight": 292903,
+  "deadline": 60,
+  "transaction": "11173189325008201280",
+  "timestamp": 31609368,
+  "height": 2147483647
+ },
+ "broadcasted": true,
+ "requestProcessingTime": 5188,
+ "transactionBytes": "03111852e2013c0057fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143b...",
+ "fullHash": "40e64c357e240f9b7ca5780e757e34d48a58ae93eeb19e62d020d5719b43e2b6",
+ "transaction": "11173189325008201280"
+}
+```
 
-<small>*Verified 25-Nov-14*</small>
-
-### DGS Delivery
-
-**Request:**
-
-    http://localhost:8125/burst?
-      requestType=dgsDelivery&
-      purchase=3723760852542296589&
-      goodsToEncrypt=Download Code.&
-      secretPhrase=IWontTellYou&
-      feeNQT=100000000&
-      deadline=60
+### DGS Delivery <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 
 **Response:**
 
-    {
-     "signatureHash": "f3f1f1bf30c7a6f5a7776aa23502dfe5240efe0d5c016760f8e8a152c4eb1b1b",
-     "unsignedTransactionBytes": "0315b20fe1013c0057fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143b...",
-     "transactionJSON": {
-      "senderPublicKey": "57fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143b473beec228f79ff93c",
-      "signature": "b96c42161ce38177168de5a8906ce747a5415017df5b16cdce1c015cb6e1f10b...",
-      "feeNQT": "100000000",
-      "type": 3,
-      "fullHash": "349926ea025b627117c05fbe3ff298e97a8efdb07f7ae552b5a91e7112c5b82b",
-      "version": 1,
-      "ecBlockId": "15813950788992376142",
-      "signatureHash": "f3f1f1bf30c7a6f5a7776aa23502dfe5240efe0d5c016760f8e8a152c4eb1b1b",
-      "attachment": {
-       "goodsIsText": true,
-       "discountNQT": "0",
-       "purchase": "3723760852542296589",
-       "goodsData": "aef91bfe543844964b0dadc51c6fe4c624b6b0c72c23c5c61f7e626f51e15...",
-       "version.DigitalGoodsDelivery": 1,
-       "goodsNonce": "4cb474ec53a590c6fd20d050c429d009ddefd286b2782eb3a0782ae45c2bbbbd"
-      },
-      "senderRS": "BURST-L6FM-89WK-VK8P-FCRBB",
-      "subtype": 5,
-      "amountNQT": "0",
-      "sender": "15323192282528158131",
-      "recipientRS": "BURST-6GMG-FC5F-YSX6-8CVEL",
-      "recipient": "7580519603555678830",
-      "ecBlockHeight": 292069,
-      "deadline": 60,
-      "transaction": "8170192742079961396",
-      "timestamp": 31526834,
-      "height": 2147483647
-     },
-     "broadcasted": true,
-     "requestProcessingTime": 8832,
-     "transactionBytes": "0315b20fe1013c0057fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143b...",
-     "fullHash": "349926ea025b627117c05fbe3ff298e97a8efdb07f7ae552b5a91e7112c5b82b",
-     "transaction": "8170192742079961396"
-    }
+``` json
+{
+ "signatureHash": "f3f1f1bf30c7a6f5a7776aa23502dfe5240efe0d5c016760f8e8a152c4eb1b1b",
+ "unsignedTransactionBytes": "0315b20fe1013c0057fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143b...",
+ "transactionJSON": {
+  "senderPublicKey": "57fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143b473beec228f79ff93c",
+  "signature": "b96c42161ce38177168de5a8906ce747a5415017df5b16cdce1c015cb6e1f10b...",
+  "feeNQT": "100000000",
+  "type": 3,
+  "fullHash": "349926ea025b627117c05fbe3ff298e97a8efdb07f7ae552b5a91e7112c5b82b",
+  "version": 1,
+  "ecBlockId": "15813950788992376142",
+  "signatureHash": "f3f1f1bf30c7a6f5a7776aa23502dfe5240efe0d5c016760f8e8a152c4eb1b1b",
+  "attachment": {
+   "goodsIsText": true,
+   "discountNQT": "0",
+   "purchase": "3723760852542296589",
+   "goodsData": "aef91bfe543844964b0dadc51c6fe4c624b6b0c72c23c5c61f7e626f51e15...",
+   "version.DigitalGoodsDelivery": 1,
+   "goodsNonce": "4cb474ec53a590c6fd20d050c429d009ddefd286b2782eb3a0782ae45c2bbbbd"
+  },
+  "senderRS": "BURST-L6FM-89WK-VK8P-FCRBB",
+  "subtype": 5,
+  "amountNQT": "0",
+  "sender": "15323192282528158131",
+  "recipientRS": "BURST-6GMG-FC5F-YSX6-8CVEL",
+  "recipient": "7580519603555678830",
+  "ecBlockHeight": 292069,
+  "deadline": 60,
+  "transaction": "8170192742079961396",
+  "timestamp": 31526834,
+  "height": 2147483647
+ },
+ "broadcasted": true,
+ "requestProcessingTime": 8832,
+ "transactionBytes": "0315b20fe1013c0057fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143b...",
+ "fullHash": "349926ea025b627117c05fbe3ff298e97a8efdb07f7ae552b5a91e7112c5b82b",
+ "transaction": "8170192742079961396"
+}
+```
 
-<small>*Verified 24-Nov-14*</small>
-
-### DGS Feedback
-
-**Request:**
-
-    http://localhost:8125/burst?
-      requestType=dgsFeedback&
-      purchase=10234639413366748292&
-      secretPhrase=IWontTellYou&
-      feeNQT=100000000&
-      deadline=60&
-      message=Thank You!
+### Feedback <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 
 **Response:**
 
-    {
-     "signatureHash": "bf31e4e3b2037bfe223efd72519e3a2d25cd1e0dc1a62e3eeefe59179e16a7a4",
-     "unsignedTransactionBytes": "0316a463e2013c0057fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143b...",
-     "transactionJSON": {
-      "senderPublicKey": "57fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143b473beec228f79ff93c",
-      "signature": "a3ee76ce4bec0328fe5cfc1a2adfc229a8c9959a81b7912664de51156987c...",
-      "feeNQT": "100000000",
-      "type": 3,
-      "fullHash": "491d94b9031b7a7a32d9ab5d0491b81364941eb080ee9029de58cb6ffa0161f6",
-      "version": 1,
-      "ecBlockId": "5484311742753527844",
-      "signatureHash": "bf31e4e3b2037bfe223efd72519e3a2d25cd1e0dc1a62e3eeefe59179e16a7a4",
-      "attachment": {
-       "purchase": "10234639413366748292",
-       "version.Message": 1,
-       "messageIsText": true,
-       "version.DigitalGoodsFeedback": 1,
-       "message": "Thank you!"
-      },
-      "senderRS": "BURST-L6FM-89WK-VK8P-FCRBB",
-      "subtype": 6,
-      "amountNQT": "0",
-      "sender": "15323192282528158131",
-      "recipientRS": "BURST-6GMG-FC5F-YSX6-8CVEL",
-      "recipient": "7580519603555678830",
-      "ecBlockHeight": 292938,
-      "deadline": 60,
-      "transaction": "8825396122598251849",
-      "timestamp": 31613860,
-      "height": 2147483647
-     },
-     "broadcasted": true,
-     "requestProcessingTime": 9343,
-     "transactionBytes": "0316a463e2013c0057fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143b...",
-     "fullHash": "491d94b9031b7a7a32d9ab5d0491b81364941eb080ee9029de58cb6ffa0161f6",
-     "transaction": "8825396122598251849"
-    }
+``` json
+{
+ "signatureHash": "bf31e4e3b2037bfe223efd72519e3a2d25cd1e0dc1a62e3eeefe59179e16a7a4",
+ "unsignedTransactionBytes": "0316a463e2013c0057fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143b...",
+ "transactionJSON": {
+  "senderPublicKey": "57fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143b473beec228f79ff93c",
+  "signature": "a3ee76ce4bec0328fe5cfc1a2adfc229a8c9959a81b7912664de51156987c...",
+  "feeNQT": "100000000",
+  "type": 3,
+  "fullHash": "491d94b9031b7a7a32d9ab5d0491b81364941eb080ee9029de58cb6ffa0161f6",
+  "version": 1,
+  "ecBlockId": "5484311742753527844",
+  "signatureHash": "bf31e4e3b2037bfe223efd72519e3a2d25cd1e0dc1a62e3eeefe59179e16a7a4",
+  "attachment": {
+   "purchase": "10234639413366748292",
+   "version.Message": 1,
+   "messageIsText": true,
+   "version.DigitalGoodsFeedback": 1,
+   "message": "Thank you!"
+  },
+  "senderRS": "BURST-L6FM-89WK-VK8P-FCRBB",
+  "subtype": 6,
+  "amountNQT": "0",
+  "sender": "15323192282528158131",
+  "recipientRS": "BURST-6GMG-FC5F-YSX6-8CVEL",
+  "recipient": "7580519603555678830",
+  "ecBlockHeight": 292938,
+  "deadline": 60,
+  "transaction": "8825396122598251849",
+  "timestamp": 31613860,
+  "height": 2147483647
+ },
+ "broadcasted": true,
+ "requestProcessingTime": 9343,
+ "transactionBytes": "0316a463e2013c0057fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143b...",
+ "fullHash": "491d94b9031b7a7a32d9ab5d0491b81364941eb080ee9029de58cb6ffa0161f6",
+ "transaction": "8825396122598251849"
+}
+```
 
-<small>*Verified 25-Nov-14*</small>
-
-### DGS Listing
-
-**Request:**
-
-    http://localhost:8125/burst?
-      requestType=dgsListing&
-      secretPhrase=IWontTellYou&
-      name=Test Product&
-      description=Testing the DGS.
-      tags=test, product, tag, extra&
-      quantity=3&
-      priceNQT=100000000&
-      feeNQT=100000000&
-      deadline=60
+### DGS Listing <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 
 **Response:**
 
-    {
-     "signatureHash": "565bc0a6140ae1331cd5db009fbd9da164d8802330939ef40204a9bc343b3149",
-     "unsignedTransactionBytes": "031092aedf013c0057fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143b...",
-     "transactionJSON": {
-      "senderPublicKey": "57fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143b473beec228f79ff93c",
-      "signature": "465ed3dfef9a02fc97fc18a6f83bb9f07c285aef41ff78c957d59cda2972ba...",
-      "feeNQT": "100000000",
-      "type": 3,
-      "fullHash": "a98a63204cd1f2a3304cee79776854f290f0472883c576056fec16a23efa90df",
-      "version": 1,
-      "ecBlockId": "4480409615309425420",
-      "signatureHash": "565bc0a6140ae1331cd5db009fbd9da164d8802330939ef40204a9bc343b3149",
-      "attachment": {
-       "priceNQT": "100000000",
-       "quantity": 3,
-       "name": "Test Product",
-       "description": "Testing the DGS.",
-       "version.DigitalGoodsListing": 1,
-       "tags": "test, product, tag, extra"
-      },
-      "senderRS": "BURST-L6FM-89WK-VK8P-FCRBB",
-      "subtype": 0,
-      "amountNQT": "0",
-      "sender": "15323192282528158131",
-      "ecBlockHeight": 291240,
-      "deadline": 60,
-      "transaction": "11813734897437346473",
-      "timestamp": 31436434,
-      "height": 2147483647
-     },
-     "broadcasted": true,
-     "requestProcessingTime": 8958,
-     "transactionBytes": "031092aedf013c0057fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143b473b...",
-     "fullHash": "a98a63204cd1f2a3304cee79776854f290f0472883c576056fec16a23efa90df",
-     "transaction": "11813734897437346473"
-    }
+``` json
+{
+ "signatureHash": "565bc0a6140ae1331cd5db009fbd9da164d8802330939ef40204a9bc343b3149",
+ "unsignedTransactionBytes": "031092aedf013c0057fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143b...",
+ "transactionJSON": {
+  "senderPublicKey": "57fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143b473beec228f79ff93c",
+  "signature": "465ed3dfef9a02fc97fc18a6f83bb9f07c285aef41ff78c957d59cda2972ba...",
+  "feeNQT": "100000000",
+  "type": 3,
+  "fullHash": "a98a63204cd1f2a3304cee79776854f290f0472883c576056fec16a23efa90df",
+  "version": 1,
+  "ecBlockId": "4480409615309425420",
+  "signatureHash": "565bc0a6140ae1331cd5db009fbd9da164d8802330939ef40204a9bc343b3149",
+  "attachment": {
+   "priceNQT": "100000000",
+   "quantity": 3,
+   "name": "Test Product",
+   "description": "Testing the DGS.",
+   "version.DigitalGoodsListing": 1,
+   "tags": "test, product, tag, extra"
+  },
+  "senderRS": "BURST-L6FM-89WK-VK8P-FCRBB",
+  "subtype": 0,
+  "amountNQT": "0",
+  "sender": "15323192282528158131",
+  "ecBlockHeight": 291240,
+  "deadline": 60,
+  "transaction": "11813734897437346473",
+  "timestamp": 31436434,
+  "height": 2147483647
+ },
+ "broadcasted": true,
+ "requestProcessingTime": 8958,
+ "transactionBytes": "031092aedf013c0057fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143b473b...",
+ "fullHash": "a98a63204cd1f2a3304cee79776854f290f0472883c576056fec16a23efa90df",
+ "transaction": "11813734897437346473"
+}
+```
 
-<small>*Verified 23-Nov-14*</small>
-
-### DGS Price Change
-
-**Request:**
-
-    http://localhost:8125/burst?
-      requestType=dgsPriceChange&
-      goods=11813734897437346473&
-      priceNQT=200000000&
-      secretPhrase=IWontTellYou&
-      feeNQT=100000000&
-      deadline=60
+### DGS Price Change <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 
 **Response:**
 
-    {
-     "signatureHash": "aad88476935eda8ca3a9190163b83106e6ca95733ddfa274d29a0378d773cc3c",
-     "unsignedTransactionBytes": "0312cebbdf013c0057fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143b...",
-     "transactionJSON": {
-      "senderPublicKey": "57fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143b473beec228f79ff93c",
-      "signature": "533f9c330100cab8a7a0f9375b49a09f6432b0e029660ab715a728ac75e6c2...",
-      "feeNQT": "100000000",
-      "type": 3,
-      "fullHash": "1964e4fe11f4a00a96c79e274f9da21f64d7fe10ed77a154975b92d3c65f1287",
-      "version": 1,
-      "ecBlockId": "14411471768450948944",
-      "signatureHash": "aad88476935eda8ca3a9190163b83106e6ca95733ddfa274d29a0378d773cc3c",
-      "attachment": {
-       "goods": "11813734897437346473",
-       "priceNQT": "200000000",
-       "version.DigitalGoodsPriceChange": 1
-      },
-      "senderRS": "BURST-L6FM-89WK-VK8P-FCRBB",
-      "subtype": 2,
-      "amountNQT": "0",
-      "sender": "15323192282528158131",
-      "ecBlockHeight": 291259,
-      "deadline": 60,
-      "transaction": "765880294780986393",
-      "timestamp": 31439822,
-      "height": 2147483647
-     },
-     "broadcasted": true,
-     "requestProcessingTime": 6444,
-     "transactionBytes": "0312cebbdf013c0057fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143b...",
-     "fullHash": "1964e4fe11f4a00a96c79e274f9da21f64d7fe10ed77a154975b92d3c65f1287",
-     "transaction": "765880294780986393"
-    }
+``` json
+{
+ "signatureHash": "aad88476935eda8ca3a9190163b83106e6ca95733ddfa274d29a0378d773cc3c",
+ "unsignedTransactionBytes": "0312cebbdf013c0057fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143b...",
+ "transactionJSON": {
+  "senderPublicKey": "57fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143b473beec228f79ff93c",
+  "signature": "533f9c330100cab8a7a0f9375b49a09f6432b0e029660ab715a728ac75e6c2...",
+  "feeNQT": "100000000",
+  "type": 3,
+  "fullHash": "1964e4fe11f4a00a96c79e274f9da21f64d7fe10ed77a154975b92d3c65f1287",
+  "version": 1,
+  "ecBlockId": "14411471768450948944",
+  "signatureHash": "aad88476935eda8ca3a9190163b83106e6ca95733ddfa274d29a0378d773cc3c",
+  "attachment": {
+   "goods": "11813734897437346473",
+   "priceNQT": "200000000",
+   "version.DigitalGoodsPriceChange": 1
+  },
+  "senderRS": "BURST-L6FM-89WK-VK8P-FCRBB",
+  "subtype": 2,
+  "amountNQT": "0",
+  "sender": "15323192282528158131",
+  "ecBlockHeight": 291259,
+  "deadline": 60,
+  "transaction": "765880294780986393",
+  "timestamp": 31439822,
+  "height": 2147483647
+ },
+ "broadcasted": true,
+ "requestProcessingTime": 6444,
+ "transactionBytes": "0312cebbdf013c0057fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143b...",
+ "fullHash": "1964e4fe11f4a00a96c79e274f9da21f64d7fe10ed77a154975b92d3c65f1287",
+ "transaction": "765880294780986393"
+}
+```
 
-<small>*Verified 23-Nov-14*</small>
-
-### DGS Purchase
-
-**Request:**
-
-    http://localhost:8125/burst?
-      requestType=dgsPurchase&
-      goods=1587116104511359906&
-      quantity=1&
-      deliveryDeadlineTimestamp=31800000&
-      secretPhrase=IWontTellYou&
-      feeNQT=100000000&
-      deadline=60
+### DGS Purchase <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 
 **Response:**
 
-    {
-     "signatureHash": "03e112d8707ae33ec37ff4405f31920c0e67c58439e33033c248b3eaca81d2c3",
-     "unsignedTransactionBytes": "0314805be2013c0057fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143b...",
-     "transactionJSON": {
-      "senderPublicKey": "57fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143b473beec228f79ff93c",
-      "signature": "a2739ef63024d9d3c61bebbb2692e7a2092666e13fc380c2e8b29c3a3fc24...",
-      "feeNQT": "100000000",
-      "type": 3,
-      "fullHash": "84f4ef2d52be088e011e5b7857fbab88665918e0df02102a8333aee53c3bb88b",
-      "version": 1,
-      "ecBlockId": "3186563001195424357",
-      "signatureHash": "03e112d8707ae33ec37ff4405f31920c0e67c58439e33033c248b3eaca81d2c3",
-      "attachment": {
-       "goods": "1587116104511359906",
-       "priceNQT": "100000000",
-       "quantity": 1,
-       "deliveryDeadlineTimestamp": 31800000,
-       "version.DigitalGoodsPurchase": 1
-      },
-      "senderRS": "BURST-L6FM-89WK-VK8P-FCRBB",
-      "subtype": 4,
-      "amountNQT": "0",
-      "sender": "15323192282528158131",
-      "recipientRS": "BURST-6GMG-FC5F-YSX6-8CVEL",
-      "recipient": "7580519603555678830",
-      "ecBlockHeight": 292925,
-      "deadline": 60,
-      "transaction": "10234639413366748292",
-      "timestamp": 31611776,
-      "height": 2147483647
-     },
-     "broadcasted": true,
-     "requestProcessingTime": 5536,
-     "transactionBytes": "0314805be2013c0057fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143b...",
-     "fullHash": "84f4ef2d52be088e011e5b7857fbab88665918e0df02102a8333aee53c3bb88b",
-     "transaction": "10234639413366748292"
-    }
+``` json
+{
+ "signatureHash": "03e112d8707ae33ec37ff4405f31920c0e67c58439e33033c248b3eaca81d2c3",
+ "unsignedTransactionBytes": "0314805be2013c0057fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143b...",
+ "transactionJSON": {
+  "senderPublicKey": "57fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143b473beec228f79ff93c",
+  "signature": "a2739ef63024d9d3c61bebbb2692e7a2092666e13fc380c2e8b29c3a3fc24...",
+  "feeNQT": "100000000",
+  "type": 3,
+  "fullHash": "84f4ef2d52be088e011e5b7857fbab88665918e0df02102a8333aee53c3bb88b",
+  "version": 1,
+  "ecBlockId": "3186563001195424357",
+  "signatureHash": "03e112d8707ae33ec37ff4405f31920c0e67c58439e33033c248b3eaca81d2c3",
+  "attachment": {
+   "goods": "1587116104511359906",
+   "priceNQT": "100000000",
+   "quantity": 1,
+   "deliveryDeadlineTimestamp": 31800000,
+   "version.DigitalGoodsPurchase": 1
+  },
+  "senderRS": "BURST-L6FM-89WK-VK8P-FCRBB",
+  "subtype": 4,
+  "amountNQT": "0",
+  "sender": "15323192282528158131",
+  "recipientRS": "BURST-6GMG-FC5F-YSX6-8CVEL",
+  "recipient": "7580519603555678830",
+  "ecBlockHeight": 292925,
+  "deadline": 60,
+  "transaction": "10234639413366748292",
+  "timestamp": 31611776,
+  "height": 2147483647
+ },
+ "broadcasted": true,
+ "requestProcessingTime": 5536,
+ "transactionBytes": "0314805be2013c0057fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143b...",
+ "fullHash": "84f4ef2d52be088e011e5b7857fbab88665918e0df02102a8333aee53c3bb88b",
+ "transaction": "10234639413366748292"
+}
+```
 
-<small>*Verified 25-Nov-14*</small>
-
-### DGS Quantity Change
-
-**Request:**
-
-    http://localhost:8125/burst?
-      requestType=dgsQuantityChange&
-      goods=11813734897437346473&
-      deltaQuantity=-1&
-      secretPhrase=IWontTellYou&
-      feeNQT=100000000&
-      deadline=60
+### DGS Quantity Change <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 
 **Response:**
 
-    {
-     "signatureHash": "5c60fc94452980f88423c3a16a74d49209d246d0f7454024c87cc76ea3221500",
-     "unsignedTransactionBytes": "031334b7df013c0057fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143b...",
-     "transactionJSON": {
-      "senderPublicKey": "57fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143b473beec228f79ff93c",
-      "signature": "7eaf8e48a780f51aa7e01c01091c9388b72a1bf075dddbd3594d55ad169272...",
-      "feeNQT": "100000000",
-      "type": 3,
-      "fullHash": "f3cd9046bba3706dd6f63cf387f23c7c29532ff15e3423f57900613c844a646f",
-      "version": 1,
-      "ecBlockId": "14589429051005044326",
-      "signatureHash": "5c60fc94452980f88423c3a16a74d49209d246d0f7454024c87cc76ea3221500",
-      "attachment": {
-       "goods": "11813734897437346473",
-       "version.DigitalGoodsQuantityChange": 1,
-       "deltaQuantity": -1
-      },
-      "senderRS": "BURST-L6FM-89WK-VK8P-FCRBB",
-      "subtype": 3,
-      "amountNQT": "0",
-      "sender": "15323192282528158131",
-      "ecBlockHeight": 291249,
-      "deadline": 60,
-      "transaction": "7885982972263845363",
-      "timestamp": 31438644,
-      "height": 2147483647
-     },
-     "broadcasted": true,
-     "requestProcessingTime": 7474,
-     "transactionBytes": "031334b7df013c0057fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143b...",
-     "fullHash": "f3cd9046bba3706dd6f63cf387f23c7c29532ff15e3423f57900613c844a646f",
-     "transaction": "7885982972263845363"
-    }
+``` json
 
-<small>*Verified 23-Nov-14*</small>
+{
+ "signatureHash": "5c60fc94452980f88423c3a16a74d49209d246d0f7454024c87cc76ea3221500",
+ "unsignedTransactionBytes": "031334b7df013c0057fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143b...",
+ "transactionJSON": {
+  "senderPublicKey": "57fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143b473beec228f79ff93c",
+  "signature": "7eaf8e48a780f51aa7e01c01091c9388b72a1bf075dddbd3594d55ad169272...",
+  "feeNQT": "100000000",
+  "type": 3,
+  "fullHash": "f3cd9046bba3706dd6f63cf387f23c7c29532ff15e3423f57900613c844a646f",
+  "version": 1,
+  "ecBlockId": "14589429051005044326",
+  "signatureHash": "5c60fc94452980f88423c3a16a74d49209d246d0f7454024c87cc76ea3221500",
+  "attachment": {
+   "goods": "11813734897437346473",
+   "version.DigitalGoodsQuantityChange": 1,
+   "deltaQuantity": -1
+  },
+  "senderRS": "BURST-L6FM-89WK-VK8P-FCRBB",
+  "subtype": 3,
+  "amountNQT": "0",
+  "sender": "15323192282528158131",
+  "ecBlockHeight": 291249,
+  "deadline": 60,
+  "transaction": "7885982972263845363",
+  "timestamp": 31438644,
+  "height": 2147483647
+ },
+ "broadcasted": true,
+ "requestProcessingTime": 7474,
+ "transactionBytes": "031334b7df013c0057fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143b...",
+ "fullHash": "f3cd9046bba3706dd6f63cf387f23c7c29532ff15e3423f57900613c844a646f",
+ "transaction": "7885982972263845363"
+}
+```
 
-### DGS Refund
-
-**Request:**
-
-    http://localhost:8125/burst?
-      requestType=dgsRefund&
-      purchase=3723760852542296589&
-      refundNQT=100000000&
-      secretPhrase=IWontTellYou&
-      feeNQT=100000000&
-      deadline=60
+### DGS Refund <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 
 **Response:**
 
-    {
-     "signatureHash": "dafa980759db6bd6e5f11aa7bdc1cff1bb201be750328c397870f1758cef975c",
-     "unsignedTransactionBytes": "0317944ee2013c0057fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143b...",
-     "transactionJSON": {
-      "senderPublicKey": "57fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143b473beec228f79ff93c",
-      "signature": "43a90c1f0dde1bca84623e69b0abe0284883600d7bfb5286b3489a9ee417...",
-      "feeNQT": "100000000",
-      "type": 3,
-      "fullHash": "64c2af2811da3306f4671002ed1f12655fca1937a0b68164da2a71f3ee63adce",
-      "version": 1,
-      "ecBlockId": "11418000967717599433",
-      "signatureHash": "dafa980759db6bd6e5f11aa7bdc1cff1bb201be750328c397870f1758cef975c",
-      "attachment": {
-       "purchase": "3723760852542296589",
-       "version.DigitalGoodsRefund": 1,
-       "refundNQT": "100000000"
-      },
-      "senderRS": "BURST-L6FM-89WK-VK8P-FCRBB",
-      "subtype": 7,
-      "amountNQT": "0",
-      "sender": "15323192282528158131",
-      "recipientRS": "BURST-6GMG-FC5F-YSX6-8CVEL",
-      "recipient": "7580519603555678830",
-      "ecBlockHeight": 292899,
-      "deadline": 60,
-      "transaction": "446940555271717476",
-      "timestamp": 31608468,
-      "height": 2147483647
-     },
-     "broadcasted": true,
-     "requestProcessingTime": 10509,
-     "transactionBytes": "0317944ee2013c0057fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143b...",
-     "fullHash": "64c2af2811da3306f4671002ed1f12655fca1937a0b68164da2a71f3ee63adce",
-     "transaction": "446940555271717476"
-    }
+``` json
 
-<small>*Verified 25-Nov-14*</small>
+{
+ "signatureHash": "dafa980759db6bd6e5f11aa7bdc1cff1bb201be750328c397870f1758cef975c",
+ "unsignedTransactionBytes": "0317944ee2013c0057fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143b...",
+ "transactionJSON": {
+  "senderPublicKey": "57fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143b473beec228f79ff93c",
+  "signature": "43a90c1f0dde1bca84623e69b0abe0284883600d7bfb5286b3489a9ee417...",
+  "feeNQT": "100000000",
+  "type": 3,
+  "fullHash": "64c2af2811da3306f4671002ed1f12655fca1937a0b68164da2a71f3ee63adce",
+  "version": 1,
+  "ecBlockId": "11418000967717599433",
+  "signatureHash": "dafa980759db6bd6e5f11aa7bdc1cff1bb201be750328c397870f1758cef975c",
+  "attachment": {
+   "purchase": "3723760852542296589",
+   "version.DigitalGoodsRefund": 1,
+   "refundNQT": "100000000"
+  },
+  "senderRS": "BURST-L6FM-89WK-VK8P-FCRBB",
+  "subtype": 7,
+  "amountNQT": "0",
+  "sender": "15323192282528158131",
+  "recipientRS": "BURST-6GMG-FC5F-YSX6-8CVEL",
+  "recipient": "7580519603555678830",
+  "ecBlockHeight": 292899,
+  "deadline": 60,
+  "transaction": "446940555271717476",
+  "timestamp": 31608468,
+  "height": 2147483647
+ },
+ "broadcasted": true,
+ "requestProcessingTime": 10509,
+ "transactionBytes": "0317944ee2013c0057fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143b...",
+ "fullHash": "64c2af2811da3306f4671002ed1f12655fca1937a0b68164da2a71f3ee63adce",
+ "transaction": "446940555271717476"
+}
+```
 
 ### Get DGS Good <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 
