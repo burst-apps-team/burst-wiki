@@ -1,7 +1,3 @@
-<languages/>
-
-<translate>
-
 | QBundle     |
 |-------------|
 | **Status**  |
@@ -318,4 +314,4 @@ This tool allow you to generate your own Reed-Solomon address.
 
 You will find the contributors and developer of QBundle in this tab.
 
-<img src="About.png" title="fig:About.png" alt="About.png" width="637" height="637" /> </translate>
+<img src="About.png" title="About.png" alt="About.png" width="637" height="637" />
