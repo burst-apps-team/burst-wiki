@@ -1,9 +1,17 @@
-Warning: This article is in a very early state of development and covers only little of Burst's history. Please help extending this article.
+| History of Burst |
+|------------------|
+| **Status**       |
+||
 
-There are several important events in the short history of Burst.
+Table of Contents
+=================
+
+\_\_TOC\_\_
 
 Beginning
 =========
+
+There are several important events in the short history of Burst.
 
 -   2014-08-10: Official announcement on [Bitcointalk.org](https://bitcointalk.org) [1]
 -   2014-08-11: Generation of the Genesis block [2]
