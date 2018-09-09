@@ -216,59 +216,55 @@ If the “Configure Windows firewall” is clicked, the user will be asked for c
 
 #### Account Manager Tab
 
-The account manager allows you to manage multiple accounts, and generate short ‘PIN’ numbers for each.
+The account manager allows to manage multiple accounts, and generate short PIN numbers for each.
 
 Account Manager is accessible here:
 
-<img src="Login_Account.png" title="Login_Account.png" alt="Login_Account.png" width="613" height="613" />
+<img src="11_Account_manager.png" title="11_Account_manager.png" alt="11_Account_manager.png" width="312" height="312" />
 
-You can easily manage all you BURST accounts with this software. It provides the Reed-Solomon address and the numeric accound number of you Burst Wallet. You can also see the Public Key.
+Users can easily manage all their BURST accounts with this software. It provides the Reed-Solomon address and the numeric account number of their Burst Wallet. The Public Key for each of those accounts is also shown.
 
-Finally, your passphrase and your private key are available (you will only need to set up one pin to control many accounts)
+Finally, passphrases and private keys are available (it is enough to set up one PIN to control multiple accounts)
 
-<img src="Account_Manager.png" title="Account_Manager.png" alt="Account_Manager.png" width="802" height="802" />
+<img src="11a_Account_manager.png" title="11a_Account_manager.png" alt="11a_Account_manager.png" width="776" height="776" />
 
-### How to automaticaly startup the wallet ?
-
-#### Windows Service
-
-<img src="Windows_Service.png" title="Windows_Service.png" alt="Windows_Service.png" width="603" height="603" />
-
-Stop wallet will stop the wallet in the background.
-
-Install as Service will allow for the automatic startup of the wallet, even before logon to windows (acting as a service)  this is currently only available when running H2 Database. 
-
-### My wallet is stuck, how do I solve this ?
+ === My wallet is stuck, how do I solve this ? ===
 
 #### Rollback chain (popoff)
 
 Advanced provides an important option for wallet issues: Rollback chain
 
-<img src="Popoff.png" title="Popoff.png" alt="Popoff.png" width="645" height="645" />
+<img src="13_Wallet_options.png" title="13_Wallet_options.png" alt="13_Wallet_options.png" width="563" height="563" />
 
-If you experience a wallet start issue, or an incomplete synch, it’s suggested to pop off 1000 block and allow to re-synch. The maximum blocks that should be popped off is 1400, 
+If there are issues with starting the wallet, or an incomplete blockchain synchronization, it’s suggested to pop off 1000 blocks and allow to re-synchronize. The maximum blocks that can be popped off is 1400. 
 
 <img src="Rollback_Chain.png" title="Rollback_Chain.png" alt="Rollback_Chain.png" width="450" height="450" />
 
-### I don't really like H2 database... How do I change database ?
+### I don't really like H2 database... How do I change the database ?
 
 #### Change database
 
 Changing database allows for the migration of databases, this is an advanced option. 
 
-<img src="Bootstrap.png" title="fig:Bootstrap.png" alt="Bootstrap.png" width="465" height="465" /> 
+The default database type installed with QBundle is H2. In case the user wishes, they can change the database type to Portable MariaDB or own MariaDB/MySQL. 
+
+1.  Default database is H2 which is file based - simple and low on memory but can have issues if shut down incorrectly
+2.  Portable MariaDB is higher performing, uses a lower disk footprint, more stable against sudden shutdowns, harder to bootstrap
+3.  Own MariaDB /MySQL is the highest performing database, used for large installations and will be needed for high-stress side applications or financial or tax analytics and reporting.
+
+<img src="14_Database_options.png" title="fig:14_Database_options.png" alt="14_Database_options.png" width="465" height="465" /> 
 
 <img src="Change_Database.png" title="Change_Database.png" alt="Change_Database.png" width="504" height="504" />
 
-If MariaDB is selected, it will install a portable copy, and set up
+If MariaDB is selected, QBundle will initiate the download and execute the installation of the required database.
 
 <img src="MariaDB_DL.png" title="MariaDB_DL.png" alt="MariaDB_DL.png" width="788" height="788" />
 
-This may take a while
+The time needed to download installation files will depend on the speed of the available internet connection.
 
 <img src="Download_MariaDB.png" title="Download_MariaDB.png" alt="Download_MariaDB.png" width="480" height="480" />
 
-Currently MariaDB will not allow the movement of data from H2 database, but in the future it will be possible to migrate the data within a synchronised database. 
+The current version of the Burst wallet and its' wrapper don't allow copying data from H2 to MariaDB, so in case users change the database type, they will need to re-synchronize the blockchain (be it through bootstrap or without it). 
 
 <img src="Transition_Database.png" title="Transition_Database.png" alt="Transition_Database.png" width="485" height="485" />
 
