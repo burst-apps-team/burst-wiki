@@ -270,21 +270,55 @@ The current version of the Burst wallet and its' wrapper don't allow copying dat
 
 ### What are the other tools available ?
 
-The tool tab provides a lot of tools that could be very helpful.
+The “Tools” section of the QBundle contains additional Burst software - plotter and plot converter, miner and paper Burst wallet.
 
-<img src="Tools.png" title="Tools.png" alt="Tools.png" width="660" height="660" />
+<img src="Tools_250222.png" title="Tools_250222.png" alt="Tools_250222.png" width="392" height="392" />
 
 #### Plotter
 
-[XPlotter](xplotter.md) by Blago is integrated in QBundle and lets you plot your HDD using your CPU.
+Plotting is the process of calculating hashes and saving them onto storage units (HDDs). The latest version of QBundle comes with Xplotter version 1.30. Once it is downloaded, it will be saved in the QBundle folder, sub-folder Xplotter. Users can access it via Tools -&gt; Plotting -&gt; Plotter which takes them to the screen shown below:
 
-<img src="Plotter.png" title="Plotter.png" alt="Plotter.png" width="662" height="662" />
+<img src="17a_Plotter.png" title="17a_Plotter.png" alt="17a_Plotter.png" width="643" height="643" />
+
+Users should provide the following information in the “Basic settings” before they start the plotter:
+
+-   Location where the plot file should be saved to
+-   Set the numeric account ID which will be associated with the plot. Clicking the selector on the right side from the form field will list accounts saved as described in Account Manager
+-   Set the plot file size using the slider
+-   Add to my plotfiles at “Start plotting” will allow the miner to use plots as soon as a scoop has been plotted i.e. it won't wait until the entire plot file is completed.
+
+Advanced settings for Xplotter allow the user to:
+
+-   Set the start nonce of the new plot file. In case all existing plots have been imported (recommended) the plotter will continue plotting using the number after the highest existing nonce - leaving gaps between nonces doesn't improve mining. In case the first plot is being created, the plotter will start with nonce 0
+-   Set the number of CPU threads to be used
+-   Set the amount of memory to be used
+-   Plot type - using PoC2 plots is mandatory
+
+Once all settings have been submitted, clicking the “Start Plotting” button with show the following screen:
+
+<img src="17b_Plotter_wrorking.png" title="17b_Plotter_wrorking.png" alt="17b_Plotter_wrorking.png" width="819" height="819" />
+
+The plotter informs the user about the current nonce being worked on (From- to) and the % completed (\[%\]) the rate per minute (nonces/min) and details about the writing speed.
+
+The “My plotfiles” section allows the users to manage (import/remove) plot files.
+
+<img src="17c_My_plotfiles.png" title="17c_My_plotfiles.png" alt="17c_My_plotfiles.png" width="628" height="628" />
 
 #### Dynamic Plotting
 
-Dynamic plotting is a feature that will add and remove plots depending on free space in the drive.
+Dynamic plotting allows for the normal usage of the drive, as it will check every minute for space pressure (i.e. a limited amount of space on the drive because of files created/copied).
 
-<img src="Dynamic_Plotting.png" title="Dynamic_Plotting.png" alt="Dynamic_Plotting.png" width="651" height="651" />
+This will create and delete plot files automatically, to maintain the free amount of space (the user determines the required free space) using plot files of the size directed. Essentially, if users move/create files often that are quite large, they should give a greater space and have larger plot sizes to take into account sudden changes.
+
+<img src="17d_Dynamic_plotting.png" title="17d_Dynamic_plotting.png" alt="17d_Dynamic_plotting.png" width="651" height="651" />
+
+#### Plot Converter
+
+Johnny's POC1 -&gt; POC2 converter, a tool for performing the conversion of POC1 plot file types into POC2 plots is delivered with the Qbundle. The POC1 to POC2 conversion has been completed at Burst blockchain block height 502.000, and since then, POC1 plot are no longer supported for mining. Users who still have POC1 plots can, however, use them for mining if they use POC2 compliant miners, which can perform on-the-fly conversion which will result in cca 50% slower reading times. The POC1 to POC2 converter is a tool specifically designed to perform this conversion, but the plot file that it being converted has to be excluded from mining. The usage of the plot converter is quite straightforward: users will first select plot files for conversion (note that the application will not allow for other plot file types to be added to the conversion queue):
+
+<img src="17e_POC1-POC2_converter_start.png" title="17e_POC1-POC2_converter_start.png" alt="17e_POC1-POC2_converter_start.png" width="872" height="872" />
+
+Users can choose if they wish to perform inline conversion (doesn't require additional free space) or to save the converted plot file to a new location, in case of which the “Output Folder” is a mandatory setting. Clicking the “Start conversion” button will warn the user that they shouldn't stop the conversion process as it might lead to damaged plots, which cannot be repaired.
 
 #### Miner
 
