@@ -35,4 +35,4 @@ In [`http://127.0.0.1:8125/rewardassignment.html`](http://127.0.0.1:8125/rewarda
 Reward Assignment using Burst API
 =================================
 
-You also have the possibility to set the reward recipient directly using the API using [this doc](the-burst-api-set-rewardrecipient.md).
+You also have the possibility to set the reward recipient directly using the API using [this doc](the-burst-api-set-reward-recipient.md).
