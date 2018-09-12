@@ -24,12 +24,16 @@ Open your Burst client and select ‘Messages’.
 
 ### Sending messages
 
-1.  Open the menu ‘Messages’ and click on ‘Send Message’.
-2.  Enter the ‘Recipient’ Burst address.
-3.  In the ‘Data’ field, you can enter any text with a length of up to 1000 bytes. When sending, you receive a corresponding error message if you enter longer text.
+1.  Select the ‘Messages’ option from the left-hand menu or click on the messages icon as shown below and click on ‘Send Message’.
+    :<img src="Send_Message.png" title="fig:Send_Message.png" alt="Send_Message.png" width="293" height="150" />
+2.  In the **Recipient** field, enter the Burst address that you wish to send the message to.
+3.  In the **Message** field, you can enter any text with a length of up to 1000 bytes. When sending, you receive a corresponding error message if you enter longer text.
 4.  You can select the checkbox ‘Encrypt Message’ or send the data in plain text. The recipient needs his passphrase to read encrypted messages.
-5.  Enter your ‘Passphrase’ and click on ‘Send Message’. It is listed in italics on the page.
-6.  After the network has processed your message (usually after a few minutes), it will be listet in normal font.
+5.  In the **Passphrase** field, enter your ‘Passphrase’ and click on **Send Message**. An example, encrypted message is shown below:
+    :<img src="Send_Actual_Message1.png" title="fig:Send_Actual_Message1.png" alt="Send_Actual_Message1.png" width="590" height="505" />
+6.  When you have sent the message it is listed in italics on the transactions page.
+7.  After the network has processed your message (usually after a few minutes), it will be listed in normal font.
+    :<img src="Message_transaction.PNG" title="fig:Message_transaction.PNG" alt="Message_transaction.PNG" width="698" height="115" />
 
 ### Receiving messages
 
