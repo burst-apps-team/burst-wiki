@@ -24,7 +24,7 @@ Open your Burst client and select ‘Messages’.
 
 ### Sending messages
 
-1.  Select the ‘Messages’ option from the left-hand menu or click on the messages icon as shown below and click on ‘Send Message’.
+1.  Select the **Messages** option from the left-hand menu or click on the messages icon as shown below and click on ‘Send Message’.
     :<img src="Send_Message.png" title="fig:Send_Message.png" alt="Send_Message.png" width="293" height="150" />
 2.  In the **Recipient** field, enter the Burst address that you wish to send the message to.
 3.  In the **Message** field, you can enter any text with a length of up to 1000 bytes. When sending, you receive a corresponding error message if you enter longer text.
