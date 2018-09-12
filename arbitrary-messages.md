@@ -22,7 +22,7 @@ How To
 
 Open your Burst client and select ‘Messages’.
 
-### Sending messages
+### Sending Messages
 
 1.  Select the **Messages** option from the left-hand menu or click on the messages icon as shown below and click on ‘Send Message’.
     :<img src="Send_Message.png" title="fig:Send_Message.png" alt="Send_Message.png" width="293" height="150" />
@@ -37,7 +37,16 @@ Open your Burst client and select ‘Messages’.
 
 ### Receiving Messages
 
-1.  Open the menu ‘Messages’ in your wallet.
-2.  Here you can find all the received messages sorted by the burst accounts.
-3.  Below the messages you will find input fields to respond directly.
+1.  Select the **Messages** option from the left-hand menu or click on the messages icon as shown below and click on ‘Inbox’.
+    :<img src="Inbox.png" title="fig:Inbox.png" alt="Inbox.png" width="288" height="150" />
+2.  Here you can find all the received messages sorted by the burst accounts. Select one of the senders accounts and the messages sent from this account will be displayed. If the message has been encrypted, you will see a padlock symbol and a prompt to enter your passphrase to decrypt the messages present as shown below:
+    :<img src="Inbox_msg1.PNG" title="fig:Inbox_msg1.PNG" alt="Inbox_msg1.PNG" width="717" height="365" />
+3.  Selecting one of the messages allows you to enter your passphrase. You can also select the checkbox to remember you pasphrase for decryption.
+      
+    <img src="Decrypt_msg.PNG" title="fig:Decrypt_msg.PNG" alt="Decrypt_msg.PNG" width="954" height="262" />
+
+4.  Once you enter your passphrase the message content will be shown.
+    :<img src="Decrypted_message_content.PNG" title="fig:Decrypted_message_content.PNG" alt="Decrypted_message_content.PNG" width="358" height="108" />
+5.  Below the messages you will find input fields to respond directly to the sender.
+    :<img src="Reply_to_message_field.PNG" title="fig:Reply_to_message_field.PNG" alt="Reply_to_message_field.PNG" width="467" height="136" />
 
