@@ -35,7 +35,7 @@ Open your Burst client and select ‘Messages’.
 7.  After the network has processed your message (usually after a few minutes), it will be listed in normal font.
     :<img src="Message_transaction.PNG" title="fig:Message_transaction.PNG" alt="Message_transaction.PNG" width="698" height="115" />
 
-### Receiving messages
+### Receiving Messages
 
 1.  Open the menu ‘Messages’ in your wallet.
 2.  Here you can find all the received messages sorted by the burst accounts.
