@@ -20,9 +20,7 @@ The base implementation allows for the transmission of simple, unencrypted text 
 How To
 ------
 
-[High-Level API calls for implementing arbitrary messages](https://burstwiki.org/wiki/The_Burst_API#Arbitrary_Message_System_Operations)
-
-Open your Burst client and select ‘Messages’.
+Open your Burst client and login using your passphrase.
 
 ### Sending Messages
 
@@ -52,3 +50,8 @@ Open your Burst client and select ‘Messages’.
 5.  Below the messages you will find input fields to respond directly to the sender.
     :<img src="Reply_to_message_field.PNG" title="fig:Reply_to_message_field.PNG" alt="Reply_to_message_field.PNG" width="467" height="136" />
 
+### Using the Burst API
+
+The Burst API is also available to encrypt, send, decrypt and read messages.
+
+[High-Level API calls for implementing arbitrary messages](https://burstwiki.org/wiki/The_Burst_API#Arbitrary_Message_System_Operations)
