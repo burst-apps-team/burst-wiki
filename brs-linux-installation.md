@@ -15,7 +15,6 @@ If you are running BRS for the first time,
 
 -   install Java (https://www.java.com/en/download/help/linux\_install.xml)
 -   install MariaDB (https://www.linode.com/docs/databases/mariadb/mariadb-setup-debian/\#install-mariadb)
--   setup database like explained in [Setup MariaDB](burst-reference-software-setup-mariadb.md)
 -   run `burst.sh help`
 
 If you want to import the blockchain now, run `burst.sh import mariadb`.
