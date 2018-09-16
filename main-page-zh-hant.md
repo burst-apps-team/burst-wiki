@@ -39,7 +39,7 @@
 </div>
 \***Burst 客戶端**
 
--   -   最新版本: **** (beta: ****)
+-   -   最新版本: ****
     -   直接下載: ****, ****
 
 -   [Burst 原始碼](https://github.com/PoC-Consortium/burstcoin)
