@@ -14,60 +14,70 @@
 
 </div>
 <div class="box_row">
-<div class="mw-translate-fuzzy">
-<div class="box_column" style="background-color: #ffffff; text-align:left;">
+<div class="box_column">
 <div class="main_subtitle">
-**Fonctionnalités du Burst**
+**Logiciels Burst**
 
 </div>
-\* [Messages Arbitraires](arbitrary-messages.md)
+\*[Logiciels utilisés dans l'écosystème Burst](burst-software.md)
 
--   [Système d'Alias](alias-system.md)
--   [Echanges d'actifs](asset-exchange.md)
--   [Transactions Automatisées (Contrats intelligents)](automated-transaction.md)
--   [Place de Marché](marketplace.md)
--   [*Sommaire des Fonctionnalités*](current-features.md)
-
-</div>
-<div class="box_column" style="background-color: #ffffff; text-align:left;">
-<div class="main_subtitle">
-**Burst Software**
-
-</div>
-\***Burst Client**
-
--   -   Dernière Version: **** (beta: ****)
+-   [Burst Reference Software](burst-reference-software.md)
+    -   Dernière Version: ****
     -   Téléchargement direct: ****, ****
-
--   [Code Source du Burst](https://github.com/PoC-Consortium/burstcoin)
--   [Application mobile](mobile-app.md)
--   *[Burst software overview](burst-software.md)*
+-   [Code Source Burst](https://github.com/PoC-Consortium/burstcoin)
+-   [|Application Mobile](mobile-app.md)
+-   [QBundle Guide Complet](qbundle.md)
 
 </div>
-<div class="box_column" style="background-color: #ffffff; text-align:left;">
+</div>
+<div class="box_row">
+<div class="box_column">
 <div class="main_subtitle">
-**pour les Développeurs**
+**Fonctionnalités Burst**
 
 </div>
-\*[The Burst API](the-burst-api.md)
+\* [Résumé des fonctionnalités](current-features.md)
 
--   [Burst Blockchain Tutorial](burst-blockchain-tutorial.md)
--   [Reed-Solomon (RS) Address Format](rs-address-format.md)
--   [QR Codes for RS Address Format](qr-codes-for-rs-address-format.md)
--   [The nxt-default.properties file](nxt-default-properties-configuration-file.md)
--   [Offline Transaction Signing](offline-transaction-signing.md)
--   [How Transaction Processing Works](how-tx-processing-works.md)
--   [Exchange Integration](exchange-integration.md)
-
-</div>
-</div>
-<div class="box_row">
-<div class="box_column_light" style="background-color: #ffffff; text-align:center;">
-**Get Support: \[Burst Centre de Support \]   |   [Forum](https://forums.getburst.net)   |   [Burst Discord](https://discord.gg/PMUgVSY)**
+-   [Messages arbitraires](arbitrary-messages.md)
+-   [Système d'alias](alias-system.md)
+-   [Echange d'actifs](asset-exchange.md)
+-   [Transactions Automatisées (Smart Contracts)](automated-transaction.md)
+-   [Marché](marketplace.md)
 
 </div>
 </div>
 <div class="box_row">
+<div class="box_column">
+<div class="main_subtitle">
+**Pour les développeurs**
+
+</div>
+\*[Les API Burst](the-burst-api.md)
+
+-   -   [Examples d'API Burst](the-burst-api-examples.md)
+
+-   [TestNet](testnet.md)
+-   [Fichier brs-default.properties](brs-default-properties-configuration-file.md)
+-   [Format des adresses Reed-Solomon (RS)](rs-address-format.md)
+-   [Proposition d'Amélioration des Capacités](cip.md)
+-   [Support BURST des tokens ERC20](burst-support-for-erc20-tokens.md)
+-   [Blockchain Burst](burst-blockchain.md)
+-   [Signature des transactions hors-ligne](offline-transaction-signing.md)
+-   [Comment fonctionne le traitement des transactions](how-tx-processing-works.md)
+
+</div>
+</div>
+<div class="box_row">
+<div class="box_column">
+<div class="main_subtitle">
+**Minage**
+
+</div>
+\*[1. Affectation de récompense](reward-assignment.md)
+
+-   [2. Plotting/Traçage](plotting.md)
+-   [3. Minage](mining.md)
+
 </div>
 <div class="mw-translate-fuzzy">
 <div class="box_column" style="background-color: #ffffff;">
