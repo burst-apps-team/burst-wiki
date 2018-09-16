@@ -26,7 +26,7 @@ Or
 
 the best guide is at https://www.burst-coin.org/creating-and-discovering-your-first-burst-account
 
-**2) I bought coins on Bittrex and want to move to my new wallet, but can't. Why?**
+**2) I purchased coins from Bittrex. How can I move them to my new wallet?**
 
 Bittrex will only send to accounts with a public key (not a Burst requirement) so see number 1 and either set the name on the account (IF you will not mine) or set the reward recipient to the pool. Either action will enable the account and allow for transfers from Bittrex.
 
