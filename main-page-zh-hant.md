@@ -31,6 +31,7 @@
 
 </div>
 </div>
+<div class="box_row">
 <div class="box_column">
 <div class="main_subtitle">
 **Burst 軟體**
@@ -47,6 +48,7 @@
 
 </div>
 </div>
+<div class="box_row">
 <div class="box_column">
 <div class="main_subtitle">
 **對於開發人員**
@@ -64,6 +66,7 @@
 
 </div>
 </div>
+<div class="box_row">
 <div class="box_column">
 <div class="main_subtitle">
 **Mining**
