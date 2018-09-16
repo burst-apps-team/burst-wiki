@@ -1,10 +1,13 @@
-<languages/>
+<languages></languages>
 
 <div class="main_topbox">
 <div class="main_title">
 **歡迎來到 <span style="color:#ffffff">BURST</span> WIKI**
 
 </div>
+<img src="Burst_Blue_Icon.png" title="Burst_Blue_Icon.png" alt="Burst_Blue_Icon.png" width="150" height="150" />
+
+<div class="mw-translate-fuzzy">
 <div class="main_text">
 **Burst** 是一個 [開源](https://github.com/ac0v/burstcoin) blockchain platform with multiple core-level features that has been running publicly since August 2014. It is a fork of Nxt and it's 100% [Proof of Capacity](proof-of-capacity.md) (PoC), 意思就是你可以透過你的硬碟空間挖礦。
 **[什麼是 Burst 影片 動畫](https://www.youtube.com/watch?v=Fyj9RIyxLb4)**
@@ -13,7 +16,9 @@
 </div>
 譯者小語： Burst wiki 中文化由[dana](https://burstwiki.org/wiki/User:Dana)於2018/07/01開始翻譯，目前所有頁面都暫時先導向英文頁面，等待我翻譯完成後再行導向中文化頁面，有任何翻譯建議或是意見歡迎來信指教，謝謝。
 
+</div>
 <div class="box_row">
+<div class="mw-translate-fuzzy">
 <div class="box_column">
 <div class="main_subtitle">
 **Burst 功能**
@@ -79,6 +84,8 @@
 </div>
 </div>
 <div class="box_row">
+</div>
+<div class="mw-translate-fuzzy">
 <div class="box_column" style="background-color: #ffffff;">
 <div class="sub_title">
 **關於 Burst**
@@ -120,9 +127,23 @@
 
 </div>
 </div>
+<div class="mw-translate-fuzzy">
+</div>
+</div>
+<div class="mw-translate-fuzzy">
 <div id="main_topboxlinks">
 <center>
 '''[加入我們!](join-us-.md)   |   **[貢獻](contribute.md)**   |   **[Burst 基金會](http://burst-foundation.org/)**
+
+</center>
+</div>
+</div>
+</div>
+<div id="main_topboxlinks">
+<center>
+'''[Join us!](join-us-.md)   |   **[Contribute](contribute.md)**   |   **Burst Foundation - TBA**
+
+<img src="Powered_By_Burst_-_4.png" title="Powered_By_Burst_-_4.png" alt="Powered_By_Burst_-_4.png" width="150" height="150" />
 
 </center>
 </div>
