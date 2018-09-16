@@ -12,6 +12,8 @@ Frequently Asked Questions
 
 You will need to request a single coin from the community or one of the Burst faucets. Request a coin here:
 
+Forums:
+
 <https://www.reddit.com/r/burstcoinmining/comments/7q8zve/initial_burstcoin_requests/>
 
 <https://forums.getburst.net/c/new-members-introductions/getting-started-initial-burstcoin-requests>
