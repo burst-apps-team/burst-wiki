@@ -58,7 +58,7 @@ Mining solo: it is win-or-lose, nothing in between, and wining is luck and plot 
 
 On CryptoGuru, based pools, it’s the ‘Pending (burst)’ column, other pools, look for the numbers next to your burst ID. One is Paid and the other pending.
 
-**9**)** I’m part of a pool and I forged a block, but I didn’t recieve the total value of the block, why?**
+**9**)** I’m part of a pool and I forged a block, but I didn’t receive the total value of the block, why?**
 
 A pool has 2 basic numbers that denote the pay-out method, in the format ‘XX-XX’ (i.e. 50-50) The first number is the % paid to the block forger (miner) and the second is the retained value, which is paid to historic ‘shares’ (or, past blocks that the pool didn’t win, but had a miner that was ‘close’ to winning with a good submitted deadline)
 
