@@ -34,7 +34,7 @@ Bittrex provides a message that must be included with each deposit so that they 
 
 **4**)*' Where can I buy, sell, or trade Burst for other coins, tokens, or fiat currencies?*'
 
-A list of exchanges is maintained on <https://www.reddit.com/r/burstcoin/> (on the right, ‘Exchanges’ tab) the biggest at the moment are Bittrex and Poloniex, some offer direct Fiat-to-Burst purchase ([<https://indacoin.com>](https://indacoin.com/) for example)
+A list of exchanges is maintained at <https://www.burst-coin.org/exchanges>. The largest exchanges are currently Bittrex and Poloniex. Direct Fiat-to-Burst purchases are available at [<https://indacoin.com>](https://indacoin.com/)
 
 **5) If I use SSD’s would I make more money?**
 
