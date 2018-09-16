@@ -10,7 +10,7 @@ Frequently Asked Questions
 
 **1) How can I obtain a coin to cover the transaction fee for setting a reward recipient (when mining) or activating an account on the blockchain with a public key?**
 
-Request a single coin from the community or one of the Burst faucets here:
+Request a single coin from the community or one of the Burst faucets here: When you are able, it is good form to return the coin that you are provided, donate it back to the faucet operator, or pay it forward to a new account holder.
 
 Forums:
 
