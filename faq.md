@@ -32,7 +32,7 @@ Bittrex requires an account to be active on the blockchain with a public key set
 
 Bittrex provides a message that must be included with each deposit so that they will know which account to credit. The process is a follows: To receive the message, log into your Bittrex account, click on your Burst wallet, click on the symbol for making a deposit, copy the message provided (a series of letters and numbers), Paste this message into the message box in your outgoing transaction, verify that the encryption check box is unchecked, copy and paste the payment address provided by Bittrex, verify that the address copied correctly, complete your other details, send the transaction. If you encrypted the message, or did not include it, this may be why your coins have been delayed. Contact Bittrex support with all of the details and eventually your coins will be posted to your account. It is important to follow instructions carefully and fully understand what you are doing at all times as it is possible to loose coins due to inadvertent errors such as this.
 
-**04**)*' Where can I trade/buy/sell Burst?*'
+**4**)*' Where can I trade/buy/sell Burst?*'
 
 A list of exchanges is maintained on <https://www.reddit.com/r/burstcoin/> (on the right, ‘Exchanges’ tab) the biggest at the moment are Bittrex and Poloniex, some offer direct Fiat-to-Burst purchase ([<https://indacoin.com>](https://indacoin.com/) for example)
 
