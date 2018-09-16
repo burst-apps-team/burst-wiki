@@ -28,7 +28,7 @@ Faucet list:
 
 **2) I purchased coins from Bittrex. How can I move them to my new wallet?**
 
-Bittrex requires an account to be active on the blockchain with a public key set prior to making outbound transfers. There are two methods for setting your public key. If you will be pool mining, you can activate your account’s public key by setting a reward recipient. If you will not be mining, or solo mining only, you can set the name on your account. Each of these options requires a minimal transaction fee.
+Bittrex requires an account to be active on the blockchain with a public key set before they will make outbound transfers. There are two methods for setting your public key. If you will be pool mining, you can activate your account’s public key by setting a reward recipient. If you will not be mining, or solo mining only, you can set the name on your account. Each of these options requires a minimal transaction fee.
 
 **3) I sent coins from Poloniex/anywhere to Bittrex and they don’t show up after a considerable time. Why?**
 
