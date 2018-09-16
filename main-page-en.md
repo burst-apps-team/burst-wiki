@@ -1,14 +1,34 @@
-<languages/>
+<languages></languages>
 
 <div class="main_topbox">
 <div class="main_title">
 **Welcome to the <span style="color:#ffffff">BURST</span> WIKI**
 
 </div>
-<div class="main_text">
-**Burst** is an [open source](https://github.com/ac0v/burstcoin) blockchain platform with multiple core-level features that has been running publicly since August 2014. It is a fork of Nxt and it's 100% [Proof of Capacity](proof-of-capacity.md) (PoC), meaning that you can mine it with your disk space.
-**[What is Burst video animation](https://www.youtube.com/watch?v=Fyj9RIyxLb4)**
+<img src="Burst_Blue_Icon.png" title="Burst_Blue_Icon.png" alt="Burst_Blue_Icon.png" width="150" height="150" />
 
+<div class="main_text">
+**Burst** is an [open source](https://github.com/ac0v/burstcoin) blockchain platform with multiple core-level features that has been running publicly since August 2014. It is a code fork of Nxt using [Proof of Capacity](proof-of-capacity.md) (PoC) consensus, meaning that you can mine it with your disk space.
+**[What is Burst video animation](https://www.youtube.com/watch?v=Fyj9RIyxLb4)**
+**[How to start mining Burst](https://www.youtube.com/watch?v=LJLhw37Lh_8&t)**
+
+</div>
+<div class="box_row">
+<div class="box_column">
+<div class="main_subtitle">
+**Burst Software**
+
+</div>
+\*[Softwares used in Burst ecosystem](burst-software.md)
+
+-   [Burst Reference Software](burst-reference-software.md)
+    -   Latest Version: ****
+    -   Direct Download: ****, ****
+-   [Burst Source Code](https://github.com/PoC-Consortium/burstcoin)
+-   [Mobile App](mobile-app.md)
+-   [QBundle Full Guide](qbundle.md)
+
+</div>
 </div>
 <div class="box_row">
 <div class="box_column">
@@ -16,30 +36,17 @@
 **Burst Features**
 
 </div>
-\* [Arbitrary Messages](arbitrary-messages.md)
+\* [Summary of Features](current-features.md)
 
+-   [Arbitrary Messages](arbitrary-messages.md)
 -   [Alias System](alias-system.md)
 -   [Asset Exchange](asset-exchange.md)
 -   [Automated transactions (Smart Contracts)](automated-transaction.md)
 -   [Marketplace](marketplace.md)
--   [*Summary of Features*](current-features.md)
 
 </div>
-<div class="box_column">
-<div class="main_subtitle">
-**Burst Software**
-
 </div>
-\***Burst Client**
-
--   -   Latest Version: **** (beta: ****)
-    -   Direct Download: ****, ****
-
--   [Burst Source Code](https://github.com/PoC-Consortium/burstcoin)
--   [Mobile App](mobile-app.md)
--   *[Burst software overview](burst-software.md)*
-
-</div>
+<div class="box_row">
 <div class="box_column">
 <div class="main_subtitle">
 **For Developers**
@@ -47,19 +54,35 @@
 </div>
 \*[The Burst API](the-burst-api.md)
 
--   [Burst Blockchain Tutorial](burst-blockchain-tutorial.md)
+-   -   [The Burst API Examples](the-burst-api-examples.md)
+
+-   [TestNet](testnet.md)
+-   [The brs-default.properties file](brs-default-properties-configuration-file.md)
 -   [Reed-Solomon (RS) Address Format](rs-address-format.md)
--   [QR Codes for RS Address Format](qr-codes-for-rs-address-format.md)
--   [The nxt-default.properties file](nxt-default-properties-configuration-file.md)
+-   [Capability Improvement Proposal](cip.md)
+-   [BURST support for ERC20 tokens](burst-support-for-erc20-tokens.md)
+-   [Burst Blockchain](burst-blockchain.md)
 -   [Offline Transaction Signing](offline-transaction-signing.md)
 -   [How Transaction Processing Works](how-tx-processing-works.md)
--   [Exchange Integration](exchange-integration.md)
+
+</div>
+</div>
+<div class="box_row">
+<div class="box_column">
+<div class="main_subtitle">
+**Mining**
+
+</div>
+\*[1. Reward Assignment](reward-assignment.md)
+
+-   [2. Plotting](plotting.md)
+-   [3. Mining](mining.md)
 
 </div>
 </div>
 <div class="box_row">
 <div class="box_column_light" style="background-color: #ffffff; text-align:center;">
-**Get Support: \[Burst Support Center\]   |   [Forum](https://forums.getburst.net)   |   [Burst Discord](https://discord.gg/PMUgVSY)**
+**Get Support: [Forum 1](https://burstforum.net/)   |   [Forum 2](https://forums.getburst.net)   |   [Burst Discord](https://discord.gg/PMUgVSY)   |   [Burst Reddit](https://www.reddit.com/r/burstcoin/)**
 
 </div>
 </div>
@@ -73,12 +96,13 @@
 
 -   [Get started with Burst](getting-started.md)
 -   [FAQ](faq.md)
+-   [Burst Who's Who](burst-who-s-who.md)
+-   [Global Burst TODO](global-burst-todo.md)
 -   Website Resources
     -   [General Information](https://www.burst-coin.org/)
+    -   [Information for Exchanges](https://www.burst-coin.org/information-for-exchanges)
     -   [Exchanges](exchanges.md)
     -   [Marketplace](http://x.burstnation.com/marketplace)
-    -   [Wallet download](http://burstwallet.io/)
-    -   Forum: [Burst-Team](http://burstforum.net/), [GetBurst](https://forums.getburst.net/), [Burst Reddit](https://www.reddit.com/r/burstcoin/)
     -   [The Burstcoinist (News)](https://www.burstcoin.ist/)
     -   [More](list-of-burst-related-websites.md)
     -   [International websites](list-of-international-burst-websites.md)
@@ -86,6 +110,8 @@
 -   [History of Burst](history-of-burst.md)
 
 </div>
+</div>
+<div class="box_row">
 <div class="box_column" style="background-color: #ffffff;">
 <div class="sub_title">
 **Services and Tools**
@@ -93,21 +119,24 @@
 </div>
 \* Online wallets: [PoCC](https://wallet.burst.cryptoguru.org:8125/index.html), poolofd32th: [1](https://wallet.poolofd32th.club/index.html), [2](https://wallet2.poolofd32th.club/index.html). Burst-Team: [3](https://wallet3.burst-team.us:2083/index.html), [4](https://wallet4.burst-team.us:2083/index.html), [5](https://wallet5.burst-team.us:2083/index.html)
 
+-   TestNet: [PoCC TestNet](https://wallet.dev.burst-test.net/)
 -   Blockchain Explorer: [PoCC](https://explore.burst.cryptoguru.org/), [BurstXD](http://burstxd.com/blocks/), [burstcoin.zone](http://burstcoin.zone/wordpress/blockexplorer/)
 -   Network Observer: [Luxe](http://burstcoin.cc/), [PoCC](https://explore.burst.cryptoguru.org/tool/observe)
--   [Asset Explorer](http://asset.burstnation.com/)
--   [Burst What If?](http://whatif.burstnation.com/), [Burst Today](http://www.burst.today/)
+-   [Burst Today](http://www.burst.today/)
 
 <!-- -->
 
 -   [Pool uptime monitor](https://uptime.statuscake.com/?TestID=M30iNz7TSq)
 -   [Burstcoin Faucet Lists](http://burstfaucets.com/)
+-   Forum: [Burst-Team](http://burstforum.net/), [GetBurst](https://forums.getburst.net/), [Burst Reddit](https://www.reddit.com/r/burstcoin/)
 
 </div>
 </div>
 <div id="main_topboxlinks">
 <center>
-'''[Join us!](join-us-.md)   |   **[Contribute](contribute.md)**   |   **[Burst Foundation](http://burst-foundation.org/)**
+'''[Join us!](join-us-.md)   |   **[Contribute](contribute.md)**   |   **Burst Foundation - TBA**
+
+<img src="Powered_By_Burst_-_4.png" title="Powered_By_Burst_-_4.png" alt="Powered_By_Burst_-_4.png" width="150" height="150" />
 
 </center>
 </div>
