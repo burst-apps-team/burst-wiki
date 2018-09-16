@@ -79,48 +79,14 @@
 -   [3. Minage](mining.md)
 
 </div>
-<div class="mw-translate-fuzzy">
-<div class="box_column" style="background-color: #ffffff;">
-<div class="sub_title">
-<b>A propos du Burst</b>
-
 </div>
-\* [Qu'est ce que le Burst?](burst-wiki.md)
-
--   [Commencer avec le Burst](demarrer.md)
--   [FAQ](faq.md)
--   Documentation Web
-    -   [Informations générales](https://www.burst-coin.org/)
-    -   [Exchanges](exchanges.md)
-    -   [Marché](http://x.burstnation.com/marketplace)
-    -   [Téléchargment de portefeuille](http://burstwallet.io/)
-    -   Forum: [Burst-Team](http://burstforum.net/), [GetBurst](https://forums.getburst.net/), [Burst Reddit](https://www.reddit.com/r/burstcoin/)
-    -   [The Burstcoinist (Actualités)](https://www.burstcoin.ist/)
-    -   [More](liste-de-sites-parlant-du-burst.md)
-    -   [Sites Web internationaux](liste-de-sites-internationaux-parlant-du-burst.md)
--   [Feuille de route Burst](feuille-de-route-burst.md)
--   [Historique du Burst](historique-du-burst.md)
-
-</div>
-<div class="box_column" style="background-color: #ffffff;">
-<div class="sub_title">
-**Services et outils**
-
-</div>
-\* Portefeuilles en ligne: [PoCC](https://wallet.burst.cryptoguru.org:8125/index.html), poolofd32th: [1](https://wallet.poolofd32th.club/index.html), [2](https://wallet2.poolofd32th.club/index.html). Burst-Team: [3](https://wallet3.burst-team.us:2083/index.html), [4](https://wallet4.burst-team.us:2083/index.html), [5](https://wallet5.burst-team.us:2083/index.html)
-
--   Explorateur de Blockchain: [PoCC](https://explore.burst.cryptoguru.org/), [BurstXD](http://burstxd.com/blocks/), [burstcoin.zone](http://burstcoin.zone/wordpress/blockexplorer/)
--   Observateur de réseau: [Luxe](http://burstcoin.cc/), [PoCC](https://explore.burst.cryptoguru.org/tool/observe)
--   [Explorateur d'actifs](http://asset.burstnation.com/)
--   [Burst What If?](http://whatif.burstnation.com/), [Burst Aujourd'hui](http://www.burst.today/)
-
-<!-- -->
-
--   [Indicateur d'équipes en ligne](https://uptime.statuscake.com/?TestID=M30iNz7TSq)
--   [Liste de distributeurs de Burst](http://burstfaucets.com/)
+<div class="box_row">
+<div class="box_column_light" style="background-color: #ffffff; text-align:center;">
+**Obtenir de l'aide: [Forum 1](https://burstforum.net/)   |   [Forum 2](https://forums.getburst.net)   |   [Discord Burst](https://discord.gg/PMUgVSY)   |   [Reddit Burst](https://www.reddit.com/r/burstcoin/)**
 
 </div>
 </div>
+<div class="box_row">
 <div class="mw-translate-fuzzy">
 </div>
 </div>
