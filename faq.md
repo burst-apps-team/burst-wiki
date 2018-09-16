@@ -8,7 +8,7 @@ Burst is a blockchain platform with multiple core-level features that has been r
 Frequently Asked Questions
 --------------------------
 
-**1) I want to mine or activate My account. Where do find the multiple coins?**
+**1) How can I obtain my first coin in order to cover the required fee for pool mining or activating my account on the blockchain with a public key?**
 
 You only need 1, an outgoing transaction or reward reassignment will set the public key. Get them from:
 
