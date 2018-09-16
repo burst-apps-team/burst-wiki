@@ -22,8 +22,6 @@ Faucet list:
 
 <https://faucet.burstpay.net/> (if this is empty, you may try again later)
 
-[<http://faucet.burst-coin.es>](http://faucet.burst-coin.es/)
-
 **2) I purchased coins from Bittrex. How can I move them to my new wallet?**
 
 Bittrex requires an account to be active on the blockchain with a public key set before they will make outbound transfers. There are two methods for setting your public key. Setting a reward recipient if you will be mining, or setting the name on your account if you will not. Both require a minimal transaction fee. (See FAQ No. 1)
