@@ -30,6 +30,7 @@
 -   [''功能摘要'](current-features.md)
 
 </div>
+</div>
 <div class="box_column">
 <div class="main_subtitle">
 **Burst 軟體**
@@ -44,6 +45,7 @@
 -   [行動 APP](mobile-app.md)
 -   *[Burst 軟體簡介](burst-software.md)*
 
+</div>
 </div>
 <div class="box_column">
 <div class="main_subtitle">
