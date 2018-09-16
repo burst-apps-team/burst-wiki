@@ -32,11 +32,9 @@ Bittrex requires an account to be active on the blockchain with a public key set
 
 Bittrex provides a message that must be included with each deposit so that they will know which account to credit. The process is a follows: To receive the message, log into your Bittrex account, click on your Burst wallet, click on the symbol for making a deposit, copy the message provided (a series of letters and numbers), Paste this message into the message box in your outgoing transaction, verify that the encryption check box is unchecked, copy and paste the payment address provided by Bittrex, verify that the address copied correctly, complete your other details, send the transaction. If you encrypted the message, or did not include it, this may be why your coins have been delayed. Contact Bittrex support with all of the details and eventually your coins will be posted to your account. It is important to follow instructions carefully and fully understand what you are doing at all times as it is possible to loose coins due to inadvertent errors such as this.
 
-**4) How much can I make on Burst?**
+**04**)*' Where can I trade/buy/sell Burst?*'
 
-<https://explore.burst.cryptoguru.org/tool/calculate>
-
-Gives you an average over time assuming a few things like: Average luck/100% uptime/no overlapping/fees on pool/good plot scan time (&lt;20 seconds) if you do not have all of these, you may not see that number.
+A list of exchanges is maintained on <https://www.reddit.com/r/burstcoin/> (on the right, ‘Exchanges’ tab) the biggest at the moment are Bittrex and Poloniex, some offer direct Fiat-to-Burst purchase ([<https://indacoin.com>](https://indacoin.com/) for example)
 
 **5) If I use SSD’s would I make more money?**
 
@@ -98,9 +96,11 @@ My advice is dedicating a GPU to either mining or plotting, don’t try to do bo
 
 A plot is a file that contains Hashes, these hashes are used to mine burst. A plot is tied to an account, but they can be created (with the same account ID) on other machines and connected back to your miner(s).
 
-**16**)** Where can I trade/buy/sell Burst?**
+**16) How much can I make on Burst?**
 
-A list of exchanges is maintained on https://www.reddit.com/r/burstcoin/ (on the right, ‘Exchanges’ tab) the biggest at the moment are Bittrex and Poloniex, some offer direct Fiat-to-Burst purchase ([<https://indacoin.com>](https://indacoin.com/) for example)
+<https://explore.burst.cryptoguru.org/tool/calculate>
+
+Gives you an average over time assuming a few things like: Average luck/100% uptime/no overlapping/fees on pool/good plot scan time (&lt;20 seconds) if you do not have all of these, you may not see that number.
 
 **17**)** Do I have to store my Burst off the exchange?**
 
