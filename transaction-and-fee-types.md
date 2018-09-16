@@ -1,6 +1,20 @@
-As of block height 500.000 the Burst blockchain supports, on top of ordinary transactions (one sender to one recipient), sending Burst from one account to multiple recipients in a single transaction. The first Pre-Dymaxion hard fork enabled using amounts below 1 Burst as transaction amounts and transaction fees.
+| Transaction and Fee Types |
+|---------------------------|
+| **Status**                |
+||
 
-### Ordinary Transactions
+Table Of Contents
+-----------------
+
+\_\_TOC\_\_
+
+Introduction
+------------
+
+As of block height 500.000 the Burst blockchain supports, on top of ordinary transactions (one sender to one recipient), sending Burst from one account to multiple recipients in a single transaction. The first Pre-Dymaxion hard fork enabled using amounts below 1 Burst as transaction amounts and [transaction fees.](slot-based-transaction-fees.md)
+
+Ordinary Transactions
+---------------------
 
 Ordinary Burst transactions are one-to-one transactions i.e. one sender sends Burst to one recipient. They can be issued through the local or web wallet.
 
@@ -24,7 +38,8 @@ Users can issue an ordinary transaction with a number of advanced options, which
 
 To broadcast a transaction that has been previously signed offline, users should access “Transaction Operations”. ![Transaction operations](5_Transaction_operations.png "fig:Transaction operations") The “Advanced Transaction Operations” then allows for the signed transaction bytes to be broadcast to the network: ![Broadcast transaction](6_Broadcast_transaction.png "fig:Broadcast transaction")
 
-### Multi-out Transactions
+Multi-out Transactions
+----------------------
 
 Multi-out transactions allow the sender to send Burst to up to 64 unique recipient accounts as a single transaction i.e. with considerably lower fee compared to sending the same amount through 64 ordinary transactions.
 
@@ -36,13 +51,15 @@ Due to design optimizations, recipients of Multi-out and Multi-out Same transact
 
 To see the details of the Multi-out transactions, recipients should use the block explorer, available at <https://explore.burst.cryptoguru.org/>, insert their Burst account into the search box and access the “Multiout Reverse” tab, where all Multi-out transaction details are shown: ![Multi-out Reverse](7_Multiout_reverse.png "fig:Multi-out Reverse")
 
-### Fee Types
+Fee Types
+---------
 
 Unconfirmed transactions can be issued with arbitrary fees, with the lowest possible fee being 735.000 Plancks (0.00735000 Burst). Depending on the fee amount, unconfirmed transactions will be execute sooner or later i.e. they will be picked up into a block on the Burst blockchain.
 
-The Burst Reference Software (BRS aka wallet) is equipped with a fee suggestion tool, which suggests the amount of fee to be used for transaction, based on the transaction load on the chain in the last 10 blocks. The fee suggestion tool offers three fee amounts:
+[The Burst Reference Software](burst-reference-software.md) (BRS aka wallet) is equipped with a fee suggestion tool, which suggests the amount of fee to be used for transaction, based on the transaction load on the chain in the last 10 blocks. The fee suggestion tool offers three fee amounts:
 
 -   Standard: 50% probability the transaction will be included in the next block
 -   Cheap: 50% probability the transaction will be included in the next 10 blocks
 -   Priority: 90% probability the transaction will be included in the next block, 99% probability the transaction will be included in the next two blocks.
 
+The fee suggestion tool can also be used using [The Burst API](the-burst-api-suggest-fee.md).
