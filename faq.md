@@ -28,7 +28,7 @@ the best guide is at https://www.burst-coin.org/creating-and-discovering-your-f
 
 **2) I purchased coins from Bittrex. How can I move them to my new wallet?**
 
-Bittrex will only send to accounts with a public key (not a Burst requirement) so see number 1 and either set the name on the account (IF you will not mine) or set the reward recipient to the pool. Either action will enable the account and allow for transfers from Bittrex.
+Bittrex requires an account to be active on the blockchain with a public key prior to making outbound transfers. There are two methods for setting your public key. If you will be pool mining, you can activate your account’s public key by setting a reward recipient. If you will not be mining, or solo mining only, you can set the name on your account. Each of these option requires a minimal transaction fee.
 
 **3) I sent coins from Poloniex/anywhere to Bittrex and they don’t show up after a considerable time. Why?**
 
