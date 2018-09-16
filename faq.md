@@ -22,7 +22,7 @@ Forums:
 
 Faucet list:
 
-<https://faucet.burstpay.net/> (if this is empty, you may try again later)
+<https://faucet.burstpay.net/> (Due to daily limits, this faucet may be empty, if so you may try again the next day)
 
 **2) I purchased coins from Bittrex. How can I move them to my new wallet?**
 
