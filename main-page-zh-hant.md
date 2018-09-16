@@ -130,14 +130,6 @@
 <div class="mw-translate-fuzzy">
 </div>
 </div>
-<div class="mw-translate-fuzzy">
-<div id="main_topboxlinks">
-<center>
-'''[加入我們!](join-us-.md)   |   **[貢獻](contribute.md)**   |   **[Burst 基金會](http://burst-foundation.org/)**
-
-</center>
-</div>
-</div>
 </div>
 <div id="main_topboxlinks">
 <center>
