@@ -16,7 +16,6 @@
 譯者小語： Burst wiki 中文化由[dana](https://burstwiki.org/wiki/User:Dana)於2018/07/01開始翻譯，目前所有頁面都暫時先導向英文頁面，等待我翻譯完成後再行導向中文化頁面，有任何翻譯建議或是意見歡迎來信指教，謝謝。
 
 <div class="box_row">
-<div class="mw-translate-fuzzy">
 <div class="box_column">
 <div class="main_subtitle">
 **Burst 功能**
@@ -73,15 +72,6 @@
 -   [Plotting](plotting.md)
 -   [Mining](mining.md)
 
-</div>
-</div>
-<div class="box_row">
-<div class="box_column_light" style="background-color: #ffffff; text-align:center;">
-**獲得幫助: \[Burst 支持中心\]   |   [論壇](https://forums.getburst.net)   |   [Burst Discord](https://discord.gg/PMUgVSY)**
-
-</div>
-</div>
-<div class="box_row">
 </div>
 <div class="mw-translate-fuzzy">
 <div class="box_column" style="background-color: #ffffff;">
