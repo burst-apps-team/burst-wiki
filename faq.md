@@ -10,7 +10,7 @@ Frequently Asked Questions
 
 **1) How can I obtain a coin to cover the transaction fee for pool mining or for activating my account on the blockchain with a public key?**
 
-You will need to request a single coin from the community or visit one of the Burst faucets. Request a coin here:
+You will need to request a single coin from the community or one of the Burst faucets. Request a coin here:
 
 <https://www.reddit.com/r/burstcoinmining/comments/7q8zve/initial_burstcoin_requests/>
 
