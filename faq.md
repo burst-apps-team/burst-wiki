@@ -8,7 +8,7 @@ Burst is a blockchain platform with multiple core-level features that has been r
 Frequently Asked Questions
 --------------------------
 
-**1) How can I obtain a coin to cover the transaction fee for pool mining or for activating my account on the blockchain with a public key?**
+**1) How can I obtain a coin to cover the transaction fee for setting a reward recipient (when mining) or activating an account on the blockchain with a public key?**
 
 You will need to request a single coin from the community or one of the Burst faucets. Request a coin here:
 
@@ -28,7 +28,7 @@ Faucet list:
 
 **2) I purchased coins from Bittrex. How can I move them to my new wallet?**
 
-Bittrex requires an account to be active on the blockchain with a public key set before they will make outbound transfers. There are two methods for setting your public key. If you will be pool mining, set a reward recipient. If you will not be mining, or solo mining only, set the name on your account. Each option requires a minimal transaction fee. (See FAQ No. 1)
+Bittrex requires an account to be active on the blockchain with a public key set before they will make outbound transfers. There are two methods for setting your public key. Setting a reward recipient if you will be mining, or setting the name on your account if you will not. Both require a minimal transaction fee. (See FAQ No. 1)
 
 **3) I sent coins from Poloniex/anywhere to Bittrex and they don’t show up after a considerable time. Why?**
 
