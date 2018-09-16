@@ -48,6 +48,48 @@ No, it’s 95% capacity and 5% scan time that determine success. More plot area 
 
 Before transferring coins to a new wallet, verify your pass phrase by signing in and out of your wallet until you are comfortable that your record of the pass phrase is accurate. Keep at least two copies of your pass phrase in separate locations. Do not disclose your pass phrase to anyone who cannot absolutely be trusted with it. Will your pass phrase still be available to you if your computer is stolen, after a natural disaster, or to your estate or other trusted individual if this should be necessary. Your pass phrase is your only access to your Burst assets. Depending on the value of your account, extraordinary measures should be employed to protect it. Your security plan might also include multiple wallets, one or more for cold storage, and one or more for other activities such as mining and/or daily transactions.
 
+**8**)*' Are the passphrases secured?*'
+
+I’ll leave the effort to a few people to show how secure a 12-word passphrase is:<https://burstforum.net/topic/4766/the-canary-burst-early-warning-system> Key point: brute forcing it will be around 13,537,856,339,904,134,474,012,675,034 years.
+
+**9**)*' My local wallet used to run, I synchronised it before and now it says ‘stopped’. when I start it, it stops after a few seconds, what should I do?*'
+
+I suggest that you change the database type to portable MariaDB (on Qbundle, at the top, ‘Database’ select, ‘change database’) and then re-import the database from scratch (see 35)
+
+**10**)*' My new wallet will not start. What should I do?*'
+
+Click on settings, Java, verify that “portable java” has been selected.
+
+**11**)*' Is there a faster way to synchronizing the blockchain?*'
+
+It is recommended that you use Portable MariaDB rather than H2. If you have not done so already, you can make the change at any time. Regarding a faster download method, In the Qbundle wallet, you can select ‘Database’, ‘Import database’. Verify that the ‘CryptoGuru repository’ is selected, then ‘start import’. This will download a relatively fast and up-to-date copy of the blockchain. This process is referred to as ‘boot strapping’. When complete, more recent blocks will be update automatically using regular peer to peer synchronization.
+
+**12**)*' I logged into my account and my balance appears to be incorrect. Why is this?*'
+
+Synchronization with the blockchain occurs each time a wallet is opened. Until synchronization is complete, older balances will be displayed. If, after verifying that synchronization has completed, the balance still appears to be incorrect, verify that you have entered the correct passphrase into the correct account. If you have copied and pasted your passphrase, verify that you have not inadvertently copied an extra space before or after the passphrase. At this point any difference between the displayed balance and the perceived correct balance should be reconcilable by reviewing your most recent transactions.
+
+**51**)*' Are there channels for my language?*'
+
+Telegram:
+
+Spanish: <https://t.me/burstcoin_es>
+
+German: <https://t.me/Burstcoinde>
+
+Italian: <https://t.me/BurstCoinItalia>
+
+Forum:
+
+Spanish: <https://burst-coin.es/index.php/forum/index>
+
+Discord:
+
+Spanish: <https://discordapp.com/invite/RaaGna9>
+
+Bulgarian: <https://discord.gg/r4uzTd>
+
+(there are others, please contact me to put up)
+
 **8**)** What is ‘solo’ and ‘pool’ (wasn’t his name Chewbacca?)**
 
 Solo is where you attempt to ‘forge’ (mine) a block by yourself; you get 100% of the block reward and fees. But you only receive funds if you forge, no burst for coming in second place.
@@ -192,14 +234,6 @@ IOS wallet is completed; we are waiting for it to go on the app store. Apple is 
 
 Plots are like collections of lottery tickets (and if only one ticket could win). Having 2 copies is not useful, and it means that you have less coverage of ‘all’ the possible numbers. It’s not good, avoid.
 
-**34**)** My local wallet used to run, I synchronised it before and now it says ‘stopped’. when I start it, it stops after a few seconds, what should I do?**
-
-I suggest that you change the database type to portable MariaDB (on Qbundle, at the top, ‘Database’ select, ‘change database’) and then re-import the database from scratch (see 35)
-
-**35**)** Synchronising the block chain is slow and I have the patience of a goldfish. What can I do?**
-
-On Qbundle , ‘Database’ select ‘Import database’ and make sure the CryptoGuru repository is selected, then ‘start Import’ this will download and quickly stuff the local database (I suggest Portable MariaDB, see 34) (lol, loop)
-
 **36**)** What will the block reward be next month/will the block rewards run out in 6 months?**
 
 <https://www.ecomine.earth/burstblockreward/> Rewards will carry on into 2026, but transaction fees will be a bigger % by then, and so profitable mining will continue.
@@ -262,42 +296,6 @@ Some you can mine with the NAS (if it can run the miner, it can scan locally) bu
 **48**)** How can I set up a node?**
 
 No need to set up a node, just set up a wallet (version 2.0.1) or Qbundle (2.0) and it will do the rest
-
-**49**)** Are the passphrases secured?**
-
-I’ll leave the effort to a few people to show how secure a 12-word passphrase is:<https://burstforum.net/topic/4766/the-canary-burst-early-warning-system> Key point: brute forcing it will be around 13,537,856,339,904,134,474,012,675,034 years.
-
-**50**)** I logged into my account (maybe with a different burst ID) and see no balance!!**
-
-I have dealt with this very issue multiple times, and there are only 3 options:
-
-1.  You have typed in the password incorrectly
-2.  You have copy-pasted the password incorrectly
-3.  You are trying to log into a ‘local wallet’ which the block chain has not finished updating
-
-The last one generally leaves the burst ID the same, but old balances will show. No, this is not a security problem, and yes, windows loves to add spaces after the phrase you enter when copied, and that space is important in getting to your account.
-
-**51**)** Are there channels for my language?**
-
-Telegram:
-
-Spanish: https://t.me/burstcoin\_es
-
-German: https://t.me/Burstcoinde
-
-Italian: https://t.me/BurstCoinItalia
-
-Forum:
-
-Spanish: https://burst-coin.es/index.php/forum/index
-
-Discord:
-
-Spanish: https://discordapp.com/invite/RaaGna9
-
-Bulgarian: https://discord.gg/r4uzTd
-
-(there are others, please contact me to put up)
 
 **52**)** I am mining in a pool, and it says that my effective capacity is lower than I actually have, why?**
 
