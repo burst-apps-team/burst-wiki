@@ -8,23 +8,23 @@ Burst is a blockchain platform with multiple core-level features that has been r
 Frequently Asked Questions
 --------------------------
 
-**1) How can I obtain my first coin in order to cover the transaction fee for pool mining or for activating my account on the blockchain with a public key?**
+**1) How can I obtain a coin to cover the transaction fee for pool mining or for activating my account on the blockchain with a public key?**
 
-You only need 1, an outgoing transaction or reward reassignment will set the public key. Get them from:
+You will need to request a single coin from the community or visit one of the Burst faucets. Request a coin here:
 
 <https://www.reddit.com/r/burstcoinmining/comments/7q8zve/initial_burstcoin_requests/>
 
-Or (Faucet list)
+<https://forums.getburst.net/c/new-members-introductions/getting-started-initial-burstcoin-requests>
 
-<https://faucet.burstpay.net/> (if this is empty, come back later)
+<https://www.burst-coin.org/creating-and-discovering-your-first-burst-account>
+
+Faucet list:
+
+<https://faucet.burstpay.net/> (if this is empty, you may try again later)
 
 [<http://faucet.burst-coin.es>](http://faucet.burst-coin.es/)
 
-Or
-
-<https://forums.getburst.net/c/new-members-introductions/getting-started-initial-burstcoin-requests>
-
-the best guide is at https://www.burst-coin.org/creating-and-discovering-your-first-burst-account
+ 
 
 **2) I purchased coins from Bittrex. How can I move them to my new wallet?**
 
