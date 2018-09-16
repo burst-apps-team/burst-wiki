@@ -68,7 +68,7 @@ It is recommended that you use Portable MariaDB rather than H2. If you have not 
 
 Synchronization with the blockchain occurs each time a wallet is opened. Until synchronization is complete, older balances will be displayed. If, after verifying that synchronization has completed, the balance still appears to be incorrect, verify that you have entered the correct passphrase into the correct account. If you have copied and pasted your passphrase, verify that you have not inadvertently copied an extra space before or after the passphrase. At this point any difference between the displayed balance and the perceived correct balance should be reconcilable by reviewing your most recent transactions.
 
-**51**)*' Are there channels for my language?*'
+**13**)*' Are there channels for my language?*'
 
 Telegram:
 
@@ -90,21 +90,21 @@ Bulgarian: <https://discord.gg/r4uzTd>
 
 (there are others, please contact me to put up)
 
-**8**)** What is ‘solo’ and ‘pool’ (wasn’t his name Chewbacca?)**
+**14**)** What is ‘solo’ and ‘pool’ (wasn’t his name Chewbacca?)**
 
 Solo is where you attempt to ‘forge’ (mine) a block by yourself; you get 100% of the block reward and fees. But you only receive funds if you forge, no burst for coming in second place.
 
 Pools allow a group of miners to ‘pool’ together their resources and when a miner wins, they give the pool the winnings (this is done by the reward assignment you completed earlier), it is then divided according to different percentages and methods and burst is sent out according to pool rules (minimum pay-out, time, etc.)
 
-**9**)** I have been mining for 2 days and my wallet doesn’t show any Burst WHY?**
+**15**)** I have been mining for 2 days and my wallet doesn’t show any Burst WHY?**
 
 Mining solo: it is win-or-lose, nothing in between, and wining is luck and plot size. Pool mining: because it costs 1 burst to send burst, the pools have either a time requirement (every X days) or a minimum amount (100 burst +) so you need to research your pool. Some pools allow for you to set the limit (cryptoGuru and similar) to be met before sending
 
-**10**)** How do I see what I have pending?**
+**16**)** How do I see what I have pending?**
 
 On CryptoGuru, based pools, it’s the ‘Pending (burst)’ column, other pools, look for the numbers next to your burst ID. One is Paid and the other pending.
 
-**11**)** I’m part of a pool and I forged a block, but I didn’t receive the total value of the block, why?**
+**17**)** I’m part of a pool and I forged a block, but I didn’t receive the total value of the block, why?**
 
 A pool has 2 basic numbers that denote the pay-out method, in the format ‘XX-XX’ (i.e. 50-50) The first number is the % paid to the block forger (miner) and the second is the retained value, which is paid to historic ‘shares’ (or, past blocks that the pool didn’t win, but had a miner that was ‘close’ to winning with a good submitted deadline)
 
@@ -122,7 +122,7 @@ Examples of pools:
 
 Please note that there is an overlap as this is personal preference and just guidance; a higher historical share value means a smoother pay-out regime, which some people prefer. If fees are not factored in, or are the same on different pools, the pay-out value will be the same over a long enough period.
 
-**12**)** Is XXX model of hard drive good? Which one do you recommend?**
+**18**)** Is XXX model of hard drive good? Which one do you recommend?**
 
 CHEAP is best. If you have 2 new hard drives, both covered by warranty, get the one with the lowest cost per TB (expressed as $/TB , calculated by dividing the cost by the number of terabytes) because plot size is KING,
 
