@@ -40,29 +40,29 @@ A list of exchanges is maintained at <https://www.burst-coin.org/exchanges>. Dir
 
 This is a personal choice that should be made with the security in mind. There are benefits to each depending on your circumstances. If you cannot be absolutely certain that your computer or other device is safe from hackers, malicious malware, key stroke loggers, etc., it is safest to leave your coins on a reputable exchange with two factor authentication activated. Offline wallets can be a safe option if your computer and password is secure. Please note: Two factor authentication further protects your coins on an exchange by requiring a secondary means of identifying yourself. This is an extra layer of security that can protect your coins if your exchange password is compromised. Do not leave your coins unprotected on an exchange that does not offer it. Remember, exchange passwords can be stolen like any other. Without two factor authentication enabled, there is little difference between an exchange, online, or local wallet.
 
-**5) If I use SSD’s would I make more money?**
+**6) If I use SSD’s would I make more money?**
 
 No, it’s 95% capacity and 5% scan time that determine success. More plot area = better deadlines = better chance of forging a block, or better rates from a pool.
 
-**6**)*' What security measures can I take to keep my coins safe?*'
+**7**)*' What security measures can I take to keep my coins safe?*'
 
 Before transferring coins to a new wallet, verify your pass phrase by signing in and out of your wallet until you are comfortable that your record of the pass phrase is accurate. Keep at least two copies of your pass phrase in separate locations. Do not disclose your pass phrase to anyone who cannot absolutely be trusted with it. Will your pass phrase still be available to you if your computer is stolen, after a natural disaster, or to your estate or other trusted individual if this should be necessary. Your pass phrase is your only access to your Burst assets. Depending on the value of your account, extraordinary measures should be employed to protect it. Your security plan might also include multiple wallets, one or more for cold storage, and one or more for other activities such as mining and/or daily transactions.
 
-**6**)** What is ‘solo’ and ‘pool’ (wasn’t his name Chewbacca?)**
+**8**)** What is ‘solo’ and ‘pool’ (wasn’t his name Chewbacca?)**
 
 Solo is where you attempt to ‘forge’ (mine) a block by yourself; you get 100% of the block reward and fees. But you only receive funds if you forge, no burst for coming in second place.
 
 Pools allow a group of miners to ‘pool’ together their resources and when a miner wins, they give the pool the winnings (this is done by the reward assignment you completed earlier), it is then divided according to different percentages and methods and burst is sent out according to pool rules (minimum pay-out, time, etc.)
 
-**7**)** I have been mining for 2 days and my wallet doesn’t show any Burst WHY?**
+**9**)** I have been mining for 2 days and my wallet doesn’t show any Burst WHY?**
 
 Mining solo: it is win-or-lose, nothing in between, and wining is luck and plot size. Pool mining: because it costs 1 burst to send burst, the pools have either a time requirement (every X days) or a minimum amount (100 burst +) so you need to research your pool. Some pools allow for you to set the limit (cryptoGuru and similar) to be met before sending
 
-**8**)** How do I see what I have pending?**
+**10**)** How do I see what I have pending?**
 
 On CryptoGuru, based pools, it’s the ‘Pending (burst)’ column, other pools, look for the numbers next to your burst ID. One is Paid and the other pending.
 
-**9**)** I’m part of a pool and I forged a block, but I didn’t receive the total value of the block, why?**
+**11**)** I’m part of a pool and I forged a block, but I didn’t receive the total value of the block, why?**
 
 A pool has 2 basic numbers that denote the pay-out method, in the format ‘XX-XX’ (i.e. 50-50) The first number is the % paid to the block forger (miner) and the second is the retained value, which is paid to historic ‘shares’ (or, past blocks that the pool didn’t win, but had a miner that was ‘close’ to winning with a good submitted deadline)
 
@@ -80,31 +80,31 @@ Examples of pools:
 
 Please note that there is an overlap as this is personal preference and just guidance; a higher historical share value means a smoother pay-out regime, which some people prefer. If fees are not factored in, or are the same on different pools, the pay-out value will be the same over a long enough period.
 
-**10**)** Is XXX model of hard drive good? Which one do you recommend?**
+**12**)** Is XXX model of hard drive good? Which one do you recommend?**
 
 CHEAP is best. If you have 2 new hard drives, both covered by warranty, get the one with the lowest cost per TB (expressed as $/TB , calculated by dividing the cost by the number of terabytes) because plot size is KING,
 
-**11**)** How many drives can I have on my machine?**
+**13**)** How many drives can I have on my machine?**
 
 For best performance, you can have up to 2 drives per thread (3 on a new fast AVX2 CPU). So that quad-core core-2-quad can have up to 8 drives, but a more modern i7 with 4 cores + hyper threading can squeeze 8 \* 3 or 24 drives. (Performance while scanning will suffer)
 
-**12**)** Can I game while I mine?**
+**14**)** Can I game while I mine?**
 
 Some people have done so, but you cannot have the ‘maximum’ number of drives and play games generally.
 
-**13**)** Can I mine Burst and GPU mine other coins?**
+**15**)** Can I mine Burst and GPU mine other coins?**
 
 Yes, if you CPU Mine Burst.
 
-**14**)** I’m GPU plotting Burst and GPU mining another coin, my plots are being corrupted, why?**
+**16**)** I’m GPU plotting Burst and GPU mining another coin, my plots are being corrupted, why?**
 
 My advice is dedicating a GPU to either mining or plotting, don’t try to do both.
 
-**15**)** What is a ‘plot’?**
+**17**)** What is a ‘plot’?**
 
 A plot is a file that contains Hashes, these hashes are used to mine burst. A plot is tied to an account, but they can be created (with the same account ID) on other machines and connected back to your miner(s).
 
-**16) How much can I make on Burst?**
+**18) How much can I make on Burst?**
 
 <https://explore.burst.cryptoguru.org/tool/calculate>
 
