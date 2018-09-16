@@ -36,6 +36,10 @@ Bittrex provides a message that must be included with each deposit so that they 
 
 A list of exchanges is maintained at <https://www.burst-coin.org/exchanges>. Direct Fiat-to-Burst purchases are currently available on indacoin.com. Please note: Not all exchanges listed operate in every country. For example, Indacoin does not operate in the United States. One option for individuals in the United States is to purchase Bitcoin from Coinbase, transfer the Bitcoin to Bittrex, and convert the Bitcoin to Burst using a market order.
 
+**5**)*' Should I store my Burst in an offline wallet, online wallet, or leave them on an exchange?*'
+
+This is a personal choice that should be made with the security in mind. There are benefits to each depending on your circumstances. If you cannot be absolutely certain that your computer or other device is safe from hackers, malicious malware, key stroke loggers, etc., it is safest to leave your coins on a reputable exchange with two factor authentication activated. Offline wallets can be a safe option if your computer and password is secure. Please note: Two factor authentication further protects your coins on an exchange by requiring a secondary means of identify yourself. This is an extra layer of security that can protect your coins if your exchange password is compromised. Do not leave your coins unprotected on an exchange that does not offer it. Remember, exchange passwords can be stolen like any other. Always use a reputable exchange.
+
 **5) If I use SSD’s would I make more money?**
 
 No, it’s 95% capacity and 5% scan time that determine success. More plot area = better deadlines = better chance of forging a block, or better rates from a pool.
@@ -101,10 +105,6 @@ A plot is a file that contains Hashes, these hashes are used to mine burst. A pl
 <https://explore.burst.cryptoguru.org/tool/calculate>
 
 Gives you an average over time assuming a few things like: Average luck/100% uptime/no overlapping/fees on pool/good plot scan time (&lt;20 seconds) if you do not have all of these, you may not see that number.
-
-**17**)** Do I have to store my Burst off the exchange?**
-
-No, but it’s safer from hackers who target exchanges, if you cannot guarantee the safety or security of your home computer from Trojans etc, then it might be best to leave on an exchange (but enable 2FA security on your account PLEASE!)
 
 **18**)** What security measures can I take to keep my coin safe?**
 
