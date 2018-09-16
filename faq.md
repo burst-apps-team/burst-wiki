@@ -18,8 +18,6 @@ Forums:
 
 <https://forums.getburst.net/c/new-members-introductions/getting-started-initial-burstcoin-requests>
 
-<https://www.burst-coin.org/creating-and-discovering-your-first-burst-account>
-
 Faucet list:
 
 <https://faucet.burstpay.net/> (if this is empty, you may try again later)
