@@ -12,7 +12,7 @@ Frequently Asked Questions
 
 Request a single coin from the community or one of the Burst faucets here:
 
-Forums: <https://www.reddit.com/r/burstcoinmining/comments/903gq6/initial_burstcoin_requests/> <https://www.reddit.com/r/burstcoinmining/comments/7q8zve/initial_burstcoin_requests/>
+Forums: <https://www.reddit.com/r/burstcoinmining/comments/903gq6/initial_burstcoin_requests/>
 
 <https://forums.getburst.net/c/new-members-introductions/getting-started-initial-burstcoin-requests>
 
