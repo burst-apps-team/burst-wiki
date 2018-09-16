@@ -44,6 +44,10 @@ This is a personal choice that should be made with the security in mind. There a
 
 No, it’s 95% capacity and 5% scan time that determine success. More plot area = better deadlines = better chance of forging a block, or better rates from a pool.
 
+**6**)*' What security measures can I take to keep my coins safe?*'
+
+Before transferring coins to a new wallet, verify your pass phrase by signing in and out of your wallet until you are comfortable that your record of the pass phrase is accurate. Keep at least two copies of your pass phrase in separate locations. Do not disclose your pass phrase to anyone who cannot absolutely be trusted with it. Will your pass phrase still be available to you if your computer is stolen, after a natural disaster, or to your estate or other trusted individual if this should be necessary. Your pass phrase is your only access to your Burst assets. Depending on the value of your account, extraordinary measures should be employed to protect it. Your security plan might also include multiple wallets, one or more for cold storage, and one or more for other activities such as mining and/or daily transactions.
+
 **6**)** What is ‘solo’ and ‘pool’ (wasn’t his name Chewbacca?)**
 
 Solo is where you attempt to ‘forge’ (mine) a block by yourself; you get 100% of the block reward and fees. But you only receive funds if you forge, no burst for coming in second place.
@@ -105,10 +109,6 @@ A plot is a file that contains Hashes, these hashes are used to mine burst. A pl
 <https://explore.burst.cryptoguru.org/tool/calculate>
 
 Gives you an average over time assuming a few things like: Average luck/100% uptime/no overlapping/fees on pool/good plot scan time (&lt;20 seconds) if you do not have all of these, you may not see that number.
-
-**18**)** What security measures can I take to keep my coin safe?**
-
-When you create an account, sign out and back in to your wallet (to make sure you have copied the pass phrase correctly) and keep multiple copies of the key (at least one physically printed or written down and in a safe place, better in 2 places) do not disclose the passphrase to anyone. Finally use either a local wallet or a trusted web wallet (please research before using any web wallet)
 
 **19**)** How can I help Burst?**
 
