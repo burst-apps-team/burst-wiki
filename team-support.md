@@ -1,3 +1,12 @@
+| Team/Support |
+|--------------|
+| **Status**   |
+
+Table Of Content
+================
+
+\_\_TOC\_\_
+
 Support Team
 ============
 
@@ -7,8 +16,9 @@ Scope of activities:
 -   documentation
 -   translations
 
-champion: Dan Dares
-members: umbrellacorp03 (documentation)
+Champion: [Dan Dares](user-dan-dares.md)
+
+Members: [Umbrellacorp03](user-umbrellacorp03.md) (documentation)
 
 Global Support
 --------------
