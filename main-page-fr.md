@@ -114,14 +114,6 @@
 <div class="mw-translate-fuzzy">
 </div>
 </div>
-<div class="mw-translate-fuzzy">
-<div id="main_topboxlinks">
-<center>
-'''[Rejoignez nous !](rejoignez-nous--.md)   |   **[Contribuez](contribuez.md)**   |   **[Burst Foundation](http://burst-foundation.org/)**
-
-</center>
-</div>
-</div>
 </div>
 <div id="main_topboxlinks">
 <center>
