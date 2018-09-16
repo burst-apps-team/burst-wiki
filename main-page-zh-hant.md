@@ -141,7 +141,7 @@
 </div>
 <div id="main_topboxlinks">
 <center>
-'''[Join us!](join-us-.md)   |   **[Contribute](contribute.md)**   |   **Burst Foundation - TBA**
+'''[加入我們!](join-us-.md)   |   **[貢獻](contribute.md)**   |   **[Burst 基金會](http://burst-foundation.org/)**
 
 <img src="Powered_By_Burst_-_4.png" title="Powered_By_Burst_-_4.png" alt="Powered_By_Burst_-_4.png" width="150" height="150" />
 
