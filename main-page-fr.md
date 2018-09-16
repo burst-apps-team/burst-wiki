@@ -1,15 +1,20 @@
-<languages/>
+<languages></languages>
 
 <div class="main_topbox">
 <div class="main_title">
 **Bienvenue dans le <span style="color:#ffffff">BURST</span> WIKI**
 
 </div>
+<img src="Burst_Blue_Icon.png" title="Burst_Blue_Icon.png" alt="Burst_Blue_Icon.png" width="150" height="150" />
+
+<div class="mw-translate-fuzzy">
 <div class="main_text">
 **Burst** est une [plateforme open source](https://github.com/ac0v/burstcoin) de type blockchain avec de multiples fonctionnalités au niveau du noyau et qui est en ligne depuis Août 2014. Il s'agit d'un Fork de Nxt qui est 100% [Proof of Capacity](proof-of-capacity.md) (PoC) ou “preuve de capacité”, c'est à dire que vous pouvez le miner avec votre espace disque.
 **[Regardez cette vidéo sur le Burst](https://www.youtube.com/watch?v=Fyj9RIyxLb4)**
 
+</div>
 <div class="box_row">
+<div class="mw-translate-fuzzy">
 <div class="box_column" style="background-color: #ffffff; text-align:left;">
 <div class="main_subtitle">
 **Fonctionnalités du Burst**
@@ -63,6 +68,8 @@
 </div>
 </div>
 <div class="box_row">
+</div>
+<div class="mw-translate-fuzzy">
 <div class="box_column" style="background-color: #ffffff;">
 <div class="sub_title">
 <b>A propos du Burst</b>
@@ -104,9 +111,23 @@
 
 </div>
 </div>
+<div class="mw-translate-fuzzy">
+</div>
+</div>
+<div class="mw-translate-fuzzy">
 <div id="main_topboxlinks">
 <center>
 '''[Rejoignez nous !](rejoignez-nous--.md)   |   **[Contribuez](contribuez.md)**   |   **[Burst Foundation](http://burst-foundation.org/)**
+
+</center>
+</div>
+</div>
+</div>
+<div id="main_topboxlinks">
+<center>
+'''[Join us!](join-us-.md)   |   **[Contribute](contribute.md)**   |   **Burst Foundation - TBA**
+
+<img src="Powered_By_Burst_-_4.png" title="Powered_By_Burst_-_4.png" alt="Powered_By_Burst_-_4.png" width="150" height="150" />
 
 </center>
 </div>
