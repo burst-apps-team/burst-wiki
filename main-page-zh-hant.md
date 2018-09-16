@@ -73,48 +73,14 @@
 -   [Mining](mining.md)
 
 </div>
-<div class="mw-translate-fuzzy">
-<div class="box_column" style="background-color: #ffffff;">
-<div class="sub_title">
-**關於 Burst**
-
 </div>
-\* [什麼是 Burst?](burst-wiki.md)
-
--   [開始使用 Burst](getting-started.md)
--   [FAQ](faq.md)
--   網站資源
-    -   [一般資訊](https://www.burst-coin.org/)
-    -   [交易](exchanges.md)
-    -   [Marketplace](http://x.burstnation.com/交易marketplace)
-    -   [錢包下載](http://burstwallet.io/)
-    -   論壇: [Burst-Team](http://burstforum.net/), [GetBurst](https://forums.getburst.net/), [Burst Reddit](https://www.reddit.com/r/burstcoin/)
-    -   [The Burstcoinist (News)](https://www.burstcoin.ist/)
-    -   [More](list-of-burst-related-websites.md)
-    -   [International websites](list-of-international-burst-websites.md)
--   [Burst Whitepaper](whitepaper-burst.md)
--   [歷史 of Burst](---of-burst.md)
-
-</div>
-<div class="box_column" style="background-color: #ffffff;">
-<div class="sub_title">
-**服務與工具**
-
-</div>
-\* 線上錢包: [PoCC](https://wallet.burst.cryptoguru.org:8125/index.html), poolofd32th: [1](https://wallet.poolofd32th.club/index.html), [2](https://wallet2.poolofd32th.club/index.html). Burst-Team: [3](https://wallet3.burst-team.us:2083/index.html), [4](https://wallet4.burst-team.us:2083/index.html), [5](https://wallet5.burst-team.us:2083/index.html)
-
--   區塊鏈瀏覽器: [PoCC](https://explore.burst.cryptoguru.org/), [BurstXD](http://burstxd.com/blocks/), [burstcoin.zone](http://burstcoin.zone/wordpress/blockexplorer/)
--   網路Network Observer: [Luxe](http://burstcoin.cc/), [PoCC](https://explore.burst.cryptoguru.org/tool/observe)
--   [Asset Explorer](http://asset.burstnation.com/)
--   [Burst What If?](http://whatif.burstnation.com/), [Burst Today](http://www.burst.today/)
-
-<!-- -->
-
--   [Pool uptime monitor](https://uptime.statuscake.com/?TestID=M30iNz7TSq)
--   [Burstcoin Faucet Lists](http://burstfaucets.com/)
+<div class="box_row">
+<div class="box_column_light" style="background-color: #ffffff; text-align:center;">
+**獲得幫助: \[Burst 支持中心\]   |   [論壇](https://forums.getburst.net)   |   [Burst Discord](https://discord.gg/PMUgVSY)**
 
 </div>
 </div>
+<div class="box_row">
 <div class="box_column" style="background-color: #ffffff;">
 <div class="sub_title">
 **關於 Burst**
