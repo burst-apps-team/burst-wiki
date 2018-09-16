@@ -52,6 +52,4 @@ Open your Burst client and login using your passphrase.
 
 ### Using the Burst API
 
-The Burst API is also available to encrypt, send, decrypt and read messages.
-
-[High-Level API calls for implementing arbitrary messages](https://burstwiki.org/wiki/The_Burst_API#Arbitrary_Message_System_Operations)
+The Burst API is also available to encrypt, send, decrypt and read messages : [High-Level API calls for implementing arbitrary messages](the-burst-api-arbitrary-message-system-operations.md).
