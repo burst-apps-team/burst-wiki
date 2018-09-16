@@ -14,6 +14,8 @@ Request a single coin from the community or one of the Burst faucets here:
 
 Forums:
 
+<https://discordapp.com/invite/RPhpjVv>
+
 <https://www.reddit.com/r/burstcoinmining/comments/903gq6/initial_burstcoin_requests/>
 
 <https://forums.getburst.net/c/new-members-introductions/getting-started-initial-burstcoin-requests>
