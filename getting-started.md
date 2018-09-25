@@ -7,7 +7,7 @@ Your account will be secured by a passphrase. Before you begin, it is important 
 
 New Burst accounts are secure, but they are less secure if they are not activated on the block chain with a public key. Some business will not transact business with accounts that are not activated. This can present a problem if you have already have Burst on certain exchanges such as Bittrex. After you have downloaded and installed your selected wallet, you will need to secure a small amount of Burst from the community in order to activate your wallet. For information on how to obtain the amount of burst needed, see FAQ 1.
 
-1.  [How to get or buy Burst](faq-how-do-i-get-burst-3f.md)
+1.  [FAQ 1](faq-how-do-i-get-burst-3f.md)
 
 Burst is supported by all major operating systems. However, some of the software developed for Windows requires a 64bit installed version. You will also need to have a correct version of [Java](https://www.java.com/download/) installed on your computer. This is usually the latest version. Some of the installation packages will check your version of Java automatically and assist you with installing the correct version. In most cases it is not necessary to check your version of Java in advance.
 
