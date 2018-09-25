@@ -16,7 +16,7 @@ Burst was officially introduced on the [10th of August 2014](https://bitcointalk
 -   unfair pre-mines and ICO releases
 -   supremacy of corporate interests and large mining operations
 
-Burst is the first and only cryptocurrency secured by the energy efficient Proof-of-Capacity (PoC) algorithm. Bitcoin and many other “altcoins” use the unsustainable and environmentally disastrous Proof-of-Work algorithm. The critical difference is that Proof-of-Work provides security by requiring power hungry processors, graphics cards, or expensive application-specific integrated circuits (ASICS) to needlessly and yet repeatedly perform computationally intensive hashing functions in real time. Burst’s Proof-of-Capacity algorithm provides the same security using regular computer resources and inexpensive hard drives to store and retrieve the results of hashing functions that have been pre-computed and are reusable.
+Burst is the first and only cryptocurrency secured by the energy efficient Proof-of-Capacity (PoC) algorithm. Bitcoin and many other “altcoins” use the unsustainable and environmentally disastrous Proof-of-Work algorithm. The critical difference is that Proof-of-Work provides security by requiring power hungry processors, graphics cards, or expensive application-specific integrated circuits (ASICS) to needlessly and yet repeatedly perform computationally intensive hashing functions in real time. Burst’s Proof-of-Capacity algorithm provides the same security using regular computer resources and inexpensive hard drives to store and retrieve the results of hashing functions that have been pre-computed and are reusable in perpetuity.
 
 ### Decentralization
 
