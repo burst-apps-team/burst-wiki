@@ -3,7 +3,7 @@
 Burst: the 'cryptocurrency 2.0'
 -------------------------------
 
-Burst is a cryptocurrency and a blockchain platform with multiple core-level features that has been running publicly since August 2014. There will be a total of 2,158,812,800 Burst coins in existence when the mining period is projected to end in the year 2033.
+Burst is a cryptocurrency and a blockchain platform with multiple core-level features that has been running publicly since August 2014. There will be a total of 2,158,812,800 Burst coins in existence when the mining period ends in the year 2033.
 
 An informative and fast paced video introduction to Burst is located here:
 
