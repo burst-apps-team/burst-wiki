@@ -3,6 +3,8 @@ Some things to know before you get started
 
 Your account will be secured by a passphrase. Before you begin, it is important to understand the security implications of Burst being a blockchain based currencies. With blockchain based currencies, there are no centralized organizations with custodial control over accounts. There is no one to contact if you forget, loose, or otherwise fail to protect your passphrase. It is vitally important that you only use computer equipment that you are absolutely sure is secure from intrusion. The only access you will have to your burst account holdings will be your passphrase.
 
+1.  [Learn the Security Features of Burst](secure-your-burst.md)
+
 Burst is supported by all major operating systems. However, some of the software developed for Windows requires a 64bit installed version. You will also need to have a correct version of [Java](https://www.java.com/download/) installed on your computer. This is usually the latest version. Some of the installation packages will check your version of Java automatically and assist you with installing the correct version. In most cases it is not necessary to check your version of Java in advance.
 
 If you are just starting out, have average computer skills, and prefer ease of installation, the Windows based version of Qbundle is recommended. Qbundle is the installation package that contains all of the windows based Burst Reference Software that you will need. This is a very easy package to install.
