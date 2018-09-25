@@ -8,7 +8,7 @@ Burst was officially introduced on the [10th of August 2014](https://bitcointalk
 -   lack of decentralization
 -   waste of energy
 -   unfair releases
--   supremacy of big miners and corporations
+-   supremacy of large miners and corporations
 
 It is the first and only cryptocurrency secured by a Proof-of-Capacity algorithm. The critical difference between Proof of Work and Burst’s Proof of Capacity (PoC) is that instead of needing ever more expensive, power hungry processors and graphic cards, it uses inexpensive, low-power hard drives.
 
