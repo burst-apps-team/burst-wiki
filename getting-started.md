@@ -18,6 +18,8 @@ If you are just starting out, have average computer skills, and prefer ease of i
 
 If you have more advanced computer skills and prefer software that is not Windows based, other packages have been developed to suit your needs.
 
+You will find helpful step by step guides in the Burst Software section on the main page.
+
 You can find the software that you need here:
 
 [Software on Burst-Coin.org](https://www.burst-coin.org/download-wallet/)
