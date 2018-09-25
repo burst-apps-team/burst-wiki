@@ -3,7 +3,9 @@
 Burst: the 'cryptocurrency 2.0'
 -------------------------------
 
-Burst is a cryptocurrency and a blockchain platform with multiple core-level features that has been running publicly since August 2014. There will be a total of 2,158,812,800 Burst coins in existence when the mining period ends in the year 2033.
+Burst is a cryptocurrency and an open-source decentralized blockchain platform that connects people, companies, and financial institutions. It allows you to move value – according to your own rules – within a scalable, green and customizable ledger. It has multiple core-level features and has been running publicly since August of 2014.
+
+Burst is a deflationary currency. The total number of coins that can ever be mined is capped at 2,158,812,800. The mining period for bust will end in the 2033.
 
 An informative and fast paced video introduction to Burst is located here:
 
@@ -16,15 +18,15 @@ Burst was officially introduced on the [10th of August 2014](https://bitcointalk
 -   unfair pre-mines and ICO releases
 -   supremacy of corporate interests and large mining operations
 
-Burst is the first and only cryptocurrency secured by the energy efficient Proof-of-Capacity (PoC) algorithm. Bitcoin and many other “altcoins” use the unsustainable and environmentally disastrous Proof-of-Work algorithm. The critical difference is that Proof-of-Work provides security by requiring power hungry processors, graphics cards, or expensive application-specific integrated circuits (ASICS) to needlessly and yet repeatedly perform computationally intensive hashing functions in real time. Burst’s Proof-of-Capacity algorithm provides the same security using regular computer resources and inexpensive hard drives to store and retrieve the results of hashing functions that have been pre-computed and are reusable in perpetuity.
+Burst is the first and only cryptocurrency secured by the energy efficient Proof-of-Capacity algorithm (PoC). Bitcoin and many other “altcoins” use the unsustainable Proof-of-Work model that is widely regarded as a pending environmental disaster due to excessive energy usage. The Proof-of-Work model provides for network security by requiring computers to needlessly and repeatedly perform computationally intensive hashing functions in real time. As network difficulty increases over time, an arms race to remain competitive has emerged whereby Proof-of-Work miners employ ever more powerful processors, graphics cards, and expensive application-specific integrated circuits (ASICS). The energy costs are astounding with electric usage devoted to Proof-of-Work estimated to be more than the total used by some countries. The Bitcoin network's annual electricity usage alone is frequently sited as exceeding that of the country of Switzerland. Burst’s alternative Proof-of-Capacity algorithm provides the same security using regular computer resources and inexpensive hard drives to store and retrieve the results of hashing functions that have been pre-computed and are reusable in perpetuity.
 
 ### Decentralization
 
-Burst addresses the centralist tendency problem plaguing other cryptocurrencies by further using an algorithm that is ASIC-proof. With no possibility for ASICs to out compete regular hardware, continued decentralization is assured.
+Burst addresses the centralist tendency problem plaguing other cryptocurrencies by further using an algorithm that is ASIC-proof. With no possibility for ASICs to replace regular everyday hardware as a minimum barrier to feasible entry, continued decentralization is assured.
 
 ### Energy-Efficient
 
-Burst uses minimal computational resources beyond that required for initial setup. It is estimated that a Burst transaction uses 1/400th of the energy required to process a bitcoin[1] transaction. This makes Burst an eco-friendly coin. It can be mined using something as small as a Raspberry Pi.
+Burst uses minimal computational resources beyond that required for initial setup. It is estimated that a Burst transaction one 400th of the energy required to process bitcoin[1] transactions. This makes Burst eco-friendly and green. It can be mined using something as small as a Raspberry Pi.
 
 ### Fair Release
 
