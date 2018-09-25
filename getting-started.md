@@ -1,9 +1,11 @@
-Download and install the Burst software, select your operating system
----------------------------------------------------------------------
+Download and install the Burst Reference Software
+-------------------------------------------------
 
-Burst is supported by all major operating systems. You will need to have the correct (usually most recent) version of [Java](https://www.java.com/download/) installed on your computer.
+Burst is supported by all major operating systems. However, some of the software developed for Windows requires a 64bit installed version. You will also need to have a correct version of [Java](https://www.java.com/download/) installed on your computer. This is usually the latest version. Some of the installation packages will check your version of Java automatically and assist you with installing the correct version. In most cases it is not necessary to check your version of Java in advance.
 
-You need to have the Burst client software installed and up to date. You can find the download and installation instructions of the Burst core client here:
+If you are just starting out, have average computer skills, and prefer ease of installation, the Windows based version of Qbundle is recommended. Qbundle is the installation package that contains all of the windows based Burst Reference Software that you will need. This is a very easy package to install.
+
+If you have more advanced computer skills and prefer software that is not Windows based, other packages have been developed to suit your needs.
 
   
 
