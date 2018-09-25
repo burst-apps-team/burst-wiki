@@ -18,9 +18,7 @@ If you have more advanced computer skills and prefer software that is not Window
 Start using the Burst client
 ----------------------------
 
-1.  [Create a Burst account address](how-to-createaccount.md)
-2.  [Learn how the Burst client software works](burst-client-interface.md)
-3.  [Learn the Security Features of Burst](secure-your-burst.md)
-4.  [How to get or buy Burst](faq-how-do-i-get-burst-3f.md)
-5.  [Explore more features of Burst](current-features.md)
+1.  [Learn the Security Features of Burst](secure-your-burst.md)
+2.  [How to get or buy Burst](faq-how-do-i-get-burst-3f.md)
+3.  [Explore more features of Burst](current-features.md)
 
