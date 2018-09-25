@@ -18,10 +18,14 @@ If you are just starting out, have average computer skills, and prefer ease of i
 
 If you have more advanced computer skills and prefer software that is not Windows based, other packages have been developed to suit your needs.
 
-  
+You can find the software that you need here:
+
+[Software on Burst-Coin.org](https://www.burst-coin.org/download-wallet/)
+
+You can also click on one of the following to explore programs for various operating systems:
 
 |                                                                                         |                                                                                   |                                                                                   |                                                                                                           |                                                                             |
 |-----------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------|
 | <img src="Windowslogo.jpg" title="Windowslogo.jpg" alt="Windowslogo.jpg" width="100" /> | <img src="AppleLogo.jpg" title="AppleLogo.jpg" alt="AppleLogo.jpg" width="100" /> | <img src="Linuxlogo.png" title="Linuxlogo.png" alt="Linuxlogo.png" width="100" /> | <img src="Raspberry-pi-logo.png" title="Raspberry-pi-logo.png" alt="Raspberry-pi-logo.png" width="100" /> | <img src="android.png" title="android.png" alt="android.png" width="100" /> |
 
-[Wallets on Burst-Coin.org](https://www.burst-coin.org/download-wallet/).
+
