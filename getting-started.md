@@ -22,7 +22,7 @@ You can find the software that you need here: and helpful step by step instructi
 
 [Software on Burst-Coin.org](https://www.burst-coin.org/download-wallet/)
 
-You can find step by step installation and setup guides here:
+You can find step by step installation and setup guides here in the Burst Software section :
 
 <https://burstwiki.org>
 
