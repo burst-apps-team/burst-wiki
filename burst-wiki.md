@@ -26,7 +26,7 @@ Burst addresses the centralist tendency problem plaguing other cryptocurrencies 
 
 ### Energy-Efficient
 
-Burst uses minimal computational resources beyond that required for initial setup. It is estimated that a Burst transaction one 400th of the energy required to process bitcoin[1] transactions. This makes Burst eco-friendly and green. It can be mined using something as small as a Raspberry Pi.
+Burst uses minimal computational resources beyond that required for initial setup. It is estimated that a Burst transaction uses one 400th of the energy required to process a bitcoin[1] transaction. This makes Burst eco-friendly and green. It can be mined using something as small as a Raspberry Pi.
 
 ### Fair Release
 
