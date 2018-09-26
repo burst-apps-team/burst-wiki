@@ -12,13 +12,13 @@ New Burst accounts are secure, but full security requires activation on the bloc
 Ready to get started?
 ---------------------
 
-Burst Reference software (BRS) is supported for all major operating systems. However, some programs developed for Windows require a 64bit installed version. You will also need to have a correct installed version of [Java](https://www.java.com/download/) (usually the latest version). Some installation packages will check your version of Java automatically and prompt you to download any missing components. In most cases it is not necessary to check your version of Java in advance.
+Burst Reference software (BRS) is supported for all major operating systems. However, some programs developed for Windows require a 64bit installed version. You will also need to have a correct installed version of Java (usually the latest version). Some installation packages will check your version of Java automatically and prompt you to download any missing components. In most cases it is not necessary to check your version of Java in advance.
 
 If you are just starting out, have average computer skills, and prefer ease of installation, the Windows based version of Qbundle is recommended. Qbundle is easily installed package that contains all of the Windows based Burst Reference Software that you will need.
 
 If you have more advanced computer skills and prefer software that is not Windows based, packages for other popular operating systems have been developed.
 
-You can find the software that you need here:
+You can find the Burst Reference Software here:
 
 <https://burstwiki.org/wiki/Burst_Reference_Software>
 
