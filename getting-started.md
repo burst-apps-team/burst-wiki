@@ -12,17 +12,19 @@ New Burst accounts are secure, but full security requires activation on the bloc
 Ready to get started?
 ---------------------
 
-Burst is supported by all major operating systems. However, some of the software developed for Windows requires a 64bit installed version. You will also need to have a correct version of [Java](https://www.java.com/download/) installed on your computer. This is usually the latest version. Some of the installation packages will check your version of Java and update it automatically if necessary. In most cases it is not necessary to check your version of Java in advance.
+Burst Reference software (BRS) is supported for all major operating systems. However, some programs developed for Windows require a 64bit installed version. You will also need to have a correct installed version of [Java](https://www.java.com/download/) (usually the latest version). Some installation packages will check your version of Java automatically. In most cases it is not necessary to check your version of Java in advance.
 
-If you are just starting out, have average computer skills, and prefer ease of installation, the Windows based version of Qbundle is recommended. Qbundle is the installation package that contains all of the windows based Burst Reference Software that you will need. This is a very easy package to install.
+If you are just starting out, have average computer skills, and prefer ease of installation, the Windows based version of Qbundle is recommended. Qbundle is easily installed package that contains all of the Windows based Burst Reference Software that you will need.
 
-If you have more advanced computer skills and prefer software that is not Windows based, other packages have been developed to suit your needs.
+If you have more advanced computer skills and prefer software that is not Windows based, packages for other popular operating systems have been developed.
 
-You will find helpful step by step guides in the Burst Software section on the main page.
-
-You can find the software that you need here:
+You can find the software that you need here: and helpful step by step instructions guides in the Burst Software section on the main page.
 
 [Software on Burst-Coin.org](https://www.burst-coin.org/download-wallet/)
+
+You can find step by step installation and setup guides here:
+
+<https://burstwiki.org>
 
 You can also click on one of the following to explore programs for various operating systems:
 
