@@ -24,7 +24,7 @@ You can find the Burst Reference Software here:
 
 <!-- -->
 
--   [Burst Reference Software](secure-your-burst.md)
+-   [Burst Reference Software](burst-reference-software.md)
 
 You can find step by step installation and setup guides on the Burst Wiki main page: (Burst Software section)
 
