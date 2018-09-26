@@ -24,4 +24,4 @@ You can find the Burst Reference Software here:
 
 You can find step by step installation and setup guides on the Burst Wiki main page in the Burst Software section:
 
-[Page](https://burstwiki.org/Main)
+[Main Page](https://burstwiki.org/)
