@@ -30,7 +30,7 @@ Burst uses minimal computational resources beyond that required for initial setu
 
 ### Fair Release
 
-Burst was released with advance public notice, without premine[2], [ICO](https://en.wikipedia.org/wiki/Initial_coin_offering) and without airdrops. All Burst in existence today has been mined beginning with the genesis block using the PoC algorithm.
+Burst was released with advance public notice, without premine[2], without airdrops, and without an [ICO](https://en.wikipedia.org/wiki/Initial_coin_offering). All Burst in existence today has been mined beginning with the genesis block using the PoC algorithm.
 
 ### Equal Opportunities
 
