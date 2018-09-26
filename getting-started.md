@@ -20,13 +20,9 @@ If you have more advanced computer skills and prefer software that is not Window
 
 You can find the Burst Reference Software here:
 
--   [Burst Reference Software](https://burstwiki.org/wiki/Burst_Reference_Software/)
-
-<!-- -->
-
 -   [Burst Reference Software](burst-reference-software.md)
 
 You can find step by step installation and setup guides on the Burst Wiki main page: (Burst Software section)
 
--   [Main Page](https://burstwiki.org/)
+-   [Burst Reference Software](burst-reference-software.md)
 
