@@ -63,6 +63,5 @@ Tools
 -   <http://www.burstcoin.cc/network>
 -   <http://burstcoincalculator.com>
 -   <https://explore.burst.cryptoguru.org>
--   <https://play.google.com/store/apps/details?id=burstcoin.com.burst>
 -   <https://uptime.statuscake.com/?TestID=M30iNz7TSq>
 
