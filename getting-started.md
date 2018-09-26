@@ -20,7 +20,7 @@ If you have more advanced computer skills and prefer software that is not Window
 
 You can find the software that you need here:
 
-[Burst-coin.org: Download Wallet](https://www.burst-coin.org/download-wallet/)
+[Burst Reference Software](https://burstwiki.org/wiki/Burst_Reference_Software/)
 
 You can find step by step installation and setup guides on the Burst Wiki main page in the Burst Software section:
 
