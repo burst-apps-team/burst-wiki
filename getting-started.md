@@ -25,11 +25,3 @@ You can find the software that you need here:
 You can find step by step installation and setup guides on the Burst Wiki main page in the Burst Software section:
 
 <https://burstwiki.org>
-
-You can also click on any of the following to explore programs for various operating systems:
-
-|                                                                                        |                                                                                   |                                                                                  |                                                                                                          |                                                                            |
-|----------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|----------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
-| <img src="Windowslogo.jpg" title="Windowslogo.jpg" alt="Windowslogo.jpg" width="90" /> | <img src="AppleLogo.jpg" title="AppleLogo.jpg" alt="AppleLogo.jpg" width="100" /> | <img src="Linuxlogo.png" title="Linuxlogo.png" alt="Linuxlogo.png" width="70" /> | <img src="Raspberry-pi-logo.png" title="Raspberry-pi-logo.png" alt="Raspberry-pi-logo.png" width="70" /> | <img src="android.png" title="android.png" alt="android.png" width="95" /> |
-
-
