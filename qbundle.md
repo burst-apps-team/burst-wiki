@@ -32,7 +32,7 @@ Select Qbundle to be redirected to the PoC Consortium GitHub site. GitHub is a s
 
 Depending on the version of Windows and internet browser that you use (Microsoft Edge, Firefox, etc.), a variation of the following dialog boxes will appear asking what you want to do with the file.
 
-Choose the option to save the file. If you are given the option to Save and Run, you may do this as well. Make a note of the saved location.
+Choose to save the file. If you are given the option to Save and Run, you may do this as well. Make a note of the saved location.
 
 <img src="QBundle_MSI.png" title="QBundle_MSI.png" alt="QBundle_MSI.png" width="462" height="462" />
 
