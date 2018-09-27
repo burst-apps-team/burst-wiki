@@ -74,6 +74,30 @@ Select the radio button for Portable MariaDB.
 
 Click “Next”.
 
+You will be asked if you want to download an install MariaDB.
+
+Click “Yes”.
+
+After installation is complete,you will be asked to choose between copying data or proceeding with copying data.
+
+The copy data option will be disabled. Verify that “No Copy” is selected.
+
+Click “Save and close”.
+
+The next step is to download a copy of the Burst blockchain using a process referred to as bootstrapping. This will download the blockchain from known and trusted repository. The bootstrap copy contains the majority of blocks that have been created beginning with the genesis block. When the bootstrapping process in complete, more recent blocks will be added to your copy using the regular peer to peer synchronization process.
+
+To begin the bootstrap process, click on “database” in the top menu bar.
+
+Select “Database”: Select “Bootstrap Chain”.
+
+In “Settings”, verify that "Cryptoguru repository (MariaDB) is selected.
+
+Click “Start Import”
+
+You will received a notice saying that "all existing data in your database will be erased. Do you want to continue?
+
+Click “Yes”.
+
 <img src="QBundle_Setup_3.png" title="QBundle_Setup_3.png" alt="QBundle_Setup_3.png" width="509" height="509" />
 
 A warning may come up, click “OK” and the installation will be completed shortly after
