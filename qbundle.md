@@ -22,7 +22,7 @@ This page is a guide for downloading and installing QBundle. Images of installat
 
 The files to download are located here: <https://www.burst-coin.org/download-wallet> .
 
-<img src="Download-wallet.png" title="Download-wallet.png" alt="Download-wallet.png" width="1235" height="1235" />
+<img src="Download-wallet.png" title="Download-wallet.png" alt="Download-wallet.png" width="900" height="1235" />
 
 Select your operating system: (Please note: If your operating system is not Windows, QBundle will not be available and you will need to choose an option specific to your operating system.)
 
