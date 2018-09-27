@@ -52,7 +52,11 @@ Click on “Run Anyway”
 
 <img src="Run_Anyway.png" title="Run_Anyway.png" alt="Run_Anyway.png" width="509" height="514" />
 
-The setup wizard will guide you through the installation. Click “Next”.
+The installation utility will check for portable Java and previously installed BRS wallets.
+
+If either of these area are showing in Red, click on “Download missing components”
+
+The check box for “allow connection to remote resources for verifications and updates” should be checked.
 
 <img src="QBundle_Setup.png" title="QBundle_Setup.png" alt="QBundle_Setup.png" width="509" height="518" />
 
