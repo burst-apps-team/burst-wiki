@@ -30,7 +30,7 @@ Select Qbundle to be redirected to the PoC Consortium GitHub site. GitHub is a s
 
 <img src="Latest_release_2.5.0.png" title="Latest_release_2.5.0.png" alt="Latest_release_2.5.0.png" width="687" height="687" />
 
-Depending on the version of Windows and internet browser that you use (Microsoft Edge, Firefox, Opera, etc.), a variation of the following dialog boxes will appear asking what you want to do with the file.
+Depending on the version of Windows and internet browser that you use (Microsoft Edge, Firefox, etc.), a variation of the following dialog boxes will appear asking what you want to do with the file.
 
 Choose the option to save the file. If you are given the option to Save and Run, you may do this as well. Make a note of the saved location.
 
