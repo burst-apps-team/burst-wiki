@@ -42,8 +42,6 @@ The file will be compressed. You will need to extract the files. Recent versions
 
 To launch the setup of QBundle, click on the extracted version of this file: Name: BurstWallet Type: Application
 
-<img src="Executable_file.png" title="Executable_file.png" alt="Executable_file.png" width="602" height="602" />
-
 Windows will give you an alert similar to the following: Windows protected your PC.
 
 Click on “More Info”. 
