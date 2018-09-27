@@ -54,7 +54,7 @@ Click on “Run Anyway”
 
 The setup wizard will guide you through the installation. Click “Next”.
 
-. <img src="QBundle_Setup.png" title="fig:QBundle_Setup.png" alt="QBundle_Setup.png" width="518" height="518" />
+<img src="QBundle_Setup.png" title="QBundle_Setup.png" alt="QBundle_Setup.png" width="518" height="518" />
 
 Select a directory that is not in use, and then click “Next”
 
