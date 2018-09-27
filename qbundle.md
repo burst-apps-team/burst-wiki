@@ -80,11 +80,11 @@ This will take a while.
 
 Once completed, click “Continue” 
 
-<img src="First_Time_2.png" title="First_Time_2.png" alt="First_Time_2.png" width="686" height="686" />
+<img src="First_Time_2.png" title="First_Time_2.png" alt="First_Time_2.png" width="509" height="686" />
 
 The wallet will start but you will need to enable access:
 
-<img src="Windows_Alert_2.png" title="Windows_Alert_2.png" alt="Windows_Alert_2.png" width="551" height="551" />
+<img src="Windows_Alert_2.png" title="Windows_Alert_2.png" alt="Windows_Alert_2.png" width="509" height="551" />
 
 Enable for “Private networks” and “Allow access”
 
@@ -99,7 +99,7 @@ This will take some time, so users are advised to “bootstrap” the blockchain
 
 At the top of the wallet menu, select “Database” and “Bootstrap chain” 
 
-<img src="Import_Database.png" title="Import_Database.png" alt="Import_Database.png" width="525" height="525" />
+<img src="Import_Database.png" title="Import_Database.png" alt="Import_Database.png" width="509" height="525" />
 
 Click “Start Import” 
 
@@ -144,14 +144,14 @@ There are two ways users can run the QBundle, and the “Mode” option allows t
 
 The wallet mode will load the complete interface allowing users to issue transactions and see blocks as they are forged on the network, while the “Launcher” mode opens a minimal interface, as shown in the image below.
 
-<img src="4_Launcher_mode.png" title="4_Launcher_mode.png" alt="4_Launcher_mode.png" width="586" height="586" />
+<img src="4_Launcher_mode.png" title="4_Launcher_mode.png" alt="4_Launcher_mode.png" width="509" height="586" />
 
 The wallet
 ----------
 
 Here's the connection screen:
 
-<img src="Qbundle_Start_Screen.png" title="Qbundle_Start_Screen.png" alt="Qbundle_Start_Screen.png" width="532" height="532" />
+<img src="Qbundle_Start_Screen.png" title="Qbundle_Start_Screen.png" alt="Qbundle_Start_Screen.png" width="509" height="532" />
 
 In case the user already has an activated Burst account, they can use their passphrase to log in by clicking the “Returning User?” button.
 
@@ -161,7 +161,7 @@ If, however, the user doesn't have a Burst account, clicking the “New? Create 
 
 Finally, here's the look of the QBundle and Burst Wallet:
 
-<img src="QBundle_and_Burst_Wallet.png" title="QBundle_and_Burst_Wallet.png" alt="QBundle_and_Burst_Wallet.png" width="1366" height="1366" />
+<img src="QBundle_and_Burst_Wallet.png" title="QBundle_and_Burst_Wallet.png" alt="QBundle_and_Burst_Wallet.png" width="900" height="1366" />
 
 Frequently Asked Questions (FAQ)
 --------------------------------
@@ -174,7 +174,7 @@ In case there's an update available, users will be notified by the “New update
 
 Click “Install/Update” 
 
-<img src="3_Application_manager.png" title="3_Application_manager.png" alt="3_Application_manager.png" width="776" height="776" />
+<img src="3_Application_manager.png" title="3_Application_manager.png" alt="3_Application_manager.png" width="509" height="776" />
 
 The wallet will be stopped during software update.
 
@@ -184,7 +184,7 @@ If the wallet is not running after completed update or installation, start the w
 
 Now, you have an upgraded QBundle: 
 
-<img src="Updated_QBundle_no_updates.png" title="Updated_QBundle_no_updates.png" alt="Updated_QBundle_no_updates.png" width="723" height="723" />
+<img src="Updated_QBundle_no_updates.png" title="Updated_QBundle_no_updates.png" alt="Updated_QBundle_no_updates.png" width="509" height="723" />
 
 ### How do I see the logs of Burst Reference Software (BRS) ?
 
@@ -192,9 +192,9 @@ Now, you have an upgraded QBundle: 
 
 View Console will provide a pop up window with the Wallet log and MariaDB log (if set up) this is useful for troubleshooting and the output from the console is often asked for. 
 
-<img src="View_console.png" title="View_console.png" alt="View_console.png" width="605" height="605" />
+<img src="View_console.png" title="View_console.png" alt="View_console.png" width="509" height="605" />
 
-<img src="Console.png" title="Console.png" alt="Console.png" width="766" height="766" />
+<img src="Console.png" title="Console.png" alt="Console.png" width="509" height="766" />
 
 ### How do I change the settings of QBundle ?
 
@@ -206,11 +206,11 @@ If the OpenCL correctly installed on the system, using GPU Acceleration will gre
 
 To allow external access to the wallet add 0.0.0.0 to the ‘Allow API traffic from’ list. 
 
-<img src="Local_Wallet_Settings.png" title="Local_Wallet_Settings.png" alt="Local_Wallet_Settings.png" width="858" height="858" />
+<img src="Local_Wallet_Settings.png" title="Local_Wallet_Settings.png" alt="Local_Wallet_Settings.png" width="509" height="858" />
 
 For troubleshooting the “Debug mode” option can be useful. 
 
-<img src="General_Settings.png" title="General_Settings.png" alt="General_Settings.png" width="860" height="860" />
+<img src="General_Settings.png" title="General_Settings.png" alt="General_Settings.png" width="509" height="860" />
 
 ### I have connection problems. What can I do to improve this ?
 
@@ -234,7 +234,7 @@ Users can easily manage all their BURST accounts with this software. It provides
 
 Finally, passphrases and private keys are available (it is enough to set up one PIN to control multiple accounts)
 
-<img src="11a_Account_manager.png" title="11a_Account_manager.png" alt="11a_Account_manager.png" width="776" height="776" />
+<img src="11a_Account_manager.png" title="11a_Account_manager.png" alt="11a_Account_manager.png" width="509" height="776" />
 
 ### My wallet is stuck, how do I solve this ?
 
@@ -242,7 +242,7 @@ Finally, passphrases and private keys are available (it is enough to set up one 
 
 Advanced provides an important option for wallet issues: Rollback chain
 
-<img src="13_Wallet_options.png" title="13_Wallet_options.png" alt="13_Wallet_options.png" width="563" height="563" />
+<img src="13_Wallet_options.png" title="13_Wallet_options.png" alt="13_Wallet_options.png" width="509" height="563" />
 
 If there are issues with starting the wallet, or an incomplete blockchain synchronization, it’s suggested to pop off 1000 blocks and allow to re-synchronize. The maximum blocks that can be popped off is 1400. 
 
@@ -266,7 +266,7 @@ The default database type installed with QBundle is H2. In case the user wishes,
 
 If MariaDB is selected, QBundle will initiate the download and execute the installation of the required database.
 
-<img src="MariaDB_DL.png" title="MariaDB_DL.png" alt="MariaDB_DL.png" width="788" height="788" />
+<img src="MariaDB_DL.png" title="MariaDB_DL.png" alt="MariaDB_DL.png" width="509" height="788" />
 
 The time needed to download installation files will depend on the speed of the available internet connection.
 
@@ -286,7 +286,7 @@ The “Tools” section of the QBundle contains additional Burst software - plot
 
 Plotting is the process of calculating hashes and saving them onto storage units (HDDs). The latest version of QBundle comes with Xplotter version 1.30. Once it is downloaded, it will be saved in the QBundle folder, sub-folder Xplotter. Users can access it via Tools -&gt; Plotting -&gt; Plotter which takes them to the screen shown below:
 
-<img src="17a_Plotter.png" title="17a_Plotter.png" alt="17a_Plotter.png" width="643" height="643" />
+<img src="17a_Plotter.png" title="17a_Plotter.png" alt="17a_Plotter.png" width="509" height="643" />
 
 Users should provide the following information in the “Basic settings” before they start the plotter:
 
@@ -304,13 +304,13 @@ Advanced settings for Xplotter allow the user to:
 
 Once all settings have been submitted, clicking the “Start Plotting” button with show the following screen:
 
-<img src="17b_Plotter_wrorking.png" title="17b_Plotter_wrorking.png" alt="17b_Plotter_wrorking.png" width="819" height="819" />
+<img src="17b_Plotter_wrorking.png" title="17b_Plotter_wrorking.png" alt="17b_Plotter_wrorking.png" width="509" height="819" />
 
 The plotter informs the user about the current nonce being worked on (From- to) and the % completed (\[%\]) the rate per minute (nonces/min) and details about the writing speed.
 
 The “My plotfiles” section allows the users to manage (import/remove) plot files.
 
-<img src="17c_My_plotfiles.png" title="17c_My_plotfiles.png" alt="17c_My_plotfiles.png" width="628" height="628" />
+<img src="17c_My_plotfiles.png" title="17c_My_plotfiles.png" alt="17c_My_plotfiles.png" width="509" height="628" />
 
 #### Dynamic Plotting
 
@@ -318,13 +318,13 @@ Dynamic plotting allows for the normal usage of the drive, as it will check ever
 
 This will create and delete plot files automatically, to maintain the free amount of space (the user determines the required free space) using plot files of the size directed. Essentially, if users move/create files often that are quite large, they should give a greater space and have larger plot sizes to take into account sudden changes.
 
-<img src="17d_Dynamic_plotting.png" title="17d_Dynamic_plotting.png" alt="17d_Dynamic_plotting.png" width="651" height="651" />
+<img src="17d_Dynamic_plotting.png" title="17d_Dynamic_plotting.png" alt="17d_Dynamic_plotting.png" width="509" height="651" />
 
 #### Plot Converter
 
 Johnny's POC1 -&gt; POC2 converter, a tool for performing the conversion of POC1 plot file types into POC2 plots is delivered with the Qbundle. The POC1 to POC2 conversion has been completed at Burst blockchain block height 502.000, and since then, POC1 plot are no longer supported for mining. Users who still have POC1 plots can, however, use them for mining if they use POC2 compliant miners, which can perform on-the-fly conversion which will result in cca 50% slower reading times. The POC1 to POC2 converter is a tool specifically designed to perform this conversion, but the plot file that it being converted has to be excluded from mining. The usage of the plot converter is quite straightforward: users will first select plot files for conversion (note that the application will not allow for other plot file types to be added to the conversion queue):
 
-<img src="17e_POC1-POC2_converter_start.png" title="17e_POC1-POC2_converter_start.png" alt="17e_POC1-POC2_converter_start.png" width="872" height="872" />
+<img src="17e_POC1-POC2_converter_start.png" title="17e_POC1-POC2_converter_start.png" alt="17e_POC1-POC2_converter_start.png" width="509" height="872" />
 
 Users can choose if they wish to perform inline conversion (doesn't require additional free space) or to save the converted plot file to a new location, in case of which the “Output Folder” is a mandatory setting. Clicking the “Start conversion” button will warn the user that they shouldn't stop the conversion process as it might lead to damaged plots, which cannot be repaired.
 
@@ -332,7 +332,7 @@ Users can choose if they wish to perform inline conversion (doesn't require addi
 
 The latest version of QBundle brings the Blago's miner (modified by Quibus and JohnnyFFM) version 1.170977, which supports both POC1 and POC2 mining and performs POC1 -&gt; POC2 on the fly conversion. The miner can be set to either solo or pool mining, by selecting the desired radio button:
 
-<img src="21_Miner_settings.png" title="21_Miner_settings.png" alt="21_Miner_settings.png" width="654" height="654" />
+<img src="21_Miner_settings.png" title="21_Miner_settings.png" alt="21_Miner_settings.png" width="509" height="654" />
 
 As the miner GUI states, in case the user wishes to solo mine, and chooses that option, they need to have a local wallet running and fully synchronized, and will be prompted to provide the passphrase of the account used to create the plot file(s). The passphrase will be saved in the miner.conf file which is located in the QBundle/BlagoMiner folder.
 
@@ -346,7 +346,7 @@ All settings provided in the interface shown above will be passed on to the mine
 
 The miner will start after the “Start mining” button has been clicked.
 
-<img src="21a_Blago_miner.png" title="21a_Blago_miner.png" alt="21a_Blago_miner.png" width="736" height="736" />
+<img src="21a_Blago_miner.png" title="21a_Blago_miner.png" alt="21a_Blago_miner.png" width="509" height="736" />
 
 Once the miner has been started, users can see the configuration (pool and plot file information). Upon receiving mining information (block height, base target etc), the miner will read the configured plot files. Whenever a deadline is found, if it is within configured deadline limit, it will be sent to the pool. The miner will also display if a deadline was accepted by the pool or not (“Confirmed DL”). After all plot files have been read, the miner will display the duration of the round (how much time did it take to read all plot files).
 
@@ -364,7 +364,7 @@ In case the pool user wishes to mine in isn't offered within the QBundle, they c
 
 The vanity address generator is a tool allowing users to create own, branded, specific Burst account addresses. The mandatory part of the Burst account address, even for vanity addresses is the leading 5 character string “BURST”. Characters that are not allowed to be used in vanity addresses are I (capital “i”), O (capital “o”), 0 (zero) and 1. In order to generate a vanity address, users should provide the requested string into the form, set the resources that should be used (number of CPU threads) and desired length of the passphrase, as shown in the image below:
 
-<img src="Vanity_Address_Generator.png" title="Vanity_Address_Generator.png" alt="Vanity_Address_Generator.png" width="653" height="653" />
+<img src="Vanity_Address_Generator.png" title="Vanity_Address_Generator.png" alt="Vanity_Address_Generator.png" width="509" height="653" />
 
 The algorithm which seeks for the account with the desired string is a brute force algorithm, which checks every Burst account + passphrase combination sequentially. The time it takes to find a string increases significantly with every additional character. A fixed strings of 5 characters at the end took 4 minutes with given resources, while adding ‘DAN’ (to output DANDARES) at the end, resulted in hour long wait. It is possible that setting certain strings as a part of the Burst account will take weeks.
 
@@ -372,7 +372,7 @@ The algorithm which seeks for the account with the desired string is a brute for
 
 The Paperburst tool can be used to generate a new wallet or to use an existing wallet. In order to use the tool, users will provide information as shown below:
 
-<img src="20_Paper_wallet_generator.png" title="20_Paper_wallet_generator.png" alt="20_Paper_wallet_generator.png" width="658" height="658" />
+<img src="20_Paper_wallet_generator.png" title="20_Paper_wallet_generator.png" alt="20_Paper_wallet_generator.png" width="509" height="658" />
 
 After all reqiured fields of the form have been populated, by clicking the desired button, users can create a new Burst wallet or a paper wallet. The paper wallet is output as a .pdf file, so it can be easily printed.
 
