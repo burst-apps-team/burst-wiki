@@ -44,19 +44,17 @@ To launch the setup of QBundle, click on the extracted version of this file: Nam
 
 Windows will give you an alert similar to the following: Windows protected your PC.
 
-Click on “More Info”. 
+Click on “More Info” to enable the download.
 
 <img src="Windows_Alert.png" title="Windows_Alert.png" alt="Windows_Alert.png" width="514" height="539" />
 
-Click on “More Info” to enable the download.
+Click on “Run Anyway”
 
 <img src="Run_Anyway.png" title="Run_Anyway.png" alt="Run_Anyway.png" width="514" height="514" />
 
-And then “Run anyway”
+The setup wizard will guide you through the installation. Click “Next”.
 
-The setup wizard will guide the user through the installation, who should at this point click next.
-
-<img src="QBundle_Setup.png" title="QBundle_Setup.png" alt="QBundle_Setup.png" width="518" height="518" />
+. <img src="QBundle_Setup.png" title="fig:QBundle_Setup.png" alt="QBundle_Setup.png" width="518" height="518" />
 
 Select a directory that is not in use, and then click “Next”
 
