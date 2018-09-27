@@ -34,7 +34,7 @@ Depending on the version of Windows and internet browser that you use (Microsoft
 
 Choose to save the file. If you are given the option to Save and Run, you may do this as well. Make a note of the saved location.
 
-<img src="QBundle_MSI.png" title="QBundle_MSI.png" alt="QBundle_MSI.png" width="462" height="462" />
+<img src="QBundle_MSI.png" title="QBundle_MSI.png" alt="QBundle_MSI.png" width="900" height="462" />
 
 Navigate to folder containing the saved file. A common location is C: Users/“user name”/Downloads. You may move this file to another location if you wish.
 
