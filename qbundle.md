@@ -22,11 +22,13 @@ This page is a guide for downloading and installing QBundle. Images of installat
 
 The files to download are located here: <https://www.burst-coin.org/download-wallet> .
 
-<img src="Download-wallet.png" title="Download-wallet.png" alt="Download-wallet.png" width="900" height="1235" />
-
 Select your operating system: (Please note: If your operating system is not Windows, QBundle will not be available and you will need to choose an option specific to your operating system.)
 
-Select Qbundle to be redirected to the PoC Consortium GitHub site. GitHub is a software development platform and hosts the files needed for installation. Future releases will be located here as well. For initial installation, select the latest release, identified by a green indicator. As of the writing of this guide, the latest release is Version 2.5.0. The installation file is QBundle2.5.0\_final.zip.
+Select Qbundle to be redirected to the PoC Consortium GitHub site.
+
+<img src="Download-wallet.png" title="Download-wallet.png" alt="Download-wallet.png" width="900" height="1235" />
+
+GitHub is a software development platform and hosts the files needed for installation. Future releases will be located here as well. For initial installation, select the latest release, identified by a green indicator. As of the writing of this guide, the latest release is Version 2.5.0. The installation file is QBundle2.5.0\_final.zip.
 
 <img src="Latest_release_2.5.0.png" title="Latest_release_2.5.0.png" alt="Latest_release_2.5.0.png" width="687" height="687" />
 
@@ -38,13 +40,11 @@ Choose to save the file. If you are given the option to Save and Run, you may do
 
 Navigate to folder containing the saved file. A common location is C: Users/“user name”/Downloads. You may move this file to another location if you wish.
 
-The file will be compressed. You will need to extract the files. Recent versions of window include functionality to extract files. If available, click on the “Extract all” button. If you do not have this functionality, you may need a utility to “unzip” the folder.
+The file will be compressed. You will need to extract the files. Recent versions of Windows include functionality to extract files. If available, click on the “Extract all” button. If you do not have this functionality, you may need a utility to “unzip” the folder.
 
 To launch the setup of QBundle, click on the extracted version of this file: Name: BurstWallet Type: Application
 
-Windows will give you an alert similar to the following: Windows protected your PC.
-
-Click on “More Info” to enable the download.
+Windows will give you an alert similar to the following: Click on “More Info” to enable the download.
 
 <img src="Windows_Alert.png" title="Windows_Alert.png" alt="Windows_Alert.png" width="509" height="539" />
 
