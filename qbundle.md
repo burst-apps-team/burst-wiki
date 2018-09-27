@@ -46,19 +46,19 @@ Windows will give you an alert similar to the following: Windows protected your 
 
 Click on “More Info” to enable the download.
 
-<img src="Windows_Alert.png" title="Windows_Alert.png" alt="Windows_Alert.png" width="514" height="539" />
+<img src="Windows_Alert.png" title="Windows_Alert.png" alt="Windows_Alert.png" width="509" height="539" />
 
 Click on “Run Anyway”
 
-<img src="Run_Anyway.png" title="Run_Anyway.png" alt="Run_Anyway.png" width="514" height="514" />
+<img src="Run_Anyway.png" title="Run_Anyway.png" alt="Run_Anyway.png" width="509" height="514" />
 
 The setup wizard will guide you through the installation. Click “Next”.
 
-<img src="QBundle_Setup.png" title="QBundle_Setup.png" alt="QBundle_Setup.png" width="518" height="518" />
+<img src="QBundle_Setup.png" title="QBundle_Setup.png" alt="QBundle_Setup.png" width="509" height="518" />
 
 Select a directory that is not in use, and then click “Next”
 
-<img src="QBundle_Setup_2.png" title="QBundle_Setup_2.png" alt="QBundle_Setup_2.png" width="520" height="520" />
+<img src="QBundle_Setup_2.png" title="QBundle_Setup_2.png" alt="QBundle_Setup_2.png" width="509" height="520" />
 
 Then click “Install”
 
@@ -72,7 +72,7 @@ Click “Finish” to complete.
 
 Following this the setup will check for Java. Click on “Download missing components” 
 
-<img src="First_Time.png" title="First_Time.png" alt="First_Time.png" width="682" height="682" />
+<img src="First_Time.png" title="First_Time.png" alt="First_Time.png" width="509" height="682" />
 
 This will take a while.
 
