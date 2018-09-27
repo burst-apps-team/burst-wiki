@@ -60,11 +60,19 @@ The check box for “allow connection to remote resources for verifications and 
 
 <img src="QBundle_Setup.png" title="QBundle_Setup.png" alt="QBundle_Setup.png" width="509" height="518" />
 
-Select a directory that is not in use, and then click “Next”
+Setup will complete. Upon completion you will see your new wallet showing a status of “stopped”.
 
 <img src="QBundle_Setup_2.png" title="QBundle_Setup_2.png" alt="QBundle_Setup_2.png" width="509" height="520" />
 
-Then click “Install”
+The next step is optional. The BRS wallet in configured to use H2 for its database. If you have a technical reason to prefer H2, you can skip this step. However, it is recommended that new users change the database type to “Portable MariaDB”. This database is more powerful and provides superior protection for your data in the event that you shut down your wallet incorrectly.
+
+To change the database type to "MariaDB:
+
+Click on “Database” on the wallet's top menu bar and select “Change Database”.
+
+Select the radio button for Portable MariaDB.
+
+Click “Next”.
 
 <img src="QBundle_Setup_3.png" title="QBundle_Setup_3.png" alt="QBundle_Setup_3.png" width="509" height="509" />
 
