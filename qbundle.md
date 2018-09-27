@@ -18,25 +18,35 @@ The easiest choice for beginners on Windows is to download Qbundle, a launcher a
 Initial installation guide 
 ---------------------------
 
-Through <https://www.burst-coin.org/download-wallet>
+This page is a guide for downloading and installing QBundle. Images of installation screens and links are included for illustrative purposes only.
+
+The files to download are located here: <https://www.burst-coin.org/download-wallet> .
 
 <img src="Download-wallet.png" title="Download-wallet.png" alt="Download-wallet.png" width="1235" height="1235" />
 
-Select Qbundle, and it will direct you to the [PoCC github](https://github.com/PoC-Consortium/Qbundle/releases).
+Select your operating system: (Please note: If your operating system is not Windows, QBundle will not be available and you will need to choose an option specific to your operating system.)
 
-We will select the MSI installation in this guide, the other alternative it a self-contained .zip download that will need extraction before It can be run. This .zip version is useful if you wish to set up along side an existing installation (Provided you have first stopped the other wallet, and do not run at the same time!) 
+Select Qbundle to be redirected to the PoC Consortium GitHub site. GitHub is a software development platform and hosts the files needed for installation. Future releases will be located here as well. For initial installation, select the latest release, identified by a green indicator. As of the writing of this guide, the latest release is Version 2.5.0. The installation file is QBundle2.5.0\_final.zip.
 
 <img src="Latest_release_2.5.0.png" title="Latest_release_2.5.0.png" alt="Latest_release_2.5.0.png" width="687" height="687" />
 
-Always download the latest release. (note the green *“Latest release”* indicator beside)
+Depending on the version of Windows and internet browser that you use (Microsoft Edge, Firefox, Opera, etc.), a variation of the following dialog boxes will appear asking what you want to do with the file.
+
+Choose the option to save the file. If you are given the option to Save and Run, you may do this as well. Make a note of the saved location.
 
 <img src="QBundle_MSI.png" title="QBundle_MSI.png" alt="QBundle_MSI.png" width="462" height="462" />
 
-Save the file and run when downloaded.
+Navigate to folder containing the saved file. A common location is C: Users/“user name”/Downloads. You may move this file to another location is you wish.
+
+The file will be compressed. You will need to extract the files. Recent versions of window included functionality to extract files. If available, click on the “Extract all” button. If you do not have this functionality, you may need a utility to “unzip” the folder.
+
+To launch the setup of QBundle, click on the extracted version of this file: Name: BurstWallet Type: Application
 
 <img src="Executable_file.png" title="Executable_file.png" alt="Executable_file.png" width="602" height="602" />
 
-Under Windows 10, you may have the following alert: 
+Windows will give you an alert similar to the following: Windows protected your PC.
+
+Click on “More Info”. 
 
 <img src="Windows_Alert.png" title="Windows_Alert.png" alt="Windows_Alert.png" width="539" height="539" />
 
