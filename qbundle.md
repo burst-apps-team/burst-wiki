@@ -36,7 +36,7 @@ Choose the option to save the file. If you are given the option to Save and Run,
 
 <img src="QBundle_MSI.png" title="QBundle_MSI.png" alt="QBundle_MSI.png" width="462" height="462" />
 
-Navigate to folder containing the saved file. A common location is C: Users/“user name”/Downloads. You may move this file to another location is you wish.
+Navigate to folder containing the saved file. A common location is C: Users/“user name”/Downloads. You may move this file to another location if you wish.
 
 The file will be compressed. You will need to extract the files. Recent versions of window included functionality to extract files. If available, click on the “Extract all” button. If you do not have this functionality, you may need a utility to “unzip” the folder.
 
