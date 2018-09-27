@@ -48,7 +48,7 @@ Windows will give you an alert similar to the following: Windows protected your 
 
 Click on “More Info”. 
 
-<img src="Windows_Alert.png" title="Windows_Alert.png" alt="Windows_Alert.png" width="539" height="539" />
+<img src="Windows_Alert.png" title="Windows_Alert.png" alt="Windows_Alert.png" width="514" height="539" />
 
 Click on “More Info” to enable the download.
 
