@@ -38,7 +38,7 @@ Choose to save the file. If you are given the option to Save and Run, you may do
 
 Navigate to folder containing the saved file. A common location is C: Users/“user name”/Downloads. You may move this file to another location if you wish.
 
-The file will be compressed. You will need to extract the files. Recent versions of window included functionality to extract files. If available, click on the “Extract all” button. If you do not have this functionality, you may need a utility to “unzip” the folder.
+The file will be compressed. You will need to extract the files. Recent versions of window include functionality to extract files. If available, click on the “Extract all” button. If you do not have this functionality, you may need a utility to “unzip” the folder.
 
 To launch the setup of QBundle, click on the extracted version of this file: Name: BurstWallet Type: Application
 
