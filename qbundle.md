@@ -98,6 +98,12 @@ You will received a notice saying that "all existing data in your database will 
 
 Click “Yes”.
 
+The next step is to verify you Java settings.
+
+Click on “edit” top menu bar. Select “settings”. The settings window will appear.
+
+Select “Java” in the left menu bar. Verify that the radio button for “Use Portable java” is selected. Save your change or exit.
+
 <img src="QBundle_Setup_3.png" title="QBundle_Setup_3.png" alt="QBundle_Setup_3.png" width="509" height="509" />
 
 A warning may come up, click “OK” and the installation will be completed shortly after
