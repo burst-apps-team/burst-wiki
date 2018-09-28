@@ -13,7 +13,7 @@ Table Of Contents
 Description
 -----------
 
-The easiest choice for beginners using Windows is to download Qbundle, a launcher allowing the Burst local wallet to be installed with a few clicks. Qbundle also includes plotting and mining software to start mining easily.
+The easiest choice for beginners using Windows is to download Qbundle, a launcher allowing the Burst local wallet to be installed with a few clicks. Qbundle also includes plotting and mining software for an easy to to mining.
 
 Initial installation guide 
 ---------------------------
