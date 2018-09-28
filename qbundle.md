@@ -64,7 +64,7 @@ Setup will complete. Upon completion you will see your new wallet showing a stat
 
 <img src="QBundle_Setup_2.png" title="QBundle_Setup_2.png" alt="QBundle_Setup_2.png" width="509" height="520" />
 
-The next step is optional. The BRS wallet in configured to use H2 for its database. If you have a technical reason to prefer H2, you can skip this step. However, it is recommended that new users change the database type to “Portable MariaDB”. This database is more powerful and provides superior protection for your data in the event that you shut down your wallet incorrectly.
+The next step is optional. The BRS wallet in configured to use H2 for its database by default. If you have a technical reason to prefer H2, you can skip this step. However, it is recommended that new users change the database type to “Portable MariaDB”. This database is more powerful and provides superior protection for your data in the event that you shut down your wallet incorrectly.
 
 To change the database type to "MariaDB:
 
