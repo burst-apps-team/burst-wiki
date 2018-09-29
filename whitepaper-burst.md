@@ -3,19 +3,19 @@
 The Burst White Paper Resources
 -------------------------------
 
-Burst has many traits from many different “fathers”, so it's not possible to list just one white paper. Down below you will find a list of related white papers.
+Burst has many traits from many different “fathers”, so it's not possible to list just one white paper. Below you will find a list of related white papers.
 
-The most recent and most constituent white paper on Burst is [The Burst Dymaxion](https://dymaxion.burst.cryptoguru.org/The-Burst-Dymaxion-1.00.pdf), describing the concept and implementation of a layer to the Burst blockchain capable of sustaining the total global load of non-cash transactions.
+The most recent and most constituent white paper on Burst is [The Burst Dymaxion](https://dymaxion.burst.cryptoguru.org/The-Burst-Dymaxion-1.00.pdf), describing the concept and implementation of a layer to the Burst blockchain which will be capable of sustaining the total global load of non-cash transactions.
 
 ------------------------------------------------------------------------
 
-Burst started off as a fork of [Nxt](https://en.wikipedia.org/wiki/Nxt), so below you will find the Nxt community white paper[1].
+Burst started as a fork of [Nxt](https://en.wikipedia.org/wiki/Nxt). Below you will find the Nxt community white paper[1].
 
 There was a substantial modification to the fork by carving out Proof-of-Stake (PoS) completely and replacing it with PoC (Proof-of-Capacity). A similar concept to Proof of Capacity is called Proof of Space and was described 2013 in the Proofs of Space paper [2] by Dziembowski, Faust, Kolmogorov and Pietrzak.
 
 Based on this paper, a Proof-of-Space cryptocurrency “SpaceMint” was proposed[3] in a paper by Sunoo Park, Kwon, Fuchsbauer, Pietrzak et al.
 
-Both these papers (“Proof of Space” and “SpaceMint”) are only mentioned as a loose reference and because the SpaceMint paper refers to BURST. Their authors consider their concept quite different from and unrelated to Burst. [4]
+Both of these papers (“Proof of Space” and “SpaceMint”) are only mentioned as a loose reference and because the SpaceMint paper refers to BURST. Their authors consider their concepts quite different from and unrelated to Burst. [4]
 
 ### References
 
