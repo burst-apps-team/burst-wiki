@@ -17,7 +17,7 @@ Burst can be traded on the following exchanges against the given other currencie
 | [C-Cex](https://c-cex.com/?p=burst-btc)                          | BTC, USD, LTC                     | Unknown     |
 | [Indacoin](https://indacoin.com)                                 | USD, EUR, RUB (Visa & MasterCard) | Confirmed   |
 
-(\*) **Attention!** Bittrex requires the target address to have a public key recorded in the blockchain already. This usually means you must have done some outgoing transaction from that address. If you have not BURST to make that outgoing transaction (vicious circle - right?), simply look for a faucet or ASK someone for a few. See FAQ 1.
+(\*) **Attention!** Bittrex requires the target address to have a public key activated on the blockchain before they will send send coins. Activating a public key on the block chain usually requires having made an outgoing transaction from the target address. If you do not have BURST to make that outgoing transaction (vicious circle - right?), simply look for a faucet or ASK someone for a few. See FAQ 1.
 
 Exchanges that will list Burst soon
 -----------------------------------
