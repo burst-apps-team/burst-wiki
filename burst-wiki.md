@@ -32,7 +32,7 @@ Burst uses minimal computational resources beyond that required for initial setu
 
 Burst was released with advance public notice, without premine[2], without airdrops, and without an [ICO](https://en.wikipedia.org/wiki/Initial_coin_offering). All Burst in existence today has been mined beginning with the genesis block using the PoC algorithm.
 
-### Equal Opportunities
+### Equal Opportunity
 
 Because there is no need to buy expensive specialized hardware, Burst is and will remain accessible to anyone who owns a personal computer. No matter how well funded an individual or organization, they cannot use expensive equipment to gain advantage over regular miners using regular computer equipment.
 
