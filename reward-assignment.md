@@ -3,7 +3,7 @@
 | **Status**        |
 ||
 
-Table Of Contents
+Table of Contents
 =================
 
 \_\_TOC\_\_
