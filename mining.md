@@ -30,15 +30,25 @@ After the reward recipient assignment transaction has been issued by the user, i
 
 The decision whether to join a Burst mining pool or mine as a solo miner should be based upon the total size of one's plot files, which ultimately determine the probability of forging a block and the potential revenue. There is no strict rule when it comes to making this decision, but one should have in mind that with solo mining, the block reward and the fees are earned only when a block is forged, while with pool mining the earnings are distributed among pool miners, who “pool” their mining resources with the intent to increase the chance of forging blocks. There are different types of pool, depending on the payout distribution:
 
-- 0-100 mining revenue distribution implies that all block rewards and fees from mined blocks are distributed among pool miners (0% for the block forger, 100% for the pool). This type of pool is best suited for plots smaller than 40TB,
+-   0-100 mining revenue distribution implies that all block rewards and fees from mined blocks are distributed among pool miners (0% for the block forger, 100% for the pool). This type of pool is best suited for plots smaller than 40TB,
 
-- 20-80 pools distribute 20% of the revenue to the block forger and the remaining 80% to the pool. These pools are best suited for plot size from 30 to 80TB,
+<!-- -->
 
-- 50-50 mining revenue distribution is suitable for plots of 60 to 200TB in size. In 50-50 pools, block forgers receive half of the block reward and fees for forged blocks, while the other half is passed on to the pool and distributed among pool miners,
+-   20-80 pools distribute 20% of the revenue to the block forger and the remaining 80% to the pool. These pools are best suited for plot size from 30 to 80TB,
 
-- 80-20 pools are suited for plots sizes between 150 and 250TB, as they assign 80% of the block reward and fees to the block forger, and the remaining 20% to the pool,
+<!-- -->
 
-- 100-0 pools, which are basically solo mining pools are suited for plot sizes of 150TB or above, and all mining revenue is kept for the block forger. The part of the mining revenue assigned to the pool for distribution to all pool miners is often referred to as “historical share”.
+-   50-50 mining revenue distribution is suitable for plots of 60 to 200TB in size. In 50-50 pools, block forgers receive half of the block reward and fees for forged blocks, while the other half is passed on to the pool and distributed among pool miners,
+
+<!-- -->
+
+-   80-20 pools are suited for plots sizes between 150 and 250TB, as they assign 80% of the block reward and fees to the block forger, and the remaining 20% to the pool,
+
+<!-- -->
+
+-   100-0 pools, which are basically solo mining pools are suited for plot sizes of 150TB or above, and all mining revenue is kept for the block forger.
+
+The part of the mining revenue assigned to the pool for distribution to all pool miners is often referred to as “historical share”.
 
 Note that the plot sizes indicated above are merely an informative guide, as there's no technical obstacle that would prevent anyone from e.g. solo mining with a 6TB plot, or joining a 0-100 pool with a plot of 200TB. Mining pools may or may not charge fees from miners. It is up to pool administrators to set fees, if any, as well as to determine the minimum payout and payout delay. Miners should get familiar with pool policies before they decide which pool to join.
 
