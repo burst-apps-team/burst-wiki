@@ -6,7 +6,7 @@
 Description
 -----------
 
-Burst has a permanent TestNet running. Its purpose is to provide a sandbox for both developers and users to test Burst features and to experiment features without remorse[1].
+Burst has a permanent TestNet running. Its purpose is to provide a sandbox for both developers and users to test Burst features and to experiment with features without remorse[1].
 
 You can access the PoCC-operated online TestNet-wallet via <https://wallet.dev.burst-test.net/>
 
