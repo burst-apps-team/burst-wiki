@@ -8,7 +8,7 @@
 | **CIPs Github Repo**            |
 | **CIPs Wiki Repo**              |
 
-Table Of Contents
+Table of Contents
 -----------------
 
 \_\_TOC\_\_
