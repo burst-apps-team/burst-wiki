@@ -10,7 +10,9 @@ If you will be using plotting software that uses a GPU, it is recommended that t
 
 An easy to use plotter, XPlotter, is included in the windows based QBundle. QBundle also included a dynamic plotter that will manage your computers disk space so that available space is dedicated to mining but a dynamic amount of free space is maintained for normal usage.
 
-TurboPlotter9000 is a proven plotter with increased speed, GPU support, and an easy to use interface that help prevent overlapping plots. For fastest plotting speed, it can plot to and SMR and the transfer the created files to a hard disk seamlessly.
+TurboPlotter9000 is a proven plotter with increased speed, GPU support, and an easy to use interface that helps to prevent overlap. For fastest plotting speed, it can plot to an SMR drive and then transfer the created files to a hard disk seamlessly.
+
+Other plotters have been developed for various operating systems and use cases.
 
 Details for selecting plotting software can be found here:
 
