@@ -10,4 +10,4 @@ If you will be using plotting software that uses a GPU, it is recommended that t
 
 A list of plotting software can be found here:
 
-[Burst\_Software\#Plotting\_Software](burst-software-plotting-software.md)
+[Plotting Software](burst-software-plotting-software.md)
