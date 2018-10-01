@@ -8,6 +8,10 @@ When creating plot files, it is important to avoid overlapping plots. Overlappin
 
 If you will be using plotting software that uses a GPU, it is recommended that the GPU be used exclusively for plotting. Plotting is by nature a temporary process, so the GPU can be placed back into service for gaming or mining other coins after the process is complete. Gaming can occur during the plotting process, however, performance may suffer. Mining other coins during the plotting process is likely to result in corrupted plots. This is a general rule as some plotting software may have innovations that prevent this.
 
-A list of plotting software can be found here:
+An easy to use plotter, XPlotter, is included in the windows based QBundle. QBundle also included a dynamic plotter that will manage your computers disk space so that available space is dedicated to mining but a dynamic amount of free space is maintained for normal usage.
 
-[Plotting Software](burst-software-plotting-software.md)
+TurboPlotter9000 is a proven plotter with increased speed, GPU support, and an easy to use interface that help prevent overlapping plots. For fastest plotting speed, it can plot to and SMR and the transfer the created files to a hard disk seamlessly.
+
+Details for selecting plotting software can be found here:
+
+[Available Plotting Software](burst-software-plotting-software.md)
