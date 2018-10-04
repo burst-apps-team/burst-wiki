@@ -71,7 +71,7 @@ dApps
 
 ### CloudBurst
 
-<img src="StableW.png" title="fig:StableW.png" alt="StableW.png" width="150" height="150" /><img src="DymaxionUW.png" title="fig:DymaxionUW.png" alt="DymaxionUW.png" width="170" height="170" />
+<img src="StableW.png" title="fig:StableW.png" alt="StableW.png" width="150" height="150" /><img src="DymaxionCW.png" title="fig:DymaxionCW.png" alt="DymaxionCW.png" width="170" height="170" />
 
 CloudBurst is a decentralized cloud storage application to upload & download files from the Burstcoin blockchain.
 
@@ -83,7 +83,7 @@ CloudBurst is a decentralized cloud storage application to upload & download fil
 
 ### BurstCoupon
 
-<img src="StableW.png" title="fig:StableW.png" alt="StableW.png" width="150" height="150" /><img src="DymaxionUW.png" title="fig:DymaxionUW.png" alt="DymaxionUW.png" width="170" height="170" />
+<img src="StableW.png" title="fig:StableW.png" alt="StableW.png" width="150" height="150" /><img src="DymaxionCW.png" title="fig:DymaxionCW.png" alt="DymaxionCW.png" width="170" height="170" />
 
 BurstCoupon allows you to create and claim password protected coupons as extension for the Burstcoin blockchain.
 
