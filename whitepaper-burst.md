@@ -15,7 +15,7 @@ There was a substantial modification to the fork by carving out Proof-of-Stake (
 
 Based on this paper, a Proof-of-Space cryptocurrency “SpaceMint” was proposed[3] in a paper by Sunoo Park, Kwon, Fuchsbauer, Pietrzak et al.
 
-Both of these papers (“Proof of Space” and “SpaceMint”) are only mentioned as a loose reference and because the SpaceMint paper refers to BURST. Their authors consider their concepts quite different from and unrelated to Burst. [4]
+Both of these papers (“Proof of Space” and “SpaceMint”) are only mentioned as a loose reference and because the SpaceMint paper refers to BURST.
 
 ### References
 
@@ -26,5 +26,3 @@ Both of these papers (“Proof of Space” and “SpaceMint”) are only mention
 [2] [Proofs of Space](https://eprint.iacr.org/2013/796.pdf) paper by Dziembowski, Faust, Kolmogorov and Pietrzak
 
 [3] [SpaceMint](https://eprint.iacr.org/2015/528.pdf) paper by Sunoo Park, Kwon, Fuchsbauer, Pietrzak et al.
-
-[4] <https://en.wikipedia.org/w/index.php?title=Burstcoin&type=revision&diff=806510707&oldid=802380524>
