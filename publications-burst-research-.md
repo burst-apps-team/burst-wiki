@@ -1,7 +1,7 @@
 BURST/PoC
 ---------
 
--   [Survey of Consensus Protocols](-file-181009-burst-survey-consensus-protocols-pdf.md)
+-   [2018-10-09 Survey of Consensus Protocols](-file-181009-burst-survey-consensus-protocols-pdf.md)
 
 SHABAL:
 -------
