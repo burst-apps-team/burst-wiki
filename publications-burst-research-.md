@@ -8,4 +8,5 @@
 -   [Unfolding Method for Shabal on Virtex-5 FPGAs: Concrete Results](-file-10xxxx-shabal-virtex-fpga-pdf.md)
 -   [2010-07-20 Distinguisher for Shabal’s Permutation Function](-file-100720-shabal-distinguisher-perm-func-pdf.md)
 -   [2010-10-01 Comparison of seven SHA-3 candidates software implementations on smart cards](-file-1010xx-shabal-comparison-sha3-candidates-pdf.md)
+-   [2010-11-12 Quantum attacks against Blue Midnight Wish, ECHO, Fugue, Grøstl, Hamsi, JH, Keccak, Shabal, SHAvite-3, SIMD, and Skein](-file-101112-shabal-quantum-attacks-pdf.md)
 
