@@ -1,7 +1,7 @@
 BURST/PoC
 ---------
 
--   [Cryptocurrency performance analysis of Burstcoin mining](-file-180612-burst-mining-perf-analysis-pdf.md)
+-   [2018-06-12 Cryptocurrency performance analysis of Burstcoin mining](-file-180612-burst-mining-perf-analysis-pdf.md)
 -   [2018-10-09 Survey of Consensus Protocols](-file-181009-burst-survey-consensus-protocols-pdf.md)
 
 SHABAL:
