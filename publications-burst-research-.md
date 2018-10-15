@@ -1,6 +1,7 @@
 BURST/PoC
 ---------
 
+-   [Cryptocurrency performance analysis of Burstcoin mining](-file-180612-burst-mining-perf-analysis-pdf.md)
 -   [2018-10-09 Survey of Consensus Protocols](-file-181009-burst-survey-consensus-protocols-pdf.md)
 
 SHABAL:
@@ -19,4 +20,5 @@ SHABAL:
 -   [Performance Analysis of the SHA-3 Candidates on Exotic Multi-Core Architectures](-file-10xxxx-shabal-performance-exotic-multicore-pdf.md)
 -   [2010-11-12 Quantum attacks against Blue Midnight Wish, ECHO, Fugue, Grøstl, Hamsi, JH, Keccak, Shabal, SHAvite-3, SIMD, and Skein](-file-101112-shabal-quantum-attacks-pdf.md)
 -   [2011-08-22 Cryptanalysis of hash functions in particular the SHA-3 contenders Shabal and Blake](-file-110822-shabal-cryptanalysis-blake-pdf.md)
+-   [2011-10-03 Conception, preuves et analyse de fonctions de hachage cryptographiques (PhD Thesis Thomas Fuhr)](-file-111003-shabal-these-thomas-fuhr-pdf.md)
 
