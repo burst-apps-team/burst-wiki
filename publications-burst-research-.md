@@ -1,5 +1,10 @@
-SHABAL-related:
----------------
+BURST/PoC
+---------
+
+-   [Survey of Consensus Protocols](-file-181009-burst-survey-consensus-protocols-pdf.md)
+
+SHABAL:
+-------
 
 -   [2008-10-28 Shabal, a Submission to NIST’s Cryptographic Hash Algorithm Competition](-file-shabal-a-submission-to-nists-cryptographic-hash-a-pdf.md)
 -   [FPGA Implementations of SHA-3 Candidates: CubeHash, Grøstl, LANE, Shabal and Spectral Hash](-file-09xxxx-shabal-fpga-implementations-pdf.md)
