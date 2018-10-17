@@ -19,3 +19,4 @@ Community contributions
 -   [2018-01-09 Burst — Part 2: macOS Wallet Setup Tutorial, Medium/HackerNoon](https://medium.com/@aclaytonscott/burst-part-2-macos-wallet-setup-tutorial-2822bb029f54)
 -   [2018-01-08 Burst — Part 1: What is Burstcoin?, Medium/HackerNoon](https://medium.com/age-of-awareness/burst-part-1-what-is-burstcoin-d172561aba70)
 
+[Publications main page](publications-burst.md)
