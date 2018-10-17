@@ -3,7 +3,7 @@ Collection of publication about Burst and related technologies.
 Browse by categories:
 
 -   [Research publications](Publications:Burst(Research) "wikilink")
--   General news
+-   [General news](Publications:_Burst_(General_news) "wikilink")
 
 <!-- -->
 
