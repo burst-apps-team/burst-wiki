@@ -22,3 +22,4 @@ SHABAL:
 -   [2011-08-22 Cryptanalysis of hash functions in particular the SHA-3 contenders Shabal and Blake](-file-110822-shabal-cryptanalysis-blake-pdf.md)
 -   [2011-10-03 Conception, preuves et analyse de fonctions de hachage cryptographiques (PhD Thesis Thomas Fuhr)](-file-111003-shabal-these-thomas-fuhr-pdf.md)
 
+[Publications main page](publications-burst.md)
