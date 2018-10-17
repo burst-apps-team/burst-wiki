@@ -7,11 +7,11 @@ Browse by categories:
 
 <!-- -->
 
--   Cryptocurrency news
+-   [Cryptocurrency news](Publications:_Burst_(Cryptocurrency_news) "wikilink")
 
 <!-- -->
 
--   Proof Of Life
+-   [Proof Of Life](Publications:_Burst_(Cryptocurrency_news) "wikilink")
 
 <!-- -->
 
