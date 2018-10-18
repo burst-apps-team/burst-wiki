@@ -8,6 +8,7 @@ Proof Of Life
 -   [2018-10-05 BCB Interviews - Proof of Life, Blockchain Beach (video)](https://www.youtube.com/watch?v=2luFpLB3atg)
 -   [2018-10-02 Burstcoin Developers Complete On-Chain Crypto Transaction without the Internet, BTC Manager](https://btcmanager.com/burstcoin-developer-ham-radio/)
 -   [2018-09-25 Burst Coin Developers Broadcasted A Transaction Via Radio Waves And A Solar-Powered System, XBT](https://xbt.net/blog/burst-coin-developers-broadcasted-a-transaction-via-radio-waves-and-a-solar-powered-system/)
+-   [2018-09-23 This Off-Grid, Solar-Powered System Sends Crypto Through Radio Waves, CNN](https://www.ccn.com/this-off-grid-solar-powered-system-sends-crypto-through-radio-waves/)
 
 Community contributions
 -----------------------
