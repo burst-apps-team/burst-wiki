@@ -22,4 +22,9 @@ SHABAL:
 -   [2011-08-22 Cryptanalysis of hash functions in particular the SHA-3 contenders Shabal and Blake](-file-110822-shabal-cryptanalysis-blake-pdf.md)
 -   [2011-10-03 Conception, preuves et analyse de fonctions de hachage cryptographiques (PhD Thesis Thomas Fuhr)](-file-111003-shabal-these-thomas-fuhr-pdf.md)
 
+Curve25519:
+-----------
+
+-   [Fast Implementation of Curve25519 Using AVX2](-file-15xxxx-burst-25519-avx2-pdf.md)
+
 [Publications main page](publications-burst.md)
