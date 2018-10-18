@@ -9,6 +9,6 @@ Articles
 --------
 
 -   [Proof of Capacity (Cryptocurrency) on Investopedia](https://www.investopedia.com/terms/p/proof-capacity-cryptocurrency.asp)
--   [Burstcoin on CNN](https://www.ccn.com/tag/burstcoin/)
+-   [Burstcoin on CCN](https://www.ccn.com/tag/burstcoin/)
 
 [Publications main page](publications-burst.md)
