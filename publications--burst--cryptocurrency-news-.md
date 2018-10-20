@@ -1,3 +1,4 @@
+-   [2018-10-20 Exclusive Interview With Burst Developer Daniel Jones (podcast), Bitcoin News](https://bitcoinnews.com/exclusive-interview-with-burst-developer-daniel-jones/)
 -   [2018-10-11 Burstcoin (BURST): Mining Made Easy and Accessible With Hard Disk Space, Today's Gazette](https://todaysgazette.com/burstcoin-burst-mining-made-easy-and-accessible-with-hard-disk-space/)
 -   [2018-10-03 BCB Interview - Daniel Jones, Blockchain Beach (video)](https://www.youtube.com/watch?v=zez1EISf-Jg)
 -   [2017-12-23 Crypto Watch: Burstcoin (BURST) Price Goes 4x In 29 Hours. What Is BURST And Why Is It Surging?, Forbes](https://www.forbes.com/sites/jessedamiani/2017/12/23/crypto-watch-burstcoin-burst-price-goes-4x-in-29-hours-what-is-burst-and-why-is-it-surging/#3442ef0c4757)
