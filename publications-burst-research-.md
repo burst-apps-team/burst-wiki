@@ -3,7 +3,7 @@ BURST/PoC
 
 -   [2018-06-12 Cryptocurrency performance analysis of Burstcoin mining](-file-180612-burst-mining-perf-analysis-pdf.md)
 -   [2018-10-09 Survey of Consensus Protocols](-file-181009-burst-survey-consensus-protocols-pdf.md)
--   [2018-09-18 An Overview of Blockchain and Consensus Protocols for IoT Networks](https://arxiv.org/abs/1809.05613)
+-   [2018-09-18 An Overview of Blockchain and Consensus Protocols for IoT Networks](-file-2018-09-18-an-overview-of-blockchain-and-consensus-protocols-for-iot-networks-pdf.md)
 
 SHABAL:
 -------
