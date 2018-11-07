@@ -1,7 +1,3 @@
-| Exchanges  |
-|------------|
-| **Status** |
-
 Exchanges currently trading Burst
 ---------------------------------
 
@@ -21,7 +17,7 @@ Burst can be traded on the following exchanges against the given other currencie
 Exchanges that will list Burst soon
 -----------------------------------
 
-Burst will soon be listed (confirmed) on the following exchange :
+Burst should theoretically be listed in the foreseeable future on the following exchange :
 
 -   <https://www.cryptaldash.com/>: BTC
 
