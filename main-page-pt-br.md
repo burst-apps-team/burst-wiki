@@ -63,7 +63,7 @@
 -   [Suporte Burst para tokens padrão ERC20](burst-support-for-erc20-tokens.md)
 -   [A Blockchain Burst](burst-blockchain.md)
 -   [Assinatura de Transações Offline](offline-transaction-signing.md)
--   [Como Funciona o Processo de Processamento de Transações](how-tx-processing-works.md)
+-   [How\_Tx\_Processing\_Works](how-tx-processing-works.md)
 
 </div>
 </div>
