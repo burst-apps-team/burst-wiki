@@ -9,8 +9,8 @@
 
 <div class="main_text">
 **Burst** é uma plataforma blockchain de [código-fonte aberto](https://github.com/ac0v/burstcoin) que possui múltiplas funcionalidades essenciais, funcionando contínua e publicamente desde Agosto de 2014. Seu código-fonte é um derivado (fork) do Nxt, mas com uma transição importante para o consenso [Proof of Capacity](proof-of-capacity.md) (PoC), ou “Prova de capacidade”, permitindo que você use espaço em disco para minerar.
-**[Animação em vídeo “O que é Burst”](https://www.youtube.com/watch?v=Fyj9RIyxLb4)**
-**[Como começar a minerar Burst](https://www.youtube.com/watch?v=LJLhw37Lh_8&t)**
+**[Animação em vídeo “O que é Burst? (inglês)”](https://www.youtube.com/watch?v=Fyj9RIyxLb4)**
+**[Como começar a minerar Burst (inglês)](https://www.youtube.com/watch?v=LJLhw37Lh_8&t)**
 
 </div>
 <div class="box_row">
