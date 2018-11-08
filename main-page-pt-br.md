@@ -57,7 +57,7 @@
 -   -   [Exemplos de uso da API Burst](the-burst-api-examples.md)
 
 -   [TestNet](testnet.md)
--   [O Arquivo brs-default.propertie](brs-default-properties-configuration-file.md)
+-   [O Arquivo brs-default.properties](brs-default-properties-configuration-file.md)
 -   [Formato de Endereço Reed-Solomon (RS)](rs-address-format.md)
 -   [CIP - Capability Improvement Proposal (Proposta de Melhoria de Capacidade)](cip.md)
 -   [Suporte Burst para tokens padrão ERC20](burst-support-for-erc20-tokens.md)
