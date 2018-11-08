@@ -82,7 +82,7 @@
 </div>
 <div class="box_row">
 <div class="box_column_light" style="background-color: #ffffff; text-align:center;">
-**Get Support: [Forum 1](https://burstforum.net/)   |   [Forum 2](https://forums.getburst.net)   |   [Burst Discord](https://discord.gg/PMUgVSY)   |   [Burst Reddit](https://www.reddit.com/r/burstcoin/)**
+**Consiga Suporte: [Fórum 1](https://burstforum.net/)   |   [Fórum 2](https://forums.getburst.net)   |   [Canal Burst no Discord](https://discord.gg/PMUgVSY)   |   [Página Burst no Reddit](https://www.reddit.com/r/burstcoin/)**
 
 </div>
 </div>
