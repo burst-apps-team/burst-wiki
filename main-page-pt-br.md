@@ -22,11 +22,11 @@
 \*[Softwares utilizados no ecossistema Burst](burst-software.md)
 
 -   [Software de referência Burst](burst-reference-software.md)
-    -   Latest Version: ****
-    -   Direct Download: ****, ****
+    -   Última versão: ****
+    -   Download direto: ****, ****
 -   [Burst Source Code](https://github.com/PoC-Consortium/burstcoin)
--   [Mobile App](mobile-app.md)
--   [QBundle Full Guide](qbundle.md)
+-   [Aplicativo móvel](aplicativo-movel.md)
+-   [Guia Completo Qbundle](qbundle.md)
 
 </div>
 </div>
