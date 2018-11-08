@@ -2,7 +2,7 @@
 
 <div class="main_topbox">
 <div class="main_title">
-**Welcome to the <span style="color:#ffffff">BURST</span> WIKI**
+**Seja bem-vindo à <span style="color:#ffffff">BURST</span> WIKI**
 
 </div>
 <img src="Burst_Blue_Icon.png" title="Burst_Blue_Icon.png" alt="Burst_Blue_Icon.png" width="150" height="150" />
