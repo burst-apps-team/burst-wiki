@@ -103,32 +103,32 @@
     -   [Informações para Casas de Câmbio de Criptomoedas](https://www.burst-coin.org/information-for-exchanges)
     -   [Casas de Câmbio (Exchanges)](exchanges.md)
     -   [Marketplace](http://x.burstnation.com/marketplace)
-    -   [The Burstcoinist (News)](https://www.burstcoin.ist/)
-    -   [More](list-of-burst-related-websites.md)
-    -   [International websites](list-of-international-burst-websites.md)
--   [Burst Whitepaper](whitepaper-burst.md)
--   [History of Burst](history-of-burst.md)
+    -   [The Burstcoinist (Notícias)](https://www.burstcoin.ist/)
+    -   [Mais](list-of-burst-related-websites.md)
+    -   [Websites Internacionais](list-of-international-burst-websites.md)
+-   [O Whitepaper Burst](whitepaper-burst.md)
+-   [História Burst](historia-burst.md)
 
 </div>
 </div>
 <div class="box_row">
 <div class="box_column" style="background-color: #ffffff;">
 <div class="sub_title">
-**Services and Tools**
+**Serviços e Ferramentas**
 
 </div>
-\* Online wallets: [PoCC](https://wallet.burst.cryptoguru.org:8125/index.html), poolofd32th: [1](https://wallet.poolofd32th.club/index.html), [2](https://wallet2.poolofd32th.club/index.html). Burst-Team: [3](https://wallet3.burst-team.us:2083/index.html), [4](https://wallet4.burst-team.us:2083/index.html), [5](https://wallet5.burst-team.us:2083/index.html)
+\* Carteiras Online: [PoCC](https://wallet.burst.cryptoguru.org:8125/index.html), poolofd32th: [1](https://wallet.poolofd32th.club/index.html), [2](https://wallet2.poolofd32th.club/index.html). Burst-Team: [3](https://wallet3.burst-team.us:2083/index.html), [4](https://wallet4.burst-team.us:2083/index.html), [5](https://wallet5.burst-team.us:2083/index.html)
 
 -   TestNet: [PoCC TestNet](https://wallet.dev.burst-test.net/)
--   Blockchain Explorer: [PoCC](https://explore.burst.cryptoguru.org/), [BurstXD](http://burstxd.com/blocks/), [burstcoin.zone](http://burstcoin.zone/wordpress/blockexplorer/)
--   Network Observer: [Luxe](http://burstcoin.cc/), [PoCC](https://explore.burst.cryptoguru.org/tool/observe)
+-   Explorador da Blockchain: [PoCC](https://explore.burst.cryptoguru.org/), [BurstXD](http://burstxd.com/blocks/), [burstcoin.zone](http://burstcoin.zone/wordpress/blockexplorer/)
+-   Observador de Rede: [Luxe](http://burstcoin.cc/), [PoCC](https://explore.burst.cryptoguru.org/tool/observe)
 -   [Burst Today](http://www.burst.today/)
 
 <!-- -->
 
--   [Pool uptime monitor](https://uptime.statuscake.com/?TestID=M30iNz7TSq)
--   [Burstcoin Faucet Lists](http://burstfaucets.com/)
--   Forum: [Burst-Team](http://burstforum.net/), [GetBurst](https://forums.getburst.net/), [Burst Reddit](https://www.reddit.com/r/burstcoin/)
+-   [Monitor de Tempo de Atividade da Pool](https://uptime.statuscake.com/?TestID=M30iNz7TSq)
+-   [Lista de Faucets Burstcoin](http://burstfaucets.com/)
+-   Forum: [Burst-Team](http://burstforum.net/), [GetBurst](https://forums.getburst.net/), [Página Burst no Reddit](https://www.reddit.com/r/burstcoin/)
 
 </div>
 </div>
