@@ -89,19 +89,19 @@
 <div class="box_row">
 <div class="box_column" style="background-color: #ffffff;">
 <div class="sub_title">
-**About Burst**
+**Sobre Burst**
 
 </div>
-\* [What is Burst?](burst-wiki.md)
+\* [O que é Burst?](burst-wiki.md)
 
--   [Get started with Burst](getting-started.md)
+-   [Inicie com Burst](getting-started.md)
 -   [FAQ](faq.md)
--   [Burst Who's Who](burst-who-s-who.md)
+-   [Quem é quem em Burst](quem-e-quem-em-burst.md)
 -   [Global Burst TODO](global-burst-todo.md)
--   Website Resources
-    -   [General Information](https://www.burst-coin.org/)
-    -   [Information for Exchanges](https://www.burst-coin.org/information-for-exchanges)
-    -   [Exchanges](exchanges.md)
+-   Recursos na Web:
+    -   [Informações Gerais](https://www.burst-coin.org/)
+    -   [Informações para Casas de Câmbio de Criptomoedas](https://www.burst-coin.org/information-for-exchanges)
+    -   [Casas de Câmbio (Exchanges)](exchanges.md)
     -   [Marketplace](http://x.burstnation.com/marketplace)
     -   [The Burstcoinist (News)](https://www.burstcoin.ist/)
     -   [More](list-of-burst-related-websites.md)
