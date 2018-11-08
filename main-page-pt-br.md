@@ -16,12 +16,12 @@
 <div class="box_row">
 <div class="box_column">
 <div class="main_subtitle">
-**Burst Software**
+**Software Burst**
 
 </div>
-\*[Softwares used in Burst ecosystem](burst-software.md)
+\*[Softwares utilizados no ecossistema Burst](burst-software.md)
 
--   [Burst Reference Software](burst-reference-software.md)
+-   [Software de referência Burst](burst-reference-software.md)
     -   Latest Version: ****
     -   Direct Download: ****, ****
 -   [Burst Source Code](https://github.com/PoC-Consortium/burstcoin)
