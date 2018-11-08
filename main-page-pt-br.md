@@ -107,7 +107,7 @@
     -   [Mais](list-of-burst-related-websites.md)
     -   [Websites Internacionais](list-of-international-burst-websites.md)
 -   [O Whitepaper Burst](whitepaper-burst.md)
--   [História Burst](historia-burst.md)
+-   [História de Burst](history-of-burst.md)
 
 </div>
 </div>
