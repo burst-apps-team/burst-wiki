@@ -25,8 +25,8 @@
     -   Última versão: ****
     -   Download direto: ****, ****
 -   [Burst Source Code](https://github.com/PoC-Consortium/burstcoin)
--   [Aplicativo móvel](aplicativo-movel.md)
--   [Guia Completo Qbundle](qbundle.md)
+-   [Mobile App](mobile-app.md)
+-   [QBundle Full Guide](qbundle.md)
 
 </div>
 </div>
