@@ -14,6 +14,7 @@
 
 </div>
 <div class="box_row">
+<div class="mw-translate-fuzzy">
 <div class="box_column">
 <div class="main_subtitle">
 **Software Burst**
@@ -40,7 +41,7 @@
 
 -   [Mensagens Arbitrárias](arbitrary-messages.md)
 -   [Sistema de Pseudônimos](alias-system.md)
--   [Câmbio de Ativo](asset-exchange.md)
+-   [Câmbio de Ativos](asset-exchange.md)
 -   [Transações Automatizadas (Smart Contracts)](automated-transaction.md)
 -   [Marketplace](marketplace.md)
 
@@ -49,35 +50,36 @@
 <div class="box_row">
 <div class="box_column">
 <div class="main_subtitle">
-**For Developers**
+**Para Desenvolvedores**
 
 </div>
-\*[The Burst API](the-burst-api.md)
+\*[A API Burst](the-burst-api.md)
 
--   -   [The Burst API Examples](the-burst-api-examples.md)
+-   -   [Exemplos de uso da API Burst](the-burst-api-examples.md)
 
 -   [TestNet](testnet.md)
 -   [The brs-default.properties file](brs-default-properties-configuration-file.md)
--   [Reed-Solomon (RS) Address Format](rs-address-format.md)
--   [Capability Improvement Proposal](cip.md)
--   [BURST support for ERC20 tokens](burst-support-for-erc20-tokens.md)
--   [Burst Blockchain](burst-blockchain.md)
--   [Offline Transaction Signing](offline-transaction-signing.md)
--   [How Transaction Processing Works](how-tx-processing-works.md)
+-   [Formato de Endereço Reed-Solomon (RS)](rs-address-format.md)
+-   [CIP - Capability Improvement Proposal (Proposta de Melhoria de Capacidade](cip.md)
+-   [Suporte Burst para tokens padrão ERC20](burst-support-for-erc20-tokens.md)
+-   [A Blockchain Burst](burst-blockchain.md)
+-   [Assinatura de Transações Offline](offline-transaction-signing.md)
+-   [Como Funciona o Processo de Processamento de Transações](how-tx-processing-works.md)
 
 </div>
 </div>
 <div class="box_row">
 <div class="box_column">
 <div class="main_subtitle">
-**Mining**
+**Mineração**
 
 </div>
-\*[1. Reward Assignment](reward-assignment.md)
+\*[1. Atribuição de Endereço para Recompensas](reward-assignment.md)
 
--   [2. Plotting](plotting.md)
--   [3. Mining](mining.md)
+-   [2. Plotagem (plotting)](plotting.md)
+-   [3. Mineração](mining.md)
 
+</div>
 </div>
 </div>
 <div class="box_row">
