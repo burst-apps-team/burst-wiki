@@ -14,7 +14,6 @@
 
 </div>
 <div class="box_row">
-<div class="mw-translate-fuzzy">
 <div class="box_column">
 <div class="main_subtitle">
 **Software Burst**
@@ -60,11 +59,11 @@
 -   [TestNet](testnet.md)
 -   [O Arquivo brs-default.propertie](brs-default-properties-configuration-file.md)
 -   [Formato de Endereço Reed-Solomon (RS)](rs-address-format.md)
--   [CIP - Capability Improvement Proposal (Proposta de Melhoria de Capacidade](cip.md)
+-   [CIP - Capability Improvement Proposal (Proposta de Melhoria de Capacidade)](cip.md)
 -   [Suporte Burst para tokens padrão ERC20](burst-support-for-erc20-tokens.md)
 -   [A Blockchain Burst](burst-blockchain.md)
 -   [Assinatura de Transações Offline](offline-transaction-signing.md)
--   [How Transaction Processing Works](how-tx-processing-works.md)
+-   [Como Funciona o Processamento de Transações](how-tx-processing-works.md)
 
 </div>
 </div>
@@ -79,7 +78,6 @@
 -   [2. Plotagem (plotting)](plotting.md)
 -   [3. Mineração](mining.md)
 
-</div>
 </div>
 </div>
 <div class="box_row">
