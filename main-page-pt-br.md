@@ -134,7 +134,7 @@
 </div>
 <div id="main_topboxlinks">
 <center>
-'''[Join us!](join-us-.md)   |   **[Contribute](contribute.md)**   |   **Burst Foundation - TBA**
+'''[Se junte a nós!](join-us-.md)   |   **[Contribua](contribute.md)**   |   **Fundação Burst - A Ser Anunciado**
 
 <img src="Powered_By_Burst_-_4.png" title="Powered_By_Burst_-_4.png" alt="Powered_By_Burst_-_4.png" width="150" height="150" />
 
