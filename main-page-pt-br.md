@@ -96,7 +96,7 @@
 
 -   [Inicie com Burst](getting-started.md)
 -   [FAQ](faq.md)
--   [Quem é quem em Burst](quem-e-quem-em-burst.md)
+-   [Quem é quem em Burst](burst-who-s-who.md)
 -   [Global Burst TODO](global-burst-todo.md)
 -   Recursos na Web:
     -   [Informações Gerais](https://www.burst-coin.org/)
