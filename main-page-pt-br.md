@@ -24,9 +24,9 @@
 -   [Software de referência Burst](burst-reference-software.md)
     -   Última versão: ****
     -   Download direto: ****, ****
--   [Burst Source Code](https://github.com/PoC-Consortium/burstcoin)
+-   [Código-fonte Burst](https://github.com/PoC-Consortium/burstcoin)
 -   [Aplicativo Móvel](mobile-app.md)
--   [QBundle Full Guide](qbundle.md)
+-   [Guia Completo QBundle](qbundle.md)
 
 </div>
 </div>
