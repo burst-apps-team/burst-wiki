@@ -8,9 +8,9 @@
 <img src="Burst_Blue_Icon.png" title="Burst_Blue_Icon.png" alt="Burst_Blue_Icon.png" width="150" height="150" />
 
 <div class="main_text">
-**Burst** is an [open source](https://github.com/ac0v/burstcoin) blockchain platform with multiple core-level features that has been running publicly since August 2014. It is a code fork of Nxt using [Proof of Capacity](proof-of-capacity.md) (PoC) consensus, meaning that you can mine it with your disk space.
-**[What is Burst video animation](https://www.youtube.com/watch?v=Fyj9RIyxLb4)**
-**[How to start mining Burst](https://www.youtube.com/watch?v=LJLhw37Lh_8&t)**
+**Burst** é uma plataforma blockchain de [código-fonte aberto](https://github.com/ac0v/burstcoin) que possui múltiplas funcionalidades essenciais, funcionando contínua e publicamente desde Agosto de 2014. Seu código-fonte é um derivado (fork) do Nxt, mas com uma transição importante para o consenso [Proof of Capacity](proof-of-capacity.md) (PoC), permitindo que você use espaço em disco para minerar.
+**[Animação em vídeo “O que é BURST”](https://www.youtube.com/watch?v=Fyj9RIyxLb4)**
+**[Como começar a minerar Burst](https://www.youtube.com/watch?v=LJLhw37Lh_8&t)**
 
 </div>
 <div class="box_row">
