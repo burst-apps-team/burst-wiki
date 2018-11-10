@@ -437,6 +437,47 @@ Account Operations <img src="Verified.png" title="fig:Verified.png" alt="Verifie
 }
 ```
 
+### Send Money Subscription <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+
+**Response:**
+
+``` json
+{
+    "signatureHash": "c750d47f99a1dc5b01f3850d8c888b324fd49f1fe77c97fd8bccf339a82f3739",
+    "unsignedTransactionBytes": "1513059bfe071800ad6cfaf61afba1b6542a5f3ef2a8f072a0e417b00d41cfcf86060cf780af1247d9f92fa97a86ce7200c2eb0b00000000809698000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000147608005c87fe3a4f4ffb3001100e0000",
+    "transactionJSON": {
+        "senderPublicKey": "ad6cfaf61afba1b6542a5f3ef2a8f072a0e417b00d41cfcf86060cf780af1247",
+        "signature": "541e44ec8ea4642148dc6dd212076c16618580db47726f1522e2fda6805a680022cc3ef643f5cbefd0863796c9bcb8ee12cc611c38bc7a5bf01dbd2bc0777c29",
+        "feeNQT": "10000000",
+        "type": 21,
+        "fullHash": "06491cddb3159f0ff9ff44e27b3ee2ed5a67756f9efe70dcbec83843c5bd2191",
+        "version": 1,
+        "ecBlockId": "3529501934685685596",
+        "signatureHash": "c750d47f99a1dc5b01f3850d8c888b324fd49f1fe77c97fd8bccf339a82f3739",
+        "attachment": {
+            "version.SubscriptionSubscribe": 1,
+            "frequency": 3600
+        },
+        "senderRS": "BURST-MNAM-VYK3-V3KC-DTACV",
+        "subtype": 3,
+        "amountNQT": "200000000",
+        "sender": "13666482992520483091",
+        "recipientRS": "BURST-ZYGT-HCNL-PU3A-98NM7",
+        "recipient": "8272697426908805593",
+        "ecBlockHeight": 554516,
+        "deadline": 24,
+        "transaction": "1125642294118861062",
+        "timestamp": 134126341,
+        "height": 2147483647
+    },
+    "broadcasted": true,
+    "requestProcessingTime": 10,
+    "transactionBytes": "1513059bfe071800ad6cfaf61afba1b6542a5f3ef2a8f072a0e417b00d41cfcf86060cf780af1247d9f92fa97a86ce7200c2eb0b0000000080969800000000000000000000000000000000000000000000000000000000000000000000000000541e44ec8ea4642148dc6dd212076c16618580db47726f1522e2fda6805a680022cc3ef643f5cbefd0863796c9bcb8ee12cc611c38bc7a5bf01dbd2bc0777c2900000000147608005c87fe3a4f4ffb3001100e0000",
+    "fullHash": "06491cddb3159f0ff9ff44e27b3ee2ed5a67756f9efe70dcbec83843c5bd2191",
+    "transaction": "1125642294118861062"
+}
+```
+
 ### Set Account Info <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 
 **Response:**
