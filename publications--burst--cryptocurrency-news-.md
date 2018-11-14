@@ -2,6 +2,7 @@
 -   [2018-10-11 Burstcoin (BURST): Mining Made Easy and Accessible With Hard Disk Space, Today's Gazette](https://todaysgazette.com/burstcoin-burst-mining-made-easy-and-accessible-with-hard-disk-space/)
 -   [2018-10-03 BCB Interview - Daniel Jones, Blockchain Beach (video)](https://www.youtube.com/watch?v=zez1EISf-Jg)
 -   [2017-12-23 Crypto Watch: Burstcoin (BURST) Price Goes 4x In 29 Hours. What Is BURST And Why Is It Surging?, Forbes](https://www.forbes.com/sites/jessedamiani/2017/12/23/crypto-watch-burstcoin-burst-price-goes-4x-in-29-hours-what-is-burst-and-why-is-it-surging/#3442ef0c4757)
+-   [2017-03-04 A (Short) Guide to Blockchain Consensus Protocols, Coindesk](https://www.coindesk.com/short-guide-blockchain-consensus-protocols)
 -   [2016-12-15 Want to Get Into Cryptocurrency? BurstCoin is the Way Forward, Dailysquib.co.uk](https://www.dailysquib.co.uk/business/21520-want-to-get-into-cryptocurrency-burstcoin-is-the-way-forward.html)
 -   [2015-01-27 Cryptocurrency BURST Makes Smart Contracts a Reality, What Happened to Ethereum?, CCN](https://www.ccn.com/cryptocurrency-burst-makes-smart-contracts-reality-happened-ethereum/)
 -   [2014-10-30 HDD Proof of Capacity Mining, is it Viable?, CCN](https://www.ccn.com/hdd-proof-of-capacity-mining-viable/)
