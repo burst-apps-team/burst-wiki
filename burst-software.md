@@ -93,10 +93,51 @@ BurstCoupon allows you to create and claim password protected coupons as extensi
 
 **Platform** : Windows, MacOS
 
+Libraries - Development tools
+-----------------------------
+
+### BurstLib
+
+<img src="StableW.png" title="fig:StableW.png" alt="StableW.png" width="150" height="150" /><img src="DymaxionCW.png" title="fig:DymaxionCW.png" alt="DymaxionCW.png" width="150" height="150" />
+
+BurstLib is a cross platform dynamic library to make developing applications and tools compatible with the Burst blockchain easier.
+
+**Main Dev** : Curbshifter
+
+**Download link** : <https://github.com/CurbShifter/BurstLib/releases/latest>
+
+**Platform** : Windows, MacOS, Linux, Unix
+
 Plotting Software
 -----------------
 
 There are several plotting softwares that are designed for specific needs and specific hardwares.
+
+### ENGRAVER
+
+<img src="StableW.png" title="fig:StableW.png" alt="StableW.png" width="150" height="150" /><img src="DymaxionCW.png" title="fig:DymaxionCW.png" alt="DymaxionCW.png" width="150" height="150" /><img src="POC1W.png" title="fig:POC1W.png" alt="POC1W.png" width="150" height="150" /><img src="POC2W.png" title="fig:POC2W.png" alt="POC2W.png" width="150" height="150" />
+
+Engraver is a BURST plotter that generates optimized plot files without the need to run an optimizer after plotting.
+
+It generates PoC2 files and is intended to work on any UNIX system with a sufficiently sane filesystem (able to pre-allocate space), but for now only Linux and MacOS has been tested. 64bit only!
+
+**Main Dev** : PoC-Consortium
+
+**Download link** : https://github.com/PoC-Consortium/engraver
+
+**Platform** : Linux, MacOS
+
+### TurboPlotter 9000
+
+<img src="StableW.png" title="fig:StableW.png" alt="StableW.png" width="150" height="150" /><img src="DymaxionCW.png" title="fig:DymaxionCW.png" alt="DymaxionCW.png" width="150" height="150" /><img src="POC1W.png" title="fig:POC1W.png" alt="POC1W.png" width="150" height="150" /><img src="POC2W.png" title="fig:POC2W.png" alt="POC2W.png" width="150" height="150" />
+
+TurboPlotter 9000 is a CPU/GPU PoC 1 + PoC 2 plotter and plot integrity checker.
+
+**Main Dev** : Blackpawn
+
+**Download link** : https://blackpawn.com/tp/
+
+**Platform** : Windows, Linux, MacOS
 
 ### XPlotter
 
@@ -134,32 +175,6 @@ XPlotter is the default plotter that comes with QBundle and provides CPU PoC 1 p
 
 **Platform** : Windows
 
-### TurboPlotter 9000
-
-<img src="StableW.png" title="fig:StableW.png" alt="StableW.png" width="150" height="150" /><img src="DymaxionCW.png" title="fig:DymaxionCW.png" alt="DymaxionCW.png" width="150" height="150" /><img src="POC1W.png" title="fig:POC1W.png" alt="POC1W.png" width="150" height="150" /><img src="POC2W.png" title="fig:POC2W.png" alt="POC2W.png" width="150" height="150" />
-
-TurboPlotter 9000 is a CPU/GPU PoC 1 + PoC 2 plotter and plot integrity checker.
-
-**Main Dev** : Blackpawn
-
-**Download link** : https://blackpawn.com/tp/
-
-**Platform** : Windows, Linux, MacOS
-
-### ENGRAVER
-
-<img src="StableW.png" title="fig:StableW.png" alt="StableW.png" width="150" height="150" /><img src="DymaxionCW.png" title="fig:DymaxionCW.png" alt="DymaxionCW.png" width="150" height="150" /><img src="POC1W.png" title="fig:POC1W.png" alt="POC1W.png" width="150" height="150" /><img src="POC2W.png" title="fig:POC2W.png" alt="POC2W.png" width="150" height="150" />
-
-Engraver is a BURST plotter that generates optimized plot files without the need to run an optimizer after plotting.
-
-It generates PoC2 files and is intended to work on any UNIX system with a sufficiently sane filesystem (able to pre-allocate space), but for now only Linux and MacOS has been tested. 64bit only!
-
-**Main Dev** : PoC-Consortium
-
-**Download link** : https://github.com/PoC-Consortium/engraver
-
-**Platform** : Linux, MacOS
-
 ### gpuPlotGenerator
 
 <img src="StableW.png" title="fig:StableW.png" alt="StableW.png" width="150" height="150" /><img src="DymaxionUW.png" title="fig:DymaxionUW.png" alt="DymaxionUW.png" width="170" height="170" /><img src="POC1W.png" title="fig:POC1W.png" alt="POC1W.png" width="150" height="150" />
@@ -176,6 +191,18 @@ Mining Softwares
 ----------------
 
 The following softwares are used to mine plot files.
+
+### Scavenger
+
+<img src="StableW.png" title="fig:StableW.png" alt="StableW.png" width="150" height="150" /><img src="DymaxionCW.png" title="fig:DymaxionCW.png" alt="DymaxionCW.png" width="150" height="150" /><img src="POC2W.png" title="fig:POC2W.png" alt="POC2W.png" width="150" height="150" />
+
+Scavenger is a burst miner developped by PoC Consortium and written in Rust. It features direct io, avx512f, avx2, avx, sse and opencl.
+
+**Main Dev** : PoC Consortium
+
+**Download link** : https://github.com/PoC-Consortium/scavenger/releases/latest
+
+**Platform** : Windows, MacOS, Linux, Unix (64 bits)
 
 ### Blagominer modded
 
@@ -212,18 +239,6 @@ The creepMiner is a client application for mining Burst on a pool or solo. It su
 **Download link** : https://github.com/Creepsky/creepMiner/releases/latest
 
 **Platform** : Windows, MacOS, Linux x86\_64 or ARM7
-
-### Scavenger
-
-<img src="StableW.png" title="fig:StableW.png" alt="StableW.png" width="150" height="150" /><img src="DymaxionCW.png" title="fig:DymaxionCW.png" alt="DymaxionCW.png" width="150" height="150" /><img src="POC2W.png" title="fig:POC2W.png" alt="POC2W.png" width="150" height="150" />
-
-Scavenger is a burst miner developped by PoC Consortium and written in Rust. It features direct io, avx512f, avx2, avx, sse and opencl.
-
-**Main Dev** : PoC Consortium
-
-**Download link** : https://github.com/PoC-Consortium/scavenger/releases/latest
-
-**Platform** : Windows, MacOS, Linux, Unix (64 bits)
 
 Pool Software 
 --------------
