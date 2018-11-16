@@ -15,14 +15,26 @@ How to set up a TestNet node ?
 
 Before launching [BRS](burst-reference-software.md), edit `brs.properties` and change the following lines
 
-`DEV.TestNet = yes`
-`DEV.P2P.BootstrapPeers = wallet.dev.burst-test.net`
+`DEV.DB.Url = jdbc:mariadb://localhost:3777/yourbursttestdatabase`
+`DEV.DB.Username = root`
+`DEV.DB.Password = yourpassword`
 
-`DEV.DB.Url =jdbc:mariadb://localhost:3777/yourbursttestdatabase`
-`DEV.DB.Username =root`
-`DEV.DB.Password =yourpassword`
+`DEV.TestNet = yes`
+`DEV.preDymaxion.startBlock = 18443`
+`DEV.poc2.startBlock = 71666`
+
+`DEV.P2P.BootstrapPeers = wallet.dev.burst-test.net`
+`DEV.P2P.rebroadcastTo = wallet.dev.burst-test.net`
+`DEV.P2P.NumBootstrapConnections = 1`
+
+`brs.allowedBotHosts = *`
+
+`API.Listen = 0.0.0.0`
+`API.allowed = *`
 
 obviously, you should use a different DB for TestNet than you use for MainNet.
+
+You can access your TestNet-wallet via <http://127.0.0.1:6876/index.html> .
 
 Self-service test-net facuet
 ----------------------------
