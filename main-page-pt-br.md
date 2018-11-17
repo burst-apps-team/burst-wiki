@@ -131,21 +131,21 @@
 <div class="box_row">
 <div class="box_column">
 <div class="main_subtitle">
-**For Developers**
+**Para Desenvolvedores**
 
 </div>
-\*[The Burst API](the-burst-api.md)
+\*[A API Burst](the-burst-api.md)
 
--   -   [The Burst API Examples](the-burst-api-examples.md)
+-   -   [Exemplos de uso da API Burst](the-burst-api-examples.md)
 
 -   [TestNet](testnet.md)
--   [The brs-default.properties file](brs-default-properties-configuration-file.md)
--   [Reed-Solomon (RS) Address Format](rs-address-format.md)
--   [Capability Improvement Proposal](cip.md)
--   [BURST support for ERC20 tokens](burst-support-for-erc20-tokens.md)
--   [Burst Blockchain](burst-blockchain.md)
--   [Offline Transaction Signing](offline-transaction-signing.md)
--   [How Transaction Processing Works](how-tx-processing-works.md)
+-   [O Arquivo brs-default.properties](brs-default-properties-configuration-file.md)
+-   [Formato de Endereço Reed-Solomon (RS)](rs-address-format.md)
+-   [CIP - Capability Improvement Proposal (Proposta de Melhoria de Capacidade)](cip.md)
+-   [Suporte Burst para tokens padrão ERC20](burst-support-for-erc20-tokens.md)
+-   [A Blockchain Burst](burst-blockchain.md)
+-   [Assinatura de Transações Offline](offline-transaction-signing.md)
+-   [Como Funciona o Processamento de Transações](how-tx-processing-works.md)
 
 </div>
 <div class="box_column" style="background-color: #ffffff;">
