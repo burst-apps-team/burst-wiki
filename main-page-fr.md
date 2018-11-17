@@ -133,6 +133,7 @@
 </div>
 </div>
 <div class="box_row">
+</div>
 <div class="mw-translate-fuzzy">
 <div class="box_column" style="background-color: #ffffff;">
 <div class="sub_title">
