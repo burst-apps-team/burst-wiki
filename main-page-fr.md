@@ -14,72 +14,28 @@
 
 </div>
 <div class="box_row">
-<div class="mw-translate-fuzzy">
-<div class="box_column">
-<div class="main_subtitle">
-**Logiciels Burst**
+<div class="box_column" style="background-color: #ffffff;">
+<div class="sub_title">
+**A propos de Burst**
 
 </div>
-\*[Logiciels utilisés dans l'écosystème Burst](burst-software.md)
+\* [Qu'est-ce que Burst?](burst-wiki.md)
 
--   [Burst Reference Software](burst-reference-software.md)
-    -   Dernière Version: ****
-    -   Téléchargement direct: ****, ****
--   [Code Source Burst](https://github.com/PoC-Consortium/burstcoin)
--   [Application Mobile](mobile-app.md)
--   [QBundle Guide Complet](qbundle.md)
+-   [Commencez avec Burst](getting-started.md)
+-   [FAQ](faq.md)
+-   [Burst - qui est qui ?](burst-who-s-who.md)
+-   [Burst TODO](global-burst-todo.md)
+-   Ressources du internet
+    -   [Informations générales](https://www.burst-coin.org/)
+    -   [Information pour les Exchanges](https://www.burst-coin.org/information-for-exchanges)
+    -   [Exchanges](exchanges.md)
+    -   [Marché](http://x.burstnation.com/marketplace)
+    -   [The Burstcoinist (News)](https://www.burstcoin.ist/)
+    -   [Plus](list-of-burst-related-websites.md)
+    -   [Sites internationaux](list-of-international-burst-websites.md)
+-   [Whitepaper Burst](whitepaper-burst.md)
+-   [l'histoire de Burst](history-of-burst.md)
 
-</div>
-</div>
-<div class="box_row">
-<div class="box_column">
-<div class="main_subtitle">
-**Fonctionnalités Burst**
-
-</div>
-\* [Résumé des fonctionnalités](current-features.md)
-
--   [Messages arbitraires](arbitrary-messages.md)
--   [Système d'alias](alias-system.md)
--   [Echange d'actifs](asset-exchange.md)
--   [Transactions Automatisées (Smart Contracts)](automated-transaction.md)
--   [Marché](marketplace.md)
-
-</div>
-</div>
-<div class="box_row">
-<div class="box_column">
-<div class="main_subtitle">
-**Pour les développeurs**
-
-</div>
-\*[Les API Burst](the-burst-api.md)
-
--   -   [Examples d'API Burst](the-burst-api-examples.md)
-
--   [TestNet](testnet.md)
--   [Fichier brs-default.properties](brs-default-properties-configuration-file.md)
--   [Format des adresses Reed-Solomon (RS)](rs-address-format.md)
--   [Proposition d'Amélioration des Capacités](cip.md)
--   [Support BURST des tokens ERC20](burst-support-for-erc20-tokens.md)
--   [Blockchain Burst](burst-blockchain.md)
--   [Signature des transactions hors-ligne](offline-transaction-signing.md)
--   [Comment fonctionne le traitement des transactions](how-tx-processing-works.md)
-
-</div>
-</div>
-<div class="box_row">
-<div class="box_column">
-<div class="main_subtitle">
-**Minage**
-
-</div>
-\*[1. Affectation de récompense](reward-assignment.md)
-
--   [2. Plotting/Traçage](plotting.md)
--   [3. Minage](mining.md)
-
-</div>
 </div>
 <div class="box_column">
 <div class="main_subtitle">
