@@ -39,16 +39,16 @@
 </div>
 <div class="box_column">
 <div class="main_subtitle">
-**Burst Features**
+**Fonctionnalités Burst**
 
 </div>
-\* [Summary of Features](current-features.md)
+\* [Résumé des fonctionnalités](current-features.md)
 
--   [Arbitrary Messages](arbitrary-messages.md)
--   [Alias System](alias-system.md)
--   [Asset Exchange](asset-exchange.md)
--   [Automated transactions (Smart Contracts)](automated-transaction.md)
--   [Marketplace](marketplace.md)
+-   [Messages arbitraires](arbitrary-messages.md)
+-   [Système d'alias](alias-system.md)
+-   [Echange d'actifs](asset-exchange.md)
+-   [Transactions Automatisées (Smart Contracts)](automated-transaction.md)
+-   [Marché](marketplace.md)
 
 </div>
 </div>
