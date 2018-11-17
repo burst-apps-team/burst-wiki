@@ -104,8 +104,8 @@
 -   [Como Funciona o Processamento de Transações](how-tx-processing-works.md)
 
 </div>
-<div class="box_column" style="background-color: #ffffff;">
-<div class="sub_title">
+<div class="box_column">
+<div class="main_subtitle">
 **Serviços e Ferramentas**
 
 </div>
