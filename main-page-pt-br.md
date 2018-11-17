@@ -116,13 +116,13 @@
 </div>
 <div class="box_column">
 <div class="main_subtitle">
-**Mining**
+**Mineração**
 
 </div>
-\*[Reward Assignment](reward-assignment.md)
+\*[1. Atribuição de Endereço para Recompensas](reward-assignment.md)
 
--   [Plotting](plotting.md)
--   [Mining](mining.md)
+-   [2. Plotagem (plotting)](plotting.md)
+-   [3. Mineração](mining.md)
 
 </div>
 </div>
