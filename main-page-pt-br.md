@@ -148,28 +148,27 @@
 -   [How Transaction Processing Works](how-tx-processing-works.md)
 
 </div>
-<div class="box_column">
-<div class="main_subtitle">
-**Services and Tools**
+<div class="box_column" style="background-color: #ffffff;">
+<div class="sub_title">
+**Serviços e Ferramentas**
 
 </div>
-\* Online wallets: [PoCC](https://wallet.burst.cryptoguru.org:8125/index.html), poolofd32th: [1](https://wallet.poolofd32th.club/index.html), [2](https://wallet2.poolofd32th.club/index.html). Burst-Team: [3](https://wallet3.burst-team.us:2083/index.html), [4](https://wallet4.burst-team.us:2083/index.html), [5](https://wallet5.burst-team.us:2083/index.html)
+\* Carteiras Online: [PoCC](https://wallet.burst.cryptoguru.org:8125/index.html), poolofd32th: [1](https://wallet.poolofd32th.club/index.html), [2](https://wallet2.poolofd32th.club/index.html). Burst-Team: [3](https://wallet3.burst-team.us:2083/index.html), [4](https://wallet4.burst-team.us:2083/index.html), [5](https://wallet5.burst-team.us:2083/index.html)
 
 -   TestNet: [PoCC TestNet](https://wallet.dev.burst-test.net/)
--   Blockchain Explorer: [PoCC](https://explore.burst.cryptoguru.org/)
--   Tx Notification Service: [Burst Alerts](http://burstalerts.com/)
--   Network Observer: [Luxe](http://burstcoin.cc/), [PoCC](https://explore.burst.cryptoguru.org/tool/observe)
+-   Explorador da Blockchain: [PoCC](https://explore.burst.cryptoguru.org/), [BurstXD](http://burstxd.com/blocks/), [burstcoin.zone](http://burstcoin.zone/wordpress/blockexplorer/)
+-   Observador de Rede: [Luxe](http://burstcoin.cc/), [PoCC](https://explore.burst.cryptoguru.org/tool/observe)
 -   [Burst Today](http://www.burst.today/)
 
 <!-- -->
 
--   [Pool uptime monitor](https://uptime.statuscake.com/?TestID=M30iNz7TSq)
--   [Burstcoin Faucet Lists](http://burstfaucets.com/)
--   Forum: [Burst-Team](http://burstforum.net/), [GetBurst](https://forums.getburst.net/), [Burst Reddit](https://www.reddit.com/r/burstcoin/)
+-   [Monitor de Tempo de Atividade da Pool](https://uptime.statuscake.com/?TestID=M30iNz7TSq)
+-   [Lista de Faucets Burstcoin](http://burstfaucets.com/)
+-   Forum: [Burst-Team](http://burstforum.net/), [GetBurst](https://forums.getburst.net/), [Página Burst no Reddit](https://www.reddit.com/r/burstcoin/)
 
 </div>
 </div>
-<div class="box_row">
+</div class="box_row">
 </div>
 <div class="box_row">
 <div class="box_column_light" style="background-color: #ffffff; text-align:center;">
