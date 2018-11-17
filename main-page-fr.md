@@ -125,15 +125,11 @@
 </div>
 </div>
 <div class="box_row">
-<div class="mw-translate-fuzzy">
 </div>
 <div class="box_row">
 <div class="box_column_light" style="background-color: #ffffff; text-align:center;">
 **Obtenir de l'aide: [Forum 1](https://burstforum.net/)   |   [Forum 2](https://forums.getburst.net)   |   [Discord Burst](https://discord.gg/PMUgVSY)   |   [Reddit Burst](https://www.reddit.com/r/burstcoin/)**
 
-</div>
-</div>
-<div class="box_row">
 </div>
 </div>
 <div class="box_row">
