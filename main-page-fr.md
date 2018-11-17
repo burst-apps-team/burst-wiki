@@ -14,7 +14,7 @@
 
 </div>
 <div class="box_row">
-<div class="box_column" style="background-color: #ffffff;">
+<div class="box_column">
 <div class="sub_title">
 **A propos de Burst**
 
