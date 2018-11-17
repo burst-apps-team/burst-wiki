@@ -182,51 +182,6 @@
 </div>
 </div>
 <div class="box_row">
-<div class="mw-translate-fuzzy">
-<div class="box_column" style="background-color: #ffffff;">
-<div class="sub_title">
-**Sobre Burst**
-
-</div>
-\* [O que é Burst?](burst-wiki.md)
-
--   [Inicie com Burst](getting-started.md)
--   [FAQ](faq.md)
--   [Quem é quem em Burst](burst-who-s-who.md)
--   [Global Burst TODO](global-burst-todo.md)
--   Recursos na Web:
-    -   [Informações Gerais](https://www.burst-coin.org/)
-    -   [Informações para Casas de Câmbio de Criptomoedas](https://www.burst-coin.org/information-for-exchanges)
-    -   [Casas de Câmbio (Exchanges)](exchanges.md)
-    -   [Marketplace](http://x.burstnation.com/marketplace)
-    -   [The Burstcoinist (Notícias)](https://www.burstcoin.ist/)
-    -   [Mais](list-of-burst-related-websites.md)
-    -   [Websites Internacionais](list-of-international-burst-websites.md)
--   [O Whitepaper Burst](whitepaper-burst.md)
--   [História de Burst](history-of-burst.md)
-
-</div>
-</div>
-<div class="box_row">
-<div class="box_column" style="background-color: #ffffff;">
-<div class="sub_title">
-**Serviços e Ferramentas**
-
-</div>
-\* Carteiras Online: [PoCC](https://wallet.burst.cryptoguru.org:8125/index.html), poolofd32th: [1](https://wallet.poolofd32th.club/index.html), [2](https://wallet2.poolofd32th.club/index.html). Burst-Team: [3](https://wallet3.burst-team.us:2083/index.html), [4](https://wallet4.burst-team.us:2083/index.html), [5](https://wallet5.burst-team.us:2083/index.html)
-
--   TestNet: [PoCC TestNet](https://wallet.dev.burst-test.net/)
--   Explorador da Blockchain: [PoCC](https://explore.burst.cryptoguru.org/), [BurstXD](http://burstxd.com/blocks/), [burstcoin.zone](http://burstcoin.zone/wordpress/blockexplorer/)
--   Observador de Rede: [Luxe](http://burstcoin.cc/), [PoCC](https://explore.burst.cryptoguru.org/tool/observe)
--   [Burst Today](http://www.burst.today/)
-
-<!-- -->
-
--   [Monitor de Tempo de Atividade da Pool](https://uptime.statuscake.com/?TestID=M30iNz7TSq)
--   [Lista de Faucets Burstcoin](http://burstfaucets.com/)
--   Forum: [Burst-Team](http://burstforum.net/), [GetBurst](https://forums.getburst.net/), [Página Burst no Reddit](https://www.reddit.com/r/burstcoin/)
-
-</div>
 </div>
 </div>
 <div id="main_topboxlinks">
