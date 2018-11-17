@@ -54,20 +54,19 @@
 </div>
 <div class="box_row">
 </div>
-<div class="box_row">
 <div class="box_column">
 <div class="main_subtitle">
-**Burst Software**
+**Logiciels Burst**
 
 </div>
-\*[Software used in Burst ecosystem](burst-software.md)
+\*[Logiciels utilisés dans l'écosystème Burst](burst-software.md)
 
 -   [Burst Reference Software](burst-reference-software.md)
-    -   Latest Version: ****
-    -   Direct Download: ****, **[Burst Reference Software](https://github.com/PoC-Consortium/burstcoin/releases)**
-    -   [Burst Source Code](https://github.com/PoC-Consortium/burstcoin)
--   [Mobile App](mobile-app.md)
--   [QBundle Full Guide](qbundle.md)
+    -   Dernière Version: ****
+    -   Téléchargement direct: ****, **[Burst Reference Software](https://github.com/PoC-Consortium/burstcoin/releases)**
+    -   [Code Source Burst](https://github.com/PoC-Consortium/burstcoin)
+-   [Application Mobile](mobile-app.md)
+-   [QBundle Guide Complet](qbundle.md)
 
 </div>
 <div class="box_column">
