@@ -79,7 +79,7 @@
 \*[Software used in Burst ecosystem](burst-software.md)
 
 -   [Burst Reference Software](burst-reference-software.md)
-    -   Latest Version: ****
+    -   最新版本: ****
     -   Direct Download: ****, **[Burst Reference Software](https://github.com/PoC-Consortium/burstcoin/releases)**
     -   [Burst Source Code](https://github.com/PoC-Consortium/burstcoin)
 -   [Mobile App](mobile-app.md)
