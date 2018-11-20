@@ -100,24 +100,22 @@
 </div>
 <div class="box_row">
 </div>
+</div>
 <div class="box_row">
 <div class="box_column">
 <div class="main_subtitle">
-**For Developers**
+**對於開發人員**
 
 </div>
 \*[The Burst API](the-burst-api.md)
 
--   -   [The Burst API Examples](the-burst-api-examples.md)
-
--   [TestNet](testnet.md)
--   [The brs-default.properties file](brs-default-properties-configuration-file.md)
--   [Reed-Solomon (RS) Address Format](rs-address-format.md)
--   [Capability Improvement Proposal](cip.md)
--   [BURST support for ERC20 tokens](burst-support-for-erc20-tokens.md)
--   [Burst Blockchain](burst-blockchain.md)
--   [Offline Transaction Signing](offline-transaction-signing.md)
+-   [Burst 區塊鏈教學](burst-blockchain-tutorial.md)
+-   [Reed-Solomon (RS) 地址格式](rs-address-format.md)
+-   [ RS地址格式的QR碼](qr-codes-for-rs-address-format.md)
+-   [The nxt-default.properties file](nxt-default-properties-configuration-file.md)
+-   [離線交易簽證](offline-transaction-signing.md)
 -   [How Transaction Processing Works](how-tx-processing-works.md)
+-   [Exchange Integration](exchange-integration.md)
 
 </div>
 <div class="box_column">
