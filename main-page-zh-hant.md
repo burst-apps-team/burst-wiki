@@ -55,16 +55,16 @@
 </div>
 <div class="box_column">
 <div class="main_subtitle">
-**Burst Features**
+**Burst 功能**
 
 </div>
-\* [Summary of Features](current-features.md)
+\* [任意消息](arbitrary-messages.md)
 
--   [Arbitrary Messages](arbitrary-messages.md)
 -   [Alias System](alias-system.md)
 -   [Asset Exchange](asset-exchange.md)
--   [Automated transactions (Smart Contracts)](automated-transaction.md)
+-   [自動交易 (智能合約)](automated-transaction.md)
 -   [Marketplace](marketplace.md)
+-   [''功能摘要'](current-features.md)
 
 </div>
 </div>
