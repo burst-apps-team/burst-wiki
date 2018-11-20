@@ -80,7 +80,7 @@
 
 -   [Burst Reference Software](burst-reference-software.md)
     -   最新版本: ****
-    -   Direct Download: ****, **[Burst Reference Software](https://github.com/PoC-Consortium/burstcoin/releases)**
+    -   直接下載: ****, **[Burst Reference Software](https://github.com/PoC-Consortium/burstcoin/releases)**
     -   [Burst Source Code](https://github.com/PoC-Consortium/burstcoin)
 -   [Mobile App](mobile-app.md)
 -   [QBundle Full Guide](qbundle.md)
