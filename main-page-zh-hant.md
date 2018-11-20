@@ -17,7 +17,9 @@
 
 </div>
 </div>
+</div>
 <div class="box_row">
+</div>
 <div class="box_column">
 <div class="main_subtitle">
 **Burst 功能**
