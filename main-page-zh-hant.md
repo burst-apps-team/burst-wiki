@@ -18,7 +18,6 @@
 </div>
 </div>
 <div class="box_row">
-<div class="mw-translate-fuzzy">
 <div class="box_column">
 <div class="main_subtitle">
 **Burst 功能**
@@ -66,19 +65,6 @@
 -   [離線交易簽證](offline-transaction-signing.md)
 -   [How Transaction Processing Works](how-tx-processing-works.md)
 -   [Exchange Integration](exchange-integration.md)
-
-</div>
-</div>
-<div class="box_row">
-<div class="box_column">
-<div class="main_subtitle">
-**Mining**
-
-</div>
-\* [Reward Assignment](reward-assignment.md)
-
--   [Plotting](plotting.md)
--   [Mining](mining.md)
 
 </div>
 </div>
