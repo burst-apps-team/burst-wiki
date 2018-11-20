@@ -18,20 +18,6 @@
 </div>
 </div>
 <div class="box_row">
-<div class="box_column">
-<div class="main_subtitle">
-**Burst 功能**
-
-</div>
-\* [任意消息](arbitrary-messages.md)
-
--   [Alias System](alias-system.md)
--   [Asset Exchange](asset-exchange.md)
--   [自動交易 (智能合約)](automated-transaction.md)
--   [Marketplace](marketplace.md)
--   [''功能摘要'](current-features.md)
-
-</div>
 </div>
 <div class="box_row">
 <div class="box_column">
