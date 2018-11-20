@@ -68,7 +68,6 @@
 -   [How Transaction Processing Works](how-tx-processing-works.md)
 -   [Exchange Integration](exchange-integration.md)
 
-</div>
 <div class="box_column">
 <div class="main_subtitle">
 **Burst Features**
