@@ -69,7 +69,6 @@
 -   [Exchange Integration](exchange-integration.md)
 
 </div>
-</div>
 <div class="box_column">
 <div class="main_subtitle">
 **Burst Features**
