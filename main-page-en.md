@@ -75,10 +75,10 @@
 **Mining**
 
 </div>
-\*[Reward Assignment](reward-assignment.md)
+\*[1. Reward Assignment](reward-assignment.md)
 
--   [Plotting](plotting.md)
--   [Mining](mining.md)
+-   [2. Plotting](plotting.md)
+-   [3. Mining](mining.md)
 
 </div>
 </div>
@@ -134,7 +134,6 @@
 </div>
 </div>
 <div class="box_row">
-</div>
 <div id="main_topboxlinks">
 <center>
 '''[Join us!](join-us-.md)   |   **[Contribute](contribute.md)**   |   **Burst Foundation - TBA**
