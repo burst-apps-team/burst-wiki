@@ -133,8 +133,7 @@
 </div>
 </div>
 <div class="box_row">
-0
-
+</div>
 0
 
 <div id="main_topboxlinks">
