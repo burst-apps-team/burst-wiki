@@ -135,7 +135,6 @@
 </div>
 <div class="box_row">
 </div>
-</div>
 <div id="main_topboxlinks">
 <center>
 '''[Join us!](join-us-.md)   |   **[Contribute](contribute.md)**   |   **Burst Foundation - TBA**
