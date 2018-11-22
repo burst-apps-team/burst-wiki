@@ -135,7 +135,8 @@
 <div class="box_row">
 0
 
-</div>
+0
+
 <div id="main_topboxlinks">
 <center>
 '''[Junte-se a nós!](join-us-.md)   |   **[Contribua](contribute.md)**   |   **Fundação Burst - A Ser Anunciado**
