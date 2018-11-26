@@ -4,7 +4,6 @@
 
 | The Burst API Examples |
 |------------------------|
-| **Status**             |
 | **API Version**        |
 | **BRS Version**        |
 
