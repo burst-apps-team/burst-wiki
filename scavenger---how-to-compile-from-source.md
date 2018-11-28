@@ -95,7 +95,7 @@ If you chose to or already have the stable channel of rust installed you can swi
 
 **`rustup`` ``default`` ``nightly`**
 
-To confirmthe instalation of the correct channel of Rust, type the following:
+To confirm the instalation of the correct channel of Rust, type the following:
 
 **`rustc`` ``--version`**
 
@@ -144,9 +144,7 @@ Navigate back to your scavenger-1.6.4 directory from the release directory
 
 At this point you can run scavenger and it will make use of the **test\_data** file to simulate mining on the dev.burst-test.net
 
-Once you know it will run you will need to configure the config.yaml file to your setup. The config file itself is well commented and the GitHub Wiki has further information if required:
-
-<https://github.com/PoC-Consortium/scavenger/wiki>
+Once you know it will run you will need to configure the config.yaml file to your setup. The config file itself is well commented and the [GitHub Wiki](https://github.com/PoC-Consortium/scavenger/wiki) has further information if required.
 
 Additional notes
 ----------------
