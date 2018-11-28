@@ -5,7 +5,7 @@ BURST/PoC
 -   [2018-10-09 Survey of Consensus Protocols](-file-181009-burst-survey-consensus-protocols-pdf.md)
 -   [2018-09-18 An Overview of Blockchain and Consensus Protocols for IoT Networks](-file-2018-09-18-an-overview-of-blockchain-and-consensus-protocols-for-iot-networks-pdf.md)
 -   [2018-11-15 Proof of Space from Stacked Expanders.pdf](-file-proof-of-space-from-stacked-expanders-pdf.md)
--   [2018-11-28 Taxonomy Of Blockchain Technologies, Principles Of Identification And Classification](2018-11-28-taxonomy-of-blockchain-technologies--principles-of-identification-and-classification.md)
+-   [2018-11-28 Taxonomy Of Blockchain Technologies, Principles Of Identification And Classification](-file-taxonomy-of-blockchain-technologies-1708-04872-1-pdf.md)
 
 SHABAL:
 -------
