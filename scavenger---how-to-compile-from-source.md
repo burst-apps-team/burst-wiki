@@ -1,4 +1,4 @@
-<languages/>
+<languages></languages>
 
 | Scavenger - How to compile from source |
 |----------------------------------------|
@@ -17,88 +17,94 @@ Prerequisites
 
 Before you begin the installation, the following packages need to be installed:
 
-- curl - git - build-essential
+-   curl -
+-   git -
+-   build-essential
 
-change to root user
+Change to root user:
 
-su
+**`su`**
 
-enter root password
+Enter root password
 
-install curl, git and build essential packages
+Install curl, git and build essential packages:
 
-apt install curl git build-essential -y
+**`apt`` ``install`` ``curl`` ``git`` ``build-essential`` ``-y`**
 
 Once the above packages have completed installation, its time to install Rust.
 
-Note: The features used when compiling Scavenger are not available on the stable release channel of rust, therefore the nightly channel needs to be installed.
+**Note:** The features used when compiling Scavenger are not available on the stable release channel of rust, therefore the nightly channel needs to be installed.
 
 Installing Rust (nightly)
 -------------------------
 
-curl <https://sh.rustup.rs> -sSf | sh
+**`curl`` `[`https://sh.rustup.rs`](https://sh.rustup.rs)` ``-sSf`` ``|`` ``sh`**
 
-You will be presented with three options (see below).
+You will be presented with three options (see below):
 
-Current installation options:
-
+`Current installation options:`
 `  default host triple: x86_64-unknown-linux-gnu`
 `    default toolchain: stable`
 ` modify PATH variable: yes`
+`1) Proceed with installation (default)`
+`2) Customize installation`
+`3) Cancel installation`
+`>`
 
-1) Proceed with installation (default) 2) Customize installation 3) Cancel installation &gt;
+To install the nightly channel chose **option 2**, this will ask you additional questions, answer as per below:
 
-To install the nightly channel chose option 2, this will ask you additional questions, answer as per below:
+`Q: Default host triple?`
+`A: Press `**`enter`**` to leave unchanged`
 
-Q: Default host triple? A: Press enter to leave unchanged
+`Q: Default toolchain? (stable/beta/nightly/none)`
+`A: `**`nightly`**
 
-Q: Default toolchain? (stable/beta/nightly/none) A: nightly
-
-Q: Modify PATH variable? (y/n) A: y/n
+`Q: Modify PATH variable? (y/n)`
+`A: `**`y`**
 
 You will be presented with a summary of the current installation options as per your answers provided above:
 
-Current installation options:
-
+`Current installation options:`
 `  default host triple: x86_64-unknown-linux-gnu`
 `    default toolchain: nightly`
 ` modify PATH variable: yes`
+`1) Proceed with installation (default)`
+`2) Customize installation`
+`3) Cancel installation`
 
-1) Proceed with installation (default) 2) Customize installation 3) Cancel installation
+Chose **option 1** to install
 
-Chose option 1 to install
+Once installation is complete, follow the instructions to configure your current terminal sessions' environment variable so that you can run Rust related commands:
 
-Once installation is complete, follow the instructions to configure your current terminal sessions environment variable so that you can run Rust related commands:
-
-source $HOME/.cargo/env
+**`source`` ``$HOME/.cargo/env`**
 
 Switching from Rust (stable) to Rust (nightly)
 ----------------------------------------------
 
 If you chose to or already have the stable channel of rust installed you can switch channels by using the following command:
 
-rustup default nightly
+**`rustup`` ``default`` ``nightly`**
 
-Confirming instalation of correct channel of Rust
+To confirmthe instalation of the correct channel of Rust, type the following:
 
-`rustc --version`
+**`rustc`` ``--version`**
 
-This should give you the output below, note the “nightly” present (version correct at time of writing):
+This should give you the output below, note the “*nightly*” present (version correct at time of writing):
 
-rustc 1.32.0-nightly (6bfb46e4a 2018-11-26)
+`rustc 1.32.0-nightly (6bfb46e4a 2018-11-26)`
 
 Obtaining the source files
 --------------------------
 
 To download the source files from the Git repository, run the following command, (please make sure to check the exact path to the latest version as this will change as later versions are released) :
 
-wget <https://github.com/PoC-Consortium/scavenger/archive/1.6.4.zip>
+**`wget`` `[`https://github.com/PoC-Consortium/scavenger/archive/1.6.4.zip`](https://github.com/PoC-Consortium/scavenger/archive/1.6.4.zip)**
 
 This will download the file 1.6.4.zip to your current directory.
 
 Extract the contents of the zip file:
 
-unzip 1.6.4.zip
+**`unzip`` ``1.6.4.zip`**
 
 This will create a new directory named scavenger-1.6.4.
 
@@ -107,24 +113,26 @@ Compiling the source files
 
 Navigate to the scavenger-1.6.4 directory
 
-cd scavenger-1.6.4
+**`cd`` ``scavenger-1.6.4`**
 
-At this point it is worth deciding what you are going to use to do the mining, CPU/GPU and also what instruction sets are available on your device. See the README.md file located in the scavenger-1.6.4 directory for an overview of features to use. In this example, a CPU with the AVX2 instruction set will be used therefore the simd feature option is required. Run the following command to compile the code:
+At this point it is worth deciding what you are going to use to do the mining, CPU/GPU and also what instruction sets are available on your device. See the **[README.md](https://github.com/PoC-Consortium/scavenger/tree/1.6.4#scavenger---burstminer-in-rust)** file located in the scavenger-1.6.4 directory for an overview of features to use.
 
-cargo build --release --features=simd
+In this example, a CPU with the SSE2 instruction set will be used therefore the simd feature option is required (the same would work for AVX, AVX2 etc). Run the following command to compile the code:
+
+**`cargo`` ``build`` ``--release`` ``--features=simd`**
 
 Post compiling steps
 --------------------
 
 Copy the scavenger executable to the scavenger-1.6.4 directory (two levels up in this case). This placed it in the same directory as the config.yaml file which is required for it to run.
 
-cp scavenger ../../scavenger
+**`cp`` ``scavenger`` ``../../scavenger`**
 
-navigate back to your scavenger-1.6.4 directory from the release directory
+Navigate back to your scavenger-1.6.4 directory from the release directory
 
-cd ../..
+**`cd`` ``../..`**
 
-at this point you can run scavenger and it will make use of the test\_data file to simulate mining on the dev.burst-test.net
+At this point you can run scavenger and it will make use of the **test\_data** file to simulate mining on the dev.burst-test.net
 
 Once you know it will run you will need to configure the config.yaml file to your setup. The config file itself is well commented and the GitHub Wiki has further information if required:
 
@@ -133,16 +141,16 @@ Once you know it will run you will need to configure the config.yaml file to you
 Additional notes
 ----------------
 
-If the above steps were followed verbatim, all the scavenger files will be owned by root. It is not recommended to run as root so we will change the owner to a normal user, “burst” in this case.
+If the above steps were followed verbatim, all the scavenger files will be owned by root. It is not recommended to run as root so we will change the owner to a normal user, “burst” in this case. From the directory a level up from your scavenger-1.6.4 directory run:
 
-chown -R burst:burst scavenger-1.6.4
+**`chown`` ``-R`` ``burst:burst`` ``scavenger-1.6.4`**
 
-This will recursively change ownership to the user burst for all files and subdirectories within the scavenger-1.6.4 directory.
+This will recursively change ownership to the user “burst” for all files and subdirectories within the scavenger-1.6.4 directory.
 
 to logout of root type:
 
-exit
+**`exit`**
 
-You are now back at the shell as your normal user. You can now run scavenger by issuing the following command from the scavenger-1.6.4 directory:
+You are now back at the shell as your normal user (burst). You can now run scavenger by issuing the following command from the scavenger-1.6.4 directory:
 
-./scavenger
+`./scavenger`
