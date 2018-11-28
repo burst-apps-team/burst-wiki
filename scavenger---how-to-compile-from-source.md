@@ -165,4 +165,6 @@ You are now back at the shell as your normal user (burst). You can now run scave
 
 `./scavenger`
 
-Example output from running scavenger <img src="Run-scav.PNG" title="fig:Run-scav.PNG" alt="Run-scav.PNG" width="709" height="364" />
+Example output from running scavenger
+
+<img src="Run-scav.PNG" title="Run-scav.PNG" alt="Run-scav.PNG" width="709" height="364" />
