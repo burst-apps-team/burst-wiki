@@ -116,6 +116,7 @@ Compiling the source files
 Navigate to the scavenger-1.6.4 directory
 
 **`cd`` ``scavenger-1.6.4`**
+` `
 
 At this point it is worth deciding what you are going to use to do the mining, CPU/GPU and also what instruction sets are available on your device. See the **[README.md](https://github.com/PoC-Consortium/scavenger/tree/1.6.4#scavenger---burstminer-in-rust)** file located in the scavenger-1.6.4 directory for an overview of features to use.
 
