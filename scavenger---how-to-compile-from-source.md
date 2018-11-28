@@ -176,4 +176,6 @@ Links
 
 <https://github.com/PoC-Consortium/scavenger/releases/latest>
 
-**GitHub Documentation** <https://github.com/PoC-Consortium/scavenger/wiki>
+**GitHub Documentation**
+
+<https://github.com/PoC-Consortium/scavenger/wiki>
