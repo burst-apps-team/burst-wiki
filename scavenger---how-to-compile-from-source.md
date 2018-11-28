@@ -168,3 +168,12 @@ You are now back at the shell as your normal user (burst). You can now run scave
 Example output from running scavenger
 
 <img src="Run-scav.PNG" title="Run-scav.PNG" alt="Run-scav.PNG" width="709" height="364" />
+
+Links
+-----
+
+**Software**
+
+<https://github.com/PoC-Consortium/scavenger/releases/latest>
+
+**GitHub Documentation** <https://github.com/PoC-Consortium/scavenger/wiki>
