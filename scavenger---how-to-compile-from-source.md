@@ -21,7 +21,7 @@ Before you begin the installation, the following packages need to be installed:
 -   git
 -   build-essential
 
-1.  Change to root user:
+Change to root user:
 
 **`su`**
 
