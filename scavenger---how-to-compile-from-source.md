@@ -38,6 +38,8 @@ Once the above packages have completed installation, its time to install Rust.
 Installing Rust (nightly)
 -------------------------
 
+To install Rust, run the following command:
+
 **`curl`` `[`https://sh.rustup.rs`](https://sh.rustup.rs)` ``-sSf`` ``|`` ``sh`**
 
 You will be presented with three options (see below):
