@@ -12,7 +12,7 @@ Scavenger is a burst miner developped by the PoC Consortiun and written in Rust.
 
 The following steps are to install Scavenger 1.6.4 by compiling from source on a fresh installation of Debian Linux version 9 “Stretch”. Please be sure to check Git Repository for the latest release before proceeding.
 
-Note: commands to be entered into the shell will be formatted in bold text, e.g.:
+**Note:** Commands to be entered into the shell will be formatted in bold text, e.g.:
 
 **`date`**
 
