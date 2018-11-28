@@ -17,8 +17,8 @@ Prerequisites
 
 Before you begin the installation, the following packages need to be installed:
 
--   curl -
--   git -
+-   curl
+-   git
 -   build-essential
 
 Change to root user:
