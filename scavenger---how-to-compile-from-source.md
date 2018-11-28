@@ -12,6 +12,14 @@ Scavenger is a burst miner developped by the PoC Consortiun and written in Rust.
 
 The following steps are to install Scavenger 1.6.4 by compiling from source on a fresh installation of Debian Linux version 9 “Stretch”. Please be sure to check Git Repository for the latest release before proceeding.
 
+Note: commands to be entered into the shell will be formatted in bold text, e.g.:
+
+**`date`**
+
+example command outputs will not be bold, e.g.:
+
+`Wed 28 Nov 12:02:18 GMT 2018`
+
 Prerequisites
 -------------
 
@@ -116,7 +124,6 @@ Compiling the source files
 Navigate to the scavenger-1.6.4 directory
 
 **`cd`` ``scavenger-1.6.4`**
-` `
 
 At this point it is worth deciding what you are going to use to do the mining, CPU/GPU and also what instruction sets are available on your device. See the **[README.md](https://github.com/PoC-Consortium/scavenger/tree/1.6.4#scavenger---burstminer-in-rust)** file located in the scavenger-1.6.4 directory for an overview of features to use.
 
