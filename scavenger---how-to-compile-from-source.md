@@ -164,3 +164,5 @@ to logout of root type:
 You are now back at the shell as your normal user (burst). You can now run scavenger by issuing the following command from the scavenger-1.6.4 directory:
 
 `./scavenger`
+
+\#:<img src="Run-scav.PNG" title="fig:Run-scav.PNG" alt="Run-scav.PNG" width="709" height="364" />
