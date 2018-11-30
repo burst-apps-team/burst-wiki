@@ -32,7 +32,7 @@ will take the old `nxt-default.properties`/`nxt.properties` files and create `br
 Step-by-Step Guide
 ------------------
 
-The following steps are to install Scavenger 1.6.4 by compiling from source on a fresh installation of **Debian Linux version 9 “Stretch”**. Please be sure to check Git Repository for the latest release before proceeding.
+The following steps are to install BRS Core Wallet on a fresh installation of **Debian Linux version 9 “Stretch”**. Please be sure to check Git Repository for the latest release before proceeding.
 
 **Note:** Commands to be entered into the shell will be formatted in bold text, e.g.:
 
