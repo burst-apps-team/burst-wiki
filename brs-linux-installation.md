@@ -111,9 +111,9 @@ During installation you will be prompted to enter a password for the root user. 
 Create a database(**brs\_master**), user (**brs\_user**) and assign a password to the user by running the following command:
 
 `'''echo "CREATE DATABASE brs_master; '''`
-`'''CREATE USER 'brs_user'@'localhost' IDENTIFIED BY 'yourpassword';`
+**`CREATE`` ``USER`` ``'brs_user'@'localhost'`` ``IDENTIFIED`` ``BY`` ``'yourpassword';`**
 `GRANT ALL PRIVILEGES ON brs_master.* TO 'brs_user'@'localhost';" | mysql -uroot -p`
-`mysql -uroot -p < init-mysql.sql'''`
+`mysql -uroot -p < init-mysql.sql`
 
 This will prompt you for the password you entered for the root user when installing mariaDB
 
@@ -130,7 +130,6 @@ Unzip the burstcoin zip file to the newly created directory:
 Navigate to the conf subdirectory within the newly created directory:
 
 **`cd`` ``BRSWallet/conf`**
-` `
 
 Make a copy of brs-default.properties and name it “**brs.properties**”**:**
 
@@ -140,9 +139,9 @@ Edit brs.properties:
 
 **`vi`` ``brs.properties`**
 `     Find, amend and save the following lines:`
-`'''DB.Url=jdbc:mariadb://localhost:3306/brs_master`
+**`DB.Url=jdbc:mariadb://localhost:3306/brs_master`**
 `DB.Username=brs_user`
-`DB.Password=yourpassword'''`
+`DB.Password=yourpassword`
 
 The **burst.sh** file is not yet executable. We need to change the permissions to make it so. Drop back to the BRSWallet directory **`cd`` ``..`** and issue the following:
 
@@ -238,6 +237,25 @@ Navigate to the BRSWallet parent directory
 Change ownership of all files and directores within the BRSWallet directory:
 
 **`chown`` ``-R`` ``burst:burst`` ``BRSWallet/`**
+
+Now the ownership has ben changed to the user burst:
+
+total 1399344
+
+`-rw-r--r-- 1 burst burst       2506 Nov 29 16:59 brs.log`
+`-rw-r--r-- 1 burst burst 1409751247 Nov  5 12:29 brs.mariadb.zip`
+`-rw-r--r-- 1 burst burst        507 Nov 18 22:17 burst.cmd`
+`drwxr-xr-x 2 burst burst       4096 Nov 18 22:16 burst_db`
+`-rw-r--r-- 1 burst burst   23015701 Nov 18 22:17 burst.jar`
+`-rwxr-x--- 1 burst burst      17831 Nov 18 22:17 burst.sh`
+`-rw-r--r-- 1 burst burst         46 Nov 18 22:17 Burst_Wallet.url`
+`drwxr-xr-x 2 burst burst       4096 Nov 30 10:39 conf`
+`-rw-r--r-- 1 burst burst      29288 Nov 18 22:17 genscoop.cl`
+`drwxr-xr-x 3 burst burst       4096 Nov 18 22:17 html`
+`-rw-r--r-- 1 burst burst      23232 Nov 18 22:17 init-mysql.sql`
+`drwxr-xr-x 3 burst burst       4096 Nov 18 22:17 lib`
+`-rw-r--r-- 1 burst burst      35149 Nov 18 22:17 LICENSE.txt`
+`-rw-r--r-- 1 burst burst       4574 Nov 18 22:17 README.md`
 
 At this stage you can reboot the machine to ensure that the environmental variables are applied to every user session going forward. Following the reboot, log in as the your normal user (burst in this case) and run the wallet:
 
