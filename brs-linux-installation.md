@@ -8,7 +8,8 @@ Table Of Contents
 
 \_\_TOC\_\_
 
-### Debian & Ubuntu
+Debian & Ubuntu
+---------------
 
 Download the latest version of BRS here (zip) : <https://github.com/PoC-Consortium/burstcoin/releases>.
 
@@ -28,7 +29,8 @@ will take the old `nxt-default.properties`/`nxt.properties` files and create `br
 
 ------------------------------------------------------------------------
 
-### Step-by-Step Guide
+Step-by-Step Guide
+------------------
 
 The following steps are to install Scavenger 1.6.4 by compiling from source on a fresh installation of **Debian Linux version 9 “Stretch”**. Please be sure to check Git Repository for the latest release before proceeding.
 
@@ -40,8 +42,7 @@ example command outputs will not be bold, e.g.:
 
 `Wed 28 Nov 12:02:18 GMT 2018`
 
-Prerequisites
--------------
+### Prerequisites
 
 Before you begin the installation, the following packages need to be installed:
 
@@ -57,8 +58,7 @@ Run the following command to install the above packages:
 
 **`apt`` ``install`` ``curl`` ``default-jdk`` ``dirmngr`` ``-y`**
 
-Configuring Java environment path
----------------------------------
+### Configuring Java environment path
 
 Find the path to the jdk
 
@@ -89,8 +89,7 @@ This will output the path you entered into the environment file. Now confirm the
 
 **`javac`` ``-version`**
 
-Installing MariaDB
-------------------
+### Installing MariaDB
 
 Add the MariaDB signing key
 
@@ -119,8 +118,7 @@ Create a database(**brs\_master**), user (**brs\_user**) and assign a password t
 
 This will prompt you for the password you entered for the root user when installing mariaDB
 
-Configuring the BRS Wallet
---------------------------
+### Configuring the BRS Wallet
 
 Grab the BRSWallet zip from GitHub (always be sure to check link to the latest version. (2.2.5 was latest at time of writing) wget <https://github.com/PoC-Consortium/burstcoin/releases/download/2.2.5/burstcoin-2.2.5.zip>
 
@@ -171,8 +169,7 @@ Now when we list the contents of the directory we can see that the **burst.sh** 
 `-rw-r--r-- 1 root root      35149 Nov 18 22:17 LICENSE.txt`
 `-rw-r--r-- 1 root root       4574 Nov 18 22:17 README.md`
 
-Importing the database
-----------------------
+### Importing the database
 
 The quickest way to get up an running is to bootstrap the database by importing a relatively up to date dump of the database. Your wallet will synchronise from this point in time automatically. If you prefer to synchronise from scratch this will take much longer to complete.
 
@@ -215,8 +212,7 @@ Remove the download DB dump zip file to reclaim space and avoid an outdated zip 
 
 **`rm`` ``brs.mariadb.zip`**
 
-Running the Wallet
-------------------
+### Running the Wallet
 
 We need to change owner from root to a normal user as all the files/directories are now owned by root (see below)
 
