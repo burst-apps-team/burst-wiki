@@ -119,6 +119,9 @@ Create a database(**brs\_master**), user (**brs\_user**) and assign a password t
 
 This will prompt you for the password you entered for the root user when installing mariaDB
 
+Configuring the BRS Wallet
+--------------------------
+
 Grab the BRSWallet zip from GitHub (always be sure to check link to the latest version. (2.2.5 was latest at time of writing) wget <https://github.com/PoC-Consortium/burstcoin/releases/download/2.2.5/burstcoin-2.2.5.zip>
 
 Create a directory to unzip to:
