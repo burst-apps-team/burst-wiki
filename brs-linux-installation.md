@@ -242,8 +242,7 @@ Change ownership of all files and directores within the BRSWallet directory:
 
 Now the ownership has ben changed to the user burst:
 
-total 1399344
-
+`total 1399344`
 `-rw-r--r-- 1 burst burst       2506 Nov 29 16:59 brs.log`
 `-rw-r--r-- 1 burst burst 1409751247 Nov  5 12:29 brs.mariadb.zip`
 `-rw-r--r-- 1 burst burst        507 Nov 18 22:17 burst.cmd`
