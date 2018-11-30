@@ -42,7 +42,7 @@ example command outputs will not be bold, e.g.:
 
 Make sure your installation is up to date
 
-`apt update && apt upgrade`
+**`apt`` ``update`` ``&&`` ``apt`` ``upgrade`**
 
 Prerequisites
 -------------
@@ -51,20 +51,29 @@ Prerequisites
 -   curl
 -   dirmngr
 
-Run the following command to install the above packages: apt install curl default-jdk dirmngr -y
+Run the following command to install the above packages:
+
+**`apt`` ``install`` ``curl`` ``default-jdk`` ``dirmngr`` ``-y`**
 
 Configuring Java environment path
 ---------------------------------
 
-Find the path to the jdk update-alternatives --config javac
+Find the path to the jdk
+
+update-alternatives --config javac
 
 If only one version of Java is installed, this will give you a similar output to the following:
 
-here is only one alternative in link group javac (providing /usr/bin/javac): /usr/lib/jvm/java-8-openjdk-amd64/bin/javac Nothing to configure.
+`There is only one alternative in link group javac (providing /usr/bin/javac): /usr/lib/jvm/java-8-openjdk-amd64/bin/javac`
+`Nothing to configure.`
 
-Copy the path from the last output and edit the environment file: vi /etc/environment
+Copy the path from the last output and edit the environment file:
 
-add the following line to the file: line JAVA\_HOME=“/usr/lib/jvm/java-8-openjdk-amd64/bin/javac” (taken from the path above)
+**`vi`` ``/etc/environment`**
+
+Add the following line to the file:
+
+**`JAVA_HOME=`“`/usr/lib/jvm/java-8-openjdk-amd64/bin/javac`”**` (taken from the path above)`
 
 To make the above change efective in your current shel, run the following: source /etc/environment
 
