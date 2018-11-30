@@ -71,11 +71,7 @@ Copy the path from the last output and edit the environment file:
 
 **`vi`` ``/etc/environment`**
 
-Add the following line to the file:
-
-**`JAVA_HOME=`“`/usr/lib/jvm/java-8-openjdk-amd64/bin/javac`”**` (taken from the path above)`
-
-To make the above change efective in your current shel, run the following: source /etc/environment
+Add the following line to the file: **`JAVA_HOME=`“`/usr/lib/jvm/java-8-openjdk-amd64/bin/javac`”** (taken from the path above) To make the above change efective in your current shel, run the following: source /etc/environment
 
 now test that the JAVA\_HOME variable is part of PATH echo $JAVA\_HOME This will output the path you entered into the environment file
 
