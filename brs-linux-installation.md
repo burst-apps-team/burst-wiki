@@ -60,7 +60,7 @@ Configuring Java environment path
 
 Find the path to the jdk
 
-`update-alternatives --config javac`
+**`update-alternatives`` ``--config`` ``javac`**
 
 If only one version of Java is installed, this will give you a similar output to the following:
 
@@ -111,9 +111,9 @@ During installation you will be prompted to enter a password for the root user. 
 Create a database(**brs\_master**), user (**brs\_user**) and assign a password to the user by running the following command:
 
 `'''echo "CREATE DATABASE brs_master; '''`
-**`CREATE`` ``USER`` ``'brs_user'@'localhost'`` ``IDENTIFIED`` ``BY`` ``'yourpassword';`**
+`'''CREATE USER 'brs_user'@'localhost' IDENTIFIED BY 'yourpassword';`
 `GRANT ALL PRIVILEGES ON brs_master.* TO 'brs_user'@'localhost';" | mysql -uroot -p`
-`mysql -uroot -p < init-mysql.sql`
+`mysql -uroot -p < init-mysql.sql'''`
 
 This will prompt you for the password you entered for the root user when installing mariaDB
 
@@ -140,8 +140,8 @@ Edit brs.properties:
 **`vi`` ``brs.properties`**
 `     Find, amend and save the following lines:`
 **`DB.Url=jdbc:mariadb://localhost:3306/brs_master`**
-`DB.Username=brs_user`
-`DB.Password=yourpassword`
+`'''DB.Username=brs_user`
+`DB.Password=yourpassword'''`
 
 The **burst.sh** file is not yet executable. We need to change the permissions to make it so. Drop back to the BRSWallet directory **`cd`` ``..`** and issue the following:
 
@@ -208,7 +208,7 @@ Answer the questions when prompted. If you are running the wallet locally on the
 
 Remove the download DB dump zip file to reclaim space and avoid an outdated zip file in future if you require a DB bootstrap
 
-`rm brs.mariadb.zip`
+**`rm`` ``brs.mariadb.zip`**
 
 Running the Wallet
 ------------------
