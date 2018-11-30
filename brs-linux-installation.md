@@ -60,7 +60,7 @@ Configuring Java environment path
 
 Find the path to the jdk
 
-update-alternatives --config javac
+`update-alternatives --config javac`
 
 If only one version of Java is installed, this will give you a similar output to the following:
 
@@ -108,10 +108,10 @@ Install MariaDB:
 
 During installation you will be prompted to enter a password for the root user. Enter and remember this as we will need it later.
 
-Create a database(brs\_master), user (brs\_user) and assign a password to the user by running the following command:
+Create a database(**brs\_master**), user (**brs\_user**) and assign a password to the user by running the following command:
 
-`'''echo "CREATE DATABASE brs_master; `
-`CREATE USER 'brs_user'@'localhost' IDENTIFIED BY 'yourpassword';`
+`'''echo "CREATE DATABASE brs_master; '''`
+`'''CREATE USER 'brs_user'@'localhost' IDENTIFIED BY 'yourpassword';`
 `GRANT ALL PRIVILEGES ON brs_master.* TO 'brs_user'@'localhost';" | mysql -uroot -p`
 `mysql -uroot -p < init-mysql.sql'''`
 
@@ -130,7 +130,7 @@ Unzip the burstcoin zip file to the newly created directory:
 Navigate to the conf subdirectory within the newly created directory:
 
 **`cd`` ``BRSWallet/conf`**
-`  `
+` `
 
 Make a copy of brs-default.properties and name it “**brs.properties**”**:**
 
@@ -142,7 +142,7 @@ Edit brs.properties:
 `     Find, amend and save the following lines:`
 `'''DB.Url=jdbc:mariadb://localhost:3306/brs_master`
 `DB.Username=brs_user`
-`DB.Password=yourpassword''' `
+`DB.Password=yourpassword'''`
 
 The **burst.sh** file is not yet executable. We need to change the permissions to make it so. Drop back to the BRSWallet directory **`cd`` ``..`** and issue the following:
 
@@ -157,7 +157,7 @@ Now when we list the contents of the directory we can see that the **burst.sh** 
 `-rw-r--r-- 1 root root        507 Nov 18 22:17 burst.cmd`
 `drwxr-xr-x 2 root root       4096 Nov 18 22:16 burst_db`
 `-rw-r--r-- 1 root root   23015701 Nov 18 22:17 burst.jar`
-`-rwxr-x--- 1 root root      17831 Nov 18 22:17 burst.sh`
+*`-rwxr-x---`` ``1`` ``root`` ``root`` ``17831`` ``Nov`` ``18`` ``22:17`` ``burst.sh`*
 `-rw-r--r-- 1 root root         46 Nov 18 22:17 Burst_Wallet.url`
 `drwxr-xr-x 2 root root       4096 Nov 29 15:44 conf`
 `-rw-r--r-- 1 root root      29288 Nov 18 22:17 genscoop.cl`
@@ -210,6 +210,9 @@ Answer the questions when prompted. If you are running the wallet locally on the
 Remove the download DB dump zip file to reclaim space and avoid an outdated zip file in future if you require a DB bootstrap
 
 `rm brs.mariadb.zip`
+
+Running the Wallet
+------------------
 
 We need to change owner from root to a normal user as all the files/directories are now owned by root (see below)
 
