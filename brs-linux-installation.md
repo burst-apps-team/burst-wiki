@@ -40,16 +40,18 @@ example command outputs will not be bold, e.g.:
 
 `Wed 28 Nov 12:02:18 GMT 2018`
 
-Make sure your installation is up to date
-
-**`apt`` ``update`` ``&&`` ``apt`` ``upgrade`**
-
 Prerequisites
 -------------
+
+Before you begin the installation, the following packages need to be installed:
 
 -   java 8 jdk
 -   curl
 -   dirmngr
+
+Make sure your installation is up to date
+
+**`apt`` ``update`` ``&&`` ``apt`` ``upgrade`**
 
 Run the following command to install the above packages:
 
@@ -111,9 +113,9 @@ During installation you will be prompted to enter a password for the root user. 
 Create a database(**brs\_master**), user (**brs\_user**) and assign a password to the user by running the following command:
 
 `'''echo "CREATE DATABASE brs_master; '''`
-`'''CREATE USER 'brs_user'@'localhost' IDENTIFIED BY 'yourpassword';`
+**`CREATE`` ``USER`` ``'brs_user'@'localhost'`` ``IDENTIFIED`` ``BY`` ``'yourpassword';`**
 `GRANT ALL PRIVILEGES ON brs_master.* TO 'brs_user'@'localhost';" | mysql -uroot -p`
-`mysql -uroot -p < init-mysql.sql'''`
+`mysql -uroot -p < init-mysql.sql`
 
 This will prompt you for the password you entered for the root user when installing mariaDB
 
@@ -140,8 +142,8 @@ Edit brs.properties:
 **`vi`` ``brs.properties`**
 `     Find, amend and save the following lines:`
 **`DB.Url=jdbc:mariadb://localhost:3306/brs_master`**
-`'''DB.Username=brs_user`
-`DB.Password=yourpassword'''`
+**`DB.Username=brs_user`**
+`DB.Password=yourpassword`
 
 The **burst.sh** file is not yet executable. We need to change the permissions to make it so. Drop back to the BRSWallet directory **`cd`` ``..`** and issue the following:
 
