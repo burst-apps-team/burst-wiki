@@ -3,12 +3,19 @@
 | **Status** |
 ||
 
+Table of contents
+-----------------
+
+\_\_TOC\_\_
+
 Introduction to Burstcoin mining
 --------------------------------
 
 The process of mining cryptocurrencies is the foundation for the blockchain to grow and secure transactions within the network. The process of mining is present in cryptocurrencies other than those that use the Proof-of-Stake consensus algorithm. Burstcoin (or Burst) uses the Proof-of-Capacity consensus algorithm, which uses precomputed hashes to find values that can be used to forge a block. The precomputed hashes are stored to HDDs prior to mining, hence Burst mining is also referred to as “storage” or “HDD” mining. The process of precomputing and storing hashes that precedes the process of mining is referred to as [plotting](plotting.md), and the resulting files are called plot files.
 
 Burstcoin uses the Shabal cryptographic hash function as its main function, which is slow and heavy in comparison to other cryptographic hash functions, such as the SHA256. This feature makes it ideal for precomputation of hashes, while it's still fast enough for small live verifications. Burst uses the 256bit version of Shabal, known as Shabal256.
+
+### Lexicon
 
 **Plot files**
 
@@ -59,6 +66,8 @@ In pools that use the PoCC pool mining software, the effective plot size is the 
 **Mining revenue**
 
 The mining revenue consists of the block reward and of transaction fees from the forged block. The block reward decreases each 10400 blocks. Depending on the plot size, the mining calculator provided in the Burst explorer can give an estimate regarding the expected mining revenue. The mining calculator is available at this link: <https://explore.burst.cryptoguru.org/tool/calculate> and will give an estimation using the current block reward and base target.
+
+### Technical information about mining
 
 **Mining and forging a block**
 
