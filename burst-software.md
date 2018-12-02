@@ -32,6 +32,18 @@ The easiest choice for beginners on Windows is to download Qbundle, a launcher a
 
 **Platform** : Windows
 
+### Easy2Burst
+
+<img src="DymaxionCW.png" title="DymaxionCW.png" alt="DymaxionCW.png" width="150" height="150" />
+
+Easy2Burst is the successor of QBundle.
+
+**Main Dev** : HeosSacer
+
+**Github repo** : <https://github.com/HeosSacer/Easy2Burst>
+
+**Platform** : Windows, Linux, MacOS
+
 ### [Burst Reference Software (BRS)](burst-reference-software.md)
 
 <img src="StableW.png" title="fig:StableW.png" alt="StableW.png" width="150" height="150" /><img src="LocalW.png" title="fig:LocalW.png" alt="LocalW.png" width="150" height="150" /><img src="DymaxionCW.png" title="fig:DymaxionCW.png" alt="DymaxionCW.png" width="150" height="150" />
@@ -43,6 +55,18 @@ The Burst Reference Software is the wallet/software itself behind QBundle. This 
 **Download link** : <https://github.com/PoC-Consortium/burstcoin/releases/latest>
 
 **Platform** : Windows, Linux
+
+### Aspera
+
+<img src="DymaxionCW.png" title="DymaxionCW.png" alt="DymaxionCW.png" width="150" height="150" />
+
+Aspera is a Burst Wallet written in go. This wallet opens up a whole new dimension for Burst with state-of-the are technologies (partial blocks validation , new front-end, etc.).
+
+**Main Dev** : PoC-Consortium
+
+**Github repo** : <https://github.com/PoC-Consortium/Aspera>
+
+**Platform** : Windows, Linux, MacOS
 
 ### Burstcoin mobile wallet
 
@@ -71,7 +95,7 @@ dApps
 
 ### CloudBurst
 
-<img src="StableW.png" title="fig:StableW.png" alt="StableW.png" width="150" height="150" /><img src="DymaxionCW.png" title="fig:DymaxionCW.png" alt="DymaxionCW.png" width="170" height="170" />
+<img src="StableW.png" title="fig:StableW.png" alt="StableW.png" width="150" height="150" /><img src="DymaxionCW.png" title="fig:DymaxionCW.png" alt="DymaxionCW.png" width="150" height="150" />
 
 CloudBurst is a decentralized cloud storage application to upload & download files from the Burstcoin blockchain.
 
@@ -83,7 +107,7 @@ CloudBurst is a decentralized cloud storage application to upload & download fil
 
 ### BurstCoupon
 
-<img src="StableW.png" title="fig:StableW.png" alt="StableW.png" width="150" height="150" /><img src="DymaxionCW.png" title="fig:DymaxionCW.png" alt="DymaxionCW.png" width="170" height="170" />
+<img src="StableW.png" title="fig:StableW.png" alt="StableW.png" width="150" height="150" /><img src="DymaxionCW.png" title="fig:DymaxionCW.png" alt="DymaxionCW.png" width="150" height="150" />
 
 BurstCoupon allows you to create and claim password protected coupons as extension for the Burstcoin blockchain.
 
@@ -243,15 +267,15 @@ The creepMiner is a client application for mining Burst on a pool or solo. It su
 Pool Software 
 --------------
 
-### GoBurstPool
+### Nogrod
 
 <img src="StableW.png" title="fig:StableW.png" alt="StableW.png" width="150" height="150" /><img src="DymaxionCW.png" title="fig:DymaxionCW.png" alt="DymaxionCW.png" width="150" height="150" /><img src="POC2W.png" title="fig:POC2W.png" alt="POC2W.png" width="150" height="150" />
 
-GoBurstPool is the all-new PoCC pool software written in GO. It provides SSE4 + AVX2 support, fair share system based on estimated capacity, grpc api, multiple wallets as backends using the wallet API, can talk directly to wallet database, and finaly dynamic payout thresholds/intervals based on messages on the blockchain.
+Nogrod is the all-new PoCC pool software written in GO. It provides SSE4 + AVX2 support, fair share system based on estimated capacity, grpc api, multiple wallets as backends using the wallet API, can talk directly to wallet database, and finaly dynamic payout thresholds/intervals based on messages on the blockchain.
 
 **Main Dev** : PoC-Consortium
 
-**Download link** : <https://github.com/PoC-Consortium/goburstpool>
+**Download link** : <https://github.com/PoC-Consortium/Nogrod>
 
 **Platform** : Linux
 
