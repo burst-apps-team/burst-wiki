@@ -2498,6 +2498,19 @@ Utilities <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" wi
 Mining
 ------
 
+### Get Mining Info
+
+**Response:**
+
+``` json
+{
+    "generationSignature": "2cfe207000274ed4194fc32699ab4265a3c8698d31aa169c24e87ef51b1dd985",
+    "baseTarget": "53922",
+    "requestProcessingTime": 0,
+    "height": "562666"
+}
+```
+
 ### Get Accounts With Reward Recipient
 
 **Response:**
