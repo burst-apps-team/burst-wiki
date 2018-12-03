@@ -60,7 +60,7 @@ The Burst Reference Software is the wallet/software itself behind QBundle. This 
 
 <img src="DymaxionCW.png" title="DymaxionCW.png" alt="DymaxionCW.png" width="150" height="150" />
 
-Aspera is a Burst Wallet written in go. This wallet opens up a whole new dimension for Burst with state-of-the are technologies (partial blocks validation , new front-end, etc.).
+Aspera is a Burst Wallet written in go. This wallet opens up a whole new dimension for Burst with state-of-the art technologies (partial blocks validation, new front-end, etc.).
 
 **Main Dev** : PoC-Consortium
 
