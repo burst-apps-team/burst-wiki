@@ -2536,4 +2536,15 @@ Mining
 }
 ```
 
+### Get Reward Recipient
+
+**Response:**
+
+``` json
+{
+    "rewardRecipient": "16922903237994405232",
+    "requestProcessingTime": 1
+}
+```
+
 </translate>
