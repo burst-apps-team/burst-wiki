@@ -2547,4 +2547,40 @@ Mining
 }
 ```
 
+Automated Transactions
+----------------------
+
+### Get Account ATs
+
+**Response:**
+
+``` json
+{
+    "ats": [
+        {
+            "atVersion": 1,
+            "creator": "10039158734712770142",
+            "creatorRS": "BURST-35LY-PRT7-A9MR-A3LNQ",
+            "stopped": true,
+            "machineCode": "350003000000002501000000350004020000002102000000030000004f35010304*",
+            "description": "this is my first time using the crowdfunding thing. just want to see if it works.Crowdfund",
+            "machineData": "0000000000000000c04e000000000000000000000000000000aea68f02*",
+            "frozen": false,
+            "finished": false,
+            "dead": false,
+            "balanceNQT": "0",
+            "nextBlock": 559302,
+            "minActivation": "700000000",
+            "running": false,
+            "at": "8736107560017092008",
+            "name": "justtryingthisout",
+            "atRS": "BURST-SRFA-KAX8-SQ29-959HL",
+            "prevBalanceNQT": "0",
+            "creationBlock": 559302
+        }
+    ],
+    "requestProcessingTime": 4
+}
+```
+
 </translate>
