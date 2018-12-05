@@ -255,4 +255,41 @@ You will see the following output:
 
 `[INFO] 2018-11-29 16:53:12 brs.Burst - Shutting down...`
 
-To avoid this, the burst scrips should be run as a Daemon.
+### Configure BRS to run as a service/daemon
+
+Closing the terminal or pressing Ctrl-c will result to a shutdown of the wallet. To avoid this, BRS should be run as a service. It is particularly helpful if you run BRS on a linux system using SSH.
+
+First, if systemd isn't installed on your system, run the following command:
+
+**`sudo`` ``apt`` ``install`` ``systemd`**
+
+Then, you will have to create a new service file for BRS:
+
+**`sudo`` ``nano`` ``/etc/systemd/system/brs.service`**
+
+Add the following configuration (replace description, Exec, WorkingDirectory and User according to your setup):
+
+`[Unit]`
+`Description=BRS Wallet`
+`After=network.target`
+`Wants=network.target`
+`[Service]`
+`ExecStart=/usr/bin/java -cp /home/burst/burst.jar:/home/burst/conf brs.Burst`
+`WorkingDirectory=/home/burst/`
+`User=brs-mariadb`
+`Restart=always`
+`RestartSec=90`
+`[Install]`
+`WantedBy=multi-user.target`
+
+After that, enable the service:
+
+**`sudo`` ``systemctl`` ``enable`` ``brs.service`**
+
+To start the service, type:
+
+**`systemctl`` ``start`` ``brs.service`**
+
+To get the status of the service:
+
+**`systemctl`` ``status`` ``brs.service`**
