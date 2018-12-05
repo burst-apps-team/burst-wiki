@@ -112,7 +112,7 @@
 \* Online wallets: [PoCC](https://wallet.burst.cryptoguru.org:8125/index.html), poolofd32th: [1](https://wallet.poolofd32th.club/index.html), [2](https://wallet2.poolofd32th.club/index.html). Burst-Team: [3](https://wallet3.burst-team.us:2083/index.html), [4](https://wallet4.burst-team.us:2083/index.html), [5](https://wallet5.burst-team.us:2083/index.html)
 
 -   TestNet: [PoCC TestNet](https://wallet.dev.burst-test.net/)
--   Blockchain Explorer: [PoCC](https://explore.burst.cryptoguru.org/)
+-   Blockchain Explorer: [PoCC](https://explore.burst.cryptoguru.org/), [.RO](https://explore.burstcoin.ro/), [Neon](http://burstneon.com/monitor?id=16020314477710380875)
 -   Tx Notification Service: [Burst Alerts](http://burstalerts.com/)
 -   Network Observer: [Luxe](http://burstcoin.cc/), [PoCC](https://explore.burst.cryptoguru.org/tool/observe)
 -   [Burst Today](http://www.burst.today/)
