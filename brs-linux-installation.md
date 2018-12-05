@@ -50,7 +50,7 @@ If only one version of Java is installed, this will give you a similar output to
 
 Copy the path from the last output and edit the environment file:
 
-**`vi`` ``/etc/environment`**
+**`nano`` ``/etc/environment`**
 
 Add the following line to the file:
 
