@@ -115,17 +115,15 @@ Navigate to the conf subdirectory within the newly created directory:
 
 **`cd`` ``BRSWallet/conf`**
 
-Make a copy of brs-default.properties and name it “**brs.properties**”**:**
+Create a brs.properties file inside the conf folder:
 
-**`cp`` ``brs-default.properties`` ``brs.properties`**
+**`nano`` ``brs.properties`**
 
-Edit brs.properties:
+Add the following lines:
 
-**`vi`` ``brs.properties`**
-`     Find, amend and save the following lines:`
 **`DB.Url=jdbc:mariadb://localhost:3306/brs_master`**
 **`DB.Username=brs_user`**
-`DB.Password=yourpassword`
+**`DB.Password=yourpassword`**
 
 The **burst.sh** file is not yet executable. We need to change the permissions to make it so. Drop back to the BRSWallet directory **`cd`` ``..`** and issue the following:
 
