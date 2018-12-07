@@ -43,20 +43,18 @@ Therefore, by using more than one storage method, you lower the risk.
 Keeping Your Passphrase Safe
 
 </h1>
-Eventually you have to use your passphrase on your local workstation to sign transactions.
+Eventually you have to use your passphrase on your local computer in order to sign transactions. Before entering your passphrase on a local computer, you need to be certain that the computer is safe from intrusion. This means that you must be certain that your computer has not been compromised with any malicious software that could be logging your keystrokes.
 
-So you have to store it securely, preferably in more than one place, and at least one of these places needs to be easily accessible.
-
-Again there is no 100% security, but there are best practices:
+There is no 100% security, but there are best practices:
 
 -   Don't share your passphrase with anyone.
 -   Don't store your passphrase unencrypted on a remote node or your local workstation.
 -   Always use the official BURST wallet.
 -   Take special care when connecting to remote nodes.
 -   Do not leave your passphrase printed on paper next to your computer.
--   Split your BURST to several accounts, use the smaller balances for daily operations and only access the higher balance accounts when necessary.
+-   Split your BURST into several accounts. Use the accounts with smaller balances for daily operations and only access the higher balance accounts when necessary.
 
-Using a password manager, that allows you to store multiple passwords encrypted under a single database password, can be secure and convenient. A free, open source option is Keepass.
+Using a password manager that allows you to store multiple passwords encrypted under a single database password can be secure and convenient. A free, open source option is Keepass.
 
 <h1>
 How Secure is your Passphrase?
