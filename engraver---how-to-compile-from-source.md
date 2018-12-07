@@ -86,18 +86,18 @@ This will download and extract the files to the engraver sub directory (from whe
 
 Navigate to the engraver directory:
 
-cd engraver
+**`cd`` ``engraver`**
 
 build the application:
 
-cargo build --release
+**`cargo`` ``build`` ``--release`**
 
 Once this has completed, navigate to the executable:
 
-cd /target/release
+**`cd`` ``/target/release`**
 
-from here you can run engraver and begin plotting. Example command:
+From here you can run engraver and begin plotting. Example command:
 
-./engraver --n 1000 --id 12345678912345678912 --path /home/burst/Burst --sn 0
+**`./engraver`` ``--n`` ``1000`` ``--id`` ``12345678912345678912`` ``--path`` ``/home/burst/Burst`` ``--sn`` ``0`**
 
-To understand the complete range of flags/options available for the engraver application, please read the Wiki page on GitHub
+To understand the complete range of flags/options available for the engraver application, please read the [Wik](https://github.com/PoC-Consortium/engraver/wiki)i page on GitHub
