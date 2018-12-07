@@ -84,6 +84,9 @@ To download the source files from the Git repository, run the following command,
 
 This will download and extract the files to the engraver sub directory (from where your present working direcory is)
 
+Compiling the source files
+--------------------------
+
 Navigate to the engraver directory:
 
 **`cd`` ``engraver`**
@@ -92,7 +95,10 @@ build the application:
 
 **`cargo`` ``build`` ``--release`**
 
-Once this has completed, navigate to the executable:
+Running Engraver
+----------------
+
+Once the above has completed, navigate to the executable:
 
 **`cd`` ``/target/release`**
 
