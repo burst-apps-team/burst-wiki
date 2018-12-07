@@ -26,9 +26,9 @@ If you are someone with a propensity to always mess up things online and always 
 Best Ways to Remember your Passphrase
 
 </h1>
-If you lose your passphrase there is no way to recover it. The chance of forgetting your passphrase is much higher than getting your password stolen.
+If you lose your passphrase there is no way to recover it. The chance of forgetting your passphrase is much higher than having your password stolen.
 
-The best way not to forget your passphrase is to store it somewhere safe, preferably in more than one secure place or backing up your secure storage somewhere safe.
+The best way not to forget your passphrase is to store it somewhere that is safe, preferably in more than one secure location. If you will be storing your passphrase on a computer or other hardware, it is important to maintain a backup copy of your files in another location as protection against equipment failure.
 
 You have to accept that there are risks no matter where you store your passphrase.
 
