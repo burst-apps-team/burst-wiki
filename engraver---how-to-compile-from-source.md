@@ -104,4 +104,4 @@ From here you can run engraver and begin plotting. Example command:
 
 **`./engraver`` ``--n`` ``1000`` ``--id`` ``12345678912345678912`` ``--path`` ``/home/burst/Burst`` ``--sn`` ``0`**
 
-To understand the complete range of flags/options available for the engraver application, please read the [Wik](https://github.com/PoC-Consortium/engraver/wiki)i page on GitHub
+To understand the complete range of flags/options available for the engraver application, please read the [Wiki](https://github.com/PoC-Consortium/engraver/wiki) page on GitHub.
