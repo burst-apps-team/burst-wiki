@@ -20,7 +20,7 @@ Let's analyze the various risks and how to mitigate them. The main risks are:
 -   Letting someone steal your passphrase.
 -   Accidentally sending your BURST to an account with an unknown passphrase.
 
-If you are one of those guys who always mess up things online and need customer support, you will have to exercise extra care to not to lose your BURST one way or the other.
+If you are someone with a propensity to always mess up things online and need customer support, you will have to exercise extra care to not to lose your BURST.
 
 <h1>
 Best Ways to Remember your Passphrase
