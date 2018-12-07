@@ -69,7 +69,7 @@ To confirm the instalation of the correct channel of Rust, type the following:
 
 **`rustc`` ``--version`**
 
-This should give you the output below, note the “*nightly*” present (version correct at time of writing):
+This should give you the output below:
 
 `rustc 1.31.0 (abe02cefd 2018-12-04)`
 
@@ -80,7 +80,7 @@ To download the source files from the Git repository, run the following command,
 
 **`git`` ``clone`` `[`https://github.com/PoC-Consortium/engraver`](https://github.com/PoC-Consortium/engraver)**
 
-This will download and extract the files to the engraver sub directory (from where your present working direcory is)
+This will download and extract the files to the engraver sub directory (from where your present working directory is)
 
 Compiling the source files
 --------------------------
