@@ -43,8 +43,8 @@ Once the above packages have completed installation, its time to install Rust.
 
 **Note:** The features used when compiling Scavenger are not available on the stable release channel of rust, therefore the nightly channel needs to be installed.
 
-Installing Rust (nightly)
--------------------------
+Installing Rust (stable)
+------------------------
 
 To install Rust, run the following command:
 
