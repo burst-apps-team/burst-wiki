@@ -101,7 +101,7 @@ This will prompt you for the password you entered for the root user when install
 
 Grab the BRSWallet zip from GitHub (always be sure to check link to the latest version. (2.2.5 was latest at time of writing)
 
-`wget https://github.com/PoC-Consortium/burstcoin/releases/download/2.2.5/burstcoin-2.2.5.zip`
+`wget https://github.com/PoC-Consortium/burstcoin/releases/download/2.2.6/burstcoin-2.2.6.zip`
 
 Create a directory to unzip to:
 
