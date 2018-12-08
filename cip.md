@@ -104,7 +104,7 @@ The CIP editors are intended to fulfill administrative and editorial responsibil
 
 Specification
 
-CIPs must be written in mediawiki format.
+CIPs must be written in markdown format.
 
 Each CIP should have the following parts:
 
@@ -139,7 +139,7 @@ Each CIP must begin with an RFC 822 style header preamble. The headers must appe
     * Replaces: <CIP number>
     * Superseded-By: <CIP number>
 
-The Layer header (only for Standards Track CIPs) documents which layer of Burstcoin the CIP applies to. See [CIP 123](cip-0123-mediawiki.md) for definitions of the various CIP layers. Activation of this CIP implies activation of CIP 123.
+The Layer header (only for Standards Track CIPs) documents which layer of Burstcoin the CIP applies to. See [CIP 123](cip-0123-md.md) for definitions of the various CIP layers. Activation of this CIP implies activation of CIP 123.
 
 The Author header lists the names and email addresses of all the authors/owners of the CIP. The format of the Author header value must be
 
