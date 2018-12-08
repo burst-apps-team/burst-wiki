@@ -1,3 +1,5 @@
+-   [2018-12-03 Burstcoin (BURST): A Dark Horse That Could Become A Major Cryptocurrency, The King of Proof of Capacity, Crypto.IQ](https://cryptoiq.co/burstcoin-burst-a-dark-horse-that-could-become-a-major-cryptocurrency-the-king-of-proof-of-capacity/)
+-   [2018-11-27 Burstcoin: A Diamond In The Rough That Will Prosper Long Term, Genesisblocknews.com](http://genesisblocknews.com/burstcoin-a-diamond-in-the-rough-that-will-prosper-long-term/)
 -   [2018-10-20 Exclusive Interview With Burst Developer Daniel Jones (podcast), Bitcoin News](https://bitcoinnews.com/exclusive-interview-with-burst-developer-daniel-jones/)
 -   [2018-10-11 Burstcoin (BURST): Mining Made Easy and Accessible With Hard Disk Space, Today's Gazette](https://todaysgazette.com/burstcoin-burst-mining-made-easy-and-accessible-with-hard-disk-space/)
 -   [2018-10-03 BCB Interview - Daniel Jones, Blockchain Beach (video)](https://www.youtube.com/watch?v=zez1EISf-Jg)
