@@ -6,7 +6,6 @@
 |---------------------------------|
 | **Status**                      |
 | **CIPs Github Repo**            |
-| **CIPs Wiki Repo**              |
 
 Table of Contents
 -----------------
@@ -50,7 +49,7 @@ It also helps to make sure the idea is applicable to the entire community and no
 
 Once the champion has asked the Burstcoin community as to whether an idea has any chance of acceptance, a draft CIP should be presented to the [Burst Discord Forum](https://discord.gg/PMUgVSY). This gives the author a chance to flesh out the draft CIP to make it properly formatted, of high quality, and to address additional concerns about the proposal.
 
-Following a discussion, the proposal should be submitted to the [CIPs repository](list-of-cips.md). This draft must be written in CIP style as described below, and named with an alias such as “cip-johndoe-infiniteburstcoins” until an editor has assigned it a CIP number (authors MUST NOT self-assign CIP numbers).
+Following a discussion, the proposal should be submitted to the [CIPs repository](https://github.com/PoC-Consortium/CIPs). This draft must be written in CIP style as described below, and named with an alias such as “cip-johndoe-infiniteburstcoins” until an editor has assigned it a CIP number (authors MUST NOT self-assign CIP numbers).
 
 CIP authors are responsible for collecting community feedback on both the initial idea and the CIP before submitting it for review. However, wherever possible, long open-ended discussions on public mailing lists should be avoided. Strategies to keep the discussions efficient include: setting up a separate SIG mailing list for the topic, having the CIP author accept private comments in the early design phases, setting up a wiki page etc. CIP authors should use their discretion here.
 
@@ -91,7 +90,7 @@ For each new CIP that comes in an editor does the following:
 
 If the CIP isn't ready, the editor will send it back to the author for revision, with specific instructions.
 
-Once the CIP is ready for the repository it should be submitted to the [CIPs repository](list-of-cips.md) where it may get further feedback.
+Once the CIP is ready for the repository it should be submitted to the [CIPs repository](https://github.com/PoC-Consortium/CIPs) where it may get further feedback.
 
 The CIP editor will:
 
@@ -139,7 +138,7 @@ Each CIP must begin with an RFC 822 style header preamble. The headers must appe
     * Replaces: <CIP number>
     * Superseded-By: <CIP number>
 
-The Layer header (only for Standards Track CIPs) documents which layer of Burstcoin the CIP applies to. See [CIP 123](cip-0123-md.md) for definitions of the various CIP layers. Activation of this CIP implies activation of CIP 123.
+The Layer header (only for Standards Track CIPs) documents which layer of Burstcoin the CIP applies to.
 
 The Author header lists the names and email addresses of all the authors/owners of the CIP. The format of the Author header value must be
 
