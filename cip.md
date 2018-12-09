@@ -158,7 +158,7 @@ CIPs may also have a Superseded-By header indicating that a CIP has been rendere
 
 #### Auxiliary Files
 
-CIPs may include auxiliary files such as diagrams. Auxiliary files should be included in a subdirectory for that CIP, or must be named CIP-XXXX-Y.ext, where “XXXX” is the CIP number, “Y” is a serial number (starting at 1), and “ext” is replaced by the actual file extension (e.g. “png”).
+CIPs may include auxiliary files such as diagrams. Auxiliary files should be included in a subdirectory for that CIP.
 
 CIP types
 ---------
