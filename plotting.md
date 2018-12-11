@@ -6,7 +6,7 @@
 Introduction to Burst mining
 ----------------------------
 
-The process that prepares your hard disk space [mining](mining.md) by generating and storing shabal256 hashes is called plotting. The software used for this is called a plotter. Plotter software computes hashes using the cryptographic hash function (Shabal-256) and stores them in plot files on hard disks. Mining software retrieves these hashes to find values that can be used to forge blocks.
+The process that prepares your hard drive space for [mining](mining.md) by generating and storing shabal256 hashes is called plotting. The software used for this is called a plotter. Plotter software computes hashes using the cryptographic hash function (Shabal-256) and stores them in plot files on hard disks. Mining software retrieves these hashes to find values that can be used to forge blocks.
 
 Plot files are bound to the Burst account ID so it is impossible for users with different account IDs to generate identical plot files. Plot files can be created (with the same account ID) on other machines and transferred back to your mining computer. It is a common strategy to plot hard drives using computers with faster CPUs or GPUs and then mine the disks using computers with slower CPUs.
 
