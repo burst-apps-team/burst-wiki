@@ -15,7 +15,8 @@ The process of mining cryptocurrencies is the foundation for the blockchain to g
 
 Burstcoin uses the Shabal cryptographic hash function as its main function, which is slow and heavy in comparison to other cryptographic hash functions, such as the SHA256. This feature makes it ideal for precomputation of hashes, while it's still fast enough for small live verifications. Burst uses the 256bit version of Shabal, known as Shabal256.
 
-### Lexicon
+Lexicon
+-------
 
 **Plot files**
 
@@ -67,7 +68,8 @@ In pools that use the PoCC pool mining software, the effective plot size is the 
 
 The mining revenue consists of the block reward and of transaction fees from the forged block. The block reward decreases each 10400 blocks. Depending on the plot size, the mining calculator provided in the Burst explorer can give an estimate regarding the expected mining revenue. The mining calculator is available at this link: <https://explore.burst.cryptoguru.org/tool/calculate> and will give an estimation using the current block reward and base target.
 
-### Technical information about mining
+Technical information about mining
+----------------------------------
 
 **Mining and forging a block**
 
