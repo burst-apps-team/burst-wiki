@@ -20,7 +20,7 @@ Guia inicial de instalação 
 
 Através de <https://www.burst-coin.org/download-wallet>
 
-<img src="Download-wallet.png" title="Download-wallet.png" alt="Download-wallet.png" width="1235" height="1235" />
+<img src="Download-wallet.png" title="Download-wallet.png" alt="Download-wallet.png" width="800" height="400" />
 
 Selecione Qbundle, e você será direcionado para o github.
 
