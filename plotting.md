@@ -3,6 +3,11 @@
 | **Status** |
 ||
 
+Table of contents
+-----------------
+
+\_\_TOC\_\_
+
 Introduction to Burst mining
 ----------------------------
 
