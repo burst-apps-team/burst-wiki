@@ -8,8 +8,8 @@ Table of contents
 
 \_\_TOC\_\_
 
-Introduction to Burstcoin mining
---------------------------------
+Introduction to Burst Mining
+----------------------------
 
 The process of mining cryptocurrencies is the foundation for the blockchain to grow and secure transactions within the network. The process of mining is present in cryptocurrencies other than those that use the Proof-of-Stake consensus algorithm. Burstcoin (or Burst) uses the Proof-of-Capacity consensus algorithm, which uses precomputed hashes to find values that can be used to forge a block. The precomputed hashes are stored to HDDs prior to mining, hence Burst mining is also referred to as “storage” or “HDD” mining. The process of precomputing and storing hashes that precedes the process of mining is referred to as [plotting](plotting.md), and the resulting files are called plot files.
 
