@@ -22,7 +22,7 @@ Através de <https://www.burst-coin.org/download-wallet>
 
 <img src="Download-wallet.png" title="Download-wallet.png" alt="Download-wallet.png" width="1235" height="1235" />
 
-Select Qbundle, and it will direct you to the github.
+Selecione Qbundle, e você será direcionado para o github. Select Qbundle, and it will direct you to the github.
 
 We will select the MSI installation in this guide, the other alternative it a self-contained ‘zip’ download that will need extraction before It can be run. This ‘zip’ version is useful if you wish to set up along side an existing installation (Provided you have first stopped the other wallet, and do not run at the same time!) 
 
