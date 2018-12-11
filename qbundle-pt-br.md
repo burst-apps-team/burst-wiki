@@ -15,10 +15,10 @@ Tabela de Conteúdos
 
 \_\_TOC\_\_
 
-Initial installation guide 
+Guia inicial de instalação 
 ---------------------------
 
-Through <https://www.burst-coin.org/download-wallet>
+Através de <https://www.burst-coin.org/download-wallet>
 
 <img src="Download-wallet.png" title="Download-wallet.png" alt="Download-wallet.png" width="1235" height="1235" />
 
