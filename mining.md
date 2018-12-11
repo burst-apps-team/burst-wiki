@@ -11,7 +11,7 @@ Table of Contents
 Introduction to Burst Mining
 ----------------------------
 
-The process of mining Burst is the foundation for adding blocks to the Burst blockchain and securing transactions within the Burst network. In preparation for Mining, plotting software is used to precompute hashes and store them in plot files. During the mining process, Mining software reads quickly through the plot files to locate data to be submitted to the network in a competitive process whereby each miner provides their best cryptographic solution in an attempt to win the right to forge the related block of transactions.
+The process of mining Burst is the foundation for adding blocks to the Burst blockchain and securing transactions within the Burst network. In preparation for Mining, plotting software is used to precompute hashes and store them in plot files. During the mining process, mining software reads quickly through the plot files to locate data to be submitted to the network in a competitive process whereby each miner provides their best cryptographic solution in an attempt to win the right to forge the related block of transactions.
 
 Burst uses the Shabal256 cryptographic hash function as its main function. Shabal256 is slow and heavy in comparison to other cryptographic hash functions such as the SHA256. This feature makes it ideal for precomputation of hashes, yet it is still fast enough for small live verifications.
 
