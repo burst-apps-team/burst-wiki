@@ -1,4 +1,4 @@
-| Mining     |
+| Plotting   |
 |------------|
 | **Status** |
 ||
