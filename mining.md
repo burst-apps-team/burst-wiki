@@ -11,9 +11,9 @@ Table of Contents
 Introduction to Burst Mining
 ----------------------------
 
-The process of mining cryptocurrencies is the foundation for the blockchain to grow and secure transactions within the network. The process of mining is present in cryptocurrencies other than those that use the Proof-of-Stake consensus algorithm. Burstcoin (or Burst) uses the Proof-of-Capacity consensus algorithm, which uses precomputed hashes to find values that can be used to forge a block. The precomputed hashes are stored to HDDs prior to mining, hence Burst mining is also referred to as “storage” or “HDD” mining. The process of precomputing and storing hashes that precedes the process of mining is referred to as [plotting](plotting.md), and the resulting files are called plot files.
+The process of mining Burst is the foundation for adding blocks to the Burst blockchain and securing transactions within the Burst network. In preparation for Mining, plotting software is used to precompute hashes and store them in plot files. During the mining process, Mining software reads quickly through the plot files to locate data to be submitted to the network in a competitive process whereby each miner provides their best cryptographic solution in an attempt to win the right to forge the related block of transactions.
 
-Burstcoin uses the Shabal cryptographic hash function as its main function, which is slow and heavy in comparison to other cryptographic hash functions, such as the SHA256. This feature makes it ideal for precomputation of hashes, while it's still fast enough for small live verifications. Burst uses the 256bit version of Shabal, known as Shabal256.
+Burst uses the Shabal256 cryptographic hash function as its main function. Shabal256 is slow and heavy in comparison to other cryptographic hash functions such as the SHA256. This feature makes it ideal for precomputation of hashes, yet it is still fast enough for small live verifications.
 
 Lexicon
 -------
