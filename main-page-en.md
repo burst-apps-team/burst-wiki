@@ -35,6 +35,7 @@
     -   [International websites](list-of-international-burst-websites.md)
 -   [Burst Whitepaper](whitepaper-burst.md)
 -   [History of Burst](history-of-burst.md)
+-   [Secure Your Burst](secure-your-burst.md)
 
 </div>
 <div class="box_column">
@@ -78,7 +79,9 @@
 \*[1. Reward Assignment](reward-assignment.md)
 
 -   [2. Plotting](plotting.md)
+    -   [Technical Information - Creating Plot Files](technical-information-to-create-plot-files.md)
 -   [3. Mining](mining.md)
+    -   [Technical Information - Mining, Block Forging](technical-information-about-mining-and-block-forging.md)
 
 </div>
 </div>
@@ -115,7 +118,6 @@
 -   Blockchain Explorer: [PoCC](https://explore.burst.cryptoguru.org/), [.RO](https://explore.burstcoin.ro/), [Neon](http://burstneon.com/monitor?id=16020314477710380875)
 -   Tx Notification Service: [Burst Alerts](http://burstalerts.com/)
 -   Network Observer: [Luxe](http://burstcoin.cc/), [PoCC](https://explore.burst.cryptoguru.org/tool/observe)
--   [Burst Today](http://www.burst.today/)
 
 <!-- -->
 
