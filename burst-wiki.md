@@ -5,7 +5,7 @@ Burst: the 'cryptocurrency 2.0'
 
 Burst is a cryptocurrency and an open-source decentralized blockchain platform that connects people, companies, and financial institutions. It allows you to move value – according to your own rules – within a scalable, green, and customizable ledger. It has multiple core-level features and has been running publicly since August of 2014.
 
-Burst is a deflationary currency. The total number of coins that can ever be mined is capped at 2,158,812,800. The mining period for bust will end in the 2033.
+Burst is a deflationary currency. The total number of coins that can ever be mined is capped at 2,158,812,800. The mining period for Burst will end in the 2033.
 
 An informative and fast paced video introduction to Burst is located here:
 
