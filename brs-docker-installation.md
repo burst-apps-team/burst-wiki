@@ -26,7 +26,7 @@ The following `docker-compose.yml` file can be used to run the BRS with MariaD
     <!--T:29-->
     services:
       burstcoin:
-        image: burstcoin/core:2.2-mariadb
+        image: pocconsortium/burstcoin:2.2-mariadb
         restart: always
         depends_on:
          - mariadb
@@ -52,7 +52,7 @@ With the `-d` flag, both containers are started as background processes. A `b
 
 Alternatively, H2 can be used as database to store the blockchain. H2 is an embedded database, therefore one does not have to run it in a separate container. Simply run the following command.
 
-`docker run -p 8123:8123 -p 8125:8125 -v `“`$(pwd)`”`/burst_db:/etc/burstcoin/burst_db -d burstcoin/core:2.2-h2 `
+`docker run -p 8123:8123 -p 8125:8125 -v `“`$(pwd)`”`/burst_db:/etc/burstcoin/burst_db -d pocconsortium/burstcoin:2.2-h2 `
 
 “`$(pwd)`”`/burst_db` is the path to the folder which is mounted to the H2 storage. If it does not exist a new `burst_db` folder is created in the current directory.
 
@@ -67,7 +67,7 @@ In order to use a custom config - `brs.properties` file, you can simply mount 
     <!--T:33-->
     services:
       burstcoin:
-        image: burstcoin/core:2.2-mariadb
+        image: pocconsortium/burstcoin:2.2-mariadb
         restart: always
         depends_on:
          - mariadb
@@ -87,4 +87,4 @@ In order to use a custom config - `brs.properties` file, you can simply mount 
 
 **H2**
 
-`docker run -p 8123:8123 -p 8125:8125 -v `“`$(pwd)`”`/burst_db:/etc/burstcoin/burst_db -v `“`$(pwd)`”`/conf:/etc/burstcoin/conf -d burstcoin/core:2.2-h2`
+`docker run -p 8123:8123 -p 8125:8125 -v `“`$(pwd)`”`/burst_db:/etc/burstcoin/burst_db -v `“`$(pwd)`”`/conf:/etc/burstcoin/conf -d pocconsortium/burstcoin:2.2-h2`
