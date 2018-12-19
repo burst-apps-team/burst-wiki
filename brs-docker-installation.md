@@ -58,7 +58,7 @@ Alternatively, H2 can be used as database to store the blockchain. H2 is an embe
 
 ### Custom configuration
 
-In order to use a custom config - `brs.properties` file, you can simply mount a folder containing the `brs-default.properties` and the `brs.properties` to the `/etc/burstcoin/conf` mount point.
+In order to use a custom config - `brs.properties` file, you can simply mount a folder containing the `brs-default.properties` and the `brs.properties` to the `/conf` mount point.
 
 **MariaDB**
 
