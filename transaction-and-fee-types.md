@@ -56,7 +56,7 @@ Fee Types
 
 Unconfirmed transactions can be issued with arbitrary fees, with the lowest possible fee being 735.000 Plancks (0.00735000 Burst). Depending on the fee amount, unconfirmed transactions will be execute sooner or later i.e. they will be picked up into a block on the Burst blockchain.
 
-[The Burst Reference Software](burst-reference-software.md) (BRS aka wallet) is equipped with a fee suggestion tool, which suggests the amount of fee to be used for transaction, based on the transaction load on the chain in the last 10 blocks. The fee suggestion tool offers three fee amounts:
+[The Burst Reference Software](burst-software-burst-reference-software--28brs-29.md) (BRS aka wallet) is equipped with a fee suggestion tool, which suggests the amount of fee to be used for transaction, based on the transaction load on the chain in the last 10 blocks. The fee suggestion tool offers three fee amounts:
 
 -   Standard: 50% probability the transaction will be included in the next block
 -   Cheap: 50% probability the transaction will be included in the next 10 blocks
