@@ -13,7 +13,7 @@ You can access the PoCC-operated online TestNet-wallet via <https://wallet.dev.b
 How to set up a TestNet node ?
 ------------------------------
 
-Before launching [BRS](burst-reference-software.md), edit `brs.properties` and change the following lines
+Before launching [BRS](burst-software-burst-reference-software--28brs-29.md), edit `brs.properties` and change the following lines
 
 `DEV.DB.Url = jdbc:mariadb://localhost:3777/yourbursttestdatabase`
 `DEV.DB.Username = root`
