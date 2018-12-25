@@ -145,7 +145,7 @@ Once MariaDB is finished installing, start MariaDB with the following.
 
 ### Database configuration
 
-As soon as MariaDB is successfully installed, we can log into the MariaDB interface and setup database like explained in [Setup MariaDB](burst-reference-software-setup-mariadb.md)
+As soon as MariaDB is successfully installed, we can log into the MariaDB interface and setup database like explained in [Setup MariaDB](brs-macos-installation-setup-mariadb.md)
 
 ### Setup Wallet
 
