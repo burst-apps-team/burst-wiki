@@ -11,7 +11,7 @@ Table of Contents
 Introduction
 ============
 
-Reward assignment is frequently used when pool mining. When changing your reward assignment, you tell the network that another account (the pool account) is acting in your place for 2 specific features. The first feature is that all block rewards that should be given to your account will now be given to the pool account instead. Secondly, for the pool to be able to utilize the deadlines found from your plot files, it is also granted the action to sign the newly forged blocks with the account belonging to the pool.
+Reward assignment is used to facilitate pool mining. A reward assignment notifies the network that all block rewards attributed to your plot files while mining are to be given to another account (the pool account) which is acting in your place. It grants permission for blocks that are forged using the deadlines that you submit to a pool to be signed with the account belonging to that pool.
 
 Reward Assignment on QBundle
 ============================
