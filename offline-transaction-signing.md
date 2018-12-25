@@ -13,7 +13,7 @@ The term “offline transaction” refers to the practice of keeping the private
 
 **Online Transaction Signing \[local device\]**
 
-In addition to signing your transactions from a offline device, the signing can also be done on an online device but still performed locally. Assuming the computer is malware-free, this is the most convenient option while still keeping your private keys secret. For example the [BRS (Burst Reference Software)](burst-reference-software.md) wallet uses this form of signing for its wallet interface through locally run javascript.
+In addition to signing your transactions from a offline device, the signing can also be done on an online device but still performed locally. Assuming the computer is malware-free, this is the most convenient option while still keeping your private keys secret. For example the [BRS (Burst Reference Software)](burst-software-burst-reference-software--28brs-29.md) wallet uses this form of signing for its wallet interface through locally run javascript.
 
 **Online Transaction Signing \[server side\]**
 
