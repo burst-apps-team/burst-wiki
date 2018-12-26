@@ -109,7 +109,7 @@ Create a directory to unzip to:
 
 Unzip the burstcoin zip file to the newly created directory:
 
-**`unzip`` ``burstcoin-2.2.5.zip`` ``-d`` ``BRSWallet/`**
+**`unzip`` ``burstcoin-2.2.6.zip`` ``-d`` ``BRSWallet/`**
 
 Navigate to the conf subdirectory within the newly created directory:
 
@@ -243,7 +243,7 @@ At this stage you can reboot the machine to ensure that the environmental variab
 You will see the following output:
 
 `Nov 29, 2018 4:28:33 PM brs.Burst loadProperties`
-`INFO: Initializing Burst Reference Software (BRS) version 2.2.5`
+`INFO: Initializing Burst Reference Software (BRS) version 2.2.6`
 `Nov 29, 2018 4:28:33 PM org.ehcache.core.EhcacheManager createCache`
 `INFO: Cache 'account' created in EhcacheManager.`
 `[INFO] 2018-11-29 16:28:33 brs.db.sql.Db - Using mariadb Backend`
