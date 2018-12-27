@@ -58,7 +58,7 @@ Once you have successfully logged into MariaDB, execute the following SQL comman
      
     GRANT ALL PRIVILEGES ON burstwallet.* TO 'burstwallet'@'localhost';
 
-Assuming your queries have executed successfully you can exit the MariaDB console by typing `\q` and hitting Enter.
+Assuming these commands have executed successfully, exit the MariaDB console by typing `\q` and hitting Enter.
 
 #### 4. Installing the Java 8 SDK
 
