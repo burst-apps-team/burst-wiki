@@ -28,11 +28,11 @@ There are a few dependencies that you should check on prior to starting the inst
 
 #### 1. Install Homebrew
 
-The first step is installing [Homebrew](https://brew.sh/) (brew) which is an excellent package manager for macOS. You can install it by opening a new terminal and running the following command. Note: You may be asked for your password in order to complete the install.
+[Homebrew](https://brew.sh/) (brew) is an excellent package manager for MacOS. To install, open a new terminal and run the following command. Note: You may be asked for your password in order to complete.
 
      $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-If you already have brew installed, it’s still good practice to make sure everything is up to date by entering
+If you already have brew installed, it is a good practice to make sure everything is up to date by entering
 
     $ brew update
 
