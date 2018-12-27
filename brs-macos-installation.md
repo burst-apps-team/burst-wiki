@@ -60,13 +60,13 @@ Once you have successfully logged into MariaDB, execute the following SQL comman
 
 Assuming these commands have executed successfully, exit the MariaDB console by typing `\q` and hitting Enter.
 
-#### 4. Installing the Java 8 SDK
+#### 4. Install Java 8 SDK
 
-This step was a bit confusing as brew would always like to give you the latest version of all packages. I’m not entirely sure if the latest version of Java will work without issue, but I didn’t want to risk it. First you need to install brew cask.
+Brew gives you the latest version of all packages, but the latest version of Java may not work without issue. You can install the latest verified version (Java 8) by following these steps. Install brew cask.
 
     $ brew tap caskroom/cask
 
-Next you can use brew cask to install a specific version of a package. So with cask installed you would run.
+Use brew cask to install a specific version of a package.
 
     $ brew cask install java8
 
