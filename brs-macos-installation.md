@@ -72,7 +72,7 @@ Use brew cask to install a specific version of a package.
 
 #### 5. Download and setup the wallet
 
-You can download the wallet package from PoC Consortium [here](https://github.com/PoC-Consortium/burstcoin/releases). Once you’ve unzipped the release (burstcoin-1.3.6.zip) you should open the directory and open the `nxt.properties` file in the `conf` directory in a text editor. At the bottom of the file add the following lines.
+The wallet package from PoC Consortium is located [here](https://github.com/PoC-Consortium/burstcoin/releases). Unzip the release (burstcoin-1.3.6.zip) and open the `nxt.properties` file from the `conf` directory in a text editor. Add the following lines to the end of the file
 
     nxt.dbUrl=jdbc:mariadb://localhost:3306/burstwallet
 
@@ -80,17 +80,17 @@ You can download the wallet package from PoC Consortium [here](https://github.co
 
     nxt.dbPassword=<YOUR PASSWORD>
 
-These values are just telling the Java program where it can find and access the MariaDB database you set up in step 3.
+These values tell Java where to find the MariaDB database.
 
 #### 6. Start the wallet
 
-Finally it’s time to start the wallet. In your open terminal window make sure you’re in the same directory as the burst.sh startup script. If you run `ls` in your terminal window you should see a response like this. <img src="1_jlRqRGWNhSOKcNEjWLvNLQ.png" title="fig:1_jlRqRGWNhSOKcNEjWLvNLQ.png" alt="1_jlRqRGWNhSOKcNEjWLvNLQ.png" width="649" height="649" />[1]
+In your open terminal window verify that you are in the same directory as the burst.sh startup script. If you run `ls` in your terminal window you should see a response similar to the following: <img src="1_jlRqRGWNhSOKcNEjWLvNLQ.png" title="fig:1_jlRqRGWNhSOKcNEjWLvNLQ.png" alt="1_jlRqRGWNhSOKcNEjWLvNLQ.png" width="649" height="649" />[1]
 
-In your terminal window you should use the following command to make sure you have permission to execute the startup script.
+In your terminal window, use the following command to make sure you have permission to execute the startup script.
 
 `chmod +x burst.sh`
 
-Finally you can launch the wallet script. Note: You need to leave this terminal window up and running while the wallet synchronizes the full block chain which could take several hours or days depending on your personal setup and internet connection.
+Launch the wallet script. Note: You will need to leave this terminal window running until the full blockchain has synchronized. This could take several hours or days depending on your processor speed and and internet connection.
 
 `./burst.sh`
 
@@ -98,7 +98,7 @@ You should see a lot of output flying by pretty quickly as the wallet starts up.
 
 #### 7. Creating your account and signing in.
 
-Assuming you see no obvious errors while the wallet is starting up. You should check to see if it’s successfully running by entering [`http://localhost:8125/index.html`](http://localhost:8125/index.html) in your browser. You should see a page that looks like this. <img src="1_hkcu_dhZ5JUqrjbjiIcUrQ.png" title="fig:1_hkcu_dhZ5JUqrjbjiIcUrQ.png" alt="1_hkcu_dhZ5JUqrjbjiIcUrQ.png" width="880" height="880" />[2]
+Assuming you see no obvious errors while the wallet is starting up, check to see if it is running successfully by entering [`http://localhost:8125/index.html`](http://localhost:8125/index.html) in your browser. You should see a page that looks like this: <img src="1_hkcu_dhZ5JUqrjbjiIcUrQ.png" title="fig:1_hkcu_dhZ5JUqrjbjiIcUrQ.png" alt="1_hkcu_dhZ5JUqrjbjiIcUrQ.png" width="880" height="880" />[2]
 
 Click the ‘`New? Create Your Account!’` button. The wallet will generate a passphrase of 12 words. *WRITE THESE WORDS DOWN AND DO NOT SHARE THEM*. This passphrase is your **private key** and will be how you access your wallet and Burst funds. Please review the section on [securing your Burst](https://burstwiki.org/wiki/Secure_Your_Burst). Follow the confirmation step on the next page and click `Next` .
 
