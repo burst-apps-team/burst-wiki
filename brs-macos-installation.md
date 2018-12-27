@@ -100,11 +100,11 @@ You should see a lot of output flying by pretty quickly as the wallet starts up.
 
 Assuming you see no obvious errors while the wallet is starting up, check to see if it is running successfully by entering [`http://localhost:8125/index.html`](http://localhost:8125/index.html) in your browser. You should see a page that looks like this: <img src="1_hkcu_dhZ5JUqrjbjiIcUrQ.png" title="fig:1_hkcu_dhZ5JUqrjbjiIcUrQ.png" alt="1_hkcu_dhZ5JUqrjbjiIcUrQ.png" width="880" height="880" />[2]
 
-Click the ‘`New? Create Your Account!’` button. The wallet will generate a passphrase of 12 words. *WRITE THESE WORDS DOWN AND DO NOT SHARE THEM*. This passphrase is your **private key** and will be how you access your wallet and Burst funds. Please review the section on [securing your Burst](https://burstwiki.org/wiki/Secure_Your_Burst). Follow the confirmation step on the next page and click `Next` .
+Click the `New? Create Your Account!` button. The wallet will generate a passphrase of 12 words. *WRITE THESE WORDS DOWN AND DO NOT SHARE THEM*. This passphrase is your **private key** and will be how you access your wallet and Burst funds. Please review the section on [securing your Burst](https://burstwiki.org/wiki/Secure_Your_Burst). Follow the confirmation step on the next page and click `Next` .
 
-You should now see the wallet dashboard which looks like this. <img src="1_tlOAFgZwd5ayXb3YtHatNA.png" title="fig:1_tlOAFgZwd5ayXb3YtHatNA.png" alt="1_tlOAFgZwd5ayXb3YtHatNA.png" width="880" height="880" />[3]
+You should now see the wallet dashboard. <img src="1_tlOAFgZwd5ayXb3YtHatNA.png" title="fig:1_tlOAFgZwd5ayXb3YtHatNA.png" alt="1_tlOAFgZwd5ayXb3YtHatNA.png" width="880" height="880" />[3]
 
-Congratulations! You’re up and running.
+If so, congratulations! You are up and running.
 
 #### 8. Wait for the blockchain to download
 
