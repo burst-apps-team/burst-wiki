@@ -10,19 +10,19 @@ Table Of Contents
 Installation of MacOS Burst Wallet
 ----------------------------------
 
-This tutorial will walk you through the steps required to get started with the Burst wallet on macOS. A link to a simple bash script which can be run that should take care of all the work for you. Skip to the **Quick Start** section to use a [setup script provided](https://github.com/beatsbears/macos_burst) which should be quicker than following each step below.
-
-### **Dependencies**
-
-There are a few dependencies you should check on prior to starting the install.
-
-1.  OSX 10.10 or higher
-2.  Sufficient disk space for the full blockchain (~8Gb or so)
-3.  The ability to leave your computer up and running for several hours (to synchronize the full blockchain)
+This tutorial will walk you through the steps required to run a Burst wallet locally on MacOS.
 
 ### Quick Start
 
-If you’d rather not bother with all the steps below, a script to do all the work for you has been created. Simply download a .zip of the code [here](https://github.com/beatsbears/macos_burst) and follow the few steps in the README file.
+Note: A simple bash script is available to complete all of the steps for you if you prefer using a script. Simply download a .zip of the code located **[here](https://github.com/beatsbears/macos_burst)** and follow the directions in the README file. If you prefer to execute each step without using a script, begin the process with the dependencies section.
+
+### **Dependencies**
+
+There are a few dependencies that you should check on prior to starting the install process.
+
+1.  OSX 10.10 or higher
+2.  Sufficient disk space for the full blockchain (~8Gb or so)
+3.  The ability to leave your computer up and running for several hours in order to allow the full blockchain to synchronize.
 
 ### **Steps**
 
