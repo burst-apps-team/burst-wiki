@@ -38,7 +38,7 @@ If you already have brew installed, it is a good practice to make sure everythin
 
 #### 2. Install MariaDB
 
-MariaDB is an open-source fork of the MySQL relational database. It is used to store the blockchain and other wallet information. After completing the brew install, install MariaDB by typing the following.
+MariaDB is an open-source fork of the MySQL relational database. It is used to store the blockchain and other wallet information. Install MariaDB by typing the following.
 
      $ brew install mariadb
 
