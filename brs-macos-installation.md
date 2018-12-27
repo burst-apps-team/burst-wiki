@@ -108,7 +108,7 @@ If so, congratulations! You are up and running.
 
 #### 8. Wait for the blockchain to download
 
-Now that you have your wallet running locally and have created an account, you will need to wait for the blockchain to fully synchronize before you can see your up-to-date Burst balance. This may take a few hours or a few days depending on your processor and internet connection speed. Take note of your Account Id listed at the top left corner of your wallet. This address will be necessary for sending and receiving Burst in the future.
+Now that you have your wallet running locally and have created an account, you will need to wait for the blockchain to fully synchronize before you can see your up-to-date Burst balance. This may take a few hours or a few days depending on your processor and internet connection speed. Please note: Your Account Id is listed in the top left corner of your wallet. This address is necessary for sending and receiving Burst.
 
 #### 9. References
 
