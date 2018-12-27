@@ -42,17 +42,15 @@ MariaDB is an open-source fork of the MySQL relational database. It is used to s
 
      $ brew install mariadb
 
-#### 3. Start MariaDB and create a user for the wallet to use
-
-You can use brew to start the MariaDB service for you by typing.
+#### 3. Start MariaDB and create a user for the wallet
 
     $ brew services start mariadb
 
-Once that task has completed and MariaDB is up and running, you can log into MariaDB to create a new wallet database and add a user to manage it. Note: Your MariaDB server will likely not have a root password set. You should google and find how to set a new root password.
+Once MariaDB is running, log into MariaDB to create a new wallet database and add a user to manage it. Note: Your MariaDB server will likely not have a root password set. Consult google for instructions for setting a new root password.
 
     $ mysql -u root -p -h localhost
 
-Once you’ve successfully logged into MariaDB, you can execute the following SQL commands.
+Once you have successfully logged into MariaDB, execute the following SQL commands.
 
     CREATE DATABASE burstwallet;
      
