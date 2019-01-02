@@ -6,7 +6,7 @@ Table of contents
 Introduction
 ============
 
-A consequent number of developers and community members contributed to the Burst ecosystem. The main objective of this page is to present the different teams/contributors of Burst.
+A consequent number of developers and community members contribute to the Burst ecosystem. The main objective of this page is to present the different teams and contributors.
 
 These contributors are sorted according to [this Burstcoinist article](https://www.burstcoin.ist/2018/06/23/the-economy-of-scale-next-steps-for-burst/) (cf. Consensus) and other sources (Burstwiki, Github, Reddit, etc.).
 
