@@ -13,7 +13,7 @@ General Information
 -   <https://burstcoin.biz>
 -   <https://www.burstcoin.sk>
 -   <http://burstfaq.com>
--   <http://burstcoin.community>
+-   <https://burstcoin.community>
 
 Faucets
 =======
