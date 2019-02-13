@@ -21,6 +21,7 @@ Faucets
 -   <http://burstfaucets.com>
 -   <https://faucet.burstpay.net/>
 -   <http://faucet.burst-coin.es>
+-   <https://burstneon.com/faucet>
 
 Forums
 ======
@@ -40,6 +41,8 @@ Gambling Sites
 Github Repositories
 ===================
 
+-   <https://github.com/burst-apps-team>
+-   <https://github.com/JohnnyFFM?tab=repositories>
 -   <https://github.com/PoC-Consortium>
 
 Pools
@@ -58,8 +61,9 @@ Social Media
 Tools
 =====
 
--   <http://blocks.burstxd.com>
 -   <http://www.burst.today>
+-   <https://starburst.pink/poolspy/>
+-   <https://blackpawn.com/tp/>
 -   <http://burstcoin.zone>
 -   <http://www.burstcoin.cc/network>
 -   <http://burstcoincalculator.com>
