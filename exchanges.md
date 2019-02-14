@@ -1,7 +1,7 @@
 Exchanges currently trading Burst
 ---------------------------------
 
-Burst can be traded on the following exchanges against the given other currencies:
+Burst can be traded on the following exchanges against the given other currencies:[1][2]
 
 | Name                                                             | Currencies                        | HF1 Support |
 |------------------------------------------------------------------|-----------------------------------|-------------|
@@ -12,6 +12,8 @@ Burst can be traded on the following exchanges against the given other currencie
 | [Livecoin](https://www.livecoin.net/)                            | BTC                               | Confirmed   |
 | [Indacoin](https://indacoin.com)                                 | USD, EUR, RUB (Visa & MasterCard) | Confirmed   |
 | [C-CEX](https://c-cex.com/)                                      | BTC, USD                          | Confirmed   |
+| [bisq](https://markets.bisq.network/?market=burst_btc)           | BTC                               | Confirmed   |
+| xchange.me                                                       | BTC, ETH                          | Confirmed   |
 
 (\*) **Attention!** Bittrex requires the target address to have a public key activated on the blockchain before they will send send coins. Activating a public key on the block chain usually requires having made an outgoing transaction from the target address. If you do not have BURST to make that outgoing transaction (vicious circle - right?), simply look for a faucet or ASK someone for a few. See FAQ 1.
 
@@ -27,3 +29,12 @@ Information for Exchanges to List Burstcoin
 -------------------------------------------
 
 <https://www.burst-coin.org/information-for-exchanges>
+
+References
+----------
+
+<references />
+
+[1] <https://www.burst-coin.org/exchanges>
+
+[2] <https://coinmarketcap.com/currencies/burst/#markets>
