@@ -27,6 +27,7 @@ Blockchain explorers provide insight into various events happening in the blockc
 
 The main Burst blockchain explorers are:
 
+-   [BAT Explorer](https://explorer.burstcoin.dk/)
 -   [PoCC Explorer](https://explore.burst.cryptoguru.org/)
 -   [Burstcoin.RO Explorer](https://explore.burstcoin.ro/)
 -   [BurstNeon Monitor](http://burstneon.com/monitor?id=16020314477710380875)
@@ -38,6 +39,7 @@ Some services provide deeper or different insight into activities within the Bur
 
 Notable services in this area are:
 
+-   [Pool Spy](https://starburst.pink/poolspy/)
 -   [Burstcoin.CC](http://burstcoin.cc/) by Luxe
 -   Tx Notification Service: [Burst Alerts](http://burstalerts.com/)
 -   [Pool uptime monitor](https://uptime.statuscake.com/?TestID=M30iNz7TSq)
