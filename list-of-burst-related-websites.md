@@ -10,8 +10,7 @@ General Information
 -   <https://www.burst-coin.org>
 -   <https://www.burstcoin.ist>
 -   <https://burstwiki.org>
--   <https://burstcoin.biz>
--   <https://www.burstcoin.sk>
+-   <https://burst-coin.es/>
 -   <http://burstfaq.com>
 -   <https://burstcoin.community>
 
@@ -20,8 +19,8 @@ Faucets
 
 -   <http://burstfaucets.com>
 -   <https://faucet.burstpay.net/>
--   <http://faucet.burst-coin.es>
 -   <https://burstneon.com/faucet>
+-   <https://burst-coin.es/faucet>
 
 Forums
 ======
@@ -36,7 +35,7 @@ Forums
 Gambling Sites
 ==============
 
--   <http://lotto.burstxd.com/>
+-   <http://lotto.burstxd.com/> - This may be using the [pre-hardfork1 Burstcoin blockchain](500k-hf-checklist.md) so beware.
 
 Github Repositories
 ===================
@@ -44,6 +43,7 @@ Github Repositories
 -   <https://github.com/burst-apps-team>
 -   <https://github.com/JohnnyFFM?tab=repositories>
 -   <https://github.com/PoC-Consortium>
+-   <https://github.com/andzno1?tab=repositories>
 
 Pools
 =====
