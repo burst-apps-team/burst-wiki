@@ -2,10 +2,10 @@
 
 Burst официально был представлен на форуме bitcointalk [10-го августа 2014 года](https://bitcointalk.org/index.php?topic=731923.0) с целью решить типичные проблемы, свойственные прочим криптовалютам:
 
--   lack of decentralization
--   waste of energy
--   unfair releases
--   supremacy of big miners and corporations
+-   Недостаток децентрализации
+-   Излишний расход электричества
+-   Несправедливое распределение
+-   Преобладание крупных майнеров и корпораций
 
 It is the first and only cryptocurrency secured by a Proof-of-Capacity algorithm. The critical difference between Proof of Work and Burst’s Proof of Capacity (PoC) is that instead of needing ever more expensive, power hungry processors and graphic cards, it uses inexpensive, low-power hard drives.
 
