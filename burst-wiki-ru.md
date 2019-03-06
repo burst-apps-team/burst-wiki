@@ -9,7 +9,7 @@ Burst официально был представлен на форуме bitco
 
 Это первая и единственная криптовалюта, защищённая алгоритмом доказательства объёма (Proof-of-Capacity). Важнейшее отличие между доказательством работы и доказательством объёма заключается в том, что вместо использования дорогих, прожорливых процессоров и видеокарт алгоритм использует недорогие, маломощные жесткие диски.
 
-### Decentralization
+### Децентразизация
 
 Burst addresses the problem of centralist tendencies that plague other cryptocurrencies by providing an ASIC-proof algorithm that utilizes standard off-the-shelf hardware accessible to everyone: hard drives in regular PCs
 
