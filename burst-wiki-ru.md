@@ -7,7 +7,7 @@ Burst официально был представлен на форуме bitco
 -   Несправедливое распределение
 -   Преобладание крупных майнеров и корпораций
 
-It is the first and only cryptocurrency secured by a Proof-of-Capacity algorithm. The critical difference between Proof of Work and Burst’s Proof of Capacity (PoC) is that instead of needing ever more expensive, power hungry processors and graphic cards, it uses inexpensive, low-power hard drives.
+Это первая и единственная криптовалюта, защищённая алгоритмом доказательства объёма (Proof-of-Capacity). Важнейшее отличие между доказательством работы и доказательством объёма заключается в том, что вместо использования дорогих, прожорливых процессоров и видеокарт алгоритм использует недорогие, маломощные жесткие диски.
 
 ### Decentralization
 
