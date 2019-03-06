@@ -1,9 +1,6 @@
 <languages/>
 
-Burst: the 'cryptocurrency 2.0'
--------------------------------
-
-Burst was officially introduced on the [10th of August 2014](https://bitcointalk.org/index.php?topic=731923.0) with the goal of solving other cryptocurrencies’ biggest problems:
+Burst официально был представлен на форуме bitcointalk [10-го августа 2014 года](https://bitcointalk.org/index.php?topic=731923.0) с целью решить типичные проблемы, свойственные прочим криптовалютам:
 
 -   lack of decentralization
 -   waste of energy
