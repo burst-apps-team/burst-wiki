@@ -29,7 +29,7 @@ Forums
 -   <https://forums.getburst.net>
 -   Bitcointalk
     -   <https://bitcointalk.org/index.php?topic=1564860.0> - german thread
-    -   <https://bitcointalk.org/index.php?topic=731923.0> - english thread
+    -   [<https://bitcointalk.org/index.php?topic=731923.0>](https://bitcointalk.org/index.php?topic=1541310) - english thread
 -   <https://www.reddit.com/r/burstcoin/>
 
 Gambling Sites
