@@ -14,7 +14,7 @@ Examples of Burst API calls are collected on this page, individually linked from
 
 The preliminary sections preceding the examples simply link back to the main page. For example: [The Burst API Description](the-burst-api-description.md).
 
-A lot of API calls can be viewed and tested on the MainNet at <https://wallet.burst.cryptoguru.org:8125/burst>?. For specific API calls, use the GET url https://wallet.burst.cryptoguru.org:8125/burst?=*specificRequestType*.
+A lot of API calls can be viewed and tested on the MainNet at <https://wallet1.burst-team.us:2083/burst>?. For specific API calls, use the GET url https://wallet1.burst-team.us:2083/burst?=*specificRequestType*.
 
 Table Of Contents
 -----------------
