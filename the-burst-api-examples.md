@@ -258,17 +258,6 @@ Account Operations <img src="Verified.png" title="fig:Verified.png" alt="Verifie
 }
 ```
 
-### Get Guaranteed Balance <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
-
-**Response:**
-
-``` json
-{
-    "guaranteedBalanceNQT": "100000000000",
-    "requestProcessingTime": 0
-}
-```
-
 ### Get Unconfirmed Transaction Ids <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 
 **Response:**
