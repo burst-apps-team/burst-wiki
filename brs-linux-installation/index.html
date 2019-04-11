@@ -1,0 +1,3981 @@
+
+
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+        <meta name="description" content="The Burstcoin Wiki">
+      
+      
+        <link rel="canonical" href="https://burst-apps-team.github.io/burst-wiki/brs-linux-installation/">
+      
+      
+        <meta name="author" content="The Burst Apps Team">
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.1.1">
+    
+    
+      
+        <title>Brs linux installation - Burst Wiki</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/application.3020aac5.css">
+      
+        <link rel="stylesheet" href="../assets/stylesheets/application-palette.224b79ff.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="#2196f3">
+      
+    
+    
+      <script src="../assets/javascripts/modernizr.01ccdecf.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../assets/fonts/material-icons.css">
+    
+    
+    
+      
+    
+    
+  </head>
+  
+    
+    
+    <body dir="ltr" data-md-color-primary="blue" data-md-color-accent="blue">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+          <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448"
+    viewBox="0 0 416 448" id="__github">
+  <path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19-18.125
+        8.5-18.125-8.5-10.75-19-3.125-20.5 3.125-20.5 10.75-19 18.125-8.5
+        18.125 8.5 10.75 19 3.125 20.5zM320 304q0 10-3.125 20.5t-10.75
+        19-18.125 8.5-18.125-8.5-10.75-19-3.125-20.5 3.125-20.5 10.75-19
+        18.125-8.5 18.125 8.5 10.75 19 3.125 20.5zM360
+        304q0-30-17.25-51t-46.75-21q-10.25 0-48.75 5.25-17.75 2.75-39.25
+        2.75t-39.25-2.75q-38-5.25-48.75-5.25-29.5 0-46.75 21t-17.25 51q0 22 8
+        38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0
+        37.25-1.75t35-7.375 30.5-15 20.25-25.75 8-38.375zM416 260q0 51.75-15.25
+        82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5-41.75
+        1.125q-19.5 0-35.5-0.75t-36.875-3.125-38.125-7.5-34.25-12.875-30.25-20.25-21.5-28.75q-15.5-30.75-15.5-82.75
+        0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25
+        30.875q36.75-8.75 77.25-8.75 37 0 70 8 26.25-20.5
+        46.75-30.25t47.25-9.75q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34
+        99.5z" />
+</svg>
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#table-of-contents" tabindex="1" class="md-skip">
+        Skip to content
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="https://burst-apps-team.github.io/burst-wiki" title="Burst Wiki" class="md-header-nav__button md-logo">
+          
+            <i class="md-icon"></i>
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            <span class="md-header-nav__topic">
+              Burst Wiki
+            </span>
+            <span class="md-header-nav__topic">
+              Brs linux installation
+            </span>
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+          
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+      
+        <div class="md-flex__cell md-flex__cell--shrink">
+          <div class="md-header-nav__source">
+            
+
+
+  
+
+<a href="https://github.com/burst-apps-team/burst-wiki/" title="Go to repository" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    burst-wiki
+  </div>
+</a>
+          </div>
+        </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+        
+
+<nav class="md-tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </ul>
+  </div>
+</nav>
+      
+      <main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href="https://burst-apps-team.github.io/burst-wiki" title="Burst Wiki" class="md-nav__button md-logo">
+      
+        <i class="md-icon"></i>
+      
+    </a>
+    Burst Wiki
+  </label>
+  
+    <div class="md-nav__source">
+      
+
+
+  
+
+<a href="https://github.com/burst-apps-team/burst-wiki/" title="Go to repository" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    burst-wiki
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../main-page/" title="Home" class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="500k HF Checklist" class="md-nav__link">
+      500k HF Checklist
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="Activate Burst Account" class="md-nav__link">
+      Activate Burst Account
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="Alias System" class="md-nav__link">
+      Alias System
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="Alias System" class="md-nav__link">
+      Alias System
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="Arbitrary Messages" class="md-nav__link">
+      Arbitrary Messages
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="Asset Exchange" class="md-nav__link">
+      Asset Exchange
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="Asset Exchange" class="md-nav__link">
+      Asset Exchange
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="Automated Transaction" class="md-nav__link">
+      Automated Transaction
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="Automated Transaction" class="md-nav__link">
+      Automated Transaction
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="BRS" class="md-nav__link">
+      BRS
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="BRS-default properties configuration file" class="md-nav__link">
+      BRS-default properties configuration file
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="BURST support for ERC20 tokens" class="md-nav__link">
+      BURST support for ERC20 tokens
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="Burst Blockchain" class="md-nav__link">
+      Burst Blockchain
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="Burst Reference Software" class="md-nav__link">
+      Burst Reference Software
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="Burst Reference Software" class="md-nav__link">
+      Burst Reference Software
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="Burst Services" class="md-nav__link">
+      Burst Services
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="Burst Software" class="md-nav__link">
+      Burst Software
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="Burst Software" class="md-nav__link">
+      Burst Software
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="Burst Who's Who" class="md-nav__link">
+      Burst Who's Who
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="Burst Wiki" class="md-nav__link">
+      Burst Wiki
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="Burst Wiki" class="md-nav__link">
+      Burst Wiki
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="Burstwiki:About" class="md-nav__link">
+      Burstwiki:About
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="Burstwiki:General disclaimer" class="md-nav__link">
+      Burstwiki:General disclaimer
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="Burstwiki:Privacy policy" class="md-nav__link">
+      Burstwiki:Privacy policy
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="CIP" class="md-nav__link">
+      CIP
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="CIP" class="md-nav__link">
+      CIP
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="Category:Features" class="md-nav__link">
+      Category:Features
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="Category:Meta" class="md-nav__link">
+      Category:Meta
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="Category:Pages with broken file links" class="md-nav__link">
+      Category:Pages with broken file links
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="Category:Pages with syntax highlighting errors" class="md-nav__link">
+      Category:Pages with syntax highlighting errors
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="Contribute" class="md-nav__link">
+      Contribute
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="Contribute" class="md-nav__link">
+      Contribute
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="Current Features" class="md-nav__link">
+      Current Features
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="Current Features" class="md-nav__link">
+      Current Features
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="Engraver - How to compile from source" class="md-nav__link">
+      Engraver - How to compile from source
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="Exchanges" class="md-nav__link">
+      Exchanges
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="FAQ" class="md-nav__link">
+      FAQ
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:11 Account manager.png" class="md-nav__link">
+      File:11 Account manager.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:11a Account manager.png" class="md-nav__link">
+      File:11a Account manager.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:13 Wallet options.png" class="md-nav__link">
+      File:13 Wallet options.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:14 Database options.png" class="md-nav__link">
+      File:14 Database options.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:16 help.png" class="md-nav__link">
+      File:16 help.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:17a Plotter.png" class="md-nav__link">
+      File:17a Plotter.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:17b Plotter wrorking.png" class="md-nav__link">
+      File:17b Plotter wrorking.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:17c My plotfiles.png" class="md-nav__link">
+      File:17c My plotfiles.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:17d Dynamic plotting.png" class="md-nav__link">
+      File:17d Dynamic plotting.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:17e POC1-POC2 converter start.png" class="md-nav__link">
+      File:17e POC1-POC2 converter start.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:18 Reward recipient.png" class="md-nav__link">
+      File:18 Reward recipient.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:1 Ordinary transaction - basic.png" class="md-nav__link">
+      File:1 Ordinary transaction - basic.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:1 hkcu dhZ5JUqrjbjiIcUrQ.png" class="md-nav__link">
+      File:1 hkcu dhZ5JUqrjbjiIcUrQ.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:1 jlRqRGWNhSOKcNEjWLvNLQ.png" class="md-nav__link">
+      File:1 jlRqRGWNhSOKcNEjWLvNLQ.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:1 tlOAFgZwd5ayXb3YtHatNA.png" class="md-nav__link">
+      File:1 tlOAFgZwd5ayXb3YtHatNA.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:20 Paper wallet generator.png" class="md-nav__link">
+      File:20 Paper wallet generator.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:20a Paper wallet generator.png" class="md-nav__link">
+      File:20a Paper wallet generator.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:21 Miner settings.png" class="md-nav__link">
+      File:21 Miner settings.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:21a Blago miner.png" class="md-nav__link">
+      File:21a Blago miner.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:2 Multi out.png" class="md-nav__link">
+      File:2 Multi out.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:3 Application manager.png" class="md-nav__link">
+      File:3 Application manager.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:3 Transaction advanced options.png" class="md-nav__link">
+      File:3 Transaction advanced options.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:4 Launcher mode.png" class="md-nav__link">
+      File:4 Launcher mode.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:4 Raw transaction details.png" class="md-nav__link">
+      File:4 Raw transaction details.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:5 Transaction operations.png" class="md-nav__link">
+      File:5 Transaction operations.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:6 Broadcast transaction.png" class="md-nav__link">
+      File:6 Broadcast transaction.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:7 Multiout reverse.png" class="md-nav__link">
+      File:7 Multiout reverse.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:About.png" class="md-nav__link">
+      File:About.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:Account Manager.png" class="md-nav__link">
+      File:Account Manager.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:Asset Exchange.png" class="md-nav__link">
+      File:Asset Exchange.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:Automatically Generated Passphrase.png" class="md-nav__link">
+      File:Automatically Generated Passphrase.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:Block contents.png" class="md-nav__link">
+      File:Block contents.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:Block details 1.png" class="md-nav__link">
+      File:Block details 1.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:Block details 2.png" class="md-nav__link">
+      File:Block details 2.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:Block sync.png" class="md-nav__link">
+      File:Block sync.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:Block sync 2.png" class="md-nav__link">
+      File:Block sync 2.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:Block sync 3.png" class="md-nav__link">
+      File:Block sync 3.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:Bootstrap.png" class="md-nav__link">
+      File:Bootstrap.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:Bootstrap 2.png" class="md-nav__link">
+      File:Bootstrap 2.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:Bootstrap MariaDB.png" class="md-nav__link">
+      File:Bootstrap MariaDB.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:Burst-marketplace.png" class="md-nav__link">
+      File:Burst-marketplace.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:Burst Asset Exchange.png" class="md-nav__link">
+      File:Burst Asset Exchange.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:Burst Blockchain Diagram.png" class="md-nav__link">
+      File:Burst Blockchain Diagram.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:Burst Blue Icon.png" class="md-nav__link">
+      File:Burst Blue Icon.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:Burst Wallet.png" class="md-nav__link">
+      File:Burst Wallet.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:CIP Workflow.png" class="md-nav__link">
+      File:CIP Workflow.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:Change Database.png" class="md-nav__link">
+      File:Change Database.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:Check for updates.png" class="md-nav__link">
+      File:Check for updates.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:Check for updates 2.png" class="md-nav__link">
+      File:Check for updates 2.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:Console.png" class="md-nav__link">
+      File:Console.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:De-alias-kaufen.png" class="md-nav__link">
+      File:De-alias-kaufen.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:De-burst-marketplace.png" class="md-nav__link">
+      File:De-burst-marketplace.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:Decrypt msg.PNG" class="md-nav__link">
+      File:Decrypt msg.PNG
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:Decrypted message content.PNG" class="md-nav__link">
+      File:Decrypted message content.PNG
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:Download-wallet.png" class="md-nav__link">
+      File:Download-wallet.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:Download Manager.png" class="md-nav__link">
+      File:Download Manager.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:Download Manager 2.png" class="md-nav__link">
+      File:Download Manager 2.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:Download MariaDB.png" class="md-nav__link">
+      File:Download MariaDB.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:Download Updates.png" class="md-nav__link">
+      File:Download Updates.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:Download Updates 2.png" class="md-nav__link">
+      File:Download Updates 2.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:Dynamic Plotting.png" class="md-nav__link">
+      File:Dynamic Plotting.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:Executable file.png" class="md-nav__link">
+      File:Executable file.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:First Time.png" class="md-nav__link">
+      File:First Time.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:First Time 2.png" class="md-nav__link">
+      File:First Time 2.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:General Settings.png" class="md-nav__link">
+      File:General Settings.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:Import Database.png" class="md-nav__link">
+      File:Import Database.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:Inbox.png" class="md-nav__link">
+      File:Inbox.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:Inbox msg1.PNG" class="md-nav__link">
+      File:Inbox msg1.PNG
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:Intro to mining burst.png" class="md-nav__link">
+      File:Intro to mining burst.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:Invalid.png" class="md-nav__link">
+      File:Invalid.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:Issue Asset.png" class="md-nav__link">
+      File:Issue Asset.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:Latest release 2.5.0.png" class="md-nav__link">
+      File:Latest release 2.5.0.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:Launcher mode 2.png" class="md-nav__link">
+      File:Launcher mode 2.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:Local Wallet Settings.png" class="md-nav__link">
+      File:Local Wallet Settings.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:Login.png" class="md-nav__link">
+      File:Login.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:Login Account.png" class="md-nav__link">
+      File:Login Account.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:MariaDB DL.png" class="md-nav__link">
+      File:MariaDB DL.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:Menu List.png" class="md-nav__link">
+      File:Menu List.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:Message transaction.PNG" class="md-nav__link">
+      File:Message transaction.PNG
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:Miner.png" class="md-nav__link">
+      File:Miner.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:Mining1.png" class="md-nav__link">
+      File:Mining1.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:Mining2.png" class="md-nav__link">
+      File:Mining2.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:Mining3.png" class="md-nav__link">
+      File:Mining3.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:Mortimer.png" class="md-nav__link">
+      File:Mortimer.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:My Assets.png" class="md-nav__link">
+      File:My Assets.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:Open Orders.png" class="md-nav__link">
+      File:Open Orders.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:Plotter.png" class="md-nav__link">
+      File:Plotter.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:PlottingStep1.png" class="md-nav__link">
+      File:PlottingStep1.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:Plottingfinal.png" class="md-nav__link">
+      File:Plottingfinal.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:Plottinglastgenerated.png" class="md-nav__link">
+      File:Plottinglastgenerated.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:Plottingnonce.png" class="md-nav__link">
+      File:Plottingnonce.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:Plottingoptimization.png" class="md-nav__link">
+      File:Plottingoptimization.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:Plottingstep2.png" class="md-nav__link">
+      File:Plottingstep2.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:Plottingstep3.png" class="md-nav__link">
+      File:Plottingstep3.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:Plottingunoptimized.png" class="md-nav__link">
+      File:Plottingunoptimized.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:Plottingxor.png" class="md-nav__link">
+      File:Plottingxor.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:Poc1toPoc2.png" class="md-nav__link">
+      File:Poc1toPoc2.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:Popoff.png" class="md-nav__link">
+      File:Popoff.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:Powered By Burst - 4.png" class="md-nav__link">
+      File:Powered By Burst - 4.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:PublicKey account.png" class="md-nav__link">
+      File:PublicKey account.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:QBundle GitHub.png" class="md-nav__link">
+      File:QBundle GitHub.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:QBundle MSI.png" class="md-nav__link">
+      File:QBundle MSI.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:QBundle Setup.png" class="md-nav__link">
+      File:QBundle Setup.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:QBundle Setup 2.png" class="md-nav__link">
+      File:QBundle Setup 2.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:QBundle Setup 3.png" class="md-nav__link">
+      File:QBundle Setup 3.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:QBundle Setup 4.png" class="md-nav__link">
+      File:QBundle Setup 4.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:QBundle and Burst Wallet.png" class="md-nav__link">
+      File:QBundle and Burst Wallet.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:Qbundle Start Screen.png" class="md-nav__link">
+      File:Qbundle Start Screen.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:Reply to message field.PNG" class="md-nav__link">
+      File:Reply to message field.PNG
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:Reward recipient.png" class="md-nav__link">
+      File:Reward recipient.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:Rollback Chain.png" class="md-nav__link">
+      File:Rollback Chain.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:Run-scav.PNG" class="md-nav__link">
+      File:Run-scav.PNG
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:Run Anyway.png" class="md-nav__link">
+      File:Run Anyway.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:SendMoney with publicKey.png" class="md-nav__link">
+      File:SendMoney with publicKey.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:SendMoney with publicKey response.png" class="md-nav__link">
+      File:SendMoney with publicKey response.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:Send Actual Message1.png" class="md-nav__link">
+      File:Send Actual Message1.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:Send Message.png" class="md-nav__link">
+      File:Send Message.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:Set Reward Recipient.png" class="md-nav__link">
+      File:Set Reward Recipient.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:Set Reward Recipient BRS.png" class="md-nav__link">
+      File:Set Reward Recipient BRS.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:Start Import.png" class="md-nav__link">
+      File:Start Import.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:Start wallet.png" class="md-nav__link">
+      File:Start wallet.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:Stop Wallet Import Databse.png" class="md-nav__link">
+      File:Stop Wallet Import Databse.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:Tools.png" class="md-nav__link">
+      File:Tools.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:Transfer Asset.png" class="md-nav__link">
+      File:Transfer Asset.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:Transition Database.png" class="md-nav__link">
+      File:Transition Database.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:UnderReviewW.png" class="md-nav__link">
+      File:UnderReviewW.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:UpToDateW.png" class="md-nav__link">
+      File:UpToDateW.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:Updated QBundle no updates.png" class="md-nav__link">
+      File:Updated QBundle no updates.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:Vanity Address Generator.png" class="md-nav__link">
+      File:Vanity Address Generator.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:Verified.png" class="md-nav__link">
+      File:Verified.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:View console.png" class="md-nav__link">
+      File:View console.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:Windows Alert.png" class="md-nav__link">
+      File:Windows Alert.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:Windows Alert 2.png" class="md-nav__link">
+      File:Windows Alert 2.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:Windows Service.png" class="md-nav__link">
+      File:Windows Service.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="File:Windows firewall.png" class="md-nav__link">
+      File:Windows firewall.png
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="Getting Started" class="md-nav__link">
+      Getting Started
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="History of Burst" class="md-nav__link">
+      History of Burst
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="Join us!" class="md-nav__link">
+      Join us!
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="List of Burst related websites" class="md-nav__link">
+      List of Burst related websites
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="List of international Burst websites" class="md-nav__link">
+      List of international Burst websites
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="MacOS Burst Wallet Installation" class="md-nav__link">
+      MacOS Burst Wallet Installation
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="Main Page" class="md-nav__link">
+      Main Page
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="Marketplace" class="md-nav__link">
+      Marketplace
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="Marketplace" class="md-nav__link">
+      Marketplace
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="Mining" class="md-nav__link">
+      Mining
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="Mobile App" class="md-nav__link">
+      Mobile App
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="Mortimer" class="md-nav__link">
+      Mortimer
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="Offline Transaction Signing" class="md-nav__link">
+      Offline Transaction Signing
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="Plot Software" class="md-nav__link">
+      Plot Software
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="Plotter" class="md-nav__link">
+      Plotter
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="Plotting" class="md-nav__link">
+      Plotting
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="Proof of Capacity" class="md-nav__link">
+      Proof of Capacity
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="QBundle" class="md-nav__link">
+      QBundle
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="QBundle" class="md-nav__link">
+      QBundle
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="RS Address Format" class="md-nav__link">
+      RS Address Format
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="Reward Assignment" class="md-nav__link">
+      Reward Assignment
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="Scavenger - How to compile from source" class="md-nav__link">
+      Scavenger - How to compile from source
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="Secure Your Burst" class="md-nav__link">
+      Secure Your Burst
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="Slot-Based Transaction Fees" class="md-nav__link">
+      Slot-Based Transaction Fees
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="Special:Contributions" class="md-nav__link">
+      Special:Contributions
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="Special:FileDuplicateSearch" class="md-nav__link">
+      Special:FileDuplicateSearch
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="Special:History" class="md-nav__link">
+      Special:History
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="Special:Log" class="md-nav__link">
+      Special:Log
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="Special:MobileEditor" class="md-nav__link">
+      Special:MobileEditor
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="Special:Uploads" class="md-nav__link">
+      Special:Uploads
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="Special:WhatLinksHere" class="md-nav__link">
+      Special:WhatLinksHere
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="Style Guide" class="md-nav__link">
+      Style Guide
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="Style Guide" class="md-nav__link">
+      Style Guide
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="Talk:Alias System" class="md-nav__link">
+      Talk:Alias System
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="Talk:Alias System" class="md-nav__link">
+      Talk:Alias System
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="Talk:History of Burst" class="md-nav__link">
+      Talk:History of Burst
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="Talk:List of international Burst websites" class="md-nav__link">
+      Talk:List of international Burst websites
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="Team" class="md-nav__link">
+      Team
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="Technical information about mining and block forging" class="md-nav__link">
+      Technical information about mining and block forging
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="Technical information to create plot files" class="md-nav__link">
+      Technical information to create plot files
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="Testnet" class="md-nav__link">
+      Testnet
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="The Burst API" class="md-nav__link">
+      The Burst API
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="The Burst API Examples" class="md-nav__link">
+      The Burst API Examples
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="Transaction and Fee Types" class="md-nav__link">
+      Transaction and Fee Types
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="Translations:Asset Exchange" class="md-nav__link">
+      Translations:Asset Exchange
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="Translations:Automated Transaction" class="md-nav__link">
+      Translations:Automated Transaction
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="Translations:Burst Reference Software" class="md-nav__link">
+      Translations:Burst Reference Software
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="Translations:Burst Software" class="md-nav__link">
+      Translations:Burst Software
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="Translations:CIP" class="md-nav__link">
+      Translations:CIP
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="Translations:Current Features" class="md-nav__link">
+      Translations:Current Features
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="Translations:Main Page" class="md-nav__link">
+      Translations:Main Page
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="Translations:Marketplace" class="md-nav__link">
+      Translations:Marketplace
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="Translations:QBundle" class="md-nav__link">
+      Translations:QBundle
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="User:AdamB" class="md-nav__link">
+      User:AdamB
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="User:Admin" class="md-nav__link">
+      User:Admin
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="User:Dana" class="md-nav__link">
+      User:Dana
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="User:Don Heraldo" class="md-nav__link">
+      User:Don Heraldo
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="User:Quibus" class="md-nav__link">
+      User:Quibus
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="User:ShootMe" class="md-nav__link">
+      User:ShootMe
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="User:Sphinxicus" class="md-nav__link">
+      User:Sphinxicus
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="User:Umbrellacorp03" class="md-nav__link">
+      User:Umbrellacorp03
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="User talk:AdamB" class="md-nav__link">
+      User talk:AdamB
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="User talk:Dana" class="md-nav__link">
+      User talk:Dana
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="User talk:ShootMe" class="md-nav__link">
+      User talk:ShootMe
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="User talk:Sphinxicus" class="md-nav__link">
+      User talk:Sphinxicus
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="User talk:Umbrellacorp03" class="md-nav__link">
+      User talk:Umbrellacorp03
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="Whitepaper:Burst" class="md-nav__link">
+      Whitepaper:Burst
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sandbox/" title="Windows Burst Wallet Installation" class="md-nav__link">
+      Windows Burst Wallet Installation
+    </a>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#table-of-contents" title="Table Of Contents" class="md-nav__link">
+    Table Of Contents
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#debian-9-stretch-installation" title="Debian 9 “Stretch” installation" class="md-nav__link">
+    Debian 9 “Stretch” installation
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#prerequisites" title="Prerequisites" class="md-nav__link">
+    Prerequisites
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#configuring-java-environment-path" title="Configuring Java environment path" class="md-nav__link">
+    Configuring Java environment path
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#installing-mariadb" title="Installing MariaDB" class="md-nav__link">
+    Installing MariaDB
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#configuring-the-brs-wallet" title="Configuring the BRS Wallet" class="md-nav__link">
+    Configuring the BRS Wallet
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#importing-the-database" title="Importing the database" class="md-nav__link">
+    Importing the database
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#running-the-wallet" title="Running the Wallet" class="md-nav__link">
+    Running the Wallet
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#configure-brs-to-run-as-a-servicedaemon" title="Configure BRS to run as a service/daemon" class="md-nav__link">
+    Configure BRS to run as a service/daemon
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/burst-apps-team/burst-wiki/edit/master/docs/brs-linux-installation.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
+                
+                
+                  <h1>Brs linux installation</h1>
+                
+                <table>
+<thead>
+<tr>
+<th>Burst Reference Software - Linux Installation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Status</strong></td>
+</tr>
+<tr>
+<td><strong>Credits</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="table-of-contents">Table Of Contents</h2>
+<p>__TOC__</p>
+<h2 id="debian-9-stretch-installation">Debian 9 “Stretch” installation</h2>
+<p>The following steps are to install BRS Core Wallet on a fresh installation of <strong>Debian Linux version 9 “Stretch”</strong>. Please be sure to check Git Repository for the latest release before proceeding.</p>
+<p><strong>Note:</strong> Commands to be entered into the shell will be formatted in bold text, e.g.:</p>
+<p><strong><code>date</code></strong></p>
+<p>example command outputs will not be bold, e.g.:</p>
+<p><code>Wed 28 Nov 12:02:18 GMT 2018</code></p>
+<h3 id="prerequisites">Prerequisites</h3>
+<p>Before you begin the installation, the following packages need to be installed:</p>
+<ul>
+<li>java 8 jdk</li>
+<li>curl</li>
+<li>dirmngr</li>
+</ul>
+<p>Make sure your installation is up to date</p>
+<p><strong><code>apt`` ``update`` ``&amp;&amp;`` ``apt`` ``upgrade</code></strong></p>
+<p>Run the following command to install the above packages:</p>
+<p><strong><code>apt`` ``install`` ``curl`` ``default-jdk`` ``dirmngr`` ``-y</code></strong></p>
+<h3 id="configuring-java-environment-path">Configuring Java environment path</h3>
+<p>Find the path to the jdk</p>
+<p><strong><code>update-alternatives`` ``--config`` ``javac</code></strong></p>
+<p>If only one version of Java is installed, this will give you a similar output to the following:</p>
+<p><code>There is only one alternative in link group javac (providing /usr/bin/javac): /usr/lib/jvm/java-8-openjdk-amd64/bin/javac</code>
+<code>Nothing to configure.</code></p>
+<p>Copy the path from the last output and edit the environment file:</p>
+<p><strong><code>nano`` ``/etc/environment</code></strong></p>
+<p>Add the following line to the file:</p>
+<p><strong><code>JAVA_HOME=</code>“<code>/usr/lib/jvm/java-8-openjdk-amd64/bin/javac</code>”</strong> (taken from the path above)</p>
+<p>To make the above change effective in your current shell, run the following:</p>
+<p><strong><code>source`` ``/etc/environment</code></strong></p>
+<p>Now test that the JAVA_HOME variable is part of PATH</p>
+<p><strong><code>echo`` ``$JAVA_HOME</code></strong></p>
+<p>This will output the path you entered into the environment file. Now confirm the version of java installed</p>
+<p><strong><code>javac`` ``-version</code></strong></p>
+<h3 id="installing-mariadb">Installing MariaDB</h3>
+<p>Add the MariaDB signing key</p>
+<p><strong><code>apt-key`` ``adv`` ``--recv-keys`` ``--keyserver`` ``hkp://keyserver.ubuntu.com:80`` ``0xF1656F24C74CD1D8</code></strong></p>
+<p>Grab the and run MariaDB setup script</p>
+<p><strong><code>curl`` ``-sS`` ``https://downloads.mariadb.com/MariaDB/mariadb_repo_setup`` ``|`` ``bash</code></strong></p>
+<p>Update your sources list:</p>
+<p><strong><code>apt`` ``update</code></strong></p>
+<p>Install MariaDB:</p>
+<p><strong><code>apt`` ``install`` ``mariadb-server</code></strong></p>
+<p>During installation you will be prompted to enter a password for the root user. Enter and remember this as we will need it later.</p>
+<p>Create a database(<strong>brs_master</strong>), user (<strong>brs_user</strong>) and assign a password to the user by running the following command:</p>
+<p><code>'''echo "CREATE DATABASE brs_master; '''</code>
+<strong><code>CREATE`` ``USER`` ``'brs_user'@'localhost'`` ``IDENTIFIED`` ``BY`` ``'yourpassword';</code></strong>
+<code>GRANT ALL PRIVILEGES ON brs_master.* TO 'brs_user'@'localhost';" | mysql -uroot -p</code>
+<code>mysql -uroot -p &lt; init-mysql.sql</code></p>
+<p>This will prompt you for the password you entered for the root user when installing mariaDB</p>
+<h3 id="configuring-the-brs-wallet">Configuring the BRS Wallet</h3>
+<p>Grab the BRSWallet zip from GitHub (always be sure to check link to the latest version. (2.2.6 was latest at time of writing)</p>
+<p><code>wget https://github.com/PoC-Consortium/burstcoin/releases/download/2.2.6/burstcoin-2.2.6.zip</code></p>
+<p>Create a directory to unzip to:</p>
+<p><strong><code>mkdir`` ``BRSWallet</code></strong></p>
+<p>Unzip the burstcoin zip file to the newly created directory:</p>
+<p><strong><code>unzip`` ``burstcoin-2.2.6.zip`` ``-d`` ``BRSWallet/</code></strong></p>
+<p>Navigate to the conf subdirectory within the newly created directory:</p>
+<p><strong><code>cd`` ``BRSWallet/conf</code></strong></p>
+<p>Create a brs.properties file inside the conf folder:</p>
+<p><strong><code>nano`` ``brs.properties</code></strong></p>
+<p>Add the following lines:</p>
+<p><strong><code>DB.Url=jdbc:mariadb://localhost:3306/brs_master</code></strong>
+<strong><code>DB.Username=brs_user</code></strong>
+<strong><code>DB.Password=yourpassword</code></strong></p>
+<p>The <strong>burst.sh</strong> file is not yet executable. We need to change the permissions to make it so. Drop back to the BRSWallet directory <strong><code>cd`` ``..</code></strong> and issue the following:</p>
+<p><strong><code>chmod`` ``750`` ``burst.sh</code></strong></p>
+<p>Now when we list the contents of the directory we can see that the <strong>burst.sh</strong> file has the correct permissions:</p>
+<p><strong><code>ls`` ``-l</code></strong></p>
+<p><code>total 1399340</code>
+<code>-rw-r--r-- 1 root root 1409751247 Nov  5 12:29 brs.mariadb.zip</code>
+<code>-rw-r--r-- 1 root root        507 Nov 18 22:17 burst.cmd</code>
+<code>drwxr-xr-x 2 root root       4096 Nov 18 22:16 burst_db</code>
+<code>-rw-r--r-- 1 root root   23015701 Nov 18 22:17 burst.jar</code>
+<em><code>-rwxr-x---`` ``1`` ``root`` ``root`` ``17831`` ``Nov`` ``18`` ``22:17`` ``burst.sh</code></em>
+<code>-rw-r--r-- 1 root root         46 Nov 18 22:17 Burst_Wallet.url</code>
+<code>drwxr-xr-x 2 root root       4096 Nov 29 15:44 conf</code>
+<code>-rw-r--r-- 1 root root      29288 Nov 18 22:17 genscoop.cl</code>
+<code>drwxr-xr-x 3 root root       4096 Nov 18 22:17 html</code>
+<code>-rw-r--r-- 1 root root      23232 Nov 18 22:17 init-mysql.sql</code>
+<code>drwxr-xr-x 3 root root       4096 Nov 18 22:17 lib</code>
+<code>-rw-r--r-- 1 root root      35149 Nov 18 22:17 LICENSE.txt</code>
+<code>-rw-r--r-- 1 root root       4574 Nov 18 22:17 README.md</code></p>
+<h3 id="importing-the-database">Importing the database</h3>
+<p>The quickest way to get up an running is to bootstrap the database by importing a relatively up to date dump of the database. Your wallet will synchronise from this point in time automatically. If you prefer to synchronise from scratch this will take much longer to complete.</p>
+<p><strong><code>./burst.sh`` ``import`` ``mariadb</code></strong></p>
+<p>If you already have a/part of a brs_master database present, you will be asked if you want to remove the current database, download and import a new one. Answer y or n.</p>
+<p><code>Do you want to remove the current databases, download and import new one?</code><strong><code>y</code></strong></p>
+<p>If you created the <strong>brs.properties</strong> file as per above you will be asked the following question:</p>
+<p><code>Detected a previous database config(conf/brs.properties). Do you want to use the config?</code></p>
+<p>Answer: <strong><code>y</code></strong></p>
+<p>Answer the questions when prompted. If you are running the wallet locally on the same device that you have your terminal open to and you used the same database (<strong>brs_master</strong>) and username (<strong>brs_user</strong>) above when creating the database, you can simply press enter for the first three questions. For the fourth question, enter the password that you input when creating your database and user.</p>
+<p><strong><code>./burst.sh`` ``import`` ``mariadb</code></strong>
+<code>Do you want to remove the current databases, download and import new one?</code><strong><code>y</code></strong>
+<code>Detected a previous database config(conf/brs.properties). Do you want to use the config?</code><strong><code>y</code></strong>
+<code>Could not find Database Password</code>
+<code>Please enter your connection details</code>
+<code>Host     (localhost) :</code>
+<code>Database (brs_master):</code>
+<code>Username (brs_user)  :</code>
+<code>Password empty       :</code><strong><Enter your password here></strong>
+<code>--2018-11-29 15:44:47--</code><a href="https://download.cryptoguru.org/burst/wallet/brs.mariadb.zip"><code>https://download.cryptoguru.org/burst/wallet/brs.mariadb.zip</code></a>
+<code>Resolving download.cryptoguru.org (download.cryptoguru.org)... 195.201.117.34</code>
+<code>Connecting to download.cryptoguru.org (download.cryptoguru.org)|195.201.117.34|:443... connected.</code>
+<code>HTTP request sent, awaiting response... 200 OK</code>
+<code>Length: 1409751247 (1.3G) [application/zip]</code>
+<code>Saving to: ‘brs.mariadb.zip’</code>
+<code>brs.mariadb.zip                 100%[====================================================&gt;]   1.31G  1.87MB/s    in 12m 4s</code>
+<code>2018-11-29 15:56:52 (1.86 MB/s) - ‘brs.mariadb.zip’ saved [1409751247/1409751247]</code>
+<code>Archive:  brs.mariadb.zip</code>
+<code>inflating: brs.mariadb.sql</code>
+<code>[+] Import successful - please remove brs.mariadb.zip</code></p>
+<p>Remove the download DB dump zip file to reclaim space and avoid an outdated zip file in future if you require a DB bootstrap</p>
+<p><strong><code>rm`` ``brs.mariadb.zip</code></strong></p>
+<h3 id="running-the-wallet">Running the Wallet</h3>
+<p>We need to change owner from root to a normal user as all the files/directories are now owned by root (see below)</p>
+<p><code>total 1399340</code>
+<code>-rw-r--r-- 1 root root 1409751247 Nov  5 12:29 brs.mariadb.zip</code>
+<code>-rw-r--r-- 1 root root        507 Nov 18 22:17 burst.cmd</code>
+<code>drwxr-xr-x 2 root root       4096 Nov 18 22:16 burst_db</code>
+<code>-rw-r--r-- 1 root root   23015701 Nov 18 22:17 burst.jar</code>
+<code>-rwxr-x--- 1 root root      17831 Nov 18 22:17 burst.sh</code>
+<code>-rw-r--r-- 1 root root         46 Nov 18 22:17 Burst_Wallet.url</code>
+<code>drwxr-xr-x 2 root root       4096 Nov 29 15:44 conf</code>
+<code>-rw-r--r-- 1 root root      29288 Nov 18 22:17 genscoop.cl</code>
+<code>drwxr-xr-x 3 root root       4096 Nov 18 22:17 html</code>
+<code>-rw-r--r-- 1 root root      23232 Nov 18 22:17 init-mysql.sql</code>
+<code>drwxr-xr-x 3 root root       4096 Nov 18 22:17 lib</code>
+<code>-rw-r--r-- 1 root root      35149 Nov 18 22:17 LICENSE.txt</code>
+<code>-rw-r--r-- 1 root root       4574 Nov 18 22:17 README.md</code></p>
+<p>Navigate to the BRSWallet parent directory</p>
+<p><strong><code>cd`` ``..</code></strong></p>
+<p>Change ownership of all files and directores within the BRSWallet directory:</p>
+<p><strong><code>chown`` ``-R`` ``burst:burst`` ``BRSWallet/</code></strong></p>
+<p>Now the ownership has ben changed to the user burst:</p>
+<p><code>total 1399344</code>
+<code>-rw-r--r-- 1 burst burst       2506 Nov 29 16:59 brs.log</code>
+<code>-rw-r--r-- 1 burst burst 1409751247 Nov  5 12:29 brs.mariadb.zip</code>
+<code>-rw-r--r-- 1 burst burst        507 Nov 18 22:17 burst.cmd</code>
+<code>drwxr-xr-x 2 burst burst       4096 Nov 18 22:16 burst_db</code>
+<code>-rw-r--r-- 1 burst burst   23015701 Nov 18 22:17 burst.jar</code>
+<code>-rwxr-x--- 1 burst burst      17831 Nov 18 22:17 burst.sh</code>
+<code>-rw-r--r-- 1 burst burst         46 Nov 18 22:17 Burst_Wallet.url</code>
+<code>drwxr-xr-x 2 burst burst       4096 Nov 30 10:39 conf</code>
+<code>-rw-r--r-- 1 burst burst      29288 Nov 18 22:17 genscoop.cl</code>
+<code>drwxr-xr-x 3 burst burst       4096 Nov 18 22:17 html</code>
+<code>-rw-r--r-- 1 burst burst      23232 Nov 18 22:17 init-mysql.sql</code>
+<code>drwxr-xr-x 3 burst burst       4096 Nov 18 22:17 lib</code>
+<code>-rw-r--r-- 1 burst burst      35149 Nov 18 22:17 LICENSE.txt</code>
+<code>-rw-r--r-- 1 burst burst       4574 Nov 18 22:17 README.md</code></p>
+<p>At this stage you can reboot the machine to ensure that the environmental variables are applied to every user session going forward. Following the reboot, log in as the your normal user (burst in this case) and run the wallet:</p>
+<p><strong><code>./burst.sh</code></strong></p>
+<p>You will see the following output:</p>
+<p><code>Nov 29, 2018 4:28:33 PM brs.Burst loadProperties</code>
+<code>INFO: Initializing Burst Reference Software (BRS) version 2.2.6</code>
+<code>Nov 29, 2018 4:28:33 PM org.ehcache.core.EhcacheManager createCache</code>
+<code>INFO: Cache 'account' created in EhcacheManager.</code>
+<code>[INFO] 2018-11-29 16:28:33 brs.db.sql.Db - Using mariadb Backend</code>
+<code>[INFO] 2018-11-29 16:28:33 brs.db.mariadb.MariadbDbVersion - Database update may take a while if needed, current db version 177...</code></p>
+<p><strong>Note:</strong> If closing the terminal or pressing Ctrl-c, the wallet will shutdown:</p>
+<p><code>[INFO] 2018-11-29 16:53:12 brs.Burst - Shutting down...</code></p>
+<h3 id="configure-brs-to-run-as-a-servicedaemon">Configure BRS to run as a service/daemon</h3>
+<p>Closing the terminal or pressing Ctrl-c will result to a shutdown of the wallet. To avoid this, BRS should be run as a service. It is particularly helpful if you run BRS on a linux system using SSH.</p>
+<p>First, if systemd isn't installed on your system, run the following command:</p>
+<p><strong><code>sudo`` ``apt`` ``install`` ``systemd</code></strong></p>
+<p>Then, you will have to create a new service file for BRS:</p>
+<p><strong><code>sudo`` ``nano`` ``/etc/systemd/system/brs.service</code></strong></p>
+<p>Add the following configuration (replace description, Exec, WorkingDirectory and User according to your setup):</p>
+<p><code>[Unit]</code>
+<code>Description=BRS Wallet</code>
+<code>After=network.target</code>
+<code>Wants=network.target</code>
+<code>[Service]</code>
+<code>ExecStart=/usr/bin/java -cp /home/burst/burst.jar:/home/burst/conf brs.Burst</code>
+<code>WorkingDirectory=/home/burst/</code>
+<code>User=brs-mariadb</code>
+<code>Restart=always</code>
+<code>RestartSec=90</code>
+<code>[Install]</code>
+<code>WantedBy=multi-user.target</code></p>
+<p>After that, enable the service:</p>
+<p><strong><code>sudo`` ``systemctl`` ``enable`` ``brs.service</code></strong></p>
+<p>To start the service, type:</p>
+<p><strong><code>systemctl`` ``start`` ``brs.service</code></strong></p>
+<p>To get the status of the service:</p>
+<p><strong><code>systemctl`` ``status`` ``brs.service</code></strong></p>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        powered by
+        <a href="https://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+  <div class="md-footer-social">
+    <link rel="stylesheet" href="../assets/fonts/font-awesome.css">
+    
+      <a href="https://github.com/harry1453" class="md-footer-social__link fa fa-github-alt"></a>
+    
+  </div>
+
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../assets/javascripts/application.dc02f8ce.js"></script>
+      
+      <script>app.initialize({version:"1.0.4",url:{base:".."}})</script>
+      
+    
+  </body>
+</html>
