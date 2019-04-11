@@ -1,0 +1,270 @@
+# Project information
+site_name: Burst Wiki
+site_description: The Burstcoin Wiki
+site_author: The Burst Apps Team
+site_url: https://burst-apps-team.github.io/burst-wiki
+
+# Repository (Commented as it is private)
+repo_name: burst-wiki
+repo_url: https://github.com/burst-apps-team/burst-wiki
+
+# Theme
+theme:
+  name: 'material'
+  #favicon: assets/img/favicon.ico
+  #logo: assets/img/logo.png
+  feature:
+    tabs: true
+  palette:
+    primary: blue
+    accent: blue
+
+# Options
+extra:
+  social:
+    - type: github-alt
+      link: https://github.com/harry1453
+
+# Page tree
+pages:
+  - Home: main-page.md
+  - 500k HF Checklist: sandbox.md
+  - Activate Burst Account: sandbox.md
+  - Alias System: sandbox.md
+  - Alias System: sandbox.md
+  - Arbitrary Messages: sandbox.md
+  - Asset Exchange: sandbox.md
+  - Asset Exchange: sandbox.md
+  - Automated Transaction: sandbox.md
+  - Automated Transaction: sandbox.md
+  - BRS: sandbox.md
+  - BRS-default properties configuration file: sandbox.md
+  - BURST support for ERC20 tokens: sandbox.md
+  - Burst Blockchain: sandbox.md
+  - Burst Reference Software: sandbox.md
+  - Burst Reference Software: sandbox.md
+  - Burst Services: sandbox.md
+  - Burst Software: sandbox.md
+  - Burst Software: sandbox.md
+  - Burst Who's Who: sandbox.md
+  - Burst Wiki: sandbox.md
+  - Burst Wiki: sandbox.md
+  - Burstwiki:About: sandbox.md
+  - Burstwiki:General disclaimer: sandbox.md
+  - Burstwiki:Privacy policy: sandbox.md
+  - CIP: sandbox.md
+  - CIP: sandbox.md
+  - Category:Features: sandbox.md
+  - Category:Meta: sandbox.md
+  - Category:Pages with broken file links: sandbox.md
+  - Category:Pages with syntax highlighting errors: sandbox.md
+  - Contribute: sandbox.md
+  - Contribute: sandbox.md
+  - Current Features: sandbox.md
+  - Current Features: sandbox.md
+  - Engraver - How to compile from source: sandbox.md
+  - Exchanges: sandbox.md
+  - FAQ: sandbox.md
+  - File:11 Account manager.png: sandbox.md
+  - File:11a Account manager.png: sandbox.md
+  - File:13 Wallet options.png: sandbox.md
+  - File:14 Database options.png: sandbox.md
+  - File:16 help.png: sandbox.md
+  - File:17a Plotter.png: sandbox.md
+  - File:17b Plotter wrorking.png: sandbox.md
+  - File:17c My plotfiles.png: sandbox.md
+  - File:17d Dynamic plotting.png: sandbox.md
+  - File:17e POC1-POC2 converter start.png: sandbox.md
+  - File:18 Reward recipient.png: sandbox.md
+  - File:1 Ordinary transaction - basic.png: sandbox.md
+  - File:1 hkcu dhZ5JUqrjbjiIcUrQ.png: sandbox.md
+  - File:1 jlRqRGWNhSOKcNEjWLvNLQ.png: sandbox.md
+  - File:1 tlOAFgZwd5ayXb3YtHatNA.png: sandbox.md
+  - File:20 Paper wallet generator.png: sandbox.md
+  - File:20a Paper wallet generator.png: sandbox.md
+  - File:21 Miner settings.png: sandbox.md
+  - File:21a Blago miner.png: sandbox.md
+  - File:2 Multi out.png: sandbox.md
+  - File:3 Application manager.png: sandbox.md
+  - File:3 Transaction advanced options.png: sandbox.md
+  - File:4 Launcher mode.png: sandbox.md
+  - File:4 Raw transaction details.png: sandbox.md
+  - File:5 Transaction operations.png: sandbox.md
+  - File:6 Broadcast transaction.png: sandbox.md
+  - File:7 Multiout reverse.png: sandbox.md
+  - File:About.png: sandbox.md
+  - File:Account Manager.png: sandbox.md
+  - File:Asset Exchange.png: sandbox.md
+  - File:Automatically Generated Passphrase.png: sandbox.md
+  - File:Block contents.png: sandbox.md
+  - File:Block details 1.png: sandbox.md
+  - File:Block details 2.png: sandbox.md
+  - File:Block sync.png: sandbox.md
+  - File:Block sync 2.png: sandbox.md
+  - File:Block sync 3.png: sandbox.md
+  - File:Bootstrap.png: sandbox.md
+  - File:Bootstrap 2.png: sandbox.md
+  - File:Bootstrap MariaDB.png: sandbox.md
+  - File:Burst-marketplace.png: sandbox.md
+  - File:Burst Asset Exchange.png: sandbox.md
+  - File:Burst Blockchain Diagram.png: sandbox.md
+  - File:Burst Blue Icon.png: sandbox.md
+  - File:Burst Wallet.png: sandbox.md
+  - File:CIP Workflow.png: sandbox.md
+  - File:Change Database.png: sandbox.md
+  - File:Check for updates.png: sandbox.md
+  - File:Check for updates 2.png: sandbox.md
+  - File:Console.png: sandbox.md
+  - File:De-alias-kaufen.png: sandbox.md
+  - File:De-burst-marketplace.png: sandbox.md
+  - File:Decrypt msg.PNG: sandbox.md
+  - File:Decrypted message content.PNG: sandbox.md
+  - File:Download-wallet.png: sandbox.md
+  - File:Download Manager.png: sandbox.md
+  - File:Download Manager 2.png: sandbox.md
+  - File:Download MariaDB.png: sandbox.md
+  - File:Download Updates.png: sandbox.md
+  - File:Download Updates 2.png: sandbox.md
+  - File:Dynamic Plotting.png: sandbox.md
+  - File:Executable file.png: sandbox.md
+  - File:First Time.png: sandbox.md
+  - File:First Time 2.png: sandbox.md
+  - File:General Settings.png: sandbox.md
+  - File:Import Database.png: sandbox.md
+  - File:Inbox.png: sandbox.md
+  - File:Inbox msg1.PNG: sandbox.md
+  - File:Intro to mining burst.png: sandbox.md
+  - File:Invalid.png: sandbox.md
+  - File:Issue Asset.png: sandbox.md
+  - File:Latest release 2.5.0.png: sandbox.md
+  - File:Launcher mode 2.png: sandbox.md
+  - File:Local Wallet Settings.png: sandbox.md
+  - File:Login.png: sandbox.md
+  - File:Login Account.png: sandbox.md
+  - File:MariaDB DL.png: sandbox.md
+  - File:Menu List.png: sandbox.md
+  - File:Message transaction.PNG: sandbox.md
+  - File:Miner.png: sandbox.md
+  - File:Mining1.png: sandbox.md
+  - File:Mining2.png: sandbox.md
+  - File:Mining3.png: sandbox.md
+  - File:Mortimer.png: sandbox.md
+  - File:My Assets.png: sandbox.md
+  - File:Open Orders.png: sandbox.md
+  - File:Plotter.png: sandbox.md
+  - File:PlottingStep1.png: sandbox.md
+  - File:Plottingfinal.png: sandbox.md
+  - File:Plottinglastgenerated.png: sandbox.md
+  - File:Plottingnonce.png: sandbox.md
+  - File:Plottingoptimization.png: sandbox.md
+  - File:Plottingstep2.png: sandbox.md
+  - File:Plottingstep3.png: sandbox.md
+  - File:Plottingunoptimized.png: sandbox.md
+  - File:Plottingxor.png: sandbox.md
+  - File:Poc1toPoc2.png: sandbox.md
+  - File:Popoff.png: sandbox.md
+  - File:Powered By Burst - 4.png: sandbox.md
+  - File:PublicKey account.png: sandbox.md
+  - File:QBundle GitHub.png: sandbox.md
+  - File:QBundle MSI.png: sandbox.md
+  - File:QBundle Setup.png: sandbox.md
+  - File:QBundle Setup 2.png: sandbox.md
+  - File:QBundle Setup 3.png: sandbox.md
+  - File:QBundle Setup 4.png: sandbox.md
+  - File:QBundle and Burst Wallet.png: sandbox.md
+  - File:Qbundle Start Screen.png: sandbox.md
+  - File:Reply to message field.PNG: sandbox.md
+  - File:Reward recipient.png: sandbox.md
+  - File:Rollback Chain.png: sandbox.md
+  - File:Run-scav.PNG: sandbox.md
+  - File:Run Anyway.png: sandbox.md
+  - File:SendMoney with publicKey.png: sandbox.md
+  - File:SendMoney with publicKey response.png: sandbox.md
+  - File:Send Actual Message1.png: sandbox.md
+  - File:Send Message.png: sandbox.md
+  - File:Set Reward Recipient.png: sandbox.md
+  - File:Set Reward Recipient BRS.png: sandbox.md
+  - File:Start Import.png: sandbox.md
+  - File:Start wallet.png: sandbox.md
+  - File:Stop Wallet Import Databse.png: sandbox.md
+  - File:Tools.png: sandbox.md
+  - File:Transfer Asset.png: sandbox.md
+  - File:Transition Database.png: sandbox.md
+  - File:UnderReviewW.png: sandbox.md
+  - File:UpToDateW.png: sandbox.md
+  - File:Updated QBundle no updates.png: sandbox.md
+  - File:Vanity Address Generator.png: sandbox.md
+  - File:Verified.png: sandbox.md
+  - File:View console.png: sandbox.md
+  - File:Windows Alert.png: sandbox.md
+  - File:Windows Alert 2.png: sandbox.md
+  - File:Windows Service.png: sandbox.md
+  - File:Windows firewall.png: sandbox.md
+  - Getting Started: sandbox.md
+  - History of Burst: sandbox.md
+  - Join us!: sandbox.md
+  - List of Burst related websites: sandbox.md
+  - List of international Burst websites: sandbox.md
+  - MacOS Burst Wallet Installation: sandbox.md
+  - Main Page: sandbox.md
+  - Marketplace: sandbox.md
+  - Marketplace: sandbox.md
+  - Mining: sandbox.md
+  - Mobile App: sandbox.md
+  - Mortimer: sandbox.md
+  - Offline Transaction Signing: sandbox.md
+  - Plot Software: sandbox.md
+  - Plotter: sandbox.md
+  - Plotting: sandbox.md
+  - Proof of Capacity: sandbox.md
+  - QBundle: sandbox.md
+  - QBundle: sandbox.md
+  - RS Address Format: sandbox.md
+  - Reward Assignment: sandbox.md
+  - Scavenger - How to compile from source: sandbox.md
+  - Secure Your Burst: sandbox.md
+  - Slot-Based Transaction Fees: sandbox.md
+  - Special:Contributions: sandbox.md
+  - Special:FileDuplicateSearch: sandbox.md
+  - Special:History: sandbox.md
+  - Special:Log: sandbox.md
+  - Special:MobileEditor: sandbox.md
+  - Special:Uploads: sandbox.md
+  - Special:WhatLinksHere: sandbox.md
+  - Style Guide: sandbox.md
+  - Style Guide: sandbox.md
+  - Talk:Alias System: sandbox.md
+  - Talk:Alias System: sandbox.md
+  - Talk:History of Burst: sandbox.md
+  - Talk:List of international Burst websites: sandbox.md
+  - Team: sandbox.md
+  - Technical information about mining and block forging: sandbox.md
+  - Technical information to create plot files: sandbox.md
+  - Testnet: sandbox.md
+  - The Burst API: sandbox.md
+  - The Burst API Examples: sandbox.md
+  - Transaction and Fee Types: sandbox.md
+  - Translations:Asset Exchange: sandbox.md
+  - Translations:Automated Transaction: sandbox.md
+  - Translations:Burst Reference Software: sandbox.md
+  - Translations:Burst Software: sandbox.md
+  - Translations:CIP: sandbox.md
+  - Translations:Current Features: sandbox.md
+  - Translations:Main Page: sandbox.md
+  - Translations:Marketplace: sandbox.md
+  - Translations:QBundle: sandbox.md
+  - User:AdamB: sandbox.md
+  - User:Admin: sandbox.md
+  - User:Dana: sandbox.md
+  - User:Don Heraldo: sandbox.md
+  - User:Quibus: sandbox.md
+  - User:ShootMe: sandbox.md
+  - User:Sphinxicus: sandbox.md
+  - User:Umbrellacorp03: sandbox.md
+  - User talk:AdamB: sandbox.md
+  - User talk:Dana: sandbox.md
+  - User talk:ShootMe: sandbox.md
+  - User talk:Sphinxicus: sandbox.md
+  - User talk:Umbrellacorp03: sandbox.md
+  - Whitepaper:Burst: sandbox.md
+  - Windows Burst Wallet Installation: sandbox.md
