@@ -1,4 +1,4 @@
-Description <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+Description
 ---------------------------------------------------------------------------------------------------------
 
 Examples of Burst API calls are collected on this page, individually linked from the main [Burst API](the-burst-api.md) page. The organization and ordering is the same for both pages so that the section numbers in the table of contents are identical.
@@ -7,20 +7,20 @@ The preliminary sections preceding the examples simply link back to the main pag
 
 A lot of API calls can be viewed and tested on the MainNet at <https://wallet1.burst-team.us:2083/burst>?. For specific API calls, use the GET url https://wallet1.burst-team.us:2083/burst?=*specificRequestType*.
 
-General Notes <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+General Notes
 -----------------------------------------------------------------------------------------------------------
 
 [The Burst API General Notes](the-burst-api-general-notes.md)
 
-Create Transaction <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+Create Transaction
 ----------------------------------------------------------------------------------------------------------------
 
 [The Burst API Create Transaction](the-burst-api-create-transaction.md)
 
-Account Operations <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+Account Operations
 ----------------------------------------------------------------------------------------------------------------
 
-### Get Account <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+### Get Account
 
 **Response:**
 
@@ -51,7 +51,7 @@ Account Operations <img src="Verified.png" title="fig:Verified.png" alt="Verifie
 }
 ```
 
-### Get Account Block Ids <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+### Get Account Block Ids
 
 **Response similar to:**
 
@@ -59,7 +59,7 @@ Account Operations <img src="Verified.png" title="fig:Verified.png" alt="Verifie
 {"blockIds":["18426055195962363092","7915836588136735869","10232042957216858995","6879436477641441477","10946006553575734351","11461420847451026714"],"requestProcessingTime":2}
 ```
 
-### Get Account Blocks <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+### Get Account Blocks
 
 **Response similar to:**
 
@@ -107,7 +107,7 @@ Account Operations <img src="Verified.png" title="fig:Verified.png" alt="Verifie
 }
 ```
 
-### Get Account Id <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+### Get Account Id
 
 **Response:**
 
@@ -120,7 +120,7 @@ Account Operations <img src="Verified.png" title="fig:Verified.png" alt="Verifie
 }
 ```
 
-### Get Account Lessors <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+### Get Account Lessors
 
 **Response:**
 
@@ -134,7 +134,7 @@ Account Operations <img src="Verified.png" title="fig:Verified.png" alt="Verifie
 }
 ```
 
-### Get Account Public Key <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+### Get Account Public Key
 
 **Response:**
 
@@ -145,7 +145,7 @@ Account Operations <img src="Verified.png" title="fig:Verified.png" alt="Verifie
 }
 ```
 
-### Get Account Transaction Ids <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+### Get Account Transaction Ids
 
 **Response:**
 
@@ -164,7 +164,7 @@ Account Operations <img src="Verified.png" title="fig:Verified.png" alt="Verifie
 }
 ```
 
-### Get Account Transactions <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+### Get Account Transactions
 
 **Response:**
 
@@ -229,7 +229,7 @@ Account Operations <img src="Verified.png" title="fig:Verified.png" alt="Verifie
 }
 ```
 
-### Get Balance <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+### Get Balance
 
 **Response:**
 
@@ -244,7 +244,7 @@ Account Operations <img src="Verified.png" title="fig:Verified.png" alt="Verifie
 }
 ```
 
-### Get Unconfirmed Transaction Ids <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+### Get Unconfirmed Transaction Ids
 
 **Response:**
 
@@ -255,7 +255,7 @@ Account Operations <img src="Verified.png" title="fig:Verified.png" alt="Verifie
 }
 ```
 
-### Get Unconfirmed Transactions <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+### Get Unconfirmed Transactions
 
 **Response:**
 
@@ -312,7 +312,7 @@ Account Operations <img src="Verified.png" title="fig:Verified.png" alt="Verifie
 }
 ```
 
-### Get Subscription <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+### Get Subscription
 
 **Response:**
 
@@ -330,7 +330,7 @@ Account Operations <img src="Verified.png" title="fig:Verified.png" alt="Verifie
 }
 ```
 
-### Get Subscriptions To Account <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+### Get Subscriptions To Account
 
 **Response:**
 
@@ -352,7 +352,7 @@ Account Operations <img src="Verified.png" title="fig:Verified.png" alt="Verifie
 }
 ```
 
-### Get Account Subscriptions <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+### Get Account Subscriptions
 
 **Response:**
 
@@ -374,7 +374,7 @@ Account Operations <img src="Verified.png" title="fig:Verified.png" alt="Verifie
 }
 ```
 
-### Send Money <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+### Send Money
 
 **Response:**
 
@@ -411,7 +411,7 @@ Account Operations <img src="Verified.png" title="fig:Verified.png" alt="Verifie
 }
 ```
 
-### Send Money Subscription <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+### Send Money Subscription
 
 **Response:**
 
@@ -452,7 +452,7 @@ Account Operations <img src="Verified.png" title="fig:Verified.png" alt="Verifie
 }
 ```
 
-### Cancel Subscription <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+### Cancel Subscription
 
 **Response:**
 
@@ -491,7 +491,7 @@ Account Operations <img src="Verified.png" title="fig:Verified.png" alt="Verifie
 }
 ```
 
-### Set Account Info <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+### Set Account Info
 
 **Response:**
 
@@ -531,10 +531,10 @@ Account Operations <img src="Verified.png" title="fig:Verified.png" alt="Verifie
 }
 ```
 
-Alias Operations <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+Alias Operations
 --------------------------------------------------------------------------------------------------------------
 
-### Buy / Sell Alias <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+### Buy / Sell Alias
 
 **Response:**
 
@@ -576,7 +576,7 @@ Alias Operations <img src="Verified.png" title="fig:Verified.png" alt="Verified.
 }
 ```
 
-### Set Alias <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+### Set Alias
 
 **Response:**
 
@@ -615,7 +615,7 @@ Alias Operations <img src="Verified.png" title="fig:Verified.png" alt="Verified.
 }
 ```
 
-### Get Alias <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+### Get Alias
 
 **Response:**
 
@@ -631,7 +631,7 @@ Alias Operations <img src="Verified.png" title="fig:Verified.png" alt="Verified.
 }
 ```
 
-### Get Aliases <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+### Get Aliases
 
 **Response:**
 
@@ -659,10 +659,10 @@ Alias Operations <img src="Verified.png" title="fig:Verified.png" alt="Verified.
 }
 ```
 
-Arbitrary Message System Operations <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+Arbitrary Message System Operations
 ---------------------------------------------------------------------------------------------------------------------------------
 
-### Encrypt To <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+### Encrypt To
 
 **Response:**
 
@@ -674,7 +674,7 @@ Arbitrary Message System Operations <img src="Verified.png" title="fig:Verified.
 }
 ```
 
-### Decrypt From <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+### Decrypt From
 
 **Response:**
 
@@ -685,7 +685,7 @@ Arbitrary Message System Operations <img src="Verified.png" title="fig:Verified.
 }
 ```
 
-### Send Message <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+### Send Message
 
 **Response:**
 
@@ -727,7 +727,7 @@ Arbitrary Message System Operations <img src="Verified.png" title="fig:Verified.
 }
 ```
 
-### Read Message <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+### Read Message
 
 **Response:**
 
@@ -738,10 +738,10 @@ Arbitrary Message System Operations <img src="Verified.png" title="fig:Verified.
 }
 ```
 
-Asset Exchange Operations <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+Asset Exchange Operations
 -----------------------------------------------------------------------------------------------------------------------
 
-### Cancel Order <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+### Cancel Order
 
 **Response:**
 
@@ -780,7 +780,7 @@ Asset Exchange Operations <img src="Verified.png" title="fig:Verified.png" alt="
 }
 ```
 
-### Get Account Current Order Ids <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+### Get Account Current Order Ids
 
 **Response:**
 
@@ -794,7 +794,7 @@ Asset Exchange Operations <img src="Verified.png" title="fig:Verified.png" alt="
 }
 ```
 
-### Get Account Current Orders <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+### Get Account Current Orders
 
 **Response:**
 
@@ -826,7 +826,7 @@ Asset Exchange Operations <img src="Verified.png" title="fig:Verified.png" alt="
 }
 ```
 
-### Get All Assets <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+### Get All Assets
 
 **Response:**
 
@@ -862,7 +862,7 @@ Asset Exchange Operations <img src="Verified.png" title="fig:Verified.png" alt="
 }
 ```
 
-### Get All Open Orders <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+### Get All Open Orders
 
 **Response:**
 
@@ -904,7 +904,7 @@ Asset Exchange Operations <img src="Verified.png" title="fig:Verified.png" alt="
 }
 ```
 
-### Get All Trades <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+### Get All Trades
 
 **Response:**
 
@@ -952,7 +952,7 @@ Asset Exchange Operations <img src="Verified.png" title="fig:Verified.png" alt="
 }
 ```
 
-### Get Asset <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+### Get Asset
 
 **Response:**
 
@@ -972,7 +972,7 @@ Asset Exchange Operations <img src="Verified.png" title="fig:Verified.png" alt="
 }
 ```
 
-### Get Asset Accounts <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+### Get Asset Accounts
 
 **Response:**
 
@@ -998,7 +998,7 @@ Asset Exchange Operations <img src="Verified.png" title="fig:Verified.png" alt="
 }
 ```
 
-### Get Asset Ids <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+### Get Asset Ids
 
 **Response:**
 
@@ -1016,7 +1016,7 @@ Asset Exchange Operations <img src="Verified.png" title="fig:Verified.png" alt="
 }
 ```
 
-### Get Asset Transfers <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+### Get Asset Transfers
 
 **Response:**
 
@@ -1054,7 +1054,7 @@ Asset Exchange Operations <img src="Verified.png" title="fig:Verified.png" alt="
 }
 ```
 
-### Get Assets <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+### Get Assets
 
 **Response:**
 
@@ -1090,7 +1090,7 @@ Asset Exchange Operations <img src="Verified.png" title="fig:Verified.png" alt="
 }
 ```
 
-### Get Assets By Issuer <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+### Get Assets By Issuer
 
 **Response:**
 
@@ -1130,7 +1130,7 @@ Asset Exchange Operations <img src="Verified.png" title="fig:Verified.png" alt="
 }
 ```
 
-### Get Order <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+### Get Order
 
 **Response:**
 
@@ -1148,7 +1148,7 @@ Asset Exchange Operations <img src="Verified.png" title="fig:Verified.png" alt="
 }
 ```
 
-### Get Order Ids <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+### Get Order Ids
 
 **Response:**
 
@@ -1166,7 +1166,7 @@ Asset Exchange Operations <img src="Verified.png" title="fig:Verified.png" alt="
 }
 ```
 
-### Get Orders <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+### Get Orders
 
 **Response:**
 
@@ -1208,7 +1208,7 @@ Asset Exchange Operations <img src="Verified.png" title="fig:Verified.png" alt="
 }
 ```
 
-### Get Trades <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+### Get Trades
 
 **Response:**
 
@@ -1268,7 +1268,7 @@ Asset Exchange Operations <img src="Verified.png" title="fig:Verified.png" alt="
 }
 ```
 
-### Issue Asset <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+### Issue Asset
 
 **Note:** This is a fake example.
 
@@ -1304,7 +1304,7 @@ Asset Exchange Operations <img src="Verified.png" title="fig:Verified.png" alt="
 }
 ```
 
-### Place Order <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+### Place Order
 
 **Response:**
 
@@ -1345,7 +1345,7 @@ Asset Exchange Operations <img src="Verified.png" title="fig:Verified.png" alt="
 }
 ```
 
-### Transfer Asset <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+### Transfer Asset
 
 **Response:**
 
@@ -1387,10 +1387,10 @@ Asset Exchange Operations <img src="Verified.png" title="fig:Verified.png" alt="
 }
 ```
 
-Block Operations <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+Block Operations
 --------------------------------------------------------------------------------------------------------------
 
-### Get Block <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+### Get Block
 
 **Response:**
 
@@ -1424,7 +1424,7 @@ Block Operations <img src="Verified.png" title="fig:Verified.png" alt="Verified.
 }
 ```
 
-### Get Block Id <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+### Get Block Id
 
 **Response:**
 
@@ -1435,7 +1435,7 @@ Block Operations <img src="Verified.png" title="fig:Verified.png" alt="Verified.
 }
 ```
 
-### Get Blocks <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+### Get Blocks
 
 **Response:**
 
@@ -1508,7 +1508,7 @@ Block Operations <img src="Verified.png" title="fig:Verified.png" alt="Verified.
 }
 ```
 
-### Get EC Block <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+### Get EC Block
 
 **Response:**
 
@@ -1524,7 +1524,7 @@ Block Operations <img src="Verified.png" title="fig:Verified.png" alt="Verified.
 Digital Goods Store Operations
 ------------------------------
 
-### DGS Delisting <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+### DGS Delisting
 
 **Response:**
 
@@ -1563,7 +1563,7 @@ Digital Goods Store Operations
 }
 ```
 
-### DGS Delivery <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+### DGS Delivery
 
 **Response:**
 
@@ -1608,7 +1608,7 @@ Digital Goods Store Operations
 }
 ```
 
-### Feedback <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+### Feedback
 
 **Response:**
 
@@ -1652,7 +1652,7 @@ Digital Goods Store Operations
 }
 ```
 
-### DGS Listing <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+### DGS Listing
 
 **Response:**
 
@@ -1695,7 +1695,7 @@ Digital Goods Store Operations
 }
 ```
 
-### DGS Price Change <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+### DGS Price Change
 
 **Response:**
 
@@ -1735,7 +1735,7 @@ Digital Goods Store Operations
 }
 ```
 
-### DGS Purchase <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+### DGS Purchase
 
 **Response:**
 
@@ -1779,7 +1779,7 @@ Digital Goods Store Operations
 }
 ```
 
-### DGS Quantity Change <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+### DGS Quantity Change
 
 **Response:**
 
@@ -1820,7 +1820,7 @@ Digital Goods Store Operations
 }
 ```
 
-### DGS Refund <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+### DGS Refund
 
 **Response:**
 
@@ -1863,7 +1863,7 @@ Digital Goods Store Operations
 }
 ```
 
-### Get DGS Good <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+### Get DGS Good
 
 **Response:**
 
@@ -1883,7 +1883,7 @@ Digital Goods Store Operations
 }
 ```
 
-### Get DGS Goods <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+### Get DGS Goods
 
 **Response:**
 
@@ -1903,7 +1903,7 @@ Digital Goods Store Operations
 }
 ```
 
-### Get DGS Goods Purchases <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+### Get DGS Goods Purchases
 
 **Response:**
 
@@ -1939,7 +1939,7 @@ Digital Goods Store Operations
 }
 ```
 
-### Get DGS Pending Purchases <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+### Get DGS Pending Purchases
 
 **Response:**
 
@@ -1983,7 +1983,7 @@ Digital Goods Store Operations
 }
 ```
 
-### Get DGS Purchase <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+### Get DGS Purchase
 
 **Response:**
 
@@ -2005,7 +2005,7 @@ Digital Goods Store Operations
 }
 ```
 
-### Get DGS Purchases <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+### Get DGS Purchases
 
 **Response:**
 
@@ -2049,10 +2049,10 @@ Digital Goods Store Operations
 }
 ```
 
-Networking Operations <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+Networking Operations
 -------------------------------------------------------------------------------------------------------------------
 
-### Get My Info <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+### Get My Info
 
 **Response:**
 
@@ -2064,7 +2064,7 @@ Networking Operations <img src="Verified.png" title="fig:Verified.png" alt="Veri
 }
 ```
 
-### Get Peer <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+### Get Peer
 
 **Response:**
 
@@ -2084,7 +2084,7 @@ Networking Operations <img src="Verified.png" title="fig:Verified.png" alt="Veri
 }
 ```
 
-### Get Peers <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+### Get Peers
 
 **Response:**
 
@@ -2103,10 +2103,10 @@ Networking Operations <img src="Verified.png" title="fig:Verified.png" alt="Veri
 }
 ```
 
-Server Information Operations <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+Server Information Operations
 ---------------------------------------------------------------------------------------------------------------------------
 
-### Get Blockchain Status <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+### Get Blockchain Status
 
 **Response:**
 
@@ -2125,7 +2125,7 @@ Server Information Operations <img src="Verified.png" title="fig:Verified.png" a
 }
 ```
 
-### Get Constants <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+### Get Constants
 
 **Response:**
 
@@ -2269,7 +2269,7 @@ Server Information Operations <img src="Verified.png" title="fig:Verified.png" a
 }
 ```
 
-### Get State <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+### Get State
 
 **Response:**
 
@@ -2304,7 +2304,7 @@ Server Information Operations <img src="Verified.png" title="fig:Verified.png" a
 }
 ```
 
-### Get Time <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+### Get Time
 
 **Response:**
 
@@ -2318,7 +2318,7 @@ Server Information Operations <img src="Verified.png" title="fig:Verified.png" a
 Transaction Operations
 ----------------------
 
-### Broadcast Transaction <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+### Broadcast Transaction
 
 **Response:**
 
@@ -2332,7 +2332,7 @@ Transaction Operations
 
 **Note**: If the transaction has already been broadcast, the following INFO notice appears in the console output and log file: *Transaction 15200507403046301754 already in blockchain (or unconfirmed pool), will not broadcast again*.
 
-### Calculate Full Hash <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+### Calculate Full Hash
 
 **Response:**
 
@@ -2343,7 +2343,7 @@ Transaction Operations
 }
 ```
 
-### Get Transaction <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+### Get Transaction
 
 **Response:**
 
@@ -2380,7 +2380,7 @@ Transaction Operations
 }
 ```
 
-### Get Transaction Bytes <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+### Get Transaction Bytes
 
 **Response:**
 
@@ -2393,7 +2393,7 @@ Transaction Operations
 }
 ```
 
-### Parse Transaction <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+### Parse Transaction
 
 **Response:**
 
@@ -2428,7 +2428,7 @@ Transaction Operations
 }
 ```
 
-### Sign Transaction <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+### Sign Transaction
 
 **Response:**
 
@@ -2443,10 +2443,10 @@ Transaction Operations
 }
 ```
 
-Utilities <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+Utilities
 -------------------------------------------------------------------------------------------------------
 
-### Long Convert <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+### Long Convert
 
 **Response:**
 
@@ -2458,7 +2458,7 @@ Utilities <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" wi
 }
 ```
 
-### RS Convert <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+### RS Convert
 
 **Response:**
 
