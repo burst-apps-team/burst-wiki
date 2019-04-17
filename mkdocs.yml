@@ -27,7 +27,7 @@ extra:
 
 # Page tree
 pages:
-  - Home: main-page.md
+  - Home: index.md
   - 500k HF Checklist: 500k-hf-checklist.md
   - Activate Burst Account: activate-burst-account.md
   - Alias System: alias-system.md
