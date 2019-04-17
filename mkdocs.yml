@@ -38,7 +38,7 @@ pages:
   - BRS Configuration File: brs-default-properties-configuration-file.md
   - BRS Docker Installation: brs-docker-installation.md
   - BRS Linux Installation: brs-linux-installation.md
-  - BRS MacOS Installation: brs-maxos-installation.md
+  - BRS MacOS Installation: brs-macos-installation.md
   - BRS Windows Installation: brs-windows-installation.md
   - Burst Blockchain: burst-blockchain.md
   - Burstcoin Reference Software: burst-reference-software.md

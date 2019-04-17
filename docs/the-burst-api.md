@@ -12,11 +12,6 @@ Each API call is documented below, with definitions given for HTTP request param
 
 All API calls can be viewed and tested on the TestNet at <https://wallet.dev.burst-test.net/test>. For specific API calls, use the GET url <https://wallet.dev.burst-test.net/burst?requestType>=*specificRequestType*.
 
-Table Of Contents
------------------
-
-\_\_TOC\_\_
-
 General Notes <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 -----------------------------------------------------------------------------------------------------------
 

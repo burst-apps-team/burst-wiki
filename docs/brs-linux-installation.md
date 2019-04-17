@@ -1,13 +1,3 @@
-| Burst Reference Software - Linux Installation |
-|-----------------------------------------------|
-| **Status**                                    |
-| **Credits**                                   |
-
-Table Of Contents
------------------
-
-\_\_TOC\_\_
-
 Debian 9 “Stretch” installation
 -------------------------------
 

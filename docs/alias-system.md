@@ -1,15 +1,3 @@
-<languages/>
-
-| Alias System |
-|--------------|
-| **Status**   |
-||
-
-Table of Contents
------------------
-
-\_\_TOC\_\_
-
 Description
 -----------
 
@@ -82,4 +70,3 @@ Open your Burst client and select the ‘Aliases’ menu.
 2.  You can sell it to a specific user or offer it to the Burst network for purchase.
 3.  Enter the price and the corresponding data.
 4.  Confirm with your ‘Passphrase’ and click on ‘Sell Alias’.
-

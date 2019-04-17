@@ -1,14 +1,3 @@
-| Technical information to create plot files |
-|--------------------------------------------|
-| **Status**                                 |
-| **PoC Version**                            |
-| **Credits**                                |
-
-Table Of Contents
-=================
-
-\_\_TOC\_\_
-
 Introduction
 ============
 

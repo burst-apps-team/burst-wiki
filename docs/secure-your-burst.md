@@ -1,12 +1,3 @@
-| Secure Your Burst |
-|-------------------|
-| **Status**        |
-
-Table of contents
------------------
-
-\_\_TOC\_\_
-
 The Importance of Passphrases
 -----------------------------
 

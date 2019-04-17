@@ -1,14 +1,3 @@
-<languages/>
-
-| Capability Improvement Proposal |
-|---------------------------------|
-| **Status**                      |
-
-Table Of Contents
------------------
-
-\_\_TOC\_\_
-
 Capability Improvement Proposal
 -------------------------------
 

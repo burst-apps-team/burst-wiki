@@ -1,16 +1,3 @@
-<languages/>
-
-<translate>
-
-| Burst Reference Software |
-|--------------------------|
-| **Status**               |
-
-Table Of Contents
------------------
-
-\_\_TOC\_\_
-
 Introduction
 ------------
 

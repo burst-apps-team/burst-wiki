@@ -1,13 +1,3 @@
-| BURST support for ERC20 tokens |
-|--------------------------------|
-| **Status**                     |
-||
-
-Table of Contents
------------------
-
-\_\_TOC\_\_
-
 Introduction
 ------------
 

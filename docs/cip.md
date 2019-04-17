@@ -1,17 +1,3 @@
-<languages/>
-
-<translate>
-
-| Capability Improvement Proposal |
-|---------------------------------|
-| **Status**                      |
-| **CIPs Github Repo**            |
-
-Table of Contents
------------------
-
-\_\_TOC\_\_
-
 Capability Improvement Proposal
 -------------------------------
 

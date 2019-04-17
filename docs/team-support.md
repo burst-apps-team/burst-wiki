@@ -1,12 +1,3 @@
-| Team/Support |
-|--------------|
-| **Status**   |
-
-Table Of Content
-================
-
-\_\_TOC\_\_
-
 Support Team
 ============
 

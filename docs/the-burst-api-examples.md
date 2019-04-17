@@ -1,12 +1,3 @@
-<languages/>
-
-<translate>
-
-| The Burst API Examples |
-|------------------------|
-| **API Version**        |
-| **BRS Version**        |
-
 Description <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 ---------------------------------------------------------------------------------------------------------
 
@@ -15,11 +6,6 @@ Examples of Burst API calls are collected on this page, individually linked from
 The preliminary sections preceding the examples simply link back to the main page. For example: [The Burst API Description](the-burst-api-description.md).
 
 A lot of API calls can be viewed and tested on the MainNet at <https://wallet1.burst-team.us:2083/burst>?. For specific API calls, use the GET url https://wallet1.burst-team.us:2083/burst?=*specificRequestType*.
-
-Table Of Contents
------------------
-
-\_\_TOC\_\_
 
 General Notes <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
 -----------------------------------------------------------------------------------------------------------

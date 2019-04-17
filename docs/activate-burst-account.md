@@ -1,12 +1,3 @@
-| How to activate a Burst account |
-|---------------------------------|
-| **Status**                      |
-
-Table Of Contents
------------------
-
-\_\_TOC\_\_
-
 Description
 -----------
 

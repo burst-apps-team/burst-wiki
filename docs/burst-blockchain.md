@@ -1,12 +1,3 @@
-| The Burst Blockchain |
-|----------------------|
-| **Status**           |
-
-Table of Contents
------------------
-
-\_\_TOC\_\_
-
 Introduction
 ------------
 

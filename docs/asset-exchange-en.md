@@ -1,14 +1,3 @@
-<languages/>
-
-| Burst Asset Exchange |
-|----------------------|
-| **Status**           |
-
-Table Of Contents
------------------
-
-\_\_TOC\_\_
-
 Description
 -----------
 

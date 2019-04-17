@@ -1,8 +1,3 @@
-Table of contents
-=================
-
-\_\_TOC\_\_
-
 Introduction
 ============
 

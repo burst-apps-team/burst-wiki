@@ -1,13 +1,3 @@
-| History of Burst |
-|------------------|
-| **Status**       |
-||
-
-Table of Contents
-=================
-
-\_\_TOC\_\_
-
 Beginning
 =========
 

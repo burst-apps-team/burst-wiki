@@ -1,13 +1,3 @@
-| Transaction and Fee Types |
-|---------------------------|
-| **Status**                |
-||
-
-Table Of Contents
------------------
-
-\_\_TOC\_\_
-
 Introduction
 ------------
 

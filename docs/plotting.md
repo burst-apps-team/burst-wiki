@@ -1,13 +1,3 @@
-| Plotting   |
-|------------|
-| **Status** |
-||
-
-Table of Contents
------------------
-
-\_\_TOC\_\_
-
 Introduction to Burst Plotting
 ------------------------------
 

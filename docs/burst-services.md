@@ -1,7 +1,3 @@
-<languages/>
-
-<translate> \_\_TOC\_\_
-
 Introduction
 ------------
 

@@ -1,10 +1,3 @@
-| Reward Assignment |
-|-------------------|
-| **Status**        |
-||
-
-\_\_TOC\_\_
-
 Introduction
 ------------
 
@@ -41,8 +34,5 @@ In previous versions of BRS (2.27 and earlier), the reward recipient assignments
 
 References
 ----------
-
-<references />
-\_\_FORCETOC\_\_
 
 [1] <https://github.com/burst-apps-team/burstcoin/releases/tag/v2.3.0>

@@ -1,12 +1,3 @@
-| Burst Reference Software - MacOS Installation |
-|-----------------------------------------------|
-| **Status**                                    |
-
-Table Of Contents
------------------
-
-\_\_TOC\_\_
-
 Installation of MacOS Burst Wallet
 ----------------------------------
 
@@ -53,9 +44,9 @@ Once MariaDB is running, log into MariaDB to create a new wallet database and ad
 Once you have successfully logged into MariaDB, execute the following SQL commands.
 
     CREATE DATABASE burstwallet;
-     
+
     CREATE USER 'burstwallet'@'localhost' IDENTIFIED BY '<YOUR PASSWORD>';
-     
+
     GRANT ALL PRIVILEGES ON burstwallet.* TO 'burstwallet'@'localhost';
 
 Assuming these commands have executed successfully, exit the MariaDB console by typing `\q` and hitting Enter.
@@ -173,6 +164,6 @@ References
 
 [1] <https://medium.com/@aclaytonscott/burst-part-2-macos-wallet-setup-tutorial-2822bb029f54>
 
-[2] 
+[2]
 
-[3] 
+[3]
