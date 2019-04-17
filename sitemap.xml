@@ -56,8 +56,8 @@
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc></loc>
-     
+     <loc>https://burst-apps-team.github.io/burst-wiki/brs-macos-installation/</loc>
+     <lastmod>2019-04-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
@@ -277,11 +277,6 @@
     </url>
     <url>
      <loc>https://burst-apps-team.github.io/burst-wiki/rs-address-format/</loc>
-     <lastmod>2019-04-17</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>https://burst-apps-team.github.io/burst-wiki/sandbox/</loc>
      <lastmod>2019-04-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
