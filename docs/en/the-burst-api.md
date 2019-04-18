@@ -1,6 +1,6 @@
 **The documentation here refers to the version or later.**
 
-Description <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+Description
 ---------------------------------------------------------------------------------------------------------
 
 The Burst API allows interaction with Burst nodes using HTTP requests to port 8125. Most HTTP requests can use either the GET or POST methods, but some API calls accept only the POST method for security reasons. Responses are returned as JSON objects.
@@ -12,18 +12,18 @@ Each API call is documented below, with definitions given for HTTP request param
 
 All API calls can be viewed and tested on the TestNet at <https://wallet.dev.burst-test.net/test>. For specific API calls, use the GET url <https://wallet.dev.burst-test.net/burst?requestType>=*specificRequestType*.
 
-General Notes <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+General Notes
 -----------------------------------------------------------------------------------------------------------
 
-### Genesis Block <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+### Genesis Block
 
 Many API requests make reference to the .
 
-### Flexible Account IDs <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+### Flexible Account IDs
 
 All API requests that require an account ID accept either an account number or the corresponding [Reed-Solomon address](rs-address-format.md).
 
-### Quantity Units BURST, NQT and QNT <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+### Quantity Units BURST, NQT and QNT
 
 The Burst system has a currency BURST used to quantify value in the system. Like all currencies, BURST circulates in the system, moving from one user to another by payments and purchases. Also, a small fee is required for every transaction, including those in which no BURST is transfered, such as simple messages. This fee goes to the owner of the node that forges (generates) the new block containing the transaction that is accepted onto the blockchain.
 
@@ -41,7 +41,7 @@ Other assets can be created within Burst using [Issue Asset](the-burst-api-issue
 | 0.0000000**1**  | -               | Planck         | 1           |
 | 0.12345678      | digit reference | -              | -           |
 
-### Creating Unsigned Transactions <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+### Creating Unsigned Transactions
 
 All API requests that create a new transaction will accept either a *secretPhrase* or a *publicKey* parameter:
 
@@ -49,7 +49,7 @@ All API requests that create a new transaction will accept either a *secretPhras
 -   If only a *publicKey* parameter is supplied as a 64-digit (32-byte) hex string, the transaction will be prepared by the server and returned in the JSON response as *transactionJSON* without a signature. This JSON object along with *secretPhrase* can then be supplied to [Sign Transaction](the-burst-api-sign-transaction.md) as *unsignedTransactionJSON* and the resulting signed *transactionJSON* can then be supplied to [Broadcast Transaction](the-burst-api-broadcast-transaction.md). This sequence allows for offline signing of transactions so that *secretPhrase* never needs to be exposed.
 -   *unsignedTransactionBytes* may be used instead of unsigned *transactionJSON* when there is no encrypted message. Messages to be encrypted require the *secretPhrase* for encryption and so cannot be included in *unsignedTransactionBytes*.
 
-### Escrow Operations <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+### Escrow Operations
 
 All API requests that create a new transaction will accept an optional *referencedTransactionFullHash* parameter which creates a chained transaction, meaning that the new transaction cannot be confirmed unless the referenced transaction is also confirmed. This feature allows a simple way of transaction escrow:
 
@@ -60,7 +60,7 @@ All API requests that create a new transaction will accept an optional *referenc
 
 Note that while the above scheme is good enough for a simple escrow, the blockchain does not enforce that if A is included, B will also be included. It may happen due to forks and blockchain reorganization, that B never gets a chance to be included and expires unconfirmed, while A still remains in the blockchain. However, it is not practically possible for Bob to intentionally cause such chain of events and to prevent B from being confirmed.
 
-### Prunable Data <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+### Prunable Data
 
 Prunable data can be removed from the blockchain without affecting the integrity of the blockchain. When a transaction containing prunable data is created, only the 32-byte sha256 hash of the prunable data is included in the *transactionBytes*, not the prunable data itself. The non-prunable signed *transactionBytes* are used to verify the signature and to generate the transaction's *fullHash* and ID; when the prunable part of the transaction is removed at a later time, none of these operations are affected.
 
@@ -72,7 +72,7 @@ Prunable data can be preserved on a node beyond the predetermined minimum lifeti
 
 Currently, there is only one variety of prunable data in the Burst system: prunable [Arbitrary Messages](the-burst-api-arbitrary-message-system-operations.md). It has a maximum prunable data length of 42 kilobytes.
 
-### Properties Files <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+### Properties Files
 
 The behavior of some API calls is affected by property settings loaded from files in the *brs/conf* directory during Burst server intialization. This directory contains the *brs-default.properties* and *logging-default.properties* files, both of which contain default property settings along with documentation. A few of the property settings can be obtained while the server is running through the [Get Blockchain Status](the-burst-api-get-blockchain-status.md) and [Get State](the-burst-api-get-state.md) calls.
 
@@ -133,14 +133,14 @@ For `feeNQT`, please refer to the following “rules”:
 
 **Note:** An optional arbitrary message can be appended to any transaction by adding message-related parameters as in [Send Message](the-burst-api-send-message.md).
 
-### Create Transaction Response <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+### Create Transaction Response
 
 The following JSON response fields are common to all API calls that create transactions:
 
 Account Operations
 ------------------
 
-### Get Account <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+### Get Account
 
 Get account information given an account ID.
 
@@ -148,19 +148,19 @@ Get account information given an account ID.
 
 **Example:** Refer to [Get Account](the-burst-api-examples-get-account.md) example.
 
-### Get Account Block Ids <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+### Get Account Block Ids
 
 Get the block IDs of all blocks forged (generated) by an account in reverse block height order.
 
 **Response:**
 
-### Get Account Blocks <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+### Get Account Blocks
 
 Get all blocks forged (generated) by an account in reverse block height order.
 
 **Response:**
 
-### Get Account Id <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+### Get Account Id
 
 Get an account ID given a secret passphrase or public key. POST only.
 
@@ -168,7 +168,7 @@ Get an account ID given a secret passphrase or public key. POST only.
 
 **Example:** Refer to [Get Account Id](the-burst-api-examples-get-account-id.md) example.
 
-### Get Account Lessors <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+### Get Account Lessors
 
 Get the lessors to an account.
 
@@ -182,7 +182,7 @@ Get the lessors to an account.
 
 **Example:** Refer to [Get Account Lessors](the-burst-api-examples-get-account-lessors.md) example.
 
-### Get Account Public Key <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+### Get Account Public Key
 
 Get the public key associated with an account ID.
 
@@ -190,7 +190,7 @@ Get the public key associated with an account ID.
 
 **Example:** Refer to [Get Account Public Key](the-burst-api-examples-get-account-public-key.md) example.
 
-### Get Account Transaction Ids <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+### Get Account Transaction Ids
 
 Get the transaction IDs associated with an account in reverse block timestamp order. *This call only returns non-phased transactions as of [Version 1.5.7e](burst-software-change-log-version-1-5-7e.md) and is deprecated, to be removed in version 1.6. Use [Get Blockchain Transactions](the-burst-api-get-blockchain-transactions.md) instead.*
 
@@ -200,7 +200,7 @@ Get the transaction IDs associated with an account in reverse block timestamp or
 
 **Example:** Refer to [Get Account Transaction Ids](the-burst-api-examples-get-account-transaction-ids.md) example.
 
-### Get Account Transactions <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+### Get Account Transactions
 
 Get the transactions associated with an account in reverse block timestamp order. *This call only returns non-phased transactions as of [Version 1.5.7e](burst-software-change-log-version-1-5-7e.md) and is depricated, to be removed in version 1.6. Use [Get Blockchain Transactions](the-burst-api-get-blockchain-transactions.md) instead.*
 
@@ -210,7 +210,7 @@ Get the transactions associated with an account in reverse block timestamp order
 
 **Example:** Refer to [Get Account Transactions](the-burst-api-examples-get-account-transactions.md) example.
 
-### Get Balance <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+### Get Balance
 
 Get the balance of an account.
 
@@ -220,7 +220,7 @@ Get the balance of an account.
 
 **Example:** Refer to [Get Balance](the-burst-api-examples-get-balance.md) example.
 
-### Get Guaranteed Balance <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+### Get Guaranteed Balance
 
 Get the balance of an account that is confirmed at least a specified number of times.
 
@@ -228,7 +228,7 @@ Get the balance of an account that is confirmed at least a specified number of t
 
 **Example:** Refer to [Get Guaranteed Balance](the-burst-api-examples-get-guaranteed-balance.md) example.
 
-### Get Unconfirmed Transaction Ids <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+### Get Unconfirmed Transaction Ids
 
 Get a list of unconfirmed transaction IDs associated with an account.
 
@@ -238,7 +238,7 @@ Get a list of unconfirmed transaction IDs associated with an account.
 
 **Example:** Refer to [Get Unconfirmed Transaction Ids](the-burst-api-examples-get-unconfirmed-transaction-ids.md) example.
 
-### Get Unconfirmed Transactions <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+### Get Unconfirmed Transactions
 
 Get a list of unconfirmed transactions associated with an account.
 
@@ -246,7 +246,7 @@ Get a list of unconfirmed transactions associated with an account.
 
 **Example:** Refer to [Get Unconfirmed Transactions](the-burst-api-examples-get-unconfirmed-transactions.md) example.
 
-### Send Money <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+### Send Money
 
 Send BURST to an account. POST only. Refer to [Create Transaction Request](the-burst-api-create-transaction-request.md) for common parameters.
 
@@ -254,7 +254,7 @@ Send BURST to an account. POST only. Refer to [Create Transaction Request](the-b
 
 **Example:** Refer to [Send Money](the-burst-api-examples-send-money.md) example.
 
-### Send Money Multi <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+### Send Money Multi
 
 Send individual amounts of BURST to up to 64 recipients. POST only. Refer to [Create Transaction Request](the-burst-api-create-transaction-request.md) for common parameters.
 
@@ -262,7 +262,7 @@ Send individual amounts of BURST to up to 64 recipients. POST only. Refer to [Cr
 
 **Example:** To do
 
-### Send Money Multi Same <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+### Send Money Multi Same
 
 Send the same amount of BURST to up to 128 recipients. POST only. Refer to [Create Transaction Request](the-burst-api-create-transaction-request.md) for common parameters.
 
@@ -270,7 +270,7 @@ Send the same amount of BURST to up to 128 recipients. POST only. Refer to [Crea
 
 **Example: To do**
 
-### Set Account Info <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+### Set Account Info
 
 Set account information. POST only. Refer to [Create Transaction Request](the-burst-api-create-transaction-request.md) for common parameters.
 
@@ -281,7 +281,7 @@ Set account information. POST only. Refer to [Create Transaction Request](the-bu
 Alias Operations
 ----------------
 
-### Buy / Sell Alias <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+### Buy / Sell Alias
 
 Buy or sell an alias. POST only. Refer to [Create Transaction Request](the-burst-api-create-transaction-request.md) for common parameters.
 
@@ -291,7 +291,7 @@ Buy or sell an alias. POST only. Refer to [Create Transaction Request](the-burst
 
 **Example:** Refer to [Buy / Sell Alias](the-burst-api-examples-buy---sell-alias.md) example.
 
-### Set Alias <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+### Set Alias
 
 Create and/or assign an alias. POST only. Refer to [Create Transaction Request](the-burst-api-create-transaction-request.md) for common parameters.
 
@@ -299,7 +299,7 @@ Create and/or assign an alias. POST only. Refer to [Create Transaction Request](
 
 **Example:** Refer to [Set Alias](the-burst-api-examples-set-alias.md) example.
 
-### Get Alias <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+### Get Alias
 
 Get information about a given alias.
 
@@ -307,7 +307,7 @@ Get information about a given alias.
 
 **Example:** Refer to [Get Alias](the-burst-api-examples-get-alias.md) example.
 
-### Get Aliases <img src="Verified.png" title="fig:Verified.png" alt="Verified.png" width="35" height="35" />
+### Get Aliases
 
 Get information on aliases owned by a given account in alias name order.
 
