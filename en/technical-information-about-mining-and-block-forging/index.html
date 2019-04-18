@@ -1,0 +1,1826 @@
+
+
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+        <meta name="description" content="The Burstcoin Wiki">
+      
+      
+        <link rel="canonical" href="https://burst-apps-team.github.io/burst-wiki/en/technical-information-about-mining-and-block-forging/">
+      
+      
+        <meta name="author" content="The Burst Apps Team">
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.1.1">
+    
+    
+      
+        <title>Technical Information about Mining and Block Forging - Burst Wiki</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/application.3020aac5.css">
+      
+        <link rel="stylesheet" href="../../assets/stylesheets/application-palette.224b79ff.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="#2196f3">
+      
+    
+    
+      <script src="../../assets/javascripts/modernizr.01ccdecf.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../../assets/fonts/material-icons.css">
+    
+    
+    
+      
+    
+    
+  </head>
+  
+    
+    
+    <body dir="ltr" data-md-color-primary="blue" data-md-color-accent="blue">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+          <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448"
+    viewBox="0 0 416 448" id="__github">
+  <path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19-18.125
+        8.5-18.125-8.5-10.75-19-3.125-20.5 3.125-20.5 10.75-19 18.125-8.5
+        18.125 8.5 10.75 19 3.125 20.5zM320 304q0 10-3.125 20.5t-10.75
+        19-18.125 8.5-18.125-8.5-10.75-19-3.125-20.5 3.125-20.5 10.75-19
+        18.125-8.5 18.125 8.5 10.75 19 3.125 20.5zM360
+        304q0-30-17.25-51t-46.75-21q-10.25 0-48.75 5.25-17.75 2.75-39.25
+        2.75t-39.25-2.75q-38-5.25-48.75-5.25-29.5 0-46.75 21t-17.25 51q0 22 8
+        38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0
+        37.25-1.75t35-7.375 30.5-15 20.25-25.75 8-38.375zM416 260q0 51.75-15.25
+        82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5-41.75
+        1.125q-19.5 0-35.5-0.75t-36.875-3.125-38.125-7.5-34.25-12.875-30.25-20.25-21.5-28.75q-15.5-30.75-15.5-82.75
+        0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25
+        30.875q36.75-8.75 77.25-8.75 37 0 70 8 26.25-20.5
+        46.75-30.25t47.25-9.75q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34
+        99.5z" />
+</svg>
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#introduction" tabindex="1" class="md-skip">
+        Skip to content
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="https://burst-apps-team.github.io/burst-wiki" title="Burst Wiki" class="md-header-nav__button md-logo">
+          
+            <i class="md-icon"></i>
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            <span class="md-header-nav__topic">
+              Burst Wiki
+            </span>
+            <span class="md-header-nav__topic">
+              Technical Information about Mining and Block Forging
+            </span>
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+          
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+      
+        <div class="md-flex__cell md-flex__cell--shrink">
+          <div class="md-header-nav__source">
+            
+
+
+  
+
+<a href="https://github.com/burst-apps-team/burst-wiki/" title="Go to repository" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    burst-wiki
+  </div>
+</a>
+          </div>
+        </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+        
+
+  
+
+<nav class="md-tabs md-tabs--active" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../" title="English" class="md-tabs__link md-tabs__link--active">
+          English
+        </a>
+      
+    </li>
+  
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../../fr/" title="Français" class="md-tabs__link">
+          Français
+        </a>
+      
+    </li>
+  
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../../de/" title="Deutsche" class="md-tabs__link">
+          Deutsche
+        </a>
+      
+    </li>
+  
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../../pt-br/" title="Português" class="md-tabs__link">
+          Português
+        </a>
+      
+    </li>
+  
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../../ru/" title="Росси́я" class="md-tabs__link">
+          Росси́я
+        </a>
+      
+    </li>
+  
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../../zh-hant/" title="中文維基百科" class="md-tabs__link">
+          中文維基百科
+        </a>
+      
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+      
+      <main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href="https://burst-apps-team.github.io/burst-wiki" title="Burst Wiki" class="md-nav__button md-logo">
+      
+        <i class="md-icon"></i>
+      
+    </a>
+    Burst Wiki
+  </label>
+  
+    <div class="md-nav__source">
+      
+
+
+  
+
+<a href="https://github.com/burst-apps-team/burst-wiki/" title="Go to repository" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    burst-wiki
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-1" type="checkbox" id="nav-1" checked>
+    
+    <label class="md-nav__link" for="nav-1">
+      English
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-1">
+        English
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../" title="Home" class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../500k-hf-checklist/" title="500k HF Checklist" class="md-nav__link">
+      500k HF Checklist
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../activate-burst-account/" title="Activate Burst Account" class="md-nav__link">
+      Activate Burst Account
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../alias-system/" title="Alias System" class="md-nav__link">
+      Alias System
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../arbitrary-messages/" title="Arbitrary Messages" class="md-nav__link">
+      Arbitrary Messages
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../asset-exchange/" title="Asset Exchange" class="md-nav__link">
+      Asset Exchange
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../automated-transaction/" title="Automated Transaction" class="md-nav__link">
+      Automated Transaction
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../block-reward/" title="Block Reward" class="md-nav__link">
+      Block Reward
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../brs-default-properties-configuration-file/" title="BRS Configuration File" class="md-nav__link">
+      BRS Configuration File
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../brs-docker-installation/" title="BRS Docker Installation" class="md-nav__link">
+      BRS Docker Installation
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../brs-linux-installation/" title="BRS Linux Installation" class="md-nav__link">
+      BRS Linux Installation
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../brs-macos-installation/" title="BRS MacOS Installation" class="md-nav__link">
+      BRS MacOS Installation
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../brs-windows-installation/" title="BRS Windows Installation" class="md-nav__link">
+      BRS Windows Installation
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../burst-blockchain/" title="Burst Blockchain" class="md-nav__link">
+      Burst Blockchain
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../burst-reference-software/" title="Burstcoin Reference Software" class="md-nav__link">
+      Burstcoin Reference Software
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../burst-services/" title="Burst Services" class="md-nav__link">
+      Burst Services
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../burst-software/" title="Burst Software" class="md-nav__link">
+      Burst Software
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../burst-support-for-erc20-tokens/" title="Burst Support for ERC20 tokens" class="md-nav__link">
+      Burst Support for ERC20 tokens
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../burst-who-s-who/" title="Burst Who's Who" class="md-nav__link">
+      Burst Who's Who
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../burst-wiki/" title="Burst Wiki" class="md-nav__link">
+      Burst Wiki
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../cip/" title="CIP" class="md-nav__link">
+      CIP
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../colored-coins/" title="Colored Coins" class="md-nav__link">
+      Colored Coins
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../contribute/" title="Contribute" class="md-nav__link">
+      Contribute
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../current-features/" title="Current Features" class="md-nav__link">
+      Current Features
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../engraver---how-to-compile-from-source/" title="Engraver - How to compile from source" class="md-nav__link">
+      Engraver - How to compile from source
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../exchanges/" title="Exchanges" class="md-nav__link">
+      Exchanges
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../faq/" title="FAQ" class="md-nav__link">
+      FAQ
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../getting-started/" title="Getting Started" class="md-nav__link">
+      Getting Started
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../history-of-burst/" title="History of Burst" class="md-nav__link">
+      History of Burst
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../internal-at-and-escrow-account/" title="Internal AT and Escrow Account" class="md-nav__link">
+      Internal AT and Escrow Account
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../join-us-/" title="Join Us" class="md-nav__link">
+      Join Us
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../list-of-burst-related-websites/" title="List of Burst Related Websites" class="md-nav__link">
+      List of Burst Related Websites
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../list-of-international-burst-websites/" title="List of International Burst Websites" class="md-nav__link">
+      List of International Burst Websites
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../macos-burst-wallet-installation/" title="MacOS Burst Wallet Installation" class="md-nav__link">
+      MacOS Burst Wallet Installation
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../marketplace/" title="Marketplace" class="md-nav__link">
+      Marketplace
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../mining/" title="Mining" class="md-nav__link">
+      Mining
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../mobile-app/" title="Mobile App" class="md-nav__link">
+      Mobile App
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../mortimer/" title="Mortimer" class="md-nav__link">
+      Mortimer
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../nxt-default-properties-configuration-file/" title="NXT default properties configuration file" class="md-nav__link">
+      NXT default properties configuration file
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../offline-transaction-signing/" title="Offline Transaction Signing" class="md-nav__link">
+      Offline Transaction Signing
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../pchains/" title="Pchains" class="md-nav__link">
+      Pchains
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../plot-software/" title="Plotting Software" class="md-nav__link">
+      Plotting Software
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../plotter/" title="Plotter" class="md-nav__link">
+      Plotter
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../plotting/" title="Plotting" class="md-nav__link">
+      Plotting
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../pocc-mobile-app/" title="PoCC Mobile App" class="md-nav__link">
+      PoCC Mobile App
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../proof-of-capacity/" title="Proof of Capacity" class="md-nav__link">
+      Proof of Capacity
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../publications--burst--cryptocurrency-news-/" title="Publications - Burst Cryptocurrency News" class="md-nav__link">
+      Publications - Burst Cryptocurrency News
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../publications--burst--general-/" title="Publications - Burst Gneral" class="md-nav__link">
+      Publications - Burst Gneral
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../publications-burst-commercial-/" title="Publications - Burst Commercial" class="md-nav__link">
+      Publications - Burst Commercial
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../publications-burst-cryptonews-/" title="Publications - Burst Cryptonews" class="md-nav__link">
+      Publications - Burst Cryptonews
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../publications-burst-news-/" title="Publications - Burst News" class="md-nav__link">
+      Publications - Burst News
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../publications-burst-research-/" title="Publications - Burst Research" class="md-nav__link">
+      Publications - Burst Research
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../publications-burst/" title="Publications - Burst" class="md-nav__link">
+      Publications - Burst
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../qbundle/" title="Qbundle" class="md-nav__link">
+      Qbundle
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../reward-assignment/" title="Reward Assignment" class="md-nav__link">
+      Reward Assignment
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../rs-address-format/" title="RS Address Format" class="md-nav__link">
+      RS Address Format
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../scavenger---how-to-compile-from-source/" title="Scavenger - How to compile from source" class="md-nav__link">
+      Scavenger - How to compile from source
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../secure-your-burst/" title="Secure your Burst" class="md-nav__link">
+      Secure your Burst
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../slot-based-transaction-fees/" title="Slot-Based Transaction Fees" class="md-nav__link">
+      Slot-Based Transaction Fees
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../smart-contract/" title="Smart Contract" class="md-nav__link">
+      Smart Contract
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../softfork-wishlist/" title="Softfork Wishlist" class="md-nav__link">
+      Softfork Wishlist
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../style-guide/" title="Style Guide" class="md-nav__link">
+      Style Guide
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../team-applications/" title="Team Applications" class="md-nav__link">
+      Team Applications
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../team-support/" title="Team Support" class="md-nav__link">
+      Team Support
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+    <a href="./" title="Technical Information about Mining and Block Forging" class="md-nav__link md-nav__link--active">
+      Technical Information about Mining and Block Forging
+    </a>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../technical-information-to-create-plot-files/" title="Technical Information to create plot files" class="md-nav__link">
+      Technical Information to create plot files
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../testnet/" title="Testnet" class="md-nav__link">
+      Testnet
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../the-burst-api/" title="The Burst API" class="md-nav__link">
+      The Burst API
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../the-burst-api-examples/" title="The Burst API Examples" class="md-nav__link">
+      The Burst API Examples
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../todo/" title="TODO" class="md-nav__link">
+      TODO
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../transaction-and-fee-types/" title="Transaction and Fee Types" class="md-nav__link">
+      Transaction and Fee Types
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../whitepaper-burst/" title="Whitepapers" class="md-nav__link">
+      Whitepapers
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../wikipedia-burstcoin/" title="Wikipedia - Burstcoin" class="md-nav__link">
+      Wikipedia - Burstcoin
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../windows-burst-wallet-installation/" title="Windows Burst Wallet Installation" class="md-nav__link">
+      Windows Burst Wallet Installation
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
+    
+    <label class="md-nav__link" for="nav-2">
+      Français
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        Français
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../fr/" title="Page f d’accueil" class="md-nav__link">
+      Page f d’accueil
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../fr/current-features/" title="Caractéristiques actuelles" class="md-nav__link">
+      Caractéristiques actuelles
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../fr/marketplace/" title="Marché" class="md-nav__link">
+      Marché
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../fr/qbundle/" title="QBundle" class="md-nav__link">
+      QBundle
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
+    
+    <label class="md-nav__link" for="nav-3">
+      Deutsche
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        Deutsche
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../de/" title="Homepage" class="md-nav__link">
+      Homepage
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../de/current-features/" title="Aktuelle Funktionen" class="md-nav__link">
+      Aktuelle Funktionen
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../de/alias-system/" title="Alias-System" class="md-nav__link">
+      Alias-System
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../de/marketplace/" title="Marktplatz" class="md-nav__link">
+      Marktplatz
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4">
+    
+    <label class="md-nav__link" for="nav-4">
+      Português
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        Português
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../pt-br/" title="Pagina inicial" class="md-nav__link">
+      Pagina inicial
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../pt-br/qbundle/" title="QBundle" class="md-nav__link">
+      QBundle
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5">
+    
+    <label class="md-nav__link" for="nav-5">
+      Росси́я
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-5">
+        Росси́я
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../ru/" title="домашняя страница" class="md-nav__link">
+      домашняя страница
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../ru/current-features/" title="текущие функции" class="md-nav__link">
+      текущие функции
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../ru/burst-wiki/" title="Burst Wiki" class="md-nav__link">
+      Burst Wiki
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6">
+    
+    <label class="md-nav__link" for="nav-6">
+      中文維基百科
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-6">
+        中文維基百科
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../zh-hant/" title="主頁" class="md-nav__link">
+      主頁
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../zh-hant/contribute/" title="有助於" class="md-nav__link">
+      有助於
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../zh-hant/style-guide/" title="時尚指南" class="md-nav__link">
+      時尚指南
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/burst-apps-team/burst-wiki/edit/master/docs/en/technical-information-about-mining-and-block-forging.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
+                
+                
+                <h1 id="introduction">Introduction</h1>
+<p>With most cryptocurrencies that are not based on Proof-of-Stake, there is a process called mining. This process is the foundation for a blockchain to grow and secure transactions within the network. Burstcoin is no different, except that you use precomputed hashes to find values that can be used to forge a block. To fully understand this document, you should read the document named <a href="../technical-information-to-create-plot-files/">technical information to create plot files</a>. This document is intended to be an overview of the processes. It is technical information, but not deep enough to be used as a reference for a programmer since information regarding subjects like AT, subscriptions, and assets is missing.</p>
+<h1 id="algorithms-and-acronyms">Algorithms and acronyms</h1>
+<p>Shabal / Sha256 / Curve25519<br />
+Shabal, Sha256 and Curve25519 are cryptographic hash functions used in this text. Shabal is the main one used by Burstcoin. Shabal is a rather heavy and slow cryptographic hash function in relation to many others like SHA256. Because of this, it makes it a good crypto for Proof-of-Capacity coins like Burstcoin. This is because we store the precomputed hashes, and it is still fast enough to do smaller live verifications. Burst uses the 256bit version of Shabal also known as Shabal256.</p>
+<!-- -->
+
+<p>Hash / Digest<br />
+A hash, or digest in this context, is a result when computing data through a cryptographic hash function. If not said otherwise, the length of a hash is 32Bytes (256bit).</p>
+<!-- -->
+
+<p>Plot files<br />
+When mining, you read precomputed hashes from files stored on a storage device. These files are called plot files.</p>
+<!-- -->
+
+<p>Nonce<br />
+Within a plot file, there are one or more groups of data called nonces. One nonce contains 8192 hashes, and because of that, the nonces are 256KiB large. Each nonce has its own individual number. This 64bit number can range between 0-18446744073709551615 (2<sup>64</sup>).</p>
+<!-- -->
+
+<p>Scoop<br />
+Each nonce is sorted into 4096 different places of data. These places are called scoop numbers. Each scoop contains 2 hashes. Each of these hashes are xored with a final hash.</p>
+<!-- -->
+
+<p>Account ID<br />
+When you create your plot file it will be bound to a specific Burst account. Because of this, all miners have different plot files.</p>
+<!-- -->
+
+<p>Deadline<br />
+When you mine and process your plot files, you will end up with resulting values called deadlines. The values represent the number of seconds that must elapse since last block was forged before you are allowed to forge a block. If no one else has forged a block within this time, you can forge a block and claim a block reward.</p>
+<!-- -->
+
+<p>Block reward<br />
+If you are lucky enough to forge a block, you will get Burstcoin as a reward. This is called a block reward. The block reward decreases 5% every 10800 blocks. This is roughly every 30 days since each block is supposed to be forged every 4 minutes (360 blocks a day).</p>
+<!-- -->
+
+<p>Base target<br />
+Base target is calculated from the last 24 blocks. This value adjusts the difficulty for the miners. The lower the base target, the harder it is for a miner to find a low deadline. It gets adjusted in a way that Burstcoin can have an average of 4 minutes for each block.</p>
+<!-- -->
+
+<p>Network Difficulty<br />
+Network Difficulty, or NetDiff in short, is a value that can be read as an estimate on the total amount of space in terabytes dedicated to mine Burstcoin. Since this is a value that changes with every block in relation to base target, it should be taken into an average of at least 360 values before considered to be somewhat accurate.</p>
+<!-- -->
+
+<p>Block Height<br />
+Every block forged gets an individual number. Every new block forged gets the previous block’s number + 1. This number is called block height, and can be used to identify a specific block.</p>
+<!-- -->
+
+<p>Block Generator<br />
+When a block is forged, an account has found a nonce and a deadline. Block generator is the account used when forging a block. This is the account from which a deadline has been found when forging a block. This is always the real account even if a reward assignment has been set.</p>
+<!-- -->
+
+<p>Generation Signature<br />
+Generation signature is a based from the previous block generation signature and block generator. This value is then used by miners to forge a new block. Generation signature is 32bytes long.</p>
+<!-- -->
+
+<p>Block signature<br />
+Every block is signed by the generator who forges a block. This is done by taking most parts of the block and signing it with the block generator’s private key using both Sha256 and Curve25519. The result is a 64byte long hash.</p>
+<!-- -->
+
+<p>Reward Assignment<br />
+Reward assignment is frequently used when pool mining.  When changing your reward assignment, you tell the network that another account (the pool account) is acting in your place for 2 specific features. The first feature is that all block rewards that should be given to your account will now be given to the pool account instead. Secondly, for the pool to be able to utilize the deadlines found from your plot files, it is also granted the action to sign the newly forged blocks with the account belonging to the pool.</p>
+<h1 id="mining-process">Mining Process</h1>
+<p><em>All references to wallet in this text can also be a pool depending on scenario.</em></p>
+<p><em>All references to miner in this text is a software able to do a mining operation for Burstcoin.</em></p>
+<p>The first thing that happens when you start mining, is that the miner talks to the wallet and asks for mining information. This information contains a new generation signature, base target, and the next block height. Before the wallet sends over this info, it creates the generation signature by taking the previous generation signature together with previous block generator and runs this though shabal256 to get the new hash. The miner will now take the new 32byte generation signature, and the 8byte block height, and put them together as a seed for Shabal256. The result will be a hash value called Generation hash.</p>
+<p><img alt="" src="Mining1.png" title="Mining1.png" /></p>
+<p>Now, the miner will do a small mathematical operation on this hash to find out which scoop number to use when processing the plot files. This is done by taking the generation hash modulo 4096, as there are only that many scoops.</p>
+<p><img src="Mining2.png" title="Mining2.png" alt="Mining2.png" width="478" height="478" /></p>
+<p>Next step for the miner is to read all the 64-byte long scoops from all nonces in all plot files. It will process them individually through shabal256 together with the new generation signature to get a new hash called target. This target is now divided with base target and the first 8bytes of the result is the value deadline.</p>
+<p><img src="Mining3.png" title="Mining3.png" alt="Mining3.png" width="469" height="469" /></p>
+<p>To prevent so-called “nonce spamming” to the wallet, the miner usually checks if the current deadline found is lower than the lowest one it has found so far. Usually there is also a max value that can be set, as ridiculously large deadlines are of no use to anyone. After these checks, the miner submits information to the wallet. This information contains the numeric account ID bound to the plot file, and the nonce number that contains the scoop data used to generate the deadline. If you are solo mining the miner also sends over the passphrase for the account id used in plot files. If the password is not sent when solo mining, the wallet would be unable to forge blocks for that account. When pool mining, the passphrase for the pool account id is used.</p>
+<h1 id="block-forging-process">Block forging process</h1>
+<h2 id="handling-deadlines">Handling deadlines</h2>
+<p>The wallet has now received the information submitted by the miner, and will now create the nonce to be able to find and verify the deadline for itself. After this is done, the wallet will now check and see if an equal amount or more seconds has passed as defined by the deadline. If not, the wallet will wait until it has. If a valid forged block from another wallet is announced on the network before the deadline has passed, the wallet will discard the mining info submitted since it is no longer valid. If the miner submits new information, the wallet will create that nonce and check if the deadline value is lower than the previous value. If the new deadline is lower, the wallet will use that value instead. When the deadline is valid, the wallet will now start to forge a block.</p>
+<h2 id="forging">Forging</h2>
+<p>There are two limits for a block. First, a block can contain max. 255 transactions. The second is that a block payload can have max. 44880bytes (43KiB).  The wallet will start by getting all of the unconfirmed transactions it has received from users or from the network. It will try to fit as many of these transactions possible until it hits one of the limits, or until all transactions are processed. For each transaction the wallet reads, it will do checks. For example,  if the transaction has a valid signature, if it has a correct timestamp, etc. The wallet will also sum up all of the added transactions amounts and fees. The block itself will only contain the Transaction ID of each transaction and one Sha256 hash of all the transactions included. Complete transactions are stored separately. Beside this, a block contains many different sets of values.</p>
+<h2 id="block-contents">Block contents</h2>
+<p>Block version number<br />
+The version number is basically telling the wallet what a block can contain and how it is contained. This number changes each time a block gets a new format.</p>
+<!-- -->
+
+<p>List of Transaction ID<br />
+A List of all transaction IDs that are included in this block</p>
+<!-- -->
+
+<p>Payload Hash<br />
+This is the Sha256 hash of all the data in the payload of the block</p>
+<!-- -->
+
+<p>Timestamp<br />
+A timestamp that will describe when the block was forged; derived from the birth of the blockchain. Birth date: 11 August 2014, Time: 02:00:00 </p>
+<!-- -->
+
+<p>Total amount of coins<br />
+This is the sum of all transactions in the block</p>
+<!-- -->
+
+<p>Total amount of fees<br />
+This is the amount of fees that will be given to the block forger for generating this block.</p>
+<!-- -->
+
+<p>The length of the payload<br />
+This is a number in bytes representing the length of the payload.</p>
+<!-- -->
+
+<p>Public Key<br />
+This is a public key for the account that forges the block.</p>
+<!-- -->
+
+<p>Generation Signature<br />
+The 32byte generation signature that was used to forge the block.</p>
+<!-- -->
+
+<p>Previous block hash<br />
+A Sha256 hash of the contents from the previous block.</p>
+<!-- -->
+
+<p>Previous block ID<br />
+This is the first 8 bytes in the previous block hash converted to a number.</p>
+<!-- -->
+
+<p>Cumulative Difficulty<br />
+Used to prevent Nothing at Stake problems during potential forks. Calculated: Previous Cumulative Difficulty + (18446744073709551616 / base target)</p>
+<!-- -->
+
+<p>Base Target<br />
+The base target used when forging this block</p>
+<!-- -->
+
+<p>Height<br />
+This block’s height value</p>
+<!-- -->
+
+<p>Block ID<br />
+This is the first 8 bytes in block’s hash converted to a number</p>
+<!-- -->
+
+<p>Nonce<br />
+The nonce number used to forge this block.</p>
+<!-- -->
+
+<p>AT<br />
+If an AT is added to this block, this is the payload bytes for that AT.</p>
+<!-- -->
+
+<p>Block Signature<br />
+This is a 64byte hash generated with the forger’s private key and block contents. When this is done, it will be announced to the network. The wallet will connect to all peers and send the block over to them. The peer will receive the block and verify that all information is not spoofed.</p>
+<hr />
+<p>This information is written by community member @Quibus 2017-10-21</p>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../team-support/" title="Team Support" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Team Support
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../technical-information-to-create-plot-files/" title="Technical Information to create plot files" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Technical Information to create plot files
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        powered by
+        <a href="https://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+  <div class="md-footer-social">
+    <link rel="stylesheet" href="../../assets/fonts/font-awesome.css">
+    
+      <a href="https://github.com/harry1453" class="md-footer-social__link fa fa-github-alt"></a>
+    
+  </div>
+
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../assets/javascripts/application.dc02f8ce.js"></script>
+      
+      <script>app.initialize({version:"1.0.4",url:{base:"../.."}})</script>
+      
+    
+  </body>
+</html>

@@ -1,0 +1,2024 @@
+
+
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+        <meta name="description" content="The Burstcoin Wiki">
+      
+      
+        <link rel="canonical" href="https://burst-apps-team.github.io/burst-wiki/en/cip/">
+      
+      
+        <meta name="author" content="The Burst Apps Team">
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.1.1">
+    
+    
+      
+        <title>CIP - Burst Wiki</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/application.3020aac5.css">
+      
+        <link rel="stylesheet" href="../../assets/stylesheets/application-palette.224b79ff.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="#2196f3">
+      
+    
+    
+      <script src="../../assets/javascripts/modernizr.01ccdecf.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../../assets/fonts/material-icons.css">
+    
+    
+    
+      
+    
+    
+  </head>
+  
+    
+    
+    <body dir="ltr" data-md-color-primary="blue" data-md-color-accent="blue">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+          <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448"
+    viewBox="0 0 416 448" id="__github">
+  <path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19-18.125
+        8.5-18.125-8.5-10.75-19-3.125-20.5 3.125-20.5 10.75-19 18.125-8.5
+        18.125 8.5 10.75 19 3.125 20.5zM320 304q0 10-3.125 20.5t-10.75
+        19-18.125 8.5-18.125-8.5-10.75-19-3.125-20.5 3.125-20.5 10.75-19
+        18.125-8.5 18.125 8.5 10.75 19 3.125 20.5zM360
+        304q0-30-17.25-51t-46.75-21q-10.25 0-48.75 5.25-17.75 2.75-39.25
+        2.75t-39.25-2.75q-38-5.25-48.75-5.25-29.5 0-46.75 21t-17.25 51q0 22 8
+        38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0
+        37.25-1.75t35-7.375 30.5-15 20.25-25.75 8-38.375zM416 260q0 51.75-15.25
+        82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5-41.75
+        1.125q-19.5 0-35.5-0.75t-36.875-3.125-38.125-7.5-34.25-12.875-30.25-20.25-21.5-28.75q-15.5-30.75-15.5-82.75
+        0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25
+        30.875q36.75-8.75 77.25-8.75 37 0 70 8 26.25-20.5
+        46.75-30.25t47.25-9.75q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34
+        99.5z" />
+</svg>
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#capability-improvement-proposal" tabindex="1" class="md-skip">
+        Skip to content
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="https://burst-apps-team.github.io/burst-wiki" title="Burst Wiki" class="md-header-nav__button md-logo">
+          
+            <i class="md-icon"></i>
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            <span class="md-header-nav__topic">
+              Burst Wiki
+            </span>
+            <span class="md-header-nav__topic">
+              CIP
+            </span>
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+          
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+      
+        <div class="md-flex__cell md-flex__cell--shrink">
+          <div class="md-header-nav__source">
+            
+
+
+  
+
+<a href="https://github.com/burst-apps-team/burst-wiki/" title="Go to repository" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    burst-wiki
+  </div>
+</a>
+          </div>
+        </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+        
+
+  
+
+<nav class="md-tabs md-tabs--active" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../" title="English" class="md-tabs__link md-tabs__link--active">
+          English
+        </a>
+      
+    </li>
+  
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../../fr/" title="Français" class="md-tabs__link">
+          Français
+        </a>
+      
+    </li>
+  
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../../de/" title="Deutsche" class="md-tabs__link">
+          Deutsche
+        </a>
+      
+    </li>
+  
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../../pt-br/" title="Português" class="md-tabs__link">
+          Português
+        </a>
+      
+    </li>
+  
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../../ru/" title="Росси́я" class="md-tabs__link">
+          Росси́я
+        </a>
+      
+    </li>
+  
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../../zh-hant/" title="中文維基百科" class="md-tabs__link">
+          中文維基百科
+        </a>
+      
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+      
+      <main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href="https://burst-apps-team.github.io/burst-wiki" title="Burst Wiki" class="md-nav__button md-logo">
+      
+        <i class="md-icon"></i>
+      
+    </a>
+    Burst Wiki
+  </label>
+  
+    <div class="md-nav__source">
+      
+
+
+  
+
+<a href="https://github.com/burst-apps-team/burst-wiki/" title="Go to repository" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    burst-wiki
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-1" type="checkbox" id="nav-1" checked>
+    
+    <label class="md-nav__link" for="nav-1">
+      English
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-1">
+        English
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../" title="Home" class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../500k-hf-checklist/" title="500k HF Checklist" class="md-nav__link">
+      500k HF Checklist
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../activate-burst-account/" title="Activate Burst Account" class="md-nav__link">
+      Activate Burst Account
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../alias-system/" title="Alias System" class="md-nav__link">
+      Alias System
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../arbitrary-messages/" title="Arbitrary Messages" class="md-nav__link">
+      Arbitrary Messages
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../asset-exchange/" title="Asset Exchange" class="md-nav__link">
+      Asset Exchange
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../automated-transaction/" title="Automated Transaction" class="md-nav__link">
+      Automated Transaction
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../block-reward/" title="Block Reward" class="md-nav__link">
+      Block Reward
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../brs-default-properties-configuration-file/" title="BRS Configuration File" class="md-nav__link">
+      BRS Configuration File
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../brs-docker-installation/" title="BRS Docker Installation" class="md-nav__link">
+      BRS Docker Installation
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../brs-linux-installation/" title="BRS Linux Installation" class="md-nav__link">
+      BRS Linux Installation
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../brs-macos-installation/" title="BRS MacOS Installation" class="md-nav__link">
+      BRS MacOS Installation
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../brs-windows-installation/" title="BRS Windows Installation" class="md-nav__link">
+      BRS Windows Installation
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../burst-blockchain/" title="Burst Blockchain" class="md-nav__link">
+      Burst Blockchain
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../burst-reference-software/" title="Burstcoin Reference Software" class="md-nav__link">
+      Burstcoin Reference Software
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../burst-services/" title="Burst Services" class="md-nav__link">
+      Burst Services
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../burst-software/" title="Burst Software" class="md-nav__link">
+      Burst Software
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../burst-support-for-erc20-tokens/" title="Burst Support for ERC20 tokens" class="md-nav__link">
+      Burst Support for ERC20 tokens
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../burst-who-s-who/" title="Burst Who's Who" class="md-nav__link">
+      Burst Who's Who
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../burst-wiki/" title="Burst Wiki" class="md-nav__link">
+      Burst Wiki
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        CIP
+      </label>
+    
+    <a href="./" title="CIP" class="md-nav__link md-nav__link--active">
+      CIP
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#capability-improvement-proposal" title="Capability Improvement Proposal" class="md-nav__link">
+    Capability Improvement Proposal
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#abstract" title="Abstract" class="md-nav__link">
+    Abstract
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cip-workflow" title="CIP workflow" class="md-nav__link">
+    CIP workflow
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#transferring-cip-ownership" title="Transferring CIP Ownership" class="md-nav__link">
+    Transferring CIP Ownership
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cip-editors" title="CIP Editors" class="md-nav__link">
+    CIP Editors
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cip-editor-responsibilities-workflow" title="CIP Editor Responsibilities &amp; Workflow" class="md-nav__link">
+    CIP Editor Responsibilities &amp; Workflow
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cip-format-and-structure" title="CIP format and structure" class="md-nav__link">
+    CIP format and structure
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cip-header-preamble" title="CIP header preamble" class="md-nav__link">
+    CIP header preamble
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#auxiliary-files" title="Auxiliary Files" class="md-nav__link">
+    Auxiliary Files
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cip-types" title="CIP types" class="md-nav__link">
+    CIP types
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cip-status-field" title="CIP status field" class="md-nav__link">
+    CIP status field
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#specification" title="Specification" class="md-nav__link">
+    Specification
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../colored-coins/" title="Colored Coins" class="md-nav__link">
+      Colored Coins
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../contribute/" title="Contribute" class="md-nav__link">
+      Contribute
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../current-features/" title="Current Features" class="md-nav__link">
+      Current Features
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../engraver---how-to-compile-from-source/" title="Engraver - How to compile from source" class="md-nav__link">
+      Engraver - How to compile from source
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../exchanges/" title="Exchanges" class="md-nav__link">
+      Exchanges
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../faq/" title="FAQ" class="md-nav__link">
+      FAQ
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../getting-started/" title="Getting Started" class="md-nav__link">
+      Getting Started
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../history-of-burst/" title="History of Burst" class="md-nav__link">
+      History of Burst
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../internal-at-and-escrow-account/" title="Internal AT and Escrow Account" class="md-nav__link">
+      Internal AT and Escrow Account
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../join-us-/" title="Join Us" class="md-nav__link">
+      Join Us
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../list-of-burst-related-websites/" title="List of Burst Related Websites" class="md-nav__link">
+      List of Burst Related Websites
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../list-of-international-burst-websites/" title="List of International Burst Websites" class="md-nav__link">
+      List of International Burst Websites
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../macos-burst-wallet-installation/" title="MacOS Burst Wallet Installation" class="md-nav__link">
+      MacOS Burst Wallet Installation
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../marketplace/" title="Marketplace" class="md-nav__link">
+      Marketplace
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../mining/" title="Mining" class="md-nav__link">
+      Mining
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../mobile-app/" title="Mobile App" class="md-nav__link">
+      Mobile App
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../mortimer/" title="Mortimer" class="md-nav__link">
+      Mortimer
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../nxt-default-properties-configuration-file/" title="NXT default properties configuration file" class="md-nav__link">
+      NXT default properties configuration file
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../offline-transaction-signing/" title="Offline Transaction Signing" class="md-nav__link">
+      Offline Transaction Signing
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../pchains/" title="Pchains" class="md-nav__link">
+      Pchains
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../plot-software/" title="Plotting Software" class="md-nav__link">
+      Plotting Software
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../plotter/" title="Plotter" class="md-nav__link">
+      Plotter
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../plotting/" title="Plotting" class="md-nav__link">
+      Plotting
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../pocc-mobile-app/" title="PoCC Mobile App" class="md-nav__link">
+      PoCC Mobile App
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../proof-of-capacity/" title="Proof of Capacity" class="md-nav__link">
+      Proof of Capacity
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../publications--burst--cryptocurrency-news-/" title="Publications - Burst Cryptocurrency News" class="md-nav__link">
+      Publications - Burst Cryptocurrency News
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../publications--burst--general-/" title="Publications - Burst Gneral" class="md-nav__link">
+      Publications - Burst Gneral
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../publications-burst-commercial-/" title="Publications - Burst Commercial" class="md-nav__link">
+      Publications - Burst Commercial
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../publications-burst-cryptonews-/" title="Publications - Burst Cryptonews" class="md-nav__link">
+      Publications - Burst Cryptonews
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../publications-burst-news-/" title="Publications - Burst News" class="md-nav__link">
+      Publications - Burst News
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../publications-burst-research-/" title="Publications - Burst Research" class="md-nav__link">
+      Publications - Burst Research
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../publications-burst/" title="Publications - Burst" class="md-nav__link">
+      Publications - Burst
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../qbundle/" title="Qbundle" class="md-nav__link">
+      Qbundle
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../reward-assignment/" title="Reward Assignment" class="md-nav__link">
+      Reward Assignment
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../rs-address-format/" title="RS Address Format" class="md-nav__link">
+      RS Address Format
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../scavenger---how-to-compile-from-source/" title="Scavenger - How to compile from source" class="md-nav__link">
+      Scavenger - How to compile from source
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../secure-your-burst/" title="Secure your Burst" class="md-nav__link">
+      Secure your Burst
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../slot-based-transaction-fees/" title="Slot-Based Transaction Fees" class="md-nav__link">
+      Slot-Based Transaction Fees
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../smart-contract/" title="Smart Contract" class="md-nav__link">
+      Smart Contract
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../softfork-wishlist/" title="Softfork Wishlist" class="md-nav__link">
+      Softfork Wishlist
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../style-guide/" title="Style Guide" class="md-nav__link">
+      Style Guide
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../team-applications/" title="Team Applications" class="md-nav__link">
+      Team Applications
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../team-support/" title="Team Support" class="md-nav__link">
+      Team Support
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../technical-information-about-mining-and-block-forging/" title="Technical Information about Mining and Block Forging" class="md-nav__link">
+      Technical Information about Mining and Block Forging
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../technical-information-to-create-plot-files/" title="Technical Information to create plot files" class="md-nav__link">
+      Technical Information to create plot files
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../testnet/" title="Testnet" class="md-nav__link">
+      Testnet
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../the-burst-api/" title="The Burst API" class="md-nav__link">
+      The Burst API
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../the-burst-api-examples/" title="The Burst API Examples" class="md-nav__link">
+      The Burst API Examples
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../todo/" title="TODO" class="md-nav__link">
+      TODO
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../transaction-and-fee-types/" title="Transaction and Fee Types" class="md-nav__link">
+      Transaction and Fee Types
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../whitepaper-burst/" title="Whitepapers" class="md-nav__link">
+      Whitepapers
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../wikipedia-burstcoin/" title="Wikipedia - Burstcoin" class="md-nav__link">
+      Wikipedia - Burstcoin
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../windows-burst-wallet-installation/" title="Windows Burst Wallet Installation" class="md-nav__link">
+      Windows Burst Wallet Installation
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
+    
+    <label class="md-nav__link" for="nav-2">
+      Français
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        Français
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../fr/" title="Page f d’accueil" class="md-nav__link">
+      Page f d’accueil
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../fr/current-features/" title="Caractéristiques actuelles" class="md-nav__link">
+      Caractéristiques actuelles
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../fr/marketplace/" title="Marché" class="md-nav__link">
+      Marché
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../fr/qbundle/" title="QBundle" class="md-nav__link">
+      QBundle
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
+    
+    <label class="md-nav__link" for="nav-3">
+      Deutsche
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        Deutsche
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../de/" title="Homepage" class="md-nav__link">
+      Homepage
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../de/current-features/" title="Aktuelle Funktionen" class="md-nav__link">
+      Aktuelle Funktionen
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../de/alias-system/" title="Alias-System" class="md-nav__link">
+      Alias-System
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../de/marketplace/" title="Marktplatz" class="md-nav__link">
+      Marktplatz
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4">
+    
+    <label class="md-nav__link" for="nav-4">
+      Português
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        Português
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../pt-br/" title="Pagina inicial" class="md-nav__link">
+      Pagina inicial
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../pt-br/qbundle/" title="QBundle" class="md-nav__link">
+      QBundle
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5">
+    
+    <label class="md-nav__link" for="nav-5">
+      Росси́я
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-5">
+        Росси́я
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../ru/" title="домашняя страница" class="md-nav__link">
+      домашняя страница
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../ru/current-features/" title="текущие функции" class="md-nav__link">
+      текущие функции
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../ru/burst-wiki/" title="Burst Wiki" class="md-nav__link">
+      Burst Wiki
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6">
+    
+    <label class="md-nav__link" for="nav-6">
+      中文維基百科
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-6">
+        中文維基百科
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../zh-hant/" title="主頁" class="md-nav__link">
+      主頁
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../zh-hant/contribute/" title="有助於" class="md-nav__link">
+      有助於
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../zh-hant/style-guide/" title="時尚指南" class="md-nav__link">
+      時尚指南
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#capability-improvement-proposal" title="Capability Improvement Proposal" class="md-nav__link">
+    Capability Improvement Proposal
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#abstract" title="Abstract" class="md-nav__link">
+    Abstract
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cip-workflow" title="CIP workflow" class="md-nav__link">
+    CIP workflow
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#transferring-cip-ownership" title="Transferring CIP Ownership" class="md-nav__link">
+    Transferring CIP Ownership
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cip-editors" title="CIP Editors" class="md-nav__link">
+    CIP Editors
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cip-editor-responsibilities-workflow" title="CIP Editor Responsibilities &amp; Workflow" class="md-nav__link">
+    CIP Editor Responsibilities &amp; Workflow
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cip-format-and-structure" title="CIP format and structure" class="md-nav__link">
+    CIP format and structure
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cip-header-preamble" title="CIP header preamble" class="md-nav__link">
+    CIP header preamble
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#auxiliary-files" title="Auxiliary Files" class="md-nav__link">
+    Auxiliary Files
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cip-types" title="CIP types" class="md-nav__link">
+    CIP types
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cip-status-field" title="CIP status field" class="md-nav__link">
+    CIP status field
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#specification" title="Specification" class="md-nav__link">
+    Specification
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/burst-apps-team/burst-wiki/edit/master/docs/en/cip.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
+                
+                
+                  <h1>CIP</h1>
+                
+                <h2 id="capability-improvement-proposal">Capability Improvement Proposal</h2>
+<p>Similar to the practice of <a href="https://en.bitcoin.it/wiki/Bitcoin_Improvement_Proposals">BIPs</a> and <a href="https://github.com/ethereum/EIPs">EIPs</a>, the Burst community has established CIPs (short for “Capability Improvement Proposal” or even “Coin Improvement Proposal”) to advance further development of Burstcoin.</p>
+<p>So CIPs describe standards for the Burstcoin platform, including core protocol specifications, client APIs, and contract standards.</p>
+<h2 id="abstract">Abstract</h2>
+<p>A (Burst)Coin or Capability Improvement Proposal (CIP) is a design document providing information to the Burstcoin community, or describing a new feature for Burstcoin or its processes or environment. The CIP should provide a concise technical specification of the feature and a rationale for the feature.</p>
+<p>We intend CIPs to be the primary mechanisms for proposing new features, for collecting community input on an issue, and for documenting the design decisions that have gone into Burstcoin. The CIP author is responsible for building consensus within the community and documenting dissenting opinions.</p>
+<p>Because the CIPs are maintained as text files in a versioned repository, their revision history is the historical record of the feature proposal.</p>
+<h2 id="cip-workflow">CIP workflow</h2>
+<p>The CIP process begins with a new idea for Burstcoin. Each potential CIP must have a champion -- someone who writes the CIP using the style and format described below, shepherds the discussions in the appropriate forums, and attempts to build community consensus around the idea. The CIP champion (a.k.a. Author) should first attempt to ascertain whether the idea is CIP-able.</p>
+<p>Small enhancements or patches to a particular piece of software often don't require standardisation between multiple projects; these don't need a CIP and should be injected into the relevant project-specific development workflow with a patch submission to the applicable issue tracker.</p>
+<p>Additionally, many ideas have been brought forward for changing Burstcoin that have been rejected for various reasons.</p>
+<p>The first step should be to search past discussions to see if an idea has been considered before, and if so, what issues arose in its progression.</p>
+<p>After investigating past work, the best way to proceed is by posting about the new idea to the <a href="https://discord.gg/PMUgVSY">Burst Discord Forum</a>.</p>
+<p>Vetting an idea publicly before going as far as writing a CIP is meant to save both the potential author and the wider community time.</p>
+<p>Asking the Burstcoin community first if an idea is original helps prevent too much time being spent on something that is guaranteed to be rejected based on prior discussions (searching the internet does not always do the trick).</p>
+<p>It also helps to make sure the idea is applicable to the entire community and not just the author. Just because an idea sounds good to the author does not mean it will work for most people in most areas where Burstcoin is used.</p>
+<p>Once the champion has asked the Burstcoin community as to whether an idea has any chance of acceptance, a draft CIP should be presented to the <a href="https://discord.gg/PMUgVSY">Burst Discord Forum</a>. This gives the author a chance to flesh out the draft CIP to make it properly formatted, of high quality, and to address additional concerns about the proposal.</p>
+<p>Following a discussion, the proposal should be submitted to the <a href="https://github.com/PoC-Consortium/CIPs">CIPs repository</a>. This draft must be written in CIP style as described below, and named with an alias such as “cip-johndoe-infiniteburstcoins” until an editor has assigned it a CIP number (authors MUST NOT self-assign CIP numbers).</p>
+<p>CIP authors are responsible for collecting community feedback on both the initial idea and the CIP before submitting it for review. However, wherever possible, long open-ended discussions on public mailing lists should be avoided. Strategies to keep the discussions efficient include: setting up a separate SIG mailing list for the topic, having the CIP author accept private comments in the early design phases, setting up a wiki page etc. CIP authors should use their discretion here.</p>
+<p>It is highly recommended that a single CIP contain a single key proposal or new idea. The more focused the CIP, the more successful it tends to be. If in doubt, split your CIP into several well-focused ones.</p>
+<p>When the CIP draft is complete, the CIP editor will assign the CIP a number, label it as Standards Track, Informational, or Process, and move the submitted text to the CIPs repository.</p>
+<p>The CIP editor reviews incoming CIPs for their formal completeness and will not unreasonably reject a CIP.</p>
+<p>Reasons for rejecting CIPs include duplication of effort, disregard for formatting rules, being too unfocused or too broad, being technically unsound, not providing proper motivation or addressing backwards compatibility, or not in keeping with the Burstcoin philosophy.</p>
+<p>For a CIP to be accepted it must meet certain minimum criteria. It must be a clear and complete description of the proposed enhancement. The enhancement must represent a net improvement. The proposed implementation, if applicable, must be solid and must not complicate the protocol unduly.</p>
+<p>The CIP author may update the draft as necessary in the wiki. Updates to drafts should also be submitted by the author.</p>
+<h3 id="transferring-cip-ownership">Transferring CIP Ownership</h3>
+<p>It occasionally becomes necessary to transfer ownership of CIPs to a new champion. In general, we'd like to retain the original author as a co-author of the transferred CIP, but that's really up to the original author. A good reason to transfer ownership is because the original author no longer has the time or interest in updating it or following through with the CIP process, or has fallen off the face of the 'net (i.e. is unreachable or not responding to email). A bad reason to transfer ownership is because you don't agree with the direction of the CIP. We try to build consensus around a CIP, but if that's not possible, you can always submit a competing CIP.</p>
+<p>If you are interested in assuming ownership of a CIP, send a message asking to take over, addressed to both the original author and the CIP editor. If the original author doesn't respond to email in a timely manner, the CIP editor will make a unilateral decision (it's not like such decisions can't be reversed :).</p>
+<h3 id="cip-editors">CIP Editors</h3>
+<p>The current CIP editors are rico666 who can be contacted at <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#98;&#111;&#116;&#115;&#64;&#99;&#114;&#121;&#112;&#116;&#111;&#103;&#117;&#114;&#117;&#46;&#111;&#114;&#103;">&#98;&#111;&#116;&#115;&#64;&#99;&#114;&#121;&#112;&#116;&#111;&#103;&#117;&#114;&#117;&#46;&#111;&#114;&#103;</a> and umbrellacorp03 who can be contacted on Discord.</p>
+<h3 id="cip-editor-responsibilities-workflow">CIP Editor Responsibilities &amp; Workflow</h3>
+<p>The CIP editor is present in the Burst Discord channel. Off-list CIP-related correspondence should be sent (or CC'd) to bots@cryptoguru.org.</p>
+<p>For each new CIP that comes in an editor does the following:</p>
+<ul>
+<li>Read the CIP to check if it is ready: sound and complete. The ideas must make technical sense, even if they don't seem likely to be accepted.</li>
+<li>The title should accurately describe the content.</li>
+<li>A link to the CIP draft must have been sent to the Burst Discord channel for discussion.</li>
+<li>Motivation and backward compatibility (when applicable) must be addressed.</li>
+<li>The defined Layer header must be correctly assigned for the given specification.</li>
+<li>Licensing terms must be acceptable for CIPs.</li>
+</ul>
+<p>If the CIP isn't ready, the editor will send it back to the author for revision, with specific instructions.</p>
+<p>Once the CIP is ready for the repository it should be submitted to the <a href="https://github.com/PoC-Consortium/CIPs">CIPs repository</a> where it may get further feedback.</p>
+<p>The CIP editor will:</p>
+<ul>
+<li>Assign a CIP number.</li>
+<li>Move the CIP to its final Wiki name when it is ready.</li>
+</ul>
+<p>The CIP editors are intended to fulfill administrative and editorial responsibilities. The CIP editors monitor CIP changes, and update CIP headers as appropriate.</p>
+<h3 id="cip-format-and-structure">CIP format and structure</h3>
+<p>Specification</p>
+<p>CIPs must be written in markdown format.</p>
+<p>Each CIP should have the following parts:</p>
+<ul>
+<li>Preamble -- Headers containing metadata about the CIP (see below).</li>
+<li>Abstract -- A short (~200 word) description of the technical issue being addressed.</li>
+<li>Copyright -- As the CIPs are part of this Burstwiki project the license is GNU FDL.</li>
+<li>Specification -- The technical specification should describe the syntax and semantics of any new feature. The specification should be detailed enough to allow competing, interoperable implementations for different Burstcoin platforms.</li>
+<li>Motivation -- The motivation is critical for CIPs that want to change the Burstcoin protocol. It should clearly explain why the existing protocol is inadequate to address the problem that the CIP solves.</li>
+<li>Rationale -- The rationale fleshes out the specification by describing what motivated the design and why particular design decisions were made. It should describe alternate designs that were considered and related work. The rationale should provide evidence of consensus within the community and discuss important objections or concerns raised during discussion.</li>
+<li>Backwards compatibility -- All CIPs that introduce backwards incompatibilities must include a section describing these incompatibilities and their severity. The CIP must explain how the author proposes to deal with these incompatibilities.</li>
+<li>Reference implementation -- The reference implementation must be completed before any CIP is given status “Final”, but it need not be completed before the CIP is accepted. It is better to finish the specification and rationale first and reach consensus on it before writing code. The final implementation must include test code and documentation appropriate for the Burstcoin protocol.</li>
+</ul>
+<h4 id="cip-header-preamble">CIP header preamble</h4>
+<p>Each CIP must begin with an RFC 822 style header preamble. The headers must appear in the following order. Headers marked with “*” are optional and are described below. All other headers are required.</p>
+<pre><code>  CIP: &lt;CIP number, or "?" before being assigned&gt;
+* Layer: &lt;Consensus (soft fork) | Consensus (hard fork) | Peer Services | API/RPC | Applications&gt;
+  Title: &lt;CIP title; maximum 44 characters&gt;
+  Author: &lt;list of author names or known community handles&gt;
+* Discussions-To: &lt;email address&gt;
+* Comments-Summary: &lt;summary tone&gt;
+  Comments-URI: &lt;links to wiki page for comments&gt;
+  Status: &lt;Draft | Active | Proposed | Deferred | Rejected |
+           Withdrawn | Final | Replaced | Obsolete&gt;
+  Type: &lt;Standards Track | Informational | Process&gt;
+  Created: &lt;date created on, in ISO 8601 (yyyy-mm-dd) format&gt;
+  License: &lt;abbreviation for approved license(s)&gt;
+* License-Code: &lt;abbreviation for code under different approved license(s)&gt;
+* Post-History: &lt;dates of postings to bitcoin mailing list, or link to thread in mailing list archive&gt;
+* Requires: &lt;CIP number(s)&gt;
+* Replaces: &lt;CIP number&gt;
+* Superseded-By: &lt;CIP number&gt;
+</code></pre>
+<p>The Layer header (only for Standards Track CIPs) documents which layer of Burstcoin the CIP applies to.</p>
+<p>The Author header lists the names and email addresses of all the authors/owners of the CIP. The format of the Author header value must be</p>
+<p>Random J. User &lt;address@dom.ain&gt;</p>
+<p>If there are multiple authors, each should be on a separate line following RFC 2822 continuation line conventions.</p>
+<p>While a CIP is in private discussions (usually during the initial Draft phase), a Discussions-To header will indicate the mailing list or URL where the CIP is being discussed. No Discussions-To header is necessary if the CIP is being discussed privately with the author, or on the bitcoin email mailing lists.</p>
+<p>The Type header specifies the type of CIP: Standards Track, Informational, or Process.</p>
+<p>The Created header records the date that the CIP was assigned a number, while Post-History is used to record when new versions of the CIP are posted to bitcoin mailing lists. Dates should be in yyyy-mm-dd format, e.g. 2001-08-14. Post-History is permitted to be a link to a specific thread in a mailing list archive.</p>
+<p>CIPs may have a Requires header, indicating the CIP numbers that this CIP depends on.</p>
+<p>CIPs may also have a Superseded-By header indicating that a CIP has been rendered obsolete by a later document; the value is the number of the CIP that replaces the current document. The newer CIP must have a Replaces header containing the number of the CIP that it rendered obsolete.</p>
+<h4 id="auxiliary-files">Auxiliary Files</h4>
+<p>CIPs may include auxiliary files such as diagrams. Auxiliary files should be included in a subdirectory for that CIP.</p>
+<h2 id="cip-types">CIP types</h2>
+<p>There are three kinds of CIP:</p>
+<ul>
+<li>A Standards Track CIP describes any change that affects most or all Burstcoin implementations, such as a change to the network protocol, a change in block or transaction validity rules, or any change or addition that affects the interoperability of applications using Burstcoin. Standards Track CIPs consist of two parts, a design document and a reference implementation.</li>
+<li>An Informational CIP describes a Burstcoin design issue, or provides general guidelines or information to the Burstcoin community, but does not propose a new feature. Informational CIPs do not necessarily represent a Burstcoin community consensus or recommendation, so users and implementors are free to ignore Informational CIPs or follow their advice.</li>
+<li>A Process CIP describes a process surrounding Burstcoin, or proposes a change to (or an event in) a process. Process CIPs are like Standards Track CIPs but apply to areas other than the Burstcoin protocol itself. They may propose an implementation, but not to Burstcoin's codebase; they often require community consensus; unlike Informational CIPs, they are more than recommendations, and users are typically not free to ignore them. Examples include procedures, guidelines, changes to the decision-making process, and changes to the tools or environment used in Burstcoin development. Any meta-CIP is also considered a Process CIP.</li>
+</ul>
+<h2 id="cip-status-field">CIP status field</h2>
+<h3 id="specification">Specification</h3>
+<p>The typical paths of the status of CIPs are in the CIP Workflow diagram. <img alt="CIP Workflow" src="CIP_Workflow.png" title="fig:CIP Workflow" /></p>
+<p>Champions of a CIP may decide on their own to change the status between <code>Draft</code>, <code>Deferred</code>, or <code>Withdrawn</code>. The CIP editor may also change the status to <code>Deferred</code> when no progress is being made on the CIP.</p>
+<p>A CIP may only change status from <code>Draft</code> (or <code>Rejected</code>) to <code>Proposed</code>, when the author deems it is complete, has a working implementation (where applicable), and has community plans to progress it to the <code>Final</code> status.</p>
+<p>CIPs should be changed from <code>Draft</code> or <code>Proposed</code> status, to <code>Rejected</code> status, upon request by any person, if they have not made progress in three years. Such a CIP may be changed to <code>Draft</code> status if the champion provides revisions that meaningfully address public criticism of the proposal, or to <code>Proposed</code> status if it meets the criteria required as described in the previous paragraph.</p>
+<p>An Proposed CIP may progress to <code>Final</code> only when specific criteria reflecting real-world adoption has occurred. This is different for each CIP depending on the nature of its proposed changes, which will be expanded on below. Evaluation of this status change should be objectively verifiable, and/or be discussed on the development channel(s).</p>
+<p>When a Final CIP is no longer relevant, its status may be changed to <code>Replaced</code> or <code>Obsolete</code> (which is equivalent to <code>Replaced</code>). This change must also be objectively verifiable and/or discussed.</p>
+<p>A process CIP may change status from <code>Draft</code> to <code>Active</code> when it achieves rough consensus on the mailing list. Such a proposal is said to have rough consensus if it has been open to discussion on the development channel(s)for at least one month, and no person maintains any unaddressed substantiated objections to it. Addressed or obstructive objections may be ignored/overruled by general agreement that they have been sufficiently addressed, but clear reasoning must be given in such circumstances.</p>
+<p>A soft-fork CIP strictly requires a clear miner majority expressed by blockchain voting (eg, using CIP 9). In addition, if the economy seems willing to make a “no confidence” hard-fork (such as a change in proof-of-work algorithm), the soft-fork does not become Final for as long as such a hard-fork might have majority support, or at most three months. Soft-fork CIPs may also set additional requirements for their adoption. Because of the possibility of changes to miner dynamics, especially in light of delegated voting (mining pools), it is highly recommended that a supermajority vote around 95% be required by the CIP itself, unless rationale is given for a lower threshold.</p>
+<p>A hard-fork CIP requires adoption from the entire Burstcoin economy, particularly including those selling desirable goods and services in exchange for bitcoin payments, as well as Burstcoin holders who wish to spend or would spend their bitcoins (including selling for other currencies) differently in the event of such a hard-fork. Adoption must be expressed by de facto usage of the hard-fork in practice (ie, not merely expressing public support, although that is a good step to establish agreement before adoption of the CIP). This economic adoption cannot be established merely by a super-majority, except by literally forcing the minority to accept the hard-fork (whether this is viable or not is outside the scope of this document).</p>
+<p>Peer services CIPs should be observed to be adopted by at least 1% of public listening nodes for one month.</p>
+<p>API/RPC and application layer CIPs must be implemented by at least two independent and compatible software applications.</p>
+<p>Software authors are encouraged to publish summaries of what CIPs their software supports to aid in verification of status changes.</p>
+<p>These criteria are considered objective ways to observe the de facto adoption of the CIP, and are not to be used as reasons to oppose or reject a CIP. Should a CIP become actually and unambiguously adopted despite not meeting the criteria outlined here, it should still be updated to Final status. --&gt; </translate></p>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../burst-wiki/" title="Burst Wiki" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Burst Wiki
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../colored-coins/" title="Colored Coins" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Colored Coins
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        powered by
+        <a href="https://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+  <div class="md-footer-social">
+    <link rel="stylesheet" href="../../assets/fonts/font-awesome.css">
+    
+      <a href="https://github.com/harry1453" class="md-footer-social__link fa fa-github-alt"></a>
+    
+  </div>
+
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../assets/javascripts/application.dc02f8ce.js"></script>
+      
+      <script>app.initialize({version:"1.0.4",url:{base:"../.."}})</script>
+      
+    
+  </body>
+</html>
