@@ -35,8 +35,8 @@
 
 - [Softwares utilizados no ecossistema Burst](burst-software.md)
 -   [Software de referência Burst](burst-reference-software.md)
-    -   Última versão: ****
-    -   Download direto: ****, **[Burst Reference Software](https://github.com/PoC-Consortium/burstcoin/releases)**
+    -   Última versão: 2.3.0
+    -   [Download direto](https://github.com/burst-apps-team/burstcoin/releases/download/v2.3.0/burstcoin-2.3.0.zip)
 -   [Código-fonte Burst](https://github.com/PoC-Consortium/burstcoin)
 -   [Aplicativo Móvel](mobile-app.md)
 -   [Guia Completo QBundle](qbundle.md)
