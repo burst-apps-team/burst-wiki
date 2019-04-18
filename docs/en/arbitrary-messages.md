@@ -1,10 +1,3 @@
-<languages/>
-
-| Arbitrary Messages |
-|--------------------|
-| **Status**         |
-| **Credits**        |
-
 Description
 -----------
 
@@ -42,7 +35,7 @@ Open your Burst client and login using your passphrase.
 2.  Here you can find all the received messages sorted by the burst accounts. Select one of the senders accounts and the messages sent from this account will be displayed. If the message has been encrypted, you will see a padlock symbol and a prompt to enter your passphrase to decrypt the messages present as shown below:
     :<img src="Inbox_msg1.PNG" title="fig:Inbox_msg1.PNG" alt="Inbox_msg1.PNG" width="717" height="365" />
 3.  Selecting one of the messages allows you to enter your passphrase. You can also select the checkbox to remember you pasphrase for decryption.
-      
+
     <img src="Decrypt_msg.PNG" title="fig:Decrypt_msg.PNG" alt="Decrypt_msg.PNG" width="954" height="262" />
 
 4.  Once you enter your passphrase the message content will be shown.

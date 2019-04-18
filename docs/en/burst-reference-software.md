@@ -10,5 +10,3 @@ Installation
 -   [MacOS Installation](brs-macos-installation.md)
 -   [Linux Installation](brs-linux-installation.md)
 -   [Docker Installation](brs-docker-installation.md)
-
-</translate>
