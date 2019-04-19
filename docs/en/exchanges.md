@@ -1,7 +1,7 @@
 Exchanges currently trading Burst
 ---------------------------------
 
-Burst can be traded on the following exchanges against the given other currencies:[1][2]
+Burst can be traded on the following exchanges against the given other currencies:
 
 | Name                                                             | Currencies                        | HF1 Support |
 |------------------------------------------------------------------|-----------------------------------|-------------|
@@ -15,7 +15,7 @@ Burst can be traded on the following exchanges against the given other currencie
 | [bisq](https://markets.bisq.network/?market=burst_btc)           | BTC                               | Confirmed   |
 | xchange.me                                                       | BTC, ETH                          | Confirmed   |
 
-(\*) **Attention!** Bittrex requires the target address to have a public key activated on the blockchain before they will send send coins. Activating a public key on the block chain usually requires having made an outgoing transaction from the target address. If you do not have BURST to make that outgoing transaction (vicious circle - right?), simply look for a faucet or ASK someone for a few. See FAQ 1.
+(\*) **Attention!** Bittrex requires the target address to have a public key activated on the blockchain before they will send send coins. Activating a public key on the block chain usually requires having made an outgoing transaction from the target address. If you do not have BURST to make that outgoing transaction (vicious circle - right?), simply look for a faucet or ASK someone for a few. See [FAQ 1](faq.md).
 
 Exchanges that will list Burst soon
 -----------------------------------
@@ -33,8 +33,5 @@ Information for Exchanges to List Burstcoin
 References
 ----------
 
-<references />
-
-[1] <https://www.burst-coin.org/exchanges>
-
-[2] <https://coinmarketcap.com/currencies/burst/#markets>
+1. [https://www.burst-coin.org/exchanges](https://www.burst-coin.org/exchanges)
+2. [https://coinmarketcap.com/currencies/burst/#markets](https://coinmarketcap.com/currencies/burst/#markets)
