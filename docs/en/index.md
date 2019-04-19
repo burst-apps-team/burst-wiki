@@ -3,6 +3,7 @@
 **Burst** is an [open source](https://github.com/ac0v/burstcoin) blockchain platform with multiple core-level features that has been running publicly since August 2014. It is a code fork of Nxt using [Proof of Capacity](proof-of-capacity.md) (PoC) consensus, meaning that you can mine it with your disk space.
 
 **[What is Burst video animation](https://www.youtube.com/watch?v=Fyj9RIyxLb4)**
+
 **[How to start mining Burst](https://www.youtube.com/watch?v=LJLhw37Lh_8&t)**
 
 **Burst Software**
