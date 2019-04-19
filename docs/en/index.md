@@ -70,4 +70,4 @@
 
 **Get Support: [Forum 1](https://burstforum.net/)   |   [Forum 2](https://forums.getburst.net)   |   [Burst Discord](https://discord.gg/PMUgVSY)   |   [Burst Reddit](https://www.reddit.com/r/burstcoin/)**
 
-[Join us!](join-us-.md)   |   **[Contribute](contribute.md)**
+[Join Us Today!](join-us-.md)
