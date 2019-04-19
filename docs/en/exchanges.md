@@ -1,7 +1,7 @@
 Exchanges currently trading Burst
 ---------------------------------
 
-Burst can be traded on the following exchanges against the given other currencies:[^1] [^2]
+Burst can be traded on the following exchanges against the given other currencies:
 
 | Name                                                             | Currencies                        | HF1 Support |
 |------------------------------------------------------------------|-----------------------------------|-------------|
@@ -33,6 +33,5 @@ Information for Exchanges to List Burstcoin
 References
 ----------
 
-[^1]: <https://www.burst-coin.org/exchanges>
-
-[^2]: <https://coinmarketcap.com/currencies/burst/#markets>
+1. [https://www.burst-coin.org/exchanges](https://www.burst-coin.org/exchanges)
+2. [https://coinmarketcap.com/currencies/burst/#markets](https://coinmarketcap.com/currencies/burst/#markets)
