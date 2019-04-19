@@ -236,7 +236,7 @@ Plots are like collections of lottery tickets (and if only one ticket could win)
 
 **36**)** What will the block reward be next month/will the block rewards run out in 6 months?**
 
-<https://www.ecomine.earth/burstblockreward/> Rewards will carry on into 2026, but transaction fees will be a bigger % by then, and so profitable mining will continue.
+Rewards will carry on into 2026, but transaction fees will be a bigger % by then, and so profitable mining will continue.
 
 **37**)** How can I get started with Burst (wallet/mining/everything) and I need it in a video**
 
@@ -306,7 +306,7 @@ No need to set up a node, just set up a wallet (version 2.0.1) or Qbundle (2.0) 
 
 **53**)** What pool should I join?**
 
-First of all, read question 9, after you have understood that it depends on the size (and how patient you are) select from the following list: https://www.ecomine.earth/burstpools/
+First of all, read question 9, after you have understood that it depends on the size (and how patient you are) select from the following list:
 
 **54**)** What miner to use?**
 
@@ -318,9 +318,7 @@ Qbundle: https://github.com/PoC-Consortium/Qbundle/releases/
 
 **56**)** What Wallet to use (Superior not windows)?**
 
-<https://package.cryptoguru.org/> for Debian and Ubuntu, for Mac. read:
-
-<https://www.ecomine.earth/macoswalletinstallguide/>
+<https://package.cryptoguru.org/> for Debian and Ubuntu, for Mac use the [Homebrew install scripts](https://github.com/burst-apps-team/homebrew-burstcoind)
 
 **57**)** Will i need to 'replot' after POC2 (second fork) happens?**
 
