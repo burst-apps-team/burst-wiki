@@ -3,7 +3,6 @@
 **Burst** is an [open source](https://github.com/ac0v/burstcoin) blockchain platform with multiple core-level features that has been running publicly since August 2014. It is a code fork of Nxt using [Proof of Capacity](proof-of-capacity.md) (PoC) consensus, meaning that you can mine it with your disk space.
 
 **[What is Burst video animation](https://www.youtube.com/watch?v=Fyj9RIyxLb4)**
-
 **[How to start mining Burst](https://www.youtube.com/watch?v=LJLhw37Lh_8&t)**
 
 **Burst Software**
@@ -42,8 +41,6 @@
 -   [Plotting](plotting.md)
 -   [Mining](mining.md)
 
-**Get Support: [Forum 1](https://burstforum.net/)   |   [Forum 2](https://forums.getburst.net)   |   [Burst Discord](https://discord.gg/PMUgVSY)   |   [Burst Reddit](https://www.reddit.com/r/burstcoin/)**
-
 **About Burst**
 
 -   [What is Burst?](burst-wiki.md)
@@ -62,14 +59,14 @@
 
 **Services and Tools**
 
-- Online wallets: [PoCC](https://wallet.burst.cryptoguru.org:8125/index.html), poolofd32th: [1](https://wallet.poolofd32th.club/index.html), [2](https://wallet2.poolofd32th.club/index.html). Burst-Team: [3](https://wallet3.burst-team.us:2083/index.html), [4](https://wallet4.burst-team.us:2083/index.html), [5](https://wallet5.burst-team.us:2083/index.html)
+- Online wallets: VoIPLanParty[1](https://voiplanparty.com:8125/index.html), Burst-Team: [1](https://wallet3.burst-team.us:2083/index.html), [2](https://wallet4.burst-team.us:2083/index.html), [3](https://wallet5.burst-team.us:2083/index.html). Burstforum: [1](https://wallet1.burstforum.net:2083/index.html), [2](https://wallet2.burstforum.net:2083/index.html), [3](https://wallet3.burstforum.net:2083/index.html)
 
--   TestNet: [BAT Public TestNet](http://3.16.150.48:6876/)
--   Blockchain Explorer: [BAT](https://explorer.burstcoin.network/), [PoCC](https://explore.burst.cryptoguru.org/), [BurstXD](http://burstxd.com/blocks/), [burstcoin.zone](http://burstcoin.zone/wordpress/blockexplorer/)
--   Network Observer: [Luxe](http://burstcoin.cc/), [PoCC](https://explore.burst.cryptoguru.org/tool/observe)
--   [Burst Today](http://www.burst.today/)
+-   TestNet: [BAT Public TestNet](http://testnet.getburst.net:6876/index.html)
+-   Blockchain Explorer: [BAT](https://explorer.burstcoin.network/), [PoCC](https://explore.burst.cryptoguru.org/), [.RO](https://explore.burstcoin.ro/), [Neon](http://burstneon.com/monitor?id=16020314477710380875)
+-   Network Observer: [BAT](https://explorer.burstcoin.network/?action=network_status), [Luxe](http://burstcoin.cc/), [PoCC](https://explore.burst.cryptoguru.org/tool/observe)
 -   [Pool uptime monitor](https://uptime.statuscake.com/?TestID=M30iNz7TSq)
 -   [Burstcoin Faucet Lists](http://burstfaucets.com/)
--   Forum: [Burst-Team](http://burstforum.net/), [GetBurst](https://forums.getburst.net/), [Burst Reddit](https://www.reddit.com/r/burstcoin/)
+
+**Get Support: [Forum 1](https://burstforum.net/)   |   [Forum 2](https://forums.getburst.net)   |   [Burst Discord](https://discord.gg/PMUgVSY)   |   [Burst Reddit](https://www.reddit.com/r/burstcoin/)**
 
 [Join us!](join-us-.md)   |   **[Contribute](contribute.md)**
