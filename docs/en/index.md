@@ -1,6 +1,6 @@
 **Welcome to the BURST WIKI**
 
-**Burst** is an [open source](https://github.com/ac0v/burstcoin) blockchain platform with multiple core-level features that has been running publicly since August 2014. It is a code fork of Nxt using [Proof of Capacity](proof-of-capacity.md) (PoC) consensus, meaning that you can mine it with your disk space.
+**Burst** is an [open source](https://github.com/burst-apps-team/burstcoin) blockchain platform with multiple core-level features that has been running publicly since August 2014. It is a code fork of Nxt using [Proof of Capacity](proof-of-capacity.md) (PoC) consensus, meaning that you can mine it with your disk space.
 
 **[What is Burst video animation](https://www.youtube.com/watch?v=Fyj9RIyxLb4)**
 
@@ -60,7 +60,7 @@
 
 **Services and Tools**
 
-- Online wallets: VoIPLanParty[1](https://voiplanparty.com:8125/index.html), Burst-Team: [1](https://wallet3.burst-team.us:2083/index.html), [2](https://wallet4.burst-team.us:2083/index.html), [3](https://wallet5.burst-team.us:2083/index.html). Burstforum: [1](https://wallet1.burstforum.net:2083/index.html), [2](https://wallet2.burstforum.net:2083/index.html), [3](https://wallet3.burstforum.net:2083/index.html)
+- Online wallets: VoIPLanParty: [1](https://voiplanparty.com:8125/index.html), Burst-Team: [1](https://wallet3.burst-team.us:2083/index.html), [2](https://wallet4.burst-team.us:2083/index.html), [3](https://wallet5.burst-team.us:2083/index.html). Burstforum: [1](https://wallet1.burstforum.net:2083/index.html), [2](https://wallet2.burstforum.net:2083/index.html), [3](https://wallet3.burstforum.net:2083/index.html)
 
 -   TestNet: [BAT Public TestNet](http://testnet.getburst.net:6876/index.html)
 -   Blockchain Explorer: [BAT](https://explorer.burstcoin.network/), [PoCC](https://explore.burst.cryptoguru.org/), [.RO](https://explore.burstcoin.ro/), [Neon](http://burstneon.com/monitor?id=16020314477710380875)
