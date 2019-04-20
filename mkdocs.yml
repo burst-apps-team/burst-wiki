@@ -50,7 +50,6 @@ pages:
     - Burst Wiki: en/burst-wiki.md
     - CIP: en/cip.md
     - Colored Coins: en/colored-coins.md
-    - Contribute: en/contribute.md
     - Current Features: en/current-features.md
     - Engraver - How to compile from source: en/engraver---how-to-compile-from-source.md
     - Exchanges: en/exchanges.md
@@ -103,7 +102,7 @@ pages:
     - Wikipedia - Burstcoin: en/wikipedia-burstcoin.md
     - Windows Burst Wallet Installation: en/windows-burst-wallet-installation.md
   - Français:
-    - Page f d’accueil: fr/index.md
+    - Page d’accueil: fr/index.md
     - Caractéristiques actuelles: fr/current-features.md
     - Marché: fr/marketplace.md
     - QBundle: fr/qbundle.md
@@ -121,5 +120,4 @@ pages:
     - Burst Wiki: ru/burst-wiki.md
   - 中文維基百科:
     - 主頁: zh-hant/index.md
-    - 有助於: zh-hant/contribute.md
     - 時尚指南: zh-hant/style-guide.md
