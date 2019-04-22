@@ -3097,16 +3097,38 @@
                 
                   <h1>The Burst API Examples</h1>
                 
-                <h2 id="description">Description</h2>
+                <table>
+<thead>
+<tr>
+<th>Burst API Examples</th>
+<th>Version</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>API</td>
+<td>1.0.0</td>
+</tr>
+<tr>
+<td>BRS Version</td>
+<td>2.3.0</td>
+</tr>
+</tbody>
+</table>
+<h2 id="description">Description</h2>
 <p>Examples of Burst API calls are collected on this page, individually linked from the main <a href="../the-burst-api/">Burst API</a> page. The organization and ordering is the same for both pages so that the section numbers in the table of contents are identical.</p>
 <p>The preliminary sections preceding the examples simply link back to the main page. For example: <a href="the-burst-api-description.md">The Burst API Description</a>.</p>
-<p>A lot of API calls can be viewed and tested on the MainNet at <a href="https://wallet1.burst-team.us:2083/burst">https://wallet1.burst-team.us:2083/burst</a>?. For specific API calls, use the GET url https://wallet1.burst-team.us:2083/burst?=<em>specificRequestType</em>.</p>
+<p>A lot of API calls can be viewed and tested on the MainNet at <a href="https://wallet1.burst-team.us:2083/burst">https://wallet1.burst-team.us:2083/burst</a>. For specific API calls, use the GET url https://wallet1.burst-team.us:2083/burst?=<em>specificRequestType</em>.</p>
 <h2 id="general-notes">General Notes</h2>
 <p><a href="the-burst-api-general-notes.md">The Burst API General Notes</a></p>
 <h2 id="create-transaction">Create Transaction</h2>
 <p><a href="the-burst-api-create-transaction.md">The Burst API Create Transaction</a></p>
 <h2 id="account-operations">Account Operations</h2>
 <h3 id="get-account">Get Account</h3>
+<p><strong>Request</strong></p>
+<pre><code>https://wallet1.burst-team.us:2083/burst?requestType=getAccount&amp;account=BURST-GBFG-HVQ4-8AMM-GPCWR
+</code></pre>
+
 <p><strong>Response:</strong></p>
 <pre><code class="json">{
     &quot;unconfirmedBalanceNQT&quot;: &quot;100000000000&quot;,
@@ -3135,11 +3157,19 @@
 </code></pre>
 
 <h3 id="get-account-block-ids">Get Account Block Ids</h3>
+<p><strong>Request</strong></p>
+<pre><code>https://wallet1.burst-team.us:2083/burst?requestType=getAccountBlockIds&amp;account=17001464071916561838&amp;lastIndex=5
+</code></pre>
+
 <p><strong>Response similar to:</strong></p>
 <pre><code class="json">{&quot;blockIds&quot;:[&quot;18426055195962363092&quot;,&quot;7915836588136735869&quot;,&quot;10232042957216858995&quot;,&quot;6879436477641441477&quot;,&quot;10946006553575734351&quot;,&quot;11461420847451026714&quot;],&quot;requestProcessingTime&quot;:2}
 </code></pre>
 
 <h3 id="get-account-blocks">Get Account Blocks</h3>
+<p><strong>Request</strong></p>
+<pre><code>https://wallet1.burst-team.us:2083/burst?requestType=getAccountBlocks&amp;account=BURST-JNRV-L9MB-QU9G-FR8YT&amp;lastIndex=0
+</code></pre>
+
 <p><strong>Response similar to:</strong></p>
 <pre><code class="json">{
     &quot;blocks&quot;: [
@@ -3185,6 +3215,10 @@
 </code></pre>
 
 <h3 id="get-account-id">Get Account Id</h3>
+<p><strong>Request</strong></p>
+<pre><code>https://wallet1.burst-team.us:2083/burst?requestType=getAccountId&amp;secretPhrase=IWontTellYou
+</code></pre>
+
 <p><strong>Response:</strong></p>
 <pre><code class="json">{
     &quot;accountRS&quot;: &quot;BURST-L6FM-89WK-VK8P-FCRBB&quot;,
@@ -3195,6 +3229,10 @@
 </code></pre>
 
 <h3 id="get-account-lessors">Get Account Lessors</h3>
+<p><strong>Request</strong></p>
+<pre><code>https://wallet1.burst-team.us:2083/burst?requestType=getAccountLessors&amp;account=BURST-GBFG-HVQ4-8AMM-GPCWR
+</code></pre>
+
 <p><strong>Response:</strong></p>
 <pre><code class="json">{
     &quot;lessors&quot;: [],
@@ -3206,6 +3244,10 @@
 </code></pre>
 
 <h3 id="get-account-public-key">Get Account Public Key</h3>
+<p><strong>Request</strong></p>
+<pre><code>https://wallet1.burst-team.us:2083/burst?requestType=getAccountPublicKey&amp;account=BURST-GBFG-HVQ4-8AMM-GPCWR
+</code></pre>
+
 <p><strong>Response:</strong></p>
 <pre><code class="json">{
     &quot;publicKey&quot;: &quot;f22d8aa787eddbf69caf6f5960f5972a4b73247eb3a9479ddddeda40224aca60&quot;,
@@ -3214,6 +3256,10 @@
 </code></pre>
 
 <h3 id="get-account-transaction-ids">Get Account Transaction Ids</h3>
+<p><strong>Request</strong></p>
+<pre><code>https://wallet1.burst-team.us:2083/burst?requestType=getAccountTransactionIds&amp;account=BURST-GBFG-HVQ4-8AMM-GPCWR
+</code></pre>
+
 <p><strong>Response:</strong></p>
 <pre><code class="json">{
     &quot;transactionIds&quot;: [
@@ -3230,6 +3276,10 @@
 </code></pre>
 
 <h3 id="get-account-transactions">Get Account Transactions</h3>
+<p><strong>Request</strong></p>
+<pre><code>https://wallet1.burst-team.us:2083/burst?requestType=getAccountTransactions&amp;account=BURST-GBFG-HVQ4-8AMM-GPCWR
+</code></pre>
+
 <p><strong>Response:</strong></p>
 <pre><code class="json">{
     &quot;requestProcessingTime&quot;: 7,
@@ -3292,6 +3342,10 @@
 </code></pre>
 
 <h3 id="get-balance">Get Balance</h3>
+<p><strong>Request</strong></p>
+<pre><code>https://wallet1.burst-team.us:2083/burst?requestType=getBalance&amp;account=BURST-GBFG-HVQ4-8AMM-GPCWR
+</code></pre>
+
 <p><strong>Response:</strong></p>
 <pre><code class="json">{
     &quot;unconfirmedBalanceNQT&quot;: &quot;100000000000&quot;,
@@ -3304,6 +3358,10 @@
 </code></pre>
 
 <h3 id="get-unconfirmed-transaction-ids">Get Unconfirmed Transaction Ids</h3>
+<p><strong>Request</strong></p>
+<pre><code>https://wallet1.burst-team.us:2083/burst?requestType=getUnconfirmedTransactionIds&amp;account=BURST-GBFG-HVQ4-8AMM-GPCWR
+</code></pre>
+
 <p><strong>Response:</strong></p>
 <pre><code class="json">{
     &quot;requestProcessingTime&quot;: 0,
@@ -3312,6 +3370,10 @@
 </code></pre>
 
 <h3 id="get-unconfirmed-transactions">Get Unconfirmed Transactions</h3>
+<p><strong>Request</strong></p>
+<pre><code>https://wallet1.burst-team.us:2083/burst?requestType=getUnconfirmedTransactions
+</code></pre>
+
 <p><strong>Response:</strong></p>
 <pre><code class="json">{
     &quot;unconfirmedTransactions&quot;: [
@@ -3366,6 +3428,10 @@
 </code></pre>
 
 <h3 id="get-subscription">Get Subscription</h3>
+<p><strong>Request</strong></p>
+<pre><code>https://wallet1.burst-team.us:2083/burst?requestType=getSubscription&amp;subscription=13721874590196751209
+</code></pre>
+
 <p><strong>Response:</strong></p>
 <pre><code class="json">{
     &quot;senderRS&quot;: &quot;BURST-2RN8-FSU8-P64Q-5AL9C&quot;,
@@ -3381,6 +3447,10 @@
 </code></pre>
 
 <h3 id="get-subscriptions-to-account">Get Subscriptions To Account</h3>
+<p><strong>Request</strong></p>
+<pre><code>https://wallet1.burst-team.us:2083/burst?requestType=getSubscriptionsToAccount&amp;account=14787496155544039023
+</code></pre>
+
 <p><strong>Response:</strong></p>
 <pre><code class="json">{
     &quot;subscriptions&quot;: [
@@ -3400,6 +3470,10 @@
 </code></pre>
 
 <h3 id="get-account-subscriptions">Get Account Subscriptions</h3>
+<p><strong>Request</strong></p>
+<pre><code>https://wallet1.burst-team.us:2083/burst?requestType=getAccountSubscriptions&amp;account=14787496155544039023
+</code></pre>
+
 <p><strong>Response:</strong></p>
 <pre><code class="json">{
     &quot;subscriptions&quot;: [
@@ -3419,6 +3493,10 @@
 </code></pre>
 
 <h3 id="send-money">Send Money</h3>
+<p><strong>Request</strong></p>
+<pre><code>https://wallet1.burst-team.us:2083/burst?requestType=sendMoney&amp;secretPhrase=IWontTellYou&amp;recipient=BURST-GBFG-HVQ4-8AMM-GPCWR&amp;amountNQT=100000000&amp;feeNQT=100000000&amp;deadline=24
+</code></pre>
+
 <p><strong>Response:</strong></p>
 <pre><code class="json">{
     &quot;signatureHash&quot;: &quot;b6bb90bac0d529d9ebc6771089f389c976db2a67d76867f7c9d2e1b90e00358a&quot;,
@@ -3453,6 +3531,10 @@
 </code></pre>
 
 <h3 id="send-money-subscription">Send Money Subscription</h3>
+<p><strong>Request</strong></p>
+<pre><code>https://wallet1.burst-team.us:2083/burst?requestType=sendMoneySubscription&amp;recipient=BURST-ZYGT-HCNL-PU3A-98NM7&amp;amountNQT=200000000&amp;frequency=3600&amp;secretPhrase=IWontTellYou&amp;feeNQT=10000000&amp;deadline=24
+</code></pre>
+
 <p><strong>Response:</strong></p>
 <pre><code class="json">{
     &quot;signatureHash&quot;: &quot;c750d47f99a1dc5b01f3850d8c888b324fd49f1fe77c97fd8bccf339a82f3739&quot;,
@@ -3491,6 +3573,10 @@
 </code></pre>
 
 <h3 id="cancel-subscription">Cancel Subscription</h3>
+<p><strong>Request</strong></p>
+<pre><code>https://wallet1.burst-team.us:2083/burst?requestType=subscriptionCancel&amp;subscription=3470763597622549812&amp;secretPhrase=IWontTellYou&amp;feeNQT=10000000&amp;deadline=24
+</code></pre>
+
 <p><strong>Response:</strong></p>
 <pre><code class="json">{
     &quot;signatureHash&quot;: &quot;5d8b62549fc7533d898b6787930880b438257881fb5db6fc8aeeaf0209bb43ee&quot;,
@@ -3527,6 +3613,10 @@
 </code></pre>
 
 <h3 id="set-account-info">Set Account Info</h3>
+<p><strong>Request</strong></p>
+<pre><code>https://wallet1.burst-team.us:2083/burst?requestType=setAccountInfo&amp;secretPhrase=IWontTellYou&amp;name=API-Examples&amp;feeNQT=100000000&amp;deadline=24
+</code></pre>
+
 <p><strong>Response:</strong></p>
 <pre><code class="json">{
     &quot;signatureHash&quot;: &quot;00e5694c213c978045fc32125092a1f3b16e6c5bf4d1d24c51005466be29f14b&quot;,
@@ -3565,6 +3655,10 @@
 
 <h2 id="alias-operations">Alias Operations</h2>
 <h3 id="buy-sell-alias">Buy / Sell Alias</h3>
+<p><strong>Request</strong></p>
+<pre><code>https://wallet1.burst-team.us:2083/burst?requestType=sellAlias&amp;secretPhrase=IWontTellYou&amp;aliasName=AliasTestSell&amp;priceNQT=1&amp;recipient=BURST-GBFG-HVQ4-8AMM-GPCWR&amp;feeNQT=100000000&amp;deadline=24
+</code></pre>
+
 <p><strong>Response:</strong></p>
 <pre><code class="json">{
     &quot;signatureHash&quot;: &quot;952eea5e0eb67f1ec78abfab60edcde55f477ae8dcf8f620077783532217c329&quot;,
@@ -3604,6 +3698,10 @@
 </code></pre>
 
 <h3 id="set-alias">Set Alias</h3>
+<p><strong>Request</strong></p>
+<pre><code>https://wallet1.burst-team.us:2083/burst?requestType=setAlias&amp;secretPhrase=IWontTellYou&amp;aliasName=ApiExample&amp;aliasURI=acct:burst-l6fm-89wk-vk8p-fcrbb@burst&amp;feeNQT=100000000&amp;deadline=24
+</code></pre>
+
 <p><strong>Response:</strong></p>
 <pre><code class="json">{
     &quot;signatureHash&quot;: &quot;c59f26e0b40c306f5ecf0c222a51a83578a9f04165ff27d5f16a4f9f00fc63f7&quot;,
@@ -3640,6 +3738,10 @@
 </code></pre>
 
 <h3 id="get-alias">Get Alias</h3>
+<p><strong>Request</strong></p>
+<pre><code>http://127.0.0.1:8125/burst?requestType=getAlias&amp;aliasName=AliasTestSell
+</code></pre>
+
 <p><strong>Response:</strong></p>
 <pre><code class="json">{
     &quot;aliasURI&quot;: &quot;acct:burst-frdj-uplh-my9a-gukqp@burst&quot;,
@@ -3653,6 +3755,10 @@
 </code></pre>
 
 <h3 id="get-aliases">Get Aliases</h3>
+<p><strong>Request</strong></p>
+<pre><code>http://127.0.0.1:8125/burst?requestType=getAliases&amp;account=16922903237994405232
+</code></pre>
+
 <p><strong>Response:</strong></p>
 <pre><code class="json">{
     &quot;aliases&quot;: [
@@ -3679,6 +3785,10 @@
 
 <h2 id="arbitrary-message-system-operations">Arbitrary Message System Operations</h2>
 <h3 id="encrypt-to">Encrypt To</h3>
+<p><strong>Request</strong></p>
+<pre><code>https://wallet1.burst-team.us:2083/burst?requestType=encryptTo&amp;recipient=15323192282528158131&amp;messageToEncrypt=This%20is%20a%20message%20encrypted%20using%20%22encryptTo%22.&amp;messageToEncryptIsText=true&amp;secretPhrase=IWontTellYou
+</code></pre>
+
 <p><strong>Response:</strong></p>
 <pre><code class="json">{
     &quot;data&quot;: &quot;d5a1958d12ce96ce30dbce5b6c8ead7ecbc0f59d857dc8e8fbeec10ae440e0e74e9120fef3b0fa586d4c63fde0f289340e709b30ae528e3c2d740b11e3ae3fdb5e5d5c63f724cf16157c75dabec31eaf&quot;,
@@ -3688,6 +3798,10 @@
 </code></pre>
 
 <h3 id="decrypt-from">Decrypt From</h3>
+<p><strong>Request</strong></p>
+<pre><code>https://wallet1.burst-team.us:2083/burst?requestType=decryptFrom&amp;account=16922903237994405232&amp;data=d5a1958d12ce96ce30dbce5b6c8ead7ecbc0f59d857dc8e8fbeec10ae440e0e74e9120fef3b0fa586d4c63fde0f289340e709b30ae528e3c2d740b11e3ae3fdb5e5d5c63f724cf16157c75dabec31eaf&amp;nonce=7cefa6f66d5b71604e2ef56a18319b3f48a38e8aa5cf610369b294f1d40e0f8e&amp;decryptedMessageIsText=true&amp;secretPhrase=IWontTellYou
+</code></pre>
+
 <p><strong>Response:</strong></p>
 <pre><code class="json">{
     &quot;decryptedMessage&quot;: &quot;This is a message encrypted using \&quot;encryptTo\&quot;.&quot;,
@@ -3696,6 +3810,10 @@
 </code></pre>
 
 <h3 id="send-message">Send Message</h3>
+<p><strong>Request</strong></p>
+<pre><code>https://wallet1.burst-team.us:2083/burst?requestType=sendMessage&amp;recipient=15323192282528158131&amp;secretPhrase=IWontTellYou&amp;feeNQT=735000&amp;deadline=24&amp;broadcast=true&amp;message=This%20is%20a%20sendMessage%20API%20example&amp;messageIsText=true
+</code></pre>
+
 <p><strong>Response:</strong></p>
 <pre><code class="json">{
     &quot;signatureHash&quot;: &quot;2bcbafeab7a0bae40337fe34adea84110b1f770a33841c95f3fe9e19dde41bae&quot;,
@@ -3735,6 +3853,10 @@
 </code></pre>
 
 <h3 id="read-message">Read Message</h3>
+<p><strong>Request</strong></p>
+<pre><code>https://wallet1.burst-team.us:2083/burst?requestType=readMessage&amp;transaction=3120851314369640207
+</code></pre>
+
 <p><strong>Response:</strong></p>
 <pre><code class="json">{
     &quot;requestProcessingTime&quot;: 0,
@@ -3744,6 +3866,10 @@
 
 <h2 id="asset-exchange-operations">Asset Exchange Operations</h2>
 <h3 id="cancel-order">Cancel Order</h3>
+<p><strong>Request</strong></p>
+<pre><code>https://wallet1.burst-team.us:2083/burst?requestType=cancelAskOrder&amp;order=15076843998317839249&amp;secretPhrase=IWontTellYou&amp;feeNQT=100000000&amp;deadline=1&amp;broadcast=true
+</code></pre>
+
 <p><strong>Response:</strong></p>
 <pre><code class="json">{
     &quot;signatureHash&quot;: &quot;ea56c641c52e20cfeb2413dc49fc24a00eba23ac4aa444fdb059ad0aa66fdb0f&quot;,
@@ -3780,6 +3906,10 @@
 </code></pre>
 
 <h3 id="get-account-current-order-ids">Get Account Current Order Ids</h3>
+<p><strong>Request</strong></p>
+<pre><code>https://wallet1.burst-team.us:2083/burst?requestType=getAccountCurrentAskOrderIds&amp;account=9582909050628712440
+</code></pre>
+
 <p><strong>Response:</strong></p>
 <pre><code class="json">{
     &quot;requestProcessingTime&quot;: 2,
@@ -3791,6 +3921,10 @@
 </code></pre>
 
 <h3 id="get-account-current-orders">Get Account Current Orders</h3>
+<p><strong>Request</strong></p>
+<pre><code>https://wallet1.burst-team.us:2083/burst?requestType=getAccountCurrentAskOrders&amp;account=9582909050628712440
+</code></pre>
+
 <p><strong>Response:</strong></p>
 <pre><code class="json">{
     &quot;askOrders&quot;: [
@@ -3820,6 +3954,10 @@
 </code></pre>
 
 <h3 id="get-all-assets">Get All Assets</h3>
+<p><strong>Request</strong></p>
+<pre><code>https://wallet1.burst-team.us:2083/burst?requestType=getAllAssets&amp;firstIndex=373
+</code></pre>
+
 <p><strong>Response:</strong></p>
 <pre><code class="json">{
     &quot;assets&quot;: [
@@ -3853,6 +3991,10 @@
 </code></pre>
 
 <h3 id="get-all-open-orders">Get All Open Orders</h3>
+<p><strong>Request</strong></p>
+<pre><code>https://wallet1.burst-team.us:2083/burst?requestType=getAllOpenAskOrders&amp;firstIndex=2577
+</code></pre>
+
 <p><strong>Response:</strong></p>
 <pre><code class="json">{
     &quot;requestProcessingTime&quot;: 0,
@@ -3892,6 +4034,10 @@
 </code></pre>
 
 <h3 id="get-all-trades">Get All Trades</h3>
+<p><strong>Request</strong></p>
+<pre><code>https://wallet1.burst-team.us:2083/burst?requestType=getAllTrades&amp;lastIndex=1
+</code></pre>
+
 <p><strong>Response:</strong></p>
 <pre><code class="json">{
     &quot;trades&quot;: [
@@ -3937,6 +4083,10 @@
 </code></pre>
 
 <h3 id="get-asset">Get Asset</h3>
+<p><strong>Request</strong></p>
+<pre><code>https://wallet1.burst-team.us:2083/burst?requestType=getAsset&amp;asset=3702027329806229573
+</code></pre>
+
 <p><strong>Response:</strong></p>
 <pre><code class="json">{
     &quot;quantityQNT&quot;: &quot;20000000000&quot;,
@@ -3954,6 +4104,10 @@
 </code></pre>
 
 <h3 id="get-asset-accounts">Get Asset Accounts</h3>
+<p><strong>Request</strong></p>
+<pre><code>https://wallet1.burst-team.us:2083/burst?requestType=getAssetAccounts&amp;asset=3702027329806229573&amp;lastIndex=1
+</code></pre>
+
 <p><strong>Response:</strong></p>
 <pre><code class="json">{
     &quot;accountAssets&quot;: [
@@ -3977,6 +4131,10 @@
 </code></pre>
 
 <h3 id="get-asset-ids">Get Asset Ids</h3>
+<p><strong>Request</strong></p>
+<pre><code>https://wallet1.burst-team.us:2083/burst?requestType=getAssetIds&amp;lastIndex=5
+</code></pre>
+
 <p><strong>Response:</strong></p>
 <pre><code class="json">{
     &quot;assetIds&quot;: [
@@ -3992,6 +4150,10 @@
 </code></pre>
 
 <h3 id="get-asset-transfers">Get Asset Transfers</h3>
+<p><strong>Request</strong></p>
+<pre><code>https://wallet1.burst-team.us:2083/burst?requestType=getAssetTransfers&amp;asset=3702027329806229573&amp;lastIndex=1
+</code></pre>
+
 <p><strong>Response:</strong></p>
 <pre><code class="json">{
     &quot;transfers&quot;: [
@@ -4027,6 +4189,10 @@
 </code></pre>
 
 <h3 id="get-assets">Get Assets</h3>
+<p><strong>Request</strong></p>
+<pre><code>https://wallet1.burst-team.us:2083/burst?requestType=getAssets&amp;assets=9306257191450064346&amp;assets=3702027329806229573
+</code></pre>
+
 <p><strong>Response:</strong></p>
 <pre><code class="json">{
     &quot;assets&quot;: [
@@ -4060,6 +4226,10 @@
 </code></pre>
 
 <h3 id="get-assets-by-issuer">Get Assets By Issuer</h3>
+<p><strong>Request</strong></p>
+<pre><code>https://wallet1.burst-team.us:2083/burst?requestType=getAssetsByIssuer&amp;account=1494753212313950790&amp;account=5970910749481183928
+</code></pre>
+
 <p><strong>Response:</strong></p>
 <pre><code class="json">{
     &quot;assets&quot;: [
@@ -4097,6 +4267,10 @@
 </code></pre>
 
 <h3 id="get-order">Get Order</h3>
+<p><strong>Request</strong></p>
+<pre><code>https://wallet1.burst-team.us:2083/burst?requestType=getAskOrder&amp;order=14034527401109329159
+</code></pre>
+
 <p><strong>Response:</strong></p>
 <pre><code class="json">{
     &quot;quantityQNT&quot;: &quot;10&quot;,
@@ -4112,6 +4286,10 @@
 </code></pre>
 
 <h3 id="get-order-ids">Get Order Ids</h3>
+<p><strong>Request</strong></p>
+<pre><code>https://wallet1.burst-team.us:2083/burst?requestType=getAskOrderIds&amp;asset=11700625361170592721&amp;lastIndex=5
+</code></pre>
+
 <p><strong>Response:</strong></p>
 <pre><code class="json">{
     &quot;requestProcessingTime&quot;: 3,
@@ -4127,6 +4305,10 @@
 </code></pre>
 
 <h3 id="get-orders">Get Orders</h3>
+<p><strong>Request</strong></p>
+<pre><code>https://wallet1.burst-team.us:2083/burst?requestType=getAskOrders&amp;asset=11700625361170592721&amp;lastIndex=2
+</code></pre>
+
 <p><strong>Response:</strong></p>
 <pre><code class="json">{
     &quot;askOrders&quot;: [
@@ -4166,6 +4348,10 @@
 </code></pre>
 
 <h3 id="get-trades">Get Trades</h3>
+<p><strong>Request</strong></p>
+<pre><code>https://wallet1.burst-team.us:2083/burst?requestType=getTrades&amp;asset=3702027329806229573&amp;lastIndex=2&amp;includeAssetInfo=false
+</code></pre>
+
 <p><strong>Response:</strong></p>
 <pre><code class="json">{
     &quot;trades&quot;: [
@@ -4223,6 +4409,10 @@
 </code></pre>
 
 <h3 id="issue-asset">Issue Asset</h3>
+<p><strong>Request</strong></p>
+<pre><code>http://localhost:8125/burst?requestType=issueAsset&amp;publicKey=57fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143b473beec228f79ff93c&amp;name=SecretCoin&amp;description=This+is+SecretCoin&amp;quantityQNT=100&amp;deadline=60&amp;feeNQT=100000000000
+</code></pre>
+
 <p><strong>Note:</strong> This is a fake example.</p>
 <p><strong>Response:</strong></p>
 <pre><code class="json">{
@@ -4255,6 +4445,10 @@
 </code></pre>
 
 <h3 id="place-order">Place Order</h3>
+<p><strong>Request</strong></p>
+<pre><code>https://wallet1.burst-team.us:2083/burst?requestType=placeBidOrder&amp;asset=3702027329806229573&amp;quantityQNT=1&amp;priceNQT=100000000&amp;secretPhrase=IWontTellYou&amp;feeNQT=100000000&amp;deadline=1&amp;broadcast=false
+</code></pre>
+
 <p><strong>Response:</strong></p>
 <pre><code class="json">{
     &quot;signatureHash&quot;: &quot;3358f546ce7136ca478692102d0b526f80b4ca83eb78e90d15813b9636b654e5&quot;,
@@ -4293,6 +4487,10 @@
 </code></pre>
 
 <h3 id="transfer-asset">Transfer Asset</h3>
+<p><strong>Request</strong></p>
+<pre><code>https://wallet1.burst-team.us:2083/burst?requestType=transferAsset&amp;recipient=17001464071916561838&amp;asset=3702027329806229573&amp;quantityQNT=1&amp;secretPhrase=IWontTellYou&amp;feeNQT=100000000&amp;deadline=1&amp;broadcast=true
+</code></pre>
+
 <p><strong>Response:</strong></p>
 <pre><code class="json">{
     &quot;signatureHash&quot;: &quot;59456e26081926b27c38ca46d574e4a6373953b932e8368f131f7bc86ffc3aa9&quot;,
@@ -4333,6 +4531,10 @@
 
 <h2 id="block-operations">Block Operations</h2>
 <h3 id="get-block">Get Block</h3>
+<p><strong>Request</strong></p>
+<pre><code>https://wallet1.burst-team.us:2083/burst?requestType=getBlock&amp;block=2298247278137763160
+</code></pre>
+
 <p><strong>Response:</strong></p>
 <pre><code class="json">{
     &quot;previousBlockHash&quot;: &quot;98338ec9e496040f505dace85c3ab331e6ad257f24d6e9417877a4a22b449ab3&quot;,
@@ -4364,6 +4566,10 @@
 </code></pre>
 
 <h3 id="get-block-id">Get Block Id</h3>
+<p><strong>Request</strong></p>
+<pre><code>https://wallet1.burst-team.us:2083/burst?requestType=getBlockId&amp;height=502000
+</code></pre>
+
 <p><strong>Response:</strong></p>
 <pre><code class="json">{
     &quot;block&quot;: &quot;9782158559918006093&quot;,
@@ -4372,6 +4578,10 @@
 </code></pre>
 
 <h3 id="get-blocks">Get Blocks</h3>
+<p><strong>Request</strong></p>
+<pre><code>https://wallet1.burst-team.us:2083/burst?requestType=getBlocks&amp;lastIndex=1
+</code></pre>
+
 <p><strong>Response:</strong></p>
 <pre><code class="json">{
     &quot;blocks&quot;: [
@@ -4442,6 +4652,10 @@
 </code></pre>
 
 <h3 id="get-ec-block">Get EC Block</h3>
+<p><strong>Request</strong></p>
+<pre><code>https://wallet1.burst-team.us:2083/burst?requestType=getECBlock
+</code></pre>
+
 <p><strong>Response:</strong></p>
 <pre><code class="json">{
     &quot;ecBlockHeight&quot;: 502788,
@@ -4453,6 +4667,10 @@
 
 <h2 id="digital-goods-store-operations">Digital Goods Store Operations</h2>
 <h3 id="dgs-delisting">DGS Delisting</h3>
+<p><strong>Request</strong></p>
+<pre><code>https://wallet1.burst-team.us:2083/burst?requestType=dgsDelisting&amp;goods=11813734897437346473&amp;secretPhrase=IWontTellYou&amp;feeNQT=100000000&amp;deadline=60
+</code></pre>
+
 <p><strong>Response:</strong></p>
 <pre><code class="json">{
  &quot;signatureHash&quot;: &quot;87dd2aa00690acaa5da4e8cd9db6ab94b5ed8bf0f8fe2c2ba6a39c57d3073105&quot;,
@@ -4489,6 +4707,10 @@
 </code></pre>
 
 <h3 id="dgs-delivery">DGS Delivery</h3>
+<p><strong>Request</strong></p>
+<pre><code>https://wallet1.burst-team.us:2083/burst?requestType=dgsDelivery&amp;purchase=3723760852542296589&amp;goodsToEncrypt=DownloadCode&amp;secretPhrase=IWontTellYou&amp;feeNQT=100000000&amp;deadline=60
+</code></pre>
+
 <p><strong>Response:</strong></p>
 <pre><code class="json">{
  &quot;signatureHash&quot;: &quot;f3f1f1bf30c7a6f5a7776aa23502dfe5240efe0d5c016760f8e8a152c4eb1b1b&quot;,
@@ -4531,6 +4753,10 @@
 </code></pre>
 
 <h3 id="feedback">Feedback</h3>
+<p><strong>Request</strong></p>
+<pre><code>https://wallet1.burst-team.us:2083/burst?requestType=dgsFeedback&amp;purchase=10234639413366748292&amp;secretPhrase=IWontTellYou&amp;feeNQT=100000000&amp;deadline=60&amp;message=Thanks
+</code></pre>
+
 <p><strong>Response:</strong></p>
 <pre><code class="json">{
  &quot;signatureHash&quot;: &quot;bf31e4e3b2037bfe223efd72519e3a2d25cd1e0dc1a62e3eeefe59179e16a7a4&quot;,
@@ -4572,6 +4798,10 @@
 </code></pre>
 
 <h3 id="dgs-listing">DGS Listing</h3>
+<p><strong>Request</strong></p>
+<pre><code>https://wallet1.burst-team.us:2083/burst?requestType=dgsListing&amp;secretPhrase=IWontTellYou&amp;name=Test&amp;description=Testing&amp;tags=test&amp;quantity=3&amp;priceNQT=100000000&amp;feeNQT=100000000&amp;deadline=60
+</code></pre>
+
 <p><strong>Response:</strong></p>
 <pre><code class="json">{
  &quot;signatureHash&quot;: &quot;565bc0a6140ae1331cd5db009fbd9da164d8802330939ef40204a9bc343b3149&quot;,
@@ -4612,6 +4842,10 @@
 </code></pre>
 
 <h3 id="dgs-price-change">DGS Price Change</h3>
+<p><strong>Request</strong></p>
+<pre><code>https://wallet1.burst-team.us:2083/burst?requestType=dgsPriceChange&amp;goods=11813734897437346473&amp;priceNQT=200000000&amp;secretPhrase=IWontTellYou&amp;feeNQT=100000000&amp;deadline=60
+</code></pre>
+
 <p><strong>Response:</strong></p>
 <pre><code class="json">{
  &quot;signatureHash&quot;: &quot;aad88476935eda8ca3a9190163b83106e6ca95733ddfa274d29a0378d773cc3c&quot;,
@@ -4649,6 +4883,10 @@
 </code></pre>
 
 <h3 id="dgs-purchase">DGS Purchase</h3>
+<p><strong>Request</strong></p>
+<pre><code>https://wallet1.burst-team.us:2083/burst?requestType=dgsPurchase&amp;goods=1587116104511359906&amp;quantity=1&amp;deliveryDeadlineTimestamp=31800000&amp;secretPhrase=IWontTellYou&amp;feeNQT=100000000&amp;deadline=60
+</code></pre>
+
 <p><strong>Response:</strong></p>
 <pre><code class="json">{
  &quot;signatureHash&quot;: &quot;03e112d8707ae33ec37ff4405f31920c0e67c58439e33033c248b3eaca81d2c3&quot;,
@@ -4690,6 +4928,10 @@
 </code></pre>
 
 <h3 id="dgs-quantity-change">DGS Quantity Change</h3>
+<p><strong>Request</strong></p>
+<pre><code>https://wallet1.burst-team.us:2083/burst?requestType=dgsQuantityChange&amp;goods=11813734897437346473&amp;deltaQuantity=-1&amp;secretPhrase=IWontTellYou&amp;feeNQT=100000000&amp;deadline=60
+</code></pre>
+
 <p><strong>Response:</strong></p>
 <pre><code class="json">
 {
@@ -4728,6 +4970,10 @@
 </code></pre>
 
 <h3 id="dgs-refund">DGS Refund</h3>
+<p><strong>Request</strong></p>
+<pre><code>https://wallet1.burst-team.us:2083/burst?requestType=dgsRefund&amp;purchase=3723760852542296589&amp;refundNQT=100000000&amp;secretPhrase=IWontTellYou&amp;feeNQT=100000000&amp;deadline=60
+</code></pre>
+
 <p><strong>Response:</strong></p>
 <pre><code class="json">
 {
@@ -4768,6 +5014,10 @@
 </code></pre>
 
 <h3 id="get-dgs-good">Get DGS Good</h3>
+<p><strong>Request</strong></p>
+<pre><code>https://wallet1.burst-team.us:2083/burst?requestType=getDGSGood&amp;goods=490136863013671329
+</code></pre>
+
 <p><strong>Response:</strong></p>
 <pre><code class="json">{
     &quot;seller&quot;: &quot;16432157717192673510&quot;,
@@ -4785,6 +5035,10 @@
 </code></pre>
 
 <h3 id="get-dgs-goods">Get DGS Goods</h3>
+<p><strong>Request</strong></p>
+<pre><code>https://wallet1.burst-team.us:2083/burst?requestType=getDGSGoods&amp;seller=869755421284789028
+</code></pre>
+
 <p><strong>Response:</strong></p>
 <pre><code class="json">{
     &quot;seller&quot;: &quot;16432157717192673510&quot;,
@@ -4802,6 +5056,10 @@
 </code></pre>
 
 <h3 id="get-dgs-goods-purchases">Get DGS Goods Purchases</h3>
+<p><strong>Request</strong></p>
+<pre><code>https://wallet1.burst-team.us:2083/burst?requestType=getDGSGoods&amp;seller=869755421284789028
+</code></pre>
+
 <p><strong>Response:</strong></p>
 <pre><code class="json">{
     &quot;goods&quot;: [
@@ -4835,6 +5093,10 @@
 </code></pre>
 
 <h3 id="get-dgs-pending-purchases">Get DGS Pending Purchases</h3>
+<p><strong>Request</strong></p>
+<pre><code>https://wallet1.burst-team.us:2083/burst?requestType=getDGSPendingPurchases&amp;seller=869755421284789028
+</code></pre>
+
 <p><strong>Response:</strong></p>
 <pre><code class="json">{
     &quot;purchases&quot;: [
@@ -4876,6 +5138,10 @@
 </code></pre>
 
 <h3 id="get-dgs-purchase">Get DGS Purchase</h3>
+<p><strong>Request</strong></p>
+<pre><code>https://wallet1.burst-team.us:2083/burst?requestType=getDGSPurchase&amp;purchase=18028864805999806823
+</code></pre>
+
 <p><strong>Response:</strong></p>
 <pre><code class="json">{
     &quot;seller&quot;: &quot;869755421284789028&quot;,
@@ -4895,6 +5161,10 @@
 </code></pre>
 
 <h3 id="get-dgs-purchases">Get DGS Purchases</h3>
+<p><strong>Request</strong></p>
+<pre><code>https://wallet1.burst-team.us:2083/burst?requestType=getDGSPurchases&amp;seller=869755421284789028
+</code></pre>
+
 <p><strong>Response:</strong></p>
 <pre><code class="json">{
     &quot;purchases&quot;: [
@@ -4937,6 +5207,10 @@
 
 <h2 id="networking-operations">Networking Operations</h2>
 <h3 id="get-my-info">Get My Info</h3>
+<p><strong>Request</strong></p>
+<pre><code>https://wallet1.burst-team.us:2083/burst?requestType=getMyInfo
+</code></pre>
+
 <p><strong>Response:</strong></p>
 <pre><code class="json">{
     &quot;address&quot;: &quot;127.0.0.1&quot;,
@@ -4946,6 +5220,10 @@
 </code></pre>
 
 <h3 id="get-peer">Get Peer</h3>
+<p><strong>Request</strong></p>
+<pre><code>https://wallet1.burst-team.us:2083/burst?requestType=getPeer&amp;peer=107.150.6.121
+</code></pre>
+
 <p><strong>Response:</strong></p>
 <pre><code class="json">{
     &quot;lastUpdated&quot;: 121622908,
@@ -4963,6 +5241,10 @@
 </code></pre>
 
 <h3 id="get-peers">Get Peers</h3>
+<p><strong>Request</strong></p>
+<pre><code>https://wallet1.burst-team.us:2083/burst?requestType=getPeers&amp;active=true
+</code></pre>
+
 <p><strong>Response:</strong></p>
 <pre><code class="json">{
     &quot;peers&quot;: [
@@ -4980,6 +5262,10 @@
 
 <h2 id="server-information-operations">Server Information Operations</h2>
 <h3 id="get-blockchain-status">Get Blockchain Status</h3>
+<p><strong>Request</strong></p>
+<pre><code>https://wallet1.burst-team.us:2083/burst?requestType=getBlockchainStatus
+</code></pre>
+
 <p><strong>Response:</strong></p>
 <pre><code class="json">{
     &quot;lastBlock&quot;: &quot;10431007917907627236&quot;,
@@ -4996,6 +5282,10 @@
 </code></pre>
 
 <h3 id="get-constants">Get Constants</h3>
+<p><strong>Request</strong></p>
+<pre><code>https://wallet1.burst-team.us:2083/burst?requestType=getConstants
+</code></pre>
+
 <p><strong>Response:</strong></p>
 <pre><code class="json">{
     &quot;maxBlockPayloadLength&quot;: 44880,
@@ -5137,6 +5427,10 @@
 </code></pre>
 
 <h3 id="get-state">Get State</h3>
+<p><strong>Request</strong></p>
+<pre><code>https://wallet1.burst-team.us:2083/burst?requestType=getState
+</code></pre>
+
 <p><strong>Response:</strong></p>
 <pre><code class="json">{
     &quot;numberOfPeers&quot;: 2748,
@@ -5169,6 +5463,10 @@
 </code></pre>
 
 <h3 id="get-time">Get Time</h3>
+<p><strong>Request</strong></p>
+<pre><code>https://wallet1.burst-team.us:2083/burst?requestType=getTime
+</code></pre>
+
 <p><strong>Response:</strong></p>
 <pre><code class="json">{
     &quot;time&quot;: 121621260,
@@ -5178,6 +5476,10 @@
 
 <h2 id="transaction-operations">Transaction Operations</h2>
 <h3 id="broadcast-transaction">Broadcast Transaction</h3>
+<p><strong>Request</strong></p>
+<pre><code>https://wallet1.burst-team.us:2083/burst?requestType=broadcastTransaction&amp;transactionBytes=00109cce3f071800a61325eec9e83d7cac55544b8eca8ea8034559bafb5834b8a5d3b6d4efb85f12ae2527ec7e55f1eb00e1f5050000000018370b00000000000000000000000000000000000000000000000000000000000000000000000000bed76407665ef3dbe24c78041a497e9e603076b8adf90353effe5218c83f69078adaec89a2f2e1ffb7bc835b1c21cf8300185cd4f3d7df52be156e61069d569d0000000006ac0700769afc7e6215e488
+</code></pre>
+
 <p><strong>Response:</strong></p>
 <pre><code class="json">{
     &quot;requestProcessingTime&quot;: 4,
@@ -5188,6 +5490,10 @@
 
 <p><strong>Note</strong>: If the transaction has already been broadcast, the following INFO notice appears in the console output and log file: <em>Transaction 15200507403046301754 already in blockchain (or unconfirmed pool), will not broadcast again</em>.</p>
 <h3 id="calculate-full-hash">Calculate Full Hash</h3>
+<p><strong>Request</strong></p>
+<pre><code>https://wallet1.burst-team.us:2083/burst?requestType=calculateFullHash&amp;unsignedTransactionBytes=01104ec93f071800a61325eec9e83d7cac55544b8eca8ea8034559bafb5834b8a5d3b6d4efb85f12b31119f931eaa6d4000000000000000018370b00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000003ac07005ac8e8794cc6d21001210000805468697320697320612073656e644d65737361676520415049206578616d706c65&amp;signatureHash=0f37d045bc7d4f2bd85cb565a5c4e575464ac387b986f80fb8c31635cf03923e
+</code></pre>
+
 <p><strong>Response:</strong></p>
 <pre><code class="json">{
     &quot;requestProcessingTime&quot;: 0,
@@ -5196,6 +5502,10 @@
 </code></pre>
 
 <h3 id="get-transaction">Get Transaction</h3>
+<p><strong>Request</strong></p>
+<pre><code>https://wallet1.burst-team.us:2083/burst?requestType=getTransaction&amp;transaction=3120851314369640207%20
+</code></pre>
+
 <p><strong>Response:</strong></p>
 <pre><code class="json">{
     &quot;senderPublicKey&quot;: &quot;a61325eec9e83d7cac55544b8eca8ea8034559bafb5834b8a5d3b6d4efb85f12&quot;,
@@ -5230,6 +5540,10 @@
 </code></pre>
 
 <h3 id="get-transaction-bytes">Get Transaction Bytes</h3>
+<p><strong>Request</strong></p>
+<pre><code>https://wallet1.burst-team.us:2083/burst?requestType=getTransactionBytes&amp;transaction=3120851314369640207
+</code></pre>
+
 <p><strong>Response:</strong></p>
 <pre><code class="json">{
     &quot;unsignedTransactionBytes&quot;: &quot;01104ec93f071800a61325eec9e83d7cac55544b8eca8ea8034559bafb5834b8a5d3b6d4efb85f12b31119f931eaa6d4000000000000000018370b*&quot;,
@@ -5240,6 +5554,10 @@
 </code></pre>
 
 <h3 id="parse-transaction">Parse Transaction</h3>
+<p><strong>Request</strong></p>
+<pre><code>https://wallet1.burst-team.us:2083/burst?requestType=parseTransaction&amp;transactionBytes=01104ec93f071800a61325eec9e83d7cac55544b8eca8ea8034559bafb5834b8a5d3b6d4efb85f12b31119f931eaa6d4000000000000000018370b00000000000000000000000000000000000000000000000000000000000000000000000000dc2503584a48e30ac62d62848f58461e0e9ff55070008743c24f380c24a9ef05525c70b5d40962566f3f4de2018277ba7956eb09d0aec84219784de7f3b76f6a0100000003ac07005ac8e8794cc6d21001210000805468697320697320612073656e644d65737361676520415049206578616d706c65
+</code></pre>
+
 <p><strong>Response:</strong></p>
 <pre><code class="json">{
     &quot;senderPublicKey&quot;: &quot;a61325eec9e83d7cac55544b8eca8ea8034559bafb5834b8a5d3b6d4efb85f12&quot;,
@@ -5272,6 +5590,10 @@
 </code></pre>
 
 <h3 id="sign-transaction">Sign Transaction</h3>
+<p><strong>Request</strong></p>
+<pre><code>https://wallet1.burst-team.us:2083/burst?requestType=signTransaction&amp;unsignedTransactionBytes=01104ec93f071800a61325eec9e83d7cac55544b8eca8ea8034559bafb5834b8a5d3b6d4efb85f12b31119f931eaa6d4000000000000000018370b00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000003ac07005ac8e8794cc6d21001210000805468697320697320612073656e644d65737361676520415049206578616d706c65&amp;secretPhrase=IWontTellYou
+</code></pre>
+
 <p><strong>Response:</strong></p>
 <pre><code class="json">{
     &quot;signatureHash&quot;: &quot;2bcbafeab7a0bae40337fe34adea84110b1f770a33841c95f3fe9e19dde41bae&quot;,
@@ -5285,6 +5607,10 @@
 
 <h2 id="utilities">Utilities</h2>
 <h3 id="long-convert">Long Convert</h3>
+<p><strong>Request</strong></p>
+<pre><code>https://wallet1.burst-team.us:2083/burst?requestType=longConvert&amp;id=16922903237994405232
+</code></pre>
+
 <p><strong>Response:</strong></p>
 <pre><code class="json">{
     &quot;stringId&quot;: &quot;16922903237994405232&quot;,
@@ -5294,6 +5620,10 @@
 </code></pre>
 
 <h3 id="rs-convert">RS Convert</h3>
+<p><strong>Request</strong></p>
+<pre><code>https://wallet1.burst-team.us:2083/burst?requestType=rsConvert&amp;account=16922903237994405232
+</code></pre>
+
 <p><strong>Response:</strong></p>
 <pre><code class="json">{
     &quot;accountRS&quot;: &quot;BURST-FRDJ-UPLH-MY9A-GUKQP&quot;,
@@ -5304,6 +5634,10 @@
 
 <h2 id="mining">Mining</h2>
 <h3 id="get-mining-info">Get Mining Info</h3>
+<p><strong>Request</strong></p>
+<pre><code>https://wallet1.burst-team.us:2083/burst?requestType=getMiningInfo
+</code></pre>
+
 <p><strong>Response:</strong></p>
 <pre><code class="json">{
     &quot;generationSignature&quot;: &quot;2cfe207000274ed4194fc32699ab4265a3c8698d31aa169c24e87ef51b1dd985&quot;,
@@ -5314,6 +5648,10 @@
 </code></pre>
 
 <h3 id="get-accounts-with-reward-recipient">Get Accounts With Reward Recipient</h3>
+<p><strong>Request</strong></p>
+<pre><code>https://wallet1.burst-team.us:2083/burst?requestType=getAccountsWithRewardRecipient&amp;account=BURST-S8Z2-TQ7W-ECVP-FM4FP
+</code></pre>
+
 <p><strong>Response:</strong></p>
 <pre><code class="json">{
     &quot;accounts&quot;: [
@@ -5336,6 +5674,10 @@
 </code></pre>
 
 <h3 id="get-reward-recipient">Get Reward Recipient</h3>
+<p><strong>Request</strong></p>
+<pre><code>https://wallet1.burst-team.us:2083/burst?requestType=getRewardRecipient&amp;account=BURST-FRDJ-UPLH-MY9A-GUKQP
+</code></pre>
+
 <p><strong>Response:</strong></p>
 <pre><code class="json">{
     &quot;rewardRecipient&quot;: &quot;16922903237994405232&quot;,
@@ -5345,6 +5687,10 @@
 
 <h2 id="automated-transactions">Automated Transactions</h2>
 <h3 id="get-account-ats">Get Account ATs</h3>
+<p><strong>Request</strong></p>
+<pre><code>https://wallet1.burst-team.us:2083/burst?requestType=getAccountATs&amp;account=BURST-35LY-PRT7-A9MR-A3LNQ
+</code></pre>
+
 <p><strong>Response:</strong></p>
 <pre><code class="json">{
     &quot;ats&quot;: [
@@ -5373,8 +5719,6 @@
     &quot;requestProcessingTime&quot;: 4
 }
 </code></pre>
-
-<p></translate></p>
                 
                   
                 
