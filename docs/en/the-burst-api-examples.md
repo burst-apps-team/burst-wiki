@@ -652,7 +652,7 @@ Alias Operations
 **Request**
 
 ```
-
+https://wallet1.burst-team.us:2083/burst?requestType=sellAlias&secretPhrase=IWontTellYou&aliasName=AliasTestSell&priceNQT=1&recipient=BURST-GBFG-HVQ4-8AMM-GPCWR&feeNQT=100000000&deadline=24
 ```
 
 **Response:**
@@ -700,7 +700,7 @@ Alias Operations
 **Request**
 
 ```
-
+https://wallet1.burst-team.us:2083/burst?requestType=setAlias&secretPhrase=IWontTellYou&aliasName=ApiExample&aliasURI=acct:burst-l6fm-89wk-vk8p-fcrbb@burst&feeNQT=100000000&deadline=24
 ```
 
 **Response:**
@@ -745,7 +745,7 @@ Alias Operations
 **Request**
 
 ```
-
+http://127.0.0.1:8125/burst?requestType=getAlias&aliasName=AliasTestSell
 ```
 
 **Response:**
@@ -767,7 +767,7 @@ Alias Operations
 **Request**
 
 ```
-
+http://127.0.0.1:8125/burst?requestType=getAliases&account=16922903237994405232
 ```
 
 **Response:**
@@ -804,7 +804,7 @@ Arbitrary Message System Operations
 **Request**
 
 ```
-
+https://wallet1.burst-team.us:2083/burst?requestType=encryptTo&recipient=15323192282528158131&messageToEncrypt=This%20is%20a%20message%20encrypted%20using%20%22encryptTo%22.&messageToEncryptIsText=true&secretPhrase=IWontTellYou
 ```
 
 **Response:**
@@ -822,7 +822,7 @@ Arbitrary Message System Operations
 **Request**
 
 ```
-
+https://wallet1.burst-team.us:2083/burst?requestType=decryptFrom&account=16922903237994405232&data=d5a1958d12ce96ce30dbce5b6c8ead7ecbc0f59d857dc8e8fbeec10ae440e0e74e9120fef3b0fa586d4c63fde0f289340e709b30ae528e3c2d740b11e3ae3fdb5e5d5c63f724cf16157c75dabec31eaf&nonce=7cefa6f66d5b71604e2ef56a18319b3f48a38e8aa5cf610369b294f1d40e0f8e&decryptedMessageIsText=true&secretPhrase=IWontTellYou
 ```
 
 **Response:**
@@ -839,7 +839,7 @@ Arbitrary Message System Operations
 **Request**
 
 ```
-
+https://wallet1.burst-team.us:2083/burst?requestType=sendMessage&recipient=15323192282528158131&secretPhrase=IWontTellYou&feeNQT=735000&deadline=24&broadcast=true&message=This%20is%20a%20sendMessage%20API%20example&messageIsText=true
 ```
 
 **Response:**
@@ -887,7 +887,7 @@ Arbitrary Message System Operations
 **Request**
 
 ```
-
+https://wallet1.burst-team.us:2083/burst?requestType=readMessage&transaction=3120851314369640207
 ```
 
 **Response:**
@@ -907,7 +907,7 @@ Asset Exchange Operations
 **Request**
 
 ```
-
+https://wallet1.burst-team.us:2083/burst?requestType=cancelAskOrder&order=15076843998317839249&secretPhrase=IWontTellYou&feeNQT=100000000&deadline=1&broadcast=true
 ```
 
 **Response:**
@@ -952,7 +952,7 @@ Asset Exchange Operations
 **Request**
 
 ```
-
+https://wallet1.burst-team.us:2083/burst?requestType=getAccountCurrentAskOrderIds&account=9582909050628712440
 ```
 
 **Response:**
@@ -972,7 +972,7 @@ Asset Exchange Operations
 **Request**
 
 ```
-
+https://wallet1.burst-team.us:2083/burst?requestType=getAccountCurrentAskOrders&account=9582909050628712440
 ```
 
 **Response:**
@@ -1010,7 +1010,7 @@ Asset Exchange Operations
 **Request**
 
 ```
-
+https://wallet1.burst-team.us:2083/burst?requestType=getAllAssets&firstIndex=373
 ```
 
 **Response:**
@@ -1052,7 +1052,7 @@ Asset Exchange Operations
 **Request**
 
 ```
-
+https://wallet1.burst-team.us:2083/burst?requestType=getAllOpenAskOrders&firstIndex=2577
 ```
 
 **Response:**
@@ -1100,7 +1100,7 @@ Asset Exchange Operations
 **Request**
 
 ```
-
+https://wallet1.burst-team.us:2083/burst?requestType=getAllTrades&lastIndex=1
 ```
 
 **Response:**
@@ -1154,7 +1154,7 @@ Asset Exchange Operations
 **Request**
 
 ```
-
+https://wallet1.burst-team.us:2083/burst?requestType=getAsset&asset=3702027329806229573
 ```
 
 **Response:**
@@ -1180,7 +1180,7 @@ Asset Exchange Operations
 **Request**
 
 ```
-
+https://wallet1.burst-team.us:2083/burst?requestType=getAssetAccounts&asset=3702027329806229573&lastIndex=1
 ```
 
 **Response:**
@@ -1212,7 +1212,7 @@ Asset Exchange Operations
 **Request**
 
 ```
-
+https://wallet1.burst-team.us:2083/burst?requestType=getAssetIds&lastIndex=5
 ```
 
 **Response:**
@@ -1236,7 +1236,7 @@ Asset Exchange Operations
 **Request**
 
 ```
-
+https://wallet1.burst-team.us:2083/burst?requestType=getAssetTransfers&asset=3702027329806229573&lastIndex=1
 ```
 
 **Response:**
@@ -1280,7 +1280,7 @@ Asset Exchange Operations
 **Request**
 
 ```
-
+https://wallet1.burst-team.us:2083/burst?requestType=getAssets&assets=9306257191450064346&assets=3702027329806229573
 ```
 
 **Response:**
@@ -1322,7 +1322,7 @@ Asset Exchange Operations
 **Request**
 
 ```
-
+https://wallet1.burst-team.us:2083/burst?requestType=getAssetsByIssuer&account=1494753212313950790&account=5970910749481183928
 ```
 
 **Response:**
@@ -1368,7 +1368,7 @@ Asset Exchange Operations
 **Request**
 
 ```
-
+https://wallet1.burst-team.us:2083/burst?requestType=getAskOrder&order=14034527401109329159
 ```
 
 **Response:**
@@ -1392,7 +1392,7 @@ Asset Exchange Operations
 **Request**
 
 ```
-
+https://wallet1.burst-team.us:2083/burst?requestType=getAskOrderIds&asset=11700625361170592721&lastIndex=5
 ```
 
 **Response:**
@@ -1416,7 +1416,7 @@ Asset Exchange Operations
 **Request**
 
 ```
-
+https://wallet1.burst-team.us:2083/burst?requestType=getAskOrders&asset=11700625361170592721&lastIndex=2
 ```
 
 **Response:**
@@ -1464,7 +1464,7 @@ Asset Exchange Operations
 **Request**
 
 ```
-
+https://wallet1.burst-team.us:2083/burst?requestType=getTrades&asset=3702027329806229573&lastIndex=2&includeAssetInfo=false
 ```
 
 **Response:**
@@ -1530,7 +1530,7 @@ Asset Exchange Operations
 **Request**
 
 ```
-
+http://localhost:8125/burst?requestType=issueAsset&publicKey=57fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143b473beec228f79ff93c&name=SecretCoin&description=This+is+SecretCoin&quantityQNT=100&deadline=60&feeNQT=100000000000
 ```
 
 **Note:** This is a fake example.
@@ -1572,7 +1572,7 @@ Asset Exchange Operations
 **Request**
 
 ```
-
+https://wallet1.burst-team.us:2083/burst?requestType=placeBidOrder&asset=3702027329806229573&quantityQNT=1&priceNQT=100000000&secretPhrase=IWontTellYou&feeNQT=100000000&deadline=1&broadcast=false
 ```
 
 **Response:**
@@ -1619,7 +1619,7 @@ Asset Exchange Operations
 **Request**
 
 ```
-
+https://wallet1.burst-team.us:2083/burst?requestType=transferAsset&recipient=17001464071916561838&asset=3702027329806229573&quantityQNT=1&secretPhrase=IWontTellYou&feeNQT=100000000&deadline=1&broadcast=true
 ```
 
 **Response:**
@@ -1670,7 +1670,7 @@ Block Operations
 **Request**
 
 ```
-
+https://wallet1.burst-team.us:2083/burst?requestType=getBlock&block=2298247278137763160
 ```
 
 **Response:**
@@ -1710,7 +1710,7 @@ Block Operations
 **Request**
 
 ```
-
+https://wallet1.burst-team.us:2083/burst?requestType=getBlockId&height=502000
 ```
 
 **Response:**
@@ -1727,7 +1727,7 @@ Block Operations
 **Request**
 
 ```
-
+https://wallet1.burst-team.us:2083/burst?requestType=getBlocks&lastIndex=1
 ```
 
 **Response:**
@@ -1806,7 +1806,7 @@ Block Operations
 **Request**
 
 ```
-
+https://wallet1.burst-team.us:2083/burst?requestType=getECBlock
 ```
 
 **Response:**
@@ -1828,7 +1828,7 @@ Digital Goods Store Operations
 **Request**
 
 ```
-
+https://wallet1.burst-team.us:2083/burst?requestType=dgsDelisting&goods=11813734897437346473&secretPhrase=IWontTellYou&feeNQT=100000000&deadline=60
 ```
 
 **Response:**
@@ -1873,7 +1873,7 @@ Digital Goods Store Operations
 **Request**
 
 ```
-
+https://wallet1.burst-team.us:2083/burst?requestType=dgsDelivery&purchase=3723760852542296589&goodsToEncrypt=DownloadCode&secretPhrase=IWontTellYou&feeNQT=100000000&deadline=60
 ```
 
 **Response:**
@@ -1924,7 +1924,7 @@ Digital Goods Store Operations
 **Request**
 
 ```
-
+https://wallet1.burst-team.us:2083/burst?requestType=dgsFeedback&purchase=10234639413366748292&secretPhrase=IWontTellYou&feeNQT=100000000&deadline=60&message=Thanks
 ```
 
 **Response:**
@@ -1974,7 +1974,7 @@ Digital Goods Store Operations
 **Request**
 
 ```
-
+https://wallet1.burst-team.us:2083/burst?requestType=dgsListing&secretPhrase=IWontTellYou&name=Test&description=Testing&tags=test&quantity=3&priceNQT=100000000&feeNQT=100000000&deadline=60
 ```
 
 **Response:**
@@ -2023,7 +2023,7 @@ Digital Goods Store Operations
 **Request**
 
 ```
-
+https://wallet1.burst-team.us:2083/burst?requestType=dgsPriceChange&goods=11813734897437346473&priceNQT=200000000&secretPhrase=IWontTellYou&feeNQT=100000000&deadline=60
 ```
 
 **Response:**
@@ -2069,7 +2069,7 @@ Digital Goods Store Operations
 **Request**
 
 ```
-
+https://wallet1.burst-team.us:2083/burst?requestType=dgsPurchase&goods=1587116104511359906&quantity=1&deliveryDeadlineTimestamp=31800000&secretPhrase=IWontTellYou&feeNQT=100000000&deadline=60
 ```
 
 **Response:**
@@ -2119,7 +2119,7 @@ Digital Goods Store Operations
 **Request**
 
 ```
-
+https://wallet1.burst-team.us:2083/burst?requestType=dgsQuantityChange&goods=11813734897437346473&deltaQuantity=-1&secretPhrase=IWontTellYou&feeNQT=100000000&deadline=60
 ```
 
 **Response:**
@@ -2166,7 +2166,7 @@ Digital Goods Store Operations
 **Request**
 
 ```
-
+https://wallet1.burst-team.us:2083/burst?requestType=dgsRefund&purchase=3723760852542296589&refundNQT=100000000&secretPhrase=IWontTellYou&feeNQT=100000000&deadline=60
 ```
 
 **Response:**
@@ -2215,7 +2215,7 @@ Digital Goods Store Operations
 **Request**
 
 ```
-
+https://wallet1.burst-team.us:2083/burst?requestType=getDGSGood&goods=490136863013671329
 ```
 
 **Response:**
@@ -2241,7 +2241,7 @@ Digital Goods Store Operations
 **Request**
 
 ```
-
+https://wallet1.burst-team.us:2083/burst?requestType=getDGSGoods&seller=869755421284789028
 ```
 
 **Response:**
@@ -2267,7 +2267,7 @@ Digital Goods Store Operations
 **Request**
 
 ```
-
+https://wallet1.burst-team.us:2083/burst?requestType=getDGSGoods&seller=869755421284789028
 ```
 
 **Response:**
@@ -2309,7 +2309,7 @@ Digital Goods Store Operations
 **Request**
 
 ```
-
+https://wallet1.burst-team.us:2083/burst?requestType=getDGSPendingPurchases&seller=869755421284789028
 ```
 
 **Response:**
@@ -2359,7 +2359,7 @@ Digital Goods Store Operations
 **Request**
 
 ```
-
+https://wallet1.burst-team.us:2083/burst?requestType=getDGSPurchase&purchase=18028864805999806823
 ```
 
 **Response:**
@@ -2387,7 +2387,7 @@ Digital Goods Store Operations
 **Request**
 
 ```
-
+https://wallet1.burst-team.us:2083/burst?requestType=getDGSPurchases&seller=869755421284789028
 ```
 
 **Response:**
@@ -2440,7 +2440,7 @@ Networking Operations
 **Request**
 
 ```
-
+https://wallet1.burst-team.us:2083/burst?requestType=getMyInfo
 ```
 
 **Response:**
@@ -2458,7 +2458,7 @@ Networking Operations
 **Request**
 
 ```
-
+https://wallet1.burst-team.us:2083/burst?requestType=getPeer&peer=107.150.6.121
 ```
 
 **Response:**
@@ -2484,7 +2484,7 @@ Networking Operations
 **Request**
 
 ```
-
+https://wallet1.burst-team.us:2083/burst?requestType=getPeers&active=true
 ```
 
 **Response:**
@@ -2512,7 +2512,7 @@ Server Information Operations
 **Request**
 
 ```
-
+https://wallet1.burst-team.us:2083/burst?requestType=getBlockchainStatus
 ```
 
 **Response:**
@@ -2537,7 +2537,7 @@ Server Information Operations
 **Request**
 
 ```
-
+https://wallet1.burst-team.us:2083/burst?requestType=getConstants
 ```
 
 **Response:**
@@ -2687,7 +2687,7 @@ Server Information Operations
 **Request**
 
 ```
-
+https://wallet1.burst-team.us:2083/burst?requestType=getState
 ```
 
 **Response:**
@@ -2728,7 +2728,7 @@ Server Information Operations
 **Request**
 
 ```
-
+https://wallet1.burst-team.us:2083/burst?requestType=getTime
 ```
 
 **Response:**
@@ -2748,7 +2748,7 @@ Transaction Operations
 **Request**
 
 ```
-
+https://wallet1.burst-team.us:2083/burst?requestType=broadcastTransaction&transactionBytes=00109cce3f071800a61325eec9e83d7cac55544b8eca8ea8034559bafb5834b8a5d3b6d4efb85f12ae2527ec7e55f1eb00e1f5050000000018370b00000000000000000000000000000000000000000000000000000000000000000000000000bed76407665ef3dbe24c78041a497e9e603076b8adf90353effe5218c83f69078adaec89a2f2e1ffb7bc835b1c21cf8300185cd4f3d7df52be156e61069d569d0000000006ac0700769afc7e6215e488
 ```
 
 **Response:**
@@ -2768,7 +2768,7 @@ Transaction Operations
 **Request**
 
 ```
-
+https://wallet1.burst-team.us:2083/burst?requestType=calculateFullHash&unsignedTransactionBytes=01104ec93f071800a61325eec9e83d7cac55544b8eca8ea8034559bafb5834b8a5d3b6d4efb85f12b31119f931eaa6d4000000000000000018370b00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000003ac07005ac8e8794cc6d21001210000805468697320697320612073656e644d65737361676520415049206578616d706c65&signatureHash=0f37d045bc7d4f2bd85cb565a5c4e575464ac387b986f80fb8c31635cf03923e
 ```
 
 **Response:**
@@ -2785,7 +2785,7 @@ Transaction Operations
 **Request**
 
 ```
-
+https://wallet1.burst-team.us:2083/burst?requestType=getTransaction&transaction=3120851314369640207%20
 ```
 
 **Response:**
@@ -2828,7 +2828,7 @@ Transaction Operations
 **Request**
 
 ```
-
+https://wallet1.burst-team.us:2083/burst?requestType=getTransactionBytes&transaction=3120851314369640207
 ```
 
 **Response:**
@@ -2847,7 +2847,7 @@ Transaction Operations
 **Request**
 
 ```
-
+https://wallet1.burst-team.us:2083/burst?requestType=parseTransaction&transactionBytes=01104ec93f071800a61325eec9e83d7cac55544b8eca8ea8034559bafb5834b8a5d3b6d4efb85f12b31119f931eaa6d4000000000000000018370b00000000000000000000000000000000000000000000000000000000000000000000000000dc2503584a48e30ac62d62848f58461e0e9ff55070008743c24f380c24a9ef05525c70b5d40962566f3f4de2018277ba7956eb09d0aec84219784de7f3b76f6a0100000003ac07005ac8e8794cc6d21001210000805468697320697320612073656e644d65737361676520415049206578616d706c65
 ```
 
 **Response:**
@@ -2888,7 +2888,7 @@ Transaction Operations
 **Request**
 
 ```
-
+https://wallet1.burst-team.us:2083/burst?requestType=signTransaction&unsignedTransactionBytes=01104ec93f071800a61325eec9e83d7cac55544b8eca8ea8034559bafb5834b8a5d3b6d4efb85f12b31119f931eaa6d4000000000000000018370b00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000003ac07005ac8e8794cc6d21001210000805468697320697320612073656e644d65737361676520415049206578616d706c65&secretPhrase=IWontTellYou
 ```
 
 **Response:**
@@ -2912,7 +2912,7 @@ Utilities
 **Request**
 
 ```
-
+https://wallet1.burst-team.us:2083/burst?requestType=longConvert&id=16922903237994405232
 ```
 
 **Response:**
@@ -2930,7 +2930,7 @@ Utilities
 **Request**
 
 ```
-
+https://wallet1.burst-team.us:2083/burst?requestType=rsConvert&account=16922903237994405232
 ```
 
 **Response:**
@@ -2951,7 +2951,7 @@ Mining
 **Request**
 
 ```
-
+https://wallet1.burst-team.us:2083/burst?requestType=getMiningInfo
 ```
 
 **Response:**
@@ -2970,7 +2970,7 @@ Mining
 **Request**
 
 ```
-
+https://wallet1.burst-team.us:2083/burst?requestType=getAccountsWithRewardRecipient&account=BURST-S8Z2-TQ7W-ECVP-FM4FP
 ```
 
 **Response:**
@@ -3001,7 +3001,7 @@ Mining
 **Request**
 
 ```
-
+https://wallet1.burst-team.us:2083/burst?requestType=getRewardRecipient&account=BURST-FRDJ-UPLH-MY9A-GUKQP
 ```
 
 **Response:**
@@ -3021,7 +3021,7 @@ Automated Transactions
 **Request**
 
 ```
-
+https://wallet1.burst-team.us:2083/burst?requestType=getAccountATs&account=BURST-35LY-PRT7-A9MR-A3LNQ
 ```
 
 **Response:**
@@ -3054,5 +3054,3 @@ Automated Transactions
     "requestProcessingTime": 4
 }
 ```
-
-</translate>
