@@ -8,14 +8,14 @@ Reward Assignment on QBundle
 
 Under “Tools/Reward Assignment”, you will find the reward recipient form. Complete the missing fields and press “Set Reward Recipient” button. This form also allows you to check you current reward recipient.
 
-<img src="../media/Set_Reward_Recipient.png" title="Set_Reward_Recipient.png" alt="Set_Reward_Recipient.png" width="400" height="400" />
+<img src="../../media/Set_Reward_Recipient.png" title="Set_Reward_Recipient.png" alt="Set_Reward_Recipient.png" width="400" height="400" />
 
 Reward Assignment on Burst wallet
 ---------------------------------
 
 On the wallet, click on “Reward Assignment”. Enter the [RS Address](rs-address-format.md) of the recipient and click on “Set Reward Recipient”.
 
-<img src="../media/Set_Reward_Recipient_BRS.png" title="Set_Reward_Recipient_BRS.png" alt="Set_Reward_Recipient_BRS.png" width="400" height="257" />
+<img src="../../media/Set_Reward_Recipient_BRS.png" title="Set_Reward_Recipient_BRS.png" alt="Set_Reward_Recipient_BRS.png" width="400" height="257" />
 
 Reward Assignment on Burst wallet using reward assignment page
 --------------------------------------------------------------
