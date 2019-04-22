@@ -7,20 +7,20 @@ Your account will be secured by a passphrase. It is important to understand the 
 
 New Burst accounts are secure, but full security requires activation on the block chain with a public key. Some business and exchanges will not transact business with an account until it is activated. Activation happens automatically with a wallets first outgoing transaction. How can you make an outgoing transaction if there are no funds in you account? This is easily accomplished with the help from the friendly Burst community. After you have downloaded and installed your selected wallet software, you will need to secure a small amount of Burst from the community in order to activate your wallet. For information on how to obtain the amount of burst needed, see FAQ 1. While you are there, scan through the other questions in the FAQ section.
 
--   [FAQ 1 - How can I obtain burst to cover my initial transaction fee?](faq-how-do-i-get-burst-3f.md)
+-   [FAQ 1 - How can I obtain burst to cover my initial transaction fee?](faq.md)
 
 Ready to get started?
 ---------------------
 
 Burst Reference software (BRS) is supported for all major operating systems. However, some programs developed for Windows require a 64bit installed version. You will also need to have a correct installed version of Java (usually the latest version). Some installation packages will check your version of Java automatically and prompt you to download any missing components. In most cases it is not necessary to check your version of Java in advance.
 
-If you are just starting out, have average computer skills, and prefer ease of installation, the Windows based version of Qbundle is recommended. Qbundle is easily installed package that contains all of the Windows based Burst Reference Software that you will need.
+If you are just starting out, have average computer skills, and prefer ease of installation, the Windows based version of [Qbundle](qbundle.md) is recommended. Qbundle is easily installed package that contains all of the Windows based Burst Reference Software that you will need.
 
 If you have more advanced computer skills and prefer software that is not Windows based, packages for other popular operating systems have been developed.
 
 You can find the Burst Reference Software here:
 
--   [Burst Reference Software](burst-reference-software.md)
+-   [Burst Reference Software](https://github.com/burst-apps-team/burstcoin/releases)
 
 You can find step by step installation and setup guides on the Burst Wiki main page: (Burst Software section)
 
