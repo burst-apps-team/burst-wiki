@@ -1,3 +1,8 @@
+| Burst API Examples | Version |
+|-------|--------------|
+| API     | 1.0.0   |
+| BRS Version     | 2.3.0   |
+
 Description
 ---------------------------------------------------------------------------------------------------------
 
@@ -5,7 +10,7 @@ Examples of Burst API calls are collected on this page, individually linked from
 
 The preliminary sections preceding the examples simply link back to the main page. For example: [The Burst API Description](the-burst-api-description.md).
 
-A lot of API calls can be viewed and tested on the MainNet at <https://wallet1.burst-team.us:2083/burst>?. For specific API calls, use the GET url https://wallet1.burst-team.us:2083/burst?=*specificRequestType*.
+A lot of API calls can be viewed and tested on the MainNet at <https://wallet1.burst-team.us:2083/burst>. For specific API calls, use the GET url https://wallet1.burst-team.us:2083/burst?=*specificRequestType*.
 
 General Notes
 -----------------------------------------------------------------------------------------------------------
@@ -21,6 +26,12 @@ Account Operations
 ----------------------------------------------------------------------------------------------------------------
 
 ### Get Account
+
+**Request**
+
+```
+https://wallet1.burst-team.us:2083/burst?requestType=getAccount&account=BURST-GBFG-HVQ4-8AMM-GPCWR
+```
 
 **Response:**
 
@@ -53,6 +64,12 @@ Account Operations
 
 ### Get Account Block Ids
 
+**Request**
+
+```
+https://wallet1.burst-team.us:2083/burst?requestType=getAccountBlockIds&account=17001464071916561838&lastIndex=5
+```
+
 **Response similar to:**
 
 ``` json
@@ -60,6 +77,12 @@ Account Operations
 ```
 
 ### Get Account Blocks
+
+**Request**
+
+```
+https://wallet1.burst-team.us:2083/burst?requestType=getAccountBlocks&account=BURST-JNRV-L9MB-QU9G-FR8YT&lastIndex=0
+```
 
 **Response similar to:**
 
@@ -109,6 +132,12 @@ Account Operations
 
 ### Get Account Id
 
+**Request**
+
+```
+https://wallet1.burst-team.us:2083/burst?requestType=getAccountId&secretPhrase=IWontTellYou
+```
+
 **Response:**
 
 ``` json
@@ -121,6 +150,12 @@ Account Operations
 ```
 
 ### Get Account Lessors
+
+**Request**
+
+```
+https://wallet1.burst-team.us:2083/burst?requestType=getAccountLessors&account=BURST-GBFG-HVQ4-8AMM-GPCWR
+```
 
 **Response:**
 
@@ -136,6 +171,12 @@ Account Operations
 
 ### Get Account Public Key
 
+**Request**
+
+```
+https://wallet1.burst-team.us:2083/burst?requestType=getAccountPublicKey&account=BURST-GBFG-HVQ4-8AMM-GPCWR
+```
+
 **Response:**
 
 ``` json
@@ -146,6 +187,12 @@ Account Operations
 ```
 
 ### Get Account Transaction Ids
+
+**Request**
+
+```
+https://wallet1.burst-team.us:2083/burst?requestType=getAccountTransactionIds&account=BURST-GBFG-HVQ4-8AMM-GPCWR
+```
 
 **Response:**
 
@@ -165,6 +212,12 @@ Account Operations
 ```
 
 ### Get Account Transactions
+
+**Request**
+
+```
+https://wallet1.burst-team.us:2083/burst?requestType=getAccountTransactions&account=BURST-GBFG-HVQ4-8AMM-GPCWR
+```
 
 **Response:**
 
@@ -231,6 +284,12 @@ Account Operations
 
 ### Get Balance
 
+**Request**
+
+```
+https://wallet1.burst-team.us:2083/burst?requestType=getBalance&account=BURST-GBFG-HVQ4-8AMM-GPCWR
+```
+
 **Response:**
 
 ``` json
@@ -246,6 +305,12 @@ Account Operations
 
 ### Get Unconfirmed Transaction Ids
 
+**Request**
+
+```
+https://wallet1.burst-team.us:2083/burst?requestType=getUnconfirmedTransactionIds&account=BURST-GBFG-HVQ4-8AMM-GPCWR
+```
+
 **Response:**
 
 ``` json
@@ -256,6 +321,12 @@ Account Operations
 ```
 
 ### Get Unconfirmed Transactions
+
+**Request**
+
+```
+https://wallet1.burst-team.us:2083/burst?requestType=getUnconfirmedTransactions
+```
 
 **Response:**
 
@@ -314,6 +385,12 @@ Account Operations
 
 ### Get Subscription
 
+**Request**
+
+```
+https://wallet1.burst-team.us:2083/burst?requestType=getSubscription&subscription=13721874590196751209
+```
+
 **Response:**
 
 ``` json
@@ -331,6 +408,12 @@ Account Operations
 ```
 
 ### Get Subscriptions To Account
+
+**Request**
+
+```
+https://wallet1.burst-team.us:2083/burst?requestType=getSubscriptionsToAccount&account=14787496155544039023
+```
 
 **Response:**
 
@@ -354,6 +437,12 @@ Account Operations
 
 ### Get Account Subscriptions
 
+**Request**
+
+```
+https://wallet1.burst-team.us:2083/burst?requestType=getAccountSubscriptions&account=14787496155544039023
+```
+
 **Response:**
 
 ``` json
@@ -375,6 +464,12 @@ Account Operations
 ```
 
 ### Send Money
+
+**Request**
+
+```
+https://wallet1.burst-team.us:2083/burst?requestType=sendMoney&secretPhrase=IWontTellYou&recipient=BURST-GBFG-HVQ4-8AMM-GPCWR&amountNQT=100000000&feeNQT=100000000&deadline=24
+```
 
 **Response:**
 
@@ -412,6 +507,12 @@ Account Operations
 ```
 
 ### Send Money Subscription
+
+**Request**
+
+```
+https://wallet1.burst-team.us:2083/burst?requestType=sendMoneySubscription&recipient=BURST-ZYGT-HCNL-PU3A-98NM7&amountNQT=200000000&frequency=3600&secretPhrase=IWontTellYou&feeNQT=10000000&deadline=24
+```
 
 **Response:**
 
@@ -454,6 +555,12 @@ Account Operations
 
 ### Cancel Subscription
 
+**Request**
+
+```
+https://wallet1.burst-team.us:2083/burst?requestType=subscriptionCancel&subscription=3470763597622549812&secretPhrase=IWontTellYou&feeNQT=10000000&deadline=24
+```
+
 **Response:**
 
 ``` json
@@ -492,6 +599,12 @@ Account Operations
 ```
 
 ### Set Account Info
+
+**Request**
+
+```
+https://wallet1.burst-team.us:2083/burst?requestType=setAccountInfo&secretPhrase=IWontTellYou&name=API-Examples&feeNQT=100000000&deadline=24
+```
 
 **Response:**
 
@@ -536,6 +649,12 @@ Alias Operations
 
 ### Buy / Sell Alias
 
+**Request**
+
+```
+
+```
+
 **Response:**
 
 ``` json
@@ -578,6 +697,12 @@ Alias Operations
 
 ### Set Alias
 
+**Request**
+
+```
+
+```
+
 **Response:**
 
 ``` json
@@ -617,6 +742,12 @@ Alias Operations
 
 ### Get Alias
 
+**Request**
+
+```
+
+```
+
 **Response:**
 
 ``` json
@@ -632,6 +763,12 @@ Alias Operations
 ```
 
 ### Get Aliases
+
+**Request**
+
+```
+
+```
 
 **Response:**
 
@@ -664,6 +801,12 @@ Arbitrary Message System Operations
 
 ### Encrypt To
 
+**Request**
+
+```
+
+```
+
 **Response:**
 
 ``` json
@@ -676,6 +819,12 @@ Arbitrary Message System Operations
 
 ### Decrypt From
 
+**Request**
+
+```
+
+```
+
 **Response:**
 
 ``` json
@@ -686,6 +835,12 @@ Arbitrary Message System Operations
 ```
 
 ### Send Message
+
+**Request**
+
+```
+
+```
 
 **Response:**
 
@@ -729,6 +884,12 @@ Arbitrary Message System Operations
 
 ### Read Message
 
+**Request**
+
+```
+
+```
+
 **Response:**
 
 ``` json
@@ -742,6 +903,12 @@ Asset Exchange Operations
 -----------------------------------------------------------------------------------------------------------------------
 
 ### Cancel Order
+
+**Request**
+
+```
+
+```
 
 **Response:**
 
@@ -782,6 +949,12 @@ Asset Exchange Operations
 
 ### Get Account Current Order Ids
 
+**Request**
+
+```
+
+```
+
 **Response:**
 
 ``` json
@@ -795,6 +968,12 @@ Asset Exchange Operations
 ```
 
 ### Get Account Current Orders
+
+**Request**
+
+```
+
+```
 
 **Response:**
 
@@ -827,6 +1006,12 @@ Asset Exchange Operations
 ```
 
 ### Get All Assets
+
+**Request**
+
+```
+
+```
 
 **Response:**
 
@@ -863,6 +1048,12 @@ Asset Exchange Operations
 ```
 
 ### Get All Open Orders
+
+**Request**
+
+```
+
+```
 
 **Response:**
 
@@ -905,6 +1096,12 @@ Asset Exchange Operations
 ```
 
 ### Get All Trades
+
+**Request**
+
+```
+
+```
 
 **Response:**
 
@@ -954,6 +1151,12 @@ Asset Exchange Operations
 
 ### Get Asset
 
+**Request**
+
+```
+
+```
+
 **Response:**
 
 ``` json
@@ -973,6 +1176,12 @@ Asset Exchange Operations
 ```
 
 ### Get Asset Accounts
+
+**Request**
+
+```
+
+```
 
 **Response:**
 
@@ -1000,6 +1209,12 @@ Asset Exchange Operations
 
 ### Get Asset Ids
 
+**Request**
+
+```
+
+```
+
 **Response:**
 
 ``` json
@@ -1017,6 +1232,12 @@ Asset Exchange Operations
 ```
 
 ### Get Asset Transfers
+
+**Request**
+
+```
+
+```
 
 **Response:**
 
@@ -1056,6 +1277,12 @@ Asset Exchange Operations
 
 ### Get Assets
 
+**Request**
+
+```
+
+```
+
 **Response:**
 
 ``` json
@@ -1091,6 +1318,12 @@ Asset Exchange Operations
 ```
 
 ### Get Assets By Issuer
+
+**Request**
+
+```
+
+```
 
 **Response:**
 
@@ -1132,6 +1365,12 @@ Asset Exchange Operations
 
 ### Get Order
 
+**Request**
+
+```
+
+```
+
 **Response:**
 
 ``` json
@@ -1150,6 +1389,12 @@ Asset Exchange Operations
 
 ### Get Order Ids
 
+**Request**
+
+```
+
+```
+
 **Response:**
 
 ``` json
@@ -1167,6 +1412,12 @@ Asset Exchange Operations
 ```
 
 ### Get Orders
+
+**Request**
+
+```
+
+```
 
 **Response:**
 
@@ -1209,6 +1460,12 @@ Asset Exchange Operations
 ```
 
 ### Get Trades
+
+**Request**
+
+```
+
+```
 
 **Response:**
 
@@ -1270,6 +1527,12 @@ Asset Exchange Operations
 
 ### Issue Asset
 
+**Request**
+
+```
+
+```
+
 **Note:** This is a fake example.
 
 **Response:**
@@ -1305,6 +1568,12 @@ Asset Exchange Operations
 ```
 
 ### Place Order
+
+**Request**
+
+```
+
+```
 
 **Response:**
 
@@ -1346,6 +1615,12 @@ Asset Exchange Operations
 ```
 
 ### Transfer Asset
+
+**Request**
+
+```
+
+```
 
 **Response:**
 
@@ -1392,6 +1667,12 @@ Block Operations
 
 ### Get Block
 
+**Request**
+
+```
+
+```
+
 **Response:**
 
 ``` json
@@ -1426,6 +1707,12 @@ Block Operations
 
 ### Get Block Id
 
+**Request**
+
+```
+
+```
+
 **Response:**
 
 ``` json
@@ -1436,6 +1723,12 @@ Block Operations
 ```
 
 ### Get Blocks
+
+**Request**
+
+```
+
+```
 
 **Response:**
 
@@ -1510,6 +1803,12 @@ Block Operations
 
 ### Get EC Block
 
+**Request**
+
+```
+
+```
+
 **Response:**
 
 ``` json
@@ -1525,6 +1824,12 @@ Digital Goods Store Operations
 ------------------------------
 
 ### DGS Delisting
+
+**Request**
+
+```
+
+```
 
 **Response:**
 
@@ -1564,6 +1869,12 @@ Digital Goods Store Operations
 ```
 
 ### DGS Delivery
+
+**Request**
+
+```
+
+```
 
 **Response:**
 
@@ -1610,6 +1921,12 @@ Digital Goods Store Operations
 
 ### Feedback
 
+**Request**
+
+```
+
+```
+
 **Response:**
 
 ``` json
@@ -1654,6 +1971,12 @@ Digital Goods Store Operations
 
 ### DGS Listing
 
+**Request**
+
+```
+
+```
+
 **Response:**
 
 ``` json
@@ -1697,6 +2020,12 @@ Digital Goods Store Operations
 
 ### DGS Price Change
 
+**Request**
+
+```
+
+```
+
 **Response:**
 
 ``` json
@@ -1736,6 +2065,12 @@ Digital Goods Store Operations
 ```
 
 ### DGS Purchase
+
+**Request**
+
+```
+
+```
 
 **Response:**
 
@@ -1781,6 +2116,12 @@ Digital Goods Store Operations
 
 ### DGS Quantity Change
 
+**Request**
+
+```
+
+```
+
 **Response:**
 
 ``` json
@@ -1821,6 +2162,12 @@ Digital Goods Store Operations
 ```
 
 ### DGS Refund
+
+**Request**
+
+```
+
+```
 
 **Response:**
 
@@ -1865,6 +2212,12 @@ Digital Goods Store Operations
 
 ### Get DGS Good
 
+**Request**
+
+```
+
+```
+
 **Response:**
 
 ``` json
@@ -1885,6 +2238,12 @@ Digital Goods Store Operations
 
 ### Get DGS Goods
 
+**Request**
+
+```
+
+```
+
 **Response:**
 
 ``` json
@@ -1904,6 +2263,12 @@ Digital Goods Store Operations
 ```
 
 ### Get DGS Goods Purchases
+
+**Request**
+
+```
+
+```
 
 **Response:**
 
@@ -1940,6 +2305,12 @@ Digital Goods Store Operations
 ```
 
 ### Get DGS Pending Purchases
+
+**Request**
+
+```
+
+```
 
 **Response:**
 
@@ -1985,6 +2356,12 @@ Digital Goods Store Operations
 
 ### Get DGS Purchase
 
+**Request**
+
+```
+
+```
+
 **Response:**
 
 ``` json
@@ -2006,6 +2383,12 @@ Digital Goods Store Operations
 ```
 
 ### Get DGS Purchases
+
+**Request**
+
+```
+
+```
 
 **Response:**
 
@@ -2054,6 +2437,12 @@ Networking Operations
 
 ### Get My Info
 
+**Request**
+
+```
+
+```
+
 **Response:**
 
 ``` json
@@ -2065,6 +2454,12 @@ Networking Operations
 ```
 
 ### Get Peer
+
+**Request**
+
+```
+
+```
 
 **Response:**
 
@@ -2085,6 +2480,12 @@ Networking Operations
 ```
 
 ### Get Peers
+
+**Request**
+
+```
+
+```
 
 **Response:**
 
@@ -2108,6 +2509,12 @@ Server Information Operations
 
 ### Get Blockchain Status
 
+**Request**
+
+```
+
+```
+
 **Response:**
 
 ``` json
@@ -2126,6 +2533,12 @@ Server Information Operations
 ```
 
 ### Get Constants
+
+**Request**
+
+```
+
+```
 
 **Response:**
 
@@ -2271,6 +2684,12 @@ Server Information Operations
 
 ### Get State
 
+**Request**
+
+```
+
+```
+
 **Response:**
 
 ``` json
@@ -2306,6 +2725,12 @@ Server Information Operations
 
 ### Get Time
 
+**Request**
+
+```
+
+```
+
 **Response:**
 
 ``` json
@@ -2319,6 +2744,12 @@ Transaction Operations
 ----------------------
 
 ### Broadcast Transaction
+
+**Request**
+
+```
+
+```
 
 **Response:**
 
@@ -2334,6 +2765,12 @@ Transaction Operations
 
 ### Calculate Full Hash
 
+**Request**
+
+```
+
+```
+
 **Response:**
 
 ``` json
@@ -2344,6 +2781,12 @@ Transaction Operations
 ```
 
 ### Get Transaction
+
+**Request**
+
+```
+
+```
 
 **Response:**
 
@@ -2382,6 +2825,12 @@ Transaction Operations
 
 ### Get Transaction Bytes
 
+**Request**
+
+```
+
+```
+
 **Response:**
 
 ``` json
@@ -2394,6 +2843,12 @@ Transaction Operations
 ```
 
 ### Parse Transaction
+
+**Request**
+
+```
+
+```
 
 **Response:**
 
@@ -2430,6 +2885,12 @@ Transaction Operations
 
 ### Sign Transaction
 
+**Request**
+
+```
+
+```
+
 **Response:**
 
 ``` json
@@ -2448,6 +2909,12 @@ Utilities
 
 ### Long Convert
 
+**Request**
+
+```
+
+```
+
 **Response:**
 
 ``` json
@@ -2459,6 +2926,12 @@ Utilities
 ```
 
 ### RS Convert
+
+**Request**
+
+```
+
+```
 
 **Response:**
 
@@ -2475,6 +2948,12 @@ Mining
 
 ### Get Mining Info
 
+**Request**
+
+```
+
+```
+
 **Response:**
 
 ``` json
@@ -2487,6 +2966,12 @@ Mining
 ```
 
 ### Get Accounts With Reward Recipient
+
+**Request**
+
+```
+
+```
 
 **Response:**
 
@@ -2513,6 +2998,12 @@ Mining
 
 ### Get Reward Recipient
 
+**Request**
+
+```
+
+```
+
 **Response:**
 
 ``` json
@@ -2526,6 +3017,12 @@ Automated Transactions
 ----------------------
 
 ### Get Account ATs
+
+**Request**
+
+```
+
+```
 
 **Response:**
 
