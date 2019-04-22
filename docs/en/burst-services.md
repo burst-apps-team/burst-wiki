@@ -12,9 +12,9 @@ As a user, you should always be aware of the security implications using an onli
 
 A few well known public wallets are:
 
--   [PoCC Online Wallet](https://wallet.burst.cryptoguru.org:8125/index.html)
+-   [VoIPLanParty](https://voiplanparty.com:8125/index.html)
 -   Burst-Team Online Wallets (operated by Haitch): [1](https://wallet1.burst-team.us:2083/index.html), [2](https://wallet2.burst-team.us:2083/index.html) [3](https://wallet3.burst-team.us:2083/index.html), [4](https://wallet4.burst-team.us:2083/index.html), [5](https://wallet5.burst-team.us:2083/index.html)
--   poolofd32th: [1](https://wallet.poolofd32th.club/index.html), [2](https://wallet2.poolofd32th.club/index.html)
+-   Burstforum: [1](https://wallet1.burstforum.net:2083/index.html), [2](https://wallet2.burstforum.net:2083/index.html), [3](https://wallet3.burstforum.net:2083/index.html)
 
 Explorers
 =========
@@ -23,7 +23,7 @@ Blockchain explorers provide insight into various events happening in the blockc
 
 The main Burst blockchain explorers are:
 
--   [BAT Explorer](https://explorer.burstcoin.dk/)
+-   [BAT Explorer](https://explorer.burstcoin.network/)
 -   [PoCC Explorer](https://explore.burst.cryptoguru.org/)
 -   [Burstcoin.RO Explorer](https://explore.burstcoin.ro/)
 -   [BurstNeon Monitor](http://burstneon.com/monitor?id=16020314477710380875)
@@ -35,6 +35,7 @@ Some services provide deeper or different insight into activities within the Bur
 
 Notable services in this area are:
 
+-   [BAT](https://explorer.burstcoin.network/?action=network_status)
 -   [Pool Spy](https://starburst.pink/poolspy/)
 -   [Burstcoin.CC](http://burstcoin.cc/) by Luxe
 -   Tx Notification Service: [Burst Alerts](http://burstalerts.com/)
@@ -53,5 +54,3 @@ On December, 6th 2018 the PoCC announced the renaming of the “PoCC Bot” to M
 -   bank
 
 and others. See the dedicated page on [Mortimer](mortimer.md).
-
-</translate>
