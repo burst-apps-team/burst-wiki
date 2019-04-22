@@ -248,6 +248,16 @@ BurstLib is a cross platform dynamic library to make developing applications and
 
 * Platform : Cross Platform
 
+### Burstkit4j
+
+Burstkit4j is a BURST Java Development Framework.
+
+* Main Developer : harry1453 (BAT)
+
+* Download link : <https://github.com/burst-apps-team/burstkit4j/releases>
+
+* Platform : Cross Platform
+
 Pool Software 
 --------------
 
@@ -331,3 +341,13 @@ PaperBurst is a paper wallet generator for Burstcoin.
 * Download link : <https://github.com/umbrellacorp03/PaperBurst/releases/latest>
 
 * Platform : Windows
+
+### BlockTalk
+
+BlockTalk allows the user to write, debug, and deploy Burst smart contracts relying only on Java. You can use a simple text editor or your preferred IDE.
+
+* Main Developer : jjos
+
+* Download link : <https://github.com/jjos2372/blocktalk>
+
+* Platform : Cross Platform
