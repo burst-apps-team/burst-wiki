@@ -20,7 +20,7 @@ Burst Forums:
    
 * https://www.reddit.com/r/burstcoinmining/comments/903gq6/initial_burstcoin_requests/
 
-Burst Faucets:  |List of Faucets](list-of-burst-related-websites.md)
+Burst Faucets:  [List of Faucets](list-of-burst-related-websites.md)
  
 ### How can I resolve difficulty transferring coins to and from Bittrex?
 
