@@ -14,11 +14,11 @@ Request the amount necessary to get started in one of the community forums or po
 
 Burst Forums:
 
-*https://discordapp.com/invite/RPhpjVv
+* https://discordapp.com/invite/RPhpjVv
 
-*https://forums.getburst.net/c/new-members-introductions/getting-started-initial-burstcoin-requests
+* https://forums.getburst.net/c/new-members-introductions/getting-started-initial-burstcoin-requests
    
-*https://www.reddit.com/r/burstcoinmining/comments/903gq6/initial_burstcoin_requests/
+* https://www.reddit.com/r/burstcoinmining/comments/903gq6/initial_burstcoin_requests/
 
 Burst Faucets:  [[List of Burst related websites|List of Faucets]]
  
