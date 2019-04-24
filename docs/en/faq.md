@@ -1,331 +1,320 @@
-Introduction
-------------
+What is Burst?
+-----------------
 
-### **What is Burst?**
+Burst is a cryptocurrency and a blockchain platform with multiple core-level features that has been running publicly since August 2014. It is a fork of Nxt and uses the Proof of Capacity (PoC) consensus algorithm exclusively.  Burst can be mined using regular computer hardware and spare hard drive space. The more hard drive space assigned to Burst mining, the higher the chances of earning block rewards.  Unlike the Proof-of-Work (PoW) consensus algorithm, which needlessly wastes energy, Proof-of-Capacity uses minimal computational resources beyond that required for initial setup.  A full node can run on something as light as a Raspberry Pi. There will be a total of 2,158,812,800 Burst coins in existence when mining ends around the year 2033.
 
-Burst is a blockchain platform with multiple core-level features that has been running publicly since August 2014. It is a fork of Nxt and it's 100% Proof of Capacity (PoC) , meaning that you can mine it with your disk space. The more disk space you assign to mining, the higher chances you have of processing the next block. Because contrary to Proof-of-Work (PoW) this hardly needs computational resources, a full node can run on something as light as a Raspberry Pi. There will be a total of 2,158,812,800 Burst coins mined around the year 2033.
+An informative and fast paced video introduction to Burst is located here:   https://www.youtube.com/watch?v=LJLhw37Lh_8
 
-Frequently Asked Questions
---------------------------
+General Questions
+-----------------
 
-**1) How can I obtain a coin to cover the transaction fee for setting a reward recipient (when mining) or activating an account on the blockchain with a public key?**
+### How can I obtain burst to cover my initial transaction fee?
 
-Request a single coin from the community in one of the forums or Burst faucets: When you are able, it is good form to return the coin that you are provided, donate it back to the faucet operator, or pay it forward to a new account holder.
+Request the amount necessary to get started in one of the community forums or pool operated faucets:  The current amount needed is  .00735 Burst.  With this amount, you can set the reward recipient on your account (if you will be Burst mining), or set the name on your account (if you will not be Burst mining).  Either option will create an outbound transaction that will secure your new account by activating your public key on the blockchain.  When you are able, return the burst that you have received, or pay it forward by assisting a new member to get started as well.  Congratulations in advance and welcome to the Burst community.        
 
-Forums:
+Burst Forums:
 
-<https://discordapp.com/invite/RPhpjVv>
+* https://discordapp.com/invite/RPhpjVv
 
-<https://www.reddit.com/r/burstcoinmining/comments/903gq6/initial_burstcoin_requests/>
+* https://forums.getburst.net/c/new-members-introductions/getting-started-initial-burstcoin-requests
+   
+* https://www.reddit.com/r/burstcoinmining/comments/903gq6/initial_burstcoin_requests/
 
-<https://forums.getburst.net/c/new-members-introductions/getting-started-initial-burstcoin-requests>
+Burst Faucets:  [List of Faucets](list-of-burst-related-websites.md)
+ 
+### How can I resolve difficulty transferring coins to and from Bittrex?
 
-Faucet list:
+Bittrex will only transfer to accounts which are active on the blockchain with a public key.
 
-<https://faucet.burstpay.net/> (Due to daily limits, this faucet may be empty, if so you may try again the next day)
+Bittrex requires every deposit to include an un-encrypted message indicating which account is to be credited.  Burst encrypts messages by default.  If you did not deselect the encryption box, or did not include the required message, contact Bittrex support with all of the details and eventually they will credit your account.  It is important to follow instructions carefully and to fully understand what you are doing at all times as it is possible to loose coins due to inadvertent errors such as this.  
 
-**2) I purchased coins from Bittrex. How can I move them to my new wallet?**
+### Where can I buy, sell, or trade Burst for other coins, tokens, or fiat currencies?
 
-Bittrex requires an account to be active on the blockchain with a public key set before they will make outbound transfers. Either set a reward recipient if you will be mining, or set a name (alias) if you will not. Both require a minimal transaction fee. (See FAQ 1)
+A list of exchanges is maintained at https://www.burst-coin.org/exchanges.  Direct Fiat-to-Burst purchases are currently available on indacoin.com.  Please note:  Not all exchanges listed operate in every country.  For example, Indacoin does not operate in the United States.  One option for individuals in the United States is to purchase Bitcoin from Coinbase, transfer the Bitcoin to Bittrex, and convert the Bitcoin to Burst using a market order. 
 
-**3) I sent coins to Bittrex and they have not arrived in my Bittrex wallet. What should I do?**
+### What is the minimum transaction fee?
 
-Bittrex provides a message that must be included with each deposit so that they will know which account to credit. The process is a follows: To receive the message, log into your Bittrex account, click on your Burst wallet, click on the symbol for making a deposit, copy the message provided (a series of letters and numbers), Paste this message into the message box in your outgoing transaction, verify that the encryption check box is unchecked, copy and paste the payment address provided by Bittrex, verify that the address copied correctly, complete your other details, send the transaction. If you encrypted the message, or did not include it, this may be why your coins have been delayed. Contact Bittrex support with all of the details and eventually your coins will be posted to your account. It is important to follow instructions carefully and fully understand what you are doing at all times as it is possible to loose coins due to inadvertent errors such as this.
+Minimum transaction fees were recently reduced with the pre-Dymaxion hard fork. The fee structure is now dynamic with pricing tiers that include cheap, standard, and priority. This fee structure will allow transactions to be prioritized in times of heavy volume.  The minimum transaction fee is now .007535 burst.
 
-**4) Where can I buy, sell, or trade Burst for other coins, tokens, or fiat currencies?**
+Security Questions
+------------------
 
-A list of exchanges is maintained at <https://www.burst-coin.org/exchanges>. Direct Fiat-to-Burst purchases are currently available on indacoin.com. Please note: Not all exchanges listed operate in every country. For example, Indacoin does not operate in the United States. One option for individuals in the United States is to purchase Bitcoin from Coinbase, transfer the Bitcoin to Bittrex, and convert the Bitcoin to Burst using a market order.
+### Should I store my Burst in an offline wallet, online wallet, or on an exchange?
 
-**5) Should I store my Burst in an offline wallet, online wallet, or leave them on an exchange?**
+This is a personal choice that should be made with the security in mind as there are benefits to each depending on your circumstances. If you are not absolutely certain that your computer or other devices are safe from hackers, key stroke loggers, etc., it is safest to leave your coins on a reputable exchange with two factor authentication activated. Two factor authentication requires a secondary method to identify yourself.  For example, you may be required to enter a pin number that is text messaged to you when log in or before making a transfer.  This protects your coins if your exchange password is ever compromised.  Local wallets can be a safe option if your computer and passphrase is secure.  If you decide to use an online wallet, the reputation on the provider is very important.  You might maintain the majority of your holdings in a local wallet for cold storage, a few coins on an exchange for trading, and another amount in an online wallet for convenience.  There is no limit on the number of wallets you can maintain.
 
-This is a personal choice that should be made with the security in mind. There are benefits to each depending on your circumstances. If you cannot be absolutely certain that your computer or other device is safe from hackers, malicious malware, key stroke loggers, etc., it is safest to leave your coins on a reputable exchange with two factor authentication activated. Offline wallets can be a safe option if your computer and password is secure. Please note: Two factor authentication further protects your coins on an exchange by requiring a secondary means of identifying yourself. This is an extra layer of security that can protect your coins if your exchange password is compromised. Do not leave your coins unprotected on an exchange that does not offer it. Remember, exchange passwords can be stolen like any other. Without two factor authentication enabled, there is little difference between an exchange, online, or local wallet.
+### Are the system generated 12 word passphrases secure?
 
-**6) If I use SSD’s would I make more money?**
+These have been designed to be secure.  It has been estimated that a systematic attack testing all possible combinations of words from the selection set (dictionary) against an account (known as a brute force attack) would require 13,537,856,339,904,134,474,012,675,034 years to be successful.  While the system generated passphrase is secure, many users adjust the passphrase by adding an element of complexity (entropy) such as special characters, numbers, capitalization, or a few extra words in a foreign language.  These and other modifications to increase complexity are permitted and will not adversely affect the operation of your wallet.  They may even provide a degree of psychological comfort.
 
-No, it’s 95% capacity and 5% scan time that determine success. More plot area = better deadlines = better chance of forging a block, or better rates from a pool.
+For more information, see the following analysis:  https://burstforum.net/topic/4766/the-canary-burst-early-warning-system
 
-**7) What security measures can I take to keep my coins safe?**
+### What other security measures can I take to keep my coins safe?
 
-Before transferring coins to a new wallet, verify your pass phrase by signing in and out of your wallet until you are comfortable that your record of the pass phrase is accurate. Keep at least two copies of your pass phrase in separate locations. Do not disclose your pass phrase to anyone who cannot absolutely be trusted with it. Will your pass phrase still be available to you if your computer is stolen, after a natural disaster, or to your estate or other trusted individual if this should be necessary. Your pass phrase is your only access to your Burst assets. Depending on the value of your account, extraordinary measures should be employed to protect it. Your security plan might also include multiple wallets, one or more for cold storage, and one or more for other activities such as mining and/or daily transactions.
+Before transferring coins to a new wallet, verify your passphrase by signing in and out of your wallet until you are comfortable that your record of the passphrase is accurate. Keep at least two copies of your passphrase in separate locations. Do not disclose your passphrase to anyone who cannot absolutely be trusted with it. Will your passphrase still be available to you if your computer is stolen, after a natural disaster, or to your estate or other trusted individual if this should be necessary?  Your passphrase is your only access to your Burst assets. Depending on the value of your account, extraordinary measures should be employed to protect it. Your security plan might include multiple wallets, one or more for cold storage, one or more for convenience, and another for special activities such as mining or operating a full node.
 
-**8) Are the passphrases secured?**
+Community and Organization Questions
+------------------------------------
 
-I’ll leave the effort to a few people to show how secure a 12-word passphrase is:<https://burstforum.net/topic/4766/the-canary-burst-early-warning-system> Key point: brute forcing it will be around 13,537,856,339,904,134,474,012,675,034 years.
+### Why does the development team choose to remain anonymous?
 
-**9) My local wallet used to run, I synchronised it before and now it says ‘stopped’. when I start it, it stops after a few seconds, what should I do?**
+Each member of the development team operates with varying and self-selected degrees of anonymity while remaining accessible and approachable through public forums and other methods of communication. The development team is comprised of highly skilled individuals that have demonstrated leadership for the Burst community and have produced results that are readily observable from the advanced state and success of Burst today. The development team is not immutable in its constituency as its membership changes from time to time as development needs are identified and met. Some members will move on to other projects and interests. Each is invested in the success of Burst and works for the community without remuneration or other advantage, each seeking to maximize the value of burst, and as a direct result, the value of their individual portfolios acquired through market based arm’s length transactions. The degree to which an individual member of the development team chooses to remain anonymous is a personal choice considering their individual desire for privacy, limits to their engagement, and security concerns. The best way to reach the development team is to post a comment in one of the public forums.
 
-I suggest that you change the database type to portable MariaDB (on Qbundle, at the top, ‘Database’ select, ‘change database’) and then re-import the database from scratch (see 35)
+### Does Burst partner with 3rd parties and businesses? Who should I contact?
 
-**10) My new wallet will not start. What should I do?**
+Burst is a currency with a robust platform that is attractive to many businesses for a variety of use cases. In the sense that Burst is a currency, it cannot have partners. In the sense that Burst is a platform with a public blockchain, the Burst community, through its current leadership team, seeks to maximize Burst’s value to businesses and 3rd parties in the same way that it does for individual community members. From time to time, there will be joint development processes in place assisting businesses who join the burst community. In this context, the word “partnership” is useful and does not imply that burst will constrain itself to the interest of any third party. The development team will engage in mutually beneficial cooperation with 3rd parties when doing so is understood to maximize the value and utility of burst. The burst development team greatly values those who contribute to Burst by adopting its public platform to address their internal public blockchain needs.
 
-Click on settings, Java, verify that “portable java” has been selected.
+### How can I contribute to the success of Burst and the Burst community?
 
-**11) Is there a faster way to synchronizing the blockchain?**
+Run a local wallet as a public node to assist with network growth and synchronization. If you are a programmer, contact the development team on discord to offer project assistance in the area of your expertise. Raise awareness whenever you can without engaging in the practice known as ‘shilling’. Help translate burst materials into your local or 2nd language (Esperanto?). Learn to assist others who will be getting started and will have the same type of questions related to Burst that you do.
 
-It is recommended that you use Portable MariaDB rather than H2. If you have not done so already, you can make the change at any time. Regarding a faster download method, In the Qbundle wallet, you can select ‘Database’, ‘Import database’. Verify that the ‘CryptoGuru repository’ is selected, then ‘start import’. This will download a relatively fast and up-to-date copy of the blockchain. This process is referred to as ‘boot strapping’. When complete, more recent blocks will be update automatically using regular peer to peer synchronization.
+### How can I follow development progress and general news about the community?
 
-**12) I logged into my account and my balance appears to be incorrect. Why is this?**
+Subcribe to The Burstcoinist, a weekly summary newsletter related to these topics. For an informative history of Burst development, take the time to read the first issue and each subsequent issue in chronological order. As they say, “it’s a good read”. The Burstcoinist newsletter is located here: https://www.burstcoin.ist/
 
-Synchronization with the blockchain occurs each time a wallet is opened. Until synchronization is complete, older balances will be displayed. If, after verifying that synchronization has completed, the balance still appears to be incorrect, verify that you have entered the correct passphrase into the correct account. If you have copied and pasted your passphrase, verify that you have not inadvertently copied an extra space before or after the passphrase. At this point any difference between the displayed balance and the perceived correct balance should be reconcilable by reviewing your most recent transactions.
+### What are the official websites, forums, and other official Burst resources?
 
-**13) Are there channels for my language?**
+* Main website: https://www.burst-coin.org/
 
-Telegram:
+* Discord: https://discordapp.com/invite/RPhpjVv
 
-Spanish: <https://t.me/burstcoin_es>
+* Reddit: https://www.reddit.com/r/burstcoin and https://www.reddit.com/r/burstcoinmining/
 
-German: <https://t.me/Burstcoinde>
+* https://www.burstforum.net/
 
-Italian: <https://t.me/BurstCoinItalia>
+* Getburst forum: https://forums.getburst.net/
 
-Forum:
-
-Spanish: <https://burst-coin.es/index.php/forum/index>
-
-Discord:
-
-Spanish: <https://discordapp.com/invite/RaaGna9>
-
-Bulgarian: <https://discord.gg/r4uzTd>
-
-(there are others, please contact me to put up)
-
-**14) What is ‘solo’ and ‘pool’ (wasn’t his name Chewbacca?)**
-
-Solo is where you attempt to ‘forge’ (mine) a block by yourself; you get 100% of the block reward and fees. But you only receive funds if you forge, no burst for coming in second place.
-
-Pools allow a group of miners to ‘pool’ together their resources and when a miner wins, they give the pool the winnings (this is done by the reward assignment you completed earlier), it is then divided according to different percentages and methods and burst is sent out according to pool rules (minimum pay-out, time, etc.)
-
-**15) I have been mining for 2 days and my wallet doesn’t show any Burst WHY?**
-
-Mining solo: it is win-or-lose, nothing in between, and wining is luck and plot size. Pool mining: because it costs 1 burst to send burst, the pools have either a time requirement (every X days) or a minimum amount (100 burst +) so you need to research your pool. Some pools allow for you to set the limit (CryptoGuru and similar) to be met before sending
-
-**16) How do I see what I have pending?**
-
-On CryptoGuru, based pools, it’s the ‘Pending (burst)’ column, other pools, look for the numbers next to your burst ID. One is Paid and the other pending.
-
-**17) I’m part of a pool and I forged a block, but I didn’t receive the total value of the block, why?**
-
-A pool has 2 basic numbers that denote the pay-out method, in the format ‘XX-XX’ (i.e. 50-50) The first number is the % paid to the block forger (miner) and the second is the retained value, which is paid to historic ‘shares’ (or, past blocks that the pool didn’t win, but had a miner that was ‘close’ to winning with a good submitted deadline)
-
-Examples of pools:
-
-0-100 (good for &lt;40TB)
-
-20-80 (30-80TB)
-
-50-50 (60-200TB)
-
-80-20 (150-250)
-
-100-0 (solo mine, 150+ TB)
-
-Please note that there is an overlap as this is personal preference and just guidance; a higher historical share value means a smoother pay-out regime, which some people prefer. If fees are not factored in, or are the same on different pools, the pay-out value will be the same over a long enough period.
-
-**18) Is XXX model of hard drive good? Which one do you recommend?**
-
-CHEAP is best. If you have 2 new hard drives, both covered by warranty, get the one with the lowest cost per TB (expressed as $/TB , calculated by dividing the cost by the number of terabytes) because plot size is KING,
-
-**13) How many drives can I have on my machine?**
-
-For best performance, you can have up to 2 drives per thread (3 on a new fast AVX2 CPU). So that quad-core core-2-quad can have up to 8 drives, but a more modern i7 with 4 cores + hyper threading can squeeze 8 \* 3 or 24 drives. (Performance while scanning will suffer)
-
-**14) Can I game while I mine?**
-
-Some people have done so, but you cannot have the ‘maximum’ number of drives and play games generally.
-
-**15) Can I mine Burst and GPU mine other coins?**
-
-Yes, if you CPU Mine Burst.
-
-**16) I’m GPU plotting Burst and GPU mining another coin, my plots are being corrupted, why?**
-
-My advice is dedicating a GPU to either mining or plotting, don’t try to do both.
-
-**17) What is a ‘plot’?**
-
-A plot is a file that contains Hashes, these hashes are used to mine burst. A plot is tied to an account, but they can be created (with the same account ID) on other machines and connected back to your miner(s).
-
-**18) How much can I make on Burst?**
-
-<https://explore.burst.cryptoguru.org/tool/calculate>
-
-Gives you an average over time assuming a few things like: Average luck/100% uptime/no overlapping/fees on pool/good plot scan time (&lt;20 seconds) if you do not have all of these, you may not see that number.
-
-**19) How can I help Burst?**
-
-Run a wallet, which will act as a node (or if you’re a programmer, contact the Dev team Bring attention to burst (without ‘shilling’ or trying to get people to buy) And help translate into your local language
-
-Be a productive member of the community and contribute experience and knowledge if you can, or help others get into Burst.
-
-**20) Will I get coins on the fork(s) and where will they be?**
-
-There will be no new coin, and no new coins to be given/air dropped etc, the forks are upgrades to burst and there will not be a ‘classic’ or ‘new’ burst.
-
-**21) Will I need to move my Burst off of the exchange for the fork?**
-
-No, your transactions are on the block chain, which will be used on the fork, they will be visible after the move; nothing will need to be done on your side.
-
-**22) Where can I read about the progress of Burst and news in general on the community?**
-
-There is no finer place than https://www.burstcoin.ist/
-
-**23) What are the communities for Burst and the central website?**
-
-Main website: https://www.burst-coin.org/
-
-Reddit: https://www.reddit.com/r/burstcoin and https://www.reddit.com/r/burstcoinmining/
-
-[Burstforum.net](http://burstforum.net/): https://www.burstforum.net/
-
-Getburst forum: https://forums.getburst.net/
-
-Official Facebook channel: https://m.facebook.com/groups/398967360565392
-
-(these are the forums that are known to be supporting the current Dev Team)
+* Facebook channel: https://m.facebook.com/groups/398967360565392
 
 Other ways to talk to the community:
 
-Discord: https://discordapp.com/invite/RPhpjVv
+* Telegram (General): https://t.me/burstcoin
 
-Telegram (General): https://t.me/burstcoin
+* Telegram (Mining): https://t.me/BurstCoinMining
 
-Telegram (Mining): https://t.me/BurstCoinMining
+If you know of others, please direct message me on discord (decrescendo) for inclusion.
 
-**24) When will Burst partner up with a company?**
+### Are there resources available in languages other than English?
 
-Burst is a currency, the USD does not ‘partner up’ with a company, the DEV team will not partner up and give over to special interests.
+Yes, some resources have been developed and others are in progress.  Translation assistance is always needed to make Burst more accessible to communities throughout the world. 
 
-**25) Why is the DEV team anonymous?**
+Telegram:
 
-They prefer anonymity, as it allows them to work without constant scrutiny and questions unless they wish to engage, plus the aim is for Burst to become a major contender, and this brings issues with security. They will work and produce results, they owe you nothing and if you cannot see the vision they provide then please do not ‘invest’ for short term gain.
+* Spanish: https://t.me/burstcoin_es
 
-**26) When moon/Lambo/$100/make me rich?**
+* German: https://t.me/Burstcoinde
 
-My crystal ball is still broken, come back to the FAQ later for answer (seriously, this is a coin to hold, if you want to day-trade, good luck to you)
+* Italian: https://t.me/BurstCoinItalia
 
-**27) How can I better educate myself and learn about Dymaxion?**
+Forum:
 
-Read about the Dymaxion here: https://www.reddit.com/r/burstcoin/wiki/dymaxion
+* Spanish: https://burst-coin.es/index.php/forum/index
 
-**28) My reads are slow, why?**
+Discord:
 
-There are many reasons for this, if your computer has a decent spec it’s likely due to USB3 hub issues, or plugging into a USB2 hub, but other reasons can be multiple plots in the same folder, but it’s best to visit the mining subreddit. They can help more than an simple FAQ https://www.reddit.com/r/burstcoinmining/
+* Spanish: https://discordapp.com/invite/RaaGna9
 
-**29) I have a great idea for Burst (not proof of stake related)?**
+* Bulgarian: https://discord.gg/r4uzTd
 
-Awesome! Please discuss with the DEV team on discord https://discordapp.com/invite/RPhpjVv
+If you know of others, please direct message me on discord (decrescendo) for inclusion. Translation assistance is always needed in providing Burst resources in other languages.
 
-(Please be aware that this is a public forum, you need to find who to ask/tell)
+Roadmap Questions
+-----------------
 
-**30) I have a great idea for Burst (Proof of stake related)?**
+### Does Burst have a roadmap?
 
-No. if you want a POS, find a POS coin. On the tangle which is being implemented a POS/POW/POC coin can be created, but BURST will always be POC mined. You are welcome to implement a proof of stake coin on this!
+Yes, the roadmap is located here: https://www.burst-coin.org/roadmap .
 
-**31) Will the Dev team burn any coins?**
+### What is the Dymaxion?
 
-Burst is not an ICO, so any coins will need to be bought to be burnt. You are welcome to donate, but the DEV team have no intention of burning any coins, or increasing the coin cap.
+The Dymaxion white paper is located here: https://dymaxion.burst.cryptoguru.org/
 
-**32) When will there be an IOS wallet?**
+A less technical treatise on the subject is located here:  https://www.burstcoin.ist/2017/12/27/the-dymaxion-explained-in-laymans-terms/  
 
-IOS wallet is completed; we are waiting for it to go on the app store. Apple is the delaying factor.
+### I have a great idea for Burst, how should I proceed?
 
-**33) Why do overlapping plots matter?**
+Great ideas are always welcome! Please submit your idea to the development team on Burst’s discord channel located here: https://discordapp.com/invite/RPhpjVv .  Post in #technical-discussion, #marketing, #general or other section as applicable.  Please understand that the Burst community extends across every time zone so not all community members are available at all times. If your idea has merit, you will likely be contacted by a more senior member of the community or the development team for more information. Many ideas that may be new to you will have already been discussed by the community in the past. Some have been thoroughly evaluated and Burst has moved permanently in a different direction.  As an example, any variation on the theme of incorporating “proof-of-stake” has been determined to be opposed to Burst’s commitment to the "proof of capacity" consensus algorithm.
 
-Plots are like collections of lottery tickets (and if only one ticket could win). Having 2 copies is not useful, and it means that you have less coverage of ‘all’ the possible numbers. It’s not good, avoid.
+### Will the Development team burn any coins?
 
-**36) What will the block reward be next month/will the block rewards run out in 6 months?**
+No.  Burst was not introduced with an ICO (initial coin offering) so there are no remaining undistributed coins to be “burned” in that sense. Each coin in existence was mined individually starting with the genesis block reward. While it is possible to “burn” a coin by sending it to an account for which there is no access, there are no plans to reduce the number of coins in circulation by doing so. If any coins are “burned” by anyone, this could only be done by an individual “burning” personal coins that have been acquired for this purpose at market rate and in an arm’s length transaction.  The development team recently considered the number of coins in circulation and the lowest available denomination (referred to as a Planck) and determined that these amounts are ideal and will not constrain universal adoption if that is to be the future of Burst.
 
-Rewards will carry on into 2026, but transaction fees will be a bigger % by then, and so profitable mining will continue.
+Wallet and Software Questions
+-----------------------------
 
-**37) How can I get started with Burst (wallet/mining/everything) and I need it in a video**
+### When will there be an IOS wallet?
 
-<https://www.youtube.com/watch?v=LJLhw37Lh_8> Watch and be enlightened.
+An IOS wallet has been developed.  However, Apple has not yet approved it for distribution through the Apple store.
 
-**38) Can I mine on multiple machines with the same account?**
+### Which local, online, or mobile wallet should I use?
 
-Yes, if you want to pool mine this can be done (but be prepared for small issues like reported size being incorrect. Just be sure to keep question 33 in mind.)
+For Windows, Mac, Android, and Linux, the recommended wallets can be downloaded here:   
 
-**39) Why do some of my drives take forever to plot?**
+* https://www.burst-coin.org/download-wallet (Windows users can download Qbundle, a package that installs the BRS wallet and related software with just a few clicks)
 
-Most likely they are SMR drives, it’s best to plot onto another SSD and then move the finished plot/part of a plot across to the SMR drive as this is much quicker. SMR drives are fine on the read, just random writes that are terrible.
+### What should I do if QBundle will not start?
 
-So plot an SMR drive quickly, plot to a non SMR or better still SSD drive, in as big a chunk as possible (fewer files better) and move. a version of Xplotter, called Splotter, can do this easily.
+Click on settings, Java, verify that “portable java” has been selected.  Did this solve the problem?
 
-<https://github.com/NoParamedic/SPlotter>
+If you have just upgraded your wallet to a new version, close the wallet completely, reopen, and restart.  Did this solve the problem?
 
-**40) I have a great idea; why not get listed on more exchanges!!**
+If your wallet is using the H2 database, you can likely resolve this issue by changing the database type to portable MariaDB. Select ‘Database’, ‘change database’, 'portable MariaDB', and click 'Next'.  This will require a re-synchronization of the blockchain from the genesis block and may take a significant amount of time.  (See FAQ 10)
 
-Exchanges list coins because of 2 reasons:
+### What should I do if Qbundle starts but will not completely synchronize?
 
-1.  Clients email and REQUESTING Burst and provide details like: i. https://www.burst-coin.org/information-for-exchanges
-2.  The coin pays (often A LOT, seriously we’ve been asked for 50 BTC)
+This is a new answer and is not fully vetted.  If you are syncing the wallet for the first time, there may have been a drop in your connection.  Restart the wallet.  If the wallet appears to be syncing from and earlier time, wait for a few minutes and restart the wallet again.  If wallet does not appear to be back on track, click on "wallet", click on "Rolback chain (Popoff), select a number of blocks (use the recommended amount), and click "rollback".  Did this resolve the issue?
 
-I suggest you speak with your exchange and ask ‘when will they offer Burst?’
+### Why does my balance appear to be incorrect when I log into my account?
 
-**41) Do you have a roadmap?**
+Synchronization with the blockchain occurs each time a wallet is opened. Until synchronization is complete, older balances will be displayed. If, after synchronization has completed, the balance still appears to be incorrect, verify that you have entered the correct passphrase into the correct account. If you have copied and pasted your passphrase, verify that you have not inadvertently copied an extra space before or after the passphrase. At this point any difference between the displayed balance and the perceived correct balance should be reconcilable by reviewing recent transactions.
 
-<https://www.burst-coin.org/roadmap>
+### Is there a faster way to synchronize the blockchain?
 
-**42) Why is the price of Burst going up/down/sideways/looping through time?**
+It is recommended that you use portable MariaDB rather than H2.  If you have not done so already, you can make the change at any time, but it can time consuming.  Regarding a faster download method, in the Qbundle wallet, select ‘Database’, ‘Import database’. Verify that the ‘CryptoGuru repository’ is selected, and then ‘start import’. This will download a relatively fast and up-to-date copy of the blockchain in a process referred to as ‘boot strapping’. When complete, the most recent blocks will be updated automatically using regular peer to peer synchronization.  
 
-The price of burst is still quite dependent upon Bitcoin, meaning that if Bitcoin gains, the value of Burst gains, if Bitcoin drops then Burst also drops. If there is news for Burst then we will see something independent of Bitcoin moving. Variations can be because of people buying in bulk or selling in bulk. There are also ‘pump and dump’ schemes that we detest, that can cause spikes in price that have nothing to do with news or Bitcoin, just sad people taking advantage of others.
+### How can I set up a node?
 
-**43) Where is the best place to go with my mining questions?**
+All wallets operate as public nodes by default while open. It may be necessary to open port 8123 on your internet router in order for your wallet to function as such. Running a public node continuously (24/7) is one of the most important and easiest ways you can contribute to the burst community. You can verify that your public node is operating as follows:
 
-<https://www.reddit.com/r/burstcoinmining/>
+Click on the following link:
+https://explore.burst.cryptoguru.org/peer/XXX:8123
 
-or https://t.me/BurstCoinMining
+In your browser, replace the “X”s with your external IP address and then refresh the link.  (If you do not know your ip address, type "what is my ip address" into google).  The results will inform you of your public node status.  If your public node is not recognized after a period of time, it may be that your 8123 is closed. An easy way to check this is to visit http:ismyportopen.com.  Opening port 8123 may require access to your internet router's settings. As each router may be different, you can check for advice on one of the forums or contact your ISP (internet service provider) for assistance. A common username for many routers is “admin” with a password of “admin”.
 
-**44) What hardware do you advise me to buy, is this computer good?**
+Exchange Information and Exchange Rate Questions 
+------------------------------------------------
 
-See question 43 for specific questions on hardware, it depends on so many variables. The ‘best’ in my opinion is a 36 bay Supermicro storage server, usually they have dual 6-core CPU’s and space for 36 drives. No USB cables, plotting and mining monster, anything else, DYOR.
+### When will Burst be listed on a particular exchange?
 
-**45) Where do you buy your hard drives?**
+Exchanges will occasionally list a coin upon client request. Some exchanges require a listing fee. These fees are often exorbitant.  You can request that Burst be listed on your favorite exchange by contacting them and providing details such as the information found here:
 
-I have bought most from EBay in job lots, and some refurbished drives with short warranties. Everything else I have bought, from Amazon.
+https://www.burst-coin.org/information-for-exchanges
 
-**46) Can I mine on my Google drive/cloud based storage?**
+The fee currently being requested by Binance is too large. At some time in the future, the fee may be reduced, the perceived benefit may be increased, or Binance may decide to list Burst in order to remain competitive with the growing cadre of exchanges continually entering the market. Binance is a favorite exchange for many, and we look forward to an eventual listing when the conditions are more favorable.
 
-In short: no. If you want to try, and get to *maybe* 1 TB and then find that your local connection isn’t fast enough, or that shortly after, your account is blocked for various reasons. Please be my guest.
+### When will the value of Burst increase?
 
-**47) Can I mine on my NAS?**
+Burst development is focused on refining Burst’s fundamentally sound and unique technology rather than short term gains or the day to day exchange rate. It is anticipated that exchange rates will increase when the value of its underlying technology is more fully recognized. With this recognition will come greater adoption, and with greater adoption will come increasing exchange rates. Much attention is given to the environmental disaster that accompanies the PoW (proof of work) consensus algorithm that is the darling of Bitcoin and so many altcoins. Because Burst was the first (and currently only) cryptocurrency in existence that has adopted the environmentally friendly PoC (proof of capacity) consensus algorithm, greater awareness and appreciation of this distinction will almost certainly lead to increasing exchange rates over time.
 
-Some you can mine with the NAS (if it can run the miner, it can scan locally) but generally they’re not very fast. good for maybe 16 TB? Having a plot on a NAS and mining from another computer depends on the network speed between the NAS and scanning computer. I believe you can scan about 8 TB (maybe a bit more) and keep the scan times to within acceptable, but YMMV.
+Mining General Questions
+------------------------
 
-**48) How can I set up a node?**
+### How profitable is mining Burst?
 
-No need to set up a node, just set up a wallet (version 2.0.1) or Qbundle (2.0) and it will do the rest
+Many people mine Burst as a service to the community without regard to profitability, just as they might run a 24/7 public node. All of these activities contribute to the stability and continued decentralization of Burst. Burst mining is incredibly inexpensive however, and can also be profitable, especially considering the potential for upward price movement in the future. It is actually quite fun and provides a sense accomplishment when you get your mining operation working just so. 
 
-**52) I am mining in a pool, and it says that my effective capacity is lower than I actually have, why?**
+The following calculator gives you an average expected earnings over time: (assumes 100% up time, average luck, no overlapping plot files, a good scan time, etc.)
 
-1.  If you've not been mining for &gt;48 hours, or just added additional capacity, it will take time.
-2.  The value fluctuates (normally, +-5% but can be up to 10% at times)
-3.  Read on the ‘Quick info’ tab about adjusting your deadline to compensate for changes i. revisit once a month for best results
-4.  If you have overlapping plots it will also be lower so be aware of this (see question 33)
+*https://explore.burst.cryptoguru.org/tool/calculate
 
-**53) What pool should I join?**
+### What is difference between ‘solo’ and ‘pool’ mining?
 
-First of all, read question 15, after you have understood that it depends on the size (and how patient you are) select from the following list:
+With “solo” mining your software submits mining results (deadlines) in direct competition for the lowest deadline value against all other “solo” and “pool” miners. With this setup you receive the entire block reward. However, the rewards can be infrequent depending on the cumulative size of your plot files. With “pool” mining, you join forces with other miners and share block rewards earned by the pool. With “pool” mining you can expect smaller payouts per block but will receive these payouts more frequently. Each pool divides rewards differently so you will want to evaluate each pool's reward distribution method to find one that is right for your mining setup.
 
-**54) What miner to use?**
+A pool generally has 2 basic numbers that denote pay-out method in the format ‘XX-XX’.  The first number is the percent of the block reward that is paid to the miner submitting the winning deadline on behalf of the pool. The second is the percentage that is shared with other members of the pool.  It is a common misconception that 0 - 100 pools are only intended for miners with up to 100 terabyte capacity.  This is not the case, 0 - 100 signifies that all block rewards are shared by all of the miners.
 
-I use Blago’s miner, there are many out there but Blago’s works for me on CPU mining, it can be found in Qbundle.
+### Do I have to leave my wallet open to continue mining
 
-**55) What Wallet to use (I use windows)?**
+No, if you are using Blago's miner, included with QBundle, once you have started mining, the miner is independent of your wallet.  You can exit your wallet, or leave it running as desired.  Other mining software should operate in this same way.  If you are running a node however, the related wallet must remain open.
 
-Qbundle: https://github.com/PoC-Consortium/Qbundle/releases/
+### Why is my wallet not reflecting any earning from mining.
 
-**56) What Wallet to use (Superior not windows)?**
+If you are mining solo, you may not have successfully forged a block. If your plot size is relatively small, you will have better luck mining with a pool. If you are already mining with a pool, check the pools distribution requirements. Because mining payments are subject to transaction fees, most pools require you to accumulate a certain amount of Burst before they will make a payout.  Some pools make their payouts on a set schedule as well so your reward may simply not be payable yet.  If you have only been mining for a short time, but long enough to have received a payment, it may be that you have entered an incorrect value in your reward recipient setting.  
 
-<https://package.cryptoguru.org/> for Debian and Ubuntu, for Mac use the [Homebrew install scripts](https://github.com/burst-apps-team/homebrew-burstcoind)
+### How do I see what I have pending?
 
-**57) Will I need to 'replot' after POC2 (second fork) happens?**
+For CryptoGuru based pools, there is a ‘Pending (burst)’ column. For other pools you will have to become familiar with their user interfaces.  For most, you can look for you burst ID and locate the information that you need presented in a grid format.  Review your pool's documentation or contact their support if necessary.
 
-No, there will be a tool which will optimise, but it is not CPU intensive (it basically re-shuffles your plot) and is just IO intensive. You do not need to replot.
+### When will block rewards end and the last coin be mined?
 
-TurboPlotter and https://github.com/PoC-Consortium/Utilities/tree/master/poc1to2.pl are tools that will/can be used to actuate optimization, but PLEASE wait with optimization until after the hard fork.
+Block rewards (although diminishing over time) will continue into 2026 when it is anticipated that the last coin will be mined. Transaction fees will continually increase during this time due to the expanding number of transactions that will be processed on the burst network. Mining profitability will slowly transition from being primarily based on block rewards to primarily based on transaction fees over this same period.
 
-**58) Will the transaction fee always be 1 burst?**
+### Can I game while mining Burst?
 
-No, dynamic fees with a minimum of `0.00735 BURST` have been available since the Pre-Dymaxion Hard Fork (Block 500,000)
+Some people have done so, but depending on the number of drives that you have in operation and how resource intensive your gaming is, you may experience degradation of performance at some point. With this level of resources at your disposal, you will likely have to experiment to see what works.
+
+### Can I CPU mine Burst while GPU mining other coins?
+
+Yes.
+
+### What is a ‘plot’?
+
+A plot is a file that contains the pre-computed hashes that are used to mine Burst. A plot is tied to an account, but they can be created (with the same account ID) on other machines and transferred back to your mining computer.  It is a common strategy to plot hard drives using computers with faster CPUs or GPUs and then mine the disks using computers with slower CPUs.
+
+### Why do overlapping plots matter?
+
+Having overlapping plots means that a portion of your drive has duplicate plot files. Plot your drives carefully to avoid this overlap. If you find that you have overlapping plot files and can identify them, it is best to re-plot these sections to assure best possible utilization of your available hard drive space. Overlap in your plot files will not cause a malfunction, but it will waste space that would otherwise be productive.  
+
+### Why is my effective capacity reported differently than my actual plot size?
+
+Effective capacity is calculated from the frequency and quality of your submitted deadlines.  If you have only been mining for a few hours, it will take some additional time for your true capacity to be realized.
+
+Your effective capacity on pool will fluctuate (normally plus or minus 5% but sometimes up to 10%)
+
+Setting a maximum reported deadline on some pools will lead to a better calculation of your effective capacity. Revisit this setting periodically for best results.
+
+If you have overlapping plots, your effective capacity will be lower than expected.
+
+### Why are my plots being corrupted when GPU mining Burst and other coins?
+
+It is recommended that you dedicate your GPU to either the task of plotting or to the task of mining rather than trying to do both at the same time. Plotting is by design a temporary activity.  You should probably suspend mining until the task of plotting is complete.
+
+### Why are my read times so slow?
+
+There are many reasons for this, if your computer is relatively modern, it may have both USB2 and USB3 hubs. The USB3 hub will provide better performance. For more advance mining information, such as building mining rigs, visit the mining subreddit. You will likely find more detailed information than can be provided in a simple FAQ.  The mining subreddit is located here: 
+
+https://www.reddit.com/r/burstcoinmining/
+
+### Where can I find additional mining information?
+
+Besides this FAQ, additional resources can be found at the following locations:
+
+* [Introduction to Burst Mining](mining.md)
+
+* https://www.reddit.com/r/burstcoinmining/ 
+
+* https://t.me/BurstCoinMining
+
+Mining Hardware Questions
+-------------------------
+
+### What hardware is recommended?
+
+It depends on so many variables. Burst can be mined on consumer grade computers, even those that are several years old. It is likely than any mining configuration undertaken today will eventually be profitable as the value of Burst rises with further development, marketing, and wide scale adoption.  If you want to build a Burst mining rig with capabilities beyond a basic system supporting the network and earning a few coins, you can get the latest recommendations from one of the community forums such as the Burst mining subreddit located here:
+
+https://www.reddit.com/r/burstcoinmining/ 
+
+### If I use SSDs (solid state drives) would I earn more?
+
+No. Because mining success is based approximately on 95% plot file capacity and only 5% related to the time it takes to read the plot files, and because SSDs are currently so much more expensive than regular drives, it is far more profitable to invest in regular drives with a lower cost per terabyte. A popular starting point is an external 8 Terabyte drive from Western Digital or Seagate. The difference in price between these drives and a more expensive SSD would be better invested in buying Burst directly from one of the exchanges.
+
+### Is any particular model of hard drive better for mining?
+
+When given a choice between hard drives of the same capacity, the cheapest is usually best.  Divide the cost by the number of terabytes to establish the cost per terabyte and go with the lower cost per terabyte option, assuming they are both covered by comparable warranties. 8 terabyte drives are currently the best value among the readily available consumer hard drives, but price differences do exist between different manufactures. Remember, you can start by using a portion of your existing computer’s hard drive and add an additional external drive later. 
+
+### Why do some drives take longer to plot?
+
+SMR drives take a particularly long time to plot. If using an SMR drive, start by plotting onto an SSD and then move the plots to the SMR. This will make the process much faster. Plotting software with the capability to do this automatically has been developed and can be found [in our list of plotting software](burst-software.md).
+
+### What is a good source for hard drives?
+
+Ebay is good source for previously owned drives, drives in job lots, and refurbished drives with short or no warranties. Amazon, Best Buy, Frys Electronics, and Micro Center are popular options for new drives depending on your geographic location.  Any retail establishment that stocks hard drives is a good option if the price in competitive.
+
+### Can I mine on NAS (network attached storage)?
+
+Technically yes, however, mileage may vary. Mining with NAS is generally slower as it is dependent on network speed between the NAS and the scanning computer. With a plot size over 8 – 16 terabytes, the network speed might become an issue.
+
+### Can I mine on Google drive or other cloud based storage?
+
+Maybe yes, but probably no. It may depends on your service level agreement. You may find yourself blocked for various reasons. This space changes from time to time so do research and report back if you find success.  Some cloud based services have terms and conditions that specifically disallow cryptocurrency mining.   
+
+### Can I mine on multiple machines with the same account?
+
+Yes, but be prepared for small issues such as your effective plot size being reported incorrectly. Be sure that you do not have overlapping plot files.
+
+Mining Software Questions
+-------------------------
+
+### What mining software should I use?
+
+The Qbundle wallet includes Blago’s miner which is commonly used for CPU mining. Other mining software has been developed, such as Creepsky and Scavenger, and is being used successfully. Check out the full list of [mining software](burst-software.md). Try them all out, and see which one gives you the best scan rate as they are all different, and perform differently on different hardware configurations.
