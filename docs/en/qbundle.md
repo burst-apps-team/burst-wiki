@@ -6,7 +6,7 @@ The easiest choice for beginners using Windows is to download Qbundle. QBundle i
 Download the QBundle installation files and return here to complete the installation. Sets of instructions are grouped logically, with reference images of installation screens immediately following each section. Images may vary from the actual installation screens depending on your version of Windows and internet browser.
 
 ## Download the installation Files
-The installation files are located on BAT's github: https://www.burst-coin.org/download-wallet. Open this link in a new browser tab if possible. After following this link:
+The installation files are located on BAT's github: [https://www.burst-coin.org/download-wallet](https://www.burst-coin.org/download-wallet). Open this link in a new browser tab if possible. After following this link:
 
 * Click on "Download wallet".
 * Select your operating system: (Please note: If your operating system is not Windows, QBundle will not be available and you will need to choose an option specific to your operating system.)
