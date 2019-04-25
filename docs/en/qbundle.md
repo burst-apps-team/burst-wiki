@@ -1,12 +1,15 @@
-# Description
+Introduction
+-----------
 
 The easiest choice for beginners using Windows is to download Qbundle. QBundle is a convenient launcher which installs the BRS local wallet, plotting software, and mining software with a few clicks.
 
-# Installation guide
+Installation guide
+------------------
+
 Download the QBundle installation files and return here to complete the installation. Sets of instructions are grouped logically, with reference images of installation screens immediately following each section. Images may vary from the actual installation screens depending on your version of Windows and internet browser.
 
-## Download the installation Files
-The installation files are located on BAT's github: https://www.burst-coin.org/download-wallet. Open this link in a new browser tab if possible. After following this link:
+### Download the installation Files
+The installation files are located on BAT's github: [https://www.burst-coin.org/download-wallet](https://www.burst-coin.org/download-wallet). Open this link in a new browser tab if possible. After following this link:
 
 * Click on "Download wallet".
 * Select your operating system: (Please note: If your operating system is not Windows, QBundle will not be available and you will need to choose an option specific to your operating system.)
@@ -19,7 +22,7 @@ The installation files are located on BAT's github: https://www.burst-coin.org/d
 <img src="../../media/Latest_release_2.5.0.png" />
 <img src="../../media/QBundle_MSI.png" />
 
-## Install the software
+### Install the software
 
 * Locate the saved file. A common location is C: Users/"user name"/Downloads. You may move this file to another location if you wish.
 * Extract the included files using Windows "Extract all" button if available. If you do not have this functionality, you may need a utility to "unzip" the folder.
@@ -66,7 +69,7 @@ Setup will complete and a new wallet will be displayed showing a status of "stop
 
 <img src="../../media/Download_Manager_2.png" />
 
-## Bootstrap the blockchain (populate the database)
+### Bootstrap the blockchain (populate the database)
 
 New wallets immediately begin to synchronize with the Burst blockchain. This can be a time consuming process depending on your internet bandwidth and the processing speed of your computer. For a faster alternative, download a "bootstrap" copy of the blockchain which contains the genesis block and all confirmed blocks through the time that the bootstrap copy was created. Only the more recent blocks will then synchronize through the regular peer to peer synchronization process.
 
@@ -84,7 +87,7 @@ Wait for synchronization to complete before proceeding. Block time will appear i
 
 <img src="../../media/QBundle_and_Burst_Wallet.png" />
 
-## Create a new account and passphrase
+### Create a new account and passphrase
 
 Please note: Before proceeding with the next step, it is important that you fully understand the security features of the Burst passphrase. If you have not done so already, please review "Securing your Burst". A link is located on the main page of the Burst Wiki.
 
@@ -101,7 +104,8 @@ A 12 word passphrase will be generated automatically. You can extend the passphr
 
 Please note: If you enter your passphrase incorrectly, you will generate a new account. If this occurs, simply close the wallet and try again.
 
-#Install additional QBundle applications
+Install additional QBundle applications
+---------------------------------------
 
 Blago's miner (modified by Quibus and JohnnyFFM) is the default mining software packaged with QBundle. It can be used for pool mining or for solo mining.
 
@@ -136,7 +140,7 @@ The miner logs are stored in QBundle/BlagoMiner/Logs. These are useful for debug
 
 <img src="../../media/Blago_miner.png" />
 
-## Xplotter
+### Xplotter
 
 Plotting is the process of pre-computing hash functions and saving them onto storage units (HDDs). XPlotter is included with QBundle and no additional installation is required. There are however options that need to be configured.
 
@@ -168,7 +172,7 @@ The "My plotfiles" section allows users to import and remove plot files. Removin
 
 <img src="../../media/My_plotfiles.png" />
 
-## Vanity Address Generator
+### Vanity Address Generator
 
 The vanity address generator is a tool for creating vanity or branded Burst account addresses. All address must have "BURST" for the first five leading characters. The capital letter "i" (I), the capital letter "o" (O), zero (0), and the number one (1) are not permitted. To generate a vanity address, enter characters into the form provided. Set the resources that should be used (number of CPU threads) and desired length of the passphrase as shown in the image below:
 
@@ -176,7 +180,7 @@ The vanity address generator is a tool for creating vanity or branded Burst acco
 
 The algorithm which seeks for the account with the desired string is a brute force algorithm, which checks every Burst account and passphrase combination sequentially. The time it takes to find a particular string increases significantly with every additional character. A string of 5 characters at the end takes approximately 4 minutes (more or less depending on computer resources). Each additional character increases the time required exponentially. A string of 8 would take approximately one hour. Longer strings could take weeks.
 
-## Paperburst
+### Paperburst
 
 The Paperburst tool can be used to generate a new wallet or to use an existing wallet. In order to use the tool, provide information as shown below:
 
@@ -188,13 +192,13 @@ Paper wallets can be used to transfer funds using public keys, to store funds (t
 
 <img src="../../media/a_Paper_wallet_generator.png" />
 
-## Dynamic Plotting
+### Dynamic Plotting
 
 Dynamic plotting creates and deletes plot files automatically while allowing for normal usage of a hard drive. It will check every minute for space pressure. A limited but dynamic amount of space on the hard drive is reserved for normal usage. A user can set specify the amount to be reserved. If users often move or create files that are large, they should set a greater amount of space to be reserved.
 
 <img src="../../media/Dynamic_plotting.png" />
 
-## Plot Converter
+### Plot Converter
 
 Johnny's POC1 -> POC2 converter is a tool for converting POC1 plot files into POC2 plot files. New users will not need to use this tool. The POC1 to POC2 conversion completed at block height 502000. POC1 plot are no longer supported for mining. Users who have existing POC1 plots can use them for mining if they use a POC2 compliant miner which can perform on-the-fly conversion. Read speeds will be 50% slower using POC1. Plots that are being converted must be temporarily excluded from mining. Usage of the plot converter is straightforward: First, select plot files for conversion and then click on "Start conversion". Note: The application will not allow plot files of other types to be added to the conversion queue.
 
@@ -202,7 +206,7 @@ Johnny's POC1 -> POC2 converter is a tool for converting POC1 plot files into PO
 
 Users can perform inline conversion, which does not require additional free space, or can save the converted plot file to a new location. To save to a new location, use the "Output Folder" setting. Once the "Start conversion" has been activated, stopping the conversion process may lead to damaged plots which cannot be repaired. Many miners have chosen to re plot their drives for POC2 rather than use the conversion process.
 
-## Help
+### Help
 
 The "Help" tab contains links to official Burst resources.
 
@@ -210,9 +214,10 @@ If you are unable to open your wallet, these same resources can be found by navi
 
 <img src="../../media/help.png" />
 
-# Frequently Asked Questions (FAQs) relating to QBundle
+Frequently Asked Questions (FAQs) relating to QBundle
+-----------------------------------------------------
 
-## How do I set my reward recipient
+### How do I set my reward recipient
 
 Setting the reward recipient is a mandatory action for all miners. For pool mining, provide the pool's Burst numerical account ID. For solo mining, use your own account's numerical ID.
 
@@ -220,27 +225,27 @@ Setting the reward recipient is a mandatory action for all miners. For pool mini
 
 In the pool you wish to join is not listed within QBundle, insert the pool's Burst numerical account ID manually. The reward recipient transaction requires 4 blocks (confirmations) before it will be effective.
 
-## What is Wallet Mode?
+### What is Wallet Mode?
 
 Wallet Mode loads the complete interface and allows users to issue transactions and see blocks as they are forged on the network. Launcher mode opens a minimal interface and can only be accessed through an internet browser.
 
 <img src="../../media/Launcher_mode.png" />
 
-## How is QBundle updated?
+### How is QBundle updated?
 
 The application manager compares all of the QBundle applications that are available for installation, as well as all of those that are installed on the system. Users are notified through the application manager when updates for these applications are available. Not all of the applications available through QBundle are installed by default. To add an application, checking the box next to the application and click on "Install/Update". Please Note: Restarting the wallet may be required for some applications to install or to reflect a status of installed. For important updates, a "New update available" message will appear at the top of the wallet. When this message is clicked, the application manager will be displayed and the update can be installed by clinking on "Update/Install". The wallet will be stopped during all software updates. The following figures show an application manager before and after and update has taken place.
 
 <img src="../../media/Application_manager.png" />
 <img src="../../media/Updated_QBundle_no_updates.png" />
 
-## How can I view logs for Burst Reference Software (BRS)?
+### How can I view logs for Burst Reference Software (BRS)?
 
 Click on "Edit" and then click on "View Console". A pop up window with the Wallet log and the MariaDB log (if applicable) will appear. This is useful for troubleshooting and the output is often needed when requesting technical support from the community.
 
 <img src="../../media/View_console.png" />
 <img src="../../media/Console.png" />
 
-## How do I change QBundle settings?
+### How do I change QBundle settings?
 
 Users are generally advised not to change any of the default settings. If synchronization is causing your computer to operate more slowly, changes might be appropriate. In this case decreasing the number of cores may help. Otherwise most setting are used only for troubleshooting.
 
@@ -254,13 +259,13 @@ For troubleshooting, the "Debug mode" option can be useful.
 
 <img src="../../media/General_Settings.png" />
 
-## How can I resolve connection problems?
+### How can I resolve connection problems?
 
 If the "Configure Windows firewall" is clicked, user will be asked to confirm that they wish to change Windows firewall to allow program access locally and over WAN.
 
 <img src="../../media/Windows_firewall.png" />
 
-## Where is the information about my account stored?
+### Where is the information about my account stored?
 
 The account manager can be used to manage multiple accounts. A short PIN number can be used for each.
 

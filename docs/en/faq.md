@@ -3,7 +3,9 @@ What is Burst?
 
 Burst is a cryptocurrency and a blockchain platform with multiple core-level features that has been running publicly since August 2014. It is a fork of Nxt and uses the Proof of Capacity (PoC) consensus algorithm exclusively.  Burst can be mined using regular computer hardware and spare hard drive space. The more hard drive space assigned to Burst mining, the higher the chances of earning block rewards.  Unlike the Proof-of-Work (PoW) consensus algorithm, which needlessly wastes energy, Proof-of-Capacity uses minimal computational resources beyond that required for initial setup.  A full node can run on something as light as a Raspberry Pi. There will be a total of 2,158,812,800 Burst coins in existence when mining ends around the year 2033.
 
-An informative and fast paced video introduction to Burst is located here:   https://www.youtube.com/watch?v=LJLhw37Lh_8
+An informative and fast paced video introduction to Burst is located here: 
+
+[![How to Burst](http://img.youtube.com/vi/LJLhw37Lh_8/0.jpg)](http://www.youtube.com/watch?v=LJLhw37Lh_8)
 
 General Questions
 -----------------
@@ -14,11 +16,11 @@ Request the amount necessary to get started in one of the community forums or po
 
 Burst Forums:
 
-* https://discordapp.com/invite/RPhpjVv
+* [https://discordapp.com/invite/RPhpjVv](https://discordapp.com/invite/RPhpjVv)
 
-* https://forums.getburst.net/c/new-members-introductions/getting-started-initial-burstcoin-requests
+* [https://forums.getburst.net/c/new-members-introductions/getting-started-initial-burstcoin-requests](https://forums.getburst.net/c/new-members-introductions/getting-started-initial-burstcoin-requests)
    
-* https://www.reddit.com/r/burstcoinmining/comments/903gq6/initial_burstcoin_requests/
+* [https://www.reddit.com/r/burstcoinmining/comments/903gq6/initial_burstcoin_requests/](https://www.reddit.com/r/burstcoinmining/comments/903gq6/initial_burstcoin_requests/)
 
 Burst Faucets:  [List of Faucets](list-of-burst-related-websites.md)
  
@@ -30,7 +32,7 @@ Bittrex requires every deposit to include an un-encrypted message indicating whi
 
 ### Where can I buy, sell, or trade Burst for other coins, tokens, or fiat currencies?
 
-A list of exchanges is maintained at https://www.burst-coin.org/exchanges.  Direct Fiat-to-Burst purchases are currently available on indacoin.com.  Please note:  Not all exchanges listed operate in every country.  For example, Indacoin does not operate in the United States.  One option for individuals in the United States is to purchase Bitcoin from Coinbase, transfer the Bitcoin to Bittrex, and convert the Bitcoin to Burst using a market order. 
+A list of exchanges is maintained at [https://www.burst-coin.org/exchanges](https://www.burst-coin.org/exchanges).  Direct Fiat-to-Burst purchases are currently available on indacoin.com.  Please note:  Not all exchanges listed operate in every country.  For example, Indacoin does not operate in the United States.  One option for individuals in the United States is to purchase Bitcoin from Coinbase, transfer the Bitcoin to Bittrex, and convert the Bitcoin to Burst using a market order. 
 
 ### What is the minimum transaction fee?
 
@@ -47,7 +49,7 @@ This is a personal choice that should be made with the security in mind as there
 
 These have been designed to be secure.  It has been estimated that a systematic attack testing all possible combinations of words from the selection set (dictionary) against an account (known as a brute force attack) would require 13,537,856,339,904,134,474,012,675,034 years to be successful.  While the system generated passphrase is secure, many users adjust the passphrase by adding an element of complexity (entropy) such as special characters, numbers, capitalization, or a few extra words in a foreign language.  These and other modifications to increase complexity are permitted and will not adversely affect the operation of your wallet.  They may even provide a degree of psychological comfort.
 
-For more information, see the following analysis:  https://burstforum.net/topic/4766/the-canary-burst-early-warning-system
+For more information, see the following analysis: [https://burstforum.net/topic/4766/the-canary-burst-early-warning-system](https://burstforum.net/topic/4766/the-canary-burst-early-warning-system)
 
 ### What other security measures can I take to keep my coins safe?
 
@@ -70,27 +72,27 @@ Run a local wallet as a public node to assist with network growth and synchroniz
 
 ### How can I follow development progress and general news about the community?
 
-Subcribe to The Burstcoinist, a weekly summary newsletter related to these topics. For an informative history of Burst development, take the time to read the first issue and each subsequent issue in chronological order. As they say, “it’s a good read”. The Burstcoinist newsletter is located here: https://www.burstcoin.ist/
+Subcribe to The Burstcoinist, a weekly summary newsletter related to these topics. For an informative history of Burst development, take the time to read the first issue and each subsequent issue in chronological order. As they say, “it’s a good read”. The Burstcoinist newsletter is located here: [https://www.burstcoin.ist/](https://www.burstcoin.ist/)
 
 ### What are the official websites, forums, and other official Burst resources?
 
-* Main website: https://www.burst-coin.org/
+* Main website: [https://www.burst-coin.org/](https://www.burst-coin.org/)
 
-* Discord: https://discordapp.com/invite/RPhpjVv
+* Discord: [https://discordapp.com/invite/RPhpjVv](https://discordapp.com/invite/RPhpjVv)
 
-* Reddit: https://www.reddit.com/r/burstcoin and https://www.reddit.com/r/burstcoinmining/
+* Reddit: [https://www.reddit.com/r/burstcoin](https://www.reddit.com/r/burstcoin) and [https://www.reddit.com/r/burstcoinmining/](https://www.reddit.com/r/burstcoinmining/)
 
-* https://www.burstforum.net/
+* Burstforum forum: [https://www.burstforum.net/](https://www.burstforum.net/)
 
-* Getburst forum: https://forums.getburst.net/
+* Getburst forum: [https://forums.getburst.net/](https://forums.getburst.net/)
 
-* Facebook channel: https://m.facebook.com/groups/398967360565392
+* Facebook channel: [https://m.facebook.com/groups/398967360565392](https://m.facebook.com/groups/398967360565392)
 
 Other ways to talk to the community:
 
-* Telegram (General): https://t.me/burstcoin
+* Telegram (General): [https://t.me/burstcoin](https://t.me/burstcoin)
 
-* Telegram (Mining): https://t.me/BurstCoinMining
+* Telegram (Mining): [https://t.me/BurstCoinMining](https://t.me/BurstCoinMining)
 
 If you know of others, please direct message me on discord (decrescendo) for inclusion.
 
@@ -100,21 +102,21 @@ Yes, some resources have been developed and others are in progress.  Translation
 
 Telegram:
 
-* Spanish: https://t.me/burstcoin_es
+* Spanish: [https://t.me/burstcoin_es](https://t.me/burstcoin_es)
 
-* German: https://t.me/Burstcoinde
+* German: [https://t.me/Burstcoinde](https://t.me/Burstcoinde)
 
-* Italian: https://t.me/BurstCoinItalia
+* Italian: [https://t.me/BurstCoinItalia](https://t.me/BurstCoinItalia)
 
 Forum:
 
-* Spanish: https://burst-coin.es/index.php/forum/index
+* Spanish: [https://burst-coin.es/index.php/forum/index](https://burst-coin.es/index.php/forum/index)
 
 Discord:
 
-* Spanish: https://discordapp.com/invite/RaaGna9
+* Spanish: [https://discordapp.com/invite/RaaGna9](https://discordapp.com/invite/RaaGna9)
 
-* Bulgarian: https://discord.gg/r4uzTd
+* Bulgarian: [https://discord.gg/r4uzTd](https://discord.gg/r4uzTd)
 
 If you know of others, please direct message me on discord (decrescendo) for inclusion. Translation assistance is always needed in providing Burst resources in other languages.
 
@@ -123,17 +125,17 @@ Roadmap Questions
 
 ### Does Burst have a roadmap?
 
-Yes, the roadmap is located here: https://www.burst-coin.org/roadmap .
+Yes, the roadmap is located here: [https://www.burst-coin.org/roadmap](https://www.burst-coin.org/roadmap)
 
 ### What is the Dymaxion?
 
-The Dymaxion white paper is located here: https://dymaxion.burst.cryptoguru.org/
+The Dymaxion white paper is located here: [https://dymaxion.burst.cryptoguru.org/](https://dymaxion.burst.cryptoguru.org/)
 
-A less technical treatise on the subject is located here:  https://www.burstcoin.ist/2017/12/27/the-dymaxion-explained-in-laymans-terms/  
+A less technical treatise on the subject is located here:  [https://www.burstcoin.ist/2017/12/27/the-dymaxion-explained-in-laymans-terms/](https://www.burstcoin.ist/2017/12/27/the-dymaxion-explained-in-laymans-terms/)
 
 ### I have a great idea for Burst, how should I proceed?
 
-Great ideas are always welcome! Please submit your idea to the development team on Burst’s discord channel located here: https://discordapp.com/invite/RPhpjVv .  Post in #technical-discussion, #marketing, #general or other section as applicable.  Please understand that the Burst community extends across every time zone so not all community members are available at all times. If your idea has merit, you will likely be contacted by a more senior member of the community or the development team for more information. Many ideas that may be new to you will have already been discussed by the community in the past. Some have been thoroughly evaluated and Burst has moved permanently in a different direction.  As an example, any variation on the theme of incorporating “proof-of-stake” has been determined to be opposed to Burst’s commitment to the "proof of capacity" consensus algorithm.
+Great ideas are always welcome! Please submit your idea to the development team on Burst’s discord channel located here: [https://discordapp.com/invite/RPhpjVv](https://discordapp.com/invite/RPhpjVv) .  Post in #technical-discussion, #marketing, #general or other section as applicable.  Please understand that the Burst community extends across every time zone so not all community members are available at all times. If your idea has merit, you will likely be contacted by a more senior member of the community or the development team for more information. Many ideas that may be new to you will have already been discussed by the community in the past. Some have been thoroughly evaluated and Burst has moved permanently in a different direction.  As an example, any variation on the theme of incorporating “proof-of-stake” has been determined to be opposed to Burst’s commitment to the "proof of capacity" consensus algorithm.
 
 ### Will the Development team burn any coins?
 
@@ -150,7 +152,7 @@ An IOS wallet has been developed.  However, Apple has not yet approved it for di
 
 For Windows, Mac, Android, and Linux, the recommended wallets can be downloaded here:   
 
-* https://www.burst-coin.org/download-wallet (Windows users can download Qbundle, a package that installs the BRS wallet and related software with just a few clicks)
+* [https://www.burst-coin.org/download-wallet](https://www.burst-coin.org/download-wallet) . Windows users can download [Qbundle](Qbundle.md), a package that installs the BRS wallet and related software with just a few clicks)
 
 ### What should I do if QBundle will not start?
 
@@ -176,10 +178,10 @@ It is recommended that you use portable MariaDB rather than H2.  If you have not
 
 All wallets operate as public nodes by default while open. It may be necessary to open port 8123 on your internet router in order for your wallet to function as such. Running a public node continuously (24/7) is one of the most important and easiest ways you can contribute to the burst community. You can verify that your public node is operating as follows:
 
-Click on the following link:
-https://explore.burst.cryptoguru.org/peer/XXX:8123
+Copy the following link:
+[https://explore.burst.cryptoguru.org/peer/XXX:8123](https://explore.burst.cryptoguru.org/peer/XXX:8123)
 
-In your browser, replace the “X”s with your external IP address and then refresh the link.  (If you do not know your ip address, type "what is my ip address" into google).  The results will inform you of your public node status.  If your public node is not recognized after a period of time, it may be that your 8123 is closed. An easy way to check this is to visit http:ismyportopen.com.  Opening port 8123 may require access to your internet router's settings. As each router may be different, you can check for advice on one of the forums or contact your ISP (internet service provider) for assistance. A common username for many routers is “admin” with a password of “admin”.
+In your browser, replace the “X”s with your external IP address and then refresh the link.  (If you do not know your ip address, type "what is my ip address" into google).  The results will inform you of your public node status.  If your public node is not recognized after a period of time, it may be that your 8123 is closed. An easy way to check this is to visit [http:ismyportopen.com](http:ismyportopen.com) .  Opening port 8123 may require access to your internet router's settings. As each router may be different, you can check for advice on one of the forums or contact your ISP (internet service provider) for assistance. A common username for many routers is “admin” with a password of “admin”.
 
 Exchange Information and Exchange Rate Questions 
 ------------------------------------------------
@@ -188,7 +190,7 @@ Exchange Information and Exchange Rate Questions
 
 Exchanges will occasionally list a coin upon client request. Some exchanges require a listing fee. These fees are often exorbitant.  You can request that Burst be listed on your favorite exchange by contacting them and providing details such as the information found here:
 
-https://www.burst-coin.org/information-for-exchanges
+[https://www.burst-coin.org/information-for-exchanges](https://www.burst-coin.org/information-for-exchanges)
 
 The fee currently being requested by Binance is too large. At some time in the future, the fee may be reduced, the perceived benefit may be increased, or Binance may decide to list Burst in order to remain competitive with the growing cadre of exchanges continually entering the market. Binance is a favorite exchange for many, and we look forward to an eventual listing when the conditions are more favorable.
 
@@ -205,7 +207,7 @@ Many people mine Burst as a service to the community without regard to profitabi
 
 The following calculator gives you an average expected earnings over time: (assumes 100% up time, average luck, no overlapping plot files, a good scan time, etc.)
 
-*https://explore.burst.cryptoguru.org/tool/calculate
+[https://explore.burst.cryptoguru.org/tool/calculate](https://explore.burst.cryptoguru.org/tool/calculate)
 
 ### What is difference between ‘solo’ and ‘pool’ mining?
 
@@ -263,7 +265,7 @@ It is recommended that you dedicate your GPU to either the task of plotting or t
 
 There are many reasons for this, if your computer is relatively modern, it may have both USB2 and USB3 hubs. The USB3 hub will provide better performance. For more advance mining information, such as building mining rigs, visit the mining subreddit. You will likely find more detailed information than can be provided in a simple FAQ.  The mining subreddit is located here: 
 
-https://www.reddit.com/r/burstcoinmining/
+[https://www.reddit.com/r/burstcoinmining/](https://www.reddit.com/r/burstcoinmining/)
 
 ### Where can I find additional mining information?
 
@@ -271,9 +273,9 @@ Besides this FAQ, additional resources can be found at the following locations:
 
 * [Introduction to Burst Mining](mining.md)
 
-* https://www.reddit.com/r/burstcoinmining/ 
+* [https://www.reddit.com/r/burstcoinmining/](https://www.reddit.com/r/burstcoinmining/)
 
-* https://t.me/BurstCoinMining
+* [https://t.me/BurstCoinMining](https://t.me/BurstCoinMining)
 
 Mining Hardware Questions
 -------------------------
@@ -282,7 +284,7 @@ Mining Hardware Questions
 
 It depends on so many variables. Burst can be mined on consumer grade computers, even those that are several years old. It is likely than any mining configuration undertaken today will eventually be profitable as the value of Burst rises with further development, marketing, and wide scale adoption.  If you want to build a Burst mining rig with capabilities beyond a basic system supporting the network and earning a few coins, you can get the latest recommendations from one of the community forums such as the Burst mining subreddit located here:
 
-https://www.reddit.com/r/burstcoinmining/ 
+[https://www.reddit.com/r/burstcoinmining/](https://www.reddit.com/r/burstcoinmining/)
 
 ### If I use SSDs (solid state drives) would I earn more?
 

@@ -21,20 +21,20 @@ The alias can be any string of latin-character numbers and letters. The address 
 -   “2001:0db8:11a3:09d7:1f34:8a2e:07a0:765d” (an IPv6 address)
 -   “example.com/secretpage.php?parameter=value” (a URI)
 -   “johnsmith@example.com”
--   “<tel:+44-20-8123-4567>”
--   ...or even “<bitcoin:12dDMfhWq3scNWDsL4ty1Q5skyJj6M4scB>”.
+-   “tel:+44-20-8123-4567”
+-   “bitcoin:12dDMfhWq3scNWDsL4ty1Q5skyJj6M4scB”
 
 There are 2 main ways to use Burst aliases without having to rely on third-party plugins for your browser:
 
-1.  '''Server-side. ''' A web server analyses the Burst blockchain and replaces “burst-links” with corresponding addresses before sending HTML documents to users.
-2.  '''Client-side. ''' A web browser runs javascript code that connects to Burst bootstrapping nodes and replaces “burst-links” with their addresses. This requires to embedding a small script which is executed in an “onload” event. The script will do all the work via CORS, JSON, or other techniques.
+1.  **Server-side** A web server analyses the Burst blockchain and replaces “burst-links” with corresponding addresses before sending HTML documents to users.
+2.  **Client-side** A web browser runs javascript code that connects to Burst bootstrapping nodes and replaces “burst-links” with their addresses. This requires to embedding a small script which is executed in an “onload” event. The script will do all the work via CORS, JSON, or other techniques.
 
 Changes can only be executed by the account that originally created the alias.
 
 Alias Transfer/Sale
 -------------------
 
-Aliases can be [transferred](-transfer-alias.md) for a 1 BURST fee.
+Aliases can be transferred for a 1 BURST fee.
 
 Alias can be sold to either specific BURST Accounts or to the general public. To sell an alias, you can set the price to sell for every alias.
 
