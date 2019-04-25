@@ -1,14 +1,16 @@
-### Installation with QBundle
+Introduction
+------------
 
-All the details regarding the installation of BRS can be found here: [QBundle](qbundle.md). Indeed, QBundle is a launcher allowing you to install the Burst local wallet in a few clicks.
+This guide is for installing the latest BRS Core wallet from [https://www.burst-coin.org/download-wallet](https://www.burst-coin.org/download-wallet) on Windows PCs. If you would like a simpler wallet installation... please download [QBundle](Qbundle.md).
 
-### Installation of BRS only (with MariaDB)
+Installation of BRS only (with MariaDB)
+---------------------------------------
 
-Firstly, you will have to download the latest version of BRS here (zip) : <https://github.com/PoC-Consortium/burstcoin/releases>. In the conf directory, copy brs-default.properties into a new file named brs.properties.
+1. Download the latest version of BRS (zip) and extract it to where ever you like. In the conf directory, copy brs-default.properties into a new file named brs.properties.
 
-Secondly, be sure to have the latest version of Java installed on your computer : <https://java.com/de/download/>.
+2. Have the latest version of Java installed on your computer : <https://www.java.com/en/download/>.
 
-You will also have to download and install MariaDB : <https://downloads.mariadb.org/>.
+3. Download and install MariaDB : <https://downloads.mariadb.org/>.
 
 The MariaDb installation will ask to setup a password for the root user. Add this password to the `brs.properties` file created above in the following section:
 
@@ -16,7 +18,7 @@ The MariaDb installation will ask to setup a password for the root user. Add thi
 `DB.Username=`**`root`**
 `DB.Password=`**`YOUR_PASSWORD`**
 
-#### Setup MariaDB
+### Setup MariaDB
 
 The MariaDB installation will also install HeidiSQL, a gui tool to administer MariaDb. Use it to connect to the newly created MariaDb server and create a new DB called 'burstwallet'.
 
