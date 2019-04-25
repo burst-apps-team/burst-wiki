@@ -3,7 +3,9 @@ What is Burst?
 
 Burst is a cryptocurrency and a blockchain platform with multiple core-level features that has been running publicly since August 2014. It is a fork of Nxt and uses the Proof of Capacity (PoC) consensus algorithm exclusively.  Burst can be mined using regular computer hardware and spare hard drive space. The more hard drive space assigned to Burst mining, the higher the chances of earning block rewards.  Unlike the Proof-of-Work (PoW) consensus algorithm, which needlessly wastes energy, Proof-of-Capacity uses minimal computational resources beyond that required for initial setup.  A full node can run on something as light as a Raspberry Pi. There will be a total of 2,158,812,800 Burst coins in existence when mining ends around the year 2033.
 
-An informative and fast paced video introduction to Burst is located here: [https://www.youtube.com/watch?v=LJLhw37Lh_8](https://www.youtube.com/watch?v=LJLhw37Lh_8)
+An informative and fast paced video introduction to Burst is located here: 
+
+[![How to Burst](http://img.youtube.com/vi/LJLhw37Lh_8/0.jpg)](http://www.youtube.com/watch?v=LJLhw37Lh_8)
 
 General Questions
 -----------------
