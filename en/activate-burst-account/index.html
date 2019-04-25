@@ -108,7 +108,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
-      <a href="#description" tabindex="1" class="md-skip">
+      <a href="#introduction" tabindex="1" class="md-skip">
         Skip to content
       </a>
     
@@ -401,8 +401,8 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#description" title="Description" class="md-nav__link">
-    Description
+  <a href="#introduction" title="Introduction" class="md-nav__link">
+    Introduction
   </a>
   
 </li>
@@ -1260,18 +1260,6 @@
   </li>
 
         
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../windows-burst-wallet-installation/" title="Windows Burst Wallet Installation" class="md-nav__link">
-      Windows Burst Wallet Installation
-    </a>
-  </li>
-
-        
       </ul>
     </nav>
   </li>
@@ -1596,8 +1584,8 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#description" title="Description" class="md-nav__link">
-    Description
+  <a href="#introduction" title="Introduction" class="md-nav__link">
+    Introduction
   </a>
   
 </li>
@@ -1637,27 +1625,43 @@
                 
                   <h1>Activate Burst Account</h1>
                 
-                <h2 id="description">Description</h2>
+                <h2 id="introduction">Introduction</h2>
 <p>Activating a Burst account simply means “propagating” the publicKey of your account to the rest of the network. The common way to do so is simply by creating an outgoing transaction (<a href="../reward-assignment/">Reward Assignment</a>, setting an <a href="../alias-system/">Alias</a>, etc.).</p>
 <p>It is a necessary step in order to ensure that your account is secured. Indeed, two different passphrases can produce the same BURST addresses (see <a href="../rs-address-format/">RS Address Format</a>).</p>
 <h2 id="activate-your-wallet-using-the-burst-interface">Activate your wallet using the Burst Interface</h2>
-<p>When you log into your new account and if you already received 1 Burst, this message appear :</p>
-<p><img src="PublicKey_account.png" title="PublicKey_account.png" alt="PublicKey_account.png" width="1500" height="1500" /></p>
+<p>When you log into your new account and if you already received 1 Burst, this message appears:</p>
+<p><img src="../../media/PublicKey_account.png" title="PublicKey_account.png" alt="PublicKey_account.png" width="1500" height="1500" /></p>
 <p>You can click on “Set account info”, “send a message”, “buy an alias” or “send BURST” to create an outgoing tx and share your publicKey to the rest of the network.</p>
 <h2 id="activate-your-wallet-using-the-api">Activate your wallet using the API</h2>
 <p>Another less known way to activate your wallet is using the Burst API. You won't even need to make an outgoing tx from your new account using this method, because you can directly specify the recipient publicKey in the outgoing tx on the account you're using.</p>
-<p>Firstly, please visit <a href="https://127.0.0.1:8125/test?requestType=sendMoney">https://127.0.0.1:8125/test?requestType=sendMoney</a> or <a href="https://wallet.burst.cryptoguru.org:8125/test?requestType=sendMoney">https://wallet.burst.cryptoguru.org:8125/test?requestType=sendMoney</a></p>
+<p>Firstly, please visit <a href="https://127.0.0.1:8125/test?requestType=sendMoney">https://127.0.0.1:8125/test?requestType=sendMoney</a> or <a href="https://voiplanparty.com:8125/test?requestType=sendMoney">https://voiplanparty.com:8125/test?requestType=sendMoney</a> or any trusted online wallet of your choice.</p>
 <p>You need to fill the following fields :</p>
-<p><img src="SendMoney_with_publicKey.png" title="SendMoney_with_publicKey.png" alt="SendMoney_with_publicKey.png" width="534" height="534" /></p>
+<p><img src="../../media/SendMoney_with_publicKey.png" title="SendMoney_with_publicKey.png" alt="SendMoney_with_publicKey.png" width="534" height="534" /></p>
+<ul>
+<li>
 <p><strong>recipient</strong> : type the numeric id of the recipient (the account you want to activate)</p>
+</li>
+<li>
 <p><strong>amountNQT</strong> : type 100000000 (= 1 BURST)</p>
+</li>
+<li>
 <p><strong>secretPhrase</strong> : type your passphrase</p>
+</li>
+<li>
 <p><strong>feeNQT</strong> : type the fee your willing to pay (10000000 in this example, 0.1 BURST)</p>
+</li>
+<li>
 <p><strong>deadline</strong> : type 24 (hours)</p>
+</li>
+<li>
 <p><strong>broadcast</strong> : true (broadcast the transaction to the rest of the network)</p>
+</li>
+<li>
 <p><strong>recipientPublicKey</strong> : type the publicKey (lowercase) of the recipient (the account you want to activate). This information is available using the getAccountId API call. Simply type the passphrase of the account you want to activate.</p>
+</li>
+</ul>
 <p>If everything went well, you should have the following response :</p>
-<p><img src="SendMoney_with_publicKey_response.png" title="SendMoney_with_publicKey_response.png" alt="SendMoney_with_publicKey_response.png" width="523" height="523" /></p>
+<p><img src="../../media/SendMoney_with_publicKey_response.png" title="SendMoney_with_publicKey_response.png" alt="SendMoney_with_publicKey_response.png" width="523" height="523" /></p>
 <p>Congratulations ! Your new account is activated without making an outgoing tx from it !</p>
 <p>For more informations, take a look at <a href="../the-burst-api/">The Burst API</a> and <a href="../the-burst-api-examples/">The Burst API Examples</a>.</p>
                 

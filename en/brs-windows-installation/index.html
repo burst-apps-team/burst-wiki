@@ -108,7 +108,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
-      <a href="#installation-with-qbundle" tabindex="1" class="md-skip">
+      <a href="#introduction" tabindex="1" class="md-skip">
         Skip to content
       </a>
     
@@ -521,8 +521,8 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#installation-with-qbundle" title="Installation with QBundle" class="md-nav__link">
-    Installation with QBundle
+  <a href="#introduction" title="Introduction" class="md-nav__link">
+    Introduction
   </a>
   
 </li>
@@ -1293,18 +1293,6 @@
   </li>
 
         
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../windows-burst-wallet-installation/" title="Windows Burst Wallet Installation" class="md-nav__link">
-      Windows Burst Wallet Installation
-    </a>
-  </li>
-
-        
       </ul>
     </nav>
   </li>
@@ -1629,8 +1617,8 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#installation-with-qbundle" title="Installation with QBundle" class="md-nav__link">
-    Installation with QBundle
+  <a href="#introduction" title="Introduction" class="md-nav__link">
+    Introduction
   </a>
   
 </li>
@@ -1703,17 +1691,25 @@
                 
                   <h1>BRS Windows Installation</h1>
                 
-                <h3 id="installation-with-qbundle">Installation with QBundle</h3>
-<p>All the details regarding the installation of BRS can be found here: <a href="../qbundle/">QBundle</a>. Indeed, QBundle is a launcher allowing you to install the Burst local wallet in a few clicks.</p>
-<h3 id="installation-of-brs-only-with-mariadb">Installation of BRS only (with MariaDB)</h3>
-<p>Firstly, you will have to download the latest version of BRS here (zip) : <a href="https://github.com/PoC-Consortium/burstcoin/releases">https://github.com/PoC-Consortium/burstcoin/releases</a>. In the conf directory, copy brs-default.properties into a new file named brs.properties.</p>
-<p>Secondly, be sure to have the latest version of Java installed on your computer : <a href="https://java.com/de/download/">https://java.com/de/download/</a>.</p>
-<p>You will also have to download and install MariaDB : <a href="https://downloads.mariadb.org/">https://downloads.mariadb.org/</a>.</p>
+                <h2 id="introduction">Introduction</h2>
+<p>This guide is for installing the latest BRS Core wallet from <a href="https://www.burst-coin.org/download-wallet">https://www.burst-coin.org/download-wallet</a> on Windows PCs. If you would like a simpler wallet installation... please download <a href="Qbundle.md">QBundle</a>.</p>
+<h2 id="installation-of-brs-only-with-mariadb">Installation of BRS only (with MariaDB)</h2>
+<ol>
+<li>
+<p>Download the latest version of BRS (zip) and extract it to where ever you like. In the conf directory, copy brs-default.properties into a new file named brs.properties.</p>
+</li>
+<li>
+<p>Have the latest version of Java installed on your computer : <a href="https://www.java.com/en/download/">https://www.java.com/en/download/</a>.</p>
+</li>
+<li>
+<p>Download and install MariaDB : <a href="https://downloads.mariadb.org/">https://downloads.mariadb.org/</a>.</p>
+</li>
+</ol>
 <p>The MariaDb installation will ask to setup a password for the root user. Add this password to the <code>brs.properties</code> file created above in the following section:</p>
 <p><code>DB.Url=jdbc:mariadb://localhost:3306/</code><strong><code>burstdatabase</code></strong>
 <code>DB.Username=</code><strong><code>root</code></strong>
 <code>DB.Password=</code><strong><code>YOUR_PASSWORD</code></strong></p>
-<h4 id="setup-mariadb">Setup MariaDB</h4>
+<h3 id="setup-mariadb">Setup MariaDB</h3>
 <p>The MariaDB installation will also install HeidiSQL, a gui tool to administer MariaDb. Use it to connect to the newly created MariaDb server and create a new DB called 'burstwallet'.</p>
 <p>MariaDB knowledge base : <a href="https://mariadb.com/kb/en/library/documentation/">https://mariadb.com/kb/en/library/documentation/</a></p>
 <p>HeidiSQL documentation : <a href="https://www.heidisql.com/help.php">https://www.heidisql.com/help.php</a></p>
