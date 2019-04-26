@@ -25,6 +25,7 @@ You need to fill the following fields :
 
 <img src="../../media/SendMoney_with_publicKey.png" title="SendMoney_with_publicKey.png" alt="SendMoney_with_publicKey.png" />
 
+
 - **recipient** : type the numeric id of the recipient (the account you want to activate)
 
 - **amountNQT** : type 100000000 (= 1 BURST)
