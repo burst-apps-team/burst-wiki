@@ -1,12 +1,18 @@
-The Burst mining reward is reduced after every 10800 blocks which is approximately one month. The general formula for calculating the block reward based on the current block height is
+Introduction
+------------
+
+The Burst mining reward is reduced after every 10800 blocks which is approximately one month. The general formula for calculating the block reward based on the current block height is:
 
     month = blockHeight / 10800
     reward = 10000 * 95^month / 100^month
 
-![Plot of the BURST block reward over time](BlockRewardWithoutFees.png "Plot of the BURST block reward over time")
+Graph of Block Reward
+---------------------
+
+![Plot of the BURST block reward over time](../../media/BlockRewardWithoutFees.png "Plot of the BURST block reward over time")
 
 Table of Block Rewards
-======================
+----------------------
 
 | Month | Approx. Date | Block Height | Reward in BURST |
 |-------|--------------|--------------|-----------------|
