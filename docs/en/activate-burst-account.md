@@ -10,7 +10,7 @@ Activate your wallet using the Burst Interface
 
 When you log into your new account and if you already received 1 Burst, this message appears:
 
-<img src="../../media/PublicKey_account.png" title="PublicKey_account.png" alt="PublicKey_account.png" width="1500" height="1500" />
+<img src="../../media/PublicKey_account.png" title="PublicKey_account.png" alt="PublicKey_account.png" />
 
 You can click on “Set account info”, “send a message”, “buy an alias” or “send BURST” to create an outgoing tx and share your publicKey to the rest of the network.
 
@@ -23,7 +23,7 @@ Firstly, please visit <https://127.0.0.1:8125/test?requestType=sendMoney> or <ht
 
 You need to fill the following fields :
 
-<img src="../../media/SendMoney_with_publicKey.png" title="SendMoney_with_publicKey.png" alt="SendMoney_with_publicKey.png" width="534" height="534" />
+<img src="../../media/SendMoney_with_publicKey.png" title="SendMoney_with_publicKey.png" alt="SendMoney_with_publicKey.png" />
 
 - **recipient** : type the numeric id of the recipient (the account you want to activate)
 
@@ -41,7 +41,7 @@ You need to fill the following fields :
 
 If everything went well, you should have the following response :
 
-<img src="../../media/SendMoney_with_publicKey_response.png" title="SendMoney_with_publicKey_response.png" alt="SendMoney_with_publicKey_response.png" width="523" height="523" />
+<img src="../../media/SendMoney_with_publicKey_response.png" title="SendMoney_with_publicKey_response.png" alt="SendMoney_with_publicKey_response.png" />
 
 Congratulations ! Your new account is activated without making an outgoing tx from it !
 
