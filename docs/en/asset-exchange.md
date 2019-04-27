@@ -50,7 +50,7 @@ If you have [QBundle](qbundle.md) installed, then simply start the wallet and co
 
 If you're using BRS only, then simply access the Burst interface by visiting <http://127.0.0.1:8125/>
 
-<img src="Burst_Asset_Exchange.png" title="Burst Asset Exchange" alt="Burst Asset Exchange" width="250" height="250" />
+<img src="../../media/Burst_Asset_Exchange.png" title="Burst Asset Exchange" alt="Burst Asset Exchange" />
 
 **Asset Exchange**
 
@@ -83,11 +83,12 @@ By default, the Asset Exchange does not list any asset. You will have therefore 
 Here are a few lists you can consult to obtain the IDs of the assets. Keep in mind more will appear, so this list is not exhaustive.
 
 -   <http://burstcoin.cc/asset>
+-	<https://explorer.burstcoin.network/?action=assets>
 -   <https://explore.burst.cryptoguru.org/asset>
 
 **Note**: you can only add assets to the list if you are using the browser in normal mode. If you are in incognito (or equivalent) then any added list will disappear once you close the browser window.
 
-<img src="Asset_Exchange.png" title="Asset_Exchange.png" alt="Asset_Exchange.png" width="1654" height="1654" />
+<img src="../../media/Asset_Exchange.png" title="Asset_Exchange.png" alt="Asset_Exchange.png" />
 
 This is the main menu for the Asset Exchange, it is fundamentally organized in two areas.
 
@@ -113,7 +114,7 @@ In order to buy an asset, follow these simple steps:
 
 ### My Assets menu
 
-In this menu all your confirmed assets will be displayed, this includes the assets you issued and those you obtained through trading. <img src="My_Assets.png" title="fig:My_Assets.png" alt="My_Assets.png" width="1654" height="1654" /> Assets are also transferable, the procedure is very simple:
+In this menu all your confirmed assets will be displayed, this includes the assets you issued and those you obtained through trading. <img src="../../media/My_Assets.png" title="fig:My_Assets.png" alt="My_Assets.png" /> Assets are also transferable, the procedure is very simple:
 
 1.  Under ***My Assets***, find the asset you wish to transfer.
 2.  Click *transfer*.
@@ -122,7 +123,9 @@ In this menu all your confirmed assets will be displayed, this includes the asse
 5.  Add a message with the transfer if you want.
 6.  Complete the fields as follows.
 
-<img src="Transfer_Asset.png" title="fig:Transfer Asset Box" alt="Transfer Asset Box" width="392" height="392" /> **RECIPIENT**
+<img src="../../media/Transfer_Asset.png" title="fig:Transfer Asset Box" alt="Transfer Asset Box" />
+
+**RECIPIENT**
 
 The account you wish to transfer the assets to.
 
@@ -170,7 +173,7 @@ Enter your passphrase.
 
 Under this menu you can see all your orders that are currently open.
 
-<img src="Open_Orders.png" title="Open_Orders.png" alt="Open_Orders.png" width="1654" height="1654" />
+<img src="../../media/Open_Orders.png" title="Open_Orders.png" alt="Open_Orders.png" />
 
 **What to keep in mind:**
 
@@ -185,7 +188,9 @@ Under this menu, you can issue assets yourself. These will be publicly available
 
 The following window will pop up:
 
-**NOTE: as the warning mentions, when you issue your asset you will not be able to modify any of the fields, ever. Reason why it is imperative to make sure all the information entered is correct.** <img src="Issue_Asset.png" title="fig:Issue_Asset.png" alt="Issue_Asset.png" width="427" height="427" /> **ASSET NAME**
+**NOTE: as the warning mentions, when you issue your asset you will not be able to modify any of the fields, ever. Reason why it is imperative to make sure all the information entered is correct.** <img src="../../media/Issue_Asset.png" title="fig:Issue_Asset.png" alt="Issue_Asset.png" />
+
+**ASSET NAME**
 
 The name of the asset you intend to issue. This is also the name announced to other traders, allowing them to find this asset.
 
