@@ -108,7 +108,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
-      <a href="#table-of-block-rewards" tabindex="1" class="md-skip">
+      <a href="#introduction" tabindex="1" class="md-skip">
         Skip to content
       </a>
     
@@ -443,12 +443,51 @@
     
     <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
     
-      
     
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Block Reward
+      </label>
     
     <a href="./" title="Block Reward" class="md-nav__link md-nav__link--active">
       Block Reward
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" title="Introduction" class="md-nav__link">
+    Introduction
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#graph-of-block-reward" title="Graph of Block Reward" class="md-nav__link">
+    Graph of Block Reward
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#table-of-block-rewards" title="Table of Block Rewards" class="md-nav__link">
+    Table of Block Rewards
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
     
   </li>
 
@@ -1540,8 +1579,36 @@
 <nav class="md-nav md-nav--secondary">
   
   
-    
   
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" title="Introduction" class="md-nav__link">
+    Introduction
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#graph-of-block-reward" title="Graph of Block Reward" class="md-nav__link">
+    Graph of Block Reward
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#table-of-block-rewards" title="Table of Block Rewards" class="md-nav__link">
+    Table of Block Rewards
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
   
 </nav>
                   </div>
@@ -1556,12 +1623,16 @@
                   <a href="https://github.com/burst-apps-team/burst-wiki/edit/master/docs/en/block-reward.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
                 
                 
-                <p>The Burst mining reward is reduced after every 10800 blocks which is approximately one month. The general formula for calculating the block reward based on the current block height is</p>
+                  <h1>Block Reward</h1>
+                
+                <h2 id="introduction">Introduction</h2>
+<p>The Burst mining reward is reduced after every 10800 blocks which is approximately one month. The general formula for calculating the block reward based on the current block height is:</p>
 <pre><code>month = blockHeight / 10800
 reward = 10000 * 95^month / 100^month
 </code></pre>
-<p><img alt="Plot of the BURST block reward over time" src="BlockRewardWithoutFees.png" title="Plot of the BURST block reward over time" /></p>
-<h1 id="table-of-block-rewards">Table of Block Rewards</h1>
+<h2 id="graph-of-block-reward">Graph of Block Reward</h2>
+<p><img alt="Plot of the BURST block reward over time" src="../../media/BlockRewardWithoutFees.png" title="Plot of the BURST block reward over time" /></p>
+<h2 id="table-of-block-rewards">Table of Block Rewards</h2>
 <table>
 <thead>
 <tr>
