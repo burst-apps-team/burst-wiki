@@ -3,6 +3,10 @@ Installation of MacOS Burst Wallet
 
 This tutorial will walk you through the steps required to run a Burst wallet locally on MacOS.
 
+### <font color=red>**WARNING**
+- **This article is out of date, and the script below does not install the latest version of BRS**
+- **Wanted: Someone with macOS experience to install and update the steps below**</font>
+
 ### Quick Start
 
 Note: A simple bash script is available to complete all of the steps for you if you prefer using a script. Simply download a .zip of the code located **[here](https://github.com/beatsbears/macos_burst)** and follow the directions in the README file. If you prefer to execute each step without using a script, begin the process with the dependencies section.
@@ -154,16 +158,8 @@ Now open your network router settings by entering your default gateway IP in the
 The local wallet must remain running for your full node to be accessible to the network.
 
 References
-==========
+----------
 
-<https://www.reddit.com/r/burstcoin/comments/7lrdc1/guide_to_getting_the_poc_wallet_running_on_a_mac/>
+1. <https://medium.com/@aclaytonscott/burst-part-2-macos-wallet-setup-tutorial-2822bb029f54>
 
-<https://medium.com/@aclaytonscott/burst-part-2-macos-wallet-setup-tutorial-2822bb029f54>
-
-<references />
-
-[1] <https://medium.com/@aclaytonscott/burst-part-2-macos-wallet-setup-tutorial-2822bb029f54>
-
-[2]
-
-[3]
+2. <https://www.reddit.com/r/burstcoin/comments/7lrdc1/guide_to_getting_the_poc_wallet_running_on_a_mac/>
