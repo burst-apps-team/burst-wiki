@@ -6,7 +6,7 @@ This guide is for installing the latest BRS Core wallet from [https://www.burst-
 Installation of BRS only (with MariaDB)
 ---------------------------------------
 
-1. Download the latest version of BRS (zip) and extract it to where ever you like. In the conf directory, copy brs-default.properties into a new file named brs.properties.
+1. Download the latest version of [BRS (zip)](https://github.com/burst-apps-team/burstcoin/releases) and extract it to where ever you like. In the conf directory, copy brs-default.properties into a new file named brs.properties.
 
 2. Have the latest version of Java installed on your computer : <https://www.java.com/en/download/>.
 

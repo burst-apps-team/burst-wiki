@@ -1,21 +1,22 @@
-| Burst Reference Software - Docker Installation |
-|------------------------------------------------|
-| **Status**                                     |
-
-Docker Installation
+Introduction
 -------------------
 
 The Burst Reference Software can be run with Docker and Docker-Compose. Since Docker supports all major platforms, this can be an easy-to-setup alternative to a platform-dependent installation of the Burst Reference Software.
 
 ### Prerequisites
 
-[Docker CE](https://docs.docker.com/engine/installation/)
+- [Docker CE](https://docs.docker.com/engine/installation/)
 
-[Docker Compose](https://docs.docker.com/compose/install/)
+- [Docker Compose](https://docs.docker.com/compose/install/)
 
 ### Database
 
-Currently, Docker images for BRS version 2.2 with MariaDB or H2 Database are available at Docker Hub. You have to choose one of them, which is used to store the blockchain.
+Currently, Docker images for BRS version 2.3.0 with MariaDB (recommended) or H2 Database are available at [Docker Hub](https://hub.docker.com/r/burstappsteam/burstcoin). You have to choose one of them, which is used to store the blockchain.
+
+Configuration
+-------------
+
+<font color=red>**_Please note: From this point on, this article may need to be updated by someone more familiar with docker._**</font>
 
 ### MariaDB
 
@@ -23,7 +24,6 @@ The following `docker-compose.yml` file can be used to run the BRS with MariaD
 
     version: '3'
 
-    <!--T:29-->
     services:
       burstcoin:
         image: pocconsortium/burstcoin:2.2-mariadb
@@ -64,7 +64,6 @@ In order to use a custom config - `brs.properties` file, you can simply mount 
 
     version: '3'
 
-    <!--T:33-->
     services:
       burstcoin:
         image: pocconsortium/burstcoin:2.2-mariadb
