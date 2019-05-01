@@ -86,7 +86,7 @@ The mobile wallet for Android and iOS which provides the following features :
 
 * Main Developer : PoC-Consortium (lead dev: @cgb)
 
-* Download link : https://play.google.com/store/apps/developer?id=PoC+Consortium
+* Download link : <https://play.google.com/store/apps/developer?id=PoC+Consortium>
 
 * Platform : Android
 
@@ -101,7 +101,7 @@ Engraver is a BURST plotter that natively generates optimized plot files. It gen
 
 * Main Developer : PoC-Consortium
 
-* Download link : https://github.com/PoC-Consortium/engraver
+* Download link : <https://github.com/PoC-Consortium/engraver>
 
 * Platform : Linux, MacOS
 
@@ -113,7 +113,7 @@ TurboPlotter 9000 is a CPU/GPU PoC 1 + PoC 2 plotter and plot integrity checker.
 
 * Main Developer : Blackpawn
 
-* Download link : https://blackpawn.com/tp/
+* Download link : <https://blackpawn.com/tp/>
 
 * Platform : Windows, Linux, MacOS
 
@@ -198,9 +198,19 @@ The creepMiner is a client application for mining Burst on a pool or solo. It su
 
 * Main Developer : Creepsky
 
-* Download link : https://github.com/Creepsky/creepMiner/releases/latest
+* Download link : <https://github.com/Creepsky/creepMiner/releases/latest>
 
 * Platform : Windows, MacOS, Linux x86\_64 or ARM7
+
+### The bencher
+
+A PoW miner for PoC. Its main purpose is to benchmark hashing devices for PoC and to make different hardware comparable. It also has an educational aspect as it shows how inefficient it is to mine a PoC coin without storage (a BIS GPU can emulate around 1TB).
+
+* Main Developer : JohnnyFFM
+
+* Download link : <https://github.com/PoC-Consortium/bencher/releases>
+
+* Platform : Windows, MacOS, Linux, Unix (64 bit)
 
 dApps
 -----
@@ -211,7 +221,7 @@ CloudBurst is a decentralized cloud storage application to upload & download fil
 
 * Main Developer : CurbShifter
 
-* Download link : https://github.com/CurbShifter/CloudBurstDAPP/releases/latest
+* Download link : <https://github.com/CurbShifter/CloudBurstDAPP/releases/latest>
 
 * Platform : Windows, MacOS
 
@@ -221,7 +231,7 @@ BurstCoupon allows you to create and claim password protected coupons as extensi
 
 * Main Developer : CurbShifter
 
-* Download link : https://github.com/CurbShifter/BurstCoupon/releases/latest
+* Download link : <https://github.com/CurbShifter/BurstCoupon/releases/latest>
 
 * Platform : Windows, MacOS
 
@@ -351,3 +361,5 @@ BlockTalk allows the user to write, debug, and deploy Burst smart contracts rely
 * Download link : <https://github.com/jjos2372/blocktalk>
 
 * Platform : Cross Platform
+
+* More Information: [BlockTalk](BlockTalk.md)
