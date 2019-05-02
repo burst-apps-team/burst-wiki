@@ -36,6 +36,7 @@ pages:
     - Asset Exchange: en/asset-exchange.md
     - Automated Transaction: en/automated-transaction.md
     - Block Reward: en/block-reward.md
+    - BlockTalk: en/BlockTalk.md
     - BRS Configuration File: en/brs-default-properties-configuration-file.md
     - BRS Docker Installation: en/brs-docker-installation.md
     - BRS Linux Installation: en/brs-linux-installation.md
