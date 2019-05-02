@@ -19,7 +19,7 @@ System Design
 ### LANG
 This will be a new programming language, specifically designed for future creation of AT
 
-### ANTLR ([https://www.antlr.org/](Another Tool for Language Recognition))
+### ANTLR ([Another Tool for Language Recognition](https://www.antlr.org))
 This is a powerful tool for reading and translating structured text into binary files. That involves:
 
 * A Lexer – to read LANG sourcecode and turn that into tokens
