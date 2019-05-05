@@ -450,6 +450,18 @@
 
 
   <li class="md-nav__item">
+    <a href="../BlockTalk/" title="BlockTalk" class="md-nav__link">
+      BlockTalk
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
     <a href="../brs-default-properties-configuration-file/" title="BRS Configuration File" class="md-nav__link">
       BRS Configuration File
     </a>
@@ -1721,77 +1733,79 @@
 <li>dirmngr</li>
 </ul>
 <p>Make sure your installation is up to date</p>
-<p><strong><code>apt`` ``update`` ``&amp;&amp;`` ``apt`` ``upgrade</code></strong></p>
+<p><strong><code>apt update &amp;&amp; apt upgrade</code></strong></p>
 <p>Run the following command to install the above packages:</p>
-<p><strong><code>apt`` ``install`` ``curl`` ``default-jdk`` ``dirmngr`` ``-y</code></strong></p>
+<p><strong><code>apt install curl default-jdk dirmngr -y</code></strong></p>
 <h3 id="configuring-java-environment-path">Configuring Java environment path</h3>
 <p>Find the path to the jdk</p>
-<p><strong><code>update-alternatives`` ``--config`` ``javac</code></strong></p>
+<p><strong><code>update-alternatives --config javac</code></strong></p>
 <p>If only one version of Java is installed, this will give you a similar output to the following:</p>
 <p><code>There is only one alternative in link group javac (providing /usr/bin/javac): /usr/lib/jvm/java-8-openjdk-amd64/bin/javac</code>
 <code>Nothing to configure.</code></p>
 <p>Copy the path from the last output and edit the environment file:</p>
-<p><strong><code>nano`` ``/etc/environment</code></strong></p>
+<p><strong><code>nano /etc/environment</code></strong></p>
 <p>Add the following line to the file:</p>
-<p><strong><code>JAVA_HOME=</code>“<code>/usr/lib/jvm/java-8-openjdk-amd64/bin/javac</code>”</strong> (taken from the path above)</p>
+<p><strong><code>JAVA_HOME="/usr/lib/jvm/java-8-openjdk-amd64/bin/javac"</code></strong> (taken from the path above)</p>
 <p>To make the above change effective in your current shell, run the following:</p>
-<p><strong><code>source`` ``/etc/environment</code></strong></p>
+<p><strong><code>source /etc/environment</code></strong></p>
 <p>Now test that the JAVA_HOME variable is part of PATH</p>
-<p><strong><code>echo`` ``$JAVA_HOME</code></strong></p>
+<p><strong><code>echo $JAVA_HOME</code></strong></p>
 <p>This will output the path you entered into the environment file. Now confirm the version of java installed</p>
-<p><strong><code>javac`` ``-version</code></strong></p>
+<p><strong><code>javac -version</code></strong></p>
 <h3 id="installing-mariadb">Installing MariaDB</h3>
 <p>Add the MariaDB signing key</p>
-<p><strong><code>apt-key`` ``adv`` ``--recv-keys`` ``--keyserver`` ``hkp://keyserver.ubuntu.com:80`` ``0xF1656F24C74CD1D8</code></strong></p>
+<p><strong><code>apt-key adv --recv-keys --keyserver hkp://keyserver.ubuntu.com:80 0xF1656F24C74CD1D8</code></strong></p>
 <p>Grab the and run MariaDB setup script</p>
-<p><strong><code>curl`` ``-sS`` ``https://downloads.mariadb.com/MariaDB/mariadb_repo_setup`` ``|`` ``bash</code></strong></p>
+<p><strong><code>curl -sS https://downloads.mariadb.com/MariaDB/mariadb_repo_setup | bash</code></strong></p>
 <p>Update your sources list:</p>
-<p><strong><code>apt`` ``update</code></strong></p>
+<p><strong><code>apt update</code></strong></p>
 <p>Install MariaDB:</p>
-<p><strong><code>apt`` ``install`` ``mariadb-server</code></strong></p>
+<p><strong><code>apt install mariadb-server</code></strong></p>
 <p>During installation you will be prompted to enter a password for the root user. Enter and remember this as we will need it later.</p>
 <p>Create a database(<strong>brs_master</strong>), user (<strong>brs_user</strong>) and assign a password to the user by running the following command:</p>
-<p><code>'''echo "CREATE DATABASE brs_master; '''</code>
-<strong><code>CREATE`` ``USER`` ``'brs_user'@'localhost'`` ``IDENTIFIED`` ``BY`` ``'yourpassword';</code></strong>
-<code>GRANT ALL PRIVILEGES ON brs_master.* TO 'brs_user'@'localhost';" | mysql -uroot -p</code>
-<code>mysql -uroot -p &lt; init-mysql.sql</code></p>
+<p><strong><code>echo "CREATE DATABASE brs_master; 
+CREATE USER 'brs_user'@'localhost' IDENTIFIED BY 'yourpassword';
+GRANT ALL PRIVILEGES ON brs_master.* TO 'brs_user'@'localhost';" | mysql -uroot -p
+mysql -uroot -p &lt; init-mysql.sql</code></strong></p>
 <p>This will prompt you for the password you entered for the root user when installing mariaDB</p>
 <h3 id="configuring-the-brs-wallet">Configuring the BRS Wallet</h3>
-<p>Grab the BRSWallet zip from GitHub (always be sure to check link to the latest version. (2.2.6 was latest at time of writing)</p>
-<p><code>wget https://github.com/PoC-Consortium/burstcoin/releases/download/2.2.6/burstcoin-2.2.6.zip</code></p>
+<p>Grab the BRSWallet zip from <a href="https://github.com/burst-apps-team/burstcoin/releases">GitHub</a> (always be sure to check link to the latest version. (2.3.0 was latest at time of writing)</p>
+<p><code>wget https://github.com/burst-apps-team/burstcoin/releases/download/v2.3.0/burstcoin-2.3.0.zip</code></p>
 <p>Create a directory to unzip to:</p>
-<p><strong><code>mkdir`` ``BRSWallet</code></strong></p>
+<p><strong><code>mkdir BRSWallet</code></strong></p>
 <p>Unzip the burstcoin zip file to the newly created directory:</p>
-<p><strong><code>unzip`` ``burstcoin-2.2.6.zip`` ``-d`` ``BRSWallet/</code></strong></p>
+<p><strong><code>unzip burstcoin-2.3.0.zip -d BRSWallet/</code></strong></p>
 <p>Navigate to the conf subdirectory within the newly created directory:</p>
-<p><strong><code>cd`` ``BRSWallet/conf</code></strong></p>
+<p><strong><code>cd BRSWallet/conf</code></strong></p>
 <p>Create a brs.properties file inside the conf folder:</p>
-<p><strong><code>nano`` ``brs.properties</code></strong></p>
+<p><strong><code>nano brs.properties</code></strong></p>
 <p>Add the following lines:</p>
 <p><strong><code>DB.Url=jdbc:mariadb://localhost:3306/brs_master</code></strong>
 <strong><code>DB.Username=brs_user</code></strong>
 <strong><code>DB.Password=yourpassword</code></strong></p>
 <p>The <strong>burst.sh</strong> file is not yet executable. We need to change the permissions to make it so. Drop back to the BRSWallet directory <strong><code>cd`` ``..</code></strong> and issue the following:</p>
-<p><strong><code>chmod`` ``750`` ``burst.sh</code></strong></p>
+<p><strong><code>chmod 750 burst.sh</code></strong></p>
 <p>Now when we list the contents of the directory we can see that the <strong>burst.sh</strong> file has the correct permissions:</p>
-<p><strong><code>ls`` ``-l</code></strong></p>
-<p><code>total 1399340</code>
-<code>-rw-r--r-- 1 root root 1409751247 Nov  5 12:29 brs.mariadb.zip</code>
-<code>-rw-r--r-- 1 root root        507 Nov 18 22:17 burst.cmd</code>
-<code>drwxr-xr-x 2 root root       4096 Nov 18 22:16 burst_db</code>
-<code>-rw-r--r-- 1 root root   23015701 Nov 18 22:17 burst.jar</code>
-<em><code>-rwxr-x---`` ``1`` ``root`` ``root`` ``17831`` ``Nov`` ``18`` ``22:17`` ``burst.sh</code></em>
-<code>-rw-r--r-- 1 root root         46 Nov 18 22:17 Burst_Wallet.url</code>
-<code>drwxr-xr-x 2 root root       4096 Nov 29 15:44 conf</code>
-<code>-rw-r--r-- 1 root root      29288 Nov 18 22:17 genscoop.cl</code>
-<code>drwxr-xr-x 3 root root       4096 Nov 18 22:17 html</code>
-<code>-rw-r--r-- 1 root root      23232 Nov 18 22:17 init-mysql.sql</code>
-<code>drwxr-xr-x 3 root root       4096 Nov 18 22:17 lib</code>
-<code>-rw-r--r-- 1 root root      35149 Nov 18 22:17 LICENSE.txt</code>
-<code>-rw-r--r-- 1 root root       4574 Nov 18 22:17 README.md</code></p>
+<p><strong><code>ls -l</code></strong></p>
+<pre><code>total 1399340
+-rw-r--r-- 1 root root 1409751247 Nov  5 12:29 brs.mariadb.zip
+-rw-r--r-- 1 root root        507 Nov 18 22:17 burst.cmd
+drwxr-xr-x 2 root root       4096 Nov 18 22:16 burst_db
+-rw-r--r-- 1 root root   23015701 Nov 18 22:17 burst.jar
+-rwxr-x--- 1 root root      17831 Nov 18 22:17 burst.sh
+-rw-r--r-- 1 root root         46 Nov 18 22:17 Burst_Wallet.url
+drwxr-xr-x 2 root root       4096 Nov 29 15:44 conf
+-rw-r--r-- 1 root root      29288 Nov 18 22:17 genscoop.cl
+drwxr-xr-x 3 root root       4096 Nov 18 22:17 html
+-rw-r--r-- 1 root root      23232 Nov 18 22:17 init-mysql.sql
+drwxr-xr-x 3 root root       4096 Nov 18 22:17 lib
+-rw-r--r-- 1 root root      35149 Nov 18 22:17 LICENSE.txt
+-rw-r--r-- 1 root root       4574 Nov 18 22:17 README.md
+</code></pre>
+
 <h3 id="importing-the-database">Importing the database</h3>
 <p>The quickest way to get up an running is to bootstrap the database by importing a relatively up to date dump of the database. Your wallet will synchronise from this point in time automatically. If you prefer to synchronise from scratch this will take much longer to complete.</p>
-<p><strong><code>./burst.sh`` ``import`` ``mariadb</code></strong></p>
+<p><strong><code>./burst.sh import mariadb</code></strong></p>
 <p>If you already have a/part of a brs_master database present, you will be asked if you want to remove the current database, download and import a new one. Answer y or n.</p>
 <p><code>Do you want to remove the current databases, download and import new one?</code><strong><code>y</code></strong></p>
 <p>If you created the <strong>brs.properties</strong> file as per above you will be asked the following question:</p>
@@ -1819,79 +1833,87 @@
 <code>inflating: brs.mariadb.sql</code>
 <code>[+] Import successful - please remove brs.mariadb.zip</code></p>
 <p>Remove the download DB dump zip file to reclaim space and avoid an outdated zip file in future if you require a DB bootstrap</p>
-<p><strong><code>rm`` ``brs.mariadb.zip</code></strong></p>
+<p><strong><code>rm brs.mariadb.zip</code></strong></p>
 <h3 id="running-the-wallet">Running the Wallet</h3>
 <p>We need to change owner from root to a normal user as all the files/directories are now owned by root (see below)</p>
-<p><code>total 1399340</code>
-<code>-rw-r--r-- 1 root root 1409751247 Nov  5 12:29 brs.mariadb.zip</code>
-<code>-rw-r--r-- 1 root root        507 Nov 18 22:17 burst.cmd</code>
-<code>drwxr-xr-x 2 root root       4096 Nov 18 22:16 burst_db</code>
-<code>-rw-r--r-- 1 root root   23015701 Nov 18 22:17 burst.jar</code>
-<code>-rwxr-x--- 1 root root      17831 Nov 18 22:17 burst.sh</code>
-<code>-rw-r--r-- 1 root root         46 Nov 18 22:17 Burst_Wallet.url</code>
-<code>drwxr-xr-x 2 root root       4096 Nov 29 15:44 conf</code>
-<code>-rw-r--r-- 1 root root      29288 Nov 18 22:17 genscoop.cl</code>
-<code>drwxr-xr-x 3 root root       4096 Nov 18 22:17 html</code>
-<code>-rw-r--r-- 1 root root      23232 Nov 18 22:17 init-mysql.sql</code>
-<code>drwxr-xr-x 3 root root       4096 Nov 18 22:17 lib</code>
-<code>-rw-r--r-- 1 root root      35149 Nov 18 22:17 LICENSE.txt</code>
-<code>-rw-r--r-- 1 root root       4574 Nov 18 22:17 README.md</code></p>
+<pre><code>total 1399340
+-rw-r--r-- 1 root root 1409751247 Nov  5 12:29 brs.mariadb.zip
+-rw-r--r-- 1 root root        507 Nov 18 22:17 burst.cmd
+drwxr-xr-x 2 root root       4096 Nov 18 22:16 burst_db
+-rw-r--r-- 1 root root   23015701 Nov 18 22:17 burst.jar
+-rwxr-x--- 1 root root      17831 Nov 18 22:17 burst.sh
+-rw-r--r-- 1 root root         46 Nov 18 22:17 Burst_Wallet.url
+drwxr-xr-x 2 root root       4096 Nov 29 15:44 conf
+-rw-r--r-- 1 root root      29288 Nov 18 22:17 genscoop.cl
+drwxr-xr-x 3 root root       4096 Nov 18 22:17 html
+-rw-r--r-- 1 root root      23232 Nov 18 22:17 init-mysql.sql
+drwxr-xr-x 3 root root       4096 Nov 18 22:17 lib
+-rw-r--r-- 1 root root      35149 Nov 18 22:17 LICENSE.txt
+-rw-r--r-- 1 root root       4574 Nov 18 22:17 README.md
+</code></pre>
+
 <p>Navigate to the BRSWallet parent directory</p>
-<p><strong><code>cd`` ``..</code></strong></p>
+<p><strong><code>cd ..</code></strong></p>
 <p>Change ownership of all files and directores within the BRSWallet directory:</p>
-<p><strong><code>chown`` ``-R`` ``burst:burst`` ``BRSWallet/</code></strong></p>
+<p><strong><code>chown -R burst:burst BRSWallet/</code></strong></p>
 <p>Now the ownership has ben changed to the user burst:</p>
-<p><code>total 1399344</code>
-<code>-rw-r--r-- 1 burst burst       2506 Nov 29 16:59 brs.log</code>
-<code>-rw-r--r-- 1 burst burst 1409751247 Nov  5 12:29 brs.mariadb.zip</code>
-<code>-rw-r--r-- 1 burst burst        507 Nov 18 22:17 burst.cmd</code>
-<code>drwxr-xr-x 2 burst burst       4096 Nov 18 22:16 burst_db</code>
-<code>-rw-r--r-- 1 burst burst   23015701 Nov 18 22:17 burst.jar</code>
-<code>-rwxr-x--- 1 burst burst      17831 Nov 18 22:17 burst.sh</code>
-<code>-rw-r--r-- 1 burst burst         46 Nov 18 22:17 Burst_Wallet.url</code>
-<code>drwxr-xr-x 2 burst burst       4096 Nov 30 10:39 conf</code>
-<code>-rw-r--r-- 1 burst burst      29288 Nov 18 22:17 genscoop.cl</code>
-<code>drwxr-xr-x 3 burst burst       4096 Nov 18 22:17 html</code>
-<code>-rw-r--r-- 1 burst burst      23232 Nov 18 22:17 init-mysql.sql</code>
-<code>drwxr-xr-x 3 burst burst       4096 Nov 18 22:17 lib</code>
-<code>-rw-r--r-- 1 burst burst      35149 Nov 18 22:17 LICENSE.txt</code>
-<code>-rw-r--r-- 1 burst burst       4574 Nov 18 22:17 README.md</code></p>
+<pre><code>total 1399344
+-rw-r--r-- 1 burst burst       2506 Nov 29 16:59 brs.log
+-rw-r--r-- 1 burst burst 1409751247 Nov  5 12:29 brs.mariadb.zip
+-rw-r--r-- 1 burst burst        507 Nov 18 22:17 burst.cmd
+drwxr-xr-x 2 burst burst       4096 Nov 18 22:16 burst_db
+-rw-r--r-- 1 burst burst   23015701 Nov 18 22:17 burst.jar
+-rwxr-x--- 1 burst burst      17831 Nov 18 22:17 burst.sh
+-rw-r--r-- 1 burst burst         46 Nov 18 22:17 Burst_Wallet.url
+drwxr-xr-x 2 burst burst       4096 Nov 30 10:39 conf
+-rw-r--r-- 1 burst burst      29288 Nov 18 22:17 genscoop.cl
+drwxr-xr-x 3 burst burst       4096 Nov 18 22:17 html
+-rw-r--r-- 1 burst burst      23232 Nov 18 22:17 init-mysql.sql
+drwxr-xr-x 3 burst burst       4096 Nov 18 22:17 lib
+-rw-r--r-- 1 burst burst      35149 Nov 18 22:17 LICENSE.txt
+-rw-r--r-- 1 burst burst       4574 Nov 18 22:17 README.md
+</code></pre>
+
 <p>At this stage you can reboot the machine to ensure that the environmental variables are applied to every user session going forward. Following the reboot, log in as the your normal user (burst in this case) and run the wallet:</p>
 <p><strong><code>./burst.sh</code></strong></p>
 <p>You will see the following output:</p>
-<p><code>Nov 29, 2018 4:28:33 PM brs.Burst loadProperties</code>
-<code>INFO: Initializing Burst Reference Software (BRS) version 2.2.6</code>
-<code>Nov 29, 2018 4:28:33 PM org.ehcache.core.EhcacheManager createCache</code>
-<code>INFO: Cache 'account' created in EhcacheManager.</code>
-<code>[INFO] 2018-11-29 16:28:33 brs.db.sql.Db - Using mariadb Backend</code>
-<code>[INFO] 2018-11-29 16:28:33 brs.db.mariadb.MariadbDbVersion - Database update may take a while if needed, current db version 177...</code></p>
+<pre><code>Nov 29, 2018 4:28:33 PM brs.Burst loadProperties
+INFO: Initializing Burst Reference Software (BRS) version 2.3.0
+Nov 29, 2018 4:28:33 PM org.ehcache.core.EhcacheManager createCache
+INFO: Cache 'account' created in EhcacheManager.
+[INFO] 2018-11-29 16:28:33 brs.db.sql.Db - Using mariadb Backend
+[INFO] 2018-11-29 16:28:33 brs.db.mariadb.MariadbDbVersion - Database update may take a while if needed, current db version 177...
+</code></pre>
+
 <p><strong>Note:</strong> If closing the terminal or pressing Ctrl-c, the wallet will shutdown:</p>
 <p><code>[INFO] 2018-11-29 16:53:12 brs.Burst - Shutting down...</code></p>
 <h3 id="configure-brs-to-run-as-a-servicedaemon">Configure BRS to run as a service/daemon</h3>
 <p>Closing the terminal or pressing Ctrl-c will result to a shutdown of the wallet. To avoid this, BRS should be run as a service. It is particularly helpful if you run BRS on a linux system using SSH.</p>
 <p>First, if systemd isn't installed on your system, run the following command:</p>
-<p><strong><code>sudo`` ``apt`` ``install`` ``systemd</code></strong></p>
+<p><strong><code>sudo apt install systemd</code></strong></p>
 <p>Then, you will have to create a new service file for BRS:</p>
-<p><strong><code>sudo`` ``nano`` ``/etc/systemd/system/brs.service</code></strong></p>
+<p><strong><code>sudo nano /etc/systemd/system/brs.service</code></strong></p>
 <p>Add the following configuration (replace description, Exec, WorkingDirectory and User according to your setup):</p>
-<p><code>[Unit]</code>
-<code>Description=BRS Wallet</code>
-<code>After=network.target</code>
-<code>Wants=network.target</code>
-<code>[Service]</code>
-<code>ExecStart=/usr/bin/java -cp /home/burst/burst.jar:/home/burst/conf brs.Burst</code>
-<code>WorkingDirectory=/home/burst/</code>
-<code>User=brs-mariadb</code>
-<code>Restart=always</code>
-<code>RestartSec=90</code>
-<code>[Install]</code>
-<code>WantedBy=multi-user.target</code></p>
+<pre><code>[Unit]
+Description=BRS Wallet
+After=network.target
+Wants=network.target
+[Service]
+ExecStart=/usr/bin/java -cp /home/burst/burst.jar:/home/burst/conf brs.Burst
+WorkingDirectory=/home/burst/
+User=brs-mariadb
+Restart=always
+RestartSec=90
+[Install]
+WantedBy=multi-user.target
+</code></pre>
+
 <p>After that, enable the service:</p>
-<p><strong><code>sudo`` ``systemctl`` ``enable`` ``brs.service</code></strong></p>
+<p><strong><code>sudo systemctl enable brs.service</code></strong></p>
 <p>To start the service, type:</p>
-<p><strong><code>systemctl`` ``start`` ``brs.service</code></strong></p>
+<p><strong><code>systemctl start brs.service</code></strong></p>
 <p>To get the status of the service:</p>
-<p><strong><code>systemctl`` ``status`` ``brs.service</code></strong></p>
+<p><strong><code>systemctl status brs.service</code></strong></p>
                 
                   
                 

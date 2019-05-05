@@ -2,437 +2,442 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
      <loc>https://burst-apps-team.github.io/burst-wiki/en/</loc>
-     <lastmod>2019-04-27</lastmod>
+     <lastmod>2019-05-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://burst-apps-team.github.io/burst-wiki/en/500k-hf-checklist/</loc>
-     <lastmod>2019-04-27</lastmod>
+     <lastmod>2019-05-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://burst-apps-team.github.io/burst-wiki/en/activate-burst-account/</loc>
-     <lastmod>2019-04-27</lastmod>
+     <lastmod>2019-05-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://burst-apps-team.github.io/burst-wiki/en/alias-system/</loc>
-     <lastmod>2019-04-27</lastmod>
+     <lastmod>2019-05-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://burst-apps-team.github.io/burst-wiki/en/arbitrary-messages/</loc>
-     <lastmod>2019-04-27</lastmod>
+     <lastmod>2019-05-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://burst-apps-team.github.io/burst-wiki/en/asset-exchange/</loc>
-     <lastmod>2019-04-27</lastmod>
+     <lastmod>2019-05-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://burst-apps-team.github.io/burst-wiki/en/automated-transaction/</loc>
-     <lastmod>2019-04-27</lastmod>
+     <lastmod>2019-05-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://burst-apps-team.github.io/burst-wiki/en/block-reward/</loc>
-     <lastmod>2019-04-27</lastmod>
+     <lastmod>2019-05-05</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://burst-apps-team.github.io/burst-wiki/en/BlockTalk/</loc>
+     <lastmod>2019-05-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://burst-apps-team.github.io/burst-wiki/en/brs-default-properties-configuration-file/</loc>
-     <lastmod>2019-04-27</lastmod>
+     <lastmod>2019-05-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://burst-apps-team.github.io/burst-wiki/en/brs-docker-installation/</loc>
-     <lastmod>2019-04-27</lastmod>
+     <lastmod>2019-05-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://burst-apps-team.github.io/burst-wiki/en/brs-linux-installation/</loc>
-     <lastmod>2019-04-27</lastmod>
+     <lastmod>2019-05-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://burst-apps-team.github.io/burst-wiki/en/brs-macos-installation/</loc>
-     <lastmod>2019-04-27</lastmod>
+     <lastmod>2019-05-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://burst-apps-team.github.io/burst-wiki/en/brs-windows-installation/</loc>
-     <lastmod>2019-04-27</lastmod>
+     <lastmod>2019-05-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://burst-apps-team.github.io/burst-wiki/en/burst-blockchain/</loc>
-     <lastmod>2019-04-27</lastmod>
+     <lastmod>2019-05-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://burst-apps-team.github.io/burst-wiki/en/burst-reference-software/</loc>
-     <lastmod>2019-04-27</lastmod>
+     <lastmod>2019-05-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://burst-apps-team.github.io/burst-wiki/en/burst-services/</loc>
-     <lastmod>2019-04-27</lastmod>
+     <lastmod>2019-05-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://burst-apps-team.github.io/burst-wiki/en/burst-software/</loc>
-     <lastmod>2019-04-27</lastmod>
+     <lastmod>2019-05-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://burst-apps-team.github.io/burst-wiki/en/burst-support-for-erc20-tokens/</loc>
-     <lastmod>2019-04-27</lastmod>
+     <lastmod>2019-05-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://burst-apps-team.github.io/burst-wiki/en/burst-who-s-who/</loc>
-     <lastmod>2019-04-27</lastmod>
+     <lastmod>2019-05-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://burst-apps-team.github.io/burst-wiki/en/burst-wiki/</loc>
-     <lastmod>2019-04-27</lastmod>
+     <lastmod>2019-05-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://burst-apps-team.github.io/burst-wiki/en/cip/</loc>
-     <lastmod>2019-04-27</lastmod>
+     <lastmod>2019-05-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://burst-apps-team.github.io/burst-wiki/en/colored-coins/</loc>
-     <lastmod>2019-04-27</lastmod>
+     <lastmod>2019-05-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://burst-apps-team.github.io/burst-wiki/en/current-features/</loc>
-     <lastmod>2019-04-27</lastmod>
+     <lastmod>2019-05-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://burst-apps-team.github.io/burst-wiki/en/engraver---how-to-compile-from-source/</loc>
-     <lastmod>2019-04-27</lastmod>
+     <lastmod>2019-05-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://burst-apps-team.github.io/burst-wiki/en/exchanges/</loc>
-     <lastmod>2019-04-27</lastmod>
+     <lastmod>2019-05-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://burst-apps-team.github.io/burst-wiki/en/faq/</loc>
-     <lastmod>2019-04-27</lastmod>
+     <lastmod>2019-05-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://burst-apps-team.github.io/burst-wiki/en/getting-started/</loc>
-     <lastmod>2019-04-27</lastmod>
+     <lastmod>2019-05-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://burst-apps-team.github.io/burst-wiki/en/history-of-burst/</loc>
-     <lastmod>2019-04-27</lastmod>
+     <lastmod>2019-05-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://burst-apps-team.github.io/burst-wiki/en/internal-at-and-escrow-account/</loc>
-     <lastmod>2019-04-27</lastmod>
+     <lastmod>2019-05-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://burst-apps-team.github.io/burst-wiki/en/join-us-/</loc>
-     <lastmod>2019-04-27</lastmod>
+     <lastmod>2019-05-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://burst-apps-team.github.io/burst-wiki/en/list-of-burst-related-websites/</loc>
-     <lastmod>2019-04-27</lastmod>
+     <lastmod>2019-05-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://burst-apps-team.github.io/burst-wiki/en/list-of-international-burst-websites/</loc>
-     <lastmod>2019-04-27</lastmod>
+     <lastmod>2019-05-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://burst-apps-team.github.io/burst-wiki/en/macos-burst-wallet-installation/</loc>
-     <lastmod>2019-04-27</lastmod>
+     <lastmod>2019-05-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://burst-apps-team.github.io/burst-wiki/en/marketplace/</loc>
-     <lastmod>2019-04-27</lastmod>
+     <lastmod>2019-05-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://burst-apps-team.github.io/burst-wiki/en/mining/</loc>
-     <lastmod>2019-04-27</lastmod>
+     <lastmod>2019-05-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://burst-apps-team.github.io/burst-wiki/en/mobile-app/</loc>
-     <lastmod>2019-04-27</lastmod>
+     <lastmod>2019-05-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://burst-apps-team.github.io/burst-wiki/en/mortimer/</loc>
-     <lastmod>2019-04-27</lastmod>
+     <lastmod>2019-05-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://burst-apps-team.github.io/burst-wiki/en/nxt-default-properties-configuration-file/</loc>
-     <lastmod>2019-04-27</lastmod>
+     <lastmod>2019-05-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://burst-apps-team.github.io/burst-wiki/en/offline-transaction-signing/</loc>
-     <lastmod>2019-04-27</lastmod>
+     <lastmod>2019-05-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://burst-apps-team.github.io/burst-wiki/en/pchains/</loc>
-     <lastmod>2019-04-27</lastmod>
+     <lastmod>2019-05-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://burst-apps-team.github.io/burst-wiki/en/plot-software/</loc>
-     <lastmod>2019-04-27</lastmod>
+     <lastmod>2019-05-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://burst-apps-team.github.io/burst-wiki/en/plotter/</loc>
-     <lastmod>2019-04-27</lastmod>
+     <lastmod>2019-05-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://burst-apps-team.github.io/burst-wiki/en/plotting/</loc>
-     <lastmod>2019-04-27</lastmod>
+     <lastmod>2019-05-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://burst-apps-team.github.io/burst-wiki/en/pocc-mobile-app/</loc>
-     <lastmod>2019-04-27</lastmod>
+     <lastmod>2019-05-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://burst-apps-team.github.io/burst-wiki/en/proof-of-capacity/</loc>
-     <lastmod>2019-04-27</lastmod>
+     <lastmod>2019-05-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://burst-apps-team.github.io/burst-wiki/en/publications--burst--cryptocurrency-news-/</loc>
-     <lastmod>2019-04-27</lastmod>
+     <lastmod>2019-05-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://burst-apps-team.github.io/burst-wiki/en/publications--burst--general-/</loc>
-     <lastmod>2019-04-27</lastmod>
+     <lastmod>2019-05-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://burst-apps-team.github.io/burst-wiki/en/publications-burst-commercial-/</loc>
-     <lastmod>2019-04-27</lastmod>
+     <lastmod>2019-05-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://burst-apps-team.github.io/burst-wiki/en/publications-burst-cryptonews-/</loc>
-     <lastmod>2019-04-27</lastmod>
+     <lastmod>2019-05-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://burst-apps-team.github.io/burst-wiki/en/publications-burst-news-/</loc>
-     <lastmod>2019-04-27</lastmod>
+     <lastmod>2019-05-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://burst-apps-team.github.io/burst-wiki/en/publications-burst-research-/</loc>
-     <lastmod>2019-04-27</lastmod>
+     <lastmod>2019-05-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://burst-apps-team.github.io/burst-wiki/en/publications-burst/</loc>
-     <lastmod>2019-04-27</lastmod>
+     <lastmod>2019-05-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://burst-apps-team.github.io/burst-wiki/en/qbundle/</loc>
-     <lastmod>2019-04-27</lastmod>
+     <lastmod>2019-05-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://burst-apps-team.github.io/burst-wiki/en/reward-assignment/</loc>
-     <lastmod>2019-04-27</lastmod>
+     <lastmod>2019-05-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://burst-apps-team.github.io/burst-wiki/en/rs-address-format/</loc>
-     <lastmod>2019-04-27</lastmod>
+     <lastmod>2019-05-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://burst-apps-team.github.io/burst-wiki/en/scavenger---how-to-compile-from-source/</loc>
-     <lastmod>2019-04-27</lastmod>
+     <lastmod>2019-05-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://burst-apps-team.github.io/burst-wiki/en/secure-your-burst/</loc>
-     <lastmod>2019-04-27</lastmod>
+     <lastmod>2019-05-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://burst-apps-team.github.io/burst-wiki/en/slot-based-transaction-fees/</loc>
-     <lastmod>2019-04-27</lastmod>
+     <lastmod>2019-05-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://burst-apps-team.github.io/burst-wiki/en/smart-contract/</loc>
-     <lastmod>2019-04-27</lastmod>
+     <lastmod>2019-05-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://burst-apps-team.github.io/burst-wiki/en/softfork-wishlist/</loc>
-     <lastmod>2019-04-27</lastmod>
+     <lastmod>2019-05-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://burst-apps-team.github.io/burst-wiki/en/style-guide/</loc>
-     <lastmod>2019-04-27</lastmod>
+     <lastmod>2019-05-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://burst-apps-team.github.io/burst-wiki/en/team-applications/</loc>
-     <lastmod>2019-04-27</lastmod>
+     <lastmod>2019-05-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://burst-apps-team.github.io/burst-wiki/en/team-support/</loc>
-     <lastmod>2019-04-27</lastmod>
+     <lastmod>2019-05-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://burst-apps-team.github.io/burst-wiki/en/technical-information-about-mining-and-block-forging/</loc>
-     <lastmod>2019-04-27</lastmod>
+     <lastmod>2019-05-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://burst-apps-team.github.io/burst-wiki/en/technical-information-to-create-plot-files/</loc>
-     <lastmod>2019-04-27</lastmod>
+     <lastmod>2019-05-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://burst-apps-team.github.io/burst-wiki/en/testnet/</loc>
-     <lastmod>2019-04-27</lastmod>
+     <lastmod>2019-05-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://burst-apps-team.github.io/burst-wiki/en/the-burst-api/</loc>
-     <lastmod>2019-04-27</lastmod>
+     <lastmod>2019-05-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://burst-apps-team.github.io/burst-wiki/en/the-burst-api-examples/</loc>
-     <lastmod>2019-04-27</lastmod>
+     <lastmod>2019-05-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://burst-apps-team.github.io/burst-wiki/en/todo/</loc>
-     <lastmod>2019-04-27</lastmod>
+     <lastmod>2019-05-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://burst-apps-team.github.io/burst-wiki/en/transaction-and-fee-types/</loc>
-     <lastmod>2019-04-27</lastmod>
+     <lastmod>2019-05-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://burst-apps-team.github.io/burst-wiki/en/whitepaper-burst/</loc>
-     <lastmod>2019-04-27</lastmod>
+     <lastmod>2019-05-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://burst-apps-team.github.io/burst-wiki/en/wikipedia-burstcoin/</loc>
-     <lastmod>2019-04-27</lastmod>
+     <lastmod>2019-05-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://burst-apps-team.github.io/burst-wiki/fr/</loc>
-     <lastmod>2019-04-27</lastmod>
+     <lastmod>2019-05-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://burst-apps-team.github.io/burst-wiki/fr/current-features/</loc>
-     <lastmod>2019-04-27</lastmod>
+     <lastmod>2019-05-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://burst-apps-team.github.io/burst-wiki/fr/marketplace/</loc>
-     <lastmod>2019-04-27</lastmod>
+     <lastmod>2019-05-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://burst-apps-team.github.io/burst-wiki/fr/qbundle/</loc>
-     <lastmod>2019-04-27</lastmod>
+     <lastmod>2019-05-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://burst-apps-team.github.io/burst-wiki/de/</loc>
-     <lastmod>2019-04-27</lastmod>
+     <lastmod>2019-05-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://burst-apps-team.github.io/burst-wiki/de/current-features/</loc>
-     <lastmod>2019-04-27</lastmod>
+     <lastmod>2019-05-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://burst-apps-team.github.io/burst-wiki/de/alias-system/</loc>
-     <lastmod>2019-04-27</lastmod>
+     <lastmod>2019-05-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://burst-apps-team.github.io/burst-wiki/de/marketplace/</loc>
-     <lastmod>2019-04-27</lastmod>
+     <lastmod>2019-05-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://burst-apps-team.github.io/burst-wiki/pt-br/</loc>
-     <lastmod>2019-04-27</lastmod>
+     <lastmod>2019-05-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://burst-apps-team.github.io/burst-wiki/pt-br/qbundle/</loc>
-     <lastmod>2019-04-27</lastmod>
+     <lastmod>2019-05-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://burst-apps-team.github.io/burst-wiki/ru/</loc>
-     <lastmod>2019-04-27</lastmod>
+     <lastmod>2019-05-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://burst-apps-team.github.io/burst-wiki/ru/current-features/</loc>
-     <lastmod>2019-04-27</lastmod>
+     <lastmod>2019-05-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://burst-apps-team.github.io/burst-wiki/ru/burst-wiki/</loc>
-     <lastmod>2019-04-27</lastmod>
+     <lastmod>2019-05-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://burst-apps-team.github.io/burst-wiki/zh-hant/</loc>
-     <lastmod>2019-04-27</lastmod>
+     <lastmod>2019-05-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://burst-apps-team.github.io/burst-wiki/zh-hant/style-guide/</loc>
-     <lastmod>2019-04-27</lastmod>
+     <lastmod>2019-05-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
 </urlset>
