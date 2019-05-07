@@ -16,4 +16,4 @@ An easy to use plotter, XPlotter, is included in the windows based QBundle. QBun
 
 Other plotters have been developed for various operating systems and use cases.
 
-Details for selecting plotting software can be found [here](burst-software-plotting-software.md). All documentation regarding the use of plotters is available on the software's website and/or on Github.
+Details for selecting plotting software can be found [here](burst-software.md). All documentation regarding the use of plotters is available on the software's website and/or on Github.

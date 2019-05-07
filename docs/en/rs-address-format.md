@@ -1,4 +1,4 @@
-<languages/> <translate> The well known BURST addresses of the form:
+The well known BURST addresses of the form:
 
   
 **BURST-XXXX-XXXX-XXXX-XXXXX**
@@ -56,5 +56,3 @@ Reed-Solomon (RS) addresses for Burst are encoded as follows:
 2.  Order the symbols from lowest bit to highest bits, in little-endian order, i.e. bits 0-4, 5-9, 10-14, etc. up to 60-64.
 3.  Append 4 symbols of parity (20 bits), produced by the [Reed-Solomon encoding](http://en.wikipedia.org/wiki/Reed%E2%80%93Solomon_error_correction) of our 13 symbols from step one (which are left untouched). This produces a 13 + 4 = 17 symbol codeword.
 4.  Scramble the codeword symbols in a predefined order and encode them 1-to-1 with an alphabet of 32 characters, splitting them into groups by dashes.
-
-</translate>

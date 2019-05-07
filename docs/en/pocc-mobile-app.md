@@ -1,6 +1,4 @@
-<languages/> <translate>
-
-History
+Introduction
 -------
 
 The development of the [PoC Consortium](poc-consortium.md) (PoCC) [mobile wallet](mobile-app.md) for Burst has been announced August, 11th 2017 in the original PoCC announcement on bitcointalk[1]. One month later, a beta-test version has been published[2] and the official released followed by end of September[3]
@@ -27,10 +25,8 @@ If you want to translate this file into some language, you need to translate the
 -   work-in-progress: --
 -   wanted languages: Danish, Dutch, Japanese, Portuguese, Romanian and basically everything else
 
-<div class="toccolours mw-collapsible mw-collapsed">
-en.json localization file
-
-<div class="mw-collapsible-content">
+**en.json localization file**
+```
     {
         "CREATE": {
             "ACTION_BAR_TITLE": "Create New Account",
@@ -179,16 +175,13 @@ en.json localization file
             }
         }
     }
+```
 
-</div>
-</div>
 References
 ----------
 
-</translate>
+1. <https://bitcointalk.org/index.php?topic=2080040.0>
 
-[1] <https://bitcointalk.org/index.php?topic=2080040.0>
+2. <https://forums.getburst.net/t/one-month-of-pocc/603>
 
-[2] <https://forums.getburst.net/t/one-month-of-pocc/603>
-
-[3] <https://forums.getburst.net/t/burst-on-the-go-the-poc-consortium-releases-their-android-wallet/794>
+3. <https://forums.getburst.net/t/burst-on-the-go-the-poc-consortium-releases-their-android-wallet/794>

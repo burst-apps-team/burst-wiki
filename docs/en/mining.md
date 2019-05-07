@@ -18,7 +18,7 @@ Plot files are made up of hashes. A hash is a result of of computing data using 
 
 Before they start mining, users have to decide whether they'll join a mining pool or mine alone (“solo mine”). This is done through a transaction called “Reward recipient assignment” which has to be executed for both types of mining. The reward recipient assignment transaction, when used in context of pool mining, enables the pool to use the deadlines submitted by the miner and sign newly forged blocks with miner's account. This transaction also assigns the block rewards from blocks forged by a specific miner to the pool for distribution, in accordance with pool reward distribution policies. Note that forged blocks are always signed by an account belonging to the miner who submitted the deadline used to forge the block.
 
-<img src="Reward_recipient.png" title="Reward_recipient.png" alt="Reward_recipient.png" width="1100" height="343" />
+![](../../media/Reward_recipient2.png "Reward Recipient")
 
 *Reward recipient assignment form*
 
@@ -67,7 +67,7 @@ The entities involved in the process of mining and forging a block are the Burst
 
 The mining process starts with the miner requesting mining information from the wallet. Prior to sending the mining information, the wallet will create the new generation signature by running the previous generation signature and the previous block generator through the Shabal256 hash function (1). The new generation signature is passed on to the miner, together with the base target value and the next block height (2). In the next step, the miner will produce the generation hash for the next block by running the Shabal256 function on the generation signature and block height received from the wallet (3). The generation hash is used as the argument of the modulo 4096 function in order to get the scoop number which will be used to process the plot files (4).
 
-![](Intro_to_mining_burst.png "Intro_to_mining_burst.png")
+![](../../media/Intro_to_mining_burst.png "Intro_to_mining_burst.png")
 
 *Process of mining and forging a block*
 
@@ -77,50 +77,48 @@ After the scoop number has been calculated, it is used to read all scoops from a
 
 The Burst block explorer, as well as the wallet can be used to view block contents and information.
 
-![](Block_contents.png "Block_contents.png")
+![](../../media/Block_contents.png "Block_contents.png")
 
 *Block information available in the Burst block explorer*
 
-Block version number refers to the block format, which determines what a block can contain and in which manner,
+- Block version number refers to the block format, which determines what a block can contain and in which manner,
 
-List of transaction Ids included in the block,
+- List of transaction Ids included in the block,
 
-Payload hash is the Sha256 hash of all the data in the block payload,
+- Payload hash is the Sha256 hash of all the data in the block payload,
 
-Timestamp of the block forging derived from the birth of the blockchain (11th of August 2014, at 02:00:00),
+- Timestamp of the block forging derived from the birth of the blockchain (11th of August 2014, at 02:00:00),
 
-Total amount i.e. the sum of all transactions contained in the block,
+- Total amount i.e. the sum of all transactions contained in the block,
 
-Total amount of transaction fees, which will be given to the block forger on tp of the block reward,
+- Total amount of transaction fees, which will be given to the block forger on tp of the block reward,
 
-Payload length,
+- Payload length,
 
-Public key of the account which forged the block,
+- Public key of the account which forged the block,
 
-Generation signature that was used to forge the block,
+- Generation signature that was used to forge the block,
 
-Previous block hash, the Sha256 hash of the contents of the previous block,
+- Previous block hash, the Sha256 hash of the contents of the previous block,
 
-Previous block ID, which is the first 8 bytes of the previous block hash converted to a number,
+- Previous block ID, which is the first 8 bytes of the previous block hash converted to a number,
 
-Cumulative difficulty used to prevent “Nothing at Stake” problems during potential forks, calculated as: previous cumulative difficulty + 18446744073709551616/base target,
+- Cumulative difficulty used to prevent “Nothing at Stake” problems during potential forks, calculated as: previous cumulative difficulty + 18446744073709551616/base target,
 
-Base target used when the block was forged,
+- Base target used when the block was forged,
 
-Block height,
+- Block height,
 
-Nonce number used to forge the block,
+- Nonce number used to forge the block,
 
-AT – payload bytes of the AT, in case AT was added to the block,
+- AT – payload bytes of the AT, in case AT was added to the block,
 
-Block signature is a 64 byte hash generated with the forger's private key and block contents.
+- Block signature is a 64 byte hash generated with the forger's private key and block contents.
 
-![](Block_details_1.png "Block_details_1.png")
+![](../../media/Block_details_1.png "Block_details_1.png")
 
-![](Block_details_2.png "Block_details_2.png")
+![](../../media/Block_details_2.png "Block_details_2.png")
 
 *Block details available in the Burst wallet*
 
 Once a wallet forges a block, it will be announced to the network. The wallet connects to peers and send the block for verification and validation.
-
-*Based on article by Quibus <http://files.getburst.net/Burstcoin-technical-information-about-mining-and-blockforging.pdf>*

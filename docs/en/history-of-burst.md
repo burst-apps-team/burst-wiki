@@ -1,5 +1,5 @@
 Beginning
-=========
+------------
 
 There are several important events in the short history of Burst.
 
@@ -12,7 +12,7 @@ There are several important events in the short history of Burst.
 -   August 2015: Original developer *Burstcoin* disappears [8]. The community takes over the development of Burst
 
 Hard Forks
-==========
+------------
 
 Several changes in the blockchain protocol introduced a hard fork, meaning non-updated clients would not accept new blocks.
 
@@ -26,34 +26,36 @@ Several changes in the blockchain protocol introduced a hard fork, meaning non-u
 -   2015-04-20: Version 1.2.3 bugfixes for ATs and the asset exchange [16]
 
 Burst Team
-==========
+------------
 
 After the original developer of Burst disappeared a community quickly formed under the name Burst Team in August of 2015. Development of the wallet software continued in a fork at Github [17]. A website and a forum were created at [burst-team.us](https://www.burst-team.us).
 
 Burstnation
-===========
+------------
 
-Because of differences within Burst Team, several members founded [Burstnation](https://www.burstnation.com) [18] by the end of 2016 . The differences among both fractions of the community continued for a long time until leading Burstnation members announced their retirement from the Burst community in the aftermath of the Dymaxion release (see below).
+Because of differences within Burst Team, several members founded Burstnation [18] by the end of 2016 . The differences among both fractions of the community continued for a long time until leading Burstnation members announced their retirement from the Burst community in the aftermath of the Dymaxion release (see below).
 
 Spam Attack and Network Forks
-=============================
+------------
 
 On July 22nd of 2017 an attacker spammed the Burst network with messages, causing wallets to crash and splitting the network into multiple forks [19]. The network remained unstable for several days. As a result the Poloniex exchange froze the coin and disabled deposits and withdrawls . By August 10th the network was stable again and Poloniex reactived Burst deposits and withdrawls .
 
 Formation of the PoC Consortium
-===============================
+------------
 
-In the aftermath of the spam attack a group of Burst enthusiasts formed the [Proof-of-Capacity Consortium (PoCC)](poc-consortium.md). The original announcement of the group was posted on the third anniversary of the Burst blockchain on August 11th of 2017[20]. Initial activities of the group included improving the wallet software and providing a reliable block explorer.
+In the aftermath of the spam attack a group of Burst enthusiasts formed the Proof-of-Capacity Consortium (PoCC). The original announcement of the group was posted on the third anniversary of the Burst blockchain on August 11th of 2017[20]. Initial activities of the group included improving the wallet software and providing a reliable block explorer.
 
 Release of the Dymaxion White Paper
-===================================
+------------
 
-On December, 27th 2017 the PoC Consortium released a white paper titled “[The Burst Dymaxion](https://dymaxion.burst.cryptoguru.org/The-Burst-Dymaxion-1.00.pdf)” This white paper describes a proposed layer to the Burst blockchain capable of sustaining the total global load of non-cash transactions. The implementation of The Dymaxion by the PoC Consortium is ongoing.
+On December, 27th 2017 the PoC Consortium released a white paper titled “The Burst Dymaxion". This white paper describes a proposed layer to the Burst blockchain capable of sustaining the total global load of non-cash transactions. The implementation of The Dymaxion by the PoC Consortium is ongoing.
+
+PoCC Leaves, BAT Enters
+------------
+In early 2019, PoCC stepped down and a new group of community members emerged to carry the torch. The Burst Alliance, comprised of experienced software engineers and marketing experts, have committed to performing ongoing Burst development and marketing into the future.
 
 References
-==========
-
-<references />
+------------
 
 [1] <https://bitcointalk.org/index.php?topic=731923.0>
 

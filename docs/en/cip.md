@@ -35,7 +35,7 @@ It also helps to make sure the idea is applicable to the entire community and no
 
 Once the champion has asked the Burstcoin community as to whether an idea has any chance of acceptance, a draft CIP should be presented to the [Burst Discord Forum](https://discord.gg/PMUgVSY). This gives the author a chance to flesh out the draft CIP to make it properly formatted, of high quality, and to address additional concerns about the proposal.
 
-Following a discussion, the proposal should be submitted to the [CIPs repository](https://github.com/PoC-Consortium/CIPs). This draft must be written in CIP style as described below, and named with an alias such as “cip-johndoe-infiniteburstcoins” until an editor has assigned it a CIP number (authors MUST NOT self-assign CIP numbers).
+Following a discussion, the proposal should be submitted to the [CIPs repository](https://github.com/burst-apps-team/CIPs). This draft must be written in CIP style as described below, and named with an alias such as “cip-johndoe-infiniteburstcoins” until an editor has assigned it a CIP number (authors MUST NOT self-assign CIP numbers).
 
 CIP authors are responsible for collecting community feedback on both the initial idea and the CIP before submitting it for review. However, wherever possible, long open-ended discussions on public mailing lists should be avoided. Strategies to keep the discussions efficient include: setting up a separate SIG mailing list for the topic, having the CIP author accept private comments in the early design phases, setting up a wiki page etc. CIP authors should use their discretion here.
 
@@ -59,11 +59,11 @@ If you are interested in assuming ownership of a CIP, send a message asking to t
 
 ### CIP Editors
 
-The current CIP editors are rico666 who can be contacted at <bots@cryptoguru.org> and umbrellacorp03 who can be contacted on Discord.
+The current CIP editors can be contacted on Discord.
 
 ### CIP Editor Responsibilities & Workflow
 
-The CIP editor is present in the Burst Discord channel. Off-list CIP-related correspondence should be sent (or CC'd) to bots@cryptoguru.org.
+The CIP editor is present in the Burst Discord channel.
 
 For each new CIP that comes in an editor does the following:
 
@@ -76,7 +76,7 @@ For each new CIP that comes in an editor does the following:
 
 If the CIP isn't ready, the editor will send it back to the author for revision, with specific instructions.
 
-Once the CIP is ready for the repository it should be submitted to the [CIPs repository](https://github.com/PoC-Consortium/CIPs) where it may get further feedback.
+Once the CIP is ready for the repository it should be submitted to the [CIPs repository](https://github.com/burst-apps-team/CIPs) where it may get further feedback.
 
 The CIP editor will:
 
@@ -184,4 +184,4 @@ API/RPC and application layer CIPs must be implemented by at least two independe
 
 Software authors are encouraged to publish summaries of what CIPs their software supports to aid in verification of status changes.
 
-These criteria are considered objective ways to observe the de facto adoption of the CIP, and are not to be used as reasons to oppose or reject a CIP. Should a CIP become actually and unambiguously adopted despite not meeting the criteria outlined here, it should still be updated to Final status. --&gt; </translate>
+These criteria are considered objective ways to observe the de facto adoption of the CIP, and are not to be used as reasons to oppose or reject a CIP. Should a CIP become actually and unambiguously adopted despite not meeting the criteria outlined here, it should still be updated to Final status. --&gt;
