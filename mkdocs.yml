@@ -44,6 +44,7 @@ pages:
     - BRS Windows Installation: en/brs-windows-installation.md
     - Burst Blockchain: en/burst-blockchain.md
     - Burstcoin Reference Software: en/burst-reference-software.md
+    - Burst's Features: en/bursts-features.md
     - Burst Services: en/burst-services.md
     - Burst Software: en/burst-software.md
     - Burst Support for ERC20 tokens: en/burst-support-for-erc20-tokens.md
@@ -51,7 +52,6 @@ pages:
     - Burst Wiki: en/burst-wiki.md
     - CIP: en/cip.md
     - Colored Coins: en/colored-coins.md
-    - Current Features: en/current-features.md
     - Engraver - How to compile from source: en/engraver---how-to-compile-from-source.md
     - Exchanges: en/exchanges.md
     - FAQ: en/faq.md
@@ -61,16 +61,12 @@ pages:
     - Join Us: en/join-us-.md
     - List of Burst Related Websites: en/list-of-burst-related-websites.md
     - List of International Burst Websites: en/list-of-international-burst-websites.md
-    - MacOS Burst Wallet Installation: en/macos-burst-wallet-installation.md
     - Marketplace: en/marketplace.md
     - Mining: en/mining.md
     - Mobile App: en/mobile-app.md
     - Mortimer: en/mortimer.md
-    - NXT default properties configuration file: en/nxt-default-properties-configuration-file.md
     - Offline Transaction Signing: en/offline-transaction-signing.md
     - Pchains: en/pchains.md
-    - Plotting Software: en/plot-software.md
-    - Plotter: en/plotter.md
     - Plotting: en/plotting.md
     - PoCC Mobile App: en/pocc-mobile-app.md
     - Proof of Capacity: en/proof-of-capacity.md

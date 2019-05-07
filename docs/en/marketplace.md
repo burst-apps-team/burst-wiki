@@ -1,8 +1,4 @@
-<languages/>
-
-<translate>
-
-Description
+Introduction
 -----------
 
 The Burst Marketplace provides a protocol for decentralized, peer-to-peer stores for any kind of digital goods like software, music or video. You browse the sellers products, place an order and the seller will send you information of how to download the good.
@@ -10,8 +6,16 @@ The Burst Marketplace provides a protocol for decentralized, peer-to-peer stores
 Wallet Interface
 ----------------
 
-With the server running, access the local Burst wallet by visiting <http://localhost:8125/>. On the sidebar, you find the menus ‘Marketplace’ and ‘My Store’: ![](Burst-marketplace.png "fig:Burst-marketplace.png")
-{| |- |**Search Marketplace**: Enter the sellers address to see his products. |- |**Purchased Products**: This page will list all your previously purchased products. |- |**My Products For Sale**: Lists the items you are selling in the marketplace, and gives you the ability to update your offerns. |- |**My Pending Orders**: Here you will see pending orders from users who wants to buy a product. |- |**My Completed Orders**: Shows all finished orders feedbacks from your customer. |- |**List Product For Sale**: Here you add a new digital good in the marketplace. |}
+With the server running, access the local Burst wallet by visiting <http://localhost:8125/>. On the sidebar, you find the menus ‘Marketplace’ and ‘My Store’: 
+
+![](../../media/Burst-marketplace.png "fig:Burst-marketplace.png")
+
+- **Search Marketplace**: Enter the sellers address to see his products. 
+- **Purchased Products**: This page will list all your previously purchased products. 
+- **My Products For Sale**: Lists the items you are selling in the marketplace, and gives you the ability to update your offerns. 
+- **My Pending Orders**: Here you will see pending orders from users who wants to buy a product. 
+- **My Completed Orders**: Shows all finished orders feedbacks from your customer. 
+- **List Product For Sale**: Here you add a new digital good in the marketplace.
 
 How To
 ------
@@ -50,12 +54,3 @@ You can list your digital goods on marketplace:
 8.  Enter details on how the buyer can download your digital good in the ‘Data’ field. Optional you can give a ‘Discount’ to the buyer.
 9.  Enter your ‘Passphrase’ and hit the ‘Deliver Purchase’ button to finalize the purchase.
 10. You can find the completed order in the ‘My Completed Orders’ menu. For details click on the product name. Here you can see if the buyer has sent you feedback and you may also refund purchase.
-
-External Links
---------------
-
--   [burst-team.us: Forum Marketplace](https://forums.burst-team.us/category/14/marketplace/)
-
-</translate>
-
-<Category:Features>
