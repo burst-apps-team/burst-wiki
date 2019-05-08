@@ -1,6 +1,9 @@
-The **Softfork Wishlist** is to record changes to Burstcoin that might be desirable, but that will require a [“soft” block-chain split](softfork.md) (consensus of the miners). These changes are implemented by convincing a majority of the miners to reject or [discourage](discouraged-block.md) blocks that were previously considered valid.
+Introduction
+-----------
 
-Cryptographic changes
+The **Softfork Wishlist** is to record changes to Burstcoin that might be desirable, but that will require a “soft” block-chain split" (consensus of the miners). These changes are implemented by convincing a majority of the miners to reject or discourage blocks that were previously considered valid.
+
+Cryptographic Changes
 ---------------------
 
 -   Support for more than one public-key cryptosystem

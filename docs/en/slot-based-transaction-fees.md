@@ -1,35 +1,35 @@
-With the Pre-Dymaxion Hard Fork Burst changed to a progressive transaction fee system based on slots which is described in the Dymaxion paper.
+Introduction
+----------
+
+With the Pre-Dymaxion Hard Fork, Burst changed to a progressive transaction fee system based on slots which is described in the Dymaxion paper.
 
 Motivation
-==========
+----------
 
 The slot-based transaction fee system allows for variable fees depending on the transaction load on the blockchain. As a secondary goal it prevents spamming blocks with lots of transactions with minimum fees. Such transactions that are only created because they require little to no investment are considered wasteful, because space on the blockchain is a scarce resource. We want to minimize the total blockchain space because it allows for lower cost of maintaining a node.
 
 Slots
-=====
+----------
 
 A block is divided into 1020 slots that can each hold a transaction. The fee for the slots increases progressively in a linear fashion by \#slot \* 0.00735 BURST. Here 0.00735 is the smallest fee and called fee quant as a unit. All regular payment and multi out transactions pay the same fee for the slots. The fee for the lowest slot is 0.00735 Burst, the highest fee is 7.497 BURST. The total fee for a block where all slots are filled with the minimal required fee is 3827.2185 BURST.
 
 Assignment of Transactions to Slots
-===================================
+----------
 
 When a new block is generated, new (currently unconfirmed) transactions are assigned to the available slots. Here, each transaction is assigned to the most costly slot it fits in. If no slot is available, the transaction is not included into the block and remains unconfirmed in the mempool of the node. For included transactions, left-over funds for the slot are NOT refunded! This means if a transaction includes a fee of 0.01 BURST fee and is assigned to the first slot which costs 0.00735 BURST, it will still cost 0.01 BURST fee to process the transaction. It is up to the user to choose a reasonable fee that does not waste funds.
 
 Examples
-========
+----------
 
-Example 1
----------
+### Example 1
 
 A (legacy) fee of 1 Burst guarantees inclusion into a block with less than 136 transactions.
 
-Example 2
----------
+### Example 2
 
 A fee of 0.1 Burst guarantees inclusion into a block with less than 13 transactions.
 
-Example 3
----------
+### Example 3
 
 A more complex example of transaction assignment to slots is shown in the following:
 
