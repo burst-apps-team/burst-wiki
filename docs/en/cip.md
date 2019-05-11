@@ -8,7 +8,7 @@ So CIPs describe standards for the Burstcoin platform, including core protocol s
 Abstract
 --------
 
-A (Burst)Coin or Capability Improvement Proposal (CIP) is a design document providing information to the Burstcoin community, or describing a new feature for Burstcoin or its processes or environment. The CIP should provide a concise technical specification of the feature and a rationale for the feature.
+A (Burst)Coin or Capability Improvement Proposal (CIP) is a document providing information to the Burstcoin community, or describing a new feature for Burstcoin, its processes or environment. The CIP should provide a concise technical specification of the feature and a rationale for the feature.
 
 We intend CIPs to be the primary mechanisms for proposing new features, for collecting community input on an issue, and for documenting the design decisions that have gone into Burstcoin. The CIP author is responsible for building consensus within the community and documenting dissenting opinions.
 
@@ -17,15 +17,15 @@ Because the CIPs are maintained as text files in a versioned repository, their r
 CIP workflow
 ------------
 
-The CIP process begins with a new idea for Burstcoin. Each potential CIP must have a champion -- someone who writes the CIP using the style and format described below, shepherds the discussions in the appropriate forums, and attempts to build community consensus around the idea. The CIP champion (a.k.a. Author) should first attempt to ascertain whether the idea is CIP-able.
+The CIP process begins with a new idea for Burstcoin. Each potential CIP must have an author -- someone who writes the CIP using the style and format described below, shepherds the discussions in the appropriate forums, and attempts to build community consensus around the idea. The CIP author should first attempt to ascertain whether the idea is CIP-able.
 
-Small enhancements or patches to a particular piece of software often don't require standardisation between multiple projects; these don't need a CIP and should be injected into the relevant project-specific development workflow with a patch submission to the applicable issue tracker.
+Small enhancements or patches to a particular piece of software often don't require standardization between multiple projects; these don't need a CIP and should be injected into the relevant project-specific development workflow with a patch submission to the applicable issue tracker.
 
 Additionally, many ideas have been brought forward for changing Burstcoin that have been rejected for various reasons.
 
 The first step should be to search past discussions to see if an idea has been considered before, and if so, what issues arose in its progression.
 
-After investigating past work, the best way to proceed is by posting about the new idea to the [Burst Discord Forum](https://discord.gg/PMUgVSY).
+After investigating past work, the best way to proceed is by posting about the new idea to the [Burstcoin Discord](https://discord.gg/PMUgVSY).
 
 Vetting an idea publicly before going as far as writing a CIP is meant to save both the potential author and the wider community time.
 
@@ -33,27 +33,23 @@ Asking the Burstcoin community first if an idea is original helps prevent too mu
 
 It also helps to make sure the idea is applicable to the entire community and not just the author. Just because an idea sounds good to the author does not mean it will work for most people in most areas where Burstcoin is used.
 
-Once the champion has asked the Burstcoin community as to whether an idea has any chance of acceptance, a draft CIP should be presented to the [Burst Discord Forum](https://discord.gg/PMUgVSY). This gives the author a chance to flesh out the draft CIP to make it properly formatted, of high quality, and to address additional concerns about the proposal.
+Once the author has asked the Burstcoin community as to whether an idea has any chance of acceptance, a draft CIP should be presented to the [Burstcoin Discord](https://discord.gg/PMUgVSY). This gives the author a chance to flesh out the draft CIP to make it properly formatted, of high quality, and to address additional concerns about the proposal.
 
 Following a discussion, the proposal should be submitted to the [CIPs repository](https://github.com/burst-apps-team/CIPs). This draft must be written in CIP style as described below, and named with an alias such as “cip-johndoe-infiniteburstcoins” until an editor has assigned it a CIP number (authors MUST NOT self-assign CIP numbers).
 
-CIP authors are responsible for collecting community feedback on both the initial idea and the CIP before submitting it for review. However, wherever possible, long open-ended discussions on public mailing lists should be avoided. Strategies to keep the discussions efficient include: setting up a separate SIG mailing list for the topic, having the CIP author accept private comments in the early design phases, setting up a wiki page etc. CIP authors should use their discretion here.
+When the CIP draft is complete, the CIP editor will assign the CIP a number, label it as Standards Track, Informational, or Process.
 
-It is highly recommended that a single CIP contain a single key proposal or new idea. The more focused the CIP, the more successful it tends to be. If in doubt, split your CIP into several well-focused ones.
-
-When the CIP draft is complete, the CIP editor will assign the CIP a number, label it as Standards Track, Informational, or Process, and move the submitted text to the CIPs repository.
-
-The CIP editor reviews incoming CIPs for their formal completeness and will not unreasonably reject a CIP.
+Once the CIP has been approved for draft inclusion by an editor (who must ensure that the above steps have been taken), the CIP will be merged with draft status, and the editor will open a new pull request to activate the CIP. This pull request will serve as the comments / discussion thread for the CIP and must remain open for a minimum of 30 days.
 
 Reasons for rejecting CIPs include duplication of effort, disregard for formatting rules, being too unfocused or too broad, being technically unsound, not providing proper motivation or addressing backwards compatibility, or not in keeping with the Burstcoin philosophy.
 
-For a CIP to be accepted it must meet certain minimum criteria. It must be a clear and complete description of the proposed enhancement. The enhancement must represent a net improvement. The proposed implementation, if applicable, must be solid and must not complicate the protocol unduly.
+It is highly recommended that a single CIP contain a single key proposal or new idea. The more focused the CIP, the more successful it tends to be. If in doubt, split your CIP into several well-focused ones.
 
-The CIP author may update the draft as necessary in the wiki. Updates to drafts should also be submitted by the author.
+For a CIP to be accepted it must meet certain minimum criteria. It must be a clear and complete description of the proposed enhancement. The enhancement must represent a net improvement. The proposed implementation, if applicable, must be solid and must not complicate the protocol unduly.
 
 ### Transferring CIP Ownership
 
-It occasionally becomes necessary to transfer ownership of CIPs to a new champion. In general, we'd like to retain the original author as a co-author of the transferred CIP, but that's really up to the original author. A good reason to transfer ownership is because the original author no longer has the time or interest in updating it or following through with the CIP process, or has fallen off the face of the 'net (i.e. is unreachable or not responding to email). A bad reason to transfer ownership is because you don't agree with the direction of the CIP. We try to build consensus around a CIP, but if that's not possible, you can always submit a competing CIP.
+It occasionally becomes necessary to transfer ownership of CIPs to a new author. In general, we'd like to retain the original author as a co-author of the transferred CIP, but that's really up to the original author. A good reason to transfer ownership is because the original author no longer has the time or interest in updating it or following through with the CIP process, or has fallen off the face of the 'net (i.e. is unreachable or not responding to email). A bad reason to transfer ownership is because you don't agree with the direction of the CIP. We try to build consensus around a CIP, but if that's not possible, you can always submit a competing CIP.
 
 If you are interested in assuming ownership of a CIP, send a message asking to take over, addressed to both the original author and the CIP editor. If the original author doesn't respond to email in a timely manner, the CIP editor will make a unilateral decision (it's not like such decisions can't be reversed :).
 
@@ -162,11 +158,11 @@ CIP status field
 
 The typical paths of the status of CIPs are in the CIP Workflow diagram. ![CIP Workflow](CIP_Workflow.png "fig:CIP Workflow")
 
-Champions of a CIP may decide on their own to change the status between `Draft`, `Deferred`, or `Withdrawn`. The CIP editor may also change the status to `Deferred` when no progress is being made on the CIP.
+Authors of a CIP may decide on their own to change the status between `Draft`, `Deferred`, or `Withdrawn`. The CIP editor may also change the status to `Deferred` when no progress is being made on the CIP.
 
 A CIP may only change status from `Draft` (or `Rejected`) to `Proposed`, when the author deems it is complete, has a working implementation (where applicable), and has community plans to progress it to the `Final` status.
 
-CIPs should be changed from `Draft` or `Proposed` status, to `Rejected` status, upon request by any person, if they have not made progress in three years. Such a CIP may be changed to `Draft` status if the champion provides revisions that meaningfully address public criticism of the proposal, or to `Proposed` status if it meets the criteria required as described in the previous paragraph.
+CIPs should be changed from `Draft` or `Proposed` status, to `Rejected` status, upon request by any person, if they have not made progress in three years. Such a CIP may be changed to `Draft` status if the author provides revisions that meaningfully address public criticism of the proposal, or to `Proposed` status if it meets the criteria required as described in the previous paragraph.
 
 An Proposed CIP may progress to `Final` only when specific criteria reflecting real-world adoption has occurred. This is different for each CIP depending on the nature of its proposed changes, which will be expanded on below. Evaluation of this status change should be objectively verifiable, and/or be discussed on the development channel(s).
 
