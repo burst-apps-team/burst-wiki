@@ -108,7 +108,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
-      <a href="#cryptographic-changes" tabindex="1" class="md-skip">
+      <a href="#introduction" tabindex="1" class="md-skip">
         Skip to content
       </a>
     
@@ -546,6 +546,18 @@
 
 
   <li class="md-nav__item">
+    <a href="../bursts-features/" title="Burst's Features" class="md-nav__link">
+      Burst's Features
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
     <a href="../burst-services/" title="Burst Services" class="md-nav__link">
       Burst Services
     </a>
@@ -620,18 +632,6 @@
   <li class="md-nav__item">
     <a href="../colored-coins/" title="Colored Coins" class="md-nav__link">
       Colored Coins
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../current-features/" title="Current Features" class="md-nav__link">
-      Current Features
     </a>
   </li>
 
@@ -750,18 +750,6 @@
 
 
   <li class="md-nav__item">
-    <a href="../macos-burst-wallet-installation/" title="MacOS Burst Wallet Installation" class="md-nav__link">
-      MacOS Burst Wallet Installation
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
     <a href="../marketplace/" title="Marketplace" class="md-nav__link">
       Marketplace
     </a>
@@ -810,18 +798,6 @@
 
 
   <li class="md-nav__item">
-    <a href="../nxt-default-properties-configuration-file/" title="NXT default properties configuration file" class="md-nav__link">
-      NXT default properties configuration file
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
     <a href="../offline-transaction-signing/" title="Offline Transaction Signing" class="md-nav__link">
       Offline Transaction Signing
     </a>
@@ -836,30 +812,6 @@
   <li class="md-nav__item">
     <a href="../pchains/" title="Pchains" class="md-nav__link">
       Pchains
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../plot-software/" title="Plotting Software" class="md-nav__link">
-      Plotting Software
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../plotter/" title="Plotter" class="md-nav__link">
-      Plotter
     </a>
   </li>
 
@@ -1097,8 +1049,15 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#cryptographic-changes" title="Cryptographic changes" class="md-nav__link">
-    Cryptographic changes
+  <a href="#introduction" title="Introduction" class="md-nav__link">
+    Introduction
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cryptographic-changes" title="Cryptographic Changes" class="md-nav__link">
+    Cryptographic Changes
   </a>
   
 </li>
@@ -1582,8 +1541,15 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#cryptographic-changes" title="Cryptographic changes" class="md-nav__link">
-    Cryptographic changes
+  <a href="#introduction" title="Introduction" class="md-nav__link">
+    Introduction
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cryptographic-changes" title="Cryptographic Changes" class="md-nav__link">
+    Cryptographic Changes
   </a>
   
 </li>
@@ -1609,8 +1575,9 @@
                 
                   <h1>Softfork Wishlist</h1>
                 
-                <p>The <strong>Softfork Wishlist</strong> is to record changes to Burstcoin that might be desirable, but that will require a <a href="softfork.md">“soft” block-chain split</a> (consensus of the miners). These changes are implemented by convincing a majority of the miners to reject or <a href="discouraged-block.md">discourage</a> blocks that were previously considered valid.</p>
-<h2 id="cryptographic-changes">Cryptographic changes</h2>
+                <h2 id="introduction">Introduction</h2>
+<p>The <strong>Softfork Wishlist</strong> is to record changes to Burstcoin that might be desirable, but that will require a “soft” block-chain split" (consensus of the miners). These changes are implemented by convincing a majority of the miners to reject or discourage blocks that were previously considered valid.</p>
+<h2 id="cryptographic-changes">Cryptographic Changes</h2>
 <ul>
 <li>Support for more than one public-key cryptosystem</li>
 <li>Support for a <a href="http://en.wikipedia.org/wiki/Post-quantum_cryptography">post-quantum</a> signature scheme. <a href="http://en.wikipedia.org/wiki/Lamport_signature">Lamport signatures</a> have nice intuitive security properties, but it has extreme space requirements that would require structural changes to the blockchain to accommodate, namely pruning. However other post-quantum schemes like <a href="http://en.wikipedia.org/wiki/NTRU">IEEE1363.1</a> (patent expired in 2016) do not. See the <a href="http://pqcrypto.org/www.springer.com/cda/content/document/cda_downloaddocument/9783540887010-c1.pdf">introductory chapter of DJB's book</a> and the <a href="http://pqcrypto.org">PQCrypto conference webpage</a> for full details.</li>

@@ -108,7 +108,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
-      <a href="#description" tabindex="1" class="md-skip">
+      <a href="#introduction" tabindex="1" class="md-skip">
         Skip to content
       </a>
     
@@ -546,6 +546,18 @@
 
 
   <li class="md-nav__item">
+    <a href="../bursts-features/" title="Burst's Features" class="md-nav__link">
+      Burst's Features
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
     <a href="../burst-services/" title="Burst Services" class="md-nav__link">
       Burst Services
     </a>
@@ -628,18 +640,6 @@
           
           
 
-
-  <li class="md-nav__item">
-    <a href="../current-features/" title="Current Features" class="md-nav__link">
-      Current Features
-    </a>
-  </li>
-
-        
-          
-          
-          
-
   
 
 
@@ -665,8 +665,8 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#description" title="Description" class="md-nav__link">
-    Description
+  <a href="#introduction" title="Introduction" class="md-nav__link">
+    Introduction
   </a>
   
 </li>
@@ -819,18 +819,6 @@
 
 
   <li class="md-nav__item">
-    <a href="../macos-burst-wallet-installation/" title="MacOS Burst Wallet Installation" class="md-nav__link">
-      MacOS Burst Wallet Installation
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
     <a href="../marketplace/" title="Marketplace" class="md-nav__link">
       Marketplace
     </a>
@@ -879,18 +867,6 @@
 
 
   <li class="md-nav__item">
-    <a href="../nxt-default-properties-configuration-file/" title="NXT default properties configuration file" class="md-nav__link">
-      NXT default properties configuration file
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
     <a href="../offline-transaction-signing/" title="Offline Transaction Signing" class="md-nav__link">
       Offline Transaction Signing
     </a>
@@ -905,30 +881,6 @@
   <li class="md-nav__item">
     <a href="../pchains/" title="Pchains" class="md-nav__link">
       Pchains
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../plot-software/" title="Plotting Software" class="md-nav__link">
-      Plotting Software
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../plotter/" title="Plotter" class="md-nav__link">
-      Plotter
     </a>
   </li>
 
@@ -1617,8 +1569,8 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#description" title="Description" class="md-nav__link">
-    Description
+  <a href="#introduction" title="Introduction" class="md-nav__link">
+    Introduction
   </a>
   
 </li>
@@ -1679,23 +1631,7 @@
                 
                   <h1>Engraver - How to compile from source</h1>
                 
-                <p><languages></languages></p>
-<table>
-<thead>
-<tr>
-<th>Engraver - How to compile from source</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Status</strong></td>
-</tr>
-<tr>
-<td><strong>Credits</strong></td>
-</tr>
-</tbody>
-</table>
-<h2 id="description">Description</h2>
+                <h2 id="introduction">Introduction</h2>
 <p>Engraver is the reference Burstcoin (or Burst) cross-platform plotting software, endorsed by the PoC Consortium, created to further improve and optimize Burst plot file creation.</p>
 <p>The following steps are to install Engraver 2.2.0 by compiling from source on a fresh installation of <strong>Debian Linux version 9 “Stretch”</strong>. Please be sure to check Git Repository for the latest release before proceeding.</p>
 <p><strong>Note:</strong> Commands to be entered into the shell will be formatted in bold text, e.g.:</p>
@@ -1713,41 +1649,43 @@
 <p><strong><code>su</code></strong></p>
 <p>Enter root password</p>
 <p>Install curl, git and build essential packages:</p>
-<p><strong><code>apt`` ``install`` ``curl`` ``git`` ``build-essential`` ``-y</code></strong></p>
+<p><strong><code>apt install curl git build-essential -y</code></strong></p>
 <p>Once the above packages have completed installation, its time to install Rust.</p>
 <h2 id="installing-rust-stable">Installing Rust (stable)</h2>
 <p>To install Rust, run the following command:</p>
-<p><strong><code>curl``</code><a href="https://sh.rustup.rs"><code>https://sh.rustup.rs</code></a><code>``-sSf`` ``|`` ``sh</code></strong></p>
+<p><strong><code>curl https://sh.rustup.rs -sSf | sh</code></strong></p>
 <p>You will be presented with three options (see below):</p>
-<p><code>Current installation options:</code>
-<code>default host triple: x86_64-unknown-linux-gnu</code>
-<code>default toolchain: stable</code>
-<code>modify PATH variable: yes</code>
-<code>1) Proceed with installation (default)</code>
-<code>2) Customize installation</code>
-<code>3) Cancel installation</code>
-<code>&gt;</code></p>
+<pre><code>Current installation options:
+  default host triple: x86_64-unknown-linux-gnu
+    default toolchain: stable
+ modify PATH variable: yes
+1) Proceed with installation (default)
+2) Customize installation
+3) Cancel installation
+&gt;
+</code></pre>
+
 <p>Chose <strong>option 1</strong> to install</p>
 <p>Once installation is complete, follow the instructions to configure your current terminal sessions' environment variable so that you can run Rust related commands:</p>
-<p><strong><code>source`` ``$HOME/.cargo/env</code></strong></p>
+<p><strong><code>source $HOME/.cargo/env</code></strong></p>
 <p>To confirm the instalation of the correct channel of Rust, type the following:</p>
-<p><strong><code>rustc`` ``--version</code></strong></p>
+<p><strong><code>rustc --version</code></strong></p>
 <p>This should give you the output below:</p>
 <p><code>rustc 1.31.0 (abe02cefd 2018-12-04)</code></p>
 <h2 id="obtaining-the-source-files">Obtaining the source files</h2>
 <p>To download the source files from the Git repository, run the following command, (please make sure to check the exact path to the latest version) :</p>
-<p><strong><code>git`` ``clone``</code><a href="https://github.com/PoC-Consortium/engraver"><code>https://github.com/PoC-Consortium/engraver</code></a></strong></p>
+<p><strong><code>git clone https://github.com/PoC-Consortium/engraver</code></strong></p>
 <p>This will download and extract the files to the engraver sub directory (from where your present working directory is)</p>
 <h2 id="compiling-the-source-files">Compiling the source files</h2>
 <p>Navigate to the engraver directory:</p>
-<p><strong><code>cd`` ``engraver</code></strong></p>
+<p><strong><code>cd engraver</code></strong></p>
 <p>build the application:</p>
-<p><strong><code>cargo`` ``build`` ``--release</code></strong></p>
+<p><strong><code>cargo build --release</code></strong></p>
 <h2 id="running-engraver">Running Engraver</h2>
 <p>Once the above has completed, navigate to the executable:</p>
-<p><strong><code>cd`` ``/target/release</code></strong></p>
+<p><strong><code>cd /target/release</code></strong></p>
 <p>From here you can run engraver and begin plotting. Example command:</p>
-<p><strong><code>./engraver`` ``--n`` ``1000`` ``--id`` ``12345678912345678912`` ``--path`` ``/home/burst/Burst`` ``--sn`` ``0</code></strong></p>
+<p><strong><code>./engraver --n 1000 --id 12345678912345678912 --path /home/burst/Burst --sn 0</code></strong></p>
 <p>To understand the complete range of flags/options available for the engraver application, please read the <a href="https://github.com/PoC-Consortium/engraver/wiki">Wiki</a> page on GitHub.</p>
                 
                   
@@ -1769,7 +1707,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../current-features/" title="Current Features" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../colored-coins/" title="Colored Coins" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -1778,7 +1716,7 @@
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                Current Features
+                Colored Coins
               </span>
             </div>
           </a>

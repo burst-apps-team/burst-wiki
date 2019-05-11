@@ -108,7 +108,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
-      <a href="#advantages-of-poc" tabindex="1" class="md-skip">
+      <a href="#introduction" tabindex="1" class="md-skip">
         Skip to content
       </a>
     
@@ -546,6 +546,18 @@
 
 
   <li class="md-nav__item">
+    <a href="../bursts-features/" title="Burst's Features" class="md-nav__link">
+      Burst's Features
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
     <a href="../burst-services/" title="Burst Services" class="md-nav__link">
       Burst Services
     </a>
@@ -620,18 +632,6 @@
   <li class="md-nav__item">
     <a href="../colored-coins/" title="Colored Coins" class="md-nav__link">
       Colored Coins
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../current-features/" title="Current Features" class="md-nav__link">
-      Current Features
     </a>
   </li>
 
@@ -750,18 +750,6 @@
 
 
   <li class="md-nav__item">
-    <a href="../macos-burst-wallet-installation/" title="MacOS Burst Wallet Installation" class="md-nav__link">
-      MacOS Burst Wallet Installation
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
     <a href="../marketplace/" title="Marketplace" class="md-nav__link">
       Marketplace
     </a>
@@ -810,18 +798,6 @@
 
 
   <li class="md-nav__item">
-    <a href="../nxt-default-properties-configuration-file/" title="NXT default properties configuration file" class="md-nav__link">
-      NXT default properties configuration file
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
     <a href="../offline-transaction-signing/" title="Offline Transaction Signing" class="md-nav__link">
       Offline Transaction Signing
     </a>
@@ -836,30 +812,6 @@
   <li class="md-nav__item">
     <a href="../pchains/" title="Pchains" class="md-nav__link">
       Pchains
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../plot-software/" title="Plotting Software" class="md-nav__link">
-      Plotting Software
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../plotter/" title="Plotter" class="md-nav__link">
-      Plotter
     </a>
   </li>
 
@@ -899,12 +851,58 @@
     
     <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
     
-      
     
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Proof of Capacity
+      </label>
     
     <a href="./" title="Proof of Capacity" class="md-nav__link md-nav__link--active">
       Proof of Capacity
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" title="Introduction" class="md-nav__link">
+    Introduction
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#advantages-of-poc" title="Advantages of PoC" class="md-nav__link">
+    Advantages of PoC
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#further-reading" title="Further Reading" class="md-nav__link">
+    Further Reading
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#references" title="References" class="md-nav__link">
+    References
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
     
   </li>
 
@@ -1552,8 +1550,43 @@
 <nav class="md-nav md-nav--secondary">
   
   
-    
   
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" title="Introduction" class="md-nav__link">
+    Introduction
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#advantages-of-poc" title="Advantages of PoC" class="md-nav__link">
+    Advantages of PoC
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#further-reading" title="Further Reading" class="md-nav__link">
+    Further Reading
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#references" title="References" class="md-nav__link">
+    References
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
   
 </nav>
                   </div>
@@ -1568,19 +1601,27 @@
                   <a href="https://github.com/burst-apps-team/burst-wiki/edit/master/docs/en/proof-of-capacity.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
                 
                 
-                <p>Proof of Capacity PoC (also called Proof of Space) is, in general, a mechanism to ensure that a party has dedicated a particular (significant) amount of storage space towards a specific goal. Burst uses PoC in the process of transaction verification for the validation and generation of blocks. Here, <a href="../mining/">miners</a> use a given amount of disk space to fill with <a href="plots.md">plots</a>. The more disk space is plotted, the higher the chances to generate (win) a block. PoC is thus in direct contrast to other consenus algorithms like Proof of Work (PoW) and Proof of Stake (PoS) where block generators need to proof the performance of some difficult computations or the ownership of a significant amount of currency, respectively.</p>
-<h1 id="advantages-of-poc">Advantages of PoC</h1>
+                  <h1>Proof of Capacity</h1>
+                
+                <h2 id="introduction">Introduction</h2>
+<p>Proof of Capacity PoC (also called Proof of Space) is, in general, a mechanism to ensure that a party has dedicated a particular (significant) amount of storage space towards a specific goal. Burst uses PoC in the process of transaction verification for the validation and generation of blocks. Here, <a href="../mining/">miners</a> use a given amount of disk space to fill with <a href="../plotting/">plots</a>. The more disk space is plotted, the higher the chances to generate (win) a block. PoC is thus in direct contrast to other consenus algorithms like Proof of Work (PoW) and Proof of Stake (PoS) where block generators need to proof the performance of some difficult computations or the ownership of a significant amount of currency, respectively.</p>
+<h2 id="advantages-of-poc">Advantages of PoC</h2>
 <p>In contrast to PoW, PoC is considered to be more eco friendly [1]. While PoW requires expensive computations each time a block is generated, PoC puts most of the required computational costs up-front in the plotting process[2]. Reading the plots in order to proof the designated disk space investment is much cheaper. Additionaly, users can mine using their existing hardware, instead of having to to invest in special purpose hardware like e.g. ASICS for Bitcoin mining.</p>
 <p>In contrast to PoS, PoC allows a fairer distribution of coins as they are generated over time and assigned to active miners. In a PoS coin like NXT, the number of coins is fixed from the beginning and has to be distributed <em>somehow</em> initially. This leads to an unequal distribution of wealth to a few selected early adopters, e.g. via airdrops.</p>
-<h1 id="further-reading">Further Reading</h1>
+<h2 id="further-reading">Further Reading</h2>
 <ul>
 <li><a href="https://eprint.iacr.org/2013/796.pdf">Proofs of Space</a> paper by Dziembowski, Faust, Kolmogorov and Pietrzak</li>
 <li><a href="https://eprint.iacr.org/2015/528.pdf">SpaceMint</a> paper by Sunoo Park, Kwon, Fuchsbauer, Pietrzak et al.</li>
 </ul>
-<h1 id="references">References</h1>
-<p><references /></p>
-<p>[1] <a href="https://www.burstcoin.ist/how-burst-puts-bitcoin-to-shame/">https://www.burstcoin.ist/how-burst-puts-bitcoin-to-shame/</a></p>
-<p>[2] <a href="https://www.burstcoin.ist/the-burst-mining-process-explained/">https://www.burstcoin.ist/the-burst-mining-process-explained/</a></p>
+<h2 id="references">References</h2>
+<ol>
+<li>
+<p><a href="https://www.burstcoin.ist/how-burst-puts-bitcoin-to-shame/">https://www.burstcoin.ist/how-burst-puts-bitcoin-to-shame/</a></p>
+</li>
+<li>
+<p><a href="https://www.burstcoin.ist/the-burst-mining-process-explained/">https://www.burstcoin.ist/the-burst-mining-process-explained/</a></p>
+</li>
+</ol>
                 
                   
                 

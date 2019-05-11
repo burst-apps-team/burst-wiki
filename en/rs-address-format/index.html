@@ -546,6 +546,18 @@
 
 
   <li class="md-nav__item">
+    <a href="../bursts-features/" title="Burst's Features" class="md-nav__link">
+      Burst's Features
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
     <a href="../burst-services/" title="Burst Services" class="md-nav__link">
       Burst Services
     </a>
@@ -620,18 +632,6 @@
   <li class="md-nav__item">
     <a href="../colored-coins/" title="Colored Coins" class="md-nav__link">
       Colored Coins
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../current-features/" title="Current Features" class="md-nav__link">
-      Current Features
     </a>
   </li>
 
@@ -750,18 +750,6 @@
 
 
   <li class="md-nav__item">
-    <a href="../macos-burst-wallet-installation/" title="MacOS Burst Wallet Installation" class="md-nav__link">
-      MacOS Burst Wallet Installation
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
     <a href="../marketplace/" title="Marketplace" class="md-nav__link">
       Marketplace
     </a>
@@ -810,18 +798,6 @@
 
 
   <li class="md-nav__item">
-    <a href="../nxt-default-properties-configuration-file/" title="NXT default properties configuration file" class="md-nav__link">
-      NXT default properties configuration file
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
     <a href="../offline-transaction-signing/" title="Offline Transaction Signing" class="md-nav__link">
       Offline Transaction Signing
     </a>
@@ -836,30 +812,6 @@
   <li class="md-nav__item">
     <a href="../pchains/" title="Pchains" class="md-nav__link">
       Pchains
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../plot-software/" title="Plotting Software" class="md-nav__link">
-      Plotting Software
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../plotter/" title="Plotter" class="md-nav__link">
-      Plotter
     </a>
   </li>
 
@@ -1663,7 +1615,7 @@
                 
                   <h1>RS Address Format</h1>
                 
-                <p><languages/> <translate> The well known BURST addresses of the form:</p>
+                <p>The well known BURST addresses of the form:</p>
 <p><strong>BURST-XXXX-XXXX-XXXX-XXXXX</strong></p>
 <p>are called Reed-Solomon addresses. This is the default format in the official client. where X is a non-ambiguous number or alphabetic character (the letters O and I are not used; nor are the numbers 1 and 0). Addresses are always prefixed with “BURST-”, and hyphens are used to separate the address into groups of 4, 4, 4, and then 5 characters. The addresses are NOT case-sensitive.</p>
 <p>This form of address improves reliability by introducing redundancy that can detect and correct errors when entering and using Burst account numbers.</p>
@@ -1705,7 +1657,6 @@ BURST-K4G2-FF32-WLL3-QBGEL
 <li>Append 4 symbols of parity (20 bits), produced by the <a href="http://en.wikipedia.org/wiki/Reed%E2%80%93Solomon_error_correction">Reed-Solomon encoding</a> of our 13 symbols from step one (which are left untouched). This produces a 13 + 4 = 17 symbol codeword.</li>
 <li>Scramble the codeword symbols in a predefined order and encode them 1-to-1 with an alphabet of 32 characters, splitting them into groups by dashes.</li>
 </ol>
-<p></translate></p>
                 
                   
                 
