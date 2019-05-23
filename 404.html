@@ -77,7 +77,7 @@
         function redirect() {
           let location = window.location.pathname;
           if (location === "/wiki/Main_Page" || location === "/wiki/Main_Page/") {
-            window.location.replace(window.location.hostname);
+            window.location.replace("/");
             return;
           }
           let regex = /\/wiki\/([A-Za-z_]+)/;
@@ -87,7 +87,7 @@
             while (page.includes("_")) {
               page = page.replace("_", "-");
             }
-            window.location.replace(window.location.hostname + "/en/" + page);
+            window.location.replace("/en/" + page);
           }
         }
         redirect();
