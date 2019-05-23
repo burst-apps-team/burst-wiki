@@ -76,7 +76,7 @@
       <script type="text/text/javascript">
         function redirect() {
           let location = window.location.pathname;
-          if (location === "/wiki/Main_Page") {
+          if (location === "/wiki/Main_Page" || location === "/wiki/Main_Page/") {
             window.location.replace(window.location.hostname);
             return;
           }
