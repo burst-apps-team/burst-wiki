@@ -80,6 +80,11 @@
             window.location.replace("/");
             return;
           }
+          if (location.startsWith("/burst-wiki")) {
+            location = location.replace("/burst-wiki", "")
+            window.location.replace(location);
+            return;
+          }
           let regex = /\/wiki\/([A-Za-z_]+)/;
           let found = location.match(regex);
           if (found.length >= 2) {
@@ -88,6 +93,7 @@
               page = page.replace("_", "-");
             }
             window.location.replace("/en/" + page);
+            return;
           }
         }
         redirect();
