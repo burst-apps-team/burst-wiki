@@ -29,7 +29,7 @@ The Burst system has a currency BURST used to quantify value in the system. Like
 
 Yet internally, the currency is still stored in integer form in units of NQT or NxtQuant, where 1 BURST = 10<sup>8</sup> NQT. All parameters and fields in the API involving a quantity of BURST are denominated in units of NQT, for example *feeNQT*. The only exception is the field *effectiveBalanceNXT*, used in forging calculations.
 
-Other assets can be created within Burst using [Issue Asset](Issue Asset). The issuer must specify the number of decimal places to use in quantifying the asset, and the amount of the asset to create in generic units of QNT or Quant, distinct from NQT. Quantities of assets are stored internally as integers in units of QNT, and assets are priced in NQT per QNT.
+Other assets can be created within Burst using [Issue Asset](#issue-asset). The issuer must specify the number of decimal places to use in quantifying the asset, and the amount of the asset to create in generic units of QNT or Quant, distinct from NQT. Quantities of assets are stored internally as integers in units of QNT, and assets are priced in NQT per QNT.
 
 | Decimal (BURST) | Canonical Name  | Alternate Name | NQT         |
 |-----------------|-----------------|----------------|-------------|
