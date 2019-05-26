@@ -1858,3 +1858,4 @@ Get both the Reed-Solomon account address and the account number given an accoun
 -   *requestProcessingTime* (N) is the API request processing time (in millisec)
 -   *account* (S) is the account number
 
+**Example:** Refer to [RS Convert](the-burst-api-examples.md#rs-convert) example.
