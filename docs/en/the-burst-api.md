@@ -29,7 +29,7 @@ The Burst system has a currency BURST used to quantify value in the system. Like
 
 Yet internally, the currency is still stored in integer form in units of NQT or NxtQuant, where 1 BURST = 10<sup>8</sup> NQT. All parameters and fields in the API involving a quantity of BURST are denominated in units of NQT, for example *feeNQT*. The only exception is the field *effectiveBalanceNXT*, used in forging calculations.
 
-Other assets can be created within Burst using [Issue Asset](the-burst-api-issue-asset.md). The issuer must specify the number of decimal places to use in quantifying the asset, and the amount of the asset to create in generic units of QNT or Quant, distinct from NQT. Quantities of assets are stored internally as integers in units of QNT, and assets are priced in NQT per QNT.
+Other assets can be created within Burst using [Issue Asset](Issue Asset). The issuer must specify the number of decimal places to use in quantifying the asset, and the amount of the asset to create in generic units of QNT or Quant, distinct from NQT. Quantities of assets are stored internally as integers in units of QNT, and assets are priced in NQT per QNT.
 
 | Decimal (BURST) | Canonical Name  | Alternate Name | NQT         |
 |-----------------|-----------------|----------------|-------------|
@@ -46,7 +46,7 @@ Other assets can be created within Burst using [Issue Asset](the-burst-api-issue
 All API requests that create a new transaction will accept either a *secretPhrase* or a *publicKey* parameter:
 
 -   If *secretPhrase* is supplied, a transaction is created, signed at the server, and broadcast by the server as usual.
--   If only a *publicKey* parameter is supplied as a 64-digit (32-byte) hex string, the transaction will be prepared by the server and returned in the JSON response as *transactionJSON* without a signature. This JSON object along with *secretPhrase* can then be supplied to [Sign Transaction](the-burst-api-sign-transaction.md) as *unsignedTransactionJSON* and the resulting signed *transactionJSON* can then be supplied to [Broadcast Transaction](the-burst-api-broadcast-transaction.md). This sequence allows for offline signing of transactions so that *secretPhrase* never needs to be exposed.
+-   If only a *publicKey* parameter is supplied as a 64-digit (32-byte) hex string, the transaction will be prepared by the server and returned in the JSON response as *transactionJSON* without a signature. This JSON object along with *secretPhrase* can then be supplied to [Sign Transaction](#sign-transaction) as *unsignedTransactionJSON* and the resulting signed *transactionJSON* can then be supplied to [Broadcast Transaction](#broadcast-transaction). This sequence allows for offline signing of transactions so that *secretPhrase* never needs to be exposed.
 -   *unsignedTransactionBytes* may be used instead of unsigned *transactionJSON* when there is no encrypted message. Messages to be encrypted require the *secretPhrase* for encryption and so cannot be included in *unsignedTransactionBytes*.
 
 ### Escrow Operations
@@ -54,7 +54,7 @@ All API requests that create a new transaction will accept either a *secretPhras
 All API requests that create a new transaction will accept an optional *referencedTransactionFullHash* parameter which creates a chained transaction, meaning that the new transaction cannot be confirmed unless the referenced transaction is also confirmed. This feature allows a simple way of transaction escrow:
 
 -   Alice prepares and signs a transaction A, but doesn't broadcast it by setting the *broadcast* parameter to *false*. She sends to Bob the *unsignedTransactionBytes*, the *fullHash* of the transaction, and the *signatureHash*. All of those are included in the JSON returned by the API request. (Warning: make sure not to send the signed *transactionBytes*, or the *signature* itself, as then Bob can just broadcast transaction A himself).
--   Bob prepares, signs and broadcasts transaction B, setting the *referencedTransactionFullHash* parameter to the *fullHash* of A provided by Alice. He can verify that this hash indeed belongs to the transaction he expects from Alice, by using [Calculate Full Hash](the-burst-api-calculate-full-hash.md), which takes *unsignedTransactionBytes* and *signatureHash* (both of which Alice has also sent to Bob). He can also use [Parse Transaction](the-burst-api-parse-transaction.md) to decode the unsigned bytes and inspect all transaction fields.
+-   Bob prepares, signs and broadcasts transaction B, setting the *referencedTransactionFullHash* parameter to the *fullHash* of A provided by Alice. He can verify that this hash indeed belongs to the transaction he expects from Alice, by using [Calculate Full Hash](#calculate-full-hash), which takes *unsignedTransactionBytes* and *signatureHash* (both of which Alice has also sent to Bob). He can also use [Parse Transaction](#parse-transaction) to decode the unsigned bytes and inspect all transaction fields.
 -   Transaction B is accepted in the unconfirmed transaction pool, but as long as A is still missing, B will not be confirmed, i.e. will not be included in the blockchain. If A is never submitted, B will eventually expire -- so Bob should make sure to set a long enough deadline, such as the maximum of 32767 minutes.
 -   Once in the unconfirmed transactions pool, Bob has no way of recalling B back. So now Alice can safely submit her transaction A, by just broadcasting the *signedTransactionBytes* she got in the first step. Transaction A will get included in the blockchain first, and in the next block Bob's transaction B will also be included.
 
@@ -70,11 +70,11 @@ Expired prunable data remains stored in the blockchain until removed at the same
 
 Prunable data can be preserved on a node beyond the predetermined minimum lifetime by setting the *nxt.maxPrunableLifetime* property to a larger value than two weeks or to *-1* to preserve it indefinitely. To force the node to include such preserved prunable data when transactions and blocks are transmitted to peer nodes, set the *nxt.includeExpiredPrunables* property to *true*, thus making it an archival node.
 
-Currently, there is only one variety of prunable data in the Burst system: prunable [Arbitrary Messages](the-burst-api-arbitrary-message-system-operations.md). It has a maximum prunable data length of 42 kilobytes.
+Currently, there is only one variety of prunable data in the Burst system: prunable [Arbitrary Messages](arbitrary-messages.md). It has a maximum prunable data length of 42 kilobytes.
 
 ### Properties Files
 
-The behavior of some API calls is affected by property settings loaded from files in the *brs/conf* directory during Burst server intialization. This directory contains the *brs-default.properties* and *logging-default.properties* files, both of which contain default property settings along with documentation. A few of the property settings can be obtained while the server is running through the [Get Blockchain Status](the-burst-api-get-blockchain-status.md) and [Get State](the-burst-api-get-state.md) calls.
+The behavior of some API calls is affected by property settings loaded from files in the *brs/conf* directory during Burst server intialization. This directory contains the *brs-default.properties* and *logging-default.properties* files, both of which contain default property settings along with documentation. A few of the property settings can be obtained while the server is running through the [Get Blockchain Status](#get-blockchain) and [Get State](#get-state) calls.
 
 It is recommended not to modify default properties files because they can be overwritten during software updates. Instead, properties in the default files can be overridden by including them in optional *brs.properties* and *logging.properties* files in the same directory. For example, a *brs.properties* file can be created with the content:
 
@@ -85,25 +85,25 @@ This causes the Burst server to connect to the [TestNet](testnet.md) instead of 
 Create Transaction
 ------------------
 
-The following API calls create Burst transactions using HTTP POST requests. Follow the links for examples and HTTP POST request parameters specific to each call. Refer to the sections below for [HTTP POST request parameters](the-burst-api-create-transaction-request.md) and [JSON response fields](the-burst-api-create-transaction-response.md) common to all calls that create transactions.
+The following API calls create Burst transactions using HTTP POST requests. Follow the links for examples and HTTP POST request parameters specific to each call. Refer to the sections below for [HTTP POST request parameters](#create-transaction-request) and [JSON response fields](#create-transaction-response) common to all calls that create transactions.
 
--   [Send Money](the-burst-api-send-money.md)
--   [Set Account Info](the-burst-api-set-account-info.md)
--   [Buy / Sell Alias](the-burst-api-buy--2f-sell-alias.md)
--   [Set Alias](the-burst-api-set-alias.md)
--   [Send Message](the-burst-api-send-message.md)
--   [Cancel Order](the-burst-api-cancel-order.md)
--   [Issue Asset](the-burst-api-issue-asset.md)
--   [Place Order](the-burst-api-place-order.md)
--   [Transfer Asset](the-burst-api-transfer-asset.md)
--   [DGS Delisting](the-burst-api-dgs-delisting.md)
--   [DGS Delivery](the-burst-api-dgs-delivery.md)
--   [DGS Feedback](the-burst-api-dgs-feedback.md)
--   [DGS Listing](the-burst-api-dgs-listing.md)
--   [DGS Purchase](the-burst-api-dgs-purchase.md)
--   [DGS Quantity Change](the-burst-api-dgs-quantity-change.md)
--   [DGS Refund](the-burst-api-dgs-refund.md)
--   [Lease Balance](the-burst-api-lease-balance.md)
+-   [Send Money](#send-money)
+-   [Set Account Info](#set-account-info)
+-   [Buy / Sell Alias](#buy--2f-sell-alias)
+-   [Set Alias](#set-alias)
+-   [Send Message](#send-message)
+-   [Cancel Order](#cancel-order)
+-   [Issue Asset](#issue-asset)
+-   [Place Order](#place-order)
+-   [Transfer Asset](#transfer-asset)
+-   [DGS Delisting](#dgs-delisting)
+-   [DGS Delivery](#dgs-delivery)
+-   [DGS Feedback](#dgs-feedback)
+-   [DGS Listing](#dgs-listing)
+-   [DGS Purchase](#dgs-purchase)
+-   [DGS Quantity Change](#dgs-quantity-change)
+-   [DGS Refund](#dgs-refund)
+-   [Lease Balance](#lease-balance)
 
 ### Create Transaction Request
 
@@ -111,14 +111,14 @@ The following HTTP POST parameters are common to all API calls that create trans
 
 For `feeNQT`, please refer to the following “rules”:
 
--   minimum 1000 BURST for [Issue Asset](the-burst-api-issue-asset.md), unless singleton asset is issued, for which the fee is 1 BURST
--   2 BURST in base fee for [Set Alias](the-burst-api-set-alias.md), with 2 BURST additional fee for each 32 chars of name plus URI total length, after the first 32 chars
--   1 BURST for the first 32 bytes of a unencrypted non-prunable [message](the-burst-api-send-message.md), 1 BURST for each additional 32 bytes
--   2 BURST for the first 32 bytes of an encrypted non-prunable [message](the-burst-api-send-message.md), 1 BURST for each additional 32 bytes. The length is measured excluding the nonce and the 16 byte AES initialization vector.
--   1 BURST for the first 1024 bytes of a prunable [message](the-burst-api-send-message.md), 0.1 BURST for each additional 1024 prunable bytes
--   1 BURST for [Set Account Info](the-burst-api-set-account-info.md), including 32 chars, with 2 BURST additional fee for each 32 chars
--   2 BURST for [DGS Listing](the-burst-api-dgs-listing.md), including 32 chars of name plust description. With 2 BURST additional fee for each 32 chars.
--   1 BURST for [DGS Delivery](the-burst-api-dgs-delivery.md), including 32 bytes of encrypted goods data (AES initialization bytes and nonce excluded). With 2 BURST additional fee for each 32 bytes.
+-   minimum 1000 BURST for [Issue Asset](#issue-asset), unless singleton asset is issued, for which the fee is 1 BURST
+-   2 BURST in base fee for [Set Alias](#set-alias), with 2 BURST additional fee for each 32 chars of name plus URI total length, after the first 32 chars
+-   1 BURST for the first 32 bytes of a unencrypted non-prunable [message](#send-message), 1 BURST for each additional 32 bytes
+-   2 BURST for the first 32 bytes of an encrypted non-prunable [message](#send-message), 1 BURST for each additional 32 bytes. The length is measured excluding the nonce and the 16 byte AES initialization vector.
+-   1 BURST for the first 1024 bytes of a prunable [message](#send-message), 0.1 BURST for each additional 1024 prunable bytes
+-   1 BURST for [Set Account Info](#set-account-info), including 32 chars, with 2 BURST additional fee for each 32 chars
+-   2 BURST for [DGS Listing](#dgs-listing), including 32 chars of name plust description. With 2 BURST additional fee for each 32 chars.
+-   1 BURST for [DGS Delivery](#dgs-delivery), including 32 bytes of encrypted goods data (AES initialization bytes and nonce excluded). With 2 BURST additional fee for each 32 bytes.
 -   2 BURST for transactions that make use of referencedTransactionFullHash property when creating a new transaction.
 -   Dynamic tx fee otherwise, where 1 BURST = 100000000 NQT
 
@@ -131,7 +131,7 @@ For `feeNQT`, please refer to the following “rules”:
 | 765   | 5.62275 |
 | 1020  | 7.49700 |
 
-**Note:** An optional arbitrary message can be appended to any transaction by adding message-related parameters as in [Send Message](the-burst-api-send-message.md).
+**Note:** An optional arbitrary message can be appended to any transaction by adding message-related parameters as in [Send Message](#send-message).
 
 ### Create Transaction Response
 
@@ -146,7 +146,7 @@ Get account information given an account ID.
 
 **Response:**
 
-**Example:** Refer to [Get Account](the-burst-api-examples-get-account.md) example.
+**Example:** Refer to [Get Account](the-burst-api-examples.md#get-account) example.
 
 ### Get Account Block Ids
 
@@ -166,7 +166,7 @@ Get an account ID given a secret passphrase or public key. POST only.
 
 **Response:**
 
-**Example:** Refer to [Get Account Id](the-burst-api-examples-get-account-id.md) example.
+**Example:** Refer to [Get Account Id](the-burst-api-examples.md#get-account-id) example.
 
 ### Get Account Lessors
 
@@ -180,7 +180,7 @@ Get the lessors to an account.
 -   *lessor* (S)
 -   *guaranteedBalanceNQT* (S)
 
-**Example:** Refer to [Get Account Lessors](the-burst-api-examples-get-account-lessors.md) example.
+**Example:** Refer to [Get Account Lessors](the-burst-api-examples.md#get-account-lessors) example.
 
 ### Get Account Public Key
 
@@ -188,27 +188,27 @@ Get the public key associated with an account ID.
 
 **Response:**
 
-**Example:** Refer to [Get Account Public Key](the-burst-api-examples-get-account-public-key.md) example.
+**Example:** Refer to [Get Account Public Key](the-burst-api-examples.md#get-account-public-key) example.
 
 ### Get Account Transaction Ids
 
-Get the transaction IDs associated with an account in reverse block timestamp order. *This call only returns non-phased transactions as of [Version 1.5.7e](burst-software-change-log-version-1-5-7e.md) and is deprecated, to be removed in version 1.6. Use [Get Blockchain Transactions](the-burst-api-get-blockchain-transactions.md) instead.*
+Get the transaction IDs associated with an account in reverse block timestamp order. *This call only returns non-phased transactions as of [Version 1.5.7e](burst-software-change-log-version-1-5-7e.md) and is deprecated, to be removed in version 1.6. Use [Get Blockchain Transactions](#get-blockchain-transactions) instead.*
 
-**Note:** Refer to [Get Constants](the-burst-api-get-constants.md) for definitions of types and subtypes
+**Note:** Refer to [Get Constants](#get-constants) for definitions of types and subtypes
 
 **Response:**
 
-**Example:** Refer to [Get Account Transaction Ids](the-burst-api-examples-get-account-transaction-ids.md) example.
+**Example:** Refer to [Get Account Transaction Ids](the-burst-api-examples.md#get-account-transaction-ids) example.
 
 ### Get Account Transactions
 
-Get the transactions associated with an account in reverse block timestamp order. *This call only returns non-phased transactions as of [Version 1.5.7e](burst-software-change-log-version-1-5-7e.md) and is depricated, to be removed in version 1.6. Use [Get Blockchain Transactions](the-burst-api-get-blockchain-transactions.md) instead.*
+Get the transactions associated with an account in reverse block timestamp order. *This call only returns non-phased transactions as of [Version 1.5.7e](burst-software-change-log-version-1-5-7e.md) and is depricated, to be removed in version 1.6. Use [Get Blockchain Transactions](#get-blockchain-transactions) instead.*
 
-**Note:** Refer to [Get Constants](the-burst-api-get-constants.md) for definitions of types and subtypes
+**Note:** Refer to [Get Constants](#get-constants) for definitions of types and subtypes
 
 **Response:**
 
-**Example:** Refer to [Get Account Transactions](the-burst-api-examples-get-account-transactions.md) example.
+**Example:** Refer to [Get Account Transactions](the-burst-api-examples.md#get-account-transactions) example.
 
 ### Get Balance
 
@@ -218,7 +218,7 @@ Get the balance of an account.
 
 **Response:**
 
-**Example:** Refer to [Get Balance](the-burst-api-examples-get-balance.md) example.
+**Example:** Refer to [Get Balance](the-burst-api-examples.md#get-balance) example.
 
 ### Get Guaranteed Balance
 
@@ -226,7 +226,7 @@ Get the balance of an account that is confirmed at least a specified number of t
 
 **Response:**
 
-**Example:** Refer to [Get Guaranteed Balance](the-burst-api-examples-get-guaranteed-balance.md) example.
+**Example:** Refer to [Get Guaranteed Balance](the-burst-api-examples.md#get-guaranteed-balance) example.
 
 ### Get Unconfirmed Transaction Ids
 
@@ -236,7 +236,7 @@ Get a list of unconfirmed transaction IDs associated with an account.
 
 **Response:**
 
-**Example:** Refer to [Get Unconfirmed Transaction Ids](the-burst-api-examples-get-unconfirmed-transaction-ids.md) example.
+**Example:** Refer to [Get Unconfirmed Transaction Ids](the-burst-api-examples.md#get-unconfirmed-transaction-ids) example.
 
 ### Get Unconfirmed Transactions
 
@@ -244,60 +244,60 @@ Get a list of unconfirmed transactions associated with an account.
 
 **Response:**
 
-**Example:** Refer to [Get Unconfirmed Transactions](the-burst-api-examples-get-unconfirmed-transactions.md) example.
+**Example:** Refer to [Get Unconfirmed Transactions](the-burst-api-examples.md#get-unconfirmed-transactions) example.
 
 ### Send Money
 
-Send BURST to an account. POST only. Refer to [Create Transaction Request](the-burst-api-create-transaction-request.md) for common parameters.
+Send BURST to an account. POST only. Refer to [Create Transaction Request](#create-transaction-request) for common parameters.
 
-**Response:** Refer to [Create Transaction Response](the-burst-api-create-transaction-response.md).
+**Response:** Refer to [Create Transaction Response](#create-transaction-response).
 
-**Example:** Refer to [Send Money](the-burst-api-examples-send-money.md) example.
+**Example:** Refer to [Send Money](the-burst-api-examples.md#send-money) example.
 
 ### Send Money Multi
 
-Send individual amounts of BURST to up to 64 recipients. POST only. Refer to [Create Transaction Request](the-burst-api-create-transaction-request.md) for common parameters.
+Send individual amounts of BURST to up to 64 recipients. POST only. Refer to [Create Transaction Request](#create-transaction-request) for common parameters.
 
-**Response:** Refer to [Create Transaction Response](the-burst-api-create-transaction-response.md).
+**Response:** Refer to [Create Transaction Response](#create-transaction-response).
 
 **Example:** To do
 
 ### Send Money Multi Same
 
-Send the same amount of BURST to up to 128 recipients. POST only. Refer to [Create Transaction Request](the-burst-api-create-transaction-request.md) for common parameters.
+Send the same amount of BURST to up to 128 recipients. POST only. Refer to [Create Transaction Request](#create-transaction-request) for common parameters.
 
-**Response:** Refer to [Create Transaction Response](the-burst-api-create-transaction-response.md).
+**Response:** Refer to [Create Transaction Response](#create-transaction-response).
 
 **Example: To do**
 
 ### Set Account Info
 
-Set account information. POST only. Refer to [Create Transaction Request](the-burst-api-create-transaction-request.md) for common parameters.
+Set account information. POST only. Refer to [Create Transaction Request](#create-transaction-request) for common parameters.
 
-**Response:** Refer to [Create Transaction Response](the-burst-api-create-transaction-response.md).
+**Response:** Refer to [Create Transaction Response](#create-transaction-response).
 
-**Example:** Refer to [Set Account Info](the-burst-api-examples-set-account-info.md) example.
+**Example:** Refer to [Set Account Info](the-burst-api-examples.md#set-account-info) example.
 
 Alias Operations
 ----------------
 
 ### Buy / Sell Alias
 
-Buy or sell an alias. POST only. Refer to [Create Transaction Request](the-burst-api-create-transaction-request.md) for common parameters.
+Buy or sell an alias. POST only. Refer to [Create Transaction Request](#create-transaction-request) for common parameters.
 
 **Note**: An alias can be transferred rather than sold by setting *priceNQT* to zero. A pending sale can be canceled by selling again to self for a price of zero.
 
-**Response:** Refer to [Create Transaction Response](the-burst-api-create-transaction-response.md).
+**Response:** Refer to [Create Transaction Response](#create-transaction-response).
 
-**Example:** Refer to [Buy / Sell Alias](the-burst-api-examples-buy---sell-alias.md) example.
+**Example:** Refer to [Buy / Sell Alias](the-burst-api-examples.md#buy---sell-alias) example.
 
 ### Set Alias
 
-Create and/or assign an alias. POST only. Refer to [Create Transaction Request](the-burst-api-create-transaction-request.md) for common parameters.
+Create and/or assign an alias. POST only. Refer to [Create Transaction Request](#create-transaction-request) for common parameters.
 
-**Response:** Refer to [Create Transaction Response](the-burst-api-create-transaction-response.md). The transaction ID is also the alias ID.
+**Response:** Refer to [Create Transaction Response](#create-transaction-response). The transaction ID is also the alias ID.
 
-**Example:** Refer to [Set Alias](the-burst-api-examples-set-alias.md) example.
+**Example:** Refer to [Set Alias](the-burst-api-examples.md#set-alias) example.
 
 ### Get Alias
 
@@ -305,7 +305,7 @@ Get information about a given alias.
 
 **Response:**
 
-**Example:** Refer to [Get Alias](the-burst-api-examples-get-alias.md) example.
+**Example:** Refer to [Get Alias](the-burst-api-examples.md#get-alias) example.
 
 ### Get Aliases
 
@@ -313,7 +313,7 @@ Get information on aliases owned by a given account in alias name order.
 
 **Response:**
 
-**Example:** Refer to [Get Aliases](the-burst-api-examples-get-aliases.md) example.
+**Example:** Refer to [Get Aliases](the-burst-api-examples.md#get-aliases) example.
 
 Arbitrary Message System Operations
 -----------------------------------
@@ -337,7 +337,7 @@ Decrypt an AES-encrypted message.
 -   *decryptedMessage* (S) is the decrypted message
 -   *requestProcessingTime* (N) is the API request processing time (in millisec)
 
-**Example:** Refer to [Decrypt From](the-burst-api-examples-decrypt-from.md) example.
+**Example:** Refer to [Decrypt From](the-burst-api-examples.md#decrypt-from) example.
 
 ### Encrypt To
 
@@ -358,7 +358,7 @@ Encrypt a message using AES without sending it.
 -   *nonce* (S) is a 32-byte pseudorandom nonce
 -   *requestProcessingTime* (N) is the API request processing time (in millisec)
 
-**Example:** Refer to [Encrypt To](the-burst-api-examples-encrypt-to.md) example.
+**Example:** Refer to [Encrypt To](the-burst-api-examples.md#encrypt-to) example.
 
 ### Read Message
 
@@ -369,7 +369,7 @@ Get a message given a transaction ID.
 -   *requestType* is *readMessage*
 -   *transaction* is the transaction ID of the message
 -   *secretPhrase* is the secret passphrase of the account that received the message (optional)
--   *sharedKey* is the shared key used to decrypt the message (optional) (see [Get Shared Key](the-burst-api-get-shared-key.md))
+-   *sharedKey* is the shared key used to decrypt the message (optional) (see [Get Shared Key](#get-shared-key))
 -   *retrieve* is *true* to retrieve pruned data from archival nodes (optional)
 -   *requireBlock* is the block ID of a block that must be present in the blockchain during execution (optional)
 -   *requireLastBlock* is the block ID of a block that must be last in the blockchain during execution (optional)
@@ -384,13 +384,13 @@ Get a message given a transaction ID.
 -   *lastBlock* (S) is the last block ID on the blockchain (applies if *requireBlock* is provided but not *requireLastBlock*)
 -   *requestProcessingTime* (N) is the API request processing time (in millisec)
 
-**Example:** Refer to [Read Message](the-burst-api-examples-read-message.md) example.
+**Example:** Refer to [Read Message](the-burst-api-examples.md#read-message) example.
 
 ### Send Message
 
 Create an Arbitrary Message transaction. POST only.
 
-**Request:** Refer to [Create Transaction Request](the-burst-api-create-transaction-request.md) for common parameters.
+**Request:** Refer to [Create Transaction Request](#create-transaction-request) for common parameters.
 
 -   *requestType* is *sendMessage*
 -   *recipient* is the account ID of the recipient (optional)
@@ -412,11 +412,11 @@ Create an Arbitrary Message transaction. POST only.
 
 **Note:** Any combination (including none or all) of the three options plain *message*, *messageToEncrypt*, and *messageToEncryptToSelf* will be included in the transaction. However, one and only one prunable message may be included in a single transaction if there is not already a message of the same type (either plain or encrypted).
 
-**Note:** The *encryptedMessageData-encryptedMessageNonce* pair or the *encryptToSelfMessageData-encryptToSelfMessageNonce* pair can be the output of [Encrypt To](the-burst-api-encrypt-to.md)
+**Note:** The *encryptedMessageData-encryptedMessageNonce* pair or the *encryptToSelfMessageData-encryptToSelfMessageNonce* pair can be the output of [Encrypt To](#encrypt-to)
 
-**Response:** Refer to [Create Transaction Response](the-burst-api-create-transaction-response.md).
+**Response:** Refer to [Create Transaction Response](#create-transaction-response).
 
-**Example:** Refer to [Send Message](the-burst-api-examples-send-message.md) example.
+**Example:** Refer to [Send Message](the-burst-api-examples.md#send-message) example.
 
 Asset Exchange Operations
 -------------------------
@@ -425,22 +425,22 @@ Asset Exchange Operations
 
 Cancel an existing asset order. POST only.
 
-**Request:** Refer to [Create Transaction Request](the-burst-api-create-transaction-request.md) for common parameters.
+**Request:** Refer to [Create Transaction Request](#create-transaction-request) for common parameters.
 
 -   *requestType* is either *cancelBidOrder* or *cancelAskOrder*
 -   *order* is the order ID of the order being canceled
 
-**Response:** Refer to [Create Transaction Response](the-burst-api-create-transaction-response.md).
+**Response:** Refer to [Create Transaction Response](#create-transaction-response).
 
-**Example:** Refer to [Cancel Order](the-burst-api-examples-cancel-order.md) example.
+**Example:** Refer to [Cancel Order](the-burst-api-examples.md#cancel-order) example.
 
 #### Cancel Ask Order
 
-Refer to [Cancel Order](the-burst-api-cancel-order.md).
+Refer to [Cancel Order](#cancel-order).
 
 #### Cancel Bid Order
 
-Refer to [Cancel Order](the-burst-api-cancel-order.md).
+Refer to [Cancel Order](#cancel-order).
 
 ### Get Account Current Order Ids
 
@@ -462,15 +462,15 @@ Get current asset order IDs given an account ID in reverse block height order.
 -   *lastBlock* (S) is the last block ID on the blockchain (applies if *requireBlock* is provided but not *requireLastBlock*)
 -   *requestProcessingTime* (N) is the API request processing time (in millisec)
 
-**Example:** Refer to [Get Account Current Order Ids](the-burst-api-examples-get-account-current-order-ids.md) example.
+**Example:** Refer to [Get Account Current Order Ids](the-burst-api-examples.md#get-account-current-order-ids) example.
 
 #### Get Account Current Ask Order Ids
 
-Refer to [Get Account Current Order Ids](the-burst-api-get-account-current-order-ids.md).
+Refer to [Get Account Current Order Ids](#get-account-current-order-ids).
 
 #### Get Account Current Bid Order Ids
 
-Refer to [Get Account Current Order Ids](the-burst-api-get-account-current-order-ids.md).
+Refer to [Get Account Current Order Ids](#get-account-current-order-ids).
 
 ### Get Account Current Orders
 
@@ -488,19 +488,19 @@ Get current asset orders given an account ID in reverse block height order.
 
 **Response:**
 
--   *bidOrders* or *askOrders* (A) is an array of order objects (refer to [Get Order](the-burst-api-get-order.md) for details)
+-   *bidOrders* or *askOrders* (A) is an array of order objects (refer to [Get Order](#get-order) for details)
 -   *lastBlock* (S) is the last block ID on the blockchain (applies if *requireBlock* is provided but not *requireLastBlock*)
 -   *requestProcessingTime* (N) is the API request processing time (in millisec)
 
-**Example:** Refer to [Get Account Current Orders](the-burst-api-examples-get-account-current-orders.md) example.
+**Example:** Refer to [Get Account Current Orders](the-burst-api-examples.md#get-account-current-orders) example.
 
 #### Get Account Current Ask Orders
 
-Refer to [Get Account Current Orders](the-burst-api-get-account-current-orders.md).
+Refer to [Get Account Current Orders](#get-account-current-orders).
 
 #### Get Account Current Bid Orders
 
-Refer to [Get Account Current Orders](the-burst-api-get-account-current-orders.md).
+Refer to [Get Account Current Orders](#get-account-current-orders).
 
 ### Get All Assets
 
@@ -517,11 +517,11 @@ Get all assets in the exchange in reverse block height of creation order.
 
 **Response:**
 
--   *assets* (A) is an array of asset objects (refer to [Get Asset](the-burst-api-get-asset.md))
+-   *assets* (A) is an array of asset objects (refer to [Get Asset](#get-asset))
 -   *lastBlock* (S) is the last block ID on the blockchain (applies if *requireBlock* is provided but not *requireLastBlock*)
 -   *requestProcessingTime* (N) is the API request processing time (in millisec)
 
-**Example:** Refer to [Get All Assets](the-burst-api-examples-get-all-assets.md) example.
+**Example:** Refer to [Get All Assets](the-burst-api-examples.md#get-all-assets) example.
 
 ### Get All Open Orders
 
@@ -537,19 +537,19 @@ Get all open bid/ask orders in reverse block height order.
 
 **Response:**
 
--   *openOrders* (A) is an array of order objects (refer to [Get Order](the-burst-api-get-order.md) for details)
+-   *openOrders* (A) is an array of order objects (refer to [Get Order](#get-order) for details)
 -   *lastBlock* (S) is the last block ID on the blockchain (applies if *requireBlock* is provided but not *requireLastBlock*)
 -   *requestProcessingTime* (N) is the API request processing time (in millisec)
 
-**Example:** Refer to [Get All Open Orders](the-burst-api-examples-get-all-open-orders.md) example.
+**Example:** Refer to [Get All Open Orders](the-burst-api-examples.md#get-all-open-orders) example.
 
 #### Get All Open Ask Orders
 
-Refer to [Get All Open Orders](the-burst-api-get-all-open-orders.md).
+Refer to [Get All Open Orders](#get-all-open-orders).
 
 #### Get All Open Bid Orders
 
-Refer to [Get All Open Orders](the-burst-api-get-all-open-orders.md).
+Refer to [Get All Open Orders](#get-all-open-orders).
 
 ### Get All Trades
 
@@ -569,11 +569,11 @@ Get all trades since a given timestamp in reverse block height order.
 
 **Response:**
 
--   *trades* (A) is an array of trade objects (refer to [Get Trades](the-burst-api-get-trades.md))
+-   *trades* (A) is an array of trade objects (refer to [Get Trades](#get-trades))
 -   *lastBlock* (S) is the last block ID on the blockchain (applies if *requireBlock* is provided but not *requireLastBlock*)
 -   *requestProcessingTime* (N) is the API request processing time (in millisec)
 
-**Example:** Refer to [Get All Trades](the-burst-api-examples-get-all-trades.md) example.
+**Example:** Refer to [Get All Trades](the-burst-api-examples.md#get-all-trades) example.
 
 ### Get Asset
 
@@ -602,7 +602,7 @@ Get asset information given an asset ID.
 -   *lastBlock* (S) is the last block ID on the blockchain (applies if *requireBlock* is provided but not *requireLastBlock*)
 -   *requestProcessingTime* (N) is the API request processing time (in millisec)
 
-**Example:** Refer to [Get Asset](the-burst-api-examples-get-asset.md) example.
+**Example:** Refer to [Get Asset](the-burst-api-examples.md#get-asset) example.
 
 ### Get Asset Accounts
 
@@ -631,7 +631,7 @@ Get the accounts that own an asset given the asset ID in reverse quantity order.
 -   *lastBlock* (S) is the last block ID on the blockchain (applies if *requireBlock* is provided but not *requireLastBlock*)
 -   *requestProcessingTime* (N) is the API request processing time (in millisec)
 
-**Example:** Refer to [Get Asset Accounts](the-burst-api-examples-get-asset-accounts.md) example.
+**Example:** Refer to [Get Asset Accounts](the-burst-api-examples.md#get-asset-accounts) example.
 
 ### Get Asset Ids
 
@@ -651,7 +651,7 @@ Get the IDs of all assets in the exchange in reverse block height of creation or
 -   *lastBlock* (S) is the last block ID on the blockchain (applies if *requireBlock* is provided but not *requireLastBlock*)
 -   *requestProcessingTime* (N) is the API request processing time (in millisec)
 
-**Example:** Refer to [Get Asset Ids](the-burst-api-examples-get-asset-ids.md) example.
+**Example:** Refer to [Get Asset Ids](the-burst-api-examples.md#get-asset-ids) example.
 
 ### Get Asset Transfers
 
@@ -687,11 +687,11 @@ Get transfers associated with a given asset and/or account in reverse block heig
 -   *lastBlock* (S) is the last block ID on the blockchain (applies if *requireBlock* is provided but not *requireLastBlock*)
 -   *requestProcessingTime* (N) is the API request processing time (in millisec)
 
-**Example:** Refer to [Get Asset Transfers](the-burst-api-examples-get-asset-transfers.md) example.
+**Example:** Refer to [Get Asset Transfers](the-burst-api-examples.md#get-asset-transfers) example.
 
 #### Get Expected Asset Transfers
 
-Refer to [Get Asset Transfers](the-burst-api-get-asset-transfers.md).
+Refer to [Get Asset Transfers](#get-asset-transfers).
 
 ### Get Assets
 
@@ -711,11 +711,11 @@ Get asset information given multiple asset IDs
 
 **Response:**
 
--   *assets* (A) is an array of asset objects (refer to [Get Asset](the-burst-api-get-asset.md))
+-   *assets* (A) is an array of asset objects (refer to [Get Asset](#get-asset))
 -   *lastBlock* (S) is the last block ID on the blockchain (applies if *requireBlock* is provided but not *requireLastBlock*)
 -   *requestProcessingTime* (N) is the API request processing time (in millisec)
 
-**Example:** Refer to [Get Assets](the-burst-api-examples-get-assets.md) example.
+**Example:** Refer to [Get Assets](the-burst-api-examples.md#get-assets) example.
 
 ### Get Assets By Issuer
 
@@ -737,11 +737,11 @@ Get asset information given multiple creation account IDs in reverse block heigh
 
 **Response:**
 
--   *assets* (A) is an array of asset objects (refer to [Get Asset](the-burst-api-get-asset.md))
+-   *assets* (A) is an array of asset objects (refer to [Get Asset](#get-asset))
 -   *lastBlock* (S) is the last block ID on the blockchain (applies if *requireBlock* is provided but not *requireLastBlock*)
 -   *requestProcessingTime* (N) is the API request processing time (in millisec)
 
-**Example:** Refer to [Get Assets By Issuer](the-burst-api-examples-get-assets-by-issuer.md) example.
+**Example:** Refer to [Get Assets By Issuer](the-burst-api-examples.md#get-assets-by-issuer) example.
 
 ### Get Order
 
@@ -769,15 +769,15 @@ Get a bid/ask order given an order ID.
 -   *lastBlock* (S) is the last block ID on the blockchain (applies if *requireBlock* is provided but not *requireLastBlock*)
 -   *requestProcessingTime* (N) is the API request processing time (in millisec)
 
-**Example:** Refer to [Get Order](the-burst-api-examples-get-order.md) example.
+**Example:** Refer to [Get Order](the-burst-api-examples.md#get-order) example.
 
 #### Get Ask Order
 
-Refer to [Get Order](the-burst-api-get-order.md).
+Refer to [Get Order](#get-order).
 
 #### Get Bid Order
 
-Refer to [Get Order](the-burst-api-get-order.md).
+Refer to [Get Order](#get-order).
 
 ### Get Order Ids
 
@@ -798,15 +798,15 @@ Get bid/ask order IDs given an asset ID, in order of decreasing bid price or inc
 -   *lastBlock* (S) is the last block ID on the blockchain (applies if *requireBlock* is provided but not *requireLastBlock*)
 -   *requestProcessingTime* (N) is the API request processing time (in millisec)
 
-**Example:** Refer to [Get Order Ids](the-burst-api-examples-get-order-ids.md) example.
+**Example:** Refer to [Get Order Ids](the-burst-api-examples.md#get-order-ids) example.
 
 #### Get Ask Order Ids
 
-Refer to [Get Order Ids](the-burst-api-get-order-ids.md).
+Refer to [Get Order Ids](#get-order-ids).
 
 #### Get Bid Order Ids
 
-Refer to [Get Order Ids](the-burst-api-get-order-ids.md).
+Refer to [Get Order Ids](#get-order-ids).
 
 ### Get Orders
 
@@ -825,20 +825,20 @@ Get bid/ask orders given an asset ID, in order of decreasing bid price or increa
 
 **Response:**
 
--   *bidOrders* or *askOrders* (A) is an array of order objects (refer to [Get Order](the-burst-api-get-order.md) for details) with the following additional field only for an expected order:
+-   *bidOrders* or *askOrders* (A) is an array of order objects (refer to [Get Order](#get-order) for details) with the following additional field only for an expected order:
     -   *phased* (B) is *true* if the order is phased, *false* otherwise
 -   *lastBlock* (S) is the last block ID on the blockchain (applies if *requireBlock* is provided but not *requireLastBlock*)
 -   *requestProcessingTime* (N) is the API request processing time (in millisec)
 
-**Example:** Refer to [Get Orders](the-burst-api-examples-get-orders.md) example.
+**Example:** Refer to [Get Orders](the-burst-api-examples.md#get-orders) example.
 
 #### Get Ask Orders
 
-Refer to [Get Orders](the-burst-api-get-orders.md).
+Refer to [Get Orders](#get-orders).
 
 #### Get Bid Orders
 
-Refer to [Get Orders](the-burst-api-get-orders.md).
+Refer to [Get Orders](#get-orders).
 
 ### Get Trades
 
@@ -879,13 +879,13 @@ Get trades associated with a given asset and/or account in reverse block height 
 -   *lastBlock* (S) is the last block ID on the blockchain (applies if *requireBlock* is provided but not *requireLastBlock*)
 -   *requestProcessingTime* (N) is the API request processing time (in millisec)
 
-**Example:** Refer to [Get Trades](the-burst-api-examples-get-trades.md) example.
+**Example:** Refer to [Get Trades](the-burst-api-examples.md#get-trades) example.
 
 ### Issue Asset
 
 Create an asset on the exchange. POST only.
 
-**Request:** Refer to [Create Transaction Request](the-burst-api-create-transaction-request.md) for common parameters.
+**Request:** Refer to [Create Transaction Request](#create-transaction-request) for common parameters.
 
 -   *requestType* is *issueAsset*
 -   *name* is the name of the asset
@@ -893,38 +893,38 @@ Create an asset on the exchange. POST only.
 -   *quantityQNT* is the total amount (in QNT) of the asset in existence
 -   *decimals* is the number of decimal places used by the asset (optional, zero default)
 
-**Response:** Refer to [Create Transaction Response](the-burst-api-create-transaction-response.md). The transaction ID is also the asset ID.
+**Response:** Refer to [Create Transaction Response](#create-transaction-response). The transaction ID is also the asset ID.
 
-**Example:** Refer to [Issue Asset](the-burst-api-examples-issue-asset.md) example.
+**Example:** Refer to [Issue Asset](the-burst-api-examples.md#issue-asset) example.
 
 ### Place Order
 
 Place an asset order. POST only.
 
-**Request:** Refer to [Create Transaction Request](the-burst-api-create-transaction-request.md) for common parameters.
+**Request:** Refer to [Create Transaction Request](#create-transaction-request) for common parameters.
 
 -   *requestType* is either *placeBidOrder* or *placeAskOrder*
 -   *asset* is the asset ID of the asset being ordered
 -   *quantityQNT* is the amount (in QNT) of the asset being ordered
 -   *priceNQT* is the bid/ask price (in NQT)
 
-**Response:** Refer to [Create Transaction Response](the-burst-api-create-transaction-response.md). The transaction ID is also the order ID.
+**Response:** Refer to [Create Transaction Response](#create-transaction-response). The transaction ID is also the order ID.
 
-**Example:** Refer to [Place Order](the-burst-api-examples-place-order.md) example.
+**Example:** Refer to [Place Order](the-burst-api-examples.md#place-order) example.
 
 #### Place Ask Order
 
-Refer to [Place Order](the-burst-api-place-order.md).
+Refer to [Place Order](#place-order).
 
 #### Place Bid Order
 
-Refer to [Place Order](the-burst-api-place-order.md).
+Refer to [Place Order](#place-order).
 
 ### Transfer Asset
 
 Transfer a quantity of an asset from one account to another. POST only.
 
-**Request:** Refer to [Create Transaction Request](the-burst-api-create-transaction-request.md) for common parameters.
+**Request:** Refer to [Create Transaction Request](#create-transaction-request) for common parameters.
 
 -   *requestType* is *transferAsset*
 -   *recipient* is the recipient account ID
@@ -932,9 +932,9 @@ Transfer a quantity of an asset from one account to another. POST only.
 -   *asset* is the ID of the asset being transferred
 -   *quantityQNT* is the amount (in QNT) of the asset being transferred
 
-**Response:** Refer to [Create Transaction Response](the-burst-api-create-transaction-response.md). The transaction ID is also the transfered asset ID.
+**Response:** Refer to [Create Transaction Response](#create-transaction-response). The transaction ID is also the transfered asset ID.
 
-**Example:** Refer to [Transfer Asset](the-burst-api-examples-transfer-asset.md) example.
+**Example:** Refer to [Transfer Asset](the-burst-api-examples.md#transfer-asset) example.
 
 Block Operations
 ----------------
@@ -970,8 +970,8 @@ Get a block object given a block ID or block height.
 -   *nextBlock* (S) is the next block ID
 -   *numberOfTransactions* (N) is the number of transactions in the block
 -   *blockSignature* (S) is the 64-byte block signature
--   *transactions* (A) is an array of transaction IDs or transaction objects (if *includeTransactions* provided, refer to [Get Transaction](the-burst-api-get-transaction.md) for details)
--   *executedPhasedTransactions* (A) is an array of transaction IDs or transaction objects (if *includeExecutedPhased* provided, refer to [Get Transaction](the-burst-api-get-transaction.md) for details)
+-   *transactions* (A) is an array of transaction IDs or transaction objects (if *includeTransactions* provided, refer to [Get Transaction](#get-transaction) for details)
+-   *executedPhasedTransactions* (A) is an array of transaction IDs or transaction objects (if *includeExecutedPhased* provided, refer to [Get Transaction](#get-transaction) for details)
 -   *version* (N) is the block version
 -   *totalFeeNQT* (S) is the total fee (in NQT) of the transactions in the block
 -   *previousBlock* (S) is the previous block ID
@@ -982,7 +982,7 @@ Get a block object given a block ID or block height.
 -   *lastBlock* (S) is the last block ID on the blockchain (applies if *requireBlock* is provided but not *requireLastBlock*)
 -   *requestProcessingTime* (N) is the API request processing time (in millisec)
 
-**Example:** Refer to [Get Block](the-burst-api-examples-get-block.md) example.
+**Example:** Refer to [Get Block](the-burst-api-examples.md#get-block) example.
 
 ### Get Block Id
 
@@ -1001,7 +1001,7 @@ Get a block ID given a block height.
 -   *lastBlock* (S) is the last block ID on the blockchain (applies if *requireBlock* is provided but not *requireLastBlock*)
 -   *requestProcessingTime* (N) is the API request processing time (in millisec)
 
-**Example:** Refer to [Get Block Id](the-burst-api-examples-get-block-id.md) example.
+**Example:** Refer to [Get Block Id](the-burst-api-examples.md#get-block-id) example.
 
 ### Get Blocks
 
@@ -1020,11 +1020,11 @@ Get blocks from the blockchain in reverse block height order.
 
 **Response:**
 
--   *blocks* (A) is an array of blocks retrieved (refer to [Get Block](the-burst-api-get-block.md) for details)
+-   *blocks* (A) is an array of blocks retrieved (refer to [Get Block](#get-block) for details)
 -   *lastBlock* (S) is the last block ID on the blockchain (applies if *requireBlock* is provided but not *requireLastBlock*)
 -   *requestProcessingTime* (N) is the API request processing time (in millisec)
 
-**Example:** Refer to [Get Blocks](the-burst-api-examples-get-blocks.md) example.
+**Example:** Refer to [Get Blocks](the-burst-api-examples.md#get-blocks) example.
 
 ### Get EC Block
 
@@ -1047,7 +1047,7 @@ Get Economic Cluster block data.
 -   *lastBlock* (S) is the last block ID on the blockchain (applies if *requireBlock* is provided but not *requireLastBlock*)
 -   *requestProcessingTime* (N) is the API request processing time (in millisec)
 
-**Example:** Refer to [Get EC Block](the-burst-api-examples-get-ec-block.md) example.
+**Example:** Refer to [Get EC Block](the-burst-api-examples.md#get-ec-block) example.
 
 Digital Goods Store Operations
 ------------------------------
@@ -1058,40 +1058,40 @@ In the [Burst client interface](burst-client-interface.md), the Digital Goods St
 
 Delist a listed product. POST only.
 
-**Request:** Refer to [Create Transaction Request](the-burst-api-create-transaction-request.md) for common parameters.
+**Request:** Refer to [Create Transaction Request](#create-transaction-request) for common parameters.
 
 -   *requestType* is *dgsDelisting*
 -   *goods* is the goods ID
 
-**Response:** Refer to [Create Transaction Response](the-burst-api-create-transaction-response.md).
+**Response:** Refer to [Create Transaction Response](#create-transaction-response).
 
-**Example:** Refer to [DGS Delisting](the-burst-api-examples-dgs-delisting.md) example.
+**Example:** Refer to [DGS Delisting](the-burst-api-examples.md#dgs-delisting) example.
 
 ### DGS Delivery
 
 Deliver a product. POST only.
 
-**Request:** Refer to [Create Transaction Request](the-burst-api-create-transaction-request.md) for common parameters.
+**Request:** Refer to [Create Transaction Request](#create-transaction-request) for common parameters.
 
 -   *requestType* is *dgsDelivery*
 -   *purchase* is the purchase order ID
 -   *discountNQT* is a discount (in NQT) off the selling price (optional, default is zero)
 -   *goodsToEncrypt* is the product, a text or a hex string to be encrypted (optional if *goodsData* provided)
 -   *goodsIsText* is *false* if *goodsToEncrypt* is a hex string (optional)
--   *goodsData* is AES-encrypted (using [Encrypt To](the-burst-api-encrypt-to.md)) *goodsToEncrypt*, up to 1000 bytes long (required only if *secretPhrase* is omitted)
+-   *goodsData* is AES-encrypted (using [Encrypt To](#encrypt-to)) *goodsToEncrypt*, up to 1000 bytes long (required only if *secretPhrase* is omitted)
 -   *goodsNonce* is the unique nonce associated with the encrypted data (required only if *secretPhrase* is omitted)
 
 **Note:** If the encrypted goods data is longer than 1000 bytes, use a prunable encrypted message to deliver the goods.
 
-**Response:** Refer to [Create Transaction Response](the-burst-api-create-transaction-response.md).
+**Response:** Refer to [Create Transaction Response](#create-transaction-response).
 
-**Example:** Refer to [DGS Delivery](the-burst-api-examples-dgs-delivery.md) example.
+**Example:** Refer to [DGS Delivery](the-burst-api-examples.md#dgs-delivery) example.
 
 ### DGS Feedback
 
 Give feedback about a purchased product after delivery. POST only.
 
-**Request:** Refer to [Create Transaction Request](the-burst-api-create-transaction-request.md) for common parameters.
+**Request:** Refer to [Create Transaction Request](#create-transaction-request) for common parameters.
 
 -   *requestType* is *dgsFeedback*
 -   *purchase* is the purchase order ID
@@ -1099,15 +1099,15 @@ Give feedback about a purchased product after delivery. POST only.
 
 **Note**: The unencrypted *message* parameter is used for public feedback, but in addition or instead, an encrypted message can be used for private feedback to the seller and/or an encrypted message can be sent to self (buyer) although the current [BRS client](burst-client-interface.md) does not recognize non-public feedback messages.
 
-**Response:** Refer to [Create Transaction Response](the-burst-api-create-transaction-response.md).
+**Response:** Refer to [Create Transaction Response](#create-transaction-response).
 
-**Example:** Refer to [DGS Feedback](the-burst-api-examples-dgs-feedback.md) example.
+**Example:** Refer to [DGS Feedback](the-burst-api-examples.md#dgs-feedback) example.
 
 ### DGS Listing
 
 List a product in the DGS by creating a listing transaction. POST only.
 
-**Request:** Refer to [Create Transaction Request](the-burst-api-create-transaction-request.md) for common parameters.
+**Request:** Refer to [Create Transaction Request](#create-transaction-request) for common parameters.
 
 -   *requestType* is *dgsListing*
 -   *name* is the name of the product up to 100 characters in length
@@ -1116,29 +1116,29 @@ List a product in the DGS by creating a listing transaction. POST only.
 -   *quantity* is the quantity of the product for sale
 -   *priceNQT* is the price (in NQT) of the product
 
-**Response:** Refer to [Create Transaction Response](the-burst-api-create-transaction-response.md). The transaction ID is also the goods ID.
+**Response:** Refer to [Create Transaction Response](#create-transaction-response). The transaction ID is also the goods ID.
 
-**Example:** Refer to [DGS Listing](the-burst-api-examples-dgs-listing.md) example.
+**Example:** Refer to [DGS Listing](the-burst-api-examples.md#dgs-listing) example.
 
 ### DGS Price Change
 
 Change the price of a listed product. POST only.
 
-**Request:** Refer to [Create Transaction Request](the-burst-api-create-transaction-request.md) for common parameters.
+**Request:** Refer to [Create Transaction Request](#create-transaction-request) for common parameters.
 
 -   *requestType* is *dgsPriceChange*
 -   *goods* is the goods ID of the product
 -   *priceNQT* is the new price of the product
 
-**Response:** Refer to [Create Transaction Response](the-burst-api-create-transaction-response.md).
+**Response:** Refer to [Create Transaction Response](#create-transaction-response).
 
-**Example:** Refer to [DGS Price Change](the-burst-api-examples-dgs-price-change.md) example.
+**Example:** Refer to [DGS Price Change](the-burst-api-examples.md#dgs-price-change) example.
 
 ### DGS Purchase
 
 Purchase a product for sale. POST only.
 
-**Request:** Refer to [Create Transaction Request](the-burst-api-create-transaction-request.md) for common parameters.
+**Request:** Refer to [Create Transaction Request](#create-transaction-request) for common parameters.
 
 -   *requestType* is *dgsPurchase*
 -   *goods* is the goods ID of the product
@@ -1146,37 +1146,37 @@ Purchase a product for sale. POST only.
 -   *quantity* is the quantity to be purchased
 -   *deliveryDeadlineTimestamp* is the timestamp (in seconds since the genesis block) by which delivery of the product must occur
 
-**Response:** Refer to [Create Transaction Response](the-burst-api-create-transaction-response.md). The transaction ID is also the purchase order ID.
+**Response:** Refer to [Create Transaction Response](#create-transaction-response). The transaction ID is also the purchase order ID.
 
-**Example:** Refer to [DGS Purchase](the-burst-api-examples-dgs-purchase.md) example.
+**Example:** Refer to [DGS Purchase](the-burst-api-examples.md#dgs-purchase) example.
 
 ### DGS Quantity Change
 
 Change the quantity of a listed product. POST only.
 
-**Request:** Refer to [Create Transaction Request](the-burst-api-create-transaction-request.md) for common parameters.
+**Request:** Refer to [Create Transaction Request](#create-transaction-request) for common parameters.
 
 -   *requestType* is *dgsQuantityChange*
 -   *goods* is the goods ID of the product
 -   *deltaQuantity* is the change in the quantity of the product for sale (use negative numbers for a decrease in quantity)
 
-**Response:** Refer to [Create Transaction Response](the-burst-api-create-transaction-response.md).
+**Response:** Refer to [Create Transaction Response](#create-transaction-response).
 
-**Example:** Refer to [DGS Quantity Change](the-burst-api-examples-dgs-quantity-change.md) example.
+**Example:** Refer to [DGS Quantity Change](the-burst-api-examples.md#dgs-quantity-change) example.
 
 ### DGS Refund
 
 Refund a purchase. POST only.
 
-**Request:** Refer to [Create Transaction Request](the-burst-api-create-transaction-request.md) for common parameters.
+**Request:** Refer to [Create Transaction Request](#create-transaction-request) for common parameters.
 
 -   *requestType* is *dgsRefund*
 -   *purchase* is the purchase order ID
 -   *refundNQT* is the amount (in NQT) of the refund
 
-**Response:** Refer to [Create Transaction Response](the-burst-api-create-transaction-response.md).
+**Response:** Refer to [Create Transaction Response](#create-transaction-response).
 
-**Example:** Refer to [DGS Refund](the-burst-api-examples-dgs-refund.md) example.
+**Example:** Refer to [DGS Refund](the-burst-api-examples.md#dgs-refund) example.
 
 ### Get DGS Good
 
@@ -1208,7 +1208,7 @@ Get a DGS product given a goods ID.
 -   *timestamp* (N) is the timestamp (in seconds since the genesis block) of the creation of the product listing
 -   *lastBlock* (S) is the last block ID on the blockchain (applies if *requireBlock* is provided but not *requireLastBlock*)
 
-**Example:** Refer to [Get DGS Good](the-burst-api-examples-get-dgs-good.md) example.
+**Example:** Refer to [Get DGS Good](the-burst-api-examples.md#get-dgs-good) example.
 
 ### Get DGS Goods
 
@@ -1230,11 +1230,11 @@ Get DGS products for sale in reverse chronological listing creation order unless
 
 **Response:**
 
--   *goods* (A) is an array of goods (refer to [Get DGS Good](the-burst-api-get-dgs-good.md) for details)
+-   *goods* (A) is an array of goods (refer to [Get DGS Good](#get-dgs-good) for details)
 -   *lastBlock* (S) is the last block ID on the blockchain (applies if *requireBlock* is provided but not *requireLastBlock*)
 -   *requestProcessingTime* (N) is the API request processing time (in millisec)
 
-**Example:** Refer to [Get DGS Goods](the-burst-api-examples-get-dgs-goods.md) example.
+**Example:** Refer to [Get DGS Goods](the-burst-api-examples.md#get-dgs-goods) example.
 
 ### Get DGS Pending Purchases
 
@@ -1251,11 +1251,11 @@ Get pending purchase orders given a seller ID in reverse chronological order.
 
 **Response:**
 
--   *purchases* (A) is an array of pending purchase orders (refer to [Get DGS Purchase](the-burst-api-get-dgs-purchase.md) for details)
+-   *purchases* (A) is an array of pending purchase orders (refer to [Get DGS Purchase](#get-dgs-purchase) for details)
 -   *lastBlock* (S) is the last block ID on the blockchain (applies if *requireBlock* is provided but not *requireLastBlock*)
 -   *requestProcessingTime* (N) is the API request processing time (in millisec)
 
-**Example:** Refer to [Get DGS Pending Purchases](the-burst-api-examples-get-dgs-pending-purchases.md) example.
+**Example:** Refer to [Get DGS Pending Purchases](the-burst-api-examples.md#get-dgs-pending-purchases) example.
 
 ### Get DGS Purchase
 
@@ -1265,7 +1265,7 @@ Get a purchase order given a purchase order ID.
 
 -   *requestType* is *getDGSPurchase*
 -   *purchase* is the purchase order ID
--   *sharedKey* is the shared key used to decrypt the message (optional) (see [Get Shared Key](the-burst-api-get-shared-key.md))
+-   *sharedKey* is the shared key used to decrypt the message (optional) (see [Get Shared Key](#get-shared-key))
 -   *requireBlock* is the block ID of a block that must be present in the blockchain during execution (optional)
 -   *requireLastBlock* is the block ID of a block that must be last in the blockchain during execution (optional)
 
@@ -1291,7 +1291,7 @@ Get a purchase order given a purchase order ID.
 -   *lastBlock* (S) is the last block ID on the blockchain (applies if *requireBlock* is provided but not *requireLastBlock*)
 -   *requestProcessingTime* (N) is the API request processing time (in millisec)
 
-**Example:** Refer to [Get DGS Purchase](the-burst-api-examples-get-dgs-purchase.md) example.
+**Example:** Refer to [Get DGS Purchase](the-burst-api-examples.md#get-dgs-purchase) example.
 
 ### Get DGS Purchases
 
@@ -1311,11 +1311,11 @@ Get purchase orders given a seller and/or buyer ID in reverse chronological orde
 
 **Response:**
 
--   *purchases* (A) is an array of purchase orders (refer to [Get DGS Purchase](the-burst-api-get-dgs-purchase.md) for details)
+-   *purchases* (A) is an array of purchase orders (refer to [Get DGS Purchase](#get-dgs-purchase) for details)
 -   *lastBlock* (S) is the last block ID on the blockchain (applies if *requireBlock* is provided but not *requireLastBlock*)
 -   *requestProcessingTime* (N) is the API request processing time (in millisec)
 
-**Example:** Refer to [Get DGS Purchases](the-burst-api-examples-get-dgs-purchases.md) example.
+**Example:** Refer to [Get DGS Purchases](the-burst-api-examples.md#get-dgs-purchases) example.
 
 Forging Operations
 ------------------
@@ -1324,16 +1324,16 @@ Forging Operations
 
 [Lease](account-leasing.md) the entire guaranteed balance of BURST to another account, after 1440 confirmations. POST only.
 
-**Request:** Refer to [Create Transaction Request](the-burst-api-create-transaction-request.md) for common parameters.
+**Request:** Refer to [Create Transaction Request](#create-transaction-request) for common parameters.
 
 -   *requestType* is *leaseBalance*
 -   *period* is the lease period (in number of blocks, 1440 minimum)
 -   *recipient* is the lessee (recipient) account
 -   *recipientPublicKey* is the public key of the lessee (recipient) account (optional, enhances security of a new account)
 
-**Response:** Refer to [Create Transaction Response](the-burst-api-create-transaction-response.md).
+**Response:** Refer to [Create Transaction Response](#create-transaction-response).
 
-**Example:** Refer to [Lease Balance](the-burst-api-examples-lease-balance.md) example.
+**Example:** Refer to [Lease Balance](the-burst-api-examples.md#lease-balance) example.
 
 Hallmark Operations
 -------------------
@@ -1357,7 +1357,7 @@ Decode a node hallmark.
 -   *date* (S) is the date the hallmark was created, in YYYY-MM-DD format
 -   *requestProcessingTime* (N) is the API request processing time (in millisec)
 
-**Example:** Refer to [Decode Hallmark](the-burst-api-examples-decode-hallmark.md) example.
+**Example:** Refer to [Decode Hallmark](the-burst-api-examples.md#decode-hallmark) example.
 
 ### Mark Host
 
@@ -1380,11 +1380,11 @@ Generates a node hallmark. POST only.
 
 **Note:** Refer to [Create Hallmark](how-to-createhallmark.md) for instructions for applying the hallmark to a public node.
 
-**Example:** Refer to [Mark Host](the-burst-api-examples-mark-host.md) example.
+**Example:** Refer to [Mark Host](the-burst-api-examples.md#mark-host) example.
 
 #### Generate Hallmark
 
-Refer to [Mark Host](the-burst-api-mark-host.md).
+Refer to [Mark Host](#mark-host).
 
 Networking Operations
 ---------------------
@@ -1403,7 +1403,7 @@ Get hostname and address of the requesting node.
 -   *address* (S) is the node address
 -   *requestProcessingTime* (N) is the API request processing time (in millisec)
 
-**Example:** Refer to [Get My Info](the-burst-api-examples-get-my-info.md) example.
+**Example:** Refer to [Get My Info](the-burst-api-examples.md#get-my-info) example.
 
 ### Get Peer
 
@@ -1437,7 +1437,7 @@ Get information about a given peer.
 -   *lastConnectAttempt* (B) is the timestamp (in seconds since the genesis block) of the last connection attempt to the peer
 -   *requestProcessingTime* (N) is the API request processing time (in millisec)
 
-**Example:** Refer to [Get Peer](the-burst-api-examples-get-peer.md) example.
+**Example:** Refer to [Get Peer](the-burst-api-examples.md#get-peer) example.
 
 ### Get Peers
 
@@ -1448,7 +1448,7 @@ Get a list of peer IP addresses.
 -   *requestType* is *getPeers*
 -   *active* is *true* for active (not NON\_CONNECTED) peers only (optional, if *true* overrides *state*)
 -   *state* is the state of the peers, one of *NON\_CONNECTED*, *CONNECTED*, or *DISCONNECTED* (optional)
--   *includePeerInfo* is *true* to include peer detail as in [Get Peer](the-burst-api-get-peer.md)
+-   *includePeerInfo* is *true* to include peer detail as in [Get Peer](#get-peer)
 -   *service* to filter on a specific service
 
 **Note:** If neither *active* nor *state* is specified, all known peers are retrieved.
@@ -1458,7 +1458,7 @@ Get a list of peer IP addresses.
 -   *peers* (A) is an array of peer addresses
 -   *requestProcessingTime* (N) is the API request processing time (in millisec)
 
-**Example:** Refer to [Get Peers](the-burst-api-examples-get-peers.md) example.
+**Example:** Refer to [Get Peers](the-burst-api-examples.md#get-peers) example.
 
 Server Information Operations
 -----------------------------
@@ -1491,7 +1491,7 @@ Get the blockchain status.
 -   *lastBlockchainFeeder* (S) is the address or announced address of the peer providing the last blockchain of greatest cumulative difficulty
 -   *blockchainState* (S) Current state of this node's blockchain (UP\_TO\_DATE or DOWNLOADING)
 
-**Example:** Refer to [Get Blockchain Status](the-burst-api-examples-get-blockchain-status.md) example.
+**Example:** Refer to [Get Blockchain Status](the-burst-api-examples.md#get-blockchain-status) example.
 
 ### Get Constants
 
@@ -1528,7 +1528,7 @@ Get all defined constants.
 -   *phasingHashAlgorithms* (A) is an array of defined phasing hash algorithms (refer to the example below)
 -   *requestTypes* (A) is an array of decined request types (refer to the example below)
 
-**Example:** Refer to [Get Constants](the-burst-api-examples-get-constants.md) example.
+**Example:** Refer to [Get Constants](the-burst-api-examples.md#get-constants) example.
 
 ### Get State
 
@@ -1537,7 +1537,7 @@ Get the state of the server node and network.
 **Request:**
 
 -   *requestType* is *getState*
--   *includeCounts* is *true* if the fields beginning with *numberOf...* are to be included (optional); password protected like the [Debug Operations](the-burst-api-debug-operations.md) if *true*.
+-   *includeCounts* is *true* if the fields beginning with *numberOf...* are to be included (optional); password protected like the [Debug Operations](#debug-operations) if *true*.
 
 **Response:**
 
@@ -1594,7 +1594,7 @@ Get the state of the server node and network.
 
 **Note:** AE is Asset Exchange, DGS is Digital Goods Store
 
-**Example:** Refer to [Get State](the-burst-api-examples-get-state.md) example.
+**Example:** Refer to [Get State](the-burst-api-examples.md#get-state) example.
 
 ### Get Time
 
@@ -1609,7 +1609,7 @@ Get the current time.
 -   *time* (N) is the current time (in seconds since the genesis block).
 -   *requestProcessingTime* (N) is the API request processing time (in millisec)
 
-**Example:** Refer to [Get Time](the-burst-api-examples-get-time.md) example.
+**Example:** Refer to [Get Time](the-burst-api-examples.md#get-time) example.
 
 Token Operations
 ----------------
@@ -1622,7 +1622,7 @@ Validate a token without requiring the transmission of a secret passphrase.
 
 -   *requestType* is *decodeToken*
 -   *website* is the signed text, typically an authorized URL
--   *token* is the token generated by [Generate Token](the-burst-api-generate-token.md)
+-   *token* is the token generated by [Generate Token](#generate-token)
 
 **Response:**
 
@@ -1634,7 +1634,7 @@ Validate a token without requiring the transmission of a secret passphrase.
 
 **Note:** Since *token* contains the token generator's public key and digital signature, *website* can be validated as authorized by the owner of the public key, and the public key determines the account ID.
 
-**Example:** Refer to [Decode Token](the-burst-api-examples-decode-token.md) example.
+**Example:** Refer to [Decode Token](the-burst-api-examples.md#decode-token) example.
 
 ### Generate Token
 
@@ -1657,9 +1657,9 @@ Generate a token. POST only.
 -   *valid* (B) is *true* if token is valid, *false* otherwise
 -   *requestProcessingTime* (N) is the API request processing time (in millisec)
 
-**Note:** Since *token* contains the token generator's public key and signature, the *website* can be validated as authorized by the owner of the public key using [Decode Token](the-burst-api-decode-token.md).
+**Note:** Since *token* contains the token generator's public key and signature, the *website* can be validated as authorized by the owner of the public key using [Decode Token](#decode-token).
 
-**Example:** Refer to [Generate Token](the-burst-api-examples-generate-token.md) example.
+**Example:** Refer to [Generate Token](the-burst-api-examples.md#generate-token) example.
 
 Transaction Operations
 ----------------------
@@ -1681,7 +1681,7 @@ Broadcast a transaction to the network. POST only.
 -   *fullHash* (S) is the full hash of the signed transaction
 -   *transaction* (S) is the transaction ID
 
-**Example:** Refer to [Broadcast Transaction](the-burst-api-examples-broadcast-transaction.md) example.
+**Example:** Refer to [Broadcast Transaction](the-burst-api-examples.md#broadcast-transaction) example.
 
 ### Calculate Full Hash
 
@@ -1699,7 +1699,7 @@ Calculate the full hash of a transaction.
 -   *requestProcessingTime* (N) is the API request processing time (in millisec)
 -   *fullHash* (S) is the full hash of the signed transaction
 
-**Example:** Refer to [Calculate Full Hash](the-burst-api-examples-calculate-full-hash.md) example.
+**Example:** Refer to [Calculate Full Hash](the-burst-api-examples.md#calculate-full-hash) example.
 
 ### Get Transaction
 
@@ -1724,12 +1724,12 @@ Get a transaction object given a transaction ID.
 -   *timestamp* (N) is the time (in seconds since the genesis block) of the transaction
 -   *referencedTransactionFullHash* (S) is the full hash of a transaction referenced by this one, omitted if no previous transaction is referenced
 -   *confirmations* (N) is the number of transaction confirmations
--   *subtype* (N) is the transaction subtype (refer to [Get Constants](the-burst-api-get-constants.md) for a current list of subtypes)
+-   *subtype* (N) is the transaction subtype (refer to [Get Constants](#get-constants) for a current list of subtypes)
 -   *block* (S) is the ID of the block containing the transaction
 -   *blockTimestamp* (N) is the timestamp (in seconds since the genesis block) of the block
 -   *height* (N) is the height of the block in the blockchain
 -   *senderPublicKey* (S) is the public key of the sending account for the transaction
--   *type* (N) is the transaction type (refer to [Get Constants](the-burst-api-get-constants.md) for a current list of types)
+-   *type* (N) is the transaction type (refer to [Get Constants](#get-constants) for a current list of types)
 -   *deadline* (N) is the deadline (in minutes) for the transaction to be confirmed
 -   *signature* (S) is the digital signature of the transaction
 -   *recipient* (S) is the account number of the recipient, if applicable
@@ -1750,7 +1750,7 @@ Get a transaction object given a transaction ID.
 
 **Note:** The *block*, *blockTimestamp* and *confirmations* fields are omitted for unconfirmed transactions. Double-spending transactions are not retrieved.
 
-**Example:** Refer to [Get Transaction](the-burst-api-examples-get-transaction.md) example.
+**Example:** Refer to [Get Transaction](the-burst-api-examples.md#get-transaction) example.
 
 ### Get Transaction Bytes
 
@@ -1772,7 +1772,7 @@ Get the bytecode of a transaction.
 -   *lastBlock* (S) is the last block ID on the blockchain (applies if *requireBlock* is provided but not *requireLastBlock*)
 -   *requestProcessingTime* (N) is the API request processing time (in millisec)
 
-**Example:** Refer to [Get Transaction Bytes](the-burst-api-examples-get-transaction-bytes.md) example.
+**Example:** Refer to [Get Transaction Bytes](the-burst-api-examples.md#get-transaction-bytes) example.
 
 ### Parse Transaction
 
@@ -1786,11 +1786,11 @@ Get a transaction object given a (signed or unsigned) transaction bytecode, or r
 -   *requireBlock* is the block ID of a block that must be present in the blockchain during execution (optional)
 -   *requireLastBlock* is the block ID of a block that must be last in the blockchain during execution (optional)
 
-**Response:** Refer to [Get Transaction](the-burst-api-get-transaction.md) for additional fields.
+**Response:** Refer to [Get Transaction](#get-transaction) for additional fields.
 
 -   *verify* (B) is *true* if the signature is verified, *false* otherwise
 
-**Example:** Refer to [Parse Transaction](the-burst-api-examples-parse-transaction.md) example.
+**Example:** Refer to [Parse Transaction](the-burst-api-examples.md#parse-transaction) example.
 
 ### Sign Transaction
 
@@ -1819,7 +1819,7 @@ Calculates the full hash, signature hash, and transaction ID of an unsigned tran
 -   *lastBlock* (S) is the last block ID on the blockchain (applies if *requireBlock* is provided but not *requireLastBlock*)
 -   *requestProcessingTime* (N) is the API request processing time (in millisec)
 
-**Example:** Refer to [Sign Transaction](the-burst-api-examples-sign-transaction.md) example.
+**Example:** Refer to [Sign Transaction](the-burst-api-examples.md#sign-transaction) example.
 
 Utilities
 ---------
@@ -1841,7 +1841,7 @@ Converts an ID to the signed long integer representation used internally.
 
 **Note:** Java does not support unsigned integers, so any unsigned ID (such as a block ID) visible in the [BRS client](burst-client-interface.md) is represented internally as a signed integer.
 
-**Example:** Refer to [Long Convert](the-burst-api-examples-long-convert.md) example.
+**Example:** Refer to [Long Convert](the-burst-api-examples.md#long-convert) example.
 
 ### RS Convert
 
@@ -1858,4 +1858,3 @@ Get both the Reed-Solomon account address and the account number given an accoun
 -   *requestProcessingTime* (N) is the API request processing time (in millisec)
 -   *account* (S) is the account number
 
-**Example:** Refer to [RS Convert](the-burst-api-examples-rs-convert.md) example.
