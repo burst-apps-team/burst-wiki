@@ -2,18 +2,18 @@ Collection of publication about Burst and related technologies.
 
 Browse by categories:
 
--   [Research publications](Publications:Burst(Research) "wikilink")
--   [General publications](Publications:_Burst_(General) "wikilink")
+-   [Research publications](publications-burst-research-.md)
+-   [General publications](publications--burst--general-.md)
 
 <!-- -->
 
--   [Cryptocurrency news](Publications:_Burst_(Cryptocurrency_news) "wikilink")
+-   [Cryptocurrency news](publications--burst--cryptocurrency-news-.md)
 
-<!-- -->
+<!-- there are proof of life? 2019.05.26-->
 
 -   [Proof Of Life](Publications:_Burst_(Cryptocurrency_news) "wikilink")
 
 <!-- -->
 
--   Commercial publications
+-   [Commercial publications](publications-burst-commercial-.md)
 

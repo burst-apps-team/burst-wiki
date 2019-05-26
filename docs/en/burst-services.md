@@ -6,7 +6,7 @@ In addition to a plethora of [Burst Software](burst-software.md), the Burst ecos
 Online Wallets
 ==============
 
-Every BRS - the [Burst Reference Software](burst-software-burst-reference-software--28brs-29.md) - has a builtin web server (based on [Jetty](https://www.eclipse.org/jetty/documentation/9.4.x/contributing-documentation.html)) to deliver it's front end content to the user. This can happen locally (when you have a local wallet installed either via Qbundle or standalone) and of course this also allows the wallet to be accessible from anywhere in the internet - if you made the API accessible on a public IP.
+Every BRS - the [Burst Reference Software](burst-reference-software.md) - has a builtin web server (based on [Jetty](https://www.eclipse.org/jetty/documentation/9.4.x/contributing-documentation.html)) to deliver it's front end content to the user. This can happen locally (when you have a local wallet installed either via Qbundle or standalone) and of course this also allows the wallet to be accessible from anywhere in the internet - if you made the API accessible on a public IP.
 
 As a user, you should always be aware of the security implications using an online wallet. Essentially you may be giving away your password to this wallet, so either use only 100% trusted public wallets, or use just a subset of their functionality - such as address watch only (when you enter the BURST-xxx address instead of a password)
 
