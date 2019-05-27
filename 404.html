@@ -8,42 +8,42 @@
   <script type="text/javascript">
   function redirect() {
     let originalLocation = window.location.pathname;
-    let location = originalLocation;
+    let newLocation = originalLocation;
     // Redirect old wiki main page
-    if (location === "/wiki/Main_Page" || location === "/wiki/Main_Page/") {
-      location = "/";
+    if (newLocation === "/wiki/Main_Page" || newLocation === "/wiki/Main_Page/") {
+      newLocation = "/";
     }
 
     // Redirect old github links
-    if (location.startsWith("/burst-wiki")) {
-      location = location.replace("/burst-wiki", "")
+    if (newLocation.startsWith("/burst-wiki")) {
+      newLocation = newLocation.replace("/burst-wiki", "")
     }
 
     // Redirect old links
-    if (location.includes("-/")) {
-      location = location.replace("-/", "/")
+    if (newLocation.includes("-/")) {
+      newLocation = newLocation.replace("-/", "/")
     }
-    if (location.includes("---")) {
-      location = location.replace("---", "-");
+    if (newLocation.includes("---")) {
+      newLocation = newLocation.replace("---", "-");
     }
-    if (location.includes("--")) {
-      location = location.replace("--", "-");
+    if (newLocation.includes("--")) {
+      newLocation = newLocation.replace("--", "-");
     }
 
     // Redirect old wiki pages
     let regex = /\/wiki\/([A-Za-z_]+)/;
-    let found = location.match(regex);
+    let found = newLocation.match(regex);
     if (found.length >= 2) {
       let page = found[1].toLowerCase();
       while (page.includes("_")) {
         page = page.replace("_", "-");
       }
-      location = "/en/" + page;
+      newLocation = "/en/" + page;
     }
 
     // Do it!
-    if (location !== originalLocation) {
-      window.location.replace(location);
+    if (newLocation !== originalLocation) {
+      window.location.replace(newLocation);
     }
   }
   redirect();
