@@ -4,4 +4,4 @@ Burst is a community project. Everyone's welcome to contribute. We are currently
 
 We would greatly appreciate any contributions, whether it be fixing existing content or writing new content. Feel free to fork the repo, make your changes and then open a pull request.
 
-Many of us hang out and collaborate over at [https://discord.gg/PMUgVSY Discord](https---discord-gg-pmugvsy-discord.md). Come join us!
+Many of us hang out and collaborate over at [Discord](https://discord.gg/PMUgVSY). Come join us!
