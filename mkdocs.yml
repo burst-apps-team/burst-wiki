@@ -2,9 +2,9 @@
 site_name: Burst Wiki
 site_description: The Burstcoin Wiki
 site_author: The Burst Apps Team
-site_url: https://burst-apps-team.github.io/burst-wiki
+site_url: https://burstwiki.org
 
-# Repository (Commented as it is private)
+# Repository
 repo_name: burst-wiki
 repo_url: https://github.com/burst-apps-team/burst-wiki
 
@@ -16,8 +16,8 @@ theme:
   feature:
     tabs: true
   palette:
-    primary: blue
-    accent: blue
+    primary: #00597D
+    accent: #00597D
 
 # Options
 extra:
