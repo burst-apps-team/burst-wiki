@@ -1644,7 +1644,7 @@
 <p>Each ERC20 token is represented as a BURST asset.</p>
 </li>
 <li>
-<p>Issue the asset using the <a href="../the-burst-api/">issueAsset</a> API.</p>
+<p>Issue the asset using the <a href="../the-burst-api/#issue-asset">issueAsset</a> API.</p>
 </li>
 <li>
 <p>Each asset is identified by a unique asset id set to the transaction id of the issueAsset transaction.</p>
@@ -1655,12 +1655,12 @@
 <h3 id="totalsupply">totalSupply</h3>
 <p>To get the total token supply invoke the getAsset API and supply the asset id. The total supply is provided by the <code>initialQuantityQNT</code> attribute, the existing supply, after possible share deletes, is specified by the <code>quantityQNT</code> attribute. Quantity values are always provided as integer values, the number of decimal positions to apply to these quantities is specified by the “decimals” attribute.</p>
 <h3 id="balanceof">balanceOf</h3>
-<p>To get the account balance of another account with a given address, invoke the <a href="../the-burst-api/">getAssetAccounts</a> API and provide the BURST address as the <code>account</code> parameter and the asset id as the <code>asset</code> parameter.</p>
-<p>Please scroll through the Burst API for an <a href="../the-burst-api/">example</a>.</p>
+<p>To get the account balance of another account with a given address, invoke the <a href="../the-burst-api/#get-asset-accounts">getAssetAccounts</a> API and provide the BURST address as the <code>account</code> parameter and the asset id as the <code>asset</code> parameter.</p>
+<p>Please look to the Burst API for an <a href="../the-burst-api-examples/#get-asset-accounts">example</a>.</p>
 <p>The <code>unconfirmedQuantityQNT</code> attribute in the response represents the current account balance. The <code>quantityQNT</code> attribute represents the quantity available for use at the moment after taking into account balance locked by open asset orders.</p>
 <h3 id="transfer">transfer</h3>
 <p>To send tokens from your address to another address use the <a href="../the-burst-api/">transferAsset</a> API, specify the recipient address, the asset id and the quantity to transfer as well as your account passphrase, the transaction fee and transaction deadline.</p>
-<p>The <a href="../the-burst-api/">transferAsset</a> transaction is recorded on the BURST blockchain. You can later track token transfers using the <a href="../the-burst-api/">Get Asset Transfers</a> API</p>
+<p>The <a href="../the-burst-api/#transfer-asset">transferAsset</a> transaction is recorded on the BURST blockchain. You can later track token transfers using the <a href="../the-burst-api/#get-asset-transfers">Get Asset Transfers</a> API</p>
                 
                   
                 
