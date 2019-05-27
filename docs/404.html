@@ -1,16 +1,29 @@
 <script type="text/javascript">
   function redirect() {
-    let location = window.location.pathname;
-    let location = window.location.pathname;
+    let originalLocation = window.location.pathname;
+    let location = originalLocation;
+    // Redirect old wiki main page
     if (location === "/wiki/Main_Page" || location === "/wiki/Main_Page/") {
-      window.location.replace("/");
-      return;
+      location = "/";
     }
+
+    // Redirect old github links
     if (location.startsWith("/burst-wiki")) {
       location = location.replace("/burst-wiki", "")
-      window.location.replace(location);
-      return;
     }
+
+    // Redirect old links
+    if (location.includes("-/")) {
+      location = location.replace("-/", "/")
+    }
+    if (location.includes("---")) {
+      location = location.replace("---", "-");
+    }
+    if (location.includes("--")) {
+      location = location.replace("--", "-");
+    }
+
+    // Redirect old wiki pages
     let regex = /\/wiki\/([A-Za-z_]+)/;
     let found = location.match(regex);
     if (found.length >= 2) {
@@ -18,8 +31,12 @@
       while (page.includes("_")) {
         page = page.replace("_", "-");
       }
-      window.location.replace("/en/" + page);
-      return;
+      location = "/en/" + page;
+    }
+
+    // Do it!
+    if (location !== originalLocation) {
+      window.location.replace(location);
     }
   }
   redirect();

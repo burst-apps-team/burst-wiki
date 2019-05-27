@@ -1,4 +1,4 @@
-# Project information
+-# Project information
 site_name: Burst Wiki
 site_description: The Burstcoin Wiki
 site_author: The Burst Apps Team
@@ -52,13 +52,13 @@ pages:
     - Burst Wiki: en/burst-wiki.md
     - CIP: en/cip.md
     - Colored Coins: en/colored-coins.md
-    - Engraver - How to compile from source: en/engraver---how-to-compile-from-source.md
+    - Engraver - How to compile from source: en/engraver-how-to-compile-from-source.md
     - Exchanges: en/exchanges.md
     - FAQ: en/faq.md
     - Getting Started: en/getting-started.md
     - History of Burst: en/history-of-burst.md
     - Internal AT and Escrow Account: en/internal-at-and-escrow-account.md
-    - Join Us: en/join-us-.md
+    - Join Us: en/join-us.md
     - List of Burst Related Websites: en/list-of-burst-related-websites.md
     - List of International Burst Websites: en/list-of-international-burst-websites.md
     - Marketplace: en/marketplace.md
@@ -70,17 +70,17 @@ pages:
     - Plotting: en/plotting.md
     - PoCC Mobile App: en/pocc-mobile-app.md
     - Proof of Capacity: en/proof-of-capacity.md
-    - Publications - Burst Cryptocurrency News: en/publications--burst--cryptocurrency-news-.md
-    - Publications - Burst Gneral: en/publications--burst--general-.md
-    - Publications - Burst Commercial: en/publications-burst-commercial-.md
-    - Publications - Burst Cryptonews: en/publications-burst-cryptonews-.md
-    - Publications - Burst News: en/publications-burst-news-.md
-    - Publications - Burst Research: en/publications-burst-research-.md
+    - Publications - Burst Cryptocurrency News: en/publications-burst-cryptocurrency-news.md
+    - Publications - Burst Gneral: en/publications-burst-general.md
+    - Publications - Burst Commercial: en/publications-burst-commercial.md
+    - Publications - Burst Cryptonews: en/publications-burst-cryptonews.md
+    - Publications - Burst News: en/publications-burst-news.md
+    - Publications - Burst Research: en/publications-burst-research.md
     - Publications - Burst: en/publications-burst.md
     - Qbundle: en/qbundle.md
     - Reward Assignment: en/reward-assignment.md
     - RS Address Format: en/rs-address-format.md
-    - Scavenger - How to compile from source: en/scavenger---how-to-compile-from-source.md
+    - Scavenger - How to compile from source: en/scavenger-how-to-compile-from-source.md
     - Secure your Burst: en/secure-your-burst.md
     - Slot-Based Transaction Fees: en/slot-based-transaction-fees.md
     - Smart Contract: en/smart-contract.md
