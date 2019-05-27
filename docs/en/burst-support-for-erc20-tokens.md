@@ -10,7 +10,7 @@ Issuing Tokens
 
 * Each ERC20 token is represented as a BURST asset.
 
-* Issue the asset using the [issueAsset](the-burst-api.md) API.
+* Issue the asset using the [issueAsset](the-burst-api.md#issue-asset) API.
 
 * Each asset is identified by a unique asset id set to the transaction id of the issueAsset transaction.
 
@@ -25,9 +25,9 @@ To get the total token supply invoke the getAsset API and supply the asset id. T
 
 ### balanceOf
 
-To get the account balance of another account with a given address, invoke the [getAssetAccounts](the-burst-api.md) API and provide the BURST address as the `account` parameter and the asset id as the `asset` parameter.
+To get the account balance of another account with a given address, invoke the [getAssetAccounts](the-burst-api.md#get-asset-accounts) API and provide the BURST address as the `account` parameter and the asset id as the `asset` parameter.
 
-Please scroll through the Burst API for an [example](the-burst-api.md).
+Please look to the Burst API for an [example](the-burst-api-examples.md#get-asset-accounts).
 
 The `unconfirmedQuantityQNT` attribute in the response represents the current account balance. The `quantityQNT` attribute represents the quantity available for use at the moment after taking into account balance locked by open asset orders.
 
@@ -35,4 +35,4 @@ The `unconfirmedQuantityQNT` attribute in the response represents the current ac
 
 To send tokens from your address to another address use the [transferAsset](the-burst-api.md) API, specify the recipient address, the asset id and the quantity to transfer as well as your account passphrase, the transaction fee and transaction deadline.
 
-The [transferAsset](the-burst-api.md) transaction is recorded on the BURST blockchain. You can later track token transfers using the [Get Asset Transfers](the-burst-api.md) API
+The [transferAsset](the-burst-api.md#transfer-asset) transaction is recorded on the BURST blockchain. You can later track token transfers using the [Get Asset Transfers](the-burst-api.md#get-asset-transfers) API
