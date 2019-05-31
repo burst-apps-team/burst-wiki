@@ -12,7 +12,7 @@ Lexicon
 
 In order to mine Burst, users have to open a Burst account and activate it by creating an outgoing transaction, as described in this article. The next step is creating plot files needed for Burst mining. As plot files are bound to the Burst account ID, it is impossible for users with different account IDs to have identical plot files.
 
-Plot files are made up of hashes. A hash is a result of of computing data using a cryptographic hash function. The length of a hash is 32 Bytes (265 bit). A nonce is a group of 8912 hashes, making its size 256 KiB. Each nonce is referenced by a number. The number of the nonce can take values between 0 and 264-1 (18446744073709551615). Nonces are sorted into 4096 scoops, therefore each scoop contains two hashes.
+Plot files are made up of hashes. A hash is a result of of computing data using a cryptographic hash function. The length of a hash is 32 Bytes (265 bit). A nonce is a group of 8192 hashes, making its size 256 KiB. Each nonce is referenced by a number. The number of the nonce can take values between 0 and 264-1 (18446744073709551615). Nonces are sorted into 4096 scoops, therefore each scoop contains two hashes.
 
 **Reward recipient assignment**
 
