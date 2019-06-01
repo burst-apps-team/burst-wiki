@@ -3,7 +3,7 @@ Introduction
 
 Burst has many traits from many different “fathers”, so it's not possible to list just one white paper. Below you will find a list of related white papers.
 
-The most recent and most constituent white paper on Burst is [The Burst Dymaxion](https://www.burst-coin.org/wp-content/uploads/2017/07/The-Burst-Dymaxion-1.00.pdf), describing the concept and implementation of a layer to the Burst blockchain which will be capable of sustaining the total global load of non-cash transactions.
+The most recent and most constituent white paper on Burst is [The Burst Dymaxion](../../media/The-Burst-Dymaxion-1.00.pdf), describing the concept and implementation of a layer to the Burst blockchain which will be capable of sustaining the total global load of non-cash transactions.
 
 Nxt White Paper
 ---------------------
