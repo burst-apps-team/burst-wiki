@@ -6,32 +6,32 @@ A collection of publications regarding Burst and related technologies.
 
 ### BURST/PoC
 
--   [2018-06-12 Cryptocurrency performance analysis of Burstcoin mining](-file-180612-burst-mining-perf-analysis-pdf.md)
--   [2018-10-09 Survey of Consensus Protocols](-file-181009-burst-survey-consensus-protocols-pdf.md)
--   [2018-09-18 An Overview of Blockchain and Consensus Protocols for IoT Networks](-file-2018-09-18-an-overview-of-blockchain-and-consensus-protocols-for-iot-networks-pdf.md)
--   [2018-11-15 Proof of Space from Stacked Expanders.pdf](-file-proof-of-space-from-stacked-expanders-pdf.md)
--   [2018-11-28 Taxonomy Of Blockchain Technologies, Principles Of Identification And Classification](-file-taxonomy-of-blockchain-technologies-1708-04872-1-pdf.md)
+-   [2018-06-12 Cryptocurrency performance analysis of Burstcoin mining](../../media/180612-BURST_mining_perf_analysis.pdf)
+-   [2018-10-09 Survey of Consensus Protocols](../../media/181009-BURST_survey_consensus_protocols.pdf)
+-   [2018-09-18 An Overview of Blockchain and Consensus Protocols for IoT Networks](../../media/2018-09-18_An_Overview_of_Blockchain_and_Consensus_Protocols_for_IoT_Networks.pdf)
+-   [2018-11-15 Proof of Space from Stacked Expanders.pdf](../../media/Proof_of_Space_from_Stacked_Expanders.pdf)
+-   [2018-11-28 Taxonomy Of Blockchain Technologies, Principles Of Identification And Classification](../../media/Taxonomy_of_Blockchain_Technologies_1708.04872-1.pdf)
 
 ### SHABAL:
 
--   [2008-10-28 Shabal, a Submission to NIST’s Cryptographic Hash Algorithm Competition](-file-shabal-a-submission-to-nists-cryptographic-hash-a-pdf.md)
--   [FPGA Implementations of SHA-3 Candidates: CubeHash, Grøstl, LANE, Shabal and Spectral Hash](-file-09xxxx-shabal-fpga-implementations-pdf.md)
--   [On the pseudorandomness of Shabal’s keyed permutation](-file-09xxxx-shabal-pseudorandomness-pdf.md)
--   [Uniform Evaluation of Hardware Implementations of the Round-Two SHA-3 Candidates](-file-09xxxx-shabal-uniform-eval-hw-impl-pdf.md)
--   [2009-05-07 Indifferentiability with Distinguishers: Why Shabal Does Not Require Ideal Ciphers](-file-090507-shabal-ideal-ciphers-not-required-pdf.md)
--   [Low-weight Pseudo Collision Attack on Shabal and Preimage Attack on Reduced Shabal-512](-file-10xxxx-shabal-collision-preimage-pdf.md)
--   [A Low-Area yet Performant FPGA Implementation of Shabal](-file-10xxxx-shabal-low-area-fpga-pdf.md)
--   [Unfolding Method for Shabal on Virtex-5 FPGAs: Concrete Results](-file-10xxxx-shabal-virtex-fpga-pdf.md)
--   [2010-07-20 Distinguisher for Shabal’s Permutation Function](-file-100720-shabal-distinguisher-perm-func-pdf.md)
--   [2010-10-01 Comparison of seven SHA-3 candidates software implementations on smart cards](-file-1010xx-shabal-comparison-sha3-candidates-pdf.md)
--   [Performance Analysis of the SHA-3 Candidates on Exotic Multi-Core Architectures](-file-10xxxx-shabal-performance-exotic-multicore-pdf.md)
--   [2010-11-12 Quantum attacks against Blue Midnight Wish, ECHO, Fugue, Grøstl, Hamsi, JH, Keccak, Shabal, SHAvite-3, SIMD, and Skein](-file-101112-shabal-quantum-attacks-pdf.md)
--   [2011-08-22 Cryptanalysis of hash functions in particular the SHA-3 contenders Shabal and Blake](-file-110822-shabal-cryptanalysis-blake-pdf.md)
--   [2011-10-03 Conception, preuves et analyse de fonctions de hachage cryptographiques (PhD Thesis Thomas Fuhr)](-file-111003-shabal-these-thomas-fuhr-pdf.md)
+-   [2008-10-28 Shabal, a Submission to NIST’s Cryptographic Hash Algorithm Competition](../../media/Shabal_a_Submission_to_NISTs_Cryptographic_Hash_A.pdf)
+-   [FPGA Implementations of SHA-3 Candidates: CubeHash, Grøstl, LANE, Shabal and Spectral Hash](../../media/09xxxx-SHABAL_fpga_implementations.pdf)
+-   [On the pseudorandomness of Shabal’s keyed permutation](../../media/09xxxx-SHABAL_pseudorandomness.pdf)
+-   [Uniform Evaluation of Hardware Implementations of the Round-Two SHA-3 Candidates](../../media/09xxxx-SHABAL_uniform_eval_hw_impl.pdf)
+-   [2009-05-07 Indifferentiability with Distinguishers: Why Shabal Does Not Require Ideal Ciphers](../../media/090507-SHABAL_ideal_ciphers_not_required.pdf)
+-   [Low-weight Pseudo Collision Attack on Shabal and Preimage Attack on Reduced Shabal-512](../../media/10xxxx-SHABAL_collision_preimage.pdf)
+-   [A Low-Area yet Performant FPGA Implementation of Shabal](../../media/10xxxx-SHABAL_low_area_fpga.pdf)
+-   [Unfolding Method for Shabal on Virtex-5 FPGAs: Concrete Results](../../media/10xxxx-SHABAL_virtex_fpga.pdf)
+-   [2010-07-20 Distinguisher for Shabal’s Permutation Function](../../media/100720-SHABAL_distinguisher_perm_func.pdf)
+-   [2010-10-01 Comparison of seven SHA-3 candidates software implementations on smart cards](../../media/1010xx-SHABAL_comparison_sha3_candidates.pdf)
+-   [Performance Analysis of the SHA-3 Candidates on Exotic Multi-Core Architectures](../../media/10xxxx-SHABAL_performance_exotic_multicore.pdf)
+-   [2010-11-12 Quantum attacks against Blue Midnight Wish, ECHO, Fugue, Grøstl, Hamsi, JH, Keccak, Shabal, SHAvite-3, SIMD, and Skein](../../media/101112-SHABAL_quantum_attacks.pdf)
+-   [2011-08-22 Cryptanalysis of hash functions in particular the SHA-3 contenders Shabal and Blake](../../media/110822-SHABAL_cryptanalysis_blake.pdf)
+-   [2011-10-03 Conception, preuves et analyse de fonctions de hachage cryptographiques (PhD Thesis Thomas Fuhr)](../../media/111003-SHABAL_These_Thomas_Fuhr.pdf)
 
 ### Curve25519:
 
--   [Fast Implementation of Curve25519 Using AVX2](-file-15xxxx-burst-25519-avx2-pdf.md)
+-   [Fast Implementation of Curve25519 Using AVX2](../../media/15xxxx-BURST_25519_avx2.pdf)
 
 ## General Publications
 
