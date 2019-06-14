@@ -16,6 +16,8 @@ Current TestNet facilities:
 
 * [Mining Pool](http://75.100.126.230:8124/)
 
+* [Explorer](http://explorer.testnet.burst.devtrue.net/)
+
 Edit/add the following in conf/brs.properties (Don't forget to set your address, platform, and database settings):
 
 ```properties
