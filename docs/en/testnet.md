@@ -4,9 +4,11 @@
 
 Burst has a permanent TestNet running. Its purpose is to provide a sandbox for both developers and users to test Burst features and to experiment with features without remorse. To talk about the testnet, visit us in <https://discord.gg/UnwXKB> in the channel \#testnet
 
+Burst has [AT-Testnet](http://at-testnet.burst-alliance.org:6876/) with Mock-mining active, 1 minute blocks and [CIP-20](https://github.com/burst-apps-team/CIPs/blob/master/cip-0020.md) enabled.
+
 ## How to set up a TestNet node ?
 
-To run a node on the new TestNet, you will need to install the latest released version of the wallet. You can find instructions on setting up the wallet from the Burstcoin website (https://burst-coin.org). Keep in mind there may be scenarios where you would like to have your own private test net, say in case of some future revisions that might require a fork for adding to the current chain. In this case you could simply change the value for DEV.P2P.BootstrapPeers, the new value would be your localhost. Keep in mind if you are missing any parts of this configuration you will most likely encounter issues that are resolved by the values below. Again this is for testing purposes and DO NOT USE YOUR REAL PASSPHRASE.
+To run a node on the new TestNet, you will need to install the latest released version of the wallet. You can find instructions on setting up the wallet from the Burstcoin [website](https://burst-coin.org). Keep in mind there may be scenarios where you would like to have your own private test net, say in case of some future revisions that might require a fork for adding to the current chain. In this case you could simply change the value for DEV.P2P.BootstrapPeers, the new value would be your localhost. Keep in mind if you are missing any parts of this configuration you will most likely encounter issues that are resolved by the values below. Again this is for testing purposes and DO NOT USE YOUR REAL PASSPHRASE.
 
 We do recommend you to check in frequently in [discord](https://discord.gg/9S3eUBy) (`#testnet` channel) so that you are aware of updates currently being deployed to test net and actively want to participate.
 
@@ -17,6 +19,10 @@ Current TestNet facilities:
 * [Mining Pool](http://75.100.126.230:8124/)
 
 * [Explorer](http://explorer.testnet.burst.devtrue.net/)
+
+Current AT-TestNet facilities:
+
+* [Faucet](http://at-testnet.burst-alliance.org:7777/)
 
 Edit/add the following in conf/brs.properties (Don't forget to set your address, platform, and database settings):
 
@@ -63,9 +69,9 @@ DEV.poc2.startBlock = 0
 DEV.rewardRecipient.startBlock = 6500
 ```
 
-If you just need testnet wallet for testing please use this link (http://3.16.150.48:6876/index.html#). If you want to use your own desired peer, you can just change ip addresses.
+If you just need testnet wallet for testing please use this [link](http://3.16.150.48:6876/index.html#). If you want to use your own desired peer, you can just change ip addresses.
 
-You can get the testnet coins at this faucet (http://burstcoin.cc:7777/)
+You can get the testnet coins at this [faucet](http://burstcoin.cc:7777/)
 
 If for any reason you need to reset your peer, a fast easy way to do it is as follows:
 
