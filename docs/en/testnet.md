@@ -97,6 +97,14 @@ Thank you PoCC and BurstWiki contributors!
 
 You can access the BAT's operated TestNet wallet via <http://testnet.getburst.net:6876/index.html>[2]
 
+Community run public nodes:
+
+https://octalsburstnode.ddns.net:6876/index.html
+
+https://test-burst.megash.it/index.html
+
+ http://testnet.burstcoin.network:6876/index.html
+
 ## Testnet Faucet
 
 -   <http://burstcoin.cc:7777/>[3]
