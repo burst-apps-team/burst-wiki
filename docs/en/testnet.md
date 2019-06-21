@@ -103,7 +103,9 @@ https://octalsburstnode.ddns.net:6876/index.html
 
 https://test-burst.megash.it/index.html
 
- http://testnet.burstcoin.network:6876/index.html
+http://testnet.burstcoin.network:6876/index.html
+
+http://burst-node-test.duckdns.org:8125/index.html
 
 ## Testnet Faucet
 
