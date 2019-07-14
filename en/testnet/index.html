@@ -850,78 +850,6 @@
 
 
   <li class="md-nav__item">
-    <a href="../publications-burst-cryptocurrency-news/" title="Publications - Burst Cryptocurrency News" class="md-nav__link">
-      Publications - Burst Cryptocurrency News
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../publications-burst-general/" title="Publications - Burst Gneral" class="md-nav__link">
-      Publications - Burst Gneral
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../publications-burst-commercial/" title="Publications - Burst Commercial" class="md-nav__link">
-      Publications - Burst Commercial
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../publications-burst-cryptonews/" title="Publications - Burst Cryptonews" class="md-nav__link">
-      Publications - Burst Cryptonews
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../publications-burst-news/" title="Publications - Burst News" class="md-nav__link">
-      Publications - Burst News
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../publications-burst-research/" title="Publications - Burst Research" class="md-nav__link">
-      Publications - Burst Research
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
     <a href="../publications-burst/" title="Publications - Burst" class="md-nav__link">
       Publications - Burst
     </a>
@@ -1020,42 +948,6 @@
   <li class="md-nav__item">
     <a href="../softfork-wishlist/" title="Softfork Wishlist" class="md-nav__link">
       Softfork Wishlist
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../style-guide/" title="Style Guide" class="md-nav__link">
-      Style Guide
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../team-applications/" title="Team Applications" class="md-nav__link">
-      Team Applications
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../team-support/" title="Team Support" class="md-nav__link">
-      Team Support
     </a>
   </li>
 
@@ -1182,18 +1074,6 @@
   <li class="md-nav__item">
     <a href="../the-burst-api-examples/" title="The Burst API Examples" class="md-nav__link">
       The Burst API Examples
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../todo/" title="TODO" class="md-nav__link">
-      TODO
     </a>
   </li>
 
@@ -1616,8 +1496,9 @@
                 <h1 id="testnet">TestNet</h1>
 <h2 id="description">Description</h2>
 <p>Burst has a permanent TestNet running. Its purpose is to provide a sandbox for both developers and users to test Burst features and to experiment with features without remorse. To talk about the testnet, visit us in <a href="https://discord.gg/UnwXKB">https://discord.gg/UnwXKB</a> in the channel #testnet</p>
+<p>Burst has <a href="http://at-testnet.burst-alliance.org:6876/">AT-Testnet</a> with Mock-mining active, 1 minute blocks and <a href="https://github.com/burst-apps-team/CIPs/blob/master/cip-0020.md">CIP-20</a> enabled.</p>
 <h2 id="how-to-set-up-a-testnet-node">How to set up a TestNet node ?</h2>
-<p>To run a node on the new TestNet, you will need to install the latest released version of the wallet. You can find instructions on setting up the wallet from the Burstcoin website (https://burst-coin.org). Keep in mind there may be scenarios where you would like to have your own private test net, say in case of some future revisions that might require a fork for adding to the current chain. In this case you could simply change the value for DEV.P2P.BootstrapPeers, the new value would be your localhost. Keep in mind if you are missing any parts of this configuration you will most likely encounter issues that are resolved by the values below. Again this is for testing purposes and DO NOT USE YOUR REAL PASSPHRASE.</p>
+<p>To run a node on the new TestNet, you will need to install the latest released version of the wallet. You can find instructions on setting up the wallet from the Burstcoin <a href="https://burst-coin.org">website</a>. Keep in mind there may be scenarios where you would like to have your own private test net, say in case of some future revisions that might require a fork for adding to the current chain. In this case you could simply change the value for DEV.P2P.BootstrapPeers, the new value would be your localhost. Keep in mind if you are missing any parts of this configuration you will most likely encounter issues that are resolved by the values below. Again this is for testing purposes and DO NOT USE YOUR REAL PASSPHRASE.</p>
 <p>We do recommend you to check in frequently in <a href="https://discord.gg/9S3eUBy">discord</a> (<code>#testnet</code> channel) so that you are aware of updates currently being deployed to test net and actively want to participate.</p>
 <p>Current TestNet facilities:</p>
 <ul>
@@ -1627,6 +1508,13 @@
 <li>
 <p><a href="http://75.100.126.230:8124/">Mining Pool</a></p>
 </li>
+<li>
+<p><a href="http://explorer.testnet.burst.devtrue.net/">Explorer</a></p>
+</li>
+</ul>
+<p>Current AT-TestNet facilities:</p>
+<ul>
+<li><a href="http://at-testnet.burst-alliance.org:7777/">Faucet</a></li>
 </ul>
 <p>Edit/add the following in conf/brs.properties (Don't forget to set your address, platform, and database settings):</p>
 <pre><code class="properties"># Please change the following 2 lines!
@@ -1671,8 +1559,8 @@ DEV.poc2.startBlock = 0
 DEV.rewardRecipient.startBlock = 6500
 </code></pre>
 
-<p>If you just need testnet wallet for testing please use this link (http://3.16.150.48:6876/index.html#). If you want to use your own desired peer, you can just change ip addresses.</p>
-<p>You can get the testnet coins at this faucet (http://burstcoin.cc:7777/)</p>
+<p>If you just need testnet wallet for testing please use this <a href="http://3.16.150.48:6876/index.html#">link</a>. If you want to use your own desired peer, you can just change ip addresses.</p>
+<p>You can get the testnet coins at this <a href="http://burstcoin.cc:7777/">faucet</a></p>
 <p>If for any reason you need to reset your peer, a fast easy way to do it is as follows:</p>
 <p>Stop node, in a terminal execute:</p>
 <pre><code>mysql -u root
@@ -1690,6 +1578,11 @@ FLUSH PRIVILEGES;
 <p>Thank you PoCC and BurstWiki contributors!</p>
 <h2 id="testnet-online-wallet">Testnet Online Wallet</h2>
 <p>You can access the BAT's operated TestNet wallet via <a href="http://testnet.getburst.net:6876/index.html">http://testnet.getburst.net:6876/index.html</a>[2]</p>
+<p>Community run public nodes:</p>
+<p>https://octalsburstnode.ddns.net:6876/index.html</p>
+<p>https://test-burst.megash.it/index.html</p>
+<p>http://testnet.burstcoin.network:6876/index.html</p>
+<p>http://burst-node-test.duckdns.org:8125/index.html</p>
 <h2 id="testnet-faucet">Testnet Faucet</h2>
 <ul>
 <li><a href="http://burstcoin.cc:7777/">http://burstcoin.cc:7777/</a>[3]</li>

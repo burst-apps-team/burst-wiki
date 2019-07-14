@@ -898,78 +898,6 @@
 
 
   <li class="md-nav__item">
-    <a href="../publications-burst-cryptocurrency-news/" title="Publications - Burst Cryptocurrency News" class="md-nav__link">
-      Publications - Burst Cryptocurrency News
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../publications-burst-general/" title="Publications - Burst Gneral" class="md-nav__link">
-      Publications - Burst Gneral
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../publications-burst-commercial/" title="Publications - Burst Commercial" class="md-nav__link">
-      Publications - Burst Commercial
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../publications-burst-cryptonews/" title="Publications - Burst Cryptonews" class="md-nav__link">
-      Publications - Burst Cryptonews
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../publications-burst-news/" title="Publications - Burst News" class="md-nav__link">
-      Publications - Burst News
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../publications-burst-research/" title="Publications - Burst Research" class="md-nav__link">
-      Publications - Burst Research
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
     <a href="../publications-burst/" title="Publications - Burst" class="md-nav__link">
       Publications - Burst
     </a>
@@ -1078,42 +1006,6 @@
 
 
   <li class="md-nav__item">
-    <a href="../style-guide/" title="Style Guide" class="md-nav__link">
-      Style Guide
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../team-applications/" title="Team Applications" class="md-nav__link">
-      Team Applications
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../team-support/" title="Team Support" class="md-nav__link">
-      Team Support
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
     <a href="../technical-information-about-mining-and-block-forging/" title="Technical Information about Mining and Block Forging" class="md-nav__link">
       Technical Information about Mining and Block Forging
     </a>
@@ -1164,18 +1056,6 @@
   <li class="md-nav__item">
     <a href="../the-burst-api-examples/" title="The Burst API Examples" class="md-nav__link">
       The Burst API Examples
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../todo/" title="TODO" class="md-nav__link">
-      TODO
     </a>
   </li>
 
@@ -1587,7 +1467,7 @@
 <h2 id="lexicon">Lexicon</h2>
 <p><strong>Plot files</strong></p>
 <p>In order to mine Burst, users have to open a Burst account and activate it by creating an outgoing transaction, as described in this article. The next step is creating plot files needed for Burst mining. As plot files are bound to the Burst account ID, it is impossible for users with different account IDs to have identical plot files.</p>
-<p>Plot files are made up of hashes. A hash is a result of of computing data using a cryptographic hash function. The length of a hash is 32 Bytes (265 bit). A nonce is a group of 8912 hashes, making its size 256 KiB. Each nonce is referenced by a number. The number of the nonce can take values between 0 and 264-1 (18446744073709551615). Nonces are sorted into 4096 scoops, therefore each scoop contains two hashes.</p>
+<p>Plot files are made up of hashes. A hash is a result of of computing data using a cryptographic hash function. The length of a hash is 32 Bytes (256 bit). A nonce is a group of 8192 hashes, making its size 256 KiB. Each nonce is referenced by a number. The number of the nonce can take values between 0 and 264-1 (18446744073709551615). Nonces are sorted into 4096 scoops, therefore each scoop contains two hashes.</p>
 <p><strong>Reward recipient assignment</strong></p>
 <p>Before they start mining, users have to decide whether they'll join a mining pool or mine alone (“solo mine”). This is done through a transaction called “Reward recipient assignment” which has to be executed for both types of mining. The reward recipient assignment transaction, when used in context of pool mining, enables the pool to use the deadlines submitted by the miner and sign newly forged blocks with miner's account. This transaction also assigns the block rewards from blocks forged by a specific miner to the pool for distribution, in accordance with pool reward distribution policies. Note that forged blocks are always signed by an account belonging to the miner who submitted the deadline used to forge the block.</p>
 <p><img alt="" src="../../media/Reward_recipient2.png" title="Reward Recipient" /></p>

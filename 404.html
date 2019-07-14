@@ -4,7 +4,8 @@
 
 <!doctype html>
 <html lang="en" class="no-js">
-  <head><script type="text/javascript">
+  <head>
+  <script type="text/javascript">
   function redirect() {
     let originalLocation = window.location.pathname;
     let newLocation = originalLocation;
@@ -12,12 +13,10 @@
     if (newLocation === "/wiki/Main_Page" || newLocation === "/wiki/Main_Page/") {
       newLocation = "/";
     }
-
     // Redirect old github links
     if (newLocation.startsWith("/burst-wiki")) {
       newLocation = newLocation.replace("/burst-wiki", "")
     }
-
     // Redirect old links
     if (newLocation.includes("-/")) {
       newLocation = newLocation.replace("-/", "/")
@@ -28,7 +27,6 @@
     if (newLocation.includes("--")) {
       newLocation = newLocation.replace("--", "-");
     }
-
     // Redirect old wiki pages
     let regex = /\/wiki\/([A-Za-z_]+)/;
     let found = newLocation.match(regex);
@@ -39,7 +37,6 @@
       }
       newLocation = "/en/" + page;
     }
-
     // Do it!
     if (newLocation !== originalLocation) {
       window.location.replace(newLocation);
@@ -47,7 +44,6 @@
   }
   redirect();
 </script>
-
     
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -883,78 +879,6 @@
 
 
   <li class="md-nav__item">
-    <a href="/en/publications-burst-cryptocurrency-news/" title="Publications - Burst Cryptocurrency News" class="md-nav__link">
-      Publications - Burst Cryptocurrency News
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="/en/publications-burst-general/" title="Publications - Burst Gneral" class="md-nav__link">
-      Publications - Burst Gneral
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="/en/publications-burst-commercial/" title="Publications - Burst Commercial" class="md-nav__link">
-      Publications - Burst Commercial
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="/en/publications-burst-cryptonews/" title="Publications - Burst Cryptonews" class="md-nav__link">
-      Publications - Burst Cryptonews
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="/en/publications-burst-news/" title="Publications - Burst News" class="md-nav__link">
-      Publications - Burst News
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="/en/publications-burst-research/" title="Publications - Burst Research" class="md-nav__link">
-      Publications - Burst Research
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
     <a href="/en/publications-burst/" title="Publications - Burst" class="md-nav__link">
       Publications - Burst
     </a>
@@ -1063,42 +987,6 @@
 
 
   <li class="md-nav__item">
-    <a href="/en/style-guide/" title="Style Guide" class="md-nav__link">
-      Style Guide
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="/en/team-applications/" title="Team Applications" class="md-nav__link">
-      Team Applications
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="/en/team-support/" title="Team Support" class="md-nav__link">
-      Team Support
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
     <a href="/en/technical-information-about-mining-and-block-forging/" title="Technical Information about Mining and Block Forging" class="md-nav__link">
       Technical Information about Mining and Block Forging
     </a>
@@ -1149,18 +1037,6 @@
   <li class="md-nav__item">
     <a href="/en/the-burst-api-examples/" title="The Burst API Examples" class="md-nav__link">
       The Burst API Examples
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="/en/todo/" title="TODO" class="md-nav__link">
-      TODO
     </a>
   </li>
 
