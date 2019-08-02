@@ -3,7 +3,7 @@ Beginning
 
 There are several important events in the short history of Burst.
 
--   2014-08-10: Official announcement on [Bitcointalk.org](https://bitcointalk.org) [1]
+-   2014-08-10: Official announcement on [Bitcointalk.org](http://web.archive.org/web/20140911042011/https://bitcointalk.org/index.php?topic=731923.0) [1]
 -   2014-08-11: Generation of the Genesis block [2]
 -   2014-08-20: First pool available [3]
 -   2014-08-22: Burst/BTC market added to the C-CEX exchange [4]
