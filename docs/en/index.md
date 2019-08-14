@@ -10,8 +10,8 @@
 
 - [Burst Software](burst-software.md)
 -   Burstcoin Reference Software
-    -   Latest Version: 2.3.0
-    -   [Direct Download](https://github.com/burst-apps-team/burstcoin/releases/download/v2.3.0/burstcoin-2.3.0.zip)
+    -   Latest Version: 2.4.2
+    -   [Direct Download](https://github.com/burst-apps-team/burstcoin/releases/download/v2.4.2/burstcoin-2.4.2.zip)
 -   [Burst Source Code](https://github.com/burst-apps-team/burstcoin)
 -   [Mobile App](mobile-app.md)
 -   [QBundle Full Guide](qbundle.md)
