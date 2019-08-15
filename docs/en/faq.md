@@ -80,7 +80,7 @@ Subcribe to The Burstcoinist, a weekly summary newsletter related to these topic
 
 * Discord: [https://discordapp.com/invite/RPhpjVv](https://discordapp.com/invite/RPhpjVv)
 
-* Reddit: [https://www.reddit.com/r/burstcoin](https://www.reddit.com/r/burstcoin) and [https://www.reddit.com/r/burstcoinmining/](https://www.reddit.com/r/burstcoinmining/)
+* Reddit: [https://www.reddit.com/r/burst](https://www.reddit.com/r/burst)
 
 * Burstforum forum: [https://www.burstforum.net/](https://www.burstforum.net/)
 
