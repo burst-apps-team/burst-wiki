@@ -162,23 +162,47 @@ Scavenger is a burst miner developped by PoC Consortium and written in Rust. It 
 
 * Platform : Windows, MacOS, Linux, Unix (64 bit)
 
-### Blagominer modded
+### Gyra
 
-This is a modified version of Blagominer. This modification of Blagominer builds upon modifications previously made by Quibus. 
+Gyra is a front-end tool that creates formally valid and logically consistent configurations for the Scavenger Proof-of-Capacity miner. The configuration file used by Scavenger and created by Gyra is a .yaml file, which users can download in their browser and save it in the root directory where the Scavenger executable is placed.
 
-* Main Developer : JohnnyFFM
+* Main Developer : feyd27
 
-* Download link : <https://github.com/JohnnyFFM/miner-burst/releases/latest>
+* Source Code : <https://github.com/feyd27/gyra>
+
+* Download link : <https://gyra-for-scavenger.firebaseapp.com/config>
+
+* Announcement : <https://www.reddit.com/r/burst/comments/cuzect/gyra_for_scavenger_a_submission_for_the_2019/>
+
+* Platform : Cross Platform
+
+### Blagominer quetzalcoatl
+
+A modded version based off of andzno1's version of Blagominer. This version features major improvements and bug fixes.  
+
+* Main Developer : quetzalcoatl
+
+* Download link : <https://github.com/quetzalcoatl/blagominer/releases>
 
 * Platform : Windows
 
-### Blagominer modded modded
+### Blagominer andzno1
 
 A modded version based off of JohnnyFFM's version of Blagominer. This version features collision free dual mining of Burstcoin and Bitcoin HD (configurable via priority) and tracking (and displaying) of possibly corrupted plot files.  
 
 * Main Developer : andzno1
 
 * Download link : <https://github.com/andzno1/blagominer/releases>
+
+* Platform : Windows
+
+### Blagominer JohnnyFFM
+
+This is a modified version of Blagominer. This modification of Blagominer builds upon modifications previously made by Quibus. 
+
+* Main Developer : JohnnyFFM
+
+* Download link : <https://github.com/JohnnyFFM/miner-burst/releases/latest>
 
 * Platform : Windows
 
