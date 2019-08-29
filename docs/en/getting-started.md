@@ -18,11 +18,8 @@ If you are just starting out, have average computer skills, and prefer ease of i
 
 If you have more advanced computer skills and prefer software that is not Windows based, packages for other popular operating systems have been developed.
 
-You can find the Burst Reference Software here:
+Rhe Burst Reference Software and guides to run it for Windows, Linux, and MacOS are below:
 
 -   [Burst Reference Software](https://github.com/burst-apps-team/burstcoin/releases)
 
-You can find step by step installation and setup guides on the Burst Wiki main page: (Burst Software section)
-
--   [Burst Reference Software](burst-reference-software.md)
-
+- [How to run a full node](burst-reference-software.md)

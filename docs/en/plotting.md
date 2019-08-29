@@ -14,6 +14,13 @@ Plotting Software
 
 An easy to use plotter, XPlotter, is included in the windows based QBundle. QBundle also includes a dynamic plotter that will manage your computers disk space so that available space is dedicated to mining but a dynamic amount of free space is maintained for normal usage.
 
-Other plotters have been developed for various operating systems and use cases.
+Other plotters, such as Engraver, have been developed for various operating systems and use cases.
 
-Details for selecting plotting software can be found [here](burst-software.md). All documentation regarding the use of plotters is available on the software's website and/or on Github.
+Details for selecting plotting software can be found [here](../burst-software/#plotting-software). All documentation regarding the use of plotters is available on the software's website and/or on Github.
+
+Plotting Videos
+-----------
+
+### Engraver
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Gg4Y2NhACSI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

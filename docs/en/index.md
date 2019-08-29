@@ -1,22 +1,28 @@
-**Welcome to the BURST WIKI**
+Welcome to the BURST WIKI
+-------------
 
 **Burst** is an [open source](https://github.com/burst-apps-team/burstcoin) blockchain platform with multiple core-level features that has been running publicly since August 2014. It is a code fork of Nxt using [Proof of Capacity](proof-of-capacity.md) (PoC) consensus, meaning that you can mine it with your disk space.
 
-**[What is Burst video animation](https://www.youtube.com/watch?v=Fyj9RIyxLb4)**
+### What is Burst?
 
-**[How to start mining Burst](https://www.youtube.com/watch?v=LJLhw37Lh_8&t)**
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/R0yIOWe2i-Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-**Burst Software**
+### How to start mining Burst
 
-- [Burst Software](burst-software.md)
--   Burstcoin Reference Software
-    -   Latest Version: 2.4.2
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/LJLhw37Lh_8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Burst Software
+-------------
+
+- [Comprehensive Software List](burst-software.md)
+- Burstcoin Reference Software `Latest Version: 2.4.2`
     -   [Direct Download](https://github.com/burst-apps-team/burstcoin/releases/download/v2.4.2/burstcoin-2.4.2.zip)
--   [Burst Source Code](https://github.com/burst-apps-team/burstcoin)
--   [Mobile App](mobile-app.md)
+    -   [Burst Source Code](https://github.com/burst-apps-team/burstcoin)
 -   [QBundle Full Guide](qbundle.md)
+-   [Mobile App](mobile-app.md)
 
-**Burst Features**
+Burst Features
+-------------
 
 -   [Arbitrary Messages](arbitrary-messages.md)
 -   [Alias System](alias-system.md)
@@ -25,10 +31,11 @@
 -   [Marketplace](marketplace.md)
 -   [*Summary of Features*](current-features.md)
 
-**For Developers**
+For Developers
+-------------
 
 -   [The Burst API](the-burst-api.md)
--   -   [The Burst API Examples](the-burst-api-examples.md)
+    -   [The Burst API Examples](the-burst-api-examples.md)
 -   [The brs-default.properties file](brs-default-properties-configuration-file.md)
 -   [Reed-Solomon (RS) Address Format](rs-address-format.md)
 -   [Burst Blockchain Tutorial](burst-blockchain-tutorial.md)
@@ -36,13 +43,15 @@
 -   [Offline Transaction Signing](offline-transaction-signing.md)
 -   [How Transaction Processing Works](how-tx-processing-works.md)
 
-**Mining**
+Mining
+-------------
 
 -   [Reward Assignment](reward-assignment.md)
 -   [Plotting](plotting.md)
 -   [Mining](mining.md)
 
-**About Burst**
+About Burst
+-------------
 
 -   [What is Burst?](burst-wiki.md)
 -   [Get started with Burst](getting-started.md)
@@ -58,7 +67,8 @@
 -   [Burst Whitepaper](whitepaper-burst.md)
 -   [History of Burst](history-of-burst.md)
 
-**Services and Tools**
+Services and Tools
+-------------
 
 - Online wallets: VoIPLanParty: [1](https://voiplanparty.com:8125/index.html), Burst-Team: [1](https://wallet3.burst-team.us:2083/index.html), [2](https://wallet4.burst-team.us:2083/index.html), [3](https://wallet5.burst-team.us:2083/index.html). Burstforum: [1](https://wallet1.burstforum.net:2083/index.html), [2](https://wallet2.burstforum.net:2083/index.html), [3](https://wallet3.burstforum.net:2083/index.html)
 
@@ -68,6 +78,12 @@
 -   [Pool uptime monitor](https://uptime.statuscake.com/?TestID=M30iNz7TSq)
 -   [Burstcoin Faucet Lists](http://burstfaucets.com/)
 
-**Get Support: [Forum 1](https://burstforum.net/)   |   [Forum 2](https://forums.getburst.net)   |   [Burst Discord](https://discord.gg/PMUgVSY)   |   [Burst Reddit](https://www.reddit.com/r/burst/)**
+Get Support
+-------------
 
-[Join Us Today!](join-us-.md)
+ [Forum 1](https://burstforum.net/)   |   [Forum 2](https://forums.getburst.net)   |   [Burst Discord](https://discord.gg/PMUgVSY)   |   [Burst Reddit](https://www.reddit.com/r/burst/)**
+
+Contribute
+-------------
+
+[Join Us Today!](join-us.md)
