@@ -97,13 +97,13 @@ A large collection of plotting software has been developed for specific needs, s
 
 ### ENGRAVER
 
-Engraver is a BURST plotter that natively generates optimized plot files. It generates PoC2 files and is intended to work on any UNIX system with a sufficiently sane filesystem (able to pre-allocate space), but for now only Linux and MacOS have been tested. 64bit only! 
+Engraver is a BURST plotter that natively generates optimized plot files. It generates PoC2 files and is intended to work on most platforms. Being the fastest plotter there is... it features: direct and async i/o, SIMD support (sse2, avx, avx2, avx512f), and gpu support.
 
 * Main Developer : PoC-Consortium
 
-* Download link : <https://github.com/PoC-Consortium/engraver>
+* Download link : <https://github.com/PoC-Consortium/engraver/releases>
 
-* Platform : Linux, MacOS
+* Platform : Linux, Unix, Windows, MacOS (32&64bit)
 
 * Installation guide : [Compile from Source](engraver---how-to-compile-from-source.md) 
 

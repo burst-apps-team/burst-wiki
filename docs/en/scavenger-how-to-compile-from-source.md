@@ -166,6 +166,11 @@ Example output from running scavenger
 
 <img src="../../media/Run-scav.PNG" title="Run-scav.PNG" alt="Run-scav.PNG" />
 
+Video Instruction
+------------
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Zmk3-w9EhFE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 References
 -------
 
