@@ -29,7 +29,7 @@ Make sure your installation is up to date
 
 Run the following command to install the above packages:
 
-**`apt install curl default-jdk dirmngr -y`**
+**`apt install curl openjdk-8-jdk-headless dirmngr -y`**
 
 ### Configuring Java environment path
 
