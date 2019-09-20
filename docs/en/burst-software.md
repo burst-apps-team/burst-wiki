@@ -28,16 +28,6 @@ According to [CIP-18](https://github.com/burst-apps-team/CIPs/blob/master/cip-00
 
 * Platform : Windows, MacOS, Linux, iOS, Android
 
-### Easy2Burst
-
-Easy2Burst is the successor of QBundle.
-
-* Main Developer : HeosSacer
-
-* Github repo : <https://github.com/HeosSacer/Easy2Burst>
-
-* Platform : Windows, Linux, MacOS
-
 ### Burst Reference Software (BRS)
 
 The [Burst Reference Software (BRS)](burst-reference-software.md) is the main Burst wallet. It allows connection to the Burst network. The Burst Reference Software is the wallet/software included in QBundle. This wallet version is developed and maintained by the Burst Apps Team (BAT) and supports a multitude of database backends.
@@ -60,16 +50,6 @@ A light-weight version of the current BURST wallet for easy access to send and r
 
 * Platform : Windows, MacOS
 
-### Aspera
-
-Aspera was a Burst Wallet written in go. This wallet opens up a whole new dimension for Burst with state-of-the-art technologies (partial blocks validation, new front-end, etc.). It is no longer being developed since the PoCC exit of Burstcoin.
-
-* Main Developer : PoC-Consortium
-
-* Github repo : <https://github.com/PoC-Consortium/Aspera>
-
-* Platform : Windows, Linux, MacOS
-
 ### Burstcoin mobile wallet
 
 The mobile wallet for Android and iOS which provides the following features :
@@ -89,6 +69,26 @@ The mobile wallet for Android and iOS which provides the following features :
 * Download link : <https://play.google.com/store/apps/developer?id=PoC+Consortium>
 
 * Platform : Android
+
+### Easy2Burst
+
+Easy2Burst was a Burst Wallet written in Rust, as the successor of QBundle. It is no longer being developed [<sup>\[1\]</sup>](https://github.com/HeosSacer/Easy2Burst/issues/2#issuecomment-531654134)
+
+* Main Developer : HeosSacer
+
+* Github repo : <https://github.com/HeosSacer/Easy2Burst>
+
+* Platform : Windows, Linux, MacOS
+
+### Aspera
+
+Aspera was a Burst Wallet written in go. This wallet opens up a whole new dimension for Burst with state-of-the-art technologies (partial blocks validation, new front-end, etc.). It is no longer being developed since the PoCC exit of Burstcoin.
+
+* Main Developer : PoC-Consortium
+
+* Github repo : <https://github.com/PoC-Consortium/Aspera>
+
+* Platform : Windows, Linux, MacOS
 
 Plotting Software
 -----------------
