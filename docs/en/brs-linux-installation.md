@@ -93,9 +93,9 @@ This will prompt you for the password you entered for the root user when install
 
 ### Configuring the BRS Wallet
 
-Grab the BRSWallet zip from [GitHub](https://github.com/burst-apps-team/burstcoin/releases) (always be sure to check link to the latest version. (2.3.0 was latest at time of writing)
+Grab the BRSWallet zip from [GitHub](https://github.com/burst-apps-team/burstcoin/releases) (always be sure to check link to the latest version. (2.4.2 was latest at time of writing)
 
-`wget https://github.com/burst-apps-team/burstcoin/releases/download/v2.3.0/burstcoin-2.3.0.zip`
+`wget https://github.com/burst-apps-team/burstcoin/releases/download/v2.4.2/burstcoin-2.4.2.zip`
 
 Create a directory to unzip to:
 
@@ -103,7 +103,7 @@ Create a directory to unzip to:
 
 Unzip the burstcoin zip file to the newly created directory:
 
-**`unzip burstcoin-2.3.0.zip -d BRSWallet/`**
+**`unzip burstcoin-2.4.2.zip -d BRSWallet/`**
 
 Navigate to the conf subdirectory within the newly created directory:
 
