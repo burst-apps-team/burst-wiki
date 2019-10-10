@@ -8,8 +8,14 @@ Der Burst-Marketplace bietet ein Protokoll für dezentrale Peer-to-Peer-Shops. E
 Wallet-Benutzeroberfläche
 -------------------------
 
-Wenn der Burst-Server läuft, kann mit dem Webbrowser auf die lokale Wallet zugegriffen werden: bitte <http://localhost:8125/> öffnen. In der Menüleiste 'Marktplatz' oder 'Meine Shops' wählen: ![](De-burst-marketplace.png "fig:De-burst-marketplace.png")
-{| |- |**Marktplatz durchsuchen**: Nach der Eingabe der Verkäufer-Adresse finden Sie hier dessen angebotenen Produkte. |- |**Gekaufte Artikel**: Listet alle zuvor von Ihnen gekaufte Produkte auf. |- |**Angebotene Artikel**: Enthält die Produkte, die Sie derzeit zum Kauf anbieten. |- |**Ausstehende Bestellungen**: Liste der verkauften Produkte, die Sie noch nicht ausgeliefert haben. Der Käufer benötigt noch die Download-Information. |- |**Abgeschlossene Bestellungen**: Enthält alle ausgelieferten Bestellungen und ev. Hinweise der Käufer. |- |**Artikel anbieten**: Hier können Sie neue digitale Produkte anbieten. |}
+Wenn der Burst-Server läuft, kann mit dem Webbrowser auf die lokale Wallet zugegriffen werden: bitte <http://localhost:8125/> öffnen. In der Menüleiste 'Marktplatz' oder 'Meine Shops' wählen: ![](De-burst-marketplace.png "fig:De-burst-marketplace.png")<br/>
+
+**Marktplatz durchsuchen**: Nach der Eingabe der Verkäufer-Adresse finden Sie hier dessen angebotenen Produkte.<br/>
+**Gekaufte Artikel**: Listet alle zuvor von Ihnen gekaufte Produkte auf.<br/>
+**Angebotene Artikel**: Enthält die Produkte, die Sie derzeit zum Kauf anbieten.<br/>
+**Ausstehende Bestellungen**: Liste der verkauften Produkte, die Sie noch nicht ausgeliefert haben. Der Käufer benötigt noch die Download-Information.<br/>
+**Abgeschlossene Bestellungen**: Enthält alle ausgelieferten Bestellungen und ev. Hinweise der Käufer.<br/>
+**Artikel anbieten**: Hier können Sie neue digitale Produkte anbieten.<br/>
 
 How To
 ------
@@ -34,13 +40,13 @@ Sie können Ihre eigenen digitalen Produkte auf dem Burst-Marktplatz anbieten:
 
 1.  Öffnen Sie die Wallet und gehen Sie zu ‘Mein Shop’.
 2.  Klick auf den Schalter ‘Artikel anbieten’.
-3.  Beschreiben Sie den Artikel.
-    **Name**: Eine präzise Produktbezeichnung.
-    **Beschreibung**: Ausführliche Details und ev. ein Link zur Produkt-Website.
-    **Tags** (optional): Sie können bis zu drei kommagetrennte Tags hinterlegen.
-    **Preis**: Der Einzelpreis in BURST.
-    **Menge**: Die verfügbare Menge, die Sie auf Lager haben und anbieten möchten. Diese wird beim Verkauf automatisch vom System verringert.
-    **Passphrase**: Ihr Kennwort ist für das Einstellen erforderlich.
+3.  Beschreiben Sie den Artikel.<br/>
+    **Name**: Eine präzise Produktbezeichnung.<br/>
+    **Beschreibung**: Ausführliche Details und ev. ein Link zur Produkt-Website.<br/>
+    **Tags** (optional): Sie können bis zu drei kommagetrennte Tags hinterlegen.<br/>
+    **Preis**: Der Einzelpreis in BURST.<br/>
+    **Menge**: Die verfügbare Menge, die Sie auf Lager haben und anbieten möchten. Diese wird beim Verkauf automatisch vom System verringert.<br/>
+    **Passphrase**: Ihr Kennwort ist für das Einstellen erforderlich.<br/>
 4.  Bestätigen Sie das Angebot mit Klick auf ‘Anbieten’. Es wird sofort in kursiver Schrift auf der Seite ‘Angebotene Artikel’ gelistet.
 5.  Nach der Bestätigung (Blockgenerierung) durch das Burst-Netzwerk wird es in normaler Schrift als klickbarer Link dargestellt.
 6.  Sobald jemand diesen Artikel kauft, wird er auf der Seite ‘Ausstehende Bestellungen’ gezeigt. Prüfen Sie diese Seite regelmäßig und klicken Sie auf ‘Artikel liefern’.
