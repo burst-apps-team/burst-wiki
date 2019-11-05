@@ -50,26 +50,6 @@ A light-weight version of the current BURST wallet for easy access to send and r
 
 * Platform : Windows, MacOS
 
-### Burstcoin mobile wallet
-
-The mobile wallet for Android and iOS which provides the following features :
-
--   Watch only addresses
--   Currency conversion
--   Client-side encryption and decryption
--   Encrypted / Unencrypted transaction messages
--   Contact book
--   QR code support
--   Secure and easy passphrase generation
--   Support for over 15 languages
--   Support for over 30 currencies
-
-* Main Developer : PoC-Consortium (lead dev: @cgb)
-
-* Download link : <https://play.google.com/store/apps/developer?id=PoC+Consortium>
-
-* Platform : Android
-
 ### Easy2Burst
 
 Easy2Burst was a Burst Wallet written in Rust, as the successor of QBundle. It is no longer being developed [<sup>\[1\]</sup>](https://github.com/HeosSacer/Easy2Burst/issues/2#issuecomment-531654134)
@@ -176,6 +156,16 @@ Gyra is a front-end tool that creates formally valid and logically consistent co
 
 * Platform : Cross Platform
 
+### foxy-miner
+
+A scavenger / conqueror wrapper for collision free multi mining
+
+* Main Developer : felix
+
+* Download link : <https://github.com/felixbrucker/foxy-miner/releases>
+
+* Platform : Windows, MacOS, Linux
+
 ### Blagominer quetzalcoatl
 
 A modded version based off of andzno1's version of Blagominer. This version features major improvements and bug fixes.  
@@ -235,6 +225,29 @@ A PoW miner for PoC. Its main purpose is to benchmark hashing devices for PoC an
 * Download link : <https://github.com/PoC-Consortium/bencher/releases>
 
 * Platform : Windows, MacOS, Linux, Unix (64 bit)
+
+Proxy Software
+-----------------
+
+### Archon
+
+A collision free, multi-chain proof of capacity mining proxy.
+
+* Main Developer : Aya
+
+* Download link : <https://github.com/Bloodreaver/Archon/releases>
+
+* Platform : Windows, Linux
+
+### foxy-proxy
+
+A BHD, LHD, DISC, BOOM and BURST proxy which supports solo and pool mining upstreams 
+
+* Main Developer : felix
+
+* Download link : <https://github.com/felixbrucker/foxy-proxy/releases>
+
+* Platform : Windows, Linux
 
 dApps
 -----

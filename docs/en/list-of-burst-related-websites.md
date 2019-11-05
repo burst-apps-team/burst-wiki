@@ -14,10 +14,11 @@ The Burst community is very heterogeneous. Thus, there is a whole ecosystem of w
 
 ## Faucets
 
+-	<https://faucet.burst-alliance.org/>
+-   <https://burst-coin.es/faucet>
 -   <http://burstfaucets.com>
 -   <https://faucet.burstpay.net/>
 -   <https://burstneon.com/faucet>
--   <https://burst-coin.es/faucet>
 
 ## Forums
 
