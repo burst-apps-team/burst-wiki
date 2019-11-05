@@ -19,7 +19,7 @@ Burst Software
     -   [Direct Download](https://github.com/burst-apps-team/burstcoin/releases/download/v2.4.2/burstcoin-2.4.2.zip)
     -   [Burst Source Code](https://github.com/burst-apps-team/burstcoin)
 -   [QBundle Full Guide](qbundle.md)
--   [Mobile App](mobile-app.md)
+-   [Mobile Applications](mobile-app.md)
 
 Burst Features
 -------------
@@ -81,7 +81,7 @@ Services and Tools
 Get Support
 -------------
 
- [Forum 1](https://burstforum.net/)   |   [Forum 2](https://forums.getburst.net)   |   [Burst Discord](https://discord.gg/PMUgVSY)   |   [Burst Reddit](https://www.reddit.com/r/burst/)**
+ [Forum 1](https://burstforum.net/)   |   [Forum 2](https://forums.getburst.net)   |   [Burst Discord](https://discord.gg/PMUgVSY)   |   [Burst Reddit](https://www.reddit.com/r/burst/)
 
 Contribute
 -------------
