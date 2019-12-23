@@ -99,13 +99,13 @@ You can access the BAT's operated TestNet wallet via <http://testnet.getburst.ne
 
 Community run public nodes:
 
-https://octalsburstnode.ddns.net:6876/index.html
+<https://octalsburstnode.ddns.net:6876/index.html>
 
-https://test-burst.megash.it/index.html
+<https://test-burst.megash.it/index.html>
 
-http://testnet.burstcoin.network:6876/index.html
+<http://testnet.burstcoin.network:6876/index.html>
 
-http://burst-node-test.duckdns.org:8125/index.html
+
 
 ## Testnet Faucet
 
