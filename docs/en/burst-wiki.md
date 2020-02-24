@@ -1,5 +1,4 @@
-Burst: the 'cryptocurrency 2.0'
--------------------------------
+# Burst - the "cryptocurrency 2.0"
 
 Burst is a cryptocurrency and an open-source decentralized blockchain platform that connects people, companies, and financial institutions. It allows you to move value – according to your own rules – within a scalable, green, and customizable ledger. It has multiple core-level features and has been running publicly since August of 2014.
 

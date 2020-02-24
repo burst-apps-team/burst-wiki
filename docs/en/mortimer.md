@@ -1,7 +1,8 @@
 Mortimer the Burst Butler
 =========================
 
-<img src="Mortimer.png" title="caption" alt="caption" width="200" />
+Introduction
+------
 
 Originally started as the PoCC Bot for tips on Reddit, Mortimer is a multi-interface, multi-currency and multi-functionality service framework mainly for the Burstcoin cryptocurrency. Called “butler” for short. Mortimer supports other cryptocurrencies than Burstcoin where it serves the purpose of added value to Burstcoin (such as exchange services).
 
