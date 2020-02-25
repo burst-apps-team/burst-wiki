@@ -1575,7 +1575,7 @@
 <p>Make sure your installation is up to date</p>
 <p><strong><code>apt update &amp;&amp; apt upgrade</code></strong></p>
 <p>Run the following command to install the above packages:</p>
-<p><strong><code>apt install curl default-jdk dirmngr -y</code></strong></p>
+<p><strong><code>apt install curl openjdk-8-jdk-headless dirmngr -y</code></strong></p>
 <h3 id="configuring-java-environment-path">Configuring Java environment path</h3>
 <p>Find the path to the jdk</p>
 <p><strong><code>update-alternatives --config javac</code></strong></p>
@@ -1609,12 +1609,12 @@ GRANT ALL PRIVILEGES ON brs_master.* TO 'brs_user'@'localhost';" | mysql -uroot 
 mysql -uroot -p &lt; init-mysql.sql</code></strong></p>
 <p>This will prompt you for the password you entered for the root user when installing mariaDB</p>
 <h3 id="configuring-the-brs-wallet">Configuring the BRS Wallet</h3>
-<p>Grab the BRSWallet zip from <a href="https://github.com/burst-apps-team/burstcoin/releases">GitHub</a> (always be sure to check link to the latest version. (2.3.0 was latest at time of writing)</p>
-<p><code>wget https://github.com/burst-apps-team/burstcoin/releases/download/v2.3.0/burstcoin-2.3.0.zip</code></p>
+<p>Grab the BRSWallet zip from <a href="https://github.com/burst-apps-team/burstcoin/releases">GitHub</a> (always be sure to check link to the latest version. (2.4.2 was latest at time of writing)</p>
+<p><code>wget https://github.com/burst-apps-team/burstcoin/releases/download/v2.4.2/burstcoin-2.4.2.zip</code></p>
 <p>Create a directory to unzip to:</p>
 <p><strong><code>mkdir BRSWallet</code></strong></p>
 <p>Unzip the burstcoin zip file to the newly created directory:</p>
-<p><strong><code>unzip burstcoin-2.3.0.zip -d BRSWallet/</code></strong></p>
+<p><strong><code>unzip burstcoin-2.4.2.zip -d BRSWallet/</code></strong></p>
 <p>Navigate to the conf subdirectory within the newly created directory:</p>
 <p><strong><code>cd BRSWallet/conf</code></strong></p>
 <p>Create a brs.properties file inside the conf folder:</p>
