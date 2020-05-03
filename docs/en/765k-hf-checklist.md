@@ -8,7 +8,7 @@ Brought to you by Burst Apps Team (BAT).
 
 ### What To Do \*\*Now\*\* that it is released? (Everyone)
 
--   Make sure you have a current version of the wallet (either 2.5.0 or higher or 3.0.0 or higher), currently released.
+-   Make sure you have a current version of the wallet (2.5.0 or higher), currently released at [burst-apps-team repository](https://github.com/burst-apps-team/burstcoin/releases).
 -   Make sure you shut down all instances of previous versions. All previous versions are **obsolete** and will be automatically rejected by upgraded nodes after the fork.
 
 <!-- -->
@@ -19,7 +19,7 @@ Brought to you by Burst Apps Team (BAT).
 ### For Miners
 
 -   If you mine on a pool, there is nothing you need to do (assuming the pool operator runs an up-to-date BRS node).
--   If you mine solo, also no extra recommendation other than upgrade BRS to either >=2.5.0 or >=3.0.0.
+-   If you mine solo, also no extra recommendation other than upgrade BRS to >=2.5.0.
 
 ### For Hodlers/Investors
 
@@ -32,14 +32,17 @@ Brought to you by Burst Apps Team (BAT).
 
 ### For Pool Operators
 
--   Make sure your pool back-end BRS node is >=2.5.0 or >=3.0.0.
+-   Make sure your pool back-end BRS node is >=2.5.0.
 -   Although the deadline computation formula has been changed, BRS will always send back the legacy deadline as confirmation. So, as long as the pool send its best deadline to the node, there is no change needed on any software.
 -   The legacy best deadline continues to be the best deadline, nothing to worry about.
--   If you want to better inform your miners about the current best deadline or other related information in your monitoring webpage you might want to implement the deadline conversion.
+-   If you want to better inform your miners about the current best deadline or other related information in your monitoring webpage you might want to implement the deadline conversion:
+```
+deadline = ln(legacyDeadline)*240/ln(240)
+```
 
 ### For Exchanges
 
--   Please update your BRS node **as soon as possible** to version 2.5.0.
+-   Please update your BRS node **as soon as possible** to version >=2.5.0.
 -   There are no breaking API changes.
 
 ### For Developers
