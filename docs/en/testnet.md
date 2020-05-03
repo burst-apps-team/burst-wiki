@@ -16,6 +16,8 @@ Current TestNet facilities:
 
 * [Faucet](http://burstcoin.cc:7777/)
 
+* [Faucet 2](http://nivbox.co.uk:7777/)
+
 * [Mining Pool](http://75.100.126.230:8124/)
 
 * [Explorer](http://explorer.testnet.burst.devtrue.net/)
@@ -107,9 +109,11 @@ Community run public nodes:
 
 
 
-## Testnet Faucet
+## Testnet Faucets
 
--   <http://burstcoin.cc:7777/>[3]
+-   <http://burstcoin.cc:7777/>
+
+-   <http://nivnox.co.uk:7777/>
 
 ## References
 
