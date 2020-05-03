@@ -2,7 +2,7 @@
 
 ## Description
 
-Burst has a permanent TestNet running. Its purpose is to provide a sandbox for both developers and users to test Burst features and to experiment with features without remorse. To talk about the testnet, visit us in <https://discord.gg/CQEUe3e> in the channel \#testnet
+Burst has a permanent TestNet running. Its purpose is to provide a sandbox for both developers and users to test Burst features and to experiment with features without remorse. Join our TestNet community on Discord here <https://discord.gg/CQEUe3e> in the channel \#testnet.
 
 Burst has [AT-Testnet](http://at-testnet.burst-alliance.org:6876/) with Mock-mining active, 1 minute blocks and [CIP-20](https://github.com/burst-apps-team/CIPs/blob/master/cip-0020.md) enabled.
 
