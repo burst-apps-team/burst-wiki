@@ -1,4 +1,4 @@
-500k “Pre-Dymaxion” Hard Fork Checklist
+500k “Pre-POC2” Hard Fork Checklist
 ---------------------------------------
 
 Disclaimer: A checklist is used by qualified personnel. I.e. pre-flight checklist by pilots, medical guideline by medical staff etc. A checklist **is not** a tutorial. If you do not understand some of the points that apply to your “user class”, you have more learning/reading to do.
@@ -7,8 +7,8 @@ It is assumed you know what PoC1 and PoC2 is, how they differ, what optimized pl
 
 ### What To Do \*\*Now\*\* that  is released? (Everyone)
 
--   Make sure you have a current version of the wallet (2.2.6 or higher, currently released: )
--   Make sure you shut down all instances of pre- wallets, especially 1.2.9 or 1.3.6cg. These are **obsolete** and will no longer function after the fork.
+-   Make sure you have a current version of the wallet (2.4.2 or higher, currently released: )
+-   Make sure you shut down all instances of pre-POC2 wallets, especially 1.2.9 or 1.3.6cg. These are **obsolete** and will no longer function after the fork.
 
 <!-- -->
 
