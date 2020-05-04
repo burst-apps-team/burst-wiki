@@ -17,7 +17,7 @@ You can click on “Set account info”, “send a message”, “buy an alias�
 Activate your wallet using the API
 ----------------------------------
 
-Another less known way to activate your wallet is using the Burst API. You won't even need to make an outgoing tx from your new account using this method, because you can directly specify the recipient publicKey in the outgoing tx on the account you're using.
+Another less well known way to activate your wallet is using the Burst API. You won't even need to make an outgoing tx from your new account using this method, because you can directly specify the recipient publicKey in the outgoing tx on the account you're using.
 
 Firstly, please visit <https://127.0.0.1:8125/test?requestType=sendMoney> or <https://voiplanparty.com:8125/test?requestType=sendMoney> or any trusted online wallet of your choice.
 
