@@ -58,7 +58,11 @@ If you just need to communicate with another TestNet peer, you can use this [lin
 
 You can get TestNet Burst coins at this [faucet](http://burstcoin.cc:7777/).
 
-If for any reason you need to reset your peer, here is a fast and easy way to do it:
+If for any reason you need to reset your peer, follow these instructions:
+
+If using the H2 database backend (which is the default), just remove all files under the burst_db folder. 
+
+If using mariaDB database backend, perform these steps:
 
 Stop the node and execute the following in a terminal:
 ````
