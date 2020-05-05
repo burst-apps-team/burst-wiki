@@ -82,13 +82,13 @@ Start node again, wait until sync is complete.
 
 ## Testnet Public Nodes
 
-You can access the BAT's operated TestNet node via <http://testnet.getburst.net:6876/index.html>[1]
+You can access the following BAT operated TestNet nodes
+
+<http://testnet.getburst.net:6876/index.html>[1]
+
+<https://testnet-2.burst-alliance.org:6876/index.html>
 
 Other community run public nodes:
-
-<https://octalsburstnode.ddns.net:6876/index.html>
-
-<https://test-burst.megash.it/index.html>
 
 <http://testnet.burstcoin.network:6876/index.html>
 
