@@ -54,7 +54,7 @@ DEV.rewardRecipient.startBlock = 6500
 ```
 Keep in mind there may be scenarios where you would like to have your own private test net, say in case of some future revisions that might require a fork for adding to the current chain. In this case, you could simply change the value of DEV.P2P.BootstrapPeers to the value of your localhost.
 
-If you just need to communicate with another TestNet peer, you can use this [link](http://3.16.150.48:6876/index.html#). If you want to use your own desired peer, you can just change the ip address accordingly.
+If you would like access to another TestNet peer without having to install your own, you can use any of the ones listed [here](https://burstwiki.org/en/testnet/#testnet-public-nodes). If you want to use your own desired peer, you can just change the ip address accordingly.
 
 You can get TestNet Burst coins at this [faucet](http://burstcoin.cc:7777/).
 
