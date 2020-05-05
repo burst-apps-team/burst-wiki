@@ -82,7 +82,7 @@ Start node again, wait until sync is complete.
 
 ## Testnet Public Nodes
 
-You can access the BAT's operated TestNet node via <http://testnet.getburst.net:6876/index.html>[2]
+You can access the BAT's operated TestNet node via <http://testnet.getburst.net:6876/index.html>[1]
 
 Other community run public nodes:
 
@@ -98,6 +98,5 @@ Join our TestNet community on Discord here <https://discord.gg/CQEUe3e> and go t
 
 ## References
 
-1. <https://github.com/burst-apps-team/BurstcoinTestNetH
-2. <https://www.burstcoin.ist/2019/02/10/weekly-burst-report-69/>
-3. <https://www.reddit.com/r/burstcoin/comments/aemjfn/testnet/>
+1. <https://www.burstcoin.ist/2019/02/10/weekly-burst-report-69/>
+
