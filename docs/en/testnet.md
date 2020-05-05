@@ -8,49 +8,15 @@ Burst has a permanent TestNet running. Its purpose is to provide a sandbox for b
 
 To run a node on the TestNet, you will need to install the latest released version of the Burst Reference Software (BRS) that can be found on [GitHub](https://github.com/burst-apps-team/burstcoin/releases).
 
-Edit/add the following in conf/brs.properties (Don't forget to set your address, platform, and database settings because if any parts are missing, you will most likely encounter issues):
+Edit/add the following in the conf/brs.properties file:
 
 ```properties
-# Please change the following 2 lines!
-P2P.myAddress=
-P2P.myPlatform=TestNet Node
-
-# This needs to be true to be a full node
-P2P.shareMyAddress=true
-
-# The rest of the config is needed for testnet. Please do not change
-API.Listen = 0.0.0.0
-API.allowed = *
-
-DEV.API.Port = 6876
-# This is a new port; please expose it.
-DEV.API.V2.Port = 6878
-
-# For H2
-DEV.DB.Url=jdbc:h2:file:./burst_testnet;DB_CLOSE_ON_EXIT=FALSE
-# For MariaDB
-#DEV.DB.Url=jdbc:mariadb://localhost:3306/burst-testnet
-DEV.DB.Username=
-DEV.DB.Password=
-
+# These settings are the recommended minimum changes/additions needed to operate a TestNet node
 DEV.TestNet = yes
-DEV.Offline = no
 
-DEV.P2P.BootstrapPeers = 144.217.93.166; testnet.getburst.net; octalsburstnode.ddns.net; 3.16.150.48; 75.100.126.230; testddns.gotdns.com; aya.onthewifi.com; 212.37.175.94; burst-node-test.duckdns.org; test-burst.megash.it; happyfarmer.internet-box.ch;
-DEV.P2P.rebroadcastTo = 144.217.93.166; testnet.getburst.net; octalsburstnode.ddns.net; 3.16.150.48; 75.100.126.230; testddns.gotdns.com; aya.onthewifi.com; 212.37.175.94; burst-node-test.duckdns.org; test-burst.megash.it; happyfarmer.internet-box.ch;
-
-P2P.savePeers=true
-P2P.usePeersDb=true
-P2P.getMorePeers=true
-
-DEV.digitalGoodsStore.startBlock = 0
-DEV.automatedTransactions.startBlock = 0
-DEV.atFixBlock2.startBlock = 0
-DEV.atFixBlock3.startBlock = 0
-DEV.atFixBlock4.startBlock = 0
-DEV.preDymaxion.startBlock = 0
-DEV.poc2.startBlock = 0
-DEV.rewardRecipient.startBlock = 6500
+DEV.P2P.BootstrapPeers = testnet-2.burst-alliance.org; testnet.getburst.net; 77.66.65.240; 77.68.73.180;
+DEV.P2P.rebroadcastTo = testnet-2.burst-alliance.org; testnet.getburst.net; 77.66.65.240; 77.68.73.180;
+P2P.NumBootstrapConnections = 2
 ```
 Keep in mind there may be scenarios where you would like to have your own private test net, say in case of some future revisions that might require a fork for adding to the current chain. In this case, you could simply change the value of DEV.P2P.BootstrapPeers to the value of your localhost.
 
