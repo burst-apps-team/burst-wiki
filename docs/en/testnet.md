@@ -64,6 +64,8 @@ Other community run public nodes:
 
 <http://testnet.burstcoin.network:6876/index.html>
 
+<https://octalsburstnode.ddns.net:6876/index.html>
+
 ## Have Questions?
 
 Join our TestNet community on Discord here <https://discord.gg/CQEUe3e> and go to the \#testnet channel. Stay informed about current updates being deployed on TestNet.
