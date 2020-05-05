@@ -82,7 +82,9 @@ Start node again, wait until sync is complete.
 
 * [Mining Pool](http://75.100.126.230:8124/)
 
-* [Explorer](http://explorer.testnet.burst.devtrue.net/)
+* [Explorer 1](http://explorer.testnet.burst.devtrue.net/)
+
+* [Explorer 2](https://testnet.explorer.burstcoin.network/)
 
 ## Testnet Public Nodes
 
