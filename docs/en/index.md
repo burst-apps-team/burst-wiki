@@ -42,7 +42,7 @@ For Developers
 -   [QR Codes (Deeplink Example)](https://github.com/burst-apps-team/phoenix/pull/566)
 -   [QR Codes (API Example)](https://burst-apps-team.github.io/phoenix/interfaces/core_api.accountapi.html#generatesendtransactionqrcode)
 -   [Offline Transaction Signing](offline-transaction-signing.md)
--   [How Transaction Processing Works](how-tx-processing-works.md)
+-   [How Transaction Processing Works](https://github.com/burst-apps-team/burst-wiki/blob/master/docs/en/transaction-and-fee-types.md)
 
 Mining
 -------------
