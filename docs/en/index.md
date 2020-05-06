@@ -74,7 +74,7 @@ Services and Tools
 
 -   TestNet: [Burst Apps Team Public TestNet](http://testnet.getburst.net:6876/index.html)
 -   Blockchain Explorers: [Burst Apps Team](https://explorer.burstcoin.network/), [.RO](https://explore.burstcoin.ro/), [Neon](http://burstneon.com/monitor?id=16020314477710380875)
--   Network Observers: [Burst Apps Team](https://explorer.burstcoin.network/?action=network_status), [Independent](https://explorer.burst.devtrue.net/peers-charts/)
+-   Network Observers: [Burst Apps Team](https://explorer.burstcoin.network/?action=network_status), [Devtrue.net](https://explorer.burst.devtrue.net/peers-charts/)
 -   [Pool uptime monitor](https://uptime.statuscake.com/?TestID=M30iNz7TSq)
 -   [Burstcoin Faucet Lists](http://burstfaucets.com/)
 
