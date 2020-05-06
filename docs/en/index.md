@@ -74,7 +74,7 @@ Services and Tools
 
 -   TestNet: [BAT Public TestNet](http://testnet.getburst.net:6876/index.html)
 -   Blockchain Explorer: [BAT](https://explorer.burstcoin.network/), [.RO](https://explore.burstcoin.ro/), [Neon](http://burstneon.com/monitor?id=16020314477710380875)
--   Network Observer: [BAT 1](https://explorer.burstcoin.network/?action=network_status), [BAT 2](https://explorer.burst.devtrue.net/peers-charts/)
+-   Network Observer: Burst Apps Team: [1](https://explorer.burstcoin.network/?action=network_status), [2](https://explorer.burst.devtrue.net/peers-charts/)
 -   [Pool uptime monitor](https://uptime.statuscake.com/?TestID=M30iNz7TSq)
 -   [Burstcoin Faucet Lists](http://burstfaucets.com/)
 
