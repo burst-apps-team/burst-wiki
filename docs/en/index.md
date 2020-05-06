@@ -39,7 +39,8 @@ For Developers
 -   [The brs-default.properties file](brs-default-properties-configuration-file.md)
 -   [Reed-Solomon (RS) Address Format](rs-address-format.md)
 -   [Burst Blockchain Tutorial](burst-blockchain.md)
--   [QR Codes for RS Address Format](qr-codes-for-rs-address-format.md)
+-   [QR Codes (Deeplink Example)](https://github.com/burst-apps-team/phoenix/pull/566)
+-   [QR Codes (API Example)](https://burst-apps-team.github.io/phoenix/interfaces/core_api.accountapi.html#generatesendtransactionqrcode)
 -   [Offline Transaction Signing](offline-transaction-signing.md)
 -   [How Transaction Processing Works](how-tx-processing-works.md)
 
