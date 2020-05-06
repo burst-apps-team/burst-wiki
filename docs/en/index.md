@@ -38,7 +38,7 @@ For Developers
     -   [The Burst API Examples](the-burst-api-examples.md)
 -   [The brs-default.properties file](brs-default-properties-configuration-file.md)
 -   [Reed-Solomon (RS) Address Format](rs-address-format.md)
--   [Burst Blockchain Tutorial](burst-blockchain-tutorial.md)
+-   [Burst Blockchain Tutorial](burst-blockchain.md)
 -   [QR Codes for RS Address Format](qr-codes-for-rs-address-format.md)
 -   [Offline Transaction Signing](offline-transaction-signing.md)
 -   [How Transaction Processing Works](how-tx-processing-works.md)
