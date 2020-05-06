@@ -73,8 +73,8 @@ Services and Tools
 - Online wallets: VoIPLanParty: [1](https://voiplanparty.com:8125/index.html), Burst-Team: [1](https://wallet3.burst-team.us:2083/index.html), [2](https://wallet4.burst-team.us:2083/index.html), [3](https://wallet5.burst-team.us:2083/index.html). Burstforum: [1](https://wallet1.burstforum.net:2083/index.html), [2](https://wallet2.burstforum.net:2083/index.html), [3](https://wallet3.burstforum.net:2083/index.html)
 
 -   TestNet: [Burst Apps Team Public TestNet](http://testnet.getburst.net:6876/index.html)
--   Blockchain Explorer: [Burst Apps Team](https://explorer.burstcoin.network/), [.RO](https://explore.burstcoin.ro/), [Neon](http://burstneon.com/monitor?id=16020314477710380875)
--   Network Observer: Burst Apps Team: [1](https://explorer.burstcoin.network/?action=network_status), [2](https://explorer.burst.devtrue.net/peers-charts/)
+-   Blockchain Explorers: [Burst Apps Team](https://explorer.burstcoin.network/), [.RO](https://explore.burstcoin.ro/), [Neon](http://burstneon.com/monitor?id=16020314477710380875)
+-   Network Observers: [Burst Apps Team](https://explorer.burstcoin.network/?action=network_status), [Independent](https://explorer.burst.devtrue.net/peers-charts/)
 -   [Pool uptime monitor](https://uptime.statuscake.com/?TestID=M30iNz7TSq)
 -   [Burstcoin Faucet Lists](http://burstfaucets.com/)
 
