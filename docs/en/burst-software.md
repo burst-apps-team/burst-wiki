@@ -70,6 +70,26 @@ Aspera was a Burst Wallet written in go. This wallet opens up a whole new dimens
 
 * Platform : Windows, Linux, MacOS
 
+### Burst Client For Windows All-In-One Wallet \[ARCHIVED\]
+
+Burst Win Client extends the original Burst Wallet (BRS) with Plotter and Miner software from other developers. It’s a helper tool for a Windows user. This software is End-of-Life and is no longer updated nor supported. It remains archived online, but will not connect to the Burst network.
+
+* Main Developer : daWallet
+
+* Website : <https://burstwallet.io/archived-pages-reference-only/dawallets-burst-windows-wallet/>
+
+* Platform : Windows
+
+### .NET Windows Chromium All-In-One Wallet \[ARCHIVED\]
+
+This all-in-one wrapper provides easy access to features and resources for Burst. For security conscious people, the passwords used to access the wallet can be encrypted. This wallet is no longer being developed, and is not recommended for use.
+
+* Main Developer : Lexicon
+
+* Website : <https://burstwallet.io/archived-pages-reference-only/lexicons-net-windows-wallet/>
+
+* Platform : Windows
+
 Plotting Software
 -----------------
 
