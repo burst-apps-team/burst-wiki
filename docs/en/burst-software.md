@@ -1,7 +1,7 @@
 Introduction
 ------------
 
-The Burst ecosystem uses lots of software. A majority of these softwares are used either to plot, mine, or simply to transfer BURST. A majority of users will want a local wallet, and there are plenty to chose from!
+The Burst ecosystem uses lots of software. A majority of these are used either to plot, mine, or simply to transfer BURST. A majority of users will want a local wallet, and there are plenty to choose from!
 
 Wallets
 -------
@@ -38,7 +38,7 @@ The [Burst Reference Software (BRS)](burst-reference-software.md) is the main Bu
 
 * Platform : Windows, Linux, macOS, Docker
 
-* Installation Guide : [Windows Installation](https://burstwiki.org/wiki/BRS/Windows_Installation), [Linux Installation](https://burstwiki.org/wiki/BRS/Linux_Installation), [macOS Installation](https://burstwiki.org/wiki/BRS/MacOS_Installation), [Docker Installation](https://burstwiki.org/wiki/BRS/Docker_Installation)
+* Installation Guide : [Windows Installation](brs-windows-installation.md), [Linux Installation](brs-linux-installation.md), [macOS Installation](brs-macos-installation.md), [Docker Installation](brs-docker-installation.md)
 
 ### BurstHotWallet
 
@@ -50,7 +50,7 @@ A light-weight version of the current BURST wallet for easy access to send and r
 
 * Platform : Windows, MacOS
 
-### Easy2Burst
+### Easy2Burst \[ARCHIVED\]
 
 Easy2Burst was a Burst Wallet written in Rust, as the successor of QBundle. It is no longer being developed [<sup>\[1\]</sup>](https://github.com/HeosSacer/Easy2Burst/issues/2#issuecomment-531654134)
 
@@ -60,7 +60,7 @@ Easy2Burst was a Burst Wallet written in Rust, as the successor of QBundle. It i
 
 * Platform : Windows, Linux, MacOS
 
-### Aspera
+### Aspera \[ARCHIVED\]
 
 Aspera was a Burst Wallet written in go. This wallet opens up a whole new dimension for Burst with state-of-the-art technologies (partial blocks validation, new front-end, etc.). It is no longer being developed since the PoCC exit of Burstcoin.
 
@@ -69,6 +69,26 @@ Aspera was a Burst Wallet written in go. This wallet opens up a whole new dimens
 * Github repo : <https://github.com/PoC-Consortium/Aspera>
 
 * Platform : Windows, Linux, MacOS
+
+### Burst Client For Windows All-In-One Wallet \[ARCHIVED\]
+
+Burst Win Client extends the original Burst Wallet (BRS) with Plotter and Miner software from other developers. It’s a helper tool for a Windows user. This software is End-of-Life and is no longer updated nor supported. It remains archived online, but will not connect to the Burst network.
+
+* Main Developer : daWallet
+
+* Website : <https://burstwallet.io/archived-pages-reference-only/dawallets-burst-windows-wallet/>
+
+* Platform : Windows
+
+### .NET Windows Chromium All-In-One Wallet \[ARCHIVED\]
+
+This all-in-one wrapper provides easy access to features and resources for Burst. For security conscious people, the passwords used to access the wallet can be encrypted. This wallet is no longer being developed, and is not recommended for use.
+
+* Main Developer : Lexicon
+
+* Website : <https://burstwallet.io/archived-pages-reference-only/lexicons-net-windows-wallet/>
+
+* Platform : Windows
 
 Plotting Software
 -----------------
@@ -85,7 +105,7 @@ Engraver is a BURST plotter that natively generates optimized plot files. It gen
 
 * Platform : Linux, Unix, Windows, MacOS (32&64bit)
 
-* Installation guide : [Compile from Source](engraver---how-to-compile-from-source.md) 
+* Installation guide : [Compile from Source](engraver-how-to-compile-from-source.md) 
 
 ### TurboPlotter 9000
 
@@ -127,14 +147,14 @@ gpuPlotGenerator is a GPU PoC 1 plotter.
 
 * Platform : Windows, Linux, MacOS
 
-Mining Softwares
+Mining Software
 ----------------
 
 The following software is used to mine plot files.
 
 ### Scavenger
 
-Scavenger is a burst miner developped by PoC Consortium and written in Rust. It features direct io, avx512f, avx2, avx, sse and opencl.
+Scavenger is a Burst miner developed by PoC Consortium and written in Rust. It features direct io, avx512f, avx2, avx, sse and opencl.
 
 * Main Developer : PoC Consortium
 
@@ -158,7 +178,7 @@ Gyra is a front-end tool that creates formally valid and logically consistent co
 
 ### foxy-miner
 
-A scavenger / conqueror wrapper for collision free multi mining
+A scavenger / conqueror wrapper for collision free multi-mining.
 
 * Main Developer : felix
 
@@ -320,7 +340,7 @@ Nogrod is the all-new PoCC pool software written in GO. It provides SSE4 + AVX2 
 
 ### BurstNeon Burst-Pool
 
-This is a pool software developped by [BurstNeon](http://burstneon.com).
+This is a pool software developed by [BurstNeon](http://burstneon.com).
 
 * Main Developer : BurstNeon
 
