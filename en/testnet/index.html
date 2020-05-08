@@ -1016,22 +1016,29 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#how-to-set-up-a-testnet-node" title="How to set up a TestNet node ?" class="md-nav__link">
-    How to set up a TestNet node ?
+  <a href="#how-to-set-up-a-testnet-node" title="How to set up a TestNet node" class="md-nav__link">
+    How to set up a TestNet node
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#testnet-online-wallet" title="Testnet Online Wallet" class="md-nav__link">
-    Testnet Online Wallet
+  <a href="#current-testnet-facilities" title="Current TestNet Facilities" class="md-nav__link">
+    Current TestNet Facilities
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#testnet-faucet" title="Testnet Faucet" class="md-nav__link">
-    Testnet Faucet
+  <a href="#testnet-public-nodes" title="Testnet Public Nodes" class="md-nav__link">
+    Testnet Public Nodes
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#have-questions" title="Have Questions?" class="md-nav__link">
+    Have Questions?
   </a>
   
 </li>
@@ -1447,22 +1454,29 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#how-to-set-up-a-testnet-node" title="How to set up a TestNet node ?" class="md-nav__link">
-    How to set up a TestNet node ?
+  <a href="#how-to-set-up-a-testnet-node" title="How to set up a TestNet node" class="md-nav__link">
+    How to set up a TestNet node
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#testnet-online-wallet" title="Testnet Online Wallet" class="md-nav__link">
-    Testnet Online Wallet
+  <a href="#current-testnet-facilities" title="Current TestNet Facilities" class="md-nav__link">
+    Current TestNet Facilities
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#testnet-faucet" title="Testnet Faucet" class="md-nav__link">
-    Testnet Faucet
+  <a href="#testnet-public-nodes" title="Testnet Public Nodes" class="md-nav__link">
+    Testnet Public Nodes
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#have-questions" title="Have Questions?" class="md-nav__link">
+    Have Questions?
   </a>
   
 </li>
@@ -1495,12 +1509,36 @@
                 
                 <h1 id="testnet">TestNet</h1>
 <h2 id="description">Description</h2>
-<p>Burst has a permanent TestNet running. Its purpose is to provide a sandbox for both developers and users to test Burst features and to experiment with features without remorse. To talk about the testnet, visit us in <a href="https://discord.gg/UnwXKB">https://discord.gg/UnwXKB</a> in the channel #testnet</p>
-<p>Burst has <a href="http://at-testnet.burst-alliance.org:6876/">AT-Testnet</a> with Mock-mining active, 1 minute blocks and <a href="https://github.com/burst-apps-team/CIPs/blob/master/cip-0020.md">CIP-20</a> enabled.</p>
-<h2 id="how-to-set-up-a-testnet-node">How to set up a TestNet node ?</h2>
-<p>To run a node on the new TestNet, you will need to install the latest released version of the wallet. You can find instructions on setting up the wallet from the Burstcoin <a href="https://burst-coin.org">website</a>. Keep in mind there may be scenarios where you would like to have your own private test net, say in case of some future revisions that might require a fork for adding to the current chain. In this case you could simply change the value for DEV.P2P.BootstrapPeers, the new value would be your localhost. Keep in mind if you are missing any parts of this configuration you will most likely encounter issues that are resolved by the values below. Again this is for testing purposes and DO NOT USE YOUR REAL PASSPHRASE.</p>
-<p>We do recommend you to check in frequently in <a href="https://discord.gg/9S3eUBy">discord</a> (<code>#testnet</code> channel) so that you are aware of updates currently being deployed to test net and actively want to participate.</p>
-<p>Current TestNet facilities:</p>
+<p>Burst has a permanent TestNet running. Its purpose is to provide a sandbox for both developers and users to test Burst features and to experiment with features without remorse. Note: NEVER USE YOUR REAL PASSPHRASE ON TESTNET.</p>
+<h2 id="how-to-set-up-a-testnet-node">How to set up a TestNet node</h2>
+<p>To run a node on the TestNet, you will need to install the latest released version of the Burst Reference Software (BRS) that can be found on <a href="https://github.com/burst-apps-team/burstcoin/releases">GitHub</a>.</p>
+<p>Edit/add the following in the conf/brs.properties file:</p>
+<pre><code class="properties"># These settings are the recommended minimum changes/additions needed to operate a TestNet node
+DEV.TestNet = yes
+
+DEV.P2P.BootstrapPeers = testnet-2.burst-alliance.org; testnet.getburst.net; 77.66.65.240; 77.68.73.180;
+DEV.P2P.rebroadcastTo = testnet-2.burst-alliance.org; testnet.getburst.net; 77.66.65.240; 77.68.73.180;
+P2P.NumBootstrapConnections = 2
+</code></pre>
+
+<p>Keep in mind there may be scenarios where you would like to have your own private test net, say in case of some future revisions that might require a fork for adding to the current chain. In this case, you could simply change the value of DEV.P2P.BootstrapPeers to the value of your localhost.</p>
+<p>If you would like access to another TestNet peer without having to install your own, you can use any of the ones listed <a href="https://burstwiki.org/en/testnet/#testnet-public-nodes">here</a>. If you want to use your own desired peer, you can just change the ip address accordingly.</p>
+<p>You can get TestNet Burst coins at this <a href="http://burstcoin.cc:7777/">faucet</a>.</p>
+<p>If for any reason you need to reset your peer, follow these instructions:</p>
+<p>If using the H2 database backend (which is the default), just remove all files under the burst_db folder. </p>
+<p>If using mariaDB database backend, perform these steps:</p>
+<p>Stop the node and execute the following in a terminal:</p>
+<pre><code>mysql -u root
+</code></pre>
+
+<p>Once in the mysql shell, execute the following commands (assuming $yourdatabase is your database's name and $youruser is your user).</p>
+<pre><code>DROP DATABASE $yourdatabase;
+CREATE DATABASE $yourdatabase;
+FLUSH PRIVILEGES;
+</code></pre>
+
+<p>Start node again, wait until sync is complete.</p>
+<h2 id="current-testnet-facilities">Current TestNet Facilities</h2>
 <ul>
 <li>
 <p><a href="http://burstcoin.cc:7777/">Faucet</a></p>
@@ -1509,88 +1547,24 @@
 <p><a href="http://75.100.126.230:8124/">Mining Pool</a></p>
 </li>
 <li>
-<p><a href="http://explorer.testnet.burst.devtrue.net/">Explorer</a></p>
+<p><a href="http://explorer.testnet.burst.devtrue.net/">Explorer 1</a></p>
+</li>
+<li>
+<p><a href="https://testnet.explorer.burstcoin.network/">Explorer 2</a></p>
 </li>
 </ul>
-<p>Current AT-TestNet facilities:</p>
-<ul>
-<li><a href="http://at-testnet.burst-alliance.org:7777/">Faucet</a></li>
-</ul>
-<p>Edit/add the following in conf/brs.properties (Don't forget to set your address, platform, and database settings):</p>
-<pre><code class="properties"># Please change the following 2 lines!
-P2P.myAddress=
-P2P.myPlatform=TestNet Node
-
-# This needs to be true to be a full node
-P2P.shareMyAddress=true
-
-# The rest of the config is needed for testnet. Please do not change
-API.Listen = 0.0.0.0
-API.allowed = *
-
-DEV.API.Port = 6876
-# This is a new port; please expose it.
-DEV.API.V2.Port = 6878
-
-# For H2
-DEV.DB.Url=jdbc:h2:file:./burst_testnet;DB_CLOSE_ON_EXIT=FALSE
-# For MariaDB
-#DEV.DB.Url=jdbc:mariadb://localhost:3306/burst-testnet
-DEV.DB.Username=
-DEV.DB.Password=
-
-DEV.TestNet = yes
-DEV.Offline = no
-
-DEV.P2P.BootstrapPeers = 144.217.93.166; testnet.getburst.net; octalsburstnode.ddns.net; 3.16.150.48; 75.100.126.230; testddns.gotdns.com; aya.onthewifi.com; 212.37.175.94; burst-node-test.duckdns.org; test-burst.megash.it; happyfarmer.internet-box.ch;
-DEV.P2P.rebroadcastTo = 144.217.93.166; testnet.getburst.net; octalsburstnode.ddns.net; 3.16.150.48; 75.100.126.230; testddns.gotdns.com; aya.onthewifi.com; 212.37.175.94; burst-node-test.duckdns.org; test-burst.megash.it; happyfarmer.internet-box.ch;
-
-P2P.savePeers=true
-P2P.usePeersDb=true
-P2P.getMorePeers=true
-
-DEV.digitalGoodsStore.startBlock = 0
-DEV.automatedTransactions.startBlock = 0
-DEV.atFixBlock2.startBlock = 0
-DEV.atFixBlock3.startBlock = 0
-DEV.atFixBlock4.startBlock = 0
-DEV.preDymaxion.startBlock = 0
-DEV.poc2.startBlock = 0
-DEV.rewardRecipient.startBlock = 6500
-</code></pre>
-
-<p>If you just need testnet wallet for testing please use this <a href="http://3.16.150.48:6876/index.html#">link</a>. If you want to use your own desired peer, you can just change ip addresses.</p>
-<p>You can get the testnet coins at this <a href="http://burstcoin.cc:7777/">faucet</a></p>
-<p>If for any reason you need to reset your peer, a fast easy way to do it is as follows:</p>
-<p>Stop node, in a terminal execute:</p>
-<pre><code>mysql -u root
-</code></pre>
-
-<p>Once in the mysql shell execute the following commands, assumption is made $yourdatabase name is your database's name and $youruser is well your user.</p>
-<pre><code>DROP DATABASE $yourdatabase;
-CREATE DATABASE $yourdatabase;
-FLUSH PRIVILEGES;
-</code></pre>
-
-<p>Start node again, wait till sync is complete.</p>
-<p>If you hit any snags, let me know. Also feel free to update this via PR. Thanks.</p>
-<p>Originally adapted from the following: https://burstwiki.org/wiki/Testnet</p>
-<p>Thank you PoCC and BurstWiki contributors!</p>
-<h2 id="testnet-online-wallet">Testnet Online Wallet</h2>
-<p>You can access the BAT's operated TestNet wallet via <a href="http://testnet.getburst.net:6876/index.html">http://testnet.getburst.net:6876/index.html</a>[2]</p>
-<p>Community run public nodes:</p>
-<p><a href="https://octalsburstnode.ddns.net:6876/index.html">https://octalsburstnode.ddns.net:6876/index.html</a></p>
-<p><a href="https://test-burst.megash.it/index.html">https://test-burst.megash.it/index.html</a></p>
+<h2 id="testnet-public-nodes">Testnet Public Nodes</h2>
+<p>You can access the following BAT operated TestNet nodes</p>
+<p><a href="http://testnet.getburst.net:6876/index.html">http://testnet.getburst.net:6876/index.html</a>[1]</p>
+<p><a href="https://testnet-2.burst-alliance.org:6876/index.html">https://testnet-2.burst-alliance.org:6876/index.html</a></p>
+<p>Other community run public nodes:</p>
 <p><a href="http://testnet.burstcoin.network:6876/index.html">http://testnet.burstcoin.network:6876/index.html</a></p>
-<h2 id="testnet-faucet">Testnet Faucet</h2>
-<ul>
-<li><a href="http://burstcoin.cc:7777/">http://burstcoin.cc:7777/</a>[3]</li>
-</ul>
+<p><a href="https://octalsburstnode.ddns.net:6876/index.html">https://octalsburstnode.ddns.net:6876/index.html</a></p>
+<h2 id="have-questions">Have Questions?</h2>
+<p>Join our TestNet community on Discord here <a href="https://discord.gg/CQEUe3e">https://discord.gg/CQEUe3e</a> and go to the #testnet channel. Stay informed about current updates being deployed on TestNet.</p>
 <h2 id="references">References</h2>
 <ol>
-<li><a href="https://github.com/burst-apps-team/BurstcoinTestNetHow-To">https://github.com/burst-apps-team/BurstcoinTestNetHow-To</a></li>
 <li><a href="https://www.burstcoin.ist/2019/02/10/weekly-burst-report-69/">https://www.burstcoin.ist/2019/02/10/weekly-burst-report-69/</a></li>
-<li><a href="https://www.reddit.com/r/burstcoin/comments/aemjfn/testnet/">https://www.reddit.com/r/burstcoin/comments/aemjfn/testnet/</a></li>
 </ol>
                 
                   
