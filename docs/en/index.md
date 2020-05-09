@@ -13,7 +13,7 @@ Welcome to the BURST WIKI
 - [Technical details](burst-sodium-technical-details.md)
 - [Press release](burst-sodium-press-release.md) help us spread the news !
 
-<img src="../../media/burst-sodium-logo-transparent-photo.png" title="burst-sodium-logo.png" alt="burst-sodium-logo.png" />
+<img src="../media/burst-sodium-logo-transparent-photo.png" title="burst-sodium-logo.png" alt="burst-sodium-logo.png" />
 
 ----
 
