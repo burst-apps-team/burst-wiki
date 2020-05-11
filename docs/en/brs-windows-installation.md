@@ -1,10 +1,21 @@
 Introduction
 ------------
 
-This guide is for installing the latest BRS Core wallet from [https://www.burst-coin.org/download-wallet](https://www.burst-coin.org/download-wallet) on Windows PCs. If you would like a simpler wallet installation... please download [QBundle](Qbundle.md).
+This guide is for installing the latest BRS node from [burst-apps-team releases](https://github.com/burst-apps-team/burstcoin/releases) on Windows PCs. If you would like you can also check [QBundle](Qbundle.md).
 
-Installation of BRS only (with MariaDB)
----------------------------------------
+Installation of BRS with H2 (default, simpler)
+----------------------------------------------
+
+1. Download the latest version of [BRS (zip)](https://github.com/burst-apps-team/burstcoin/releases) and extract it to where ever you like. In the conf directory, copy brs-default.properties into a new file named brs.properties.
+
+2. Make sure you have a 64 bit Java installed on your computer (Java 8 recommended) : <https://www.java.com/en/download/>.
+
+3. Run the burst.exe file.
+
+Installation of BRS with MariaDB (optional, more complex)
+---------------------------------------------------------
+
+For those having issues with the H2 database backend, check if you have a 64 bits Java version 8 installed. If that does not solve your problem, use MariaDB as your backend.
 
 1. Download the latest version of [BRS (zip)](https://github.com/burst-apps-team/burstcoin/releases) and extract it to where ever you like. In the conf directory, copy brs-default.properties into a new file named brs.properties.
 
@@ -44,18 +55,23 @@ Finally we, grant this user all privileges for the database `burstwallet`.
 
 Finally, now that the database is created and the `brs.properties` configured, you only have to run `burst.cmd` in the burstcoin folder.
 
-How to run a full node on Windows?
-----------------------------------
+Make sure you have a full node
+------------------------------
 
 ### Why Run a Full Node ?
 
-Running a full node is one of the most important ways to help support the Burst network. This allows other peers to connect to your wallet and synchronize the blockchain if they are not using an imported DB. When light clients are released, Full Nodes maintain a copy of the blockchain, in the decentralized manner that crypto currencies are designed to run, while light clients will not. Below are the steps for setting up a full node.
+Running a full node is one of the most important ways to help support the Burst network. This allows other peers to connect to your node and synchronize the blockchain if they are not using an imported DB. When light clients are released, Full Nodes maintain a copy of the blockchain, in the decentralized manner that crypto currencies are designed to run, while light clients will not. Below are the steps for setting up a full node.
 
-### Steps on Windows
+### Check if your node is acting as a full node
 
-Firstly, if you have the latest BRS version, UPnP should be enabled and you already run a full node. Otherwise, following these steps :
+if you have the latest BRS version, UPnP should be enabled and you probably already run a full node.
+BRS must remain running for your full node to be accessible to the network. After a few hours the [explorer network status](https://explorer.burstcoin.network/?action=network_status) will update and you can check that your set up worked. First find [your external IP](https://www.myexternalip.com/) address and then search your external IP address in the [explorer network status](https://explorer.burstcoin.network/?action=network_status) (ex. 193.182.13.162:8123).
 
-1.  Once you have a local wallet installed and running you need to forward port 8123 to allow other peers to connect to your wallet.
+### In case the UPnP didn't work
+
+If the automatic UPnP setup didn't work for you, use the following steps :
+
+1.  Once you have your node running you need to forward port 8123 to allow other peers to connect to your wallet.
 2.  We now need to get some IP addresses.
     -   Open “Command Prompt”.
     -   Type “ipconfig”
@@ -103,4 +119,4 @@ Firstly, if you have the latest BRS version, UPnP should be enabled and you alre
     -   Select Save.
 8.  You are now finished and can close out network settings.
 
-The local wallet must remain running for your full node to be accessible to the network. After a few hours to a few days the [network observer](https://explore.burst.cryptoguru.org/tool/observe) will update and you can check that your set up worked. First find [your external IP](https://www.myexternalip.com/) address and then search your external IP address and port in the network observer (ex. 193.182.13.162:8123).
+After a few hours check again if the [explorer network status](https://explorer.burstcoin.network/?action=network_status) lists your node.
