@@ -75,7 +75,7 @@ Run BRS again:
 
 **`java -jar burst.jar`**
 
-You will see somethign similar to the following output:
+You will see something similar to the following output:
 
 ```
 Nov 29, 2018 4:28:33 PM brs.Burst loadProperties
