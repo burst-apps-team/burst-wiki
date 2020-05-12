@@ -1,9 +1,9 @@
 Introduction
 ------------
 
-The file `conf/brs-default.properties` is very well self-documented via comments within the file.  Note, however, that the proper way to introduce changes is to **_leave this file AS-IS_** with its defaults and instead create the file `conf/brs.properties`.  Put the entries with desired non-default settings in the new file.  When BRS runs, it reads both files and settings from `brs.properties` will override settings from the `brs-default.properties` file.
+The file `conf/brs-default.properties` is well documented with comments within the file.  Note, however, that the proper way to make changes to it is to **_leave this file AS-IS_** with its defaults and instead create a new file called `conf/brs.properties`.  Use this new file to make any non-default changes to the settings. Both files are read when BRS runs, but settings from `brs.properties` will override settings from the `brs-default.properties` file.
 
-Here is the `brs-default.properties` from version **2.3.0** for reference.
+Here is the `brs-default.properties` from version **2.5.0** for reference.
 
 ### brs-default.properties
 
@@ -53,10 +53,10 @@ P2P.myPlatform = PC
 # A list of peer addresses / host names, separated by '; ' used for faster P2P networking bootstrap.
 # TODO: document what is taken if not set
 
-P2P.BootstrapPeers = 87.92.185.249; 147.135.136.189; 52.191.135.100; 80.150.206.52; 62.75.188.216; 51.15.61.5; 13.65.148.45; 23.253.111.88; 51.255.115.70; 206.54.172.55; 192.210.215.146; 206.54.172.57; 5.39.93.90; 37.205.11.73; 192.99.47.76; [2a02:c7f:c420:fa00:a9bb:e842:ba7f:45a4]; 213.112.178.65; 216.8.195.30; 80.245.123.202; 45.32.114.77; 213.239.207.110; 213.93.182.184; 82.181.181.156; 91.121.159.44; 23.237.23.0; 66.49.220.192; 204.45.61.220; 213.59.149.181; 104.211.179.191; 195.230.182.182; 62.248.209.219; 91.211.191.15; 62.212.73.204; 73.119.30.169; 205.209.140.10; 128.171.156.20; 77.53.194.184; 141.52.39.244; 65.33.132.188; 114.55.91.167; 213.250.22.35; 5.9.50.158; 13.82.44.192; 31.208.216.74; 88.99.42.243; 37.48.93.28; 59.19.218.99; 77.82.90.167; 45.37.205.144; 108.34.167.31; 213.32.102.141; 121.183.132.236; 138.68.191.196; 88.99.166.52; 60.234.70.213; 60.234.58.107; 78.94.159.54; 77.176.235.157; 67.246.189.56; 162.208.50.165; 76.168.133.249; 13.94.237.58; 172.103.173.18; 5.189.132.15; 95.223.45.46; 193.150.67.2; 85.25.200.125; 78.47.51.95; 58.136.73.201; 73.226.253.176; 73.93.134.26; 78.240.13.44; 188.68.56.255; 173.199.70.198; 62.173.142.55; 211.202.125.123; 69.136.113.203; 50.4.239.215; 95.96.104.94; 39.106.117.124; 46.237.194.160; 51.15.80.207; 185.203.116.80; 80.241.221.231; 112.161.84.93; 171.244.32.69; 80.122.157.25; 13.72.109.3; 148.251.218.140; 5.189.148.161; 83.170.100.106; 77.177.170.123; 165.227.230.29; 136.144.169.239; 87.73.32.184; 192.237.253.169; 68.69.164.120; 12.16.33.103; 192.99.183.10; 176.31.105.109; 89.79.131.170; 144.76.36.175; 52.178.12.156; 34.232.70.152; 64.22.104.188; 98.223.118.234; 188.232.23.115; 115.87.103.110; 37.97.40.203; 87.155.221.164; 208.98.201.249; 79.165.206.126; 210.61.217.206; 99.52.191.229; 198.100.149.133; 52.233.193.5; 81.237.255.75; 5.251.99.80; 99.6.109.189; 103.242.135.223; 51.15.172.186; 52.187.61.67; 72.81.136.151; [2001:470:19:aa6:fd1a:a05c:5fb:ba97]; 59.110.224.129; 212.24.103.82; 104.128.234.137; 100.11.71.247; 164.106.37.6; 62.210.254.125; 46.223.93.167; 213.140.217.115; 75.136.58.249; 184.57.184.43; 183.156.110.69; 101.100.184.199; 207.246.70.79; 85.216.33.202; 144.76.71.172; 173.212.235.98; 213.133.86.146; 5.35.21.212; 115.70.71.98; 73.155.113.8; 85.217.171.59; 87.98.244.116; 77.66.66.251; 69.143.93.163; 81.6.54.180; 95.165.132.145; 87.184.83.94; 194.132.150.74; 218.38.28.183; 191.37.200.56; 104.175.172.17; 174.58.241.214; 61.171.177.215; 195.209.127.31; 66.227.173.37; 121.135.232.13; 221.154.37.46; 109.238.113.156; 83.170.94.221; 136.243.54.19; 183.106.157.197; 83.170.94.222; 204.12.255.242; 213.59.149.211; 46.129.42.93; 202.77.99.211; 104.53.200.42; 212.56.99.155; 82.135.154.9; 82.164.64.243; 94.254.35.253; 81.83.5.50; 89.106.1.126; 40.125.164.168; 173.249.18.113; 71.233.68.208; 14.36.1.151; 80.241.222.35; 163.172.161.152; 94.130.19.120; 31.209.54.26; 188.194.23.133; 85.195.246.182; 93.88.74.26; 112.78.10.43; 174.138.59.58; 112.167.81.44; 89.218.176.230; 82.247.98.128; 94.100.221.211; 75.70.223.231; 24.192.163.197; 185.203.117.157; 118.217.216.188; 95.31.73.67; 108.238.244.144; 185.223.30.43; 81.217.76.37; 77.225.52.149; 35.182.142.103; 52.166.126.96; 83.209.204.44; 92.206.55.19
+P2P.BootstrapPeers = node.burst.gittam.de; 80.122.157.25; 138.201.247.112; 35.194.43.230; 24.179.36.64; 136.243.54.19; 160.16.52.180; [2a02:c207:2016:1984:0:0:0:1]; wallet.smit.pro; wallet.logg.coffee; 37.205.11.73; 47.95.232.75; 93.73.103.148; wallet.burst.cryptoguru.org; 51.15.95.163; antigo.hopto.org; 61.171.0.50; burst.megash.it; wi3jodsj.dynu.net; 176.31.105.109; 24.51.189.190; burstwallet2.ddns.net; burstsecurity.com; 81.83.5.50; bloodreaver.no-ip.biz; burstnode.devtrue.net; 185.203.117.157; 138.201.159.96; 52.65.42.199; 159.69.21.174; home.schmiemann.online; 221.241.92.2; peer.wallet.burstcoin.ml; [2a03:3b40:100:0:0:0:1:52]; tompkins.ddns.net; 188.68.41.245; wallet.creepminer.net; burstpool.cloud; 173.249.1.215; 91.143.92.133:18123; 80.71.133.195; redfox.org; 146.247.237.139; 77.70.109.7; 117.48.195.3; 144.76.92.28; bangalore.burstsecurity.com; wallet.burstcoin.asia; aa.storj.eu; 195.201.124.43; wallet.daggeringcats.com; 84.113.147.25; 81.169.131.111; 5.39.93.90; 198.100.149.133; 148.251.78.147; 212.32.255.2; 95.216.142.146; 84.72.183.85; 75.100.126.227; 35.207.44.92; 107.150.6.121; burst.sagichdir.net; [2a07:5741:0:b12:0:0:0:1]; 108.238.244.144; 51.15.219.28; 81.217.76.37; bibenwei.com; 82.192.26.82; logg.coffee; burst-fi.megash.it; 87.227.172.104; 45.76.6.179; chorca.com; 87.98.244.116; 5.189.177.212; 207.38.188.197; 83.87.55.43; 151.248.189.93; 45.32.114.77; 95.165.132.145; 91.143.92.133; 85.217.171.59; 47.33.52.184; www.ollb.de; [2001:19f0:4400:6c35:5400:1ff:fe54:840]; 83.170.94.221; kartoffel.space:8000; 185.203.116.80; 39.106.178.146; 62.210.254.125; 80.65.49.246; 88.198.32.19; carless.ddns.net; 89.166.9.172; 45.77.250.34; 144.76.45.125; 95.216.0.50; 185.185.27.163; 75.100.126.22875.100.126.229; [2a07:5741:0:f8c:0:0:0:1]; 5.103.129.103; 213.32.102.141; 63.251.20.214
 
 # These peers will always be sent rebroadcast transactions. They are also automatically added to P2P.BootstrapPeers, so no need for duplicates.
-P2P.rebroadcastTo = 78.46.245.194; 94.130.190.156; 78.130.235.166; 176.9.47.157; 45.76.115.113; 108.61.180.135; 169.239.183.229
+P2P.rebroadcastTo = 77.66.65.240; 78.46.245.194; 94.130.190.156; 78.130.235.166; 75.100.126.230; 195.201.116.237; 75.100.126.226; 138.201.159.82; 212.98.92.236;
 
 # Connect to this many bootstrap connection peers before using the peer database to get connected faster. Please be aware, that higher != better (3-5 are usually good values) Set to 0 or comment out to disable.
 P2P.NumBootstrapConnections = 4
@@ -89,22 +89,21 @@ P2P.TimeoutIdle_ms = 30000
 # Blacklist peers for 600000 milliseconds (i.e. 10 minutes by default).
 P2P.BlacklistingTime_ms = 600000
 
-# Enable re-broadcasting of new transactions until they are received back from at least one
-# peer, or found in the blockchain. This feature can optionally be disabled, to avoid the
-# risk of revealing that this node is the submitter of such re-broadcasted new transactions.
+# Enable priority (re-)broadcasting of transactions. When enabled incoming transactions
+# will be priority resent to the rebroadcast targets
 P2P.enableTxRebroadcast = yes
 
-# Transactions that aren't confirmed for this many blocks start getting rebroadcast.
-P2P.rebroadcastTxAfter = 5
-
-# Transactions being rebroadcast get rebroadcast every this many blocks until they are confirmed.
-P2P.rebroadcastTxEvery = 2
-
-# Consider a new transaction or block sent after 10 peers have received it.
+# Amount of extra peers to send a transaction to after sending to all rebroadcast targets
 P2P.sendToLimit=10
 
 # Max number of unconfirmed transactions that will be kept in cache.
 P2P.maxUnconfirmedTransactions = 8192
+
+# Max percentage of unconfirmed transactions that have a full hash reference to another transaction kept in cache
+P2P.maxUnconfirmedTransactionsFullHashReferencePercentage = 5
+
+# Max amount of raw UT bytes we will send to someone through both push and pull. Keep in mind that the resulting JSON size will always be bigger.
+P2P.maxUTRawSizeBytesToSend = 175000
 
 # JETTY pass-through options. See documentation at
 # https://www.eclipse.org/jetty/documentation/9.2.22.v20170531/dos-filter.html
@@ -133,10 +132,16 @@ JETTY.P2P.GZIPFilter.minGzipSize = 0
 # Size of the download cache for blocks
 brs.blockCacheMB = 40
 
+# Add this to check the deadline of every block since Genesis, otherwise only past the checkpoint.
+# brs.checkPointHeight = -1
+
 #### API SERVER ####
 
 # Accept http/json API requests.
 API.Server = on
+
+# Accept gRPC API requests.
+API.V2.Server = on
 
 # JETTY pass-through options. See documentation at
 # https://www.eclipse.org/jetty/documentation/9.2.22.v20170531/dos-filter.html
@@ -174,14 +179,21 @@ API.allowed = 127.0.0.1; localhost; [0:0:0:0:0:0:0:1];
 # default is no (Wallet accepts only params specified for given call)
 # enable this if you have a sloppy client interacting, but please be aware that this
 # can be a security risk.
-API.AcceptSurplusParams = no;
+API.AcceptSurplusParams = no
 
 # Host interface on which to listen for http/json API request, default localhost only.
 # Set to 0.0.0.0 to allow the API server to accept requests from all network interfaces.
 API.Listen = 127.0.0.1
 
+# Host interface on which to listen for gRPC API request, default all interfaces.
+# Set to "all" to allow the API server to accept requests from all network interfaces.
+API.V2.Listen = 0.0.0.0
+
 # Port for http/json API requests.
 API.Port = 8125
+
+# Port for gRPC API requests
+API.V2.Port = 8121
 
 # Idle timeout for http/json API request connections, milliseconds.
 API.ServerIdleTimeout = 30000
@@ -189,9 +201,6 @@ API.ServerIdleTimeout = 30000
 # Directory with html and javascript files for the new client UI, and admin tools utilizing
 # the http/json API.
 API.UI_Dir = html/ui
-
-# Enable Cross Origin Filter for the API server.
-API.CrossOriginFilter = off
 
 # Enable SSL for the API server (also need to set API.SSL_keyStorePath and API.SSL_keyStorePassword).
 API.SSL = off
@@ -207,7 +216,12 @@ API.SSL_keyStorePassword = password
 
 # Database connection JDBC url
 # Append ;AUTO_SERVER=TRUE to enable automatic mixed mode access.
-DB.Url=jdbc:mariadb://localhost:3306/burstwallet
+# DB.Url=jdbc:mariadb://localhost:3306/burstwallet
+# DB.Username=
+# DB.Password=
+
+# We are using file based as default
+DB.Url=jdbc:h2:file:./burst_db/burst.h2;DB_CLOSE_ON_EXIT=FALSE
 DB.Username=
 DB.Password=
 
@@ -248,7 +262,7 @@ GPU.HashesPerBatch = 1000
 # number of unverified transactions in cache before GPU verification starts.
 GPU.UnverifiedQueue = 1000
 
-# Uncomment this to limit the number of cpu cores the wallet sees. Default is all available.
+# Uncomment this to limit the number of cpu cores the wallet sees. Default is half available.
 # CPU.NumCores = 4
 
 
@@ -262,12 +276,16 @@ DEV.Offline = no
 
 # Use testnet, leave set to false unless you are really testing.
 # Never unlock your real accounts on testnet! Use separate accounts for testing only.
-# When using testnet, all custom port settings will be ignored,
-# and hardcoded ports of 6874 (peer networking), 6875 (UI) and 6876 (API) will be used.
+# When using testnet, P2P port is hardcoded as 7123.
 DEV.TestNet = no
+DEV.API.Port = 6876
+DEV.API.V2.Port = 6878
+
+# Add this to check the deadline of every block since Genesis, otherwise only past the checkpoint.
+# DEV.checkPointHeight = -1
 
 # Database connection JDBC url to use with the test network, if DEV.TestNet
-DEV.DB.Url =
+DEV.DB.Url=jdbc:h2:file:./burst_db/testnet.h2;DB_CLOSE_ON_EXIT=FALSE;
 DEV.DB.Username =
 DEV.DB.Password =
 
@@ -275,19 +293,18 @@ DEV.DB.Password =
 DEV.TimeWarp = 1
 
 # Peers used for testnet only.
-DEV.P2P.BootstrapPeers =
+DEV.P2P.BootstrapPeers = testnet-2.burst-alliance.org; testnet.getburst.net; 77.66.65.240; aya.onthewifi.com; nivbox.co.uk;
 
 # Testnet only. These peers will always be sent rebroadcast transactions. They are also automatically added to DEV.P2P.BootstrapPeers, so no need for duplicates.
 DEV.P2P.rebroadcastTo =
 
-# Force winning with every deadline
+# Force all deadlines submitted to actually be a certain deadline.
+# This will mess up syncing with other wallets, so please only use in offline mode.
 DEV.mockMining = off
+DEV.mockMining.deadline = 10
 
 # Enter a version. Upon exit, print a list of peers having this version.
 DEV.dumpPeersVersion =
-
-# Force re-validation of blocks and transaction at start.
-DEV.forceValidate = off
 
 # Force re-build of derived objects tables at start.
 DEV.forceScan = off
@@ -312,4 +329,32 @@ brs.debugTraceQuote =
 
 # Log changes to unconfirmed balances.
 brs.debugLogUnconfirmed = false
+
+# Timeout in Seconds to wait for a graceful shutdown
+brs.ShutdownTimeout = 180
+
+# Enable the indirect incoming tracker service. This allows you to see transactions where you are paid
+# but are not the direct recipient eg. Multi-Outs.
+IndirectIncomingService.Enable = true
+
+# Auto Pop Off means that BRS will, when failing to push a block received whilst syncing (from another
+# peer), pop off n-1 blocks, where n is the number of failures to push a block at this height.
+# This, combined with blacklisting, should significantly lower the chance of your wallet becoming stuck,
+# whilst syncing or when operating normally.
+AutoPopOff.Enable = true
+
+# List of CORS allowed origins.
+API.AllowedOrigins=*
+
+# List of semicolon-separated passphrases to use when solo mining. When mining solo, if you enter your passphrase here,
+# you can set your miner to pool mining mode and avoid sending your passphrase over the wire constantly.
+# Do not use on public facing nodes or nodes that are accessible (filesystem or API server) by others, as it could
+# cause your passphrase to become compromised or allow others to mine on your behalf without your knowledge
+SoloMiningPassphrases=passphrase1;passphrase2;passphrase3;
+
+# Allow anyone to use the "submitNonce" API call. This call can be abused to force your node to perform lots
+# of work in order to effectively mine for others. Enabling this option will only allow accounts whose passphrases
+# are in SoloMiningPassphrases to mine through this node. It is highly recommended that you restrict this but at the
+# moment it is not restricted to ensure smooth upgrades.
+AllowOtherSoloMiners=true
 ```
