@@ -2,7 +2,7 @@
 ---------------------------------------
 
 Disclaimer: We assume this checklist is used by qualified personnel, **it is not** a tutorial.
-It is also assumed you know what BRS (Burst Reference Software) is and how to install it.
+It is also assumed you know what BRS (Burst Reference Software) is and [how to install it](burst-reference-software.md).
 
 Brought to you by Burst Apps Team (BAT).
 
