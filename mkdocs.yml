@@ -30,6 +30,7 @@ pages:
   - English:
     - Home: en/index.md
     - 500k HF Checklist: en/500k-hf-checklist.md
+    - 765k HF Checklist: en/765k-hf-checklist.md
     - Activate Burst Account: en/activate-burst-account.md
     - Alias System: en/alias-system.md
     - Arbitrary Messages: en/arbitrary-messages.md
@@ -44,6 +45,8 @@ pages:
     - BRS Windows Installation: en/brs-windows-installation.md
     - Burst Blockchain: en/burst-blockchain.md
     - Burstcoin Reference Software: en/burst-reference-software.md
+    - Burstcoin SODIUM Hard Fork Press Release: en/burst-sodium-press-release.md
+    - Burstcoin SODIUM Hard Fork Technical Details: en/burst-sodium-technical-details.md
     - Burst's Features: en/bursts-features.md
     - Burst Services: en/burst-services.md
     - Burst Software: en/burst-software.md
