@@ -7,7 +7,7 @@ Welcome to the BURST WIKI
 
 ## *SODIUM* hardfork information
 
-> **Version 2.5.0 of the Burst Reference Software (BRS)** is soon to be released. Active nodes running the new version will automatically participate in a hard fork of the Burst blockchain around the **June 20, 2020, at blockheight 765,000**. Codenamed SODIUM, the hard fork will unlock new platform-wide features, better performance, and security improvements. To unleash more of Burstcoin’s potential, **the Burst Apps Team is seeking fast, network-wide adoption of this new release**.
+> **Version 2.5.1 of the Burst Reference Software (BRS)** has been released. Active nodes running the new version will automatically participate in a hard fork of the Burst blockchain around the **June 20, 2020, at blockheight 765,000**. Codenamed SODIUM, the hard fork will unlock new platform-wide features, better performance, and security improvements. To unleash more of Burstcoin’s potential, **the Burst Apps Team is seeking fast, network-wide adoption of this new release**.
 
 - [Hard fork checklist 765K](765k-hf-checklist.md) a communty upgrade guide
 - [Technical details](burst-sodium-technical-details.md)
@@ -29,8 +29,8 @@ Burst Software
 -------------
 
 - [Comprehensive Software List](burst-software.md)
-- Burstcoin Reference Software `Latest Version: 2.4.2`
-    -   [Direct Download](https://github.com/burst-apps-team/burstcoin/releases/download/v2.4.2/burstcoin-2.4.2.zip)
+- Burstcoin Reference Software `Latest Version: 2.5.1`
+    -   [Direct Download](https://github.com/burst-apps-team/burstcoin/releases/latest)
     -   [Burst Source Code](https://github.com/burst-apps-team/burstcoin)
 -   [QBundle Full Guide](qbundle.md)
 -   [Mobile Applications](mobile-app.md)
