@@ -42,7 +42,7 @@
     
     
       
-        <title>Burst sodium technical details - Burst Wiki</title>
+        <title>Burstcoin SODIUM Hard Fork Technical Details - Burst Wiki</title>
       
     
     
@@ -125,7 +125,7 @@
               Burst Wiki
             </span>
             <span class="md-header-nav__topic">
-              Burst sodium technical details
+              Burstcoin SODIUM Hard Fork Technical Details
             </span>
           
         </div>
@@ -192,7 +192,9 @@
       
         
 
-<nav class="md-tabs" data-md-component="tabs">
+  
+
+<nav class="md-tabs md-tabs--active" data-md-component="tabs">
   <div class="md-tabs__inner md-grid">
     <ul class="md-tabs__list">
       
@@ -201,7 +203,7 @@
   
     <li class="md-tabs__item">
       
-        <a href="../" title="English" class="md-tabs__link">
+        <a href="../" title="English" class="md-tabs__link md-tabs__link--active">
           English
         </a>
       
@@ -321,10 +323,12 @@
       
       
 
+  
 
-  <li class="md-nav__item md-nav__item--nested">
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-1" type="checkbox" id="nav-1">
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-1" type="checkbox" id="nav-1" checked>
     
     <label class="md-nav__link" for="nav-1">
       English
@@ -356,6 +360,18 @@
   <li class="md-nav__item">
     <a href="../500k-hf-checklist/" title="500k HF Checklist" class="md-nav__link">
       500k HF Checklist
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../765k-hf-checklist/" title="765k HF Checklist" class="md-nav__link">
+      765k HF Checklist
     </a>
   </li>
 
@@ -525,6 +541,191 @@
     <a href="../burst-reference-software/" title="Burstcoin Reference Software" class="md-nav__link">
       Burstcoin Reference Software
     </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../burst-sodium-press-release/" title="Burstcoin SODIUM Hard Fork Press Release" class="md-nav__link">
+      Burstcoin SODIUM Hard Fork Press Release
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Burstcoin SODIUM Hard Fork Technical Details
+      </label>
+    
+    <a href="./" title="Burstcoin SODIUM Hard Fork Technical Details" class="md-nav__link md-nav__link--active">
+      Burstcoin SODIUM Hard Fork Technical Details
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#summary" title="Summary" class="md-nav__link">
+    Summary
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sodium" title="SODIUM" class="md-nav__link">
+    SODIUM
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#protocol-changes" title="Protocol Changes" class="md-nav__link">
+    Protocol Changes
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#our-approach-two-staged-release" title="Our Approach: Two-Staged Release" class="md-nav__link">
+    Our Approach: Two-Staged Release
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#stage-1-brs-25-java" title="Stage 1: BRS 2.5 - Java" class="md-nav__link">
+    Stage 1: BRS 2.5 - Java
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#stage-2-brs-30-kotlin" title="Stage 2: BRS 3.0 - Kotlin" class="md-nav__link">
+    Stage 2: BRS 3.0 - Kotlin
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#improved-architecture" title="Improved Architecture" class="md-nav__link">
+    Improved Architecture
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#performance-improvements" title="Performance Improvements" class="md-nav__link">
+    Performance Improvements
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ui-overhaul" title="UI Overhaul" class="md-nav__link">
+    UI Overhaul
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#protocol-change-details" title="Protocol Change Details" class="md-nav__link">
+    Protocol Change Details
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#smart-contract-upgrade-cip20" title="Smart Contract Upgrade (CIP20)" class="md-nav__link">
+    Smart Contract Upgrade (CIP20)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#burst-deep-link-specification-cip-22" title="Burst Deep Link Specification (CIP 22)" class="md-nav__link">
+    Burst Deep Link Specification (CIP 22)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fee-slot-enforcement-cip23" title="Fee Slot Enforcement (CIP23)" class="md-nav__link">
+    Fee Slot Enforcement (CIP23)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#blocktime-stabilization-cip24" title="Blocktime Stabilization (CIP24)" class="md-nav__link">
+    Blocktime Stabilization (CIP24)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#subscription-fee-reduction-cip25" title="Subscription Fee Reduction (CIP25)" class="md-nav__link">
+    Subscription Fee Reduction (CIP25)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conclusion" title="Conclusion" class="md-nav__link">
+    Conclusion
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
   </li>
 
         
@@ -1597,6 +1798,41 @@
       
         
 <footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../burst-sodium-press-release/" title="Burstcoin SODIUM Hard Fork Press Release" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Burstcoin SODIUM Hard Fork Press Release
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../bursts-features/" title="Burst's Features" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Burst's Features
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">

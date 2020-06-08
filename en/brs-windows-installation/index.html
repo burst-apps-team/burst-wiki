@@ -370,6 +370,18 @@
 
 
   <li class="md-nav__item">
+    <a href="../765k-hf-checklist/" title="765k HF Checklist" class="md-nav__link">
+      765k HF Checklist
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
     <a href="../activate-burst-account/" title="Activate Burst Account" class="md-nav__link">
       Activate Burst Account
     </a>
@@ -532,8 +544,15 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#installation-of-brs-only-with-mariadb" title="Installation of BRS only (with MariaDB)" class="md-nav__link">
-    Installation of BRS only (with MariaDB)
+  <a href="#installation-of-brs-with-h2-default-simpler" title="Installation of BRS with H2 (default, simpler)" class="md-nav__link">
+    Installation of BRS with H2 (default, simpler)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#installation-of-brs-with-mariadb-optional-more-complex" title="Installation of BRS with MariaDB (optional, more complex)" class="md-nav__link">
+    Installation of BRS with MariaDB (optional, more complex)
   </a>
   
     <nav class="md-nav">
@@ -552,8 +571,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#how-to-run-a-full-node-on-windows" title="How to run a full node on Windows?" class="md-nav__link">
-    How to run a full node on Windows?
+  <a href="#make-sure-you-have-a-full-node" title="Make sure you have a full node" class="md-nav__link">
+    Make sure you have a full node
   </a>
   
     <nav class="md-nav">
@@ -567,8 +586,15 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#steps-on-windows" title="Steps on Windows" class="md-nav__link">
-    Steps on Windows
+  <a href="#check-if-your-node-is-acting-as-a-full-node" title="Check if your node is acting as a full node" class="md-nav__link">
+    Check if your node is acting as a full node
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#in-case-the-upnp-didnt-work" title="In case the UPnP didn't work" class="md-nav__link">
+    In case the UPnP didn't work
   </a>
   
 </li>
@@ -609,6 +635,30 @@
   <li class="md-nav__item">
     <a href="../burst-reference-software/" title="Burstcoin Reference Software" class="md-nav__link">
       Burstcoin Reference Software
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../burst-sodium-press-release/" title="Burstcoin SODIUM Hard Fork Press Release" class="md-nav__link">
+      Burstcoin SODIUM Hard Fork Press Release
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../burst-sodium-technical-details/" title="Burstcoin SODIUM Hard Fork Technical Details" class="md-nav__link">
+      Burstcoin SODIUM Hard Fork Technical Details
     </a>
   </li>
 
@@ -1460,8 +1510,15 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#installation-of-brs-only-with-mariadb" title="Installation of BRS only (with MariaDB)" class="md-nav__link">
-    Installation of BRS only (with MariaDB)
+  <a href="#installation-of-brs-with-h2-default-simpler" title="Installation of BRS with H2 (default, simpler)" class="md-nav__link">
+    Installation of BRS with H2 (default, simpler)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#installation-of-brs-with-mariadb-optional-more-complex" title="Installation of BRS with MariaDB (optional, more complex)" class="md-nav__link">
+    Installation of BRS with MariaDB (optional, more complex)
   </a>
   
     <nav class="md-nav">
@@ -1480,8 +1537,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#how-to-run-a-full-node-on-windows" title="How to run a full node on Windows?" class="md-nav__link">
-    How to run a full node on Windows?
+  <a href="#make-sure-you-have-a-full-node" title="Make sure you have a full node" class="md-nav__link">
+    Make sure you have a full node
   </a>
   
     <nav class="md-nav">
@@ -1495,8 +1552,15 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#steps-on-windows" title="Steps on Windows" class="md-nav__link">
-    Steps on Windows
+  <a href="#check-if-your-node-is-acting-as-a-full-node" title="Check if your node is acting as a full node" class="md-nav__link">
+    Check if your node is acting as a full node
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#in-case-the-upnp-didnt-work" title="In case the UPnP didn't work" class="md-nav__link">
+    In case the UPnP didn't work
   </a>
   
 </li>
@@ -1528,8 +1592,21 @@
                   <h1>BRS Windows Installation</h1>
                 
                 <h2 id="introduction">Introduction</h2>
-<p>This guide is for installing the latest BRS Core wallet from <a href="https://www.burst-coin.org/download-wallet">https://www.burst-coin.org/download-wallet</a> on Windows PCs. If you would like a simpler wallet installation... please download <a href="Qbundle.md">QBundle</a>.</p>
-<h2 id="installation-of-brs-only-with-mariadb">Installation of BRS only (with MariaDB)</h2>
+<p>This guide is for installing the latest BRS node from <a href="https://github.com/burst-apps-team/burstcoin/releases">burst-apps-team releases</a> on Windows PCs. If you would like you can also check <a href="Qbundle.md">QBundle</a>.</p>
+<h2 id="installation-of-brs-with-h2-default-simpler">Installation of BRS with H2 (default, simpler)</h2>
+<ol>
+<li>
+<p>Download the latest version of <a href="https://github.com/burst-apps-team/burstcoin/releases">BRS (zip)</a> and extract it to where ever you like. In the conf directory, copy brs-default.properties into a new file named brs.properties.</p>
+</li>
+<li>
+<p>Make sure you have a 64 bit Java installed on your computer (Java 8 recommended) : <a href="https://www.java.com/en/download/">https://www.java.com/en/download/</a>.</p>
+</li>
+<li>
+<p>Run the burst.exe file.</p>
+</li>
+</ol>
+<h2 id="installation-of-brs-with-mariadb-optional-more-complex">Installation of BRS with MariaDB (optional, more complex)</h2>
+<p>For those having issues with the H2 database backend, check if you have a 64 bits Java version 8 installed. If that does not solve your problem, use MariaDB as your backend.</p>
 <ol>
 <li>
 <p>Download the latest version of <a href="https://github.com/burst-apps-team/burstcoin/releases">BRS (zip)</a> and extract it to where ever you like. In the conf directory, copy brs-default.properties into a new file named brs.properties.</p>
@@ -1558,13 +1635,16 @@
 <p>Finally we, grant this user all privileges for the database <code>burstwallet</code>.</p>
 <p><code>GRANT ALL PRIVILEGES ON burstwallet.* TO 'burstwallet'@'localhost';</code></p>
 <p>Finally, now that the database is created and the <code>brs.properties</code> configured, you only have to run <code>burst.cmd</code> in the burstcoin folder.</p>
-<h2 id="how-to-run-a-full-node-on-windows">How to run a full node on Windows?</h2>
+<h2 id="make-sure-you-have-a-full-node">Make sure you have a full node</h2>
 <h3 id="why-run-a-full-node">Why Run a Full Node ?</h3>
-<p>Running a full node is one of the most important ways to help support the Burst network. This allows other peers to connect to your wallet and synchronize the blockchain if they are not using an imported DB. When light clients are released, Full Nodes maintain a copy of the blockchain, in the decentralized manner that crypto currencies are designed to run, while light clients will not. Below are the steps for setting up a full node.</p>
-<h3 id="steps-on-windows">Steps on Windows</h3>
-<p>Firstly, if you have the latest BRS version, UPnP should be enabled and you already run a full node. Otherwise, following these steps :</p>
+<p>Running a full node is one of the most important ways to help support the Burst network. This allows other peers to connect to your node and synchronize the blockchain if they are not using an imported DB. When light clients are released, Full Nodes maintain a copy of the blockchain, in the decentralized manner that crypto currencies are designed to run, while light clients will not. Below are the steps for setting up a full node.</p>
+<h3 id="check-if-your-node-is-acting-as-a-full-node">Check if your node is acting as a full node</h3>
+<p>if you have the latest BRS version, UPnP should be enabled and you probably already run a full node.
+BRS must remain running for your full node to be accessible to the network. After a few hours the <a href="https://explorer.burstcoin.network/?action=network_status">explorer network status</a> will update and you can check that your set up worked. First find <a href="https://www.myexternalip.com/">your external IP</a> address and then search your external IP address in the <a href="https://explorer.burstcoin.network/?action=network_status">explorer network status</a> (ex. 193.182.13.162:8123).</p>
+<h3 id="in-case-the-upnp-didnt-work">In case the UPnP didn't work</h3>
+<p>If the automatic UPnP setup didn't work for you, use the following steps :</p>
 <ol>
-<li>Once you have a local wallet installed and running you need to forward port 8123 to allow other peers to connect to your wallet.</li>
+<li>Once you have your node running you need to forward port 8123 to allow other peers to connect to your wallet.</li>
 <li>We now need to get some IP addresses.<ul>
 <li>Open “Command Prompt”.</li>
 <li>Type “ipconfig”</li>
@@ -1622,7 +1702,7 @@
 </li>
 <li>You are now finished and can close out network settings.</li>
 </ol>
-<p>The local wallet must remain running for your full node to be accessible to the network. After a few hours to a few days the <a href="https://explore.burst.cryptoguru.org/tool/observe">network observer</a> will update and you can check that your set up worked. First find <a href="https://www.myexternalip.com/">your external IP</a> address and then search your external IP address and port in the network observer (ex. 193.182.13.162:8123).</p>
+<p>After a few hours check again if the <a href="https://explorer.burstcoin.network/?action=network_status">explorer network status</a> lists your node.</p>
                 
                   
                 
