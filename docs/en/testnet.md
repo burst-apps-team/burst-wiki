@@ -22,7 +22,7 @@ Keep in mind there may be scenarios where you would like to have your own privat
 
 If you would like access to another TestNet peer without having to install your own, you can use any of the ones listed [here](https://burstwiki.org/en/testnet/#testnet-public-nodes). If you want to use your own desired peer, you can just change the ip address accordingly.
 
-You can get TestNet Burst coins at this [faucet](http://burstcoin.cc:7777/).
+You can get TestNet Burst coins at this [faucet](http://nivbox.co.uk:7777/).
 
 If for any reason you need to reset your peer, follow these instructions:
 
@@ -44,7 +44,7 @@ Start node again, wait until sync is complete.
 
 ## Current TestNet Facilities
 
-* [Faucet](http://burstcoin.cc:7777/)
+* [Faucet](http://nivbox.co.uk:7777/)
 
 * [Mining Pool](http://75.100.126.230:8124/)
 
