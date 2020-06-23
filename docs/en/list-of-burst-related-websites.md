@@ -62,4 +62,5 @@ A good percentage of all pools can be found here :
 -   <http://www.burstcoin.cc/network>
 -   <http://burstcoincalculator.com>
 -	<https://wallet.burst-alliance.org:8125>
+-	<https://phoenix-wallet.rocks/>
 
