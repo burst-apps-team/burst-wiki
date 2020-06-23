@@ -7,18 +7,20 @@ The Burst community is very heterogeneous. Thus, there is a whole ecosystem of w
 -   <https://www.burst-coin.org>
 -   <https://www.burstcoin.ist>
 -   <https://burstwiki.org>
--   <https://burst-coin.es/>
 -   <https://burstwallet.io>
 -   <http://burstfaq.com>
 -   <https://burstcoin.community>
 
+## Explorers
+
+-	<https://explorer.burstcoin.network>
+-	<https://testnet.explorer.burstcoin.network/>
+-   <https://explore.burst.cryptoguru.org>
+
 ## Faucets
 
 -	<https://faucet.burst-alliance.org/>
--   <https://burst-coin.es/faucet>
--   <http://burstfaucets.com>
 -   <https://faucet.burstpay.net/>
--   <https://burstneon.com/faucet>
 
 ## Forums
 
@@ -31,7 +33,7 @@ The Burst community is very heterogeneous. Thus, there is a whole ecosystem of w
 
 ## Gambling Sites
 
--   <http://lotto.burstxd.com/> - This may be using the [pre-hardfork1 Burstcoin blockchain](500k-hf-checklist.md) so beware.
+-	<https://blockplay.io>
 
 ## Github Repositories
 
@@ -44,20 +46,20 @@ The Burst community is very heterogeneous. Thus, there is a whole ecosystem of w
 
 A good percentage of all pools can be found here :
 
--   <https://burstcoin.cc/pool>
+-   <https://explorer.burstcoin.network/?action=network_chart&submenu=bmp>
 
 ## Social Media
 
+-   <https://twitter.com/BurstAppsTeam>
+-	<https://twitter.com/btdex_trade>
 -   <https://twitter.com/GetBURST>
 -   <https://twitter.com/BURSTFLASH>
--   <https://twitter.com/BurstAppsTeam>
+-   <https://twitter.com/marketing_burst>
 
 ## Tools
 
--   <https://starburst.pink/poolspy/>
 -   <https://blackpawn.com/tp/>
--   <http://burstcoin.zone>
 -   <http://www.burstcoin.cc/network>
 -   <http://burstcoincalculator.com>
--   <https://explore.burst.cryptoguru.org>
+-	<https://wallet.burst-alliance.org:8125>
 
