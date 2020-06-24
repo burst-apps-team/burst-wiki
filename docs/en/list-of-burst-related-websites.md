@@ -13,13 +13,13 @@ The Burst community is very heterogeneous. Thus, there is a whole ecosystem of w
 
 ## Explorers
 
--	<https://explorer.burstcoin.network>
--	<https://testnet.explorer.burstcoin.network/>
+-   <https://explorer.burstcoin.network>
+-   <https://testnet.explorer.burstcoin.network/>
 -   <https://explore.burst.cryptoguru.org>
 
 ## Faucets
 
--	<https://faucet.burst-alliance.org/>
+-   <https://faucet.burst-alliance.org/>
 -   <https://faucet.burstpay.net/>
 
 ## Forums
@@ -33,7 +33,7 @@ The Burst community is very heterogeneous. Thus, there is a whole ecosystem of w
 
 ## Gambling Sites
 
--	<https://blockplay.io>
+-   <https://blockplay.io>
 
 ## Github Repositories
 
@@ -51,7 +51,7 @@ A good percentage of all pools can be found here :
 ## Social Media
 
 -   <https://twitter.com/BurstAppsTeam>
--	<https://twitter.com/btdex_trade>
+-   <https://twitter.com/btdex_trade>
 -   <https://twitter.com/GetBURST>
 -   <https://twitter.com/BURSTFLASH>
 -   <https://twitter.com/marketing_burst>
@@ -61,6 +61,5 @@ A good percentage of all pools can be found here :
 -   <https://blackpawn.com/tp/>
 -   <http://www.burstcoin.cc/network>
 -   <http://burstcoincalculator.com>
--	<https://wallet.burst-alliance.org:8125>
--	<https://phoenix-wallet.rocks/>
-
+-   <https://wallet.burst-alliance.org:8125>
+-   <https://phoenix-wallet.rocks/>
