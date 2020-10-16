@@ -185,7 +185,7 @@ After a few hours check again if the [explorer network status](https://explorer
 
 - Your network should be IPv6 compatible which means your ISP allocate some dynamic or static IPv6 address to your host.
 
-- You need to allowe IPv6 protocol through network settings.
+- You need to enable IPv6 protocol through network settings.
 
 Change ***burstcoin-2.5.3\conf\brs-default.properties*** file
 
