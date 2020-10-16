@@ -23,11 +23,11 @@ For those having issues with the H2 database backend, check if you have a 64 bit
 
 3. Download and install MariaDB : <https://downloads.mariadb.org/>.
 
-The MariaDb installation will ask to setup a password for the root user. Add this password to the `brs.properties` file created above in the following section:
+The MariaDb installation will ask to setup a password for the root user. Add this **`YOUR_MARIADB_PASSWORD`** password to the `brs.properties` file created above in the following section:
 
-`DB.Url=jdbc:mariadb://localhost:3306/`**`burstdatabase`**
-`DB.Username=`**`root`**
-`DB.Password=`**`YOUR_PASSWORD`**
+`DB.Url=jdbc:mariadb://localhost:3306/`**`burstwallet`**<br>
+`DB.Username=`**`root`**<br>
+`DB.Password=`**`YOUR_MARIADB_PASSWORD`**<br>
 
 ### Setup MariaDB
 
@@ -45,15 +45,73 @@ Now we create the database `burstwallet` for the blockchain.
 
 `CREATE DATABASE burstwallet; `
 
-In addition, we create a user which is used by the wallet to access the database. Replace <your password> with a password of your choice.
+In addition, we create a user which is used by the wallet to access the database. Replace **`YOUR_PASSWORD`** with a password of your choice.
 
-`CREATE USER 'burstwallet'@'localhost' IDENTIFIED BY '`<your password>`'; `
+`CREATE USER 'burstwallet'@'localhost' IDENTIFIED BY '`**`YOUR_PASSWORD`**`'; `
 
 Finally we, grant this user all privileges for the database `burstwallet`.
 
 `GRANT ALL PRIVILEGES ON burstwallet.* TO 'burstwallet'@'localhost';`
 
 Finally, now that the database is created and the `brs.properties` configured, you only have to run `burst.cmd` in the burstcoin folder.
+
+### Setup Portable MariaDB
+
+1.  Download latest ***mariadb-10.5.6-winx64.zip*** from https://downloads.mariadb.org/mariadb/+releases/
+
+2.  Create ***burstcoin-2.5.3\mariadb*** folder
+
+3.  Unzip ***mariadb-10.5.6-winx64.zip*** to ***burstcoin-2.5.3\mariadb*** folder
+
+4.  Double click ***burstcoin-2.5.3\mariadb\bin\mariadb-install-db.exe***
+
+5.  Open CMD as admin
+
+6.  Run CMD command: `start burstcoin-2.5.3\mariadb\bin\mariadbd.exe --no-defaults`
+
+7.  Run CMD command: `burstcoin-2.5.3\mariadb\bin\mysql.exe -u root -p`
+
+8.  Hit enter. MariaDB has no root password by default.
+
+9.  Run DB command: `CREATE DATABASE burstwallet;`
+
+10. Run DB command: `CREATE USER 'burstwallet'@'localhost' IDENTIFIED BY 'burstwallet';`
+
+11. Run DB command: `GRANT ALL PRIVILEGES ON burstwallet.* TO 'burstwallet'@'localhost';`
+
+12. Edit ***burstcoin-2.5.3\conf\brs-default.properties*** file
+
+>`DB.Url=jdbc:mariadb://localhost:3306/burstwallet`<br>
+>`DB.Username=burstwallet`<br>
+>`DB.Password=burstwallet`<br>
+
+>`#DB.Url=jdbc:h2:file:./burst_db/burst.h2;DB_CLOSE_ON_EXIT=FALSE`<br>
+>`#DB.Username=`<br>
+>`#DB.Password=`<br>
+
+13. Now your Burst blockchain data will store inside `burstcoin-2.5.3\mariadb\data` folder in a portable way
+
+14. Create ***burstcoin-2.5.3\startburst.bat*** file for running BRS
+
+>`start .\mariadb\bin\mariadbd.exe --no-defaults` <br>
+>`timeout 10` <br>
+>`start .\burst.jar` <br>
+
+12. Create ***burstcoin-2.5.3\stopburst.bat*** file for shutdown BRS and MariaDB
+
+>`taskkill /f /fi "windowtitle eq Burst Reference Software version v2.5.3"` <br>
+>`timeout 10` <br>
+>`taskkill /f /fi "windowtitle eq Burst Reference Software version v2.5.3 (STOPPED)"` <br>
+>`timeout 10` <br>
+>`start .\mariadb\bin\mariadb-admin.exe -u root shutdown` <br>
+
+13. Run ***startburst.bat***
+
+14. Open http://localhost:8125/index.html in browser
+
+15. Enjoy
+
+16. Run ***stopburst.bat*** to shutdown
 
 Make sure you have a full node
 ------------------------------
@@ -120,3 +178,27 @@ If the automatic UPnP setup didn't work for you, use the following steps :
 8.  You are now finished and can close out network settings.
 
 After a few hours check again if the [explorer network status](https://explorer.burstcoin.network/?action=network_status) lists your node.
+
+### Configure IPv6 full node
+
+#### To be able to run BRS node through IPv6 protocol
+
+- Your network should be IPv6 compatible which means your ISP allocate some dynamic or static IPv6 address to your host.
+
+- You need to allowe IPv6 protocol through network settings.
+
+Change ***burstcoin-2.5.3\conf\brs-default.properties*** file
+
+>`API.allowed = *`<br>
+>`P2P.Listen = [::]`<br>
+>`API.Listen = [::]`<br>
+>`API.V2.Listen = [::]`<br>
+
+For NDS-A you need to configure
+
+>`P2P.shareMyAddress = yes`<br>
+>`P2P.myAddress = [YOUR_IPv6_PUBLIC_ADDRESS]`<br>
+>`P2P.myPlatform = YOUR_BURST_ADDRESS`<br>
+>`P2P.Port = 8123`
+
+After the right configuration you are able to connect your BRS node fom anywhere typing ***http://[YOUR_IPv6_PUBLIC_ADDRESS]:8125/index.html*** to yourt browser.
