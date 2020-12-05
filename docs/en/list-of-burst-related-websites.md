@@ -21,19 +21,23 @@ The Burst community is very heterogeneous. Thus, there is a whole ecosystem of w
 
 -   <https://faucet.burst-alliance.org/>
 -   <https://faucet.burstpay.net/>
+-   <http://burstcoin.cc:3333>
+-   <https://explore.burstcoin.ro/faucet>
 
 ## Forums
 
 -   <http://burstforum.net>
 -   <https://forums.getburst.net>
 -   Bitcointalk
-    -   <https://bitcointalk.org/index.php?topic=1564860.0> - german thread
+    -   <https://bitcointalk.org/index.php?topic=1564860.0> - German thread
     -   <https://bitcointalk.org/index.php?topic=1541310> - Main Announcement
+-   <https://www.reddit.com/r/burst/>
 -   <https://www.reddit.com/r/burstcoin/>
 
 ## Gambling Sites
 
 -   <https://blockplay.io>
+-   <https://lotto.burstcoin.ro/>
 
 ## Github Repositories
 
