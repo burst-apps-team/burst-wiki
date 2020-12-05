@@ -8,11 +8,11 @@ It can be compiled using `go build updater.go`
 
 Example invocation, from Bash, **with working directory set to the root of the repository**:
 ```shell script
-go build updader/updater.go -o ../updater
+go build -o ../updater updater/updater.go
 ../updater
 ```
 
-In order to run the updater, you need `mkdocs` and the `material` theme installed. To install them, you need to have Python installed. MkDocs claims to support Python 2 and 3.
+In order to run the updater, you need the Golang toolchain, as well as `mkdocs` and the `material` theme installed. To install them, you need to have Python installed. MkDocs claims to support Python 2 and 3.
 
 ```shell script
 pip install mkdocs

@@ -1,4 +1,8 @@
 <!--This needs repair, many links targets nowhere. shefas 2019.05.26 -->
+```diff 
+- Below information is no longer current / this page is archived!
+```
+
 **Burstcoin** (also called **Burst**) is a digital [cryptocurrency](cryptocurrency.md) and [payment system](payment-system.md) based on the [blockchain](blockchain.md) technology. Burstcoin was introduced on the bitcointalk.org forum on 10 August 2014 as an [Nxt](nxt.md)-based currency. Burstcoins are [mined](cryptocurrency-mining.md) using an algorithm called [proof-of-capacity](proof-of-capacity.md) (PoC)[1] in which miners use computer storage instead of the more common energy-expensive method [proof-of-work](proof-of-work.md) (PoW) which involves permanent computational operations.
 
 Burst was officially introduced on the 10th of August 2014 with the goal of solving other cryptocurrencies’ biggest problems : lack of decentralization, waste of energy, unfair releases, supremacy of big miners and corporations. It is the first and only cryptocurrency secured by the Proof-of-Capacity algorithm.
