@@ -29,7 +29,7 @@ Burst Software
 -------------
 
 - [Comprehensive Software List](burst-software.md)
-- Burstcoin Reference Software `Latest Version: 2.5.1`
+- Burstcoin Reference Software `Latest Version: 2.5.3`
     -   [Direct Download](https://github.com/burst-apps-team/burstcoin/releases/latest)
     -   [Burst Source Code](https://github.com/burst-apps-team/burstcoin)
 -   [QBundle Full Guide](qbundle.md)
@@ -90,6 +90,7 @@ Services and Tools
 -   Blockchain Explorers: [Burst Apps Team](https://explorer.burstcoin.network/), [.RO](https://explore.burstcoin.ro/), [Neon](http://burstneon.com/monitor?id=16020314477710380875)
 -   Network Observers: [Burst Apps Team](https://explorer.burstcoin.network/?action=network_status), [Devtrue.net](https://explorer.burst.devtrue.net/peers-charts/)
 -   [Pool uptime monitor](https://uptime.statuscake.com/?TestID=M30iNz7TSq)
+-   [Services uptime monitor](https://stats.uptimerobot.com/m7MxKF5KoV)
 -   [Burstcoin Faucet Lists](http://burstfaucets.com/)
 
 Get Support
